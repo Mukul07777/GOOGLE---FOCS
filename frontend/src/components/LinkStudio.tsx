@@ -1,4 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { Link } from "react-router-dom";
 import { CircleStop, Lightbulb, Loader2, MessageCircleQuestion, Sparkles, Target } from "lucide-react";
 import { AnimatePresence } from "motion/react";
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -14,11 +15,16 @@ import { Button } from "@/components/ui/button";
 import { Dialog } from "@/components/ui/dialog";
 import { Card, EmptyState, Segmented, Skeleton } from "@/components/ui/primitives";
 import { api, ApiError } from "@/lib/api";
+import { PauseNotice, StageCard, useNow } from "@/components/PauseNotice";
+import { forgetLive, rememberLive, useSessionAlive, useWakeLock } from "@/lib/focus";
 import { useFocus } from "@/lib/focus";
 import type { SessionEnd, StudySession } from "@/lib/types";
 import { cn, formatDuration } from "@/lib/utils";
 
 const PLAYING = 1;
+const PAUSED = 2;
+const CUED = 5;
+const PAUSE_NOTICE_MS = 30_000;
 const ENDED = 0;
 const CLIP_S = 150;      // a note per two and a half minutes watched
 const MIN_FLUSH_S = 45;  // a shorter stretch (paused, skipped ahead) waits to grow, unless the lecture ends
@@ -42,7 +48,7 @@ type Status = { kind: "loading" | "ready" | "writing" | "wrote" | "nothing" | "a
  * live notes: every couple of minutes watched, that stretch of the video is written up (the server's AI watches the
  * same stretch: board and voice). Rewinding costs nothing; skipping ahead starts a new stretch.
  */
-export function LinkStudio({ session: initial, onEnded }: { session: StudySession; onEnded: (r: SessionEnd) => void }) {
+export function LinkStudio({ session: initial, onEnded, onGone }: { session: StudySession; onEnded: (r: SessionEnd) => void; onGone: () => void }) {
   const qc = useQueryClient();
   const [session] = useState(initial);
   const vid = videoId(session.video_url);
@@ -59,6 +65,19 @@ export function LinkStudio({ session: initial, onEnded }: { session: StudySessio
   const mounted = useRef(true);
   const watchedSecs = useRef(0);
   const posKey = `focs-link-pos-${session.id}`;
+  const [pausedAt, setPausedAt] = useState<number | null>(null);
+  const pausedAtRef = useRef<number | null>(null);
+  const startedOnce = useRef(false);
+  const conflicts = useRef(0);
+  const [gone, setGone] = useState(false);
+  const markPaused = () => { if (pausedAtRef.current === null) { pausedAtRef.current = Date.now(); setPausedAt(pausedAtRef.current); } };
+  const markGone = useCallback(() => { try { player.current?.pauseVideo(); } catch { /* player gone */ } setGone(true); forgetLive(); }, []);
+  const ping = useSessionAlive(session.id, () => ({ paused: pausedAtRef.current !== null, secs: pausedAtRef.current ? (Date.now() - pausedAtRef.current) / 1000 : 0 }), markGone);
+  const pingRef = useRef(ping);
+  pingRef.current = ping;
+  const now = useNow(pausedAt !== null);
+  useWakeLock(!!vid && !gone);
+  useEffect(() => { rememberLive(session.id); }, [session.id]);
 
   const [quiz, setQuiz] = useState<LiveQuestion | null>(null);
   const [picked, setPicked] = useState<number | null>(null);
@@ -105,6 +124,7 @@ export function LinkStudio({ session: initial, onEnded }: { session: StudySessio
       const r = await api.sendClip(session.id, next[0], next[1]);
       if (!mounted.current) return;
       if (r.status === "created" && r.note) {
+        conflicts.current = 0;
         setLastNoteId(r.note.id);
         qc.invalidateQueries({ queryKey: ["session", session.id] });
         if (!ending.current && !focusRef.current) toast.success(`New notes: ${r.note.topic ?? "lecture notes"}`);  // focus mode: a dot on Notes, nothing over the lecture
@@ -119,12 +139,16 @@ export function LinkStudio({ session: initial, onEnded }: { session: StudySessio
         setStatus({ kind: r.status === "nothing" ? "nothing" : "wrote" });
       }
     } catch (e) {
-      setStatus({ kind: "error", text: e instanceof ApiError ? e.message : "Couldn't write notes for that part" });
+      if (e instanceof ApiError && e.status === 409) {
+        const r = await pingRef.current();
+        if (r?.active) { if (++conflicts.current < 3) queue.current.unshift(next); else markGone(); }
+        else if (!r) setStatus({ kind: "error", text: e.message });
+      } else setStatus({ kind: "error", text: e instanceof ApiError ? e.message : "Couldn't write notes for that part" });
     } finally {
       sending.current = false;
       if (queue.current.length) void pump();
     }
-  }, [session.id, qc, showQuiz]);
+  }, [session.id, qc, showQuiz, markGone]);
 
   const flush = useCallback((minimum: number) => {
     const s = clipStart.current, e = lastPos.current;
@@ -150,9 +174,18 @@ export function LinkStudio({ session: initial, onEnded }: { session: StudySessio
         videoId: vid, width: "100%", height: "100%",
         playerVars: { rel: 0, modestbranding: 1, playsinline: 1, start: Math.floor(start) },
         events: {
-          onReady: () => setStatus({ kind: "ready" }),
+          onReady: () => { setStatus({ kind: "ready" }); markPaused(); },
           onStateChange: (e: { data: number }) => {
             setPlaying(e.data === PLAYING);
+            if (e.data === PLAYING) {
+              startedOnce.current = true;
+              if (pausedAtRef.current !== null) {  // not on every buffering-to-playing change
+                const secs = (Date.now() - pausedAtRef.current) / 1000;
+                pausedAtRef.current = null;
+                setPausedAt(null);
+                void pingRef.current({ paused: false, secs });
+              }
+            } else if (e.data === PAUSED || e.data === ENDED || e.data === CUED) markPaused();
             if (e.data === ENDED) flush(10);
             else if (e.data !== PLAYING) flush(MIN_FLUSH_S);
           },
@@ -162,6 +195,19 @@ export function LinkStudio({ session: initial, onEnded }: { session: StudySessio
     });
     return () => { cancelled = true; player.current?.destroy(); player.current = null; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [vid]);
+
+  // after a long pause the player can come back reset: cue it again where the student was
+  useEffect(() => {
+    const back = () => {
+      if (document.visibilityState !== "visible" || !startedOnce.current || !vid) return;
+      try {
+        const p = player.current;
+        if (p && p.getPlayerState() === -1) p.cueVideoById({ videoId: vid, startSeconds: Math.floor(lastPos.current ?? 0) });
+      } catch { /* player gone */ }
+    };
+    document.addEventListener("visibilitychange", back);
+    return () => document.removeEventListener("visibilitychange", back);
   }, [vid]);
 
   // every two seconds: how far the lecture has played, and whether a stretch is ready to be written up
@@ -236,6 +282,7 @@ export function LinkStudio({ session: initial, onEnded }: { session: StudySessio
     },
     onError: () => { ending.current = false; },
     onSuccess: (r) => {
+      forgetLive();
       try { localStorage.removeItem(posKey); } catch { /* private mode */ }
       qc.invalidateQueries({ queryKey: ["active-session"] });
       qc.invalidateQueries({ queryKey: ["overview"] });
@@ -279,9 +326,18 @@ export function LinkStudio({ session: initial, onEnded }: { session: StudySessio
         <div className="space-y-4">
           {/* focus mode: the lecture stays at the top while anything below it scrolls */}
           <Card className={cn("overflow-hidden", focus && "sticky top-0 z-30")}>
-            <div className="relative aspect-video w-full bg-black">
+            <div className={cn("relative aspect-video w-full bg-black", gone && "hidden")}>
               <div ref={hostRef} className="absolute inset-0 [&>iframe]:h-full [&>iframe]:w-full" />
             </div>
+            {gone && (
+              <StageCard icon={<CircleStop className="h-9 w-9" />} title="This lecture was ended"
+                actions={<>
+                  <Link to={`/app/library/${session.id}`} onClick={onGone}><Button variant="primary">See the notes</Button></Link>
+                  <Button variant="secondary" onClick={onGone}>Start a new lecture</Button>
+                </>}>
+                This lecture was ended, so Focs stopped taking notes. Your notes are saved.
+              </StageCard>
+            )}
             <div className="flex items-center gap-2 border-t border-line px-4 py-3 text-sm" role="status" aria-live="polite">
               {status.kind === "writing" ? <Loader2 className="h-4 w-4 shrink-0 animate-spin text-accent-2" />
                 : <span className={cn("h-2 w-2 shrink-0 rounded-full", playing ? "bg-ok" : status.kind === "error" || status.kind === "allowance" ? "bg-warn" : "bg-muted")} />}
@@ -292,6 +348,9 @@ export function LinkStudio({ session: initial, onEnded }: { session: StudySessio
               <div className="h-1 bg-elev-2" aria-hidden="true">
                 <div className="h-full bg-gradient-brand transition-[width] duration-1000" style={{ width: `${Math.min(100, (100 * stretch) / CLIP_S)}%` }} />
               </div>
+            )}
+            {pausedAt !== null && !gone && now - pausedAt >= PAUSE_NOTICE_MS && (
+              <PauseNotice since={pausedAt} body="Your session stays open. Press play to carry on." action={{ label: "Play", onClick: () => player.current?.playVideo() }} />
             )}
             {focus && (
               <div className="border-t border-line pt-2">

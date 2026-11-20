@@ -8,7 +8,7 @@ from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
 from sqlalchemy.orm import Session
 
 from app.api import rooms
-from app.api._common import note_out, owned_session
+from app.api._common import ensure_live, note_out, owned_session
 from app.core.deps import get_current_user, get_db
 from app.core.ratelimit import limit
 from app.models.session import StudySession
@@ -20,6 +20,7 @@ router = APIRouter(prefix="/capture", tags=["capture"])
 
 MAX_UPLOAD_BYTES = 12 * 1024 * 1024
 ALLOWED_TYPES = {"image/jpeg", "image/png", "image/webp", "image/bmp"}
+ENDED = "This lecture was ended. Start a new one to keep taking notes."
 
 
 def _read_image(file: UploadFile):
@@ -62,8 +63,8 @@ def ingest_clip(session_id: int, body: Clip, db: Session = Depends(get_db), user
     session = owned_session(db, user, session_id)
     if session.source != "link":
         raise HTTPException(status_code=409, detail="This lecture isn't playing from a link.")
-    if not session.is_active:
-        raise HTTPException(status_code=409, detail="This session has ended. Start a new one to keep taking notes.")
+    if not ensure_live(db, session):
+        raise HTTPException(status_code=409, detail=ENDED)
     if body.end_s <= body.start_s:
         raise HTTPException(status_code=422, detail="That stretch of the lecture is empty.")
     return _response(link_lecture.read_clip(db, user, session, body.start_s, body.end_s))
@@ -85,8 +86,8 @@ def ingest_frame(
     by the student; the frame is straightened to a front-on board before it's read. `camera` tells the duplicate check
     that a camera's frames never match exactly."""
     session = owned_session(db, user, session_id)
-    if not session.is_active and not session.room_code:
-        raise HTTPException(status_code=409, detail="This session has ended. Start a new one to keep capturing.")
+    if not session.room_code and not ensure_live(db, session):
+        raise HTTPException(status_code=409, detail=ENDED)
     db.commit()  # hand the connection back while the image is decoded and read (taken again only to save)
     img = _read_image(frame)
     quad = perspective.parse_corners(corners)
@@ -109,8 +110,8 @@ def ingest_audio(
     """About 25 seconds of the lecture's sound (only pieces with speech are sent). Transcribed and dropped: the audio
     is never stored. Returns the caption, and a spoken note when the talk made one."""
     session = owned_session(db, user, session_id)
-    if not session.is_active and not session.room_code:
-        raise HTTPException(status_code=409, detail="This session has ended.")
+    if not session.room_code and not ensure_live(db, session):
+        raise HTTPException(status_code=409, detail=ENDED)
     if not (audio.content_type or "").startswith(("audio/", "video/webm")):
         raise HTTPException(status_code=415, detail="That isn't an audio recording.")
     data = audio.file.read(speech.MAX_AUDIO_BYTES + 1)
@@ -141,6 +142,8 @@ def transcript_summary(session_id: int, db: Session = Depends(get_db), user: Use
 def settle_board(session_id: int, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
     """The board has stopped changing: write up the version the teacher finished (one AI call instead of one per line)."""
     session = owned_session(db, user, session_id)
+    if not session.room_code and not ensure_live(db, session):
+        raise HTTPException(status_code=409, detail=ENDED)
     result = _response(live.settle(db, user, session))
     _share_with_room(session, result, user)
     return result

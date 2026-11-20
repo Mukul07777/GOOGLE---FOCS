@@ -17,9 +17,10 @@ import { Badge, Card, EmptyState, Input, Label, Segmented, Select, Skeleton } fr
 import { api, ApiError } from "@/lib/api";
 import { boardChanged, isCameraSupported, isCaptureSupported, LectureCapture, looksBlank, shareFailure, type Corners, type Region } from "@/lib/capture";
 import type { FrameResponse, FrameStatus, SessionEnd, StudySession, LectureSegment } from "@/lib/types";
-import { clockAt, cn, formatDuration, hasSyllabus } from "@/lib/utils";
+import { clockAt, cn, formatDuration, formatPaused, hasSyllabus } from "@/lib/utils";
 import { useAuth } from "@/stores/auth";
-import { steadyInterval, useFocus } from "@/lib/focus";
+import { forgetLive, recallLive, rememberLive, steadyInterval, useFocus, useSessionAlive, useWakeLock, welcomeBack } from "@/lib/focus";
+import { PauseNotice, StageCard } from "@/components/PauseNotice";
 import { bindingMeter, useUsage } from "@/components/UsageMeter";
 import { SpeechChunker } from "@/lib/audio";
 import type { Confidence } from "@/components/ConfidenceLock";
@@ -449,8 +450,8 @@ function CaptionsStrip({ voice, captions, onShareAgain }: { voice: Voice; captio
   );
 }
 
-function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhoto }: {
-  session: StudySession; capture: LectureCapture | null; onEnded: (r: SessionEnd) => void; onPhoto: () => void;
+function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhoto, onGone, backAfter }: {
+  session: StudySession; capture: LectureCapture | null; onEnded: (r: SessionEnd) => void; onPhoto: () => void; onGone: () => void; backAfter: number | null;
 }) {
   const qc = useQueryClient();
   const [session, setSession] = useState(initial);
@@ -463,6 +464,15 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
   // on a 2G or data-saver connection, frames go less often (the board changes slowly anyway)
   const [interval, setIntervalSec] = useState<"3" | "5" | "8">(() => (slowConnection() ? "8" : "5"));
   const [paused, setPaused] = useState(false);
+  const [pausedAt, setPausedAt] = useState<number | null>(null);  // when Focs's own Pause was pressed
+  const [stopped, setStopped] = useState<{ secs: number | null; back?: boolean } | null>(backAfter !== null ? { secs: backAfter, back: true } : null);
+  const [gone, setGone] = useState(false);  // the server says this lecture was ended
+  const [mutedAt, setMutedAt] = useState<number | null>(null);  // Chrome mutes a shared tab that stops repainting: a paused video
+  const stillAt = useRef(Date.now());  // last time anything on the shared screen changed, even slightly
+  const lastLook = useRef<Uint8Array | null>(null);
+  const conflicts = useRef(0);
+  const lastSpeechAt = useRef(0);  // last voice piece with speech: a still slide with the teacher talking is not a pause
+  const conflictRef = useRef<() => Promise<void>>(async () => undefined);
   const [status, setStatus] = useState<{ kind: keyof typeof STATUS_TEXT; msg?: string }>({ kind: initialCapture ? "idle" : "waiting" });
   const [lastNoteId, setLastNoteId] = useState<number | null>(null);
   const [basicMode, setBasicMode] = useState(false); // AI allowance used up: boards get basic notes
@@ -513,6 +523,23 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
   const focusRef = useRef(focus);
   focusRef.current = focus;
 
+  const stillSince = mutedAt !== null ? Math.min(stillAt.current, mutedAt) : stillAt.current;
+  const pauseStart = voice === "listening" ? Math.max(stillSince, lastSpeechAt.current) : stillSince;
+  const looksPaused = sharing && !camera && !paused && !blank && now - pauseStart >= (mutedAt !== null ? 45_000 : 120_000);
+  const pauseInfo = () => pausedAt !== null ? { paused: true, secs: (Date.now() - pausedAt) / 1000 }
+    : looksPaused ? { paused: true, secs: (Date.now() - pauseStart) / 1000 } : { paused: false, secs: 0 };
+  const infoRef = useRef(pauseInfo);
+  infoRef.current = pauseInfo;
+  const markGone = () => { capture?.stop(); setSharing(false); setGone(true); forgetLive(); };
+  const ping = useSessionAlive(session.id, pauseInfo, markGone);
+  const conflict = async () => {
+    const r = await ping();
+    if (r?.active && ++conflicts.current >= 3) markGone();
+    lastSig.current = null;
+  };
+  conflictRef.current = conflict;
+  useEffect(() => { rememberLive(session.id); }, [session.id]);
+
   const { data: detail } = useQuery({ queryKey: ["session", session.id], queryFn: () => api.session(session.id) });
   const notes = [...(detail?.notes ?? [])].reverse();
 
@@ -524,21 +551,22 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
     capture.region = region;
     capture.corners = corners;
     capture.onEnded = () => {
+      const info = infoRef.current();
       setSharing(false); setStatus({ kind: "waiting" });
-      toast.message(capture.camera ? "The camera stopped. Start it again to keep capturing." : "Screen sharing stopped. Share again to keep capturing.");
+      if (capture.camera) toast.message("The camera stopped. Start it again to keep capturing.");
+      else setStopped({ secs: info.paused ? info.secs : null });
     };
   }, [capture, videoEl, region, corners]);
-  // classroom mode: keep the phone's screen awake while it watches the board
   useEffect(() => {
-    if (!camera || !sharing || !("wakeLock" in navigator)) return;
-    let lock: { release: () => Promise<void> } | null = null;
-    const hold = () => { (navigator as Navigator & { wakeLock: { request: (t: "screen") => Promise<{ release: () => Promise<void> }> } })
-      .wakeLock.request("screen").then((l) => { lock = l; }).catch(() => undefined); };
-    hold();
-    const again = () => { if (document.visibilityState === "visible") hold(); };
-    document.addEventListener("visibilitychange", again);
-    return () => { document.removeEventListener("visibilitychange", again); void lock?.release().catch(() => undefined); };
-  }, [camera, sharing]);
+    const track = capture?.stream?.getVideoTracks()[0];
+    if (!track || !sharing || capture?.camera) return;
+    const mute = () => setMutedAt(Date.now()), unmute = () => setMutedAt(null);
+    if (track.muted) mute();
+    track.addEventListener("mute", mute);
+    track.addEventListener("unmute", unmute);
+    return () => { track.removeEventListener("mute", mute); track.removeEventListener("unmute", unmute); setMutedAt(null); };
+  }, [capture, sharing]);
+  useWakeLock(sharing && !gone);
   useEffect(() => {
     if (!videoEl) return;
     const read = () => { if (videoEl.videoWidth && videoEl.videoHeight) setShape(videoEl.videoWidth / videoEl.videoHeight); };
@@ -591,12 +619,15 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
     const started = session.started_at ? new Date(session.started_at).getTime() : Date.now();
     const c = new SpeechChunker(track, ({ blob, startS, endS }) => {
       audioInflight.current++;
+      lastSpeechAt.current = Date.now();
       api.sendAudio(session.id, blob, startS, endS).finally(() => { audioInflight.current--; }).then((r) => {
+        conflicts.current = 0;
+        if (r.segment) lastSpeechAt.current = Date.now();
         if (r.segment) { setVoice("listening"); setCaptions((cur) => [...cur.slice(-2), r.segment!]); qc.invalidateQueries({ queryKey: ["session", session.id] }); }
         if (r.skipped === "unavailable") { setVoice("unavailable"); c.stop(); }
         if (r.skipped === "allowance") setVoice("allowance");
         if (r.skipped === "captions") { setVoice("captions"); c.stop(); }
-      }).catch(() => undefined);
+      }).catch((e) => { if (e instanceof ApiError && e.status === 409) void conflictRef.current(); });
     }, () => (Date.now() - started) / 1000);
     chunker.current = c;
     setVoice("listening");
@@ -611,6 +642,10 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
       if (capture?.camera) await c.startCamera(); else await c.start();
       capture?.stop();
       lastSig.current = null;
+      lastLook.current = null;
+      stillAt.current = Date.now();
+      conflicts.current = 0;
+      setStopped(null);
       setCapture(c);
       setSharing(true);
       setStatus({ kind: "idle" });
@@ -703,7 +738,10 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
       return;
     }
     if ((paused && !force) || ending.current) return;
+    const track = capture.stream?.getVideoTracks()[0];
+    if (!capture.camera && track && (track.muted || track.readyState !== "live")) return;  // nothing new to draw: the last good frame stays
     const sig = capture.peek();
+    if (!capture.camera && sig && (!lastLook.current || boardChanged(sig, lastLook.current, 3, 0.001))) { stillAt.current = Date.now(); lastLook.current = sig; }
     if (!capture.camera) {
       // a black tab has nothing to read: don't send it, and after two looks say why it's black
       blankLooks.current = looksBlank(sig) ? blankLooks.current + 1 : 0;
@@ -731,6 +769,7 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
       // the teacher stopped writing: one write-up of the finished board instead of one per new line
       const res = grab ? await api.sendFrame(session.id, grab.blob, force, { corners: grab.corners, camera: capture.camera }) : await api.settleBoard(session.id);
       if (!mounted.current) return; // lecture ended while this board was being read
+      conflicts.current = 0;
       if (grab && res.status !== "busy") lastSig.current = grab.signature;
       if (res.status === "growing") settleAt.current = Date.now() + (res.settle_after ?? 20) * 1000;
       else if (res.status !== "busy") settleAt.current = null;
@@ -760,12 +799,8 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
         toast.message(hint[res.status] ?? "Captured.");
       }
     } catch (e) {
-      if (e instanceof ApiError && e.status === 409) {
-        toast.error(e.message);
-        capture.stop();
-        setSharing(false);
-      }
-      setStatus({ kind: "error", msg: e instanceof Error ? e.message : undefined });
+      if (e instanceof ApiError && e.status === 409) { await conflictRef.current(); setStatus({ kind: "idle" }); }
+      else setStatus({ kind: "error", msg: e instanceof Error ? e.message : undefined });
     } finally {
       inflight.current = false;
       if (pendingForce.current) {
@@ -792,13 +827,19 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
           setFrozen(c.toDataURL("image/jpeg", 0.8));
         }
       } catch { setFrozen(null); }
+      setPausedAt(Date.now());
       setPaused(true);
       return;
     }
+    const secs = pausedAt !== null ? (Date.now() - pausedAt) / 1000 : 0;
     setFrozen(null);
     setPaused(false);
+    setPausedAt(null);
+    stillAt.current = Date.now();
+    lastLook.current = null;
+    void ping({ paused: false, secs });
     const live = capture?.stream?.getVideoTracks()[0]?.readyState === "live";
-    if (!live) { setSharing(false); toast.message("The share ended while paused. Share the lecture tab again to carry on."); return; }
+    if (!live) { setSharing(false); setStopped({ secs: secs >= 60 ? secs : null }); return; }
     void videoRef.current?.play().catch(() => undefined);
   };
 
@@ -828,6 +869,7 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
     },
     onError: () => { ending.current = false; },
     onSuccess: (r) => {
+      forgetLive();
       capture?.stop();
       qc.invalidateQueries({ queryKey: ["active-session"] });
       qc.invalidateQueries({ queryKey: ["overview"] });
@@ -840,6 +882,8 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
   const elapsed = session.started_at ? (now - new Date(session.started_at).getTime()) / 1000 : 0;
   const st = STATUS_TEXT[status.kind];
   const t = useT();
+  const stoppedCard = !sharing && !camera && !gone && !!stopped;
+  const showCard = gone || stoppedCard;
 
   return (
     <div className="space-y-4">
@@ -867,7 +911,7 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
             <span><b className="text-fg">{detail?.notes.length ?? 0}</b> <span className="text-muted">{(detail?.notes.length ?? 0) === 1 ? "board saved" : "boards saved"}</span></span>
           </div>
           {!sharing && paused ? (
-            <Button variant="primary" onClick={() => { setPaused(false); setFrozen(null); void shareAgain(); }} icon={<MonitorPlay className="h-4 w-4" />}>{t("Share again")}</Button>
+            <Button variant="primary" onClick={() => { setPaused(false); setPausedAt(null); setFrozen(null); void shareAgain(); }} icon={<MonitorPlay className="h-4 w-4" />}>{t("Share again")}</Button>
           ) : (
             <Button variant="secondary" onClick={togglePause} disabled={!sharing} icon={paused ? <Play className="h-4 w-4" /> : <Pause className="h-4 w-4" />}>
               {t(paused ? "Resume" : "Pause")}
@@ -881,15 +925,15 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
       <div className="grid grid-cols-1 gap-4 xl:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)]">
         <div className="space-y-4">
           <Card className="overflow-hidden">
-            <div ref={stageRef} className={cn("relative mx-auto bg-black", !camera || !shape ? "aspect-video w-full" : shape < 1 && !wide ? "h-[72dvh] max-w-full" : "w-full",
+            <div ref={stageRef} className={cn("relative mx-auto bg-black", !camera || !shape ? (showCard ? "w-full" : "aspect-video w-full") : shape < 1 && !wide ? "h-[72dvh] max-w-full" : "w-full",
               wide && "flex h-full items-center")}
               style={camera && shape && !wide ? { aspectRatio: String(shape) } : undefined}>
-              <video ref={videoRef} className="h-full w-full object-contain" playsInline muted />
+              <video ref={videoRef} className={cn("h-full w-full object-contain", showCard && "hidden")} playsInline muted />
               {paused && frozen && <img src={frozen} alt="Last frame before the pause" className="absolute inset-0 h-full w-full bg-black object-contain" />}
               {sharing && !camera && <RegionSelector video={videoEl} region={region} enabled={cropping} onChange={(r) => { setRegion(r); setCropping(false); lastSig.current = null; toast.success("Board region set"); }} />}
               {sharing && camera && <CornerSelector video={videoEl} corners={corners} editing={cornering}
                 onDone={(c) => { setCorners(c); setCornering(false); lastSig.current = null; prevPeek.current = null; toast.success("Board corners set: frames are straightened before reading"); }} />}
-              {!sharing && (
+              {!sharing && !showCard && (
                 <div className="absolute inset-0 grid place-items-center bg-[radial-gradient(ellipse_at_center,#1e1e1d,#0a0a0a)] p-6 text-center">
                   <div>
                     {camera ? <Smartphone className="mx-auto h-10 w-10 text-muted" /> : <MonitorPlay className="mx-auto h-10 w-10 text-muted" />}
@@ -898,6 +942,23 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
                     <Button variant="primary" className="mt-4" onClick={shareAgain} icon={camera ? <Camera className="h-4 w-4" /> : <MonitorPlay className="h-4 w-4" />}>{camera ? "Start the camera" : "Share lecture tab"}</Button>
                   </div>
                 </div>
+              )}
+              {stoppedCard && stopped && (
+                <StageCard icon={<MonitorPlay className="h-9 w-9" />} title={stopped.back ? "Welcome back" : "The screen share stopped"}
+                  tip="Tip: set your laptop's screen to stay on longer, or keep this tab visible beside the lecture."
+                  actions={<Button variant="primary" onClick={shareAgain} icon={<MonitorPlay className="h-4 w-4" />}>Share the lecture tab again</Button>}>
+                  {stopped.back ? `Focs reopened your lecture${stopped.secs ? ` after ${formatPaused(stopped.secs)}` : ""}. Share the lecture tab again to carry on. Your notes are safe.`
+                    : `The screen share stopped${stopped.secs ? ` while the lecture was paused for ${formatPaused(stopped.secs)}` : ""} (your computer's screen probably went to sleep). Your notes are safe.`}
+                </StageCard>
+              )}
+              {gone && (
+                <StageCard icon={<CircleStop className="h-9 w-9" />} title="This lecture was ended"
+                  actions={<>
+                    <Link to={`/app/library/${session.id}`} onClick={onGone}><Button variant="primary">See the notes</Button></Link>
+                    <Button variant="secondary" onClick={onGone}>Start a new lecture</Button>
+                  </>}>
+                  This lecture was ended, so Focs stopped taking notes. Your notes are saved.
+                </StageCard>
               )}
               {sharing && (
                 <div className="glass absolute left-3 top-3 flex items-center gap-2 rounded-full border border-line px-3 py-1.5 text-xs">
@@ -927,6 +988,8 @@ function LiveStudio({ session: initial, capture: initialCapture, onEnded, onPhot
                 </div>
               )}
             </div>
+            {sharing && paused && pausedAt !== null && <PauseNotice since={pausedAt} body="Your session stays open. Press Resume to carry on." action={{ label: "Resume", onClick: togglePause }} />}
+            {looksPaused && <PauseNotice looks since={pauseStart} />}
             <div className="flex flex-wrap items-center gap-2 border-t border-line p-3">
               <Segmented size="sm" value={interval} onChange={setIntervalSec} options={[
                 { value: "3", label: "3s" }, { value: "5", label: "5s" }, { value: "8", label: "8s" },
@@ -1090,6 +1153,8 @@ export default function Studio() {
   const { data: active, isLoading } = useQuery({ queryKey: ["active-session"], queryFn: api.activeSession });
   const [live, setLive] = useState<{ session: StudySession; capture: LectureCapture | null } | null>(null);
   const [ended, setEnded] = useState<SessionEnd | null>(null);
+  const [back, setBack] = useState<number | null>(null);
+  const tried = useRef(false);
   const photoOpen = params.get("mode") === "photo";
   const setPhoto = (open: boolean) => setParams(open ? { mode: "photo" } : {}, { replace: true });
 
@@ -1097,15 +1162,30 @@ export default function Studio() {
     if (!live && active && !ended) setLive({ session: active, capture: null });
   }, [active, live, ended]);
 
+  // the browser may have discarded this tab during a long pause: bring the same lecture back if the server allows
+  useEffect(() => {
+    if (isLoading || active || live || ended || tried.current) return;
+    tried.current = true;
+    const id = recallLive();
+    if (!id) return;
+    api.sessionAlive(id, { paused: false, paused_for_s: 0 }).then((r) => {
+      if (!r.active) { forgetLive(); return; }
+      setBack(r.paused_for_s);
+      if (r.reopened) welcomeBack(r.paused_for_s);
+      qc.invalidateQueries({ queryKey: ["active-session"] });
+    }).catch(() => undefined);
+  }, [isLoading, active, live, ended, qc]);
+  const lectureGone = () => { forgetLive(); qc.setQueryData(["active-session"], null); setLive(null); };
+
   let body;
   if (isLoading) body = <div className="space-y-4"><Skeleton className="h-16" /><Skeleton className="aspect-video" /></div>;
   else if (ended) body = <SummaryView result={ended} onNew={() => { setEnded(null); setLive(null); }} />;
   else if (live?.session.source === "link") body = (
-    <LinkStudio key={live.session.id} session={live.session}
+    <LinkStudio key={live.session.id} session={live.session} onGone={lectureGone}
       onEnded={(r) => { setEnded(r); setLive(null); qc.setQueryData(["active-session"], null); }} />
   );
   else if (live) body = (
-    <LiveStudio key={live.session.id} session={live.session} capture={live.capture} onPhoto={() => setPhoto(true)}
+    <LiveStudio key={live.session.id} session={live.session} capture={live.capture} onPhoto={() => setPhoto(true)} onGone={lectureGone} backAfter={live.capture ? null : back}
       onEnded={(r) => { setEnded(r); setLive(null); qc.setQueryData(["active-session"], null); }} />
   );
   else body = (

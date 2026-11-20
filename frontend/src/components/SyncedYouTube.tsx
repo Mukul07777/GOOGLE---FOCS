@@ -9,6 +9,7 @@ export interface YTPlayer {
   seekTo(seconds: number, allowSeekAhead: boolean): void;
   getCurrentTime(): number;
   getPlayerState(): number;
+  cueVideoById(o: { videoId: string; startSeconds?: number }): void;
   setPlaybackRate(rate: number): void;
   getPlaybackRate(): number;
   destroy(): void;

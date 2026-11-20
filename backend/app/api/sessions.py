@@ -1,9 +1,12 @@
+from datetime import timedelta
+
 from fastapi import APIRouter, Depends, HTTPException, Query
 from fastapi.responses import PlainTextResponse
+from pydantic import BaseModel, Field
 from sqlalchemy import delete, select, update
 from sqlalchemy.orm import Session, selectinload
 
-from app.api._common import close_idle_sessions, note_counts, note_out, owned_session, session_out
+from app.api._common import can_reopen, close_idle_sessions, fold_pause, note_counts, note_out, owned_session, reopen, session_out
 from app.core.deps import get_current_user, get_db
 from app.core.ratelimit import limit
 from app.models._util import utcnow
@@ -22,6 +25,8 @@ router = APIRouter(prefix="/sessions", tags=["sessions"])
 def _close(session: StudySession) -> None:
     """Close a session the student abandoned: it ended at its last captured board."""
     session.is_active = False
+    session.ended_by = "replaced"
+    session.pause_since = None
     if not session.ended_at:
         last_note = session.notes[-1].captured_at if session.notes else None
         session.ended_at = last_note or session.started_at or utcnow()
@@ -96,12 +101,46 @@ def update_session(session_id: int, body: SessionUpdate, db: Session = Depends(g
     return session_out(s)
 
 
+class Alive(BaseModel):
+    paused: bool = False
+    paused_for_s: float = Field(0, ge=0, le=604800)
+
+
+@router.post("/{session_id}/alive", dependencies=[Depends(limit("alive", 30))])
+def alive(session_id: int, body: Alive | None = None, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
+    """The lecture's tab is still open (sent about once a minute, also while the video is paused). Keeps the lecture
+    from being closed as abandoned and reopens one the idle rule closed. Counts no lecture time."""
+    body = body or Alive()
+    s = owned_session(db, user, session_id)
+    reopened, gap = False, 0.0
+    if not s.is_active:
+        if not can_reopen(db, s):
+            return {"active": False, "reopened": False, "paused_for_s": 0.0}
+        gap = max(0.0, (utcnow() - s.ended_at).total_seconds()) if s.ended_at else 0.0  # how long it sat closed
+        reopen(db, s)
+        reopened = True
+    now = utcnow()
+    before, s.alive_at = s.alive_at, now
+    if body.paused:
+        if not s.pause_since:
+            # not before the last heartbeat: what came before it was counted then (or a frame or sound ended it)
+            since = now - timedelta(seconds=body.paused_for_s)
+            s.pause_since = max(since, before) if before else since
+    else:
+        fold_pause(s)
+    db.commit()
+    paused_for = max(gap, (now - s.pause_since).total_seconds()) if s.pause_since else gap
+    return {"active": True, "reopened": reopened, "paused_for_s": round(paused_for, 1)}
+
+
 @router.post("/{session_id}/end", response_model=SessionEndOut)
 def end_session(session_id: int, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
     s = owned_session(db, user, session_id)
     live.settle(db, user, s, patient=False)  # the board the teacher was still writing on gets its final notes
     voice.fold(db, user, s, finishing=True)   # ...and what the teacher said about the last boards
+    fold_pause(s)  # a pause still going on when the student ends is not lecture time
     s.is_active = False
+    s.ended_by = "student"
     s.ended_at = s.ended_at or utcnow()
     live.forget(s.id)
     notes = [{"topic": n.topic, "notes_md": (n.ai_notes or "") + (f"\n\nWhat the teacher said:\n{n.spoken_md}" if n.spoken_md else "")}

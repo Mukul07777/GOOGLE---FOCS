@@ -4,7 +4,7 @@ import type {
   Language, GapOverview, GapTrace, ClassRecap, MistakeFingerprint, TutorTurn, WorkingCheck,
   MockOffer,
   CardStats, Checkpoint, Doubt, Evaluation, Flashcard, FrameResponse, Grade, Health, HealthDetails, ModelInfo, Note, OcrResult,
-  Feeling, MockDetail, MockMeta, Warmup, MockResponse, MockSummary, Overview, PlansInfo, PriceSector, ProPass, Quiz, RedoItem, Room, SessionDetail, SessionEnd,
+  Feeling, MockDetail, MockMeta, Warmup, MockResponse, MockSummary, Overview, PlansInfo, PriceSector, ProPass, Quiz, RedoItem, Room, SessionAlive, SessionDetail, SessionEnd,
   AdminOverview, AdminUser, ConfusionReport, WaitTask, AskVerification, NotificationItem, FormulaSubject, Leaderboard, StudySession, TokenResponse, LoginCode, Usage, User,
   AskBoard, AskPost, AudioResult, ClipResult, Calibration, TalkSummary, CallMoney, LectureSegment, Checkout, EarningsRow, GroupSessionInfo, GroupSessions, Hosting, MentorEarnings, CollegeSetup, CampusItem, MentorCall, MentorshipCalls, MyCalls, MentorApplication, MentorCard, MentorDirectory, MentorWorkspace, MentorMessage, MentorReport, MentorshipDetail, MentorshipList, MentorshipRow, CampusQuestions, CampusShelf, ClassDashboard, ClassList, ClassRow, ParentLink, ParentSummary, DetailedNotes, LastDayPlan, MarkedAnswer, SolvedDoubt, PrepOptions, StudyGoal, WeakCheckResult, WeakDraft, WeakOverview, StudyPlan, SyllabusChapter, SyllabusTree, TodayPlan, TopicDetail,
 } from "./types";
@@ -226,6 +226,8 @@ export const api = {
   session: (id: number) => get<SessionDetail>(`/sessions/${id}`),
   updateSession: (id: number, b: { title?: string; subject?: string }) => patch<StudySession>(`/sessions/${id}`, b),
   endSession: (id: number) => post<SessionEnd>(`/sessions/${id}/end`),
+  /** the lecture tab is still open (no study time counted); may bring back a session closed for idleness */
+  sessionAlive: (id: number, b: { paused: boolean; paused_for_s: number }) => post<SessionAlive>(`/sessions/${id}/alive`, b),
   sessionPopQuiz: (id: number) => post<Checkpoint>(`/sessions/${id}/pop-quiz`),
   deleteSession: (id: number) => del(`/sessions/${id}`),
   exportSession: (id: number) => request<Response>("GET", `/sessions/${id}/export`, undefined, { raw: true }),

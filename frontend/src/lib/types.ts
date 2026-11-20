@@ -1168,3 +1168,9 @@ export interface WorkingCheck {
   fingerprint: MistakeFingerprint; created_at: string | null;
 }
 export interface TutorTurn { role: "user" | "assistant"; content: string }
+
+export interface SessionAlive {
+  active: boolean;
+  reopened: boolean;
+  paused_for_s: number;
+}

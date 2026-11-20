@@ -47,7 +47,10 @@ def session_minutes(s: StudySession) -> float:
     if not s.started_at:
         return 0.0
     end = s.ended_at or (utcnow() if s.is_active else s.started_at)
-    return round(min(MAX_SESSION_MIN, max(0.0, (end - s.started_at).total_seconds() / 60)), 1)
+    paused = s.paused_s or 0.0  # paused stretches are not lecture time
+    if s.is_active and s.pause_since:
+        paused += max(0.0, (utcnow() - s.pause_since).total_seconds())
+    return round(min(MAX_SESSION_MIN, max(0.0, ((end - s.started_at).total_seconds() - paused) / 60)), 1)
 
 
 IDLE_END = timedelta(minutes=30)  # a live lecture with no frame and no new board for this long was abandoned
@@ -64,16 +67,79 @@ def close_idle_sessions(db: Session, user_id: int) -> None:
         idle = live.idle_seconds(s.id)
         if idle is not None and idle < IDLE_END.total_seconds():
             continue  # frames are still coming in, even if the board hasn't changed
+        if s.alive_at and now - s.alive_at < IDLE_END:
+            continue  # the tab is open (a paused video sends no frames, only heartbeats)
         last = s.notes[-1].captured_at if s.notes else None
         last = max(t for t in (last, s.started_at) if t) if (last or s.started_at) else None
         if last and now - last < IDLE_END:
             continue
         s.is_active = False
+        s.ended_by = "idle"
+        s.pause_since = None
         s.ended_at = last or now
         live.forget(s.id)
         changed = True
     if changed:
         db.commit()
+
+
+REOPEN_WINDOW = timedelta(hours=12)  # an idle-closed lecture can be picked up again for this long
+
+
+def can_reopen(db: Session, s: StudySession) -> bool:
+    """May this ended lecture be picked up again? Only when the idle rule closed it (not the student, not a newer
+    lecture), no newer lecture has started, and it was closed under 12 hours ago. Sessions from before ended_by
+    existed (NULL) count only if no revision sheet was written (the student's own End writes one) and the same
+    window and newest-lecture rules hold: the idle rule is the likeliest reason they stopped."""
+    if s.is_active or s.source == "upload" or s.room_code:
+        return False
+    if s.ended_by == "idle" or (s.ended_by is None and not s.summary):
+        pass
+    else:
+        return False
+    times = [t for t in (s.ended_at, s.alive_at, s.started_at) if t]
+    if not times or utcnow() - max(times) > REOPEN_WINDOW:
+        return False
+    newer = db.scalar(select(StudySession.id).where(StudySession.user_id == s.user_id, StudySession.id > s.id).limit(1))
+    return newer is None
+
+
+def reopen(db: Session, s: StudySession) -> None:
+    """Make an idle-closed lecture live again: same notes; the time it was closed is not lecture time."""
+    now = utcnow()
+    for other in db.scalars(select(StudySession).where(StudySession.user_id == s.user_id, StudySession.id != s.id,
+                                                       StudySession.is_active.is_(True))):
+        other.is_active = False
+        other.ended_by = "replaced"
+        other.ended_at = other.ended_at or now
+    if s.ended_at:
+        s.paused_s = (s.paused_s or 0.0) + max(0.0, (now - s.ended_at).total_seconds())
+    s.is_active = True
+    s.ended_at = None
+    s.ended_by = None
+    s.alive_at = now
+    db.commit()
+
+
+def fold_pause(s: StudySession) -> None:
+    """Add the pause that was going on to the paused total."""
+    if s.pause_since:
+        s.paused_s = (s.paused_s or 0.0) + max(0.0, (utcnow() - s.pause_since).total_seconds())
+        s.pause_since = None
+
+
+def ensure_live(db: Session, s: StudySession) -> bool:
+    """True when the lecture is live, reopening it when the idle rule had closed it. A frame, clip, sound or settle
+    arriving also ends any pause."""
+    if not s.is_active:
+        if not can_reopen(db, s):
+            return False
+        reopen(db, s)
+    if s.pause_since:
+        fold_pause(s)
+        s.alive_at = utcnow()  # a later "still paused" heartbeat can't reach back past this (api/sessions.alive)
+        db.commit()
+    return True
 
 
 def session_out(s: StudySession, note_count: int | None = None) -> SessionOut:

@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import Boolean, DateTime, ForeignKey, Integer, String, Text
+from sqlalchemy import Boolean, DateTime, Float, ForeignKey, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.core.database import Base
@@ -30,6 +30,14 @@ class StudySession(Base):
     # written again only when more speech has come in since
     talk_summary: Mapped[str | None] = mapped_column(Text, nullable=True)
     talk_summary_pieces: Mapped[int | None] = mapped_column(Integer, nullable=True)
+
+    # the tab is open: last heartbeat (POST /sessions/{id}/alive), so a paused video is not an abandoned lecture
+    alive_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+    # who ended it: "student", "idle" (nothing heard for IDLE_END: may reopen) or "replaced" (a newer lecture started)
+    ended_by: Mapped[str | None] = mapped_column(String, nullable=True)
+    # seconds the video was paused: not part of the lecture's duration
+    paused_s: Mapped[float | None] = mapped_column(Float, nullable=True)
+    pause_since: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)  # set while a pause is going on
 
     user = relationship("User", back_populates="sessions")
     course = relationship("Course", back_populates="sessions")

@@ -1,5 +1,8 @@
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
+import { toast } from "sonner";
 import { api } from "@/lib/api";
+import type { SessionAlive } from "@/lib/types";
+import { formatPaused } from "@/lib/utils";
 
 /**
  * setInterval that keeps its pace in a background tab. Browsers slow main-thread timers in hidden tabs to
@@ -51,4 +54,66 @@ export function useFocus(activity: FocusActivity, active: boolean, needsAttentio
       api.focusHeartbeat(a, tzOffset).catch(() => undefined); // focus time is best-effort, never an error toast
     }, 60_000);
   }, []);
+}
+
+export const welcomeBack = (secs: number) =>
+  toast.success(`Welcome back. ${secs >= 60 ? `Your lecture was paused for ${formatPaused(secs)}; it's` : "It's"} still the same session and your notes are safe.`);
+
+const LIVE_KEY = "focs-live-session";
+export function rememberLive(id: number) { try { localStorage.setItem(LIVE_KEY, JSON.stringify({ id, at: Date.now() })); } catch { /* private mode */ } }
+export function forgetLive() { try { localStorage.removeItem(LIVE_KEY); } catch { /* private mode */ } }
+/** the lecture this browser had open in the last 12 hours (the tab may have been discarded during a long pause) */
+export function recallLive(): number | null {
+  try {
+    const v = JSON.parse(localStorage.getItem(LIVE_KEY) ?? "null") as { id: number; at: number } | null;
+    return v && Date.now() - v.at < 12 * 3_600_000 ? v.id : null;
+  } catch { return null; }
+}
+
+/** Keeps the screen on while `on`. A hidden tab can't hold the lock, so it is asked for again when the tab is visible. */
+export function useWakeLock(on: boolean) {
+  useEffect(() => {
+    if (!on || !("wakeLock" in navigator)) return;
+    type Lock = { release: () => Promise<void> };
+    let lock: Lock | null = null;
+    let dead = false;
+    const hold = () => {
+      if (document.visibilityState !== "visible") return;
+      void lock?.release().catch(() => undefined);
+      (navigator as Navigator & { wakeLock: { request: (t: "screen") => Promise<Lock> } }).wakeLock.request("screen")
+        .then((l) => { if (dead) void l.release().catch(() => undefined); else lock = l; }).catch(() => undefined);
+    };
+    hold();
+    document.addEventListener("visibilitychange", hold);
+    return () => { dead = true; document.removeEventListener("visibilitychange", hold); void lock?.release().catch(() => undefined); };
+  }, [on]);
+}
+
+/**
+ * Tells the server this lecture tab is still open, every minute and the moment the student comes back or goes online.
+ * A session the server closed for idleness comes back; one the student ended makes `onGone` run. Errors stay silent.
+ */
+export function useSessionAlive(sessionId: number, getState: () => { paused: boolean; secs: number }, onGone: () => void) {
+  const latest = useRef({ getState, onGone });
+  latest.current = { getState, onGone };
+  const ping = useCallback(async (over?: { paused: boolean; secs: number }): Promise<SessionAlive | null> => {
+    const s = over ?? latest.current.getState();
+    try {
+      const r = await api.sessionAlive(sessionId, { paused: s.paused, paused_for_s: Math.round(s.secs) });
+      if (r.active) rememberLive(sessionId);
+      if (r.reopened) welcomeBack(Math.max(r.paused_for_s, s.secs));
+      else if (!r.active) latest.current.onGone();
+      return r;
+    } catch { return null; }
+  }, [sessionId]);
+  useEffect(() => {
+    const again = () => { void ping(); };
+    const visible = () => { if (document.visibilityState === "visible") again(); };
+    again();  // once now: remembers the lecture and reopens one the server closed while the tab was away
+    const stop = steadyInterval(again, 60_000);
+    document.addEventListener("visibilitychange", visible);
+    window.addEventListener("online", again);
+    return () => { stop(); document.removeEventListener("visibilitychange", visible); window.removeEventListener("online", again); };
+  }, [ping]);
+  return ping;
 }
