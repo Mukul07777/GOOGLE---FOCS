@@ -1,0 +1,14 @@
+{
+  "name": "room-phone",
+  "seconds": 33.47,
+  "frames": 2687,
+  "fps": 80.3,
+  "width": 780,
+  "height": 1688,
+  "marks": [
+    {
+      "label": "lost",
+      "t": 2.64
+    }
+  ]
+}

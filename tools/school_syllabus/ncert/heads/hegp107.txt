@@ -1,0 +1,22 @@
+NUMBERED
+7.1 Observing Similarity in Change
+7.2 Ratios
+7.3 Ratios in their Simplest Form
+7.4 Problem Solving with Proportional Reasoning
+7.5 Sharing, but Not Equally!
+7.6 Unit Conversions
+BIG
+7.1 Observing Similarity in Change
+PROPORTIONAL
+7 REASONING-1
+7.2 Ratios
+7.3 Ratios in their Simplest Form
+7.4 Problem Solving with Proportional Reasoning
+Trairasika — The Rule of Three
+7.5 Sharing, but Not Equally!
+7.6 Unit Conversions
+SUMMARY
+Binairo
+REASONING-1
+SAMPLE
+7.1 Observing Similarity in Change We are all familiar with digital images. We often change the size and orientation of these images to suit our needs. Observe the set of images below — We can see that all the images are of different sizes. Which images look similar and which ones look different? Images (A, C, and D) look similar, even though they have different sizes. PROPORTIONAL REASONING-1 7 Image A Image D Image E Image B Image C Reprint 2026-27 Ganita Prakash | Grade 8 160 Do images B and E look like the other three images? No, they are slightly distorted. The tiger appears elongated in B, and compressed and fatter in E! Why? You may notice that images A, C, and D are rectangular, but E is square. Maybe that is why E looks different. But B is also a rectangle! Why does it look different from the other rectangular images? Can we observe any pattern to answer this question? Perhaps by measuring the rectangles? Image Width (in mm) Height (in mm) Image A 60 40 Image B 40 20 Image C 30 20 Image D 90 60 Image E 60 60 What makes images A, C, and D appear similar, and B and E different? When we compare image A with C, we notice that the width of C is half that of A. The height is also half of A. Both the width and height have changed by the same factor (through multiplication), 1 2 in this case. Since the widths and heights have changed by the same factor, the images look similar. When we compare image A with image B, we notice that the width of B is 20 millimetre (mm) less than that of A. The height too is 20 mm less than the height of A. Even though the difference (through subtraction) is the same, the images look different. Have the width and height changed by the same factor? The height of B is half the height of A. But the width of B is not half the width of A. Since

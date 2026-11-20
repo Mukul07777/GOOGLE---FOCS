@@ -1,0 +1,18 @@
+NUMBERED
+8.1 Introduction
+8.2 Strings
+8.2.1 Accessing Characters in a String
+8.2.2 String is Immutable
+8.3 String Operations
+8.3.1 Concatenation
+8.3.2 Repetition
+8.3.3 Membership
+8.3.4 Slicing
+8.4 Traversing a String
+8.5 String Methods and Built-in Functions
+8.6 Handling Strings
+BIG
+Chapter 8
+Strings
+SAMPLE
+8.1 Introduction We have studied in Chapter 5, that a sequence is an orderly collection of items and each item is indexed by an integer. Following sequence data types in Python were also briefly introduced in Chapter 5. • Strings • Lists • Tuples Another data type ‘Dictionary’ was also introduced in chapter 5 which falls under the category of mapping. In this chapter, we will go through strings in detail. List will be covered in Chapter 9 whereas tuple and dictionary will be discussed in Chapter 10. 8.2 Strings String is a sequence which is made up of one or more UNICODE characters. Here the character can be a letter, digit, whitespace or any other symbol. A string can be created by enclosing one or more characters in single, double or triple quote. Example 8.1 >>> str1 = 'Hello World!' >>> str2 = "Hello World!" >>> str3 = """Hello World!""" >>> str4 = '''Hello World!'' str1, str2, str3, str4 are all string variables having the same value 'Hello World!'. Values stored in str3 and str4 can be extended to multiple lines using triple codes as can be seen in the following example: >>> str3 = """Hello World! welcome to the world of Python""" >>> str4 = '''Hello World! welcome to the world of Python''' “The great thing about a computer notebook is that no matter how much you stuff into it, it doesn't get bigger or heavier. ” – Bill Gates Chapter 8 Strings In this chapter »» Introduction to Strings »» String Operations »» Traversing a String »» Strings Methods and Built-in Functions »» Handling Strings Reprint 2026-27 Computer Science – Class xi 176 8.2.1 Accessing Characters in a String Each individual character in a string can be accessed using a technique called indexing. The index specifies the character to be accessed in the string and is written in square brackets ([ ]).

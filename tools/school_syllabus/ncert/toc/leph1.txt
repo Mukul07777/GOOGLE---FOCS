@@ -1,0 +1,222 @@
+# 12 | Physics | Physics Part I | leph1 | pages 16
+=== page 4
+RATIONALISATION OF CONTENT IN THE TEXTBOOKS
+In view of the COVID-19 pandemic, it is imperative to reduce content load on
+students. The National Education Policy 2020, also emphasises reducing the
+content load and providing opportunities for experiential learning with creative
+mindset. In this background, the NCERT has undertaken the exercise to rationalise
+the textbooks across all classes. Learning Outcomes already developed by the NCERT
+across classes have been taken into consideration in this exercise.
+Contents of the textbooks have been rationalised in view of the following:
+•
+Overlapping with similar content included in other subject areas in the same
+class
+•
+Similar content included in the lower or higher class in the same subject
+•
+Difficulty level
+•
+Content, which is easily accessible to students without much interventions
+from teachers and can be learned by children through self-learning or peer-
+learning
+•
+Content, which is irrelevant in the present context
+This present edition, is a reformatted version after carrying out the changes
+given above.
+Reprint 2026-27
+
+=== page 5
+Reprint 2026-27
+
+=== page 12
+CONTENTS
+FOREWORD
+iii
+RATIONALISATION OF CONTENT IN THE TEXTBOOKS
+v
+CHAPTER ONE
+ELECTRIC CHARGES AND FIELDS
+1.1
+Introduction
+1
+1.2
+Electric Charge
+1
+1.3
+Conductors and Insulators
+3
+1.4
+Basic Properties of Electric Charge
+4
+1.5
+Coulomb’s Law
+6
+1.6
+Forces between Multiple Charges
+11
+1.7
+Electric Field
+14
+1.8
+Electric Field Lines
+19
+1.9
+Electric Flux
+21
+1.10
+Electric Dipole
+23
+1.11
+Dipole in a Uniform External Field
+27
+1.12
+Continuous Charge Distribution
+28
+1.13
+Gauss’s Law
+29
+1.14
+Applications of Gauss’s Law
+33
+CHAPTER TWO
+ELECTROSTATIC POTENTIAL AND CAPACITANCE
+2.1
+Introduction
+45
+2.2
+Electrostatic Potential
+47
+2.3
+Potential due to a Point Charge
+48
+2.4
+Potential due to an Electric Dipole
+49
+2.5
+Potential due to a System of Charges
+51
+2.6
+Equipotential Surfaces
+54
+2.7
+Potential Energy of a System of Charges
+55
+2.8
+Potential Energy in an External Field
+58
+2.9
+Electrostatics of Conductors
+61
+2.10
+Dielectrics and Polarisation
+65
+2.11
+Capacitors and Capacitance
+67
+2.12
+The Parallel Plate Capacitor
+68
+2.13
+Effect of Dielectric on Capacitance
+69
+2.14
+Combination of Capacitors
+71
+2.15
+Energy Stored in a Capacitor
+73
+Reprint 2026-27
+
+=== page 13
+CHAPTER THREE
+CURRENT ELECTRICITY
+3.1
+Introduction
+81
+3.2
+Electric Current
+81
+3.3
+Electric Currents in Conductors
+82
+3.4
+Ohm’s law
+83
+3.5
+Drift of Electrons and the Origin of Resistivity
+85
+3.6
+Limitations of Ohm’s Law
+89
+3.7
+Resistivity of Various Materials
+89
+3.8
+Temperature Dependence of Resistivity
+90
+3.9
+Electrical Energy, Power
+92
+3.10
+Cells, emf, Internal Resistance
+93
+3.11
+Cells in Series and in Parallel
+95
+3.12
+Kirchhoff’s Rules
+97
+3.13
+Wheatstone Bridge
+100
+CHAPTER FOUR
+MOVING CHARGES AND MAGNETISM
+4.1
+Introduction
+107
+4.2
+Magnetic Force
+108
+4.3
+Motion in a Magnetic Field
+112
+4.4
+Magnetic Field due to a Current Element, Biot-Savart Law
+113
+4.5
+Magnetic Field on the Axis of a Circular Current Loop
+115
+4.6
+Ampere’s Circuital Law
+117
+4.7
+The Solenoid
+121
+4.8
+Force between Two Parallel Currents, the Ampere
+122
+4.9
+Torque on Current Loop, Magnetic Dipole
+124
+4.10
+The Moving Coil Galvanometer
+129
+CHAPTER FIVE
+MAGNETISM AND MATTER
+5.1
+Introduction
+136
+5.2
+The Bar Magnet
+137
+5.3
+Magnetism and Gauss’s Law
+142
+5.4
+Magnetisation and Magnetic Intensity
+145
+5.5
+Magnetic Properties of Materials
+147
+xiv
+Reprint 2026-27

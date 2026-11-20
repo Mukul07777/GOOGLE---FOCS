@@ -1,0 +1,227 @@
+# 11 | Physics | Physics Part II | keph2 | pages 16
+=== page 13
+CONTENTS OF PHYSICS PART I
+C H A P T E R 1
+UNITS AND MEASUREMENTS
+1
+C H A P T E R 2
+MOTION IN A STRAIGHT LINE
+13
+C H A P T E R 3
+MOTION IN A PLANE
+37
+C H A P T E R 4
+LAWS OF MOTION
+49
+C H A P T E R 5
+WORK, ENERGY AND POWER
+71
+C H A P T E R 6
+SYSTEM OF PARTICLES AND ROTATIONAL MOTION
+92
+C H A P T E R 7
+GRAVITATION
+127
+APPENDICES
+144
+ANSWERS
+160
+Reprint 2026-27
+
+=== page 14
+CONTENTS
+FOREWORD
+iii
+RATIONALISATION OF CONTENS IN THE TEXTBOOKS
+v
+PREFACE
+vii
+A NOTE FOR THE TEACHERS
+xiii
+C H A P T E R    8
+MECHANICAL P52P(57,(6 OF SOLIDS
+8.1
+Introduction
+167
+8.2
+Stress and strain
+168
+8.3
+Hooke’s law
+169
+8.4
+Stress-strain curve
+169
+8.5
+Elastic moduli
+170
+8.6 
+Applications of elastic behaviour of materials
+174
+C H A P T E R    9
+MECHANICAL P52P(57,(6 OF FLUIDS
+9.1
+Introduction
+180
+9.2
+Pressure
+180
+9.3
+Streamline flow
+186
+9.4
+Bernoulli’s principle
+187
+9.5
+Viscosity
+190
+9.6
+Surface tension
+192
+C H A P T E R    10
+THERMAL P52P(57,(6 OF MATTER
+10.1
+Introduction
+202
+10.2 
+Temperature and heat
+202
+10.3
+Measurement of temperature
+203
+10.4
+Ideal-gas equation and absolute temperature
+203
+10.5 
+Thermal expansion
+204
+10.6
+Specific heat capacity
+208
+10.7
+Calorimetry
+209
+10.8
+Change of state
+210
+10.9
+Heat transfer
+214
+10.10 Newton’s law of cooling
+219
+C H A P T E R    11
+THERMODYNAMICS
+11.1
+Introduction
+226
+11.2 
+Thermal equilibrium
+227
+11.3
+Zeroth law of thermodynamics
+228
+11.4
+Heat, internal energy and work
+229
+11.5
+First law of thermodynamics
+230
+11.6
+Specific heat capacity
+231
+Reprint 2026-27
+
+=== page 15
+11.7
+Thermodynamic state variables and equation of state
+232
+11.8
+Thermodynamic processes
+233
+11.9
+Second law of thermodynamics
+236
+11.10 Reversible and irreversible processes
+236
+11.11 Carnot engine
+237
+C H A P T E R    12
+KINETIC THEORY
+12.1
+Introduction
+244
+12.2
+Molecular nature of matter
+244
+12.3
+Behaviour of gases 
+246
+12.4
+Kinetic theory of an ideal gas
+248
+12.5
+Law of equipartition of energy 
+252
+12.6
+Specific heat capacity
+253
+12.7
+Mean free path
+254
+C H A P T E R    13
+OSCILLATIONS
+13.1
+Introduction
+259
+13.2
+Periodic and oscilatory motions
+260
+13.3
+Simple harmonic motion
+262
+13.4
+Simple harmonic motion and uniform circular motion
+264
+13.5
+Velocity and acceleration in simple harmonic motion
+266
+13.6
+Force law for simple harmonic motion
+267
+13.7
+Energy in simple harmonic motion
+268
+13.8
+The Simple Pendulum
+270
+C H A P T E R    14
+WAVES
+14.1
+Introduction
+278
+14.2
+Transverse and longitudinal waves
+280
+14.3
+Displacement relation in a progressive wave
+281
+14.4
+The speed of a travelling wave
+284
+14.5
+The principle of superposition of waves
+287
+14.6
+Reflection of waves 
+288
+14.7
+Beats
+293
+ANSWERS
+300
+BIBLIOGRAPHY
+307
+INDEX
+309
+xvi
+Reprint 2026-27

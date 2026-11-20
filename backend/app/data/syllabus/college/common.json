@@ -1,0 +1,139 @@
+{
+  "area": "First-year and common courses",
+  "courses": [
+    {"name": "Engineering Mathematics I", "about": "Calculus of one and several variables", "chapters": [
+      {"name": "Differential Calculus", "hours": 8, "weight": 2, "foundation": true, "topics": ["Limits, continuity and differentiability", "Rolle's and the mean value theorems", "Taylor and Maclaurin series", "Indeterminate forms and L'Hopital's rule", "Curvature and radius of curvature"]},
+      {"name": "Sequences and Series", "hours": 7, "weight": 1.5, "topics": ["Convergence of sequences", "Comparison, ratio and root tests", "Alternating series and absolute convergence", "Power series and radius of convergence", "Fourier series of periodic functions"]},
+      {"name": "Partial Differentiation", "hours": 8, "weight": 2, "foundation": true, "topics": ["Functions of several variables and partial derivatives", "Total derivative and the chain rule", "Euler's theorem on homogeneous functions", "Jacobians", "Maxima and minima of two variables", "Lagrange multipliers"]},
+      {"name": "Integral Calculus", "hours": 7, "weight": 1.5, "topics": ["Improper integrals and their convergence", "Beta and gamma functions", "Differentiation under the integral sign", "Areas, lengths and volumes of revolution"]},
+      {"name": "Multiple Integrals", "hours": 8, "weight": 2, "topics": ["Double integrals and change of order", "Double integrals in polar coordinates", "Triple integrals", "Change of variables in multiple integrals", "Areas, volumes and centre of mass"]},
+      {"name": "Vector Calculus", "hours": 8, "weight": 2, "topics": ["Gradient and directional derivative", "Divergence and curl", "Line integrals and conservative fields", "Surface and volume integrals", "Green's theorem", "Stokes' and Gauss divergence theorems"]}
+    ]},
+    {"name": "Engineering Mathematics II", "about": "Linear algebra and differential equations", "chapters": [
+      {"name": "Matrices and Linear Systems", "hours": 8, "weight": 2, "foundation": true, "topics": ["Rank and echelon forms", "Consistency of linear systems", "Gauss elimination and LU decomposition", "Linear independence, basis and dimension", "Linear transformations"]},
+      {"name": "Eigenvalues and Diagonalisation", "hours": 7, "weight": 2, "topics": ["Eigenvalues and eigenvectors", "Cayley-Hamilton theorem", "Diagonalisation of matrices", "Symmetric, orthogonal and Hermitian matrices", "Quadratic forms and their nature"]},
+      {"name": "First-Order Differential Equations", "hours": 6, "weight": 1.5, "foundation": true, "topics": ["Variable separable and homogeneous equations", "Exact equations and integrating factors", "Linear and Bernoulli equations", "Orthogonal trajectories", "Applications: growth, decay and circuits"]},
+      {"name": "Higher-Order Linear Differential Equations", "hours": 8, "weight": 2, "topics": ["Homogeneous equations with constant coefficients", "Particular integrals by operator methods", "Variation of parameters", "Cauchy-Euler equations", "Simultaneous linear equations", "Applications: vibrations and LCR circuits"]},
+      {"name": "Laplace Transforms", "hours": 7, "weight": 2, "topics": ["Laplace transforms of standard functions", "Shifting theorems and transforms of derivatives", "Unit step and impulse functions", "Inverse transforms and convolution", "Solving differential equations by Laplace transforms"]},
+      {"name": "Series Solutions and Special Functions", "hours": 6, "weight": 1, "topics": ["Power series solutions about ordinary points", "Frobenius method", "Bessel functions", "Legendre polynomials"]}
+    ]},
+    {"name": "Engineering Mathematics III", "about": "Complex analysis, transforms and partial differential equations", "chapters": [
+      {"name": "Complex Functions", "hours": 7, "weight": 2, "foundation": true, "topics": ["Analytic functions and the Cauchy-Riemann equations", "Harmonic functions and their conjugates", "Elementary complex functions", "Conformal mapping and bilinear transformations"]},
+      {"name": "Complex Integration", "hours": 8, "weight": 2, "topics": ["Line integrals in the complex plane", "Cauchy's theorem and integral formula", "Taylor and Laurent series", "Singularities, poles and residues", "Residue theorem and evaluation of real integrals"]},
+      {"name": "Fourier Series and Transforms", "hours": 8, "weight": 2, "topics": ["Fourier series and Dirichlet conditions", "Half-range sine and cosine series", "Fourier integral theorem", "Fourier transform and its properties", "Parseval's identity"]},
+      {"name": "Partial Differential Equations", "hours": 8, "weight": 2, "topics": ["Formation and first-order equations (Lagrange's method)", "Classification of second-order equations", "Method of separation of variables", "One-dimensional wave equation", "One-dimensional heat equation", "Laplace's equation in two dimensions"]},
+      {"name": "Z-Transforms", "hours": 5, "weight": 1, "topics": ["Z-transform and region of convergence", "Properties of the Z-transform", "Inverse Z-transform", "Solving difference equations"]}
+    ]},
+    {"name": "Linear Algebra", "about": "Vector spaces and matrix methods", "chapters": [
+      {"name": "Systems of Linear Equations", "hours": 6, "weight": 2, "foundation": true, "topics": ["Row reduction and echelon forms", "Existence and uniqueness of solutions", "Matrix operations and inverses", "LU factorisation", "Determinants and their properties"]},
+      {"name": "Vector Spaces", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Vector spaces and subspaces", "Span and linear independence", "Basis and dimension", "The four fundamental subspaces", "Rank-nullity theorem", "Change of basis"]},
+      {"name": "Linear Transformations", "hours": 6, "weight": 1.5, "topics": ["Linear maps and their matrices", "Kernel and range", "Composition and invertibility", "Similarity of matrices"]},
+      {"name": "Orthogonality and Least Squares", "hours": 7, "weight": 2, "topics": ["Inner products, norms and orthogonality", "Orthogonal projections", "Gram-Schmidt process and QR factorisation", "Least-squares solutions", "Orthogonal matrices"]},
+      {"name": "Eigenvalues and Eigenvectors", "hours": 7, "weight": 2.5, "topics": ["Characteristic polynomial and eigenspaces", "Diagonalisation", "Symmetric matrices and the spectral theorem", "Positive definite matrices and quadratic forms", "Powers of a matrix and Markov chains"]},
+      {"name": "Singular Value Decomposition", "hours": 5, "weight": 1.5, "topics": ["Singular values and the SVD", "Low-rank approximation", "Pseudoinverse", "Principal component analysis"]}
+    ]},
+    {"name": "Probability and Statistics", "about": "Probability, random variables, statistics and stochastic processes", "chapters": [
+      {"name": "Probability Basics", "hours": 6, "weight": 2, "foundation": true, "topics": ["Sample spaces, events and axioms of probability", "Counting: permutations and combinations", "Conditional probability and independence", "Total probability and Bayes' theorem"]},
+      {"name": "Random Variables", "hours": 7, "weight": 2, "foundation": true, "topics": ["Discrete random variables and PMF", "Continuous random variables, PDF and CDF", "Expectation and variance", "Moments and moment generating functions", "Functions of a random variable"]},
+      {"name": "Standard Distributions", "hours": 7, "weight": 2.5, "topics": ["Bernoulli, binomial and geometric distributions", "Poisson distribution", "Uniform and exponential distributions", "Normal distribution and standardisation", "Gamma and related distributions"]},
+      {"name": "Joint Distributions", "hours": 7, "weight": 2, "topics": ["Joint, marginal and conditional distributions", "Independence of random variables", "Covariance and correlation", "Sums of random variables", "Law of large numbers and the central limit theorem"]},
+      {"name": "Statistical Inference", "hours": 8, "weight": 2, "topics": ["Sampling distributions", "Point estimation and maximum likelihood", "Confidence intervals", "Hypothesis testing: z, t and chi-square tests", "Linear regression and correlation"]},
+      {"name": "Stochastic Processes", "hours": 6, "weight": 1.5, "topics": ["Random processes and stationarity", "Discrete-time Markov chains", "Steady-state distribution of a Markov chain", "Poisson process", "Basic queueing models (M/M/1)"]}
+    ]},
+    {"name": "Numerical Methods", "about": "Numerical solution of equations, integrals and differential equations", "chapters": [
+      {"name": "Errors and Roots of Equations", "hours": 6, "weight": 2, "foundation": true, "topics": ["Round-off and truncation errors", "Bisection and regula falsi methods", "Newton-Raphson method", "Secant and fixed-point iteration", "Order and rate of convergence"]},
+      {"name": "Linear Algebraic Equations", "hours": 6, "weight": 2, "topics": ["Gauss elimination with pivoting", "LU decomposition methods", "Jacobi and Gauss-Seidel iteration", "Power method for eigenvalues"]},
+      {"name": "Interpolation and Curve Fitting", "hours": 6, "weight": 2, "topics": ["Finite differences and Newton's interpolation", "Lagrange interpolation", "Divided differences", "Cubic splines", "Least-squares curve fitting"]},
+      {"name": "Numerical Differentiation and Integration", "hours": 6, "weight": 2, "topics": ["Numerical differentiation formulas", "Trapezoidal rule", "Simpson's 1/3 and 3/8 rules", "Gauss quadrature", "Romberg integration"]},
+      {"name": "Ordinary Differential Equations", "hours": 7, "weight": 2, "topics": ["Taylor series and Euler's method", "Modified Euler and Runge-Kutta methods", "Predictor-corrector methods", "Boundary value problems by finite differences"]},
+      {"name": "Optimisation Methods", "hours": 5, "weight": 1, "topics": ["Linear programming and the graphical method", "Simplex method", "Unconstrained optimisation and gradient descent", "Finite difference solution of PDEs"]}
+    ]},
+    {"name": "Engineering Physics", "about": "Electromagnetism, optics and quantum mechanics", "chapters": [
+      {"name": "Electromagnetism", "hours": 8, "weight": 2, "foundation": true, "topics": ["Gauss's law and electrostatic potential", "Dielectrics and polarisation", "Biot-Savart and Ampere's laws", "Faraday's law and displacement current", "Maxwell's equations", "Electromagnetic waves and the Poynting vector"]},
+      {"name": "Wave Optics", "hours": 7, "weight": 2, "topics": ["Interference: thin films and Newton's rings", "Michelson interferometer", "Fraunhofer diffraction at a single slit", "Diffraction grating and resolving power", "Polarisation and Malus's law", "Double refraction and wave plates"]},
+      {"name": "Quantum Mechanics", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Black-body radiation, photoelectric and Compton effects", "de Broglie waves and the uncertainty principle", "Wave function and the Schrodinger equation", "Particle in a one-dimensional box", "Potential step, barrier and tunnelling", "Harmonic oscillator"]},
+      {"name": "Lasers and Fibre Optics", "hours": 5, "weight": 1.5, "topics": ["Spontaneous and stimulated emission, Einstein coefficients", "Population inversion and laser action", "He-Ne and semiconductor lasers", "Optical fibre: numerical aperture and modes", "Attenuation and dispersion in fibres"]},
+      {"name": "Solid State Physics", "hours": 7, "weight": 2, "topics": ["Crystal structure and Miller indices", "X-ray diffraction and Bragg's law", "Free electron theory and the Fermi level", "Band theory of solids", "Intrinsic and extrinsic semiconductors", "Superconductivity and the Meissner effect"]},
+      {"name": "Special Relativity", "hours": 4, "weight": 1, "topics": ["Postulates and Lorentz transformations", "Length contraction and time dilation", "Relativistic velocity addition", "Mass-energy equivalence"]}
+    ]},
+    {"name": "Engineering Chemistry", "about": "Physical, materials and applied chemistry for engineers", "chapters": [
+      {"name": "Atomic and Molecular Structure", "hours": 6, "weight": 2, "foundation": true, "topics": ["Schrodinger equation and atomic orbitals", "Molecular orbital theory of diatomic molecules", "Crystal field theory", "Band structure of solids"]},
+      {"name": "Thermodynamics and Equilibrium", "hours": 7, "weight": 2, "topics": ["First law and enthalpy changes", "Entropy and the second law", "Gibbs free energy and spontaneity", "Chemical equilibrium and Le Chatelier's principle", "Phase rule and phase diagrams"]},
+      {"name": "Electrochemistry and Corrosion", "hours": 7, "weight": 2, "topics": ["Electrode potential and the Nernst equation", "Electrochemical cells and EMF", "Batteries and fuel cells", "Mechanisms of corrosion", "Corrosion control methods"]},
+      {"name": "Chemical Kinetics", "hours": 5, "weight": 1.5, "topics": ["Rate laws and order of reaction", "Integrated rate equations", "Arrhenius equation and activation energy", "Catalysis"]},
+      {"name": "Spectroscopy", "hours": 6, "weight": 1.5, "topics": ["Electronic (UV-visible) spectroscopy", "Vibrational (IR) spectroscopy", "NMR spectroscopy basics", "Applications to structure determination"]},
+      {"name": "Engineering Materials and Water", "hours": 7, "weight": 2, "topics": ["Polymers: classification and polymerisation", "Engineering plastics and composites", "Hardness of water and its estimation", "Water softening and treatment", "Fuels: calorific value and combustion", "Lubricants and their properties"]}
+    ]},
+    {"name": "Programming Fundamentals", "about": "Problem solving and programming in C", "chapters": [
+      {"name": "Basics of Programming", "hours": 6, "weight": 1.5, "foundation": true, "topics": ["Algorithms, flowcharts and pseudocode", "Data types, variables and constants", "Operators, expressions and precedence", "Input and output", "Number systems and data representation"]},
+      {"name": "Control Flow", "hours": 6, "weight": 2, "foundation": true, "topics": ["if, else and switch statements", "while, do-while and for loops", "Nested loops and pattern problems", "break, continue and goto"]},
+      {"name": "Functions and Recursion", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Function definition, declaration and call", "Call by value and call by reference", "Scope, lifetime and storage classes", "Recursion and the call stack", "Recursive problems: factorial, Fibonacci, Tower of Hanoi"]},
+      {"name": "Arrays and Strings", "hours": 8, "weight": 2.5, "topics": ["One-dimensional arrays", "Two-dimensional arrays and matrices", "Linear and binary search", "Bubble, selection and insertion sort", "Strings and string library functions"]},
+      {"name": "Pointers and Dynamic Memory", "hours": 8, "weight": 2.5, "topics": ["Pointers and pointer arithmetic", "Pointers and arrays", "Pointers to functions", "Dynamic memory allocation: malloc, calloc and free", "Common pointer errors and memory leaks"]},
+      {"name": "Structures and Files", "hours": 6, "weight": 2, "topics": ["Structures and arrays of structures", "Unions and enumerations", "Self-referential structures", "File handling: text and binary files", "Preprocessor directives and command-line arguments"]}
+    ]},
+    {"name": "Basic Electrical Engineering", "about": "Circuits, machines and electrical power basics", "chapters": [
+      {"name": "DC Circuits", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Ohm's law and Kirchhoff's laws", "Mesh and nodal analysis", "Star-delta transformation", "Superposition theorem", "Thevenin's and Norton's theorems", "Maximum power transfer theorem"]},
+      {"name": "AC Circuits", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Sinusoidal quantities: RMS and average values", "Phasors and complex impedance", "Series and parallel RLC circuits", "Power, power factor and its improvement", "Series and parallel resonance"]},
+      {"name": "Three-Phase Systems", "hours": 5, "weight": 1.5, "topics": ["Generation of three-phase voltages", "Star and delta connections", "Line and phase relations", "Power measurement by the two-wattmeter method"]},
+      {"name": "Magnetic Circuits and Transformers", "hours": 7, "weight": 2, "topics": ["Magnetic circuits and B-H curves", "Self and mutual inductance", "Transformer principle and EMF equation", "Equivalent circuit and phasor diagram", "Losses, efficiency and regulation"]},
+      {"name": "Electrical Machines Basics", "hours": 7, "weight": 2, "topics": ["DC generator and motor principle", "DC motor characteristics and speed control", "Three-phase induction motor", "Single-phase induction motor", "Synchronous generator basics"]},
+      {"name": "Measurements and Installations", "hours": 4, "weight": 1, "topics": ["Moving coil and moving iron instruments", "Energy meter", "Wiring, fuses, MCB and earthing", "Electrical safety"]}
+    ]},
+    {"name": "Basic Electronics Engineering", "about": "Semiconductor devices and elementary circuits", "chapters": [
+      {"name": "Semiconductor Diodes", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Semiconductors and the p-n junction", "Diode V-I characteristics and models", "Half-wave and full-wave rectifiers", "Filters and voltage regulation", "Zener diode as a regulator", "Clippers and clampers"]},
+      {"name": "Bipolar Junction Transistors", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["BJT construction and operation", "CB, CE and CC configurations", "DC load line and biasing circuits", "BJT as an amplifier", "BJT as a switch"]},
+      {"name": "Field Effect Transistors", "hours": 6, "weight": 2, "topics": ["JFET operation and characteristics", "MOSFET: enhancement and depletion types", "MOSFET biasing", "CMOS inverter"]},
+      {"name": "Operational Amplifiers", "hours": 6, "weight": 2, "topics": ["Ideal op-amp and its parameters", "Inverting and non-inverting amplifiers", "Summing amplifier, integrator and differentiator", "Comparator"]},
+      {"name": "Digital Electronics Basics", "hours": 6, "weight": 2, "topics": ["Number systems and codes", "Logic gates and Boolean algebra", "Simplification with Karnaugh maps", "Adders and multiplexers", "Flip-flops"]},
+      {"name": "Communication Basics", "hours": 4, "weight": 1, "topics": ["Elements of a communication system", "Need for modulation", "Amplitude and frequency modulation", "Introduction to digital communication"]}
+    ]},
+    {"name": "Engineering Mechanics", "about": "Statics and dynamics of rigid bodies", "chapters": [
+      {"name": "Force Systems and Equilibrium", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Resultant of coplanar force systems", "Moment of a force and Varignon's theorem", "Couples and equivalent force systems", "Free-body diagrams", "Equilibrium of rigid bodies", "Lami's theorem"]},
+      {"name": "Trusses and Frames", "hours": 6, "weight": 2, "topics": ["Types of supports and reactions", "Method of joints", "Method of sections", "Frames and machines"]},
+      {"name": "Friction", "hours": 5, "weight": 1.5, "topics": ["Laws of dry friction", "Bodies on inclined planes", "Wedge and ladder friction", "Screw and belt friction"]},
+      {"name": "Centroid and Moment of Inertia", "hours": 6, "weight": 2, "topics": ["Centroid of lines, areas and volumes", "Centre of gravity of composite bodies", "Area moment of inertia", "Parallel and perpendicular axis theorems", "Mass moment of inertia"]},
+      {"name": "Kinematics of Particles and Rigid Bodies", "hours": 6, "weight": 2, "topics": ["Rectilinear and curvilinear motion", "Projectile motion", "Relative motion", "Rotation about a fixed axis", "General plane motion and instantaneous centre"]},
+      {"name": "Kinetics", "hours": 7, "weight": 2, "topics": ["Newton's second law and D'Alembert's principle", "Work-energy principle", "Impulse-momentum principle", "Collision of bodies", "Kinetics of rigid body rotation"]}
+    ]},
+    {"name": "Engineering Graphics", "about": "Projections and technical drawing", "chapters": [
+      {"name": "Drawing Fundamentals", "hours": 4, "weight": 1, "foundation": true, "topics": ["Lines, lettering and dimensioning", "Scales: plain, diagonal and vernier", "Conic sections", "Cycloidal curves and involutes"]},
+      {"name": "Projection of Points and Lines", "hours": 6, "weight": 2, "foundation": true, "topics": ["Orthographic projection and quadrants", "Projection of points", "Lines inclined to one plane", "Lines inclined to both planes", "True length and traces of a line"]},
+      {"name": "Projection of Planes and Solids", "hours": 7, "weight": 2.5, "topics": ["Projection of plane figures", "Projection of prisms and pyramids", "Projection of cylinders and cones", "Solids with axis inclined to one plane", "Solids with axis inclined to both planes"]},
+      {"name": "Sections and Development", "hours": 6, "weight": 2, "topics": ["Section planes and true shape of section", "Sections of prisms and pyramids", "Sections of cylinders and cones", "Development of lateral surfaces"]},
+      {"name": "Isometric and Orthographic Views", "hours": 6, "weight": 2, "topics": ["Isometric scale and isometric projection", "Isometric views of simple solids", "Orthographic views from pictorial views", "Introduction to CAD drafting"]}
+    ]},
+    {"name": "Basic Mechanical Engineering", "about": "Thermodynamics, fluids, machines and manufacturing at an introductory level", "chapters": [
+      {"name": "Thermodynamics Basics", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Systems, properties and processes", "Zeroth and first laws of thermodynamics", "Steady flow energy equation", "Second law, heat engines and refrigerators", "Carnot cycle and entropy"]},
+      {"name": "Power Cycles and Engines", "hours": 6, "weight": 2, "topics": ["Otto and Diesel cycles", "Two-stroke and four-stroke engines", "Rankine cycle and steam power plants", "Refrigeration cycle basics"]},
+      {"name": "Fluid Mechanics Basics", "hours": 6, "weight": 2, "topics": ["Fluid properties and pressure measurement", "Pascal's law and hydrostatic forces", "Continuity and Bernoulli's equations", "Pumps and turbines: an overview"]},
+      {"name": "Engineering Materials", "hours": 5, "weight": 1.5, "topics": ["Classification of engineering materials", "Mechanical properties and the stress-strain curve", "Ferrous and non-ferrous alloys", "Heat treatment basics"]},
+      {"name": "Manufacturing Processes Overview", "hours": 6, "weight": 2, "topics": ["Casting processes", "Forming: rolling, forging and extrusion", "Welding, brazing and soldering", "Machining: lathe, drilling and milling", "Introduction to CNC and 3D printing"]},
+      {"name": "Power Transmission", "hours": 4, "weight": 1, "topics": ["Belt and chain drives", "Gears and gear trains", "Bearings and couplings"]}
+    ]},
+    {"name": "Environmental Science", "about": "Ecosystems, pollution and sustainability", "chapters": [
+      {"name": "Ecosystems and Biodiversity", "hours": 4, "weight": 2, "foundation": true, "topics": ["Structure and function of an ecosystem", "Energy flow and food chains", "Biogeochemical cycles", "Biodiversity and its conservation"]},
+      {"name": "Natural Resources", "hours": 4, "weight": 1.5, "topics": ["Water resources and their management", "Forest and land resources", "Conventional and renewable energy sources", "Sustainable development"]},
+      {"name": "Environmental Pollution", "hours": 5, "weight": 2.5, "topics": ["Air pollution and its control", "Water pollution and treatment", "Soil and noise pollution", "Solid and hazardous waste management", "E-waste"]},
+      {"name": "Global Issues and Policy", "hours": 4, "weight": 2, "topics": ["Climate change and global warming", "Ozone depletion and acid rain", "Environmental legislation in India", "Environmental impact assessment"]}
+    ]},
+    {"name": "Communication Skills", "about": "Technical and professional communication", "chapters": [
+      {"name": "Foundations of Communication", "hours": 3, "weight": 1.5, "foundation": true, "topics": ["Process and types of communication", "Barriers to communication", "Verbal and non-verbal communication", "Listening skills"]},
+      {"name": "Grammar and Vocabulary", "hours": 4, "weight": 2, "topics": ["Tenses and subject-verb agreement", "Active and passive voice", "Common errors in usage", "Technical vocabulary and word formation"]},
+      {"name": "Technical Writing", "hours": 5, "weight": 2.5, "topics": ["Paragraph and essay writing", "Formal letters and emails", "Technical reports and proposals", "Resume and cover letter", "Precis and summary writing"]},
+      {"name": "Speaking and Presentation", "hours": 4, "weight": 2, "topics": ["Presentation skills", "Group discussion", "Interview skills", "Reading comprehension"]}
+    ]},
+    {"name": "Engineering Economics", "about": "Economic analysis for engineering decisions", "chapters": [
+      {"name": "Demand, Supply and Markets", "hours": 5, "weight": 2, "foundation": true, "topics": ["Demand, supply and market equilibrium", "Elasticity of demand", "Utility and consumer behaviour", "Market structures: perfect competition to monopoly"]},
+      {"name": "Production and Cost", "hours": 5, "weight": 2, "topics": ["Production functions and returns to scale", "Cost concepts and cost curves", "Break-even analysis", "Pricing methods"]},
+      {"name": "Time Value of Money", "hours": 6, "weight": 2.5, "topics": ["Simple and compound interest", "Present worth and future worth", "Annuities and capital recovery", "Net present value and internal rate of return", "Payback period and benefit-cost ratio"]},
+      {"name": "Depreciation and Macroeconomics", "hours": 5, "weight": 1.5, "topics": ["Depreciation methods", "Replacement analysis", "National income and GDP", "Inflation and monetary policy"]}
+    ]},
+    {"name": "Fundamentals of Management", "about": "Principles of management for engineers", "chapters": [
+      {"name": "Management Functions", "hours": 5, "weight": 2, "foundation": true, "topics": ["Evolution of management thought", "Planning and decision making", "Organising and organisation structures", "Leading and motivation theories", "Controlling"]},
+      {"name": "Human Resource and Marketing", "hours": 5, "weight": 2, "topics": ["Recruitment, selection and training", "Performance appraisal", "Marketing mix and product life cycle", "Market segmentation and consumer behaviour"]},
+      {"name": "Finance and Operations", "hours": 5, "weight": 2, "topics": ["Financial statements and ratio analysis", "Working capital management", "Inventory control and EOQ", "Project management: PERT and CPM", "Quality management and TQM"]},
+      {"name": "Entrepreneurship and Ethics", "hours": 4, "weight": 1.5, "topics": ["Entrepreneurship and business plans", "Forms of business organisation", "Corporate social responsibility", "Professional ethics"]}
+    ]}
+  ]
+}

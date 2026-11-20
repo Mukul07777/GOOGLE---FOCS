@@ -1,0 +1,25 @@
+NUMBERED
+4.1 Introduction
+4.2 Steps for Problem Solving
+4.2.1 Analysing the problem
+4.2.2 Developing an Algorithm
+4.2.3 Coding
+4.2.4 Testing and Debugging
+4.3 Algorithm
+4.3.1 Why do we need an Algorithm?
+4.4 Representation of Algorithms
+4.4.1 Flowchart — Visual Representation of Algorithms
+4.4.2 Pseudocode
+4.5 Flow of Control
+4.5.1 Sequence
+4.5.2 Selection
+4.5.3 Repetition
+4.6 Verifying Algorithms
+4.7 Comparison of Algorithm
+4.8 Coding
+4.9 Decomposition
+BIG
+Chapter 4
+Introduction to Problem Solving
+SAMPLE
+“Computer Science is a science of abstraction -creating the right model for a problem and devising the appropriate mechanizable techniques to solve it.” –A. Aho and J. Ullman Chapter 4 Introduction to Problem Solving In this chapter »» Introduction »» Steps for Problem Solving »» Algorithm »» Representation of Algorithms »» Flow of Control »» Verifying Algorithms »» Comparison of Algorithm »» Coding »» Decomposition 4.1 Introduction Today, computers are all around us. We use them for doing various tasks in a faster and more accurate manner. For example, using a computer or smartphone, we can book train tickets online. India is a big country and we have an enormous railway network. Thus, railway reservation is a complex task. Making reservation involves information about many aspects, such as details of trains (train type, types of berth and compartments in each train, their schedule, etc.), simultaneous booking of tickets by multiple users and many other related factors. It is only due to the use of computers that today, the booking of the train tickets has become easy. Online booking of train tickets has added to our comfort by enabling us to book tickets from anywhere, anytime. We usually use the term computerisation to indicate the use of computer to develop software in order to automate any routine human task efficiently. Computers are used for solving various day-to-day problems and thus problem solving is an essential skill that a computer science student should know. It is pertinent to mention that computers themselves cannot solve a problem. Precise step-by-step instructions should be given by us to solve the problem. Thus, the success of a computer in solving a problem depends on how correctly and precisely we define the problem, design a solution (algorithm) a

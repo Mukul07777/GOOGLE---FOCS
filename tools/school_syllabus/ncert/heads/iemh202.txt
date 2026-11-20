@@ -1,0 +1,27 @@
+NUMBERED
+10.1 Combining Things
+10.1.1 Average of Averages
+10.1.2 Mixtures
+10.1.3 Custom Weights
+10.2 Visualising and Interpreting Data
+10.2.1 Stacking Columns
+10.2.2 An Alternative to Pie Chart
+BIG
+How Quantities Combine: Understanding Data
+10.1 Combining Things
+Think and Reflect
+Exercise Set 10.1
+100) (100) (100)
+100)
+Exercise Set 10.2
+50 ) ( 60 ) (100)
+50 ) ( 60 ) (100 )
+Exercise Set 10.3
+level is reduced to (
+10.2 Visualising and Interpreting Data
+Exercise Set 10.4
+Exercise Set 10.5
+End-of-Chapter Exercises
+Chapter Summary
+SAMPLE
+How Quantities Combine: Understanding Data 10.1 Combining Things In earlier grades, we looked at how the average conveys the ‘centre’ of given data. In this chapter, we shall extend the concept of average to a more general setting called ‘weighted average’. 10.1.1 Average of Averages Example 1: In a badminton academy, there is a group of 11 trainees — 8 seniors and 3 juniors. Their heights and average heights (in cm) are given in the table below. Find the average height of the whole group. Heights (in cm) Average Height (in cm) Seniors 165, 169, 164, 167, 170, 159, 164, 166 165.5 Juniors 146, 149, 153 149.33 Two students calculate the average height of the whole group in two ways: Method 1 165.5 + 149.33 2 = 314.83 2 = 157.415 Method 2 165 + 169 + 164 + 167 + 170 + 159 + 164 + 166 + 146 + 149 + 153 11 = 1772 11 = 161.09 Whose calculation gives the correct average height of the whole group? The average height of the whole group is the sum of the heights of all eleven members divided by 11, as in Method 2. Think and Reflect Why did Method 1 not work? 10 9 How Quantities Combine: Understanding Data Method 1 does not work because it treats the average heights of seniors and of juniors equally — but there are many more seniors than juniors! Well, I did it differently and got the correct answer! Shreyas calculated it differently as (165.5 × 8) + (149.33 × 3) 8 + 3 = 1324 + 448 11 = 1772 11 = 161.09. Do you understand why this also works? Can you see why 165.5 × 8 gives the sum of the heights of all the seniors and 149.33 × 3 gives the sum of the heights of all the juniors? This phenomenon is explained below with a generalisation. Suppose we have two collections of data — Collection 1 and Collection 2. Suppose the data in Collection 1, having n values, is x1, x2, x3, … , xn. T

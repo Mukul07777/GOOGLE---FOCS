@@ -1,0 +1,19 @@
+NUMBERED
+4.1 Rectangles and Squares
+4.2 Angles in a Quadrilateral
+4.3 More Quadrilaterals with Parallel Opposite Sides
+4.4 Quadrilaterals with Equal Sidelengths
+4.5 Playing with Quadrilaterals
+4.6 Kite and Trapezium
+BIG
+4 QUADRILATERALS
+4.1 Rectangles and Squares
+4.2 Angles in a Quadrilateral
+4.3 More Quadrilaterals with Parallel Opposite Sides
+4.4 Quadrilaterals with Equal Sidelengths
+4.5 Playing with Quadrilaterals
+4.6 Kite and Trapezium
+SUMMARY
+Which Quad?
+SAMPLE
+In this chapter, we will study some interesting types of four-sided figures and solve problems based on them. Such figures are commonly known as quadrilaterals. The word ‘quadrilateral’ is derived from Latin words — quadri meaning four, and latus referring to sides. Observe the following figures. Figs. (i), (ii), and (iii) are quadrilaterals, and the others are not. Why? The angles of a quadrilateral are the angles between its sides, as marked in Figs. (i), (ii), and (iii). We will start with the most familiar quadrilaterals — rectangles and squares. (i) (ii) (iii) (iv) (v) QUADRILATERALS 4 Reprint 2026-27 Quadrilaterals 83 4.1 Rectangles and Squares We know what rectangles are. Let us define them. Rectangle: A rectangle is a quadrilateral in which — (i) The angles are all right angles (90°), and (ii) The opposite sides are of equal length. The definition precisely states the conditions a quadrilateral has to satisfy to be called a rectangle. Are there other ways to define a rectangle? Let us consider the following problem related to the construction of rectangles. A Carpenter’s Problem A carpenter needs to put together two thin strips of wood, as shown in Fig. 1, so that when a thread is passed through their endpoints, it forms a rectangle. She already has one 8 cm long strip. What should be the length of the other strip? Where should they both be joined? Let us first model the structure that the carpenter has to make. The strips can be modelled as line segments. They are the diagonals of the quadrilateral formed by their endpoints. For the quadrilateral to be a rectangle, we need to answer the following questions — 1. What is the length of the other diagonal? 2. What is the point of intersection of the two diagonals? 3. What should the angle be between the diagonal

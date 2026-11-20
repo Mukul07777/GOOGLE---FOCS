@@ -1,0 +1,459 @@
+{
+ "about": "GATE papers built from the course library. General Aptitude is 15 marks and Engineering Mathematics about 13 in every paper (official); the split of the remaining marks between subjects is an approximation from recent papers and moves from year to year.",
+ "papers": [
+  {
+   "id": "gate_cs",
+   "short": "CS",
+   "name": "Computer Science and Information Technology",
+   "subjects": [
+    {
+     "course": "General Aptitude",
+     "marks": 15
+    },
+    {
+     "course": "Discrete Mathematics",
+     "marks": 8
+    },
+    {
+     "course": "Linear Algebra",
+     "marks": 3
+    },
+    {
+     "course": "Probability and Statistics",
+     "marks": 3
+    },
+    {
+     "course": "Digital Logic Design",
+     "marks": 5
+    },
+    {
+     "course": "Computer Organization and Architecture",
+     "marks": 9
+    },
+    {
+     "course": "Data Structures",
+     "marks": 10
+    },
+    {
+     "course": "Design and Analysis of Algorithms",
+     "marks": 8
+    },
+    {
+     "course": "Theory of Computation",
+     "marks": 8
+    },
+    {
+     "course": "Compiler Design",
+     "marks": 6
+    },
+    {
+     "course": "Operating Systems",
+     "marks": 9
+    },
+    {
+     "course": "Database Management Systems",
+     "marks": 8
+    },
+    {
+     "course": "Computer Networks",
+     "marks": 8
+    }
+   ]
+  },
+  {
+   "id": "gate_da",
+   "short": "DA",
+   "name": "Data Science and Artificial Intelligence",
+   "subjects": [
+    {
+     "course": "General Aptitude",
+     "marks": 15
+    },
+    {
+     "course": "Probability and Statistics",
+     "marks": 16
+    },
+    {
+     "course": "Linear Algebra",
+     "marks": 10
+    },
+    {
+     "course": "Engineering Mathematics I",
+     "marks": 8
+    },
+    {
+     "course": "Data Structures",
+     "marks": 10
+    },
+    {
+     "course": "Design and Analysis of Algorithms",
+     "marks": 6
+    },
+    {
+     "course": "Database Management Systems",
+     "marks": 7
+    },
+    {
+     "course": "Data Warehousing and Data Mining",
+     "marks": 5
+    },
+    {
+     "course": "Machine Learning",
+     "marks": 14
+    },
+    {
+     "course": "Artificial Intelligence",
+     "marks": 9
+    }
+   ]
+  },
+  {
+   "id": "gate_ec",
+   "short": "EC",
+   "name": "Electronics and Communication Engineering",
+   "subjects": [
+    {
+     "course": "General Aptitude",
+     "marks": 15
+    },
+    {
+     "course": "Linear Algebra",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics I",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics II",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics III",
+     "marks": 2
+    },
+    {
+     "course": "Probability and Statistics",
+     "marks": 2
+    },
+    {
+     "course": "Network Analysis and Synthesis",
+     "marks": 9
+    },
+    {
+     "course": "Signals and Systems",
+     "marks": 10
+    },
+    {
+     "course": "Electronic Devices and Circuits",
+     "marks": 9
+    },
+    {
+     "course": "Analog Circuits",
+     "marks": 9
+    },
+    {
+     "course": "Digital Logic Design",
+     "marks": 8
+    },
+    {
+     "course": "Control Systems",
+     "marks": 9
+    },
+    {
+     "course": "Communication Systems",
+     "marks": 6
+    },
+    {
+     "course": "Digital Communication",
+     "marks": 5
+    },
+    {
+     "course": "Electromagnetic Field Theory",
+     "marks": 7
+    }
+   ]
+  },
+  {
+   "id": "gate_ee",
+   "short": "EE",
+   "name": "Electrical Engineering",
+   "subjects": [
+    {
+     "course": "General Aptitude",
+     "marks": 15
+    },
+    {
+     "course": "Linear Algebra",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics I",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics II",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics III",
+     "marks": 2
+    },
+    {
+     "course": "Probability and Statistics",
+     "marks": 2
+    },
+    {
+     "course": "Network Analysis and Synthesis",
+     "marks": 9
+    },
+    {
+     "course": "Electromagnetic Field Theory",
+     "marks": 4
+    },
+    {
+     "course": "Signals and Systems",
+     "marks": 7
+    },
+    {
+     "course": "Electrical Machines I",
+     "marks": 6
+    },
+    {
+     "course": "Electrical Machines II",
+     "marks": 6
+    },
+    {
+     "course": "Power Systems I",
+     "marks": 5
+    },
+    {
+     "course": "Power Systems II",
+     "marks": 6
+    },
+    {
+     "course": "Control Systems",
+     "marks": 9
+    },
+    {
+     "course": "Electrical and Electronic Measurements",
+     "marks": 3
+    },
+    {
+     "course": "Analog Circuits",
+     "marks": 5
+    },
+    {
+     "course": "Digital Logic Design",
+     "marks": 4
+    },
+    {
+     "course": "Power Electronics",
+     "marks": 8
+    }
+   ]
+  },
+  {
+   "id": "gate_me",
+   "short": "ME",
+   "name": "Mechanical Engineering",
+   "subjects": [
+    {
+     "course": "General Aptitude",
+     "marks": 15
+    },
+    {
+     "course": "Linear Algebra",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics I",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics II",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics III",
+     "marks": 1
+    },
+    {
+     "course": "Probability and Statistics",
+     "marks": 2
+    },
+    {
+     "course": "Numerical Methods",
+     "marks": 1
+    },
+    {
+     "course": "Engineering Mechanics",
+     "marks": 4
+    },
+    {
+     "course": "Mechanics of Solids",
+     "marks": 8
+    },
+    {
+     "course": "Kinematics of Machines",
+     "marks": 4
+    },
+    {
+     "course": "Dynamics of Machines",
+     "marks": 3
+    },
+    {
+     "course": "Mechanical Vibrations",
+     "marks": 3
+    },
+    {
+     "course": "Design of Machine Elements",
+     "marks": 5
+    },
+    {
+     "course": "Fluid Mechanics",
+     "marks": 7
+    },
+    {
+     "course": "Heat and Mass Transfer",
+     "marks": 6
+    },
+    {
+     "course": "Engineering Thermodynamics",
+     "marks": 7
+    },
+    {
+     "course": "Applied Thermodynamics",
+     "marks": 4
+    },
+    {
+     "course": "Refrigeration and Air Conditioning",
+     "marks": 2
+    },
+    {
+     "course": "Fluid Machinery",
+     "marks": 2
+    },
+    {
+     "course": "Engineering Materials and Metallurgy",
+     "marks": 3
+    },
+    {
+     "course": "Manufacturing Processes",
+     "marks": 5
+    },
+    {
+     "course": "Machining and Machine Tools",
+     "marks": 5
+    },
+    {
+     "course": "Industrial Engineering",
+     "marks": 3
+    },
+    {
+     "course": "Operations Research",
+     "marks": 1
+    }
+   ]
+  },
+  {
+   "id": "gate_ce",
+   "short": "CE",
+   "name": "Civil Engineering",
+   "subjects": [
+    {
+     "course": "General Aptitude",
+     "marks": 15
+    },
+    {
+     "course": "Linear Algebra",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics I",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Mathematics II",
+     "marks": 3
+    },
+    {
+     "course": "Probability and Statistics",
+     "marks": 2
+    },
+    {
+     "course": "Numerical Methods",
+     "marks": 2
+    },
+    {
+     "course": "Engineering Mechanics",
+     "marks": 2
+    },
+    {
+     "course": "Mechanics of Solids",
+     "marks": 5
+    },
+    {
+     "course": "Structural Analysis I",
+     "marks": 4
+    },
+    {
+     "course": "Structural Analysis II",
+     "marks": 3
+    },
+    {
+     "course": "Building Materials and Construction",
+     "marks": 2
+    },
+    {
+     "course": "Construction Planning and Management",
+     "marks": 3
+    },
+    {
+     "course": "Design of Reinforced Concrete Structures",
+     "marks": 6
+    },
+    {
+     "course": "Design of Steel Structures",
+     "marks": 4
+    },
+    {
+     "course": "Soil Mechanics",
+     "marks": 8
+    },
+    {
+     "course": "Foundation Engineering",
+     "marks": 6
+    },
+    {
+     "course": "Fluid Mechanics",
+     "marks": 4
+    },
+    {
+     "course": "Open Channel Hydraulics",
+     "marks": 3
+    },
+    {
+     "course": "Engineering Hydrology",
+     "marks": 3
+    },
+    {
+     "course": "Irrigation and Hydraulic Structures",
+     "marks": 2
+    },
+    {
+     "course": "Environmental Engineering",
+     "marks": 8
+    },
+    {
+     "course": "Transportation Engineering",
+     "marks": 5
+    },
+    {
+     "course": "Surveying",
+     "marks": 4
+    }
+   ]
+  }
+ ]
+}

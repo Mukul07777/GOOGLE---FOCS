@@ -1,0 +1,10 @@
+NUMBERED
+5.1 Need for Reconciliation
+5.1.1 Timing Differences
+5.1.2 Differences Caused by Errors
+5.2 Preparation of Bank Reconciliation Statement
+5.2.1 Preparation of Bank Reconciliation Statement without adjusting Cash Book Balance
+BIG
+Bank Reconciliation Statement 5
+SAMPLE
+160 Accountancy I n chapter 4, you have learnt that the business organisations keep a record of their cash and bank transactions in a cash book. The cash book also serves the purpose of both the cash account and the bank account and shows the balance of both at the end of the period. Once the cash book has been balanced, it is usual to check its details with the records of the firm’s bank transactions as recorded by the bank. To enable this check, the cashier needs to ensure that the cash book is completely up to date and a recent bank statement (or a bank passbook) has been obtained from the bank. A bank statement or a bank passbook is a copy of a bank account as shown by the bank records. This enable the bank customers to check their funds in the bank regularly and update their own records of transactions that have occurred. An illustrative bank passbook of a current account is shown in figure 5.1. The amount of balance shown in the passbook or the bank statement must tally with the balance as shown in the cash book. But in practice, these are usually found to be different. Hence, we have to ascertain the causes for such difference. It will be observed that a bank statement/passbook shows all deposits in the credit column and withdrawals in the debit column. Thus, if deposits exceed withdrawals it shows a credit balance and if withdrawals exceed deposits it will show a debit balance (overdraft). LEARNING OBJECTIVES After studying this chapter, you will be able to : • state the meaning and need for the preparation of bank reconciliation statement; • identify causes of difference between bank balance as per cash book and pass book; • prepare the bank reconciliation statement; • ascertain the correct bank balance as per cash book; Bank Reconciliation Statement 5 Reprint 

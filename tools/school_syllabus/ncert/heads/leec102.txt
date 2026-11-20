@@ -1,0 +1,32 @@
+NUMBERED
+2.1 SOME BASIC CONCEPTS OF MACROECONOMICS
+2.2 CIRCULAR FLOW OF INCOME AND METHODS
+2.3 SOME MACROECONOMIC IDENTITIES
+2.4 NOMINAL AND REAL GDP
+2.5 GDP AND WELFARE
+BIG
+National Income Accounting
+We can say, if i student has pocket money i , then,
+GDP ≡ ∑
+∑ =1
+Ci + ∑
+Ii + ∑
+Gi + ∑
+Therefore, ∑
+received by all the firms in the economy ≡ C – Cm; ∑
+RVi ≡ C – Cm + I – Im + G – Gm + ∑
+≡ C + I + G + ∑
+Here X ≡ ∑
+Wi + ∑
+∑ Ini + ∑
+Here, ∑
+Wi ≡ W, ∑
+∑ Ini ≡ In, ∑
+å GVAi
+yr a m m u S
+st pe cn o C ye K
+se si cr e x E
+1. 2 xi dn ep p A
+2. 2 xi dn ep p A
+SAMPLE
+National Income Accounting National Income Accounting National Income Accounting National Income Accounting National Income Accounting In this chapter we will introduce the fundamental functioning of a simple economy. In section 2.1 we describe some primary ideas we shall work with. In section 2.2 we describe how we can view the aggregate income of the entire economy going through the sectors of the economy in a circular way. The same section also deals with the three ways to calculate the national income; namely product method, expenditure method and income method. The last section 2.3 describes the various sub-categories of national income. It also defines different price indices like GDP deflator, Consumer Price Index, Wholesale Price Indices and discusses the problems associated with taking GDP of a country as an indicator of the aggregate welfare of the people of the country. 2.1 SOME BASIC CONCEPTS OF MACROECONOMICS One of the pioneers of the subject we call in economics today, Adam Smith, named his most influential work – An Enquiry into the Nature and Cause of the Wealth of Nations. What generates the economic wealth of a nation? What makes countries rich or poor? These are some of the central questions of economics. It is not that countries which are endowed with a bounty of natural wealth – minerals or forests or the most fertile lands – are naturally the richest countries. In fact the resource rich Africa and Latin America have some of the poorest countries in the world, whereas many prosperous countries have scarcely any natural wealth. There was a time when possession of natural resources was the most important consideration but even then the resource had to be transformed through a production process. The economic wealth, or well-being, of a country thus d

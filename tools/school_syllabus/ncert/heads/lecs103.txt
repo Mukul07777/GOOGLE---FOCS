@@ -1,0 +1,16 @@
+NUMBERED
+3.1 Introduction
+3.2 Stack
+3.2.1 APPLICATIONS OF STACK
+3.3 Operations on Stack
+3.3.1 PUSH and POP Operations
+3.4 Implementation of Stack in Python
+3.5 Notations for Arithmetic Expressions
+3.6 Conversion from Infix to Postfix Notation
+3.7 Evaluation of Postfix Expression
+BIG
+3 Stack
+Summary
+Exercise
+SAMPLE
+In this Chapter »» Introduction »» Stack »» Operations on Stack »» Implementation of Stack in Python »» Notations for Arithmetic Expressions »» Conversion From Infix To Postfix Notation »» Evaluation of Postfix Expression C h a p t e r “We're going to be able to ask our computers to monitor things for us, and when certain conditions happen, are triggered, the computers will take certain actions and inform us after the fact.” — Steve Jobs 3.1 Introduction We have learnt about different data types in Python for handling values in Class XI. Recall that String, List, Set, Tuple, etc. are the sequence data types that can be used to represent collection of elements either of the same type or different types. Multiple data elements are grouped in a particular way for faster accessibility and efficient storage of data. That is why we have used different data types in python for storing data values. Such grouping is referred as a data structure. A data structure defines a mechanism to store, organise and access data along with operations (processing) that can be efficiently performed on the data. For example, string is a data structure containing a sequence of elements where each element is a character. On the other hand, list is a sequence data structure in which each element may be of different types. We can apply different operations like reversal, slicing, counting of 3 Stack Reprint 2026-27 Computer Science - Class XII 40 Other important data structures in Computer Science include Array, Linked List, Binary Trees, Heaps, Graph, Sparse Matrix, etc. A data structure in which elements are organised in a sequence is called linear data structure. elements, etc. on list and string. Hence, a data structure organises multiple elements in a way so that certain operations on each ele

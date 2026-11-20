@@ -1,0 +1,14 @@
+{
+  "name": "hindi",
+  "seconds": 12.39,
+  "frames": 543,
+  "fps": 43.8,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "open",
+      "t": 3.64
+    }
+  ]
+}

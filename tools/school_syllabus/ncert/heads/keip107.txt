@@ -1,0 +1,24 @@
+NUMBERED
+7.1 Introduction
+7.2 File System
+7.2.1 Limitations of a File System
+7.3 Database Management System
+7.3.1 File System to DBMS
+7.3.2 Key Concepts in DBMS
+7.4 Relational Data Model
+7.4.1 Three Important Properties of a Relation
+7.5 Keys in a Relational Database
+7.5.1 Candidate Key
+7.5.2 Primary Key
+7.5.3 Composite Primary Key
+7.5.4 Foreign Key
+BIG
+“Inconsistency of your mind… Can damage
+your memory… Remove the inconsistent
+data… And keep the original one !!!”
+— Nisarga Jain
+Database Concepts
+Summary
+Exercise
+SAMPLE
+7.1 Introduction After learning about importance of data in the previous chapter, we need to explore the methods to store and manage data electronically. Let us take an example of a school that maintains data about its students, along with their attendance record and guardian details. The class teacher marks daily attendance of the students in the attendance register. The teacher records ‘P’ for present or ‘A’ for absent against each student’s roll number on each working day. If class strength is 50 and total working days in “Inconsistency of your mind… Can damage your memory… Remove the inconsistent data… And keep the original one !!!” — Nisarga Jain In this chapter » Introduction » File System » Database Management System » Relational Data Model » Keys in a Relational Database Database Concepts Chapter 7 Reprint 2026-27 124 Informatics Practices – Class XI a month are 26, the teacher needs to record 50 × 26 records manually in the register every month. As the volume of data increases, manual data entry becomes tedious. Following are some of the limitations of manual record keeping in this example: 1) Entry of student details (Roll number and name) in the new attendance register when the student is promoted to the next class. 2) Writing student details on each month’s attendance page where inconsistency may happen due to incorrectly written names, skipped student records, etc. 3) Loss of data in case attendance register is lost or damaged. 4) Erroneous calculation while consolidating attendance record manually. The office staff also manually maintain Student details viz. Roll Number, Name and Date of Birth with respective guardian details viz. Guardian name, Contact Number and Address. This is required for correspondence with guardian regarding student attendance and r

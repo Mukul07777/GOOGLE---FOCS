@@ -1,0 +1,222 @@
+# 11 | Computer Science | Computer Science | kecs1 | pages 12
+=== page 4
+Preface	
+In the present education system of our country, specialised or discipline-
+based courses are introduced at the higher secondary stage. This stage 
+is crucial as well as challenging because of the transition from general 
+to discipline-based curriculum. The syllabus at this stage needs to have 
+sufficient rigour and depth while remaining mindful of the comprehension 
+level of the learners. Further, the textbook should not be heavily loaded 
+with content.
+Computers have permeated in every facet of life. Study of basic concepts 
+of computer science has been desirable in education. There are courses 
+offered in the name of Computer Science, Information and Communication 
+Technology (ICT), Information Technology (IT), etc., by various boards and 
+schools up to secondary stage, as optional. These mainly focus on using 
+computer for word processing, presentation tools and application software.
+Computer Science (CS) at the higher secondary stage of school education 
+is also offered as an optional subject. At this stage, students usually opt 
+for CS with an aim of pursuing a career in software development or related 
+areas, after going through professional courses at higher levels. Therefore, 
+at higher secondary stage, the curriculum of CS introduces basics of 
+computing and sufficient conceptual background of Computer Science.
+The primary focus is on fostering the development of computational 
+thinking and problem-solving skills. This book has 11 chapters covering 
+the following broader themes:
+•	Fundamentals: basic understanding of computer system, hardware 
+components and software, data representation, number system, 
+encoding as well as awareness of emerging trends in computer 
+science.
+•	 Problem-solving: problem analysis, algorithm, flowchart, implementation, 
+testing and maintenance.
+•	Programming: basic constructs of a program using Python 
+programming language — program structure, identifiers, variables, 
+flow of control, advanced data types, functions.
+•	Societal impact: awareness of digital footprints, data privacy and 
+protection, cyber crime, etiquettes in a digital society and implications 
+on security, privacy, piracy, ethics, values and health concerns. 
+•	Chapters 1, 2, 3, 4 and 11 have two additional components — 
+(i) activities and (ii) think and reflect for self assessment while learning 
+as well as to generate further interest in the learner.
+Python programming language is introduced that is easy to learn in 
+interactive and script mode. A number of hands-on examples are given to 
+gradually explain methodology to solve different types of problems across 
+the Chapters 5 to 10. The programming examples as well as the exercises 
+in these chapters are required to be solved in a computer and verify with 
+the given outputs. 
+Reprint 2026-27
+
+=== page 5
+vi
+Group projects through case studies are proposed to solve complex 
+problems. Peer assessment of these projects will promote peer-learning, 
+team spirit and responsiveness. Some exercises have been made in case-
+study format to promote problem-finding and problem-solving skills.
+Box items (light green background) are pinned inside the chapters 
+either to explain related concepts or to provide additional information 
+related to the topic covered in that section. However, these box items are 
+not to be assessed  through examinations.  
+Unicode encoding scheme for Indic scripts have also been introduced 
+to motivate students to solve problems in public services and the local 
+micro or small businesses in India.
+These chapters have been written by involving practicing teachers as 
+well as subject experts. These have been iteratively peer-reviewed.
+I would like to place on record appreciation for Professor Om Vikas for 
+leading the review activities of the book as well as for his guidance and 
+motivation to the development team throughout. Several iterations have 
+resulted into this book. Thanks are due to the authors and reviewers for 
+their valuable contribution.
+Comments and suggestions are welcome to make this endeavour of par 
+excellence.
+New Delhi	
+Rejaul Karim Barbhuiya
+9 August 2018	
+Assistant Professor 
+	
+Department of Education 
+	
+in Science and Mathematics, NCERT
+Reprint 2026-27
+
+=== page 8
+Contents
+Foreword	 	
+iii
+Preface	
+	
+v
+Chapter 1 : Computer System	
+1
+1.1 Introduction to Computer System	
+1
+1.2 Evolution of Computer	
+3
+1.3 Computer Memory	
+5
+1.4 Data Transfer between Memory and CPU	
+7
+1.5 Microprocessors	
+8
+1.6 Data and Information	
+10
+1.7 Software 	
+14
+1.8 Operating System	
+20
+Chapter 2 : Encoding Schemes and Number System 	
+27
+2.1 Introduction	
+27
+2.2 Number System	
+30
+2.3 Conversion between Number Systems 	
+34
+Chapter 3 : Emerging Trends	
+45
+3.1 Introduction	
+45
+3.2 Artificial Intelligence (AI) 	
+45
+3.3 Big Data 	
+49
+3.4 Internet of Things (IoT)	
+51
+3.5 Cloud Computing	
+53
+3.6 Grid Computing	
+55
+3.7 Blockchains	
+56
+Chapter 4 : Introduction to Problem Solving	
+61
+4.1 Introduction	
+61
+4.2 Steps for Problem Solving	
+62
+4.3 Algorithm	
+64
+4.4 Representation of Algorithms	
+65
+4.5 Flow of Control	
+70
+4.6 Verifying Algorithms	
+77
+4.7 Comparison of Algorithm	
+79
+Reprint 2026-27
+
+=== page 9
+x
+4.8 Coding	
+80
+4.9 Decomposition	
+81
+Chapter 5 : Getting Started with Python	
+87
+5.1 Introduction to Python	
+87
+5.2 Python Keywords	
+90
+5.3 Identifiers	
+91
+5.4 Variables	
+91
+5.5 Comments	
+92
+5.6 Everything is an Object 	
+93
+5.7 Data Types 	
+94
+5.8 Operators	
+99
+5.9 Expressions 	
+104
+5.10 Statement	
+106
+5.11 Input and Output 	
+107
+5.12 Type Conversion	
+108
+5.13 Debugging	
+112
+Chapter 6 : Flow of Control	
+121
+6.1 Introduction	
+121
+6.2 Selection	
+122
+6.3 Indentation	
+126
+6.4 Repetition  	
+127
+6.5 Break and Continue Statement	
+132
+6.6 Nested Loops	
+136
+Chapter 7 : Functions	
+143
+7.1 Introduction	
+143
+7.2 Functions 	
+145
+7.3 User Defined Functions	
+146
+7.4 Scope of a Variable	
+158
+7.5 Python Standard Library	
+160
+Chapter 8 : Strings	
+175
+8.1 Introduction	
+175
+8.2 Strings 	
+175
+8.3 String Operations	
+177
+8.4 Traversing a String	
+180
+8.5 String Methods and Built-in Functions	
+180
+8.6 Handling Strings	
+184
+Reprint 2026-27

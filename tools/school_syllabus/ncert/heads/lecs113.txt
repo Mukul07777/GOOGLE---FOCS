@@ -1,0 +1,15 @@
+NUMBERED
+13.1 Introduction
+13.2 Approaches for Solving Projects
+13.3 Teamwork
+13.4 Project Descriptions
+BIG
+“An idea that is developed and put into
+action is more important than idea that
+exists only as an idea.”
+— Gautam Buddha
+Project Based
+Learning
+Notes
+SAMPLE
+In this Chapter »» Introduction »» Approaches for Solving Projects »» Teamwork »» Project Descriptions C h a p t e r “An idea that is developed and put into action is more important than idea that exists only as an idea.” — Gautam Buddha 13.1 Introduction Project based learning gives a thorough practical exposure to students regarding a problem upon which the project is based. Through project based learning, students learn to organise their project and use their time effectively for successful completion of the project. Projects are developed generally in groups where students can learn various skills such as working together, problem solving, decision making, and investigating activities. Project based learning involves the steps such as analysing the problem, formulating the problem into small modules, applying the mechanism or method to solve each module and then integrating the solution of all the modules to arrive at the complete solution of the problem. To solve a problem, it is required that those who work on it gather the relevant data and process it by applying a particular method. Data may Project Based Learning 13 Reprint 2026-27 Computer Science - Class XII 242 be collected as per the requirement of the project in a particular format. All the team members should be associated to accomplish the task. After collecting data, it should be processed to solve the problem. The results should be reported in a predetermined format. 13.2 Approaches for Solving Projects The approach followed for the development and completion of a project plays a pivotal role in project based learning. There are several approaches to execute a project such as modular approach, top down approach and bottom up approach. A structured or a modular approach to a project means that a project

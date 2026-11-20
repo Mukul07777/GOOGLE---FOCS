@@ -1,0 +1,30 @@
+{
+  "name": "mentorside",
+  "seconds": 18.93,
+  "frames": 487,
+  "fps": 25.7,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "seekers",
+      "t": 1.79
+    },
+    {
+      "label": "calls",
+      "t": 5.93
+    },
+    {
+      "label": "master sessions",
+      "t": 10.08
+    },
+    {
+      "label": "earnings",
+      "t": 14.21
+    },
+    {
+      "label": "end",
+      "t": 18.52
+    }
+  ]
+}

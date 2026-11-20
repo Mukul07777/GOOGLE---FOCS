@@ -1,0 +1,54 @@
+NUMBERED
+6.1 Perimeter of a Shape
+6.2 Perimeter of a Circle — The C/D Ratio
+6.3 π Is Irrational
+6.4 Length of an Arc of a Circle
+6.5 Problems, Puzzles, and Paradoxes on Perimeter
+6.6 Area of a Rectangle
+6.7 Area of a Parallelogram
+6.8 Area of a Triangle
+6.8.1 Heron’s formula
+6.9 Squaring a Rectangle
+6.10 Area of a Circle
+6.10.1 Area of Sector of a Circle
+BIG
+Measuring Space: Perimeter and Area
+Think and Reflect
+6.1 Perimeter of a Shape
+6.2 Perimeter of a Circle — The C/D Ratio
+HOME MEASUREMENT
+You can do a simple measurement at home to estimate the C/D ratio.
+C/D’s Adventurous Journey: From Ancient Approximations
+6.3 π Is Irrational
+6.4 Length of an Arc of a Circle
+6.5 Problems, Puzzles, and Paradoxes on Perimeter
+Exercise Set 6.1
+6.6 Area of a Rectangle
+6.7 Area of a Parallelogram
+6.8 Area of a Triangle
+(a +a +2b) = a +b units. Heron’s formula
+semi-perimeter s is s = (a +b+c +d), then:
+Areaof4-gon = (s−a)(s−b)(s−c)(s−d ).
+Let the sides of the rectangle be a, b. Then s = (2a +2b) = a +b, so the
+Area = (a +b−a)(a +b−b)(a +b−a)(a +b−b) = ab ⋅ab = ab,
+(s−2a)(s−2b)(s−c)(s−c).
+(a +b) (c +b−a)(c +a −b) =(a +b) c −(b−a) .
+length (recal the Baudhāyana–Pythagoras theorem) is c −(b−a) .
+Special Cases and Generalisation in Mathematics
+(a + b) = a + b + ab
+(a + b +c) = a + b +c + ab + bc + ca
+s = (a +b+c +0) = (a +b+c).
+Areaoftriangle = (s−a)(s−b)(s−c)(s−d)
+= s (s−a)(s−b)(s−c ) since d = 0.
+6.9 Squaring a Rectangle
+Exercise Set 6.2
+6.10 Area of a Circle
+Exercise Set 6.3
+End-of-Chapter Exercises
+( + )( + )
+Chapter Summary
+formula: π = 4 (1 –
++ – + )
+area s a s b s c s d . where s = (a +b+c +d)
+SAMPLE
+Measuring Space: Perimeter and Area Fig. 6.1: Athletes at the start of 4 × 100 m relay race In Fig. 6.1, you see athletes assembled at the start of a 4 × 100 m relay race. The tracks are laid out, and the athletes are all set to go racing down the tracks. Do you notice that the athletes are not at the same starting line? Those in the outer lanes seem to be starting ahead of those in the inner lanes while the finish line is the same for all of them. What could be the reason for this? The distance between the starting points of adjacent lanes is called the ‘stagger’. Notice that the stagger continues all the way to the outermost lane. Do you think the stagger gives anyone (those in the outer lanes or in the inner lanes) an unfair advantage? Why or why not? On what basis can the organisers work out the length of the stagger between lanes? Think and Reflect In my school, the playground is too small to have a 400 m track, so the school constructed a 200 m track instead. Does this mean that we need a smaller stagger for the race tracks in my school (i.e., smaller than the stagger used in the Olympics), for the same 4 × 100 m relay race? To answer the question about the lane staggers required on a 4 × 100 m athletics track, we need to know how to find the length around a circle. 6 Measuring Space: Perimeter and Area 119 6.1 Perimeter of a Shape Given any shape, its perimeter is the total length around its border. Imagine a tiny insect going for a walk around its border, never turning around, till it returns to its starting point. The perimeter of the shape is the total distance it travels. So, a square with side a units has perimeter 4a units. An equilateral triangle with side a units has perimeter 3a units. Fig. 6.2 A a units Fig. 6.2 B a units The perimeter of a rectangle wi

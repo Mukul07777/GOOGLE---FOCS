@@ -1,0 +1,53 @@
+NUMBERED
+9.1 REFLECTION OF LIGHT
+9.2 SPHERICAL MIRRORS
+9.2.1 Image Formation by Spherical Mirrors
+9.2.2 Representation of Images Formed by Spherical Mirrors Using Ray Diagrams
+9.2.3 Sign Convention for Reflection by Spherical Mirrors
+9.2.4 Mirror Formula and Magnification
+9.3 REFRACTION OF LIGHT
+9.3.1 Refraction through a Rectangular Glass Slab
+9.3.2 The Refractive Index
+9.3.3 Refraction by Spherical Lenses
+9.3.4 Image Formation by Lenses
+9.3.5 Image Formation in Lenses Using Ray Diagrams
+9.3.6 Sign Convention for Spherical Lenses
+9.3.7 Lens Formula and Magnification
+9.3.8 Power of a Lens
+BIG
+Light – Reflection and Refraction
+CHAPTER9
+! w o n K o t er o M
+9.1 REFLECTION OF LIGHT
+Activity 9.1
+9.2 SPHERICAL MIRRORS
+Activity 9.2
+9.2.1 Image Formation by Spherical Mirrors
+Activity 9.3
+9.2.2 Representation of Images Formed by Spherical Mirrors Using Ray Diagrams
+Activity 9.4
+Activity 9.5
+Activity 9.6
+Q U E S T I O N S
+9.2.3 Sign Convention for Reflection by Spherical Mirrors
+9.2.4 Mirror Formula and Magnification
+9.3 REFRACTION OF LIGHT
+Activity 9.7
+Activity 9.8
+Activity 9.9
+9.3.1 Refraction through a Rectangular Glass Slab
+Activity 9.10
+9.3.2 The Refractive Index
+9.3.3 Refraction by Spherical Lenses
+Activity 9.11
+9.3.4 Image Formation by Lenses
+Activity 9.12
+Activity 9.13
+9.3.5 Image Formation in Lenses Using Ray Diagrams
+9.3.6 Sign Convention for Spherical Lenses
+9.3.7 Lens Formula and Magnification
+9.3.8 Power of a Lens
+What you have learnt
+E X E R C I S E S
+SAMPLE
+Science 134 Light – Reflection and Refraction 9 CHAPTER W e see a variety of objects in the world around us. However, we are unable to see anything in a dark room. On lighting up the room, things become visible. What makes things visible? During the day, the sunlight helps us to see objects. An object reflects light that falls on it. This reflected light, when received by our eyes, enables us to see things. We are able to see through a transparent medium as light is transmitted through it. There are a number of common wonderful phenomena associated with light such as image formation by mirrors, the twinkling of stars, the beautiful colours of a rainbow, bending of light by a medium and so on. A study of the properties of light helps us to explore them. By observing the common optical phenomena around us, we may conclude that light seems to travel in straight lines. The fact that a small source of light casts a sharp shadow of an opaque object points to this straight-line path of light, usually indicated as a ray of light. More to Know! If an opaque object on the path of light becomes very small, light has a tendency to bend around it and not walk in a straight line – an effect known as the diffraction of light. Then the straight-line treatment of optics using rays fails. To explain phenomena such as diffraction, light is thought of as a wave, the details of which you will study in higher classes. Again, at the beginning of the 20th century, it became known that the wave theory of light often becomes inadequate for treatment of the interaction of light with matter, and light often behaves somewhat like a stream of particles. This confusion about the true nature of light continued for some years till a modern quantum theory of light emerged in which light is neither a ‘wa

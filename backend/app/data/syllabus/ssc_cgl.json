@@ -1,0 +1,211 @@
+{
+  "exam": "ssc_cgl",
+  "name": "SSC CGL",
+  "about": "Based on the SSC CGL 2025 notice: Tier-I has 100 questions in 60 minutes (25 each of Reasoning, General Awareness, Quantitative Aptitude and English; 2 marks each, 0.5 negative); Tier-II Paper-I has Mathematical Abilities (30), Reasoning (30), English (45), General Awareness (25) and Computer Knowledge (20), 3 marks each, 1 negative. Weightage is the approximate share of questions in the papers of 2017-2025; hours are realistic self-study estimates (learning plus practice), not counting revision and mock tests.",
+  "subjects": [
+    {
+      "name": "Quantitative Aptitude",
+      "units": [
+        {
+          "name": "Arithmetic",
+          "chapters": [
+            {"name": "Number System", "class": 0, "hours": 10, "weight": 2, "foundation": true,
+             "topics": ["Divisibility rules", "Remainders", "Unit digit and cyclicity", "Factors and number of divisors", "Prime numbers", "Simplification and BODMAS", "Surds and indices", "Decimals and fractions"]},
+            {"name": "HCF and LCM", "class": 0, "hours": 4, "weight": 1,
+             "topics": ["HCF and LCM of numbers", "HCF and LCM of fractions", "Word problems on HCF and LCM"]},
+            {"name": "Percentage", "class": 0, "hours": 6, "weight": 2, "foundation": true,
+             "topics": ["Percentage basics and fraction equivalents", "Successive percentage change", "Population and depreciation", "Expenditure and consumption", "Elections and examinations"]},
+            {"name": "Profit, Loss and Discount", "class": 0, "hours": 7, "weight": 2.5,
+             "topics": ["Cost price, selling price and profit", "Marked price and discount", "Successive discounts", "Dishonest dealer", "Overall gain or loss on two articles"]},
+            {"name": "Ratio and Proportion", "class": 0, "hours": 5, "weight": 1.5, "foundation": true,
+             "topics": ["Ratio basics", "Proportion and mean proportional", "Partnership", "Coins and income-expenditure"]},
+            {"name": "Mixture and Alligation", "class": 0, "hours": 4, "weight": 1,
+             "topics": ["Rule of alligation", "Mixtures of liquids", "Replacement problems"]},
+            {"name": "Average", "class": 0, "hours": 4, "weight": 1.5,
+             "topics": ["Average basics", "Replacement and inclusion", "Average of consecutive numbers", "Age-based averages"]},
+            {"name": "Simple and Compound Interest", "class": 0, "hours": 6, "weight": 1.5,
+             "topics": ["Simple interest", "Compound interest", "Difference between CI and SI", "Instalments", "Compounding half-yearly and quarterly"]},
+            {"name": "Time and Work", "class": 0, "hours": 6, "weight": 1.5,
+             "topics": ["Work and efficiency", "Working together and alternately", "Work and wages", "Man-days (MDH)", "Pipes and cisterns"]},
+            {"name": "Time, Speed and Distance", "class": 0, "hours": 7, "weight": 2,
+             "topics": ["Speed basics and average speed", "Relative speed", "Trains", "Boats and streams", "Races"]}
+          ]
+        },
+        {
+          "name": "Advanced Mathematics",
+          "chapters": [
+            {"name": "Algebra", "class": 0, "hours": 8, "weight": 2,
+             "topics": ["Algebraic identities", "x + 1/x type problems", "Linear equations", "Quadratic equations", "Polynomials and factorisation"]},
+            {"name": "Geometry", "class": 0, "hours": 12, "weight": 2.5,
+             "topics": ["Lines and angles", "Triangles and their centres", "Congruence and similarity", "Circles: chords, tangents and angles", "Quadrilaterals and polygons"]},
+            {"name": "Mensuration", "class": 0, "hours": 10, "weight": 2,
+             "topics": ["Area and perimeter of 2D figures", "Cube, cuboid and cylinder", "Cone, sphere and hemisphere", "Prism and pyramid", "Melting and recasting"]},
+            {"name": "Trigonometry", "class": 0, "hours": 9, "weight": 2,
+             "topics": ["Trigonometric ratios and identities", "Standard angle values", "Maximum and minimum values", "Heights and distances"]},
+            {"name": "Coordinate Geometry", "class": 0, "hours": 3, "weight": 1,
+             "topics": ["Straight lines and slopes", "Area enclosed by lines"]},
+            {"name": "Statistics and Data Interpretation", "class": 0, "hours": 6, "weight": 1.5,
+             "topics": ["Mean, median and mode", "Standard deviation and variance", "Bar graph", "Pie chart", "Line graph and tables", "Histogram and frequency polygon"]},
+            {"name": "Probability", "class": 0, "hours": 2, "weight": 1,
+             "topics": ["Basic probability"]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General Intelligence and Reasoning",
+      "units": [
+        {
+          "name": "Verbal Reasoning",
+          "chapters": [
+            {"name": "Analogy", "class": 0, "hours": 3, "weight": 2, "foundation": true,
+             "topics": ["Word analogy", "Number analogy", "Letter-cluster analogy"]},
+            {"name": "Classification (Odd One Out)", "class": 0, "hours": 3, "weight": 1.5,
+             "topics": ["Word odd one out", "Number odd one out", "Letter-cluster odd one out"]},
+            {"name": "Series", "class": 0, "hours": 4, "weight": 2,
+             "topics": ["Number series", "Letter series", "Alphanumeric series", "Missing number in figures"]},
+            {"name": "Coding-Decoding", "class": 0, "hours": 4, "weight": 2,
+             "topics": ["Letter coding", "Number coding", "Mixed and symbol coding"]},
+            {"name": "Blood Relations", "class": 0, "hours": 3, "weight": 1.5,
+             "topics": ["Family relations", "Coded blood relations"]},
+            {"name": "Direction and Distance", "class": 0, "hours": 2, "weight": 1,
+             "topics": ["Direction sense", "Shortest distance"]},
+            {"name": "Order and Ranking", "class": 0, "hours": 2, "weight": 1,
+             "topics": ["Position in a row", "Ranking from both ends"]},
+            {"name": "Seating Arrangement", "class": 0, "hours": 4, "weight": 1,
+             "topics": ["Linear arrangement", "Circular arrangement"]},
+            {"name": "Syllogism", "class": 0, "hours": 3, "weight": 1.5,
+             "topics": ["Statements and conclusions", "Venn diagram method", "Possibility cases"]},
+            {"name": "Mathematical Operations", "class": 0, "hours": 3, "weight": 1.5,
+             "topics": ["Interchanging signs and numbers", "Balancing equations", "Symbol-based operations"]},
+            {"name": "Venn Diagrams", "class": 0, "hours": 2, "weight": 1,
+             "topics": ["Relationship between classes", "Counting from Venn diagrams"]},
+            {"name": "Word Arrangement and Dictionary Order", "class": 0, "hours": 1, "weight": 1,
+             "topics": ["Dictionary order", "Logical order of words"]},
+            {"name": "Calendar and Clock", "class": 0, "hours": 2, "weight": 1,
+             "topics": ["Calendar problems", "Clock angles"]}
+          ]
+        },
+        {
+          "name": "Non-Verbal Reasoning",
+          "chapters": [
+            {"name": "Mirror and Water Images", "class": 0, "hours": 2, "weight": 1.5,
+             "topics": ["Mirror image", "Water image"]},
+            {"name": "Paper Folding and Cutting", "class": 0, "hours": 2, "weight": 1.5,
+             "topics": ["Paper folding and punching", "Paper cutting"]},
+            {"name": "Embedded Figures", "class": 0, "hours": 2, "weight": 1.5,
+             "topics": ["Hidden figure in a pattern"]},
+            {"name": "Figure Counting", "class": 0, "hours": 2, "weight": 1.5,
+             "topics": ["Counting triangles", "Counting squares and rectangles"]},
+            {"name": "Figure Series and Completion", "class": 0, "hours": 2, "weight": 1,
+             "topics": ["Figure series", "Pattern completion", "Figure analogy and odd one out"]},
+            {"name": "Cubes and Dice", "class": 0, "hours": 2, "weight": 1,
+             "topics": ["Opposite faces of a dice", "Cube cutting and painting"]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English Comprehension",
+      "units": [
+        {
+          "name": "Vocabulary",
+          "chapters": [
+            {"name": "Synonyms and Antonyms", "class": 0, "hours": 6, "weight": 2, "foundation": true,
+             "topics": ["Synonyms", "Antonyms"]},
+            {"name": "One Word Substitution", "class": 0, "hours": 4, "weight": 1.5,
+             "topics": ["One word substitution"]},
+            {"name": "Idioms and Phrases", "class": 0, "hours": 4, "weight": 1.5,
+             "topics": ["Idioms", "Phrasal verbs"]},
+            {"name": "Spelling Errors", "class": 0, "hours": 2, "weight": 1.5,
+             "topics": ["Correctly spelt word", "Misspelt word"]}
+          ]
+        },
+        {
+          "name": "Grammar",
+          "chapters": [
+            {"name": "Error Spotting", "class": 0, "hours": 8, "weight": 2, "foundation": true,
+             "topics": ["Subject-verb agreement", "Tenses", "Articles and determiners", "Prepositions", "Nouns, pronouns and adjectives"]},
+            {"name": "Sentence Improvement", "class": 0, "hours": 4, "weight": 1.5,
+             "topics": ["Improving a part of a sentence"]},
+            {"name": "Fill in the Blanks", "class": 0, "hours": 3, "weight": 1.5,
+             "topics": ["Vocabulary-based blanks", "Grammar-based blanks"]},
+            {"name": "Active and Passive Voice", "class": 0, "hours": 3, "weight": 1.5,
+             "topics": ["Active to passive", "Passive to active"]},
+            {"name": "Direct and Indirect Speech", "class": 0, "hours": 3, "weight": 1,
+             "topics": ["Direct to indirect", "Indirect to direct"]}
+          ]
+        },
+        {
+          "name": "Comprehension",
+          "chapters": [
+            {"name": "Reading Comprehension", "class": 0, "hours": 6, "weight": 2,
+             "topics": ["Main idea and title", "Inference and detail questions", "Vocabulary from the passage"]},
+            {"name": "Cloze Test", "class": 0, "hours": 4, "weight": 2,
+             "topics": ["Cloze test"]},
+            {"name": "Sentence Rearrangement", "class": 0, "hours": 3, "weight": 1,
+             "topics": ["Para jumbles", "Sentence ordering"]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General Awareness",
+      "units": [
+        {
+          "name": "Static General Knowledge",
+          "chapters": [
+            {"name": "History", "class": 0, "hours": 12, "weight": 2,
+             "topics": ["Ancient India", "Medieval India", "Modern India and the freedom struggle"]},
+            {"name": "Polity", "class": 0, "hours": 10, "weight": 2,
+             "topics": ["Constitution: making, parts and schedules", "Fundamental rights and duties", "Parliament and President", "Judiciary", "Constitutional bodies and amendments"]},
+            {"name": "Geography", "class": 0, "hours": 10, "weight": 1.5,
+             "topics": ["Physical geography of India", "Rivers, soils and climate", "Agriculture and resources", "World geography"]},
+            {"name": "Economics", "class": 0, "hours": 8, "weight": 1.5,
+             "topics": ["Basic concepts: GDP, inflation, demand", "Banking and RBI", "Budget and five-year plans", "Government schemes"]},
+            {"name": "Art and Culture", "class": 0, "hours": 6, "weight": 1.5,
+             "topics": ["Dances and music", "Festivals and fairs", "Monuments and architecture", "Awards and honours"]},
+            {"name": "Static GK", "class": 0, "hours": 5, "weight": 1,
+             "topics": ["Books and authors", "Sports", "Important days", "First in India and the world"]}
+          ]
+        },
+        {
+          "name": "General Science",
+          "chapters": [
+            {"name": "Physics (General Science)", "class": 0, "hours": 5, "weight": 1,
+             "topics": ["Motion, force and units", "Light and sound", "Electricity and magnetism"]},
+            {"name": "Chemistry (General Science)", "class": 0, "hours": 5, "weight": 1,
+             "topics": ["Elements and the periodic table", "Acids, bases and salts", "Everyday chemistry"]},
+            {"name": "Biology (General Science)", "class": 0, "hours": 6, "weight": 1.5,
+             "topics": ["Cell and human body", "Diseases and nutrition", "Plant kingdom"]}
+          ]
+        },
+        {
+          "name": "Current Affairs",
+          "chapters": [
+            {"name": "Current Affairs", "class": 0, "hours": 10, "weight": 1.5,
+             "topics": ["National news", "International news", "Sports news", "Awards and appointments", "Schemes and reports"]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computer Knowledge",
+      "units": [
+        {
+          "name": "Computer Basics",
+          "chapters": [
+            {"name": "Computer Fundamentals", "class": 0, "hours": 4, "weight": 1.5, "foundation": true,
+             "topics": ["Hardware, software and generations", "Memory and storage", "Input and output devices", "Number systems"]},
+            {"name": "MS Office", "class": 0, "hours": 4, "weight": 1.5,
+             "topics": ["MS Word", "MS Excel", "MS PowerPoint", "Keyboard shortcuts"]},
+            {"name": "Internet and Networking", "class": 0, "hours": 3, "weight": 1,
+             "topics": ["Internet basics and protocols", "Email", "Networking"]},
+            {"name": "Computer Security", "class": 0, "hours": 2, "weight": 1,
+             "topics": ["Viruses and malware", "Cyber security basics"]}
+          ]
+        }
+      ]
+    }
+  ]
+}

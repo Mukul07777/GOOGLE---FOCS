@@ -1,0 +1,41 @@
+NUMBERED
+3.1 Introduction
+3.2 Matrix
+3.3 Types of Matrices
+3.4 Operations on Matrices
+3.6 Symmetric and Skew Symmetric Matrices
+3.7 Invertible Matrices
+BIG
+Chapter 3
+MATRICES
+ANote In this chapter
+ANote If A = [aij] is a square matrix of order n, then elements (entries) a11, a22, ..., ann
+ANote
+ANote This does not mean that AB ≠ BA for every pair of matrices A, B for
+® A matrix is an ordered rectangular array of numbers or functions.
+® A matrix having m rows and n columns is called a matrix of order m × n.
+® [aij]m × 1 is a column matrix.
+® [aij]1 × n is a row matrix.
+® An m × n matrix is a square matrix if m = n.
+® A = [aij]m × m is a diagonal matrix if aij = 0, when i ≠ j.
+® A = [aij]n × n is a scalar matrix if aij = 0, when i ≠ j, aij = k, (k is some
+® A = [aij]n × n is an identity matrix, if aij = 1, when i = j, aij = 0, when i ≠ j.
+® A zero matrix has all its elements as zero.
+® A = [aij] = [bij] = B if (i) A and B are of same order, (ii) aij = bij for all
+® kA = k[aij]m × n = [k(aij)]m × n
+® – A = (–1)A
+® A – B = A + (–1) B
+® A + B = B + A
+® (A + B) + C = A + (B + C), where A, B and C are of same order.
+® k(A + B) = kA + kB, where A and B are of same order, k is constant.
+® (k + l ) A = kA + lA, where k and l are constant.
+® If A = [aij]m × n and B = [bjk]n × p, then AB = C = [cik]m × p, where =
+® If A = [aij]m × n, then A′ or AT = [aji]n × m
+® A is a symmetric matrix if A′ = A.
+® A is a skew symmetric matrix if A′ = –A.
+® Any square matrix can be represented as the sum of a symmetric and a
+® If A and B are two square matrices such that AB = BA = I, then B is the
+® Inverse of a square matrix, if it exists, is unique.
+NOTES
+SAMPLE
+ 34 MATHEMATICS vThe essence of Mathematics lies in its freedom. — CANTOR v 3.1 Introduction The knowledge of matrices is necessary in various branches of mathematics. Matrices are one of the most powerful tools in mathematics. This mathematical tool simplifies our work to a great extent when compared with other straight forward methods. The evolution of concept of matrices is the result of an attempt to obtain compact and simple methods of solving system of linear equations. Matrices are not only used as a representation of the coefficients in system of linear equations, but utility of matrices far exceeds that use. Matrix notation and operations are used in electronic spreadsheet programs for personal computer, which in turn is used in different areas of business and science like budgeting, sales projection, cost estimation, analysing the results of an experiment etc. Also, many physical operations such as magnification, rotation and reflection through a plane can be represented mathematically by matrices. Matrices are also used in cryptography. This mathematical tool is not only used in certain branches of sciences, but also in genetics, economics, sociology, modern psychology and industrial management. In this chapter, we shall find it interesting to become acquainted with the fundamentals of matrix and matrix algebra. 3.2 Matrix Suppose we wish to express the information that Radha has 15 notebooks. We may express it as [15] with the understanding that the number inside [ ] is the number of notebooks that Radha has. Now, if we have to express that Radha has 15 notebooks and 6 pens. We may express it as [15 6] with the understanding that first number inside [ ] is the number of notebooks while the other one is the number of pens possessed by Radha. Let us now suppos

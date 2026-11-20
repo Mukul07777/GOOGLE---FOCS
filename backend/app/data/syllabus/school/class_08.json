@@ -1,0 +1,1250 @@
+{
+ "class": 8,
+ "default": [
+  "English",
+  "Hindi",
+  "Mathematics",
+  "Science",
+  "Social Science",
+  "Sanskrit"
+ ],
+ "subjects": [
+  {
+   "name": "English",
+   "units": [
+    {
+     "name": "Unit 1: Wit and Wisdom",
+     "chapters": [
+      {
+       "name": "The Wit that Won Hearts",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "A Concrete Example",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Wisdom Paves the Way",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: Values and Dispositions",
+     "chapters": [
+      {
+       "name": "A Tale of Valour: Major Somnath Sharma and the Battle of Badgam",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Somebody's Mother",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Verghese Kurien — I Too Had A Dream",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Mystery and Magic",
+     "chapters": [
+      {
+       "name": "The Case of the Fifth Word",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Magic Brush of Dreams",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Spectacular Wonders",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: Environment",
+     "chapters": [
+      {
+       "name": "The Cherry Tree",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Harvest Hymn",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Waiting for the Rain",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 5: Science and Curiosity",
+     "chapters": [
+      {
+       "name": "Feathered Friend",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Magnifying Glass",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Bibha Chowdhuri: The Beam of Light that Lit the Path for Women in Indian Science",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Ganita Prakash Part I",
+     "chapters": [
+      {
+       "name": "A Square and A Cube",
+       "book": "Ganita Prakash Part I",
+       "topics": [
+        "Square Numbers",
+        "Cubic Numbers",
+        "A Pinch of History"
+       ]
+      },
+      {
+       "name": "Power Play",
+       "book": "Ganita Prakash Part I",
+       "topics": [
+        "Experiencing the Power Play",
+        "Exponential Notation and Operations",
+        "The Other Side of Powers",
+        "Powers of 10",
+        "Did You Ever Wonder?",
+        "A Pinch of History"
+       ]
+      },
+      {
+       "name": "A Story of Numbers",
+       "book": "Ganita Prakash Part I",
+       "topics": [
+        "Reema’s Curiosity",
+        "Some Early Number Systems",
+        "The Idea of a Base"
+       ]
+      },
+      {
+       "name": "Quadrilaterals (Class 8)",
+       "book": "Ganita Prakash Part I",
+       "topics": [
+        "Rectangles and Squares",
+        "Angles in a Quadrilateral",
+        "More Quadrilaterals with Parallel Opposite Sides",
+        "Quadrilaterals with Equal Sidelengths",
+        "Playing with Quadrilaterals",
+        "Kite and Trapezium"
+       ]
+      },
+      {
+       "name": "Number Play (Class 8)",
+       "book": "Ganita Prakash Part I",
+       "topics": [
+        "Is This a Multiple Of?",
+        "Checking Divisibility Quickly",
+        "Digits in Disguise"
+       ]
+      },
+      {
+       "name": "We Distribute, Yet Things Multiply",
+       "book": "Ganita Prakash Part I",
+       "topics": [
+        "Some Properties of Multiplication",
+        "Special Cases of the Distributive Property",
+        "Mind the Mistake, Mend the Mistake",
+        "This Way or That Way, All Ways Lead to the Bay"
+       ]
+      },
+      {
+       "name": "Proportional Reasoning – 1",
+       "book": "Ganita Prakash Part I",
+       "topics": [
+        "Observing Similarity in Change",
+        "Ratios in their Simplest Form",
+        "Problem Solving with Proportional Reasoning",
+        "Sharing, but Not Equally!",
+        "Unit Conversions"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Ganita Prakash Part II",
+     "chapters": [
+      {
+       "name": "Fractions in Disguise",
+       "book": "Ganita Prakash Part II",
+       "topics": [
+        "Fractions as Percentages",
+        "Percentage of Some Quantity",
+        "Using Percentages"
+       ]
+      },
+      {
+       "name": "The Baudhayana-Pythagoras Theorem",
+       "book": "Ganita Prakash Part II",
+       "topics": [
+        "Doubling a Square",
+        "Halving a Square",
+        "Hypotenuse of an Isosceles Right Triangle",
+        "Combining Two Different Squares",
+        "Right–Triangles Having Integer Sidelengths",
+        "A Long-Standing Open Problem",
+        "Further Applications of the Baudhāyana - Pythagoras Theorem"
+       ]
+      },
+      {
+       "name": "Proportional Reasoning – 2",
+       "book": "Ganita Prakash Part II",
+       "topics": [
+        "Proportionality — A Quick Recap",
+        "Ratios in Maps",
+        "Ratios with More than 2 Terms",
+        "Dividing a Whole in a Given Ratio",
+        "A Slice of the Pie",
+        "Inverse Proportions"
+       ]
+      },
+      {
+       "name": "Exploring Some Geometric Themes",
+       "book": "Ganita Prakash Part II",
+       "topics": [
+        "Fractals",
+        "Visualising Solids"
+       ]
+      },
+      {
+       "name": "Tales by Dots and Lines",
+       "book": "Ganita Prakash Part II",
+       "topics": [
+        "The Balancing Act",
+        "Visualising and Interpreting Data"
+       ]
+      },
+      {
+       "name": "Algebra Play",
+       "book": "Ganita Prakash Part II",
+       "topics": [
+        "Thinking about ‘Think of a Number’ Tricks",
+        "Number Pyramids",
+        "Fun with Grids",
+        "The Largest Product",
+        "Decoding Divisibility Tricks"
+       ]
+      },
+      {
+       "name": "Area",
+       "book": "Ganita Prakash Part II",
+       "topics": [
+        "Rectangles and squares",
+        "Area of a parallelogram",
+        "Area of a triangle",
+        "Area of a trapezium",
+        "Area of other quadrilaterals"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Science",
+   "units": [
+    {
+     "name": "Curiosity",
+     "chapters": [
+      {
+       "name": "Exploring the Investigative World of Science",
+       "book": "Curiosity",
+       "topics": [
+        "Probe and ponder",
+        "Asking questions",
+        "Observing and recording",
+        "Planning an investigation",
+        "Drawing conclusions"
+       ]
+      },
+      {
+       "name": "The Invisible Living World: Beyond Our Naked Eye",
+       "book": "Curiosity",
+       "topics": [
+        "What Is a Cell?",
+        "What Are the Levels of Organisation in the Body of a Living Organism?",
+        "What Are Microorganisms?",
+        "How Are We Connected to Microbes?",
+        "Why Is Cell Considered to Be a Basic Unit of Life?"
+       ]
+      },
+      {
+       "name": "Health: The Ultimate Treasure",
+       "book": "Curiosity",
+       "topics": [
+        "Health: Is It More Than Not Falling Sick?",
+        "How Can We Stay Healthy?",
+        "Maintain a healthy lifestyle",
+        "Keep the environment clean",
+        "How Do We Know That We Are Unwell?",
+        "Diseases: What Are the Causes and Types?",
+        "How are communicable diseases caused and spread?",
+        "How are non-communicable diseases caused?",
+        "How to Prevent and Control Diseases?",
+        "Treatment of diseases"
+       ]
+      },
+      {
+       "name": "Electricity: Magnetic and Heating Effects",
+       "book": "Curiosity",
+       "topics": [
+        "Does an Electric Current Have a Magnetic Effect?",
+        "Electromagnets",
+        "Lifting electromagnets",
+        "Does a Current Carrying Wire Get Hot?",
+        "How Does a Battery Generate Electricity?",
+        "Voltaic cell",
+        "Dry cells",
+        "Rechargeable batteries"
+       ]
+      },
+      {
+       "name": "Exploring Forces",
+       "book": "Curiosity",
+       "topics": [
+        "What Is a Force?",
+        "What Can a Force Do to the Objects on Which It Is Applied?",
+        "Are Forces an Interaction Between Two or More Objects?",
+        "What Are the Different Types of Forces?",
+        "Contact forces",
+        "Non-contact forces",
+        "Weight and Its Measurement",
+        "Floating and Sinking"
+       ]
+      },
+      {
+       "name": "Pressure, Winds, Storms, and Cyclones",
+       "book": "Curiosity",
+       "topics": [
+        "Pressure Exerted by Air",
+        "Formation of Wind",
+        "High-Speed Winds Result in Lowering of Air Pressure",
+        "Storms, Thunderstorms, and Lightning",
+        "Cyclone"
+       ]
+      },
+      {
+       "name": "Particulate Nature of Matter",
+       "book": "Curiosity",
+       "topics": [
+        "What Is Matter Composed of?",
+        "What Decides Different States of Matter?",
+        "Solid state",
+        "Liquid state",
+        "Gaseous state",
+        "How Does the Interparticle Spacing Differ in the Three States of Matter?",
+        "How Particles Move in Different States of Matter?"
+       ]
+      },
+      {
+       "name": "Nature of Matter: Elements, Compounds, and Mixtures",
+       "book": "Curiosity",
+       "topics": [
+        "What Are Mixtures?",
+        "Is air a mixture?",
+        "Types of mixtures",
+        "What Are Pure Substances?",
+        "What Are the Types of Pure Substances?",
+        "Elements",
+        "Compounds",
+        "How Do We Use Elements, Compounds, and Mixtures?",
+        "What Are Minerals?"
+       ]
+      },
+      {
+       "name": "The Amazing World of Solutes, Solvents, and Solutions",
+       "book": "Curiosity",
+       "topics": [
+        "What Are Solute, Solvent, and Solution?",
+        "How Much Solute Can a Fixed Amount of Solvent Dissolve?",
+        "How does temperature affect the solubility of a solute?",
+        "Solubility of Gases",
+        "Why Do Objects Float or Sink in Water?",
+        "What Is Density?",
+        "Determination of density",
+        "Effect of temperature on density",
+        "Effect of pressure on density"
+       ]
+      },
+      {
+       "name": "Light: Mirrors and Lenses",
+       "book": "Curiosity",
+       "topics": [
+        "What Are Spherical Mirrors?",
+        "What Are the Characteristics of Images Formed by Spherical Mirrors?",
+        "What Are the Laws of Reflection?",
+        "What Is a Lens?"
+       ]
+      },
+      {
+       "name": "Keeping Time with the Skies",
+       "book": "Curiosity",
+       "topics": [
+        "Phases of the Moon",
+        "Locating the Moon",
+        "Making sense of our observations",
+        "Lunar calendars",
+        "Solar calendars",
+        "Luni-solar calendars",
+        "The Indian National Calendar",
+        "Are Festivals Related to Astronomical Phenomena?",
+        "Why Do We Launch Artificial Satellites in Space?"
+       ]
+      },
+      {
+       "name": "How Nature Works in Harmony",
+       "book": "Curiosity",
+       "topics": [
+        "How Do We Experience and Interpret Our Surroundings?",
+        "Who All Live Together in Nature?",
+        "Does Every Organism in a Community Matter?",
+        "What Are the Different Types of Interactions Among Organisms and their Surroundings?",
+        "Who Eats Whom?",
+        "What Happens to Waste in Nature?",
+        "How Does One Change Lead to Another?",
+        "How Do Interactions Maintain Balance in Ecosystems?",
+        "Human-made ecosystems",
+        "How do healthy ecosystems serve our farms?"
+       ]
+      },
+      {
+       "name": "Our Home: Earth, a Unique Life Sustaining Planet",
+       "book": "Curiosity",
+       "topics": [
+        "Why Is Earth a Unique Planet?",
+        "What Do the Planets of Our Solar System Look Like?",
+        "Position of the Earth",
+        "Size of the Earth",
+        "Magnetic field of the Earth",
+        "What Allows Life to Be Sustained on Earth?",
+        "Asexual reproduction",
+        "Sexual reproduction",
+        "What Are the Threats to Life on Earth?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Social Science",
+   "units": [
+    {
+     "name": "India and the World: Land and the People",
+     "chapters": [
+      {
+       "name": "Natural Resources and Their Use",
+       "book": "Exploring Society Part I",
+       "topics": [
+        "When does Nature become a Resource?",
+        "Categories of Natural Resources",
+        "Resources essential for life",
+        "Resources for materials",
+        "Resources for energy",
+        "Renewable and non-renewable resources",
+        "Distribution of Natural Resources and its Implications",
+        "The ‘Paradox of Plenty’",
+        "Responsible and Wise Use of Natural Resources: Stewardship",
+        "Restoration and regeneration of renewable resources"
+       ]
+      },
+      {
+       "name": "World Geography: Some Glimpses",
+       "book": "Exploring Society Part II",
+       "topics": [
+        "The Complexity of Mapping the Earth",
+        "The Blue of the Blue Planet, the Oceans",
+        "The oceans",
+        "Ocean currents",
+        "Ocean trenches",
+        "The Great Barrier Reef",
+        "Smaller water bodies and waterways",
+        "The Continents: Variety on Land",
+        "Asia",
+        "Europe"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Tapestry of the Past",
+     "chapters": [
+      {
+       "name": "Reshaping India's Political Map",
+       "book": "Exploring Society Part I",
+       "topics": [
+        "Rise and Fall of the Delhi Sultanate",
+        "Resistance to the Delhi Sultanate",
+        "The Vijayanagara Empire",
+        "Krishnadevaraya",
+        "The Mughals",
+        "Akbar",
+        "Aurangzeb",
+        "Resistance to the Mughals",
+        "Surge of the Rajputs"
+       ]
+      },
+      {
+       "name": "The Rise of the Marathas",
+       "book": "Exploring Society Part I",
+       "topics": [
+        "Who are the Marathas?",
+        "Foundation of Maratha Power and the Rise of Chhatrapati Shivaji",
+        "The Marathas after Chhatrapati Shivaji",
+        "Maratha Administration",
+        "Civilian administration",
+        "Military administration",
+        "Maritime supremacy",
+        "Judicial system",
+        "Trade networks",
+        "Cultural Revival"
+       ]
+      },
+      {
+       "name": "The Colonial Era in India",
+       "book": "Exploring Society Part I",
+       "topics": [
+        "The Age of Colonialism",
+        "Europeans in India",
+        "The Portuguese: commerce and atrocities",
+        "The Dutch: commerce and competition",
+        "The French: colonial ambitions",
+        "Enter the British",
+        "From traders to rulers",
+        "From Paradise to Hell?",
+        "Devastating famines",
+        "The drain of India’s wealth"
+       ]
+      },
+      {
+       "name": "India's Long Road to Independence",
+       "book": "Exploring Society Part II",
+       "topics": [
+        "A Royal Proclamation",
+        "Reform Movements",
+        "Other Influences",
+        "The Rise of the Indian National Congress",
+        "Growing Discontent",
+        "The Nationalist Agenda",
+        "The All-India Muslim League",
+        "The Revolutionaries",
+        "Home Rule Movement and the Lucknow Pact"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Our Cultural Heritage and Knowledge Traditions",
+     "chapters": [
+      {
+       "name": "A Journey Through Indian Architecture",
+       "book": "Exploring Society Part II",
+       "topics": [
+        "The Beginnings …",
+        "Structural Stupa Architecture",
+        "Rock-Cut Architecture",
+        "Water Structures",
+        "Classical Temple Architecture",
+        "The Architecture of Mosques",
+        "Forts and Palaces",
+        "Tombs and Mausoleums",
+        "Traditional Houses",
+        "Churches in India"
+       ]
+      },
+      {
+       "name": "Cultural Currents: 13th to 17th Centuries",
+       "book": "Exploring Society Part II",
+       "topics": [
+        "Belief Systems",
+        "The power of the bhakti tradition",
+        "Regional saints and their messages",
+        "Musical Traditions — Continuation and Evolution",
+        "From Walls to Paper — Miniature Paintings",
+        "Changing Landscapes — Gardens",
+        "Education and Knowledge Traditions",
+        "Institutions of learning",
+        "Vocational education and knowledge sharing",
+        "Growth of Literature and Language"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Governance and Democracy",
+     "chapters": [
+      {
+       "name": "Universal Franchise and India's Electoral System",
+       "book": "Exploring Society Part I",
+       "topics": [
+        "Universal Adult Franchise",
+        "Election for class representative — Grade 8, Suryodaya School",
+        "The Role of the Election Commission of India (ECI)",
+        "Election Commission of India — A brief introduction",
+        "Managing the electoral process",
+        "Model Code of Conduct (MCC)",
+        "Understanding Elections in India — A Very Brief Overview",
+        "Election to the Lok Sabha and State Legislative Assemblies",
+        "Election to the Rajya Sabha"
+       ]
+      },
+      {
+       "name": "The Parliamentary System: Legislature and Executive",
+       "book": "Exploring Society Part I",
+       "topics": [
+        "Composition of the Parliament of India",
+        "Legislative Functions of the Parliament",
+        "Executive Functions of Parliament",
+        "The Judiciary — Role of Checks and Balances",
+        "Legislative and Executive Functions at the State Level",
+        "Structure of State Legislatures",
+        "Challenges to the Effective Functioning of the Legislatures"
+       ]
+      },
+      {
+       "name": "The Role of the Judiciary in Our Society",
+       "book": "Exploring Society Part II",
+       "topics": [
+        "The Connection Between Law and Justice",
+        "The Judicial System in India",
+        "The Supreme Court of India",
+        "Writ Jurisdiction of the Supreme Court and High Court",
+        "Original Jurisdiction of the Supreme Court",
+        "Appellate Jurisdiction of the Supreme Court",
+        "Advisory Jurisdiction",
+        "High Court",
+        "Jurisdiction of the High Courts"
+       ]
+      },
+      {
+       "name": "Citizenship: Rights and Duties",
+       "book": "Exploring Society Part II",
+       "topics": [
+        "Who Is a Citizen?",
+        "What are rights?",
+        "Fundamental Rights in the Indian Constitution",
+        "What are duties?",
+        "Understanding duties",
+        "Rights and Duties: Two Sides of the Same Coin",
+        "Discrimination",
+        "Understanding discrimination",
+        "Visible and invisible discrimination",
+        "Inclusion"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Economic Life Around Us",
+     "chapters": [
+      {
+       "name": "Factors of Production",
+       "book": "Exploring Society Part I",
+       "topics": [
+        "Land (natural resources)",
+        "Labour (human resources)",
+        "Capital",
+        "Entrepreneurship",
+        "Technology: An Enabler of Production",
+        "How are the Factors Connected?"
+       ]
+      },
+      {
+       "name": "Dynamics of Population",
+       "book": "Exploring Society Part II",
+       "topics": [
+        "What Is Demography?",
+        "Population at a Glance",
+        "What Determines the Population of a Country?",
+        "Birth and fertility rates",
+        "Death or mortality rate",
+        "Migration",
+        "How Do Countries Experience Population Change?",
+        "India’s Population: Composition and Trends",
+        "India’s Demographic Dividend — A Limited Window of Opportunity"
+       ]
+      },
+      {
+       "name": "India's Urban Landscape",
+       "book": "Exploring Society Part II",
+       "topics": [
+        "Population Density in Cities",
+        "How do Cities Become Centres of Economic Activities?",
+        "What Leads to Urbanisation?",
+        "The Process of Urbanisation",
+        "Cities as Cultural Hubs",
+        "Challenges Faced by Cities",
+        "Planning Our Cities"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi",
+   "units": [
+    {
+     "name": "मल्हार",
+     "chapters": [
+      {
+       "name": "स्वदेश",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "दो गौरैया",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "एक आशीर्वाद",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हरिद्वार",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "कबीर के दोहे",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "एक टोकरी भर मिट्टी",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मत बाँधो",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "नए मेहमान",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "आदमी का अनुपात",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "तरुण के स्वप्न",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sanskrit",
+   "units": [
+    {
+     "name": "दीपकम्",
+     "chapters": [
+      {
+       "name": "संगच्छध्वं संवदध्वम्",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "अल्पानामपि वस्तूनां संहतिः कार्यसाधिका",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "सुभाषितरसं पीत्वा जीवनं सफलं कुरु",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "प्रणम्यो देशभक्तोऽयं गोपबन्धुर्महामनाः",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "गीता सुगीता कर्तव्या",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "डिजिभारतम् - युगपरिवर्तनम्",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "मञ्जुलमञ्जूषा सुन्दरसुरभाषा",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "पश्यत कोणमैशान्यं भारतस्य मनोहरम्",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "कोऽरुक्? कोऽरुक्? कोऽरुक्?",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "सन्निमित्ते वरं त्यागः (क-भागः)",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "सन्निमित्ते वरं त्यागः (ख-भागः)",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "सम्यग्वर्णप्रयोगेण ब्रह्मलोके महीयते",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "वर्णोच्चारण-शिक्षा १",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "French",
+   "units": [
+    {
+     "name": "Français: Level 3 (A2)",
+     "chapters": [
+      {
+       "name": "Body and health (Class 8)",
+       "topics": [
+        "Parts of the body",
+        "At the doctor's",
+        "Healthy habits",
+        "Saying how you feel"
+       ]
+      },
+      {
+       "name": "Travel and holidays (Class 8)",
+       "topics": [
+        "Countries and nationalities",
+        "Planning a trip",
+        "The near future",
+        "Holiday postcards"
+       ]
+      },
+      {
+       "name": "Talking about the past (Class 8)",
+       "topics": [
+        "The past tense",
+        "Time expressions for the past",
+        "What I did last weekend"
+       ]
+      },
+      {
+       "name": "Festivals and culture (Class 8)",
+       "topics": [
+        "Festivals of the countries that speak the language",
+        "Indian festivals described in the language",
+        "Food and customs"
+       ]
+      },
+      {
+       "name": "Environment and nature (Class 8)",
+       "topics": [
+        "Animals and plants",
+        "Protecting the environment",
+        "Comparatives and superlatives"
+       ]
+      },
+      {
+       "name": "Technology and media (Class 8)",
+       "topics": [
+        "Computers and phones",
+        "Using the internet safely",
+        "Giving your opinion"
+       ]
+      },
+      {
+       "name": "Reading and writing II (Class 8)",
+       "topics": [
+        "Comprehension passages",
+        "Informal letters and emails",
+        "Writing a short paragraph",
+        "Completing a dialogue"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "German",
+   "units": [
+    {
+     "name": "Deutsch: Level 3 (A2)",
+     "chapters": [
+      {
+       "name": "Body and health (Class 8)",
+       "topics": [
+        "Parts of the body",
+        "At the doctor's",
+        "Healthy habits",
+        "Saying how you feel"
+       ]
+      },
+      {
+       "name": "Travel and holidays (Class 8)",
+       "topics": [
+        "Countries and nationalities",
+        "Planning a trip",
+        "The near future",
+        "Holiday postcards"
+       ]
+      },
+      {
+       "name": "Talking about the past (Class 8)",
+       "topics": [
+        "The past tense",
+        "Time expressions for the past",
+        "What I did last weekend"
+       ]
+      },
+      {
+       "name": "Festivals and culture (Class 8)",
+       "topics": [
+        "Festivals of the countries that speak the language",
+        "Indian festivals described in the language",
+        "Food and customs"
+       ]
+      },
+      {
+       "name": "Environment and nature (Class 8)",
+       "topics": [
+        "Animals and plants",
+        "Protecting the environment",
+        "Comparatives and superlatives"
+       ]
+      },
+      {
+       "name": "Technology and media (Class 8)",
+       "topics": [
+        "Computers and phones",
+        "Using the internet safely",
+        "Giving your opinion"
+       ]
+      },
+      {
+       "name": "Reading and writing II (Class 8)",
+       "topics": [
+        "Comprehension passages",
+        "Informal letters and emails",
+        "Writing a short paragraph",
+        "Completing a dialogue"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Spanish",
+   "units": [
+    {
+     "name": "Español: Level 3 (A2)",
+     "chapters": [
+      {
+       "name": "Body and health (Class 8)",
+       "topics": [
+        "Parts of the body",
+        "At the doctor's",
+        "Healthy habits",
+        "Saying how you feel"
+       ]
+      },
+      {
+       "name": "Travel and holidays (Class 8)",
+       "topics": [
+        "Countries and nationalities",
+        "Planning a trip",
+        "The near future",
+        "Holiday postcards"
+       ]
+      },
+      {
+       "name": "Talking about the past (Class 8)",
+       "topics": [
+        "The past tense",
+        "Time expressions for the past",
+        "What I did last weekend"
+       ]
+      },
+      {
+       "name": "Festivals and culture (Class 8)",
+       "topics": [
+        "Festivals of the countries that speak the language",
+        "Indian festivals described in the language",
+        "Food and customs"
+       ]
+      },
+      {
+       "name": "Environment and nature (Class 8)",
+       "topics": [
+        "Animals and plants",
+        "Protecting the environment",
+        "Comparatives and superlatives"
+       ]
+      },
+      {
+       "name": "Technology and media (Class 8)",
+       "topics": [
+        "Computers and phones",
+        "Using the internet safely",
+        "Giving your opinion"
+       ]
+      },
+      {
+       "name": "Reading and writing II (Class 8)",
+       "topics": [
+        "Comprehension passages",
+        "Informal letters and emails",
+        "Writing a short paragraph",
+        "Completing a dialogue"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

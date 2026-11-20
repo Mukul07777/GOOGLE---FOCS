@@ -1,0 +1,15 @@
+NUMBERED
+4.1 AGGREGATE DEMAND AND ITS COMPONENTS
+4.2 DETERMINATION OF INCOME IN TWO-SECTOR MODEL
+4.3 DETERMINATION OF EQUILIBRIUM INCOME IN THE SHORT RUN
+4.4 SOME MORE CONCEPTS
+BIG
+Chapter 4
+Determination of Income and
+Employment
+components autonomous consumption and induced consumption (cY ).
+component of consumption, cY shows the dependence of consumption
+yr a m m u S st pe cn o C ye K
+se si cr e x E
+SAMPLE
+Chapter 4 Chapter 4 Determination of Income and Determination of Income and Determination of Income and Determination of Income and Determination of Income and Employment Employment Employment Employment Employment We have so far talked about the national income, price level, rate of interest etc. in an ad hoc manner – without investigating the forces that govern their values. The basic objective of macroeconomics is to develop theoretical tools, called models, capable of describing the processes which determine the values of these variables. Specifically, the models attempt to provide theoretical explanation to questions such as what causes periods of slow growth or recessions in the economy, or increment in the price level, or a rise in unemployment. It is difficult to account for all the variables at the same time. Thus, when we concentrate on the determination of a particular variable, we must hold the values of all other variables constant. This is a stylisation typical of almost any theoretical exercise and is called the assumption of ceteris paribus, which literally means ‘other things remaining equal’. You can think of the procedure as follows – in order to solve for the values of two variables x and y from two equations, we solve for one variable, say x, in terms of y from one equation first, and then substitute this value into the other equation to obtain the complete solution. We apply the same method in the analysis of the macroeconomic system. In this chapter we deal with the determination of National Income under the assumption of fixed price of final goods and constant rate of interest in the economy. The theoretical model used in this chapter is based on the theory given by John Maynard Keynes. 4.1 AGGREGATE DEMAND AND ITS COMPONENTS In the chapter on Na

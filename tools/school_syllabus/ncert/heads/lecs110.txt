@@ -1,0 +1,36 @@
+NUMBERED
+10.1 Introduction to Computer Networks
+10.2 Evolution of Networking
+10.3 Types of Networks
+10.3.1 Personal Area Network (PAN)
+10.3.2 Local Area Network (LAN)
+10.3.3 Metropolitan Area Network (MAN)
+10.3.4 Wide Area Network (WAN)
+10.4 Network Devices
+10.4.1 Modem
+10.4.2 Ethernet Card
+10.4.3 RJ45
+10.4.4 Repeater
+10.4.5 Hub
+10.4.6 Switch
+10.4.7 Router
+10.4.8 Gateway
+10.5 Networking Topologies
+10.5.1 Mesh Topology
+10.5.2 Ring Topology
+10.5.3 Bus Topology
+10.5.4 Star Topology
+10.5.5 Tree or Hybrid Topology
+10.6 Identifying Nodes in a Networked Communication
+10.6.1 MAC Address
+10.6.2 IP Address
+10.7 Internet, Web and the Internet of Things
+10.7.1 The World Wide Web (WWW)
+10.8 Domain Name System
+10.8.1 DNS Server
+BIG
+10 Computer Networks
+Summary
+Exercise
+SAMPLE
+In this Chapter »» Introduction to Computer Networks »» Evolution of Networking »» Types of Networks »» Network Devices »» Networking Topologies »» Identifying Nodes in a Networked Communication »» Internet, Web and the Internet of Things »» Domain Name System C h a p t e r “Hoaxes use weaknesses in human behavior to ensure they are replicated and distributed. In other words, hoaxes prey on the Human Operating System.” — Stewart Kirkpatrick 10.1 Introduction to Computer Networks We are living in a connected world. Information is being produced, exchanged, and traced across the globe in real time. It's possible as almost everyone and everything in the digital world is interconnected through one way or the other. Figure 10.1: Interconnection forming a social network Computer Networks 10 Reprint 2026-27 Computer Science - Class XII 182 A group of two or more similar things or people interconnected with each other is called network (Figure 10.1). Some of the examples of network in our everyday life includes: • Social network • Mobile network • Network of computers • Airlines, railway, banks, hospitals networks A computer network (Figure 10.2) is an interconnection among two or more computers or computing devices. Such interconnection allows computers to share data and resources among each other. A basic network may connect a few computers placed in a room. The network size may vary from small to large depending on the number of computers it connects. A computer network can include different types of hosts (also called nodes) like server, desktop, laptop, cellular phones. Networking Device Figure 10.2: A computer network Apart from computers, networks include networking devices like switch, router, modem, etc. Networking devices are used to connect multiple computers in diff

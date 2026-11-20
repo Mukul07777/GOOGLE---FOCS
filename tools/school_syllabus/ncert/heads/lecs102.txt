@@ -1,0 +1,31 @@
+NUMBERED
+2.1 Introduction to Files
+2.2.1 Text file
+2.2.2 Binary Files
+2.3 Opening and Closing a Text File
+2.3.1 Opening a file
+2.3.2 Closing a file
+2.3.3 Opening a file using with clause
+2.4 Writing to a Text File
+2.4.1 The write() method
+2.4.2 The writelines() method
+2.5 Reading from a Text File
+2.5.1 The read() method
+2.5.2 The readline([n]) method
+2.5.3 The readlines() method
+2.6 Setting Offsets in a File
+2.6.1 The tell() method
+2.6.2 The seek() method
+2.7 CREATING AND TRAVERSING A TEXT FILE
+2.7.1 Creating a file and writing data
+2.7.2 Traversing a file and displaying data
+2.8 The Pickle Module
+2.8.1 The dump() method
+2.8.2 The load() method
+2.8.3 File handling using pickle module
+BIG
+File Handling in Python
+Summary
+Exercise
+SAMPLE
+In this Chapter »» Introduction to Files »» Types of Files »» Opening and Closing a Text File »» Writing to a Text File »» Reading from a Text File »» Setting Offsets in a File »» Creating and Traversing a Text File »» The Pickle Module C h a p t e r 2.1 Introduction to Files We have so far created programs in Python that accept the input, manipulate it and display the output. But that output is available only during execution of the program and input is to be entered through the keyboard. This is because the variables used in a program have a lifetime that lasts till the time the program is under execution. What if we want to store the data that were input as well as the generated output permanently so that we can reuse it later? Usually, organisations would want to permanently store information about employees, inventory, sales, etc. to avoid repetitive tasks of entering the same data. Hence, data are stored permanently on secondary storage devices for reusability. We store Python programs written in script mode with a .py extension. Each program is stored on the secondary device as a file. Likewise, the data entered, and the output can be stored permanently into a file. 2 File Handling in Python There are many ways of trying to understand programs. People often rely too much on one way, which is called "debugging" and consists of running a partly- understood program to see if it does what you expected. Another way, which ML advocates, is to install some means of understanding in the very programs themselves. — Robin Milner Reprint 2026-27 Computer Science - Class XII 20 So, what is a file? A file is a named location on a secondary storage media where data are permanently stored for later access. 2.2. Types of Files Computers store every file as a collection of 0s and

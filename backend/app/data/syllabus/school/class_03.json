@@ -1,0 +1,634 @@
+{
+ "class": 3,
+ "default": null,
+ "subjects": [
+  {
+   "name": "English",
+   "units": [
+    {
+     "name": "Unit 1: Fun with Friends",
+     "chapters": [
+      {
+       "name": "Colours",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Badal and Moti",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Best Friends",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: Toys and Games",
+     "chapters": [
+      {
+       "name": "Out in the Garden",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Talking Toys",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Paper Boats (Class 3)",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Good Food",
+     "chapters": [
+      {
+       "name": "The Big Laddoo",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Thank God",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Madhu's Wish",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: The Sky",
+     "chapters": [
+      {
+       "name": "Night",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Chanda Mama Counts the Stars",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Chandrayaan",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Maths Mela",
+     "chapters": [
+      {
+       "name": "What's in a Name?",
+       "book": "Maths Mela",
+       "topics": [
+        "Counting by matching",
+        "Tally marks",
+        "Keeping a record of numbers"
+       ]
+      },
+      {
+       "name": "Toy Joy",
+       "book": "Maths Mela",
+       "topics": [
+        "Solid shapes in toys",
+        "Faces of solid shapes",
+        "Flat shapes around us"
+       ]
+      },
+      {
+       "name": "Double Century",
+       "book": "Maths Mela",
+       "topics": [
+        "Estimating a number",
+        "The story of our numbers",
+        "Counting up to 200",
+        "Hundreds, tens and ones"
+       ]
+      },
+      {
+       "name": "Vacation with My Nani Maa",
+       "book": "Maths Mela",
+       "topics": [
+        "Number tricks and games",
+        "Adding two-digit numbers",
+        "Subtracting two-digit numbers",
+        "Patterns in sums"
+       ]
+      },
+      {
+       "name": "Fun with Shapes",
+       "book": "Maths Mela",
+       "topics": [
+        "Shapes in a rangoli",
+        "Triangles, squares and rectangles",
+        "Sides and corners",
+        "Making shapes with tangram pieces"
+       ]
+      },
+      {
+       "name": "House of Hundreds – I",
+       "book": "Maths Mela",
+       "topics": [
+        "Counting beyond 200",
+        "Hundreds, tens and ones",
+        "Numbers up to 999"
+       ]
+      },
+      {
+       "name": "Raksha Bandhan",
+       "book": "Maths Mela",
+       "topics": [
+        "Equal groups",
+        "Multiplication as repeated addition",
+        "Multiplication tables"
+       ]
+      },
+      {
+       "name": "Fair Share",
+       "book": "Maths Mela",
+       "topics": [
+        "Sharing equally",
+        "Halves and quarters",
+        "Fair and unfair shares"
+       ]
+      },
+      {
+       "name": "House of Hundreds – II",
+       "book": "Maths Mela",
+       "topics": [
+        "Estimating large numbers",
+        "Comparing three-digit numbers",
+        "Ordering numbers"
+       ]
+      },
+      {
+       "name": "Fun at Class Party!",
+       "book": "Maths Mela",
+       "topics": [
+        "Measuring with hand spans",
+        "Measuring length",
+        "Metre and centimetre"
+       ]
+      },
+      {
+       "name": "Filling and Lifting",
+       "book": "Maths Mela",
+       "topics": [
+        "How much a container holds",
+        "Litre",
+        "Heavy and light",
+        "Kilogram"
+       ]
+      },
+      {
+       "name": "Give and Take",
+       "book": "Maths Mela",
+       "topics": [
+        "Adding three-digit numbers",
+        "Subtracting three-digit numbers",
+        "Story sums"
+       ]
+      },
+      {
+       "name": "Time Goes On",
+       "book": "Maths Mela",
+       "topics": [
+        "The calendar",
+        "Days, weeks and months",
+        "Reading a clock"
+       ]
+      },
+      {
+       "name": "The Surajkund Fair",
+       "book": "Maths Mela",
+       "topics": [
+        "Things that look the same on both sides",
+        "Patterns at the fair",
+        "Money and shopping"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi",
+   "units": [
+    {
+     "name": "इकाई 1: हमारा पर्यावरण",
+     "chapters": [
+      {
+       "name": "सीखो",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चींटी",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "कितने पैर?",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बया हमारी चिड़िया रानी!",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "आम का पेड़",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 2: हमारे मित्र",
+     "chapters": [
+      {
+       "name": "बीरबल की खिचड़ी",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मित्र को पत्र",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चतुर गीदड़",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "प्रकृति पर्व — फूलदेई",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 3: आओ खेलें",
+     "chapters": [
+      {
+       "name": "रस्साकशी",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "एक जादुई पिटारा",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 4: अपना-अपना काम",
+     "chapters": [
+      {
+       "name": "अपना-अपना काम",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "पेड़ों की अम्मा 'तिमक्का'",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "किसान की होशियारी",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 5: हमारा देश",
+     "chapters": [
+      {
+       "name": "भारत",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चंद्रयान (संवाद)",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बोलने वाली माँद",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हम अनेक किंतु एक",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "The World Around Us",
+   "units": [
+    {
+     "name": "Unit 1: Our Families and Communities",
+     "chapters": [
+      {
+       "name": "Family and Friends",
+       "book": "Our Wondrous World",
+       "topics": [
+        "My family",
+        "Family members and relationships",
+        "Friends and neighbours",
+        "Helping each other"
+       ]
+      },
+      {
+       "name": "Going to the Mela",
+       "book": "Our Wondrous World",
+       "topics": [
+        "A visit to the mela",
+        "Things we see at a mela",
+        "Getting to the mela"
+       ]
+      },
+      {
+       "name": "Celebrating Festivals",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Festivals we celebrate",
+        "Food, clothes and customs",
+        "Festivals bring people together"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: Life Around Us",
+     "chapters": [
+      {
+       "name": "Getting to Know Plants",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Parts of a plant",
+        "Trees, shrubs and herbs",
+        "Leaves of different shapes"
+       ]
+      },
+      {
+       "name": "Plants and Animals Live Together",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Animals that live on plants",
+        "Life in the soil",
+        "Homes of animals"
+       ]
+      },
+      {
+       "name": "Living in Harmony",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Caring for plants and animals",
+        "Living together in nature"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Gifts of Nature",
+     "chapters": [
+      {
+       "name": "Water — A Precious Gift",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Uses of water",
+        "Where water comes from",
+        "Saving water"
+       ]
+      },
+      {
+       "name": "Food We Eat",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Food from plants and animals",
+        "Cooking and eating together",
+        "Healthy food"
+       ]
+      },
+      {
+       "name": "Staying Healthy and Happy",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Clean habits",
+        "Exercise and play",
+        "Feeling happy"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: Things Around Us",
+     "chapters": [
+      {
+       "name": "This World of Things",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Things around us",
+        "Materials things are made from",
+        "Sorting things"
+       ]
+      },
+      {
+       "name": "Making Things",
+       "book": "Our Wondrous World",
+       "topics": [
+        "How things are made",
+        "Making things from waste",
+        "Crafts around us"
+       ]
+      },
+      {
+       "name": "Taking Charge of Waste",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Waste around us",
+        "Reduce, reuse and recycle",
+        "Keeping our surroundings clean"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

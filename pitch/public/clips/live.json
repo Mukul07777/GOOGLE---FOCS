@@ -1,0 +1,46 @@
+{
+  "name": "live",
+  "seconds": 71.48,
+  "frames": 5754,
+  "fps": 80.5,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "share",
+      "t": 3.71
+    },
+    {
+      "label": "crop",
+      "t": 8.42
+    },
+    {
+      "label": "cropped",
+      "t": 11.43
+    },
+    {
+      "label": "note1",
+      "t": 14.3
+    },
+    {
+      "label": "quiz",
+      "t": 32.95
+    },
+    {
+      "label": "lock",
+      "t": 38.81
+    },
+    {
+      "label": "verdict",
+      "t": 44.15
+    },
+    {
+      "label": "note2",
+      "t": 64.05
+    },
+    {
+      "label": "end",
+      "t": 71.08
+    }
+  ]
+}

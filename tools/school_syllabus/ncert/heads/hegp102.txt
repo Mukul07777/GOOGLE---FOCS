@@ -1,0 +1,20 @@
+NUMBERED
+2.1 Experiencing the Power Play ...
+2.2 Exponential Notation and Operations
+2.3 The Other Side of Powers
+2.4 Powers of 10
+2.5 Did You Ever Wonder?
+2.5 A Pinch of History
+BIG
+POWER PLAY
+2.1 Experiencing the Power Play ...
+2.2 Exponential Notation and Operations
+2.3 The Other Side of Powers
+2.4 Powers of 10
+2.5 Did You Ever Wonder?
+2.5 A Pinch of History
+SUMMARY
+Tremendous in Ten!
+2 POWER PLAY
+SAMPLE
+2 POWER PLAY 2.1 Experiencing the Power Play ... An Impossible Venture! Take a sheet of paper, as large a sheet as you can find. Fold it once. Fold it again, and again. How many times can you fold it over and over? Estu says “I heard that a sheet of paper can’t be folded more than 7 times”. Roxie replies “What if we use a thinner paper, like a newspaper or a tissue paper?” Try it with different types of paper and see what happens. Say you can fold a sheet of paper as many times as you wish. What would its thickness be after 30 folds? Make a guess. Let us find out how thick a sheet of paper will be after 46 folds. Assume that the thickness of the sheet is 0.001 cm. If you can fold a paper 46 times, it will be so thick that it can reach the Moon! What! That’s crazy! Just 46 times!? You must have ignored several zeros after 46. Well, why don’t you find out yourselves. Reprint 2026-27 Ganita Prakash | Grade 8 20 The following table lists the thickness after each fold. Observe that the thickness doubles after each fold. Fold Thickness Fold Thickness Fold Thickness 1 0.002 cm 7 0.128 cm 13 8.192 cm 2 0.004 cm 8 0.256 cm 14 16.384 cm 3 0.008 cm 9 0.512 cm 15 32.768 cm 4 0.016 cm 10 1.024 cm 16 65.536 cm 5 0.032 cm 11 2.048 cm 17 ≈ 131 cm 6 0.064 cm 12 4.096 cm (We use the sign ‘≈’ to indicate ‘approximately equal to’.) After 10 folds, the thickness is just above 1 cm (1.024 cm). After 17 folds, the thickness is about 131 cm (a little more than 4 feet). Now, what do you think the thickness would be after 30 folds? 45 folds? Make a guess. Fill the table below. Fold Thickness Fold Thickness Fold Thickness 18 ≈ 262 cm 21 24 19 ≈ 524 cm 22 25 20 ≈ 10.4 m 23 26 After 26 folds, the thickness is approximately 670 m. Burj Khalifa in Dubai, the tallest building in the world, is 830 m ta

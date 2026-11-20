@@ -1,0 +1,28 @@
+NUMBERED
+13.1 Introduction
+13.2 Measures of Dispersion
+BIG
+STATISTICS
+ANote In this Chapter, we shall use the symbol M to denote median unless stated
+ANote Instead of carrying out the steps every time, we can carry on calculation,
+where ∑
+ANote The step deviation method is applied to compute x . Rest of the procedure
+If ∑
+from the mean x . Can we thus say that the sum ∑
+the deviations, i.e., we take ∑
+Thus, we can take ∑
+Variance (
+, i.e., ∑
+ANote The reader may note that if each observation is multiplied by a constant
+ANote We may note that adding (or subtracting) a positive number to (or from)
+= Incorrect ∑
+®Measures of dispersion Range, Quartile deviation, mean deviation, variance,
+®Mean deviation for ungrouped data
+®Mean deviation for grouped data
+®Variance and standard deviation for ungrouped data
+®Variance and standard deviation of a discrete frequency distribution
+®Variance and standard deviation of a continuous frequency distribution
+®Shortcut method to find variance and standard deviation.
+— v —
+SAMPLE
+v“Statistics may be rightly called the science of averages and their estimates.” – A.L.BOWLEY & A.L. BODDINGTON v 13.1 Introduction We know that statistics deals with data collected for specific purposes. We can make decisions about the data by analysing and interpreting it. In earlier classes, we have studied methods of representing data graphically and in tabular form. This representation reveals certain salient features or characteristics of the data. We have also studied the methods of finding a representative value for the given data. This value is called the measure of central tendency. Recall mean (arithmetic mean), median and mode are three measures of central tendency. A measure of central tendency gives us a rough idea where data points are centred. But, in order to make better interpretation from the data, we should also have an idea how the data are scattered or how much they are bunched around a measure of central tendency. Consider now the runs scored by two batsmen in their last ten matches as follows: Batsman A : 30, 91, 0, 64, 42, 80, 30, 5, 117, 71 Batsman B : 53, 46, 48, 50, 53, 53, 58, 60, 57, 52 Clearly, the mean and median of the data are Batsman A Batsman B Mean 53 53 Median 53 53 Recall that, we calculate the mean of a data (denoted by x ) by dividing the sum of the observations by the number of observations, i.e., 13 Chapter STATISTICS Karl Pearson (1857-1936) Reprint 2026-27 258 MATHEMATICS 1 1 n i i x x n = = ∑ Also, the median is obtained by first arranging the data in ascending or descending order and applying the following rule. If the number of observations is odd, then the median is th 1 2 n +       observation. If the number of observations is even, then median is the mean of th 2 n       and th 1 2 n   +     observatio

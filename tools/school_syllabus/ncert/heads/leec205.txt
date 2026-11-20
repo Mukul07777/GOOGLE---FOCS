@@ -1,0 +1,12 @@
+NUMBERED
+5.1 EQUILIBRIUM, EXCESS DEMAND, EXCESS SUPPLY
+5.2 APPLICATIONS
+BIG
+Chapter 5
+Market Equilibrium
+5.2 APPLICATIONS
+yr a m m u S
+st pe cn o C ye K
+se si cr e x E
+SAMPLE
+Chapter 5 Price O Quantity SS DD p* pf q'1 q* q2 p1 q1 q'1 Mark Mark Mark Mark Market Equilibrium et Equilibrium et Equilibrium et Equilibrium et Equilibrium This chapter will be built on the foundation laid down in Chapters 2 and 4 where we studied the consumer and firm behaviour when they are price takers. In Chapter 2, we have seen that an individual’s demand curve for a commodity tells us what quantity a consumer is willing to buy at different prices when he takes price as given. The market demand curve in turn tells us how much of the commodity all the consumers taken together are willing to purchase at different prices when everyone takes price as given. In Chapter 4, we have seen that an individual firm’s supply curve tells us the quantity of the commodity that a profit-maximising firm would wish to sell at different prices when it takes price as given and the market supply curve tells us how much of the commodity all the firms taken together would wish to supply at different prices when each firm takes price as given. In this chapter, we combine both consumers’ and firms’ behaviour to study market equilibrium through demand-supply analysis and determine at what price equilibrium will be attained. We also examine the effects of demand and supply shifts on equilibrium. At the end of the chapter, we will look at some of the applications of demand-supply analysis. 5.1 EQUILIBRIUM, EXCESS DEMAND, EXCESS SUPPLY A perfectly competitive market consists of buyers and sellers who are driven by their self-interested objectives. Recall from Chapters 2 and 4 that objectives of the consumers are to maximise their respective preference and that of the firms are to maximise their respective profits. Both the consumers’ and firms’ objectives are compatible in the equilibrium. An

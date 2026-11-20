@@ -1,0 +1,41 @@
+NUMBERED
+5.1 Introduction to Python
+5.1.1 Features of Python
+5.1.2 Working with Python
+5.1.3 Execution Modes
+5.2 Python Keywords
+5.3 Identifiers
+5.4 Variables
+5.5 Comments
+5.6 Everything is an Object
+5.7 Data Types
+5.7.1 Number
+5.7.2 Sequence
+5.7.3 Set
+5.7.4 None
+5.7.5 Mapping
+5.7.6 Mutable and Immutable Data Types
+5.7.7 Deciding Usage of Python Data Types
+5.8 Operators
+5.8.2 Relational Operators
+5.8.1 Arithmetic Operators
+5.8.3 Assignment Operators
+5.8.5 Identity Operators
+5.8.4 Logical Operators
+5.9 Expressions
+5.8.6 Membership Operators
+5.9.1 Precedence of Operators
+5.10 Statement
+5.11 Input and Output
+5.12 Type Conversion
+5.12.1 Explicit Conversion
+5.12.2 Implicit Conversion
+5.13 Debugging
+5.13.1 Syntax Errors
+5.13.2 Logical Errors
+5.13.3 Runtime Error
+BIG
+Chapter 5
+Getting Started with Python
+SAMPLE
+5.1 Introduction to Python We have written algorithms for different problems in Chapter 4. Let us now move a step further and create programs using any version of Python 3. But before learning about Python programming language, let us understand what is a programming language and how it works. An ordered set of instructions to be executed by a computer to carry out a specific task is called a program, and the language used to specify this set of instructions to the computer is called a programming language. As we know that computers understand the language of 0s and 1s which is called machine language or low level language. However, it is difficult for humans to write or comprehend instructions using 0s and 1s. This led to the advent of high-level programming languages like Python, C++, Visual Basic, PHP, Java that are easier to manage by humans but are not directly understood by the computer. A program written in a high-level language is called source code. Recall from Chapter 1 that language translators like compilers and interpreters are needed to translate the source code into machine language. Python uses an interpreter to convert its instructions into machine language, so that it can be understood by the computer. An interpreter processes the program statements one by one, first translating and then executing. This process is continued until an error is encountered or the whole program is executed successfully. In both the cases, program execution will stop. On the contrary, a compiler translates the entire source code, as a whole, into the object code. After scanning the whole program, it generates error messages, if any. “Computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially

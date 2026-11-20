@@ -1,0 +1,22 @@
+{
+  "name": "apply",
+  "seconds": 32.99,
+  "frames": 1632,
+  "fps": 49.5,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "form",
+      "t": 11.52
+    },
+    {
+      "label": "send",
+      "t": 28.31
+    },
+    {
+      "label": "end",
+      "t": 32.57
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "admin",
+  "seconds": 26.06,
+  "frames": 980,
+  "fps": 37.6,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "dashboard",
+      "t": 7.09
+    },
+    {
+      "label": "proof",
+      "t": 18.82
+    },
+    {
+      "label": "approve",
+      "t": 21.42
+    },
+    {
+      "label": "end",
+      "t": 25.65
+    }
+  ]
+}

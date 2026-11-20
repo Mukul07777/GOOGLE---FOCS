@@ -1,0 +1,203 @@
+{
+  "exam": "jee",
+  "name": "JEE Main & Advanced",
+  "about": "Based on the NTA JEE Main syllabus (also the base for JEE Advanced). Weightage is the approximate share of questions in recent papers; hours are realistic self-study estimates (lectures plus practice) for learning a chapter, not counting revision and mock tests.",
+  "subjects": [
+    {
+      "name": "Physics",
+      "units": [
+        {
+          "name": "Mechanics",
+          "chapters": [
+            {"name": "Units, Measurements & Errors", "class": 11, "hours": 13, "weight": 1, "foundation": true,
+             "topics": ["SI units and fundamental quantities", "Dimensions and dimensional analysis", "Significant figures and rounding off", "Errors in measurement and their propagation", "Vernier calipers and screw gauge"]},
+            {"name": "Kinematics", "class": 11, "hours": 35, "weight": 2, "foundation": true,
+             "topics": ["Frame of reference, distance and displacement", "Speed, velocity and acceleration", "Equations of motion in a straight line", "Motion graphs (x-t, v-t, a-t)", "Vectors: addition, components, products", "Motion in a plane", "Projectile motion", "Relative velocity and river-boat problems", "Uniform circular motion"]},
+            {"name": "Laws of Motion", "class": 11, "hours": 32, "weight": 1.5, "foundation": true,
+             "topics": ["Newton's laws and free-body diagrams", "Tension, normal force and pulleys", "Constraint relations", "Static and kinetic friction", "Pseudo force and non-inertial frames", "Dynamics of circular motion and banking of roads"]},
+            {"name": "Work, Energy & Power", "class": 11, "hours": 29, "weight": 1.5,
+             "topics": ["Work done by constant and variable forces", "Kinetic energy and the work-energy theorem", "Potential energy and conservative forces", "Conservation of mechanical energy", "Power", "Vertical circular motion", "Collisions and coefficient of restitution"]},
+            {"name": "Rotational Motion", "class": 11, "hours": 48, "weight": 2,
+             "topics": ["Centre of mass and its motion", "Conservation of linear momentum", "Moment of inertia and the radius of gyration", "Parallel and perpendicular axis theorems", "Torque and rotational equilibrium", "Rotational dynamics (τ = Iα)", "Angular momentum and its conservation", "Rolling motion"]},
+            {"name": "Gravitation", "class": 11, "hours": 22, "weight": 1.5,
+             "topics": ["Newton's law of gravitation", "Acceleration due to gravity and its variation", "Gravitational field and potential", "Gravitational potential energy", "Escape and orbital velocity", "Satellites and Kepler's laws"]}
+          ]
+        },
+        {
+          "name": "Properties of Matter & Thermal Physics",
+          "chapters": [
+            {"name": "Properties of Solids & Liquids", "class": 11, "hours": 29, "weight": 1.5,
+             "topics": ["Stress, strain and Hooke's law", "Young's, bulk and shear moduli", "Pressure and Pascal's law", "Buoyancy and Archimedes' principle", "Bernoulli's principle and its applications", "Viscosity and Stokes' law", "Surface tension and capillarity", "Thermal expansion and calorimetry", "Heat transfer: conduction, convection, radiation"]},
+            {"name": "Thermodynamics", "class": 11, "hours": 26, "weight": 1.5,
+             "topics": ["Thermal equilibrium and the zeroth law", "Heat, work and internal energy", "First law of thermodynamics", "Isothermal, adiabatic, isobaric and isochoric processes", "Second law of thermodynamics", "Heat engines, refrigerators and the Carnot engine"]},
+            {"name": "Kinetic Theory of Gases", "class": 11, "hours": 13, "weight": 1,
+             "topics": ["Ideal gas equation and assumptions of kinetic theory", "Pressure of an ideal gas", "RMS speed and kinetic interpretation of temperature", "Degrees of freedom and equipartition of energy", "Specific heats of gases", "Mean free path"]}
+          ]
+        },
+        {
+          "name": "Oscillations & Waves",
+          "chapters": [
+            {"name": "Oscillations & Waves", "class": 11, "hours": 42, "weight": 2,
+             "topics": ["Periodic motion and simple harmonic motion", "Energy in SHM", "Spring-mass systems and the simple pendulum", "Wave motion: longitudinal and transverse waves", "Speed of a wave", "Superposition and standing waves", "Strings and organ pipes", "Beats"]}
+          ]
+        },
+        {
+          "name": "Electricity & Magnetism",
+          "chapters": [
+            {"name": "Electrostatics", "class": 12, "hours": 48, "weight": 2.5,
+             "topics": ["Electric charge and Coulomb's law", "Electric field and field lines", "Electric dipole", "Electric flux and Gauss's law", "Electric potential and potential energy", "Conductors and dielectrics", "Capacitors and capacitance", "Combination of capacitors and stored energy"]},
+            {"name": "Current Electricity", "class": 12, "hours": 38, "weight": 2,
+             "topics": ["Electric current and drift velocity", "Ohm's law, resistivity and temperature dependence", "Combination of resistors", "EMF, internal resistance and cells", "Kirchhoff's laws", "Wheatstone bridge and metre bridge", "Potentiometer", "Electrical power and energy"]},
+            {"name": "Magnetic Effects of Current & Magnetism", "class": 12, "hours": 45, "weight": 2.5,
+             "topics": ["Biot-Savart law", "Ampere's circuital law", "Force on a moving charge and the cyclotron", "Force between current-carrying conductors", "Torque on a current loop", "Moving coil galvanometer, ammeter and voltmeter", "Bar magnet and the magnetic dipole", "Magnetic properties of materials"]},
+            {"name": "Electromagnetic Induction & AC", "class": 12, "hours": 32, "weight": 1.5,
+             "topics": ["Faraday's laws and Lenz's law", "Motional EMF and eddy currents", "Self and mutual inductance", "AC voltage applied to R, L and C", "LCR circuits and resonance", "Power in AC circuits", "Transformers"]},
+            {"name": "Electromagnetic Waves", "class": 12, "hours": 6, "weight": 1,
+             "topics": ["Displacement current", "Characteristics of EM waves", "Electromagnetic spectrum and uses"]}
+          ]
+        },
+        {
+          "name": "Optics & Modern Physics",
+          "chapters": [
+            {"name": "Ray & Wave Optics", "class": 12, "hours": 48, "weight": 2.5,
+             "topics": ["Reflection and spherical mirrors", "Refraction and total internal reflection", "Refraction at spherical surfaces and lenses", "Prism and dispersion", "Optical instruments", "Huygens' principle", "Interference and Young's double-slit experiment", "Diffraction and polarisation"]},
+            {"name": "Dual Nature of Matter & Radiation", "class": 12, "hours": 16, "weight": 1.5,
+             "topics": ["Photoelectric effect", "Einstein's photoelectric equation", "Particle nature of light", "Matter waves and the de Broglie relation"]},
+            {"name": "Atoms & Nuclei", "class": 12, "hours": 19, "weight": 1.5,
+             "topics": ["Rutherford's model", "Bohr's model and the hydrogen spectrum", "Composition and size of the nucleus", "Mass defect and binding energy", "Radioactivity and decay law", "Nuclear fission and fusion"]},
+            {"name": "Semiconductor Electronics", "class": 12, "hours": 19, "weight": 1.5,
+             "topics": ["Semiconductors: intrinsic and extrinsic", "p-n junction diode", "Diode as a rectifier", "Special diodes: Zener, LED, photodiode, solar cell", "Logic gates"]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "units": [
+        {
+          "name": "Physical Chemistry",
+          "chapters": [
+            {"name": "Some Basic Concepts of Chemistry", "class": 11, "hours": 22, "weight": 1, "foundation": true,
+             "topics": ["Matter, atoms and molecules", "Atomic and molecular mass", "The mole concept and molar mass", "Percentage composition and empirical formula", "Stoichiometry and limiting reagent", "Concentration terms"]},
+            {"name": "Atomic Structure", "class": 11, "hours": 26, "weight": 1.5, "foundation": true,
+             "topics": ["Discovery of subatomic particles", "Atomic models", "Electromagnetic radiation and Planck's quantum theory", "Bohr's model of the hydrogen atom", "Dual nature and the uncertainty principle", "Quantum numbers and orbitals", "Electronic configuration and Aufbau, Pauli, Hund's rules"]},
+            {"name": "Chemical Bonding & Molecular Structure", "class": 11, "hours": 35, "weight": 2, "foundation": true,
+             "topics": ["Ionic and covalent bonds", "Lewis structures and formal charge", "VSEPR theory and molecular shapes", "Valence bond theory and hybridisation", "Molecular orbital theory", "Bond parameters and dipole moment", "Hydrogen bonding", "Resonance"]},
+            {"name": "Chemical Thermodynamics", "class": 11, "hours": 26, "weight": 1.5,
+             "topics": ["System, surroundings and state functions", "First law: work, heat and internal energy", "Enthalpy and heat capacity", "Hess's law and enthalpies of reaction", "Entropy and the second law", "Gibbs energy and spontaneity"]},
+            {"name": "Solutions", "class": 12, "hours": 16, "weight": 1,
+             "topics": ["Concentration of solutions", "Solubility and Henry's law", "Raoult's law and ideal solutions", "Non-ideal solutions and azeotropes", "Colligative properties", "Van't Hoff factor"]},
+            {"name": "Equilibrium", "class": 11, "hours": 35, "weight": 1.5,
+             "topics": ["Equilibrium in physical processes", "Law of mass action, Kc and Kp", "Le Chatelier's principle", "Acids, bases and the pH scale", "Ionisation of weak acids and bases", "Buffer solutions", "Hydrolysis of salts", "Solubility product"]},
+            {"name": "Redox Reactions & Electrochemistry", "class": 12, "hours": 29, "weight": 1.5,
+             "topics": ["Oxidation number and balancing redox reactions", "Electrochemical cells", "Standard electrode potential", "Nernst equation", "Gibbs energy and EMF", "Conductance and Kohlrausch's law", "Electrolysis and Faraday's laws", "Batteries, fuel cells and corrosion"]},
+            {"name": "Chemical Kinetics", "class": 12, "hours": 22, "weight": 1.5,
+             "topics": ["Rate of a reaction", "Factors affecting rate", "Rate law, order and molecularity", "Integrated rate equations", "Half-life", "Arrhenius equation and activation energy", "Collision theory"]}
+          ]
+        },
+        {
+          "name": "Inorganic Chemistry",
+          "chapters": [
+            {"name": "Classification of Elements & Periodicity", "class": 11, "hours": 16, "weight": 1,
+             "topics": ["Modern periodic law and the long form table", "s, p, d and f blocks", "Atomic and ionic radii", "Ionisation enthalpy", "Electron gain enthalpy", "Electronegativity and valency"]},
+            {"name": "p-Block Elements", "class": 12, "hours": 32, "weight": 1.5,
+             "topics": ["Group 13: boron family", "Group 14: carbon family", "Group 15: nitrogen family", "Group 16: oxygen family", "Group 17: halogens", "Group 18: noble gases", "Important compounds and oxoacids"]},
+            {"name": "d- and f-Block Elements", "class": 12, "hours": 19, "weight": 1.5,
+             "topics": ["Electronic configuration of transition elements", "General properties and trends", "Potassium dichromate and potassium permanganate", "Lanthanoids and the lanthanoid contraction", "Actinoids"]},
+            {"name": "Coordination Compounds", "class": 12, "hours": 29, "weight": 2,
+             "topics": ["Werner's theory", "Ligands, coordination number and nomenclature", "Isomerism in coordination compounds", "Valence bond theory", "Crystal field theory", "Colour and magnetic properties", "Importance and applications"]}
+          ]
+        },
+        {
+          "name": "Organic Chemistry",
+          "chapters": [
+            {"name": "Purification & Characterisation of Organic Compounds", "class": 11, "hours": 10, "weight": 1,
+             "topics": ["Methods of purification", "Chromatography", "Qualitative analysis: detection of elements", "Quantitative analysis"]},
+            {"name": "General Organic Chemistry", "class": 11, "hours": 35, "weight": 2, "foundation": true,
+             "topics": ["Classification and IUPAC nomenclature", "Isomerism: structural and stereo", "Inductive, resonance and hyperconjugation effects", "Reactive intermediates: carbocations, carbanions, free radicals", "Types of organic reactions", "Acidity and basicity of organic compounds"]},
+            {"name": "Hydrocarbons", "class": 11, "hours": 32, "weight": 1.5,
+             "topics": ["Alkanes: preparation and properties", "Conformations of ethane", "Alkenes: preparation and electrophilic addition", "Alkynes: preparation and properties", "Aromaticity and benzene", "Electrophilic substitution in benzene"]},
+            {"name": "Haloalkanes & Haloarenes", "class": 12, "hours": 19, "weight": 1,
+             "topics": ["Nomenclature and preparation", "SN1 and SN2 mechanisms", "Elimination reactions", "Reactions of haloarenes", "Polyhalogen compounds"]},
+            {"name": "Alcohols, Phenols & Ethers", "class": 12, "hours": 19, "weight": 1,
+             "topics": ["Preparation of alcohols", "Reactions of alcohols", "Phenols: preparation and acidity", "Reactions of phenols", "Ethers"]},
+            {"name": "Aldehydes, Ketones & Carboxylic Acids", "class": 12, "hours": 26, "weight": 1.5,
+             "topics": ["Preparation of aldehydes and ketones", "Nucleophilic addition reactions", "Aldol and Cannizzaro reactions", "Oxidation and reduction", "Carboxylic acids: preparation and acidity", "Reactions of carboxylic acids"]},
+            {"name": "Amines & Nitrogen Compounds", "class": 12, "hours": 16, "weight": 1,
+             "topics": ["Classification and preparation of amines", "Basicity of amines", "Reactions of amines", "Diazonium salts and their reactions"]},
+            {"name": "Biomolecules", "class": 12, "hours": 13, "weight": 1,
+             "topics": ["Carbohydrates", "Proteins and amino acids", "Enzymes", "Vitamins", "Nucleic acids", "Hormones"]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "units": [
+        {
+          "name": "Algebra",
+          "chapters": [
+            {"name": "Sets, Relations & Functions", "class": 11, "hours": 26, "weight": 1.5, "foundation": true,
+             "topics": ["Sets and Venn diagrams", "Relations and their types", "Functions: domain and range", "Types of functions", "Composition and inverse of functions", "Graphs of standard functions"]},
+            {"name": "Complex Numbers", "class": 11, "hours": 26, "weight": 1.5,
+             "topics": ["Algebra of complex numbers", "Modulus and argument", "Polar and Euler forms", "Square roots and cube roots of unity", "Geometry in the Argand plane"]},
+            {"name": "Quadratic Equations", "class": 11, "hours": 22, "weight": 1, "foundation": true,
+             "topics": ["Roots and the discriminant", "Relation between roots and coefficients", "Nature of roots", "Location of roots", "Quadratic expressions and their graphs"]},
+            {"name": "Matrices & Determinants", "class": 12, "hours": 29, "weight": 2,
+             "topics": ["Types of matrices and matrix algebra", "Transpose, symmetric and skew-symmetric matrices", "Determinants and their properties", "Adjoint and inverse", "Solving linear equations", "Area of a triangle using determinants"]},
+            {"name": "Permutations & Combinations", "class": 11, "hours": 22, "weight": 1,
+             "topics": ["Fundamental principle of counting", "Permutations", "Combinations", "Arrangements with restrictions", "Distribution and grouping"]},
+            {"name": "Binomial Theorem", "class": 11, "hours": 16, "weight": 1,
+             "topics": ["Binomial expansion", "General and middle terms", "Properties of binomial coefficients", "Applications and approximations"]},
+            {"name": "Sequences & Series", "class": 11, "hours": 26, "weight": 1.5,
+             "topics": ["Arithmetic progression", "Geometric progression", "AM-GM inequality", "Sum of special series", "Arithmetico-geometric series"]}
+          ]
+        },
+        {
+          "name": "Calculus",
+          "chapters": [
+            {"name": "Limits, Continuity & Differentiability", "class": 12, "hours": 35, "weight": 2,
+             "topics": ["Limits and standard limits", "L'Hôpital's rule", "Continuity", "Differentiability", "Derivatives of standard functions", "Chain rule, implicit and parametric differentiation"]},
+            {"name": "Application of Derivatives", "class": 12, "hours": 26, "weight": 1,
+             "topics": ["Rate of change", "Tangents and normals", "Increasing and decreasing functions", "Maxima and minima", "Rolle's and the mean value theorem"]},
+            {"name": "Integral Calculus", "class": 12, "hours": 51, "weight": 2.5,
+             "topics": ["Indefinite integrals of standard functions", "Integration by substitution", "Integration by parts", "Partial fractions", "Definite integrals and their properties", "Area under curves"]},
+            {"name": "Differential Equations", "class": 12, "hours": 19, "weight": 1,
+             "topics": ["Order and degree", "Formation of differential equations", "Variable separable equations", "Homogeneous equations", "Linear first-order equations"]}
+          ]
+        },
+        {
+          "name": "Coordinate Geometry",
+          "chapters": [
+            {"name": "Straight Lines", "class": 11, "hours": 22, "weight": 1,
+             "topics": ["Distance and section formulae", "Slope and forms of a line", "Angle between lines", "Distance of a point from a line", "Family of lines and locus"]},
+            {"name": "Circles", "class": 11, "hours": 22, "weight": 1,
+             "topics": ["Equation of a circle", "Tangents and normals", "Chord of contact", "Family of circles", "Two circles and their common tangents"]},
+            {"name": "Conic Sections", "class": 11, "hours": 38, "weight": 2,
+             "topics": ["Parabola", "Ellipse", "Hyperbola", "Tangents and normals to conics", "Parametric forms"]}
+          ]
+        },
+        {
+          "name": "Vectors & 3D",
+          "chapters": [
+            {"name": "Three Dimensional Geometry", "class": 12, "hours": 26, "weight": 2,
+             "topics": ["Direction cosines and ratios", "Equation of a line in space", "Equation of a plane", "Angle between lines and planes", "Shortest distance between lines"]},
+            {"name": "Vector Algebra", "class": 12, "hours": 19, "weight": 1.5,
+             "topics": ["Vectors and their types", "Dot product", "Cross product", "Scalar triple product", "Vector equations of geometry"]}
+          ]
+        },
+        {
+          "name": "Statistics, Probability & Trigonometry",
+          "chapters": [
+            {"name": "Statistics", "class": 11, "hours": 10, "weight": 1,
+             "topics": ["Mean, median and mode", "Mean deviation", "Variance and standard deviation"]},
+            {"name": "Probability", "class": 12, "hours": 26, "weight": 1.5,
+             "topics": ["Classical probability", "Addition and multiplication rules", "Conditional probability", "Bayes' theorem", "Random variables and distributions", "Binomial distribution"]},
+            {"name": "Trigonometry", "class": 11, "hours": 29, "weight": 1, "foundation": true,
+             "topics": ["Trigonometric ratios and identities", "Compound and multiple angles", "Trigonometric equations", "Inverse trigonometric functions", "Properties of triangles"]}
+          ]
+        }
+      ]
+    }
+  ]
+}

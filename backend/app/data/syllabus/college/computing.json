@@ -1,0 +1,229 @@
+{
+  "area": "Computer science and information technology",
+  "courses": [
+    {"name": "Data Structures", "about": "Organising data for efficient algorithms", "chapters": [
+      {"name": "Complexity and Arrays", "hours": 6, "weight": 2, "foundation": true, "topics": ["Asymptotic notation: Big-O, Omega and Theta", "Time and space complexity of loops and recursion", "Arrays and address calculation", "Sparse matrices", "Abstract data types"]},
+      {"name": "Linked Lists", "hours": 7, "weight": 2, "foundation": true, "topics": ["Singly linked list: insertion, deletion and traversal", "Doubly linked lists", "Circular linked lists", "Reversing a list and detecting a cycle", "Polynomial representation with lists"]},
+      {"name": "Stacks and Queues", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Stack: array and linked implementations", "Infix to postfix conversion and postfix evaluation", "Recursion and the system stack", "Queue and circular queue", "Deque and priority queue"]},
+      {"name": "Trees", "hours": 9, "weight": 2.5, "topics": ["Binary trees and their traversals", "Binary search tree: search, insert and delete", "AVL trees and rotations", "B-trees and B+ trees", "Heaps and heap operations", "Threaded binary trees and expression trees"]},
+      {"name": "Graphs", "hours": 8, "weight": 2.5, "topics": ["Graph representations: adjacency matrix and list", "Breadth-first and depth-first search", "Topological sorting", "Minimum spanning trees: Prim's and Kruskal's algorithms", "Shortest paths: Dijkstra's algorithm", "Connected components"]},
+      {"name": "Searching, Sorting and Hashing", "hours": 8, "weight": 2.5, "topics": ["Linear and binary search", "Insertion, selection and bubble sort", "Merge sort and quick sort", "Heap sort", "Counting and radix sort", "Hash functions and collision resolution"]}
+    ]},
+    {"name": "Discrete Mathematics", "about": "Logic, sets, counting, graphs and algebraic structures", "chapters": [
+      {"name": "Logic and Proofs", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Propositional logic and truth tables", "Logical equivalences and normal forms", "Predicates and quantifiers", "Rules of inference", "Proof techniques: direct, contradiction and contrapositive", "Mathematical induction"]},
+      {"name": "Sets, Relations and Functions", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Set operations and identities", "Relations and their properties", "Equivalence relations and partitions", "Partial orders, Hasse diagrams and lattices", "Functions: injective, surjective and bijective", "Countable and uncountable sets"]},
+      {"name": "Counting and Combinatorics", "hours": 7, "weight": 2, "topics": ["Sum and product rules", "Permutations and combinations", "Pigeonhole principle", "Inclusion-exclusion principle", "Binomial theorem and identities"]},
+      {"name": "Recurrence Relations", "hours": 5, "weight": 1.5, "topics": ["Formulating recurrence relations", "Linear homogeneous recurrences", "Non-homogeneous recurrences", "Generating functions"]},
+      {"name": "Graph Theory", "hours": 8, "weight": 2.5, "topics": ["Graphs, degree and the handshaking lemma", "Paths, cycles and connectivity", "Euler and Hamiltonian graphs", "Trees and spanning trees", "Planar graphs and Euler's formula", "Graph colouring and chromatic number"]},
+      {"name": "Algebraic Structures", "hours": 6, "weight": 1.5, "topics": ["Groups and subgroups", "Cyclic groups and Lagrange's theorem", "Homomorphism and isomorphism", "Rings and fields", "Modular arithmetic and Euclid's algorithm"]}
+    ]},
+    {"name": "Digital Logic Design", "about": "Boolean algebra, combinational and sequential circuits", "chapters": [
+      {"name": "Number Systems and Codes", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Binary, octal and hexadecimal conversion", "Signed numbers and complements", "Binary arithmetic", "BCD, Gray and excess-3 codes", "Error detecting and correcting codes"]},
+      {"name": "Boolean Algebra and Minimisation", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Boolean laws and De Morgan's theorems", "Logic gates and universal gates", "SOP and POS canonical forms", "Karnaugh map minimisation", "Quine-McCluskey method"]},
+      {"name": "Combinational Circuits", "hours": 8, "weight": 2.5, "topics": ["Half and full adders and subtractors", "Carry look-ahead adder", "Multiplexers and demultiplexers", "Encoders and decoders", "Comparators and parity generators", "Hazards in combinational circuits"]},
+      {"name": "Flip-Flops and Sequential Basics", "hours": 6, "weight": 2, "topics": ["Latches and SR, JK, D and T flip-flops", "Edge triggering and master-slave flip-flops", "Excitation tables and conversions", "Setup time, hold time and metastability"]},
+      {"name": "Counters and Registers", "hours": 7, "weight": 2, "topics": ["Shift registers and their types", "Asynchronous (ripple) counters", "Synchronous counter design", "Ring and Johnson counters", "Sequence generators"]},
+      {"name": "Finite State Machines and Memory", "hours": 7, "weight": 2, "topics": ["Mealy and Moore machines", "State diagrams, tables and reduction", "Design of sequence detectors", "ROM, RAM and programmable logic devices", "Logic families: TTL and CMOS", "ADC and DAC basics"]}
+    ]},
+    {"name": "Object-Oriented Programming", "about": "Object-oriented design and programming in C++/Java", "chapters": [
+      {"name": "Classes and Objects", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Procedural versus object-oriented programming", "Classes, objects and access specifiers", "Constructors and destructors", "Static members and the this pointer", "Friend functions and classes"]},
+      {"name": "Inheritance", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Single, multilevel and hierarchical inheritance", "Multiple inheritance and the diamond problem", "Constructors in derived classes", "Method overriding", "Abstract classes and interfaces"]},
+      {"name": "Polymorphism", "hours": 6, "weight": 2.5, "topics": ["Function overloading", "Operator overloading", "Virtual functions and dynamic binding", "Pure virtual functions", "Virtual tables"]},
+      {"name": "Templates and Exceptions", "hours": 6, "weight": 2, "topics": ["Function and class templates", "Generic programming", "Exception handling: try, catch and throw", "Custom exceptions", "Standard template library and collections"]},
+      {"name": "Files, Streams and Memory", "hours": 5, "weight": 1.5, "topics": ["Stream classes and file input/output", "Object serialisation", "Dynamic memory: new and delete", "Copy constructor, shallow and deep copy", "Garbage collection"]},
+      {"name": "Object-Oriented Design", "hours": 7, "weight": 2, "topics": ["UML class and sequence diagrams", "Association, aggregation and composition", "SOLID principles", "Common design patterns", "Multithreading basics", "Event-driven and GUI programming"]}
+    ]},
+    {"name": "Computer Organization and Architecture", "about": "How a computer executes programs", "chapters": [
+      {"name": "Basic Structure and Instructions", "hours": 6, "weight": 2, "foundation": true, "topics": ["Functional units and the stored-program concept", "Instruction formats and types", "Addressing modes", "RISC versus CISC", "Performance: CPU time and Amdahl's law"]},
+      {"name": "Computer Arithmetic", "hours": 6, "weight": 2, "topics": ["Fixed-point addition and subtraction", "Booth's multiplication algorithm", "Restoring and non-restoring division", "IEEE 754 floating-point representation", "Floating-point arithmetic"]},
+      {"name": "Processor and Control Unit", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Register transfer and micro-operations", "Single-cycle datapath", "Hardwired control", "Microprogrammed control", "Instruction cycle and interrupts"]},
+      {"name": "Pipelining", "hours": 7, "weight": 2.5, "topics": ["Pipeline stages and speedup", "Structural, data and control hazards", "Forwarding and stalling", "Branch prediction", "Superscalar processors"]},
+      {"name": "Memory Hierarchy", "hours": 8, "weight": 2.5, "topics": ["Memory hierarchy and locality of reference", "Cache mapping: direct, associative and set-associative", "Cache performance and replacement policies", "Virtual memory and paging", "Translation look-aside buffer", "Secondary storage and RAID"]},
+      {"name": "Input/Output and Parallelism", "hours": 5, "weight": 1.5, "topics": ["Programmed and interrupt-driven I/O", "Direct memory access", "Buses and interfaces", "Flynn's classification", "Multicore processors"]}
+    ]},
+    {"name": "Database Management Systems", "about": "Data modelling, SQL, transactions and storage", "chapters": [
+      {"name": "Data Models and ER Design", "hours": 6, "weight": 2, "foundation": true, "topics": ["Database systems versus file systems", "Three-schema architecture and data independence", "Entity-relationship model", "Extended ER features", "Mapping ER diagrams to relations"]},
+      {"name": "Relational Model and Algebra", "hours": 6, "weight": 2, "foundation": true, "topics": ["Relations, keys and integrity constraints", "Relational algebra operations", "Joins and division", "Tuple and domain relational calculus"]},
+      {"name": "SQL", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["DDL, DML and constraints", "Select queries and aggregate functions", "Joins and nested queries", "Group by and having", "Views, triggers and stored procedures"]},
+      {"name": "Normalisation", "hours": 7, "weight": 2.5, "topics": ["Functional dependencies and closure", "Candidate keys and minimal cover", "1NF, 2NF and 3NF", "BCNF", "Lossless join and dependency preservation", "Multivalued dependencies and 4NF"]},
+      {"name": "Transactions and Concurrency", "hours": 8, "weight": 2.5, "topics": ["ACID properties and transaction states", "Schedules and conflict serialisability", "View serialisability and recoverability", "Two-phase locking", "Timestamp ordering and deadlock handling", "Log-based recovery and checkpoints"]},
+      {"name": "Storage and Indexing", "hours": 6, "weight": 2, "topics": ["File organisation", "Primary, clustering and secondary indexes", "B-tree and B+ tree indexes", "Hashing techniques", "Query processing and optimisation", "NoSQL databases overview"]}
+    ]},
+    {"name": "Operating Systems", "about": "Processes, memory, storage and concurrency", "chapters": [
+      {"name": "Processes and Threads", "hours": 6, "weight": 2, "foundation": true, "topics": ["Operating system structure and system calls", "Process states and the process control block", "Context switching", "Threads and multithreading models", "Inter-process communication"]},
+      {"name": "CPU Scheduling", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Scheduling criteria", "FCFS and shortest job first", "Priority and round-robin scheduling", "Multilevel queue and feedback queue", "Multiprocessor and real-time scheduling"]},
+      {"name": "Process Synchronisation", "hours": 8, "weight": 2.5, "topics": ["Race conditions and the critical section problem", "Peterson's solution and hardware support", "Semaphores and mutexes", "Monitors", "Producer-consumer and readers-writers problems", "Dining philosophers problem"]},
+      {"name": "Deadlocks", "hours": 5, "weight": 2, "topics": ["Necessary conditions for deadlock", "Resource allocation graph", "Deadlock prevention", "Banker's algorithm", "Deadlock detection and recovery"]},
+      {"name": "Memory Management", "hours": 8, "weight": 2.5, "topics": ["Contiguous allocation and fragmentation", "Paging and page tables", "Segmentation", "Demand paging and page faults", "Page replacement algorithms", "Thrashing and working set"]},
+      {"name": "File Systems and Storage", "hours": 6, "weight": 2, "topics": ["File concepts and access methods", "Directory structures", "File allocation methods", "Free space management", "Disk scheduling algorithms", "Protection and security basics"]}
+    ]},
+    {"name": "Design and Analysis of Algorithms", "about": "Algorithm design techniques and their analysis", "chapters": [
+      {"name": "Analysis of Algorithms", "hours": 6, "weight": 2, "foundation": true, "topics": ["Asymptotic analysis and growth of functions", "Solving recurrences by substitution and recursion trees", "Master theorem", "Amortised analysis", "Lower bound for comparison sorting"]},
+      {"name": "Divide and Conquer", "hours": 6, "weight": 2, "foundation": true, "topics": ["Merge sort and quick sort analysis", "Binary search and its variants", "Strassen's matrix multiplication", "Closest pair of points", "Selection in linear time"]},
+      {"name": "Greedy Algorithms", "hours": 7, "weight": 2.5, "topics": ["Greedy strategy and its correctness", "Activity selection problem", "Fractional knapsack", "Huffman coding", "Minimum spanning trees", "Job sequencing with deadlines"]},
+      {"name": "Dynamic Programming", "hours": 9, "weight": 2.5, "topics": ["Optimal substructure and overlapping subproblems", "0/1 knapsack", "Longest common subsequence", "Matrix chain multiplication", "Floyd-Warshall and Bellman-Ford algorithms", "Optimal binary search trees"]},
+      {"name": "Graph Algorithms", "hours": 7, "weight": 2, "topics": ["BFS, DFS and their applications", "Strongly connected components", "Dijkstra's shortest path algorithm", "Maximum flow: Ford-Fulkerson method", "Bipartite matching"]},
+      {"name": "Backtracking and Branch and Bound", "hours": 5, "weight": 1.5, "topics": ["N-queens problem", "Subset sum and graph colouring", "Hamiltonian cycles", "Branch and bound for the travelling salesman problem"]},
+      {"name": "NP-Completeness", "hours": 6, "weight": 2, "topics": ["Classes P, NP, NP-hard and NP-complete", "Polynomial-time reductions", "Cook's theorem and standard NP-complete problems", "Approximation algorithms", "String matching: KMP and Rabin-Karp"]}
+    ]},
+    {"name": "Theory of Computation", "about": "Automata, formal languages and computability", "chapters": [
+      {"name": "Finite Automata", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Alphabets, strings and languages", "Deterministic finite automata", "Non-deterministic finite automata and epsilon moves", "NFA to DFA conversion", "Minimisation of DFA", "Moore and Mealy machines"]},
+      {"name": "Regular Languages", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Regular expressions", "Equivalence of regular expressions and finite automata", "Pumping lemma for regular languages", "Closure properties of regular languages", "Regular grammars"]},
+      {"name": "Context-Free Grammars", "hours": 7, "weight": 2, "topics": ["Context-free grammars and derivations", "Parse trees and ambiguity", "Simplification of grammars", "Chomsky and Greibach normal forms", "Pumping lemma for context-free languages"]},
+      {"name": "Pushdown Automata", "hours": 6, "weight": 2, "topics": ["Pushdown automata and acceptance", "Equivalence of PDA and CFG", "Deterministic pushdown automata", "Closure properties of context-free languages", "CYK algorithm"]},
+      {"name": "Turing Machines", "hours": 7, "weight": 2, "topics": ["Turing machine model and design", "Variants of Turing machines", "Recursive and recursively enumerable languages", "Church-Turing thesis", "Chomsky hierarchy"]},
+      {"name": "Undecidability and Complexity", "hours": 6, "weight": 2, "topics": ["The halting problem", "Reductions and undecidable problems", "Rice's theorem", "Post correspondence problem", "Classes P and NP"]}
+    ]},
+    {"name": "Computer Networks", "about": "Layered network architecture and protocols", "chapters": [
+      {"name": "Network Models and Physical Layer", "hours": 6, "weight": 1.5, "foundation": true, "topics": ["OSI and TCP/IP reference models", "Transmission media", "Bandwidth, data rate and channel capacity", "Line coding and modulation", "Multiplexing and switching"]},
+      {"name": "Data Link Layer", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Framing and error detection: parity, CRC and checksum", "Hamming codes", "Stop-and-wait, go-back-N and selective repeat", "ALOHA and CSMA/CD", "Ethernet and switching", "Wireless LANs and CSMA/CA"]},
+      {"name": "Network Layer", "hours": 9, "weight": 2.5, "topics": ["IPv4 addressing and subnetting", "CIDR and NAT", "ARP, DHCP and ICMP", "Distance vector routing and RIP", "Link state routing and OSPF", "BGP and IPv6"]},
+      {"name": "Transport Layer", "hours": 8, "weight": 2.5, "topics": ["UDP and its uses", "TCP segment and connection management", "TCP flow control and sliding window", "TCP congestion control", "Quality of service"]},
+      {"name": "Application Layer", "hours": 6, "weight": 2, "topics": ["DNS", "HTTP and the web", "Email: SMTP, POP3 and IMAP", "FTP and peer-to-peer applications", "Socket programming"]},
+      {"name": "Network Security Basics", "hours": 5, "weight": 1.5, "topics": ["Symmetric and public-key cryptography", "Digital signatures and certificates", "TLS and HTTPS", "Firewalls and VPNs"]}
+    ]},
+    {"name": "Software Engineering", "about": "Processes and practices for building software", "chapters": [
+      {"name": "Software Process Models", "hours": 6, "weight": 2, "foundation": true, "topics": ["Software characteristics and the software crisis", "Waterfall and incremental models", "Spiral and prototyping models", "Agile methods and Scrum", "DevOps overview"]},
+      {"name": "Requirements Engineering", "hours": 6, "weight": 2, "foundation": true, "topics": ["Requirements elicitation techniques", "Functional and non-functional requirements", "Software requirements specification", "Use cases and user stories", "Data flow diagrams"]},
+      {"name": "Software Design", "hours": 7, "weight": 2.5, "topics": ["Cohesion and coupling", "Architectural styles", "Structured design", "Object-oriented design with UML", "User interface design"]},
+      {"name": "Software Testing", "hours": 7, "weight": 2.5, "topics": ["Verification and validation", "Black-box testing: equivalence classes and boundary values", "White-box testing and cyclomatic complexity", "Unit, integration and system testing", "Regression and acceptance testing"]},
+      {"name": "Project Management", "hours": 7, "weight": 2, "topics": ["Size estimation: LOC and function points", "COCOMO cost estimation", "Project scheduling: PERT and Gantt charts", "Risk management", "Software configuration management"]},
+      {"name": "Quality and Maintenance", "hours": 5, "weight": 1.5, "topics": ["Software quality attributes and metrics", "ISO 9001 and CMMI", "Software reliability", "Types of maintenance", "Reverse engineering and re-engineering"]}
+    ]},
+    {"name": "Compiler Design", "about": "Translating programs: from source text to machine code", "chapters": [
+      {"name": "Lexical Analysis", "hours": 5, "weight": 2, "foundation": true, "topics": ["Phases of a compiler", "Tokens, patterns and lexemes", "Regular expressions to finite automata", "Lexical analyser generators (Lex)", "Symbol table"]},
+      {"name": "Top-Down Parsing", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Context-free grammars and ambiguity", "Left recursion and left factoring", "FIRST and FOLLOW sets", "LL(1) parsing table", "Recursive descent parsing"]},
+      {"name": "Bottom-Up Parsing", "hours": 8, "weight": 2.5, "topics": ["Shift-reduce parsing and handles", "LR(0) items and SLR parsing", "Canonical LR(1) parsing", "LALR parsing", "Operator precedence parsing", "Parser generators (Yacc)"]},
+      {"name": "Syntax-Directed Translation", "hours": 6, "weight": 2, "topics": ["Syntax-directed definitions", "Synthesised and inherited attributes", "S-attributed and L-attributed definitions", "Type checking"]},
+      {"name": "Intermediate Code Generation", "hours": 6, "weight": 2, "topics": ["Three-address code, quadruples and triples", "Translation of expressions", "Translation of control flow and backpatching", "Run-time environments and activation records"]},
+      {"name": "Code Optimisation and Generation", "hours": 7, "weight": 2, "topics": ["Basic blocks and flow graphs", "Local optimisation and the DAG representation", "Loop optimisation", "Data-flow analysis", "Register allocation", "Peephole optimisation"]}
+    ]},
+    {"name": "Artificial Intelligence", "about": "Search, knowledge, reasoning and learning", "chapters": [
+      {"name": "Intelligent Agents and Search", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Agents and environments", "Problem formulation and state spaces", "Breadth-first, depth-first and uniform-cost search", "Iterative deepening", "Greedy best-first and A* search", "Heuristics and admissibility"]},
+      {"name": "Adversarial Search and CSP", "hours": 6, "weight": 2, "topics": ["Minimax algorithm", "Alpha-beta pruning", "Constraint satisfaction problems", "Backtracking and constraint propagation", "Local search: hill climbing and simulated annealing"]},
+      {"name": "Knowledge Representation and Logic", "hours": 7, "weight": 2, "topics": ["Propositional logic and inference", "First-order logic", "Unification and resolution", "Forward and backward chaining", "Semantic networks and frames"]},
+      {"name": "Reasoning under Uncertainty", "hours": 7, "weight": 2, "topics": ["Probability and Bayes' rule in AI", "Bayesian networks", "Inference in Bayesian networks", "Hidden Markov models", "Fuzzy logic"]},
+      {"name": "Planning and Decision Making", "hours": 5, "weight": 1.5, "topics": ["Classical planning and STRIPS", "Markov decision processes", "Value iteration and policy iteration", "Introduction to reinforcement learning"]},
+      {"name": "Learning and Applications", "hours": 6, "weight": 1.5, "topics": ["Supervised learning and decision trees", "Neural networks basics", "Natural language processing overview", "Expert systems"]}
+    ]},
+    {"name": "Machine Learning", "about": "Learning models from data", "chapters": [
+      {"name": "Foundations and Regression", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Types of learning and the ML workflow", "Linear regression and least squares", "Gradient descent", "Polynomial regression and regularisation (ridge and lasso)", "Bias-variance trade-off"]},
+      {"name": "Classification", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Logistic regression", "k-nearest neighbours", "Naive Bayes classifier", "Decision trees and information gain", "Support vector machines and kernels"]},
+      {"name": "Model Evaluation", "hours": 5, "weight": 2, "topics": ["Training, validation and test sets", "Cross-validation", "Confusion matrix, precision, recall and F1", "ROC curve and AUC", "Overfitting and underfitting"]},
+      {"name": "Ensemble Methods", "hours": 5, "weight": 2, "topics": ["Bagging and random forests", "Boosting and AdaBoost", "Gradient boosting", "Stacking"]},
+      {"name": "Unsupervised Learning", "hours": 7, "weight": 2, "topics": ["k-means clustering", "Hierarchical clustering", "Density-based clustering (DBSCAN)", "Gaussian mixture models and EM", "Principal component analysis"]},
+      {"name": "Neural Networks", "hours": 8, "weight": 2.5, "topics": ["Perceptron and multilayer networks", "Activation functions", "Backpropagation", "Optimisers and learning-rate schedules", "Introduction to convolutional networks", "Introduction to reinforcement learning"]}
+    ]},
+    {"name": "Deep Learning", "about": "Neural network architectures and their training", "chapters": [
+      {"name": "Training Deep Networks", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Feedforward networks and universal approximation", "Backpropagation and computational graphs", "Vanishing and exploding gradients", "Weight initialisation and batch normalisation", "Dropout and regularisation", "Optimisers: SGD, momentum and Adam"]},
+      {"name": "Convolutional Networks", "hours": 7, "weight": 2.5, "topics": ["Convolution, padding and stride", "Pooling layers", "Classic architectures: LeNet, AlexNet and VGG", "Residual networks", "Transfer learning", "Object detection and segmentation overview"]},
+      {"name": "Sequence Models", "hours": 7, "weight": 2, "topics": ["Recurrent neural networks", "Backpropagation through time", "LSTM and GRU", "Sequence-to-sequence models", "Word embeddings"]},
+      {"name": "Attention and Transformers", "hours": 6, "weight": 2, "topics": ["Attention mechanism", "Self-attention and multi-head attention", "Transformer architecture", "Pre-trained language models"]},
+      {"name": "Generative Models", "hours": 6, "weight": 1.5, "topics": ["Autoencoders", "Variational autoencoders", "Generative adversarial networks", "Diffusion models overview"]}
+    ]},
+    {"name": "Web Technologies", "about": "Building applications for the web", "chapters": [
+      {"name": "HTML and CSS", "hours": 6, "weight": 2, "foundation": true, "topics": ["How the web works: HTTP, URLs and browsers", "HTML document structure and forms", "CSS selectors and the box model", "Flexbox and grid layout", "Responsive design"]},
+      {"name": "JavaScript", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Variables, types and functions", "Objects, arrays and JSON", "The DOM and event handling", "Closures and scope", "Promises, async and await", "Fetch API and AJAX"]},
+      {"name": "Server-Side Programming", "hours": 7, "weight": 2.5, "topics": ["Client-server architecture", "Server-side scripting and routing", "Sessions and cookies", "REST APIs", "Form handling and validation"]},
+      {"name": "Databases for the Web", "hours": 5, "weight": 2, "topics": ["Connecting a web application to a database", "CRUD operations", "Object-relational mapping", "NoSQL document stores"]},
+      {"name": "Frameworks and Deployment", "hours": 6, "weight": 1.5, "topics": ["Component-based frontend frameworks", "MVC architecture", "XML and web services", "Deployment and hosting"]},
+      {"name": "Web Security", "hours": 5, "weight": 2, "topics": ["Authentication and authorisation", "Cross-site scripting", "SQL injection", "Cross-site request forgery", "HTTPS and secure cookies"]}
+    ]},
+    {"name": "Microprocessors and Microcontrollers", "about": "8085/8086 processors, the 8051 and interfacing", "chapters": [
+      {"name": "8085 Architecture and Programming", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["8085 architecture and pin diagram", "Instruction set and addressing modes", "Timing diagrams and machine cycles", "Assembly language programs", "Stack and subroutines", "Interrupts of the 8085"]},
+      {"name": "8086 Microprocessor", "hours": 8, "weight": 2.5, "topics": ["8086 architecture and segmentation", "Addressing modes of the 8086", "Instruction set and assembler directives", "Minimum and maximum mode", "Interrupt structure"]},
+      {"name": "Memory and I/O Interfacing", "hours": 6, "weight": 2, "topics": ["Memory interfacing and address decoding", "Memory-mapped and I/O-mapped I/O", "Interfacing keyboards and displays", "ADC and DAC interfacing"]},
+      {"name": "Peripheral Devices", "hours": 7, "weight": 2, "topics": ["8255 programmable peripheral interface", "8253/8254 programmable timer", "8259 interrupt controller", "8251 USART and serial communication", "8237 DMA controller"]},
+      {"name": "8051 Microcontroller", "hours": 8, "weight": 2.5, "topics": ["8051 architecture and memory organisation", "8051 instruction set and programming", "Timers and counters", "Serial port programming", "Interrupt programming", "Interfacing LCD, motors and sensors"]},
+      {"name": "Advanced Processors", "hours": 4, "weight": 1, "topics": ["ARM architecture overview", "Pentium and modern processor features", "Embedded C programming"]}
+    ]},
+    {"name": "Information and Network Security", "about": "Cryptography and securing systems and networks", "chapters": [
+      {"name": "Security Foundations and Classical Ciphers", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Security goals, attacks and services", "Substitution and transposition ciphers", "Cryptanalysis basics", "Modular arithmetic and Euclid's algorithm"]},
+      {"name": "Symmetric Key Cryptography", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Block ciphers and Feistel structure", "Data Encryption Standard", "Advanced Encryption Standard", "Block cipher modes of operation", "Stream ciphers"]},
+      {"name": "Public Key Cryptography", "hours": 7, "weight": 2.5, "topics": ["Fermat's and Euler's theorems", "RSA algorithm", "Diffie-Hellman key exchange", "ElGamal cryptosystem", "Elliptic curve cryptography"]},
+      {"name": "Hashing and Authentication", "hours": 6, "weight": 2, "topics": ["Cryptographic hash functions and SHA", "Message authentication codes and HMAC", "Digital signatures", "Key management and certificates (PKI)", "Kerberos"]},
+      {"name": "Network Security", "hours": 6, "weight": 2, "topics": ["IPsec", "TLS and the secure web", "Email security: PGP and S/MIME", "Firewalls", "Intrusion detection systems"]},
+      {"name": "System and Web Security", "hours": 5, "weight": 1.5, "topics": ["Malware: viruses, worms and trojans", "Buffer overflow attacks", "Web attacks: SQL injection and XSS", "Denial-of-service attacks", "Wireless network security"]}
+    ]},
+    {"name": "Data Warehousing and Data Mining", "about": "Storing data for analysis and finding patterns in it", "chapters": [
+      {"name": "Data Warehousing and OLAP", "hours": 6, "weight": 2, "foundation": true, "topics": ["Data warehouse architecture", "Star and snowflake schemas", "ETL process", "OLAP operations: roll-up, drill-down, slice and dice", "Data cube computation"]},
+      {"name": "Data Preprocessing", "hours": 5, "weight": 2, "foundation": true, "topics": ["Data cleaning and handling missing values", "Data integration and transformation", "Data reduction and dimensionality reduction", "Discretisation and normalisation"]},
+      {"name": "Association Rule Mining", "hours": 6, "weight": 2.5, "topics": ["Frequent itemsets, support and confidence", "Apriori algorithm", "FP-growth algorithm", "Evaluating association rules"]},
+      {"name": "Classification and Prediction", "hours": 7, "weight": 2.5, "topics": ["Decision tree induction", "Bayesian classification", "Rule-based and k-nearest neighbour classifiers", "Evaluating classifier accuracy", "Regression for prediction"]},
+      {"name": "Cluster Analysis", "hours": 6, "weight": 2, "topics": ["Partitioning methods: k-means and k-medoids", "Hierarchical methods", "Density-based methods", "Outlier detection"]},
+      {"name": "Mining Complex Data", "hours": 4, "weight": 1, "topics": ["Web mining", "Text mining", "Mining data streams and time series"]}
+    ]},
+    {"name": "Cloud Computing", "about": "Virtualised, on-demand computing services", "chapters": [
+      {"name": "Cloud Fundamentals", "hours": 5, "weight": 2, "foundation": true, "topics": ["Characteristics of cloud computing", "Service models: IaaS, PaaS and SaaS", "Deployment models: public, private and hybrid", "Cloud economics and service-level agreements"]},
+      {"name": "Virtualisation", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Hypervisors: type 1 and type 2", "Virtual machines and live migration", "Containers and Docker", "Container orchestration with Kubernetes"]},
+      {"name": "Cloud Storage and Data", "hours": 6, "weight": 2, "topics": ["Object, block and file storage", "Distributed file systems (GFS and HDFS)", "MapReduce", "NoSQL and cloud databases", "CAP theorem"]},
+      {"name": "Scalability and Architecture", "hours": 6, "weight": 2, "topics": ["Load balancing and auto-scaling", "Microservices architecture", "Serverless computing", "Service-oriented architecture and web services"]},
+      {"name": "Cloud Security and Management", "hours": 5, "weight": 1.5, "topics": ["Cloud security challenges", "Identity and access management", "Resource provisioning and scheduling", "Monitoring and fault tolerance", "Edge and fog computing"]}
+    ]},
+    {"name": "Distributed Systems", "about": "Computing across many machines", "chapters": [
+      {"name": "Models and Communication", "hours": 6, "weight": 2, "foundation": true, "topics": ["Characteristics and challenges of distributed systems", "Architectural models", "Remote procedure call", "Message passing and group communication"]},
+      {"name": "Time and Global States", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Physical clock synchronisation", "Lamport's logical clocks", "Vector clocks", "Global state and distributed snapshots"]},
+      {"name": "Coordination and Agreement", "hours": 7, "weight": 2.5, "topics": ["Distributed mutual exclusion", "Leader election algorithms", "Consensus and the FLP result", "Paxos and Raft", "Byzantine fault tolerance"]},
+      {"name": "Transactions and Replication", "hours": 6, "weight": 2, "topics": ["Distributed transactions and two-phase commit", "Concurrency control in distributed systems", "Replication and consistency models", "CAP theorem and eventual consistency"]},
+      {"name": "Distributed Storage and Computing", "hours": 6, "weight": 1.5, "topics": ["Distributed file systems", "Distributed hash tables and peer-to-peer systems", "MapReduce and its successors", "Fault tolerance and recovery"]}
+    ]},
+    {"name": "Parallel and Distributed Computing", "about": "Parallel architectures and programming", "chapters": [
+      {"name": "Parallel Architectures", "hours": 6, "weight": 2, "foundation": true, "topics": ["Flynn's taxonomy", "Shared-memory and distributed-memory machines", "Multicore processors and GPUs", "Interconnection networks", "Cache coherence"]},
+      {"name": "Performance of Parallel Programs", "hours": 5, "weight": 2.5, "foundation": true, "topics": ["Speedup and efficiency", "Amdahl's and Gustafson's laws", "Scalability and isoefficiency", "Sources of overhead"]},
+      {"name": "Shared-Memory Programming", "hours": 7, "weight": 2.5, "topics": ["Threads and Pthreads", "Race conditions, locks and deadlocks", "OpenMP directives and work sharing", "Synchronisation constructs", "False sharing"]},
+      {"name": "Message-Passing Programming", "hours": 6, "weight": 2, "topics": ["The MPI model", "Point-to-point communication", "Collective communication", "Domain decomposition"]},
+      {"name": "Parallel Algorithms", "hours": 7, "weight": 2, "topics": ["PRAM model", "Parallel prefix and reduction", "Parallel sorting", "Parallel matrix multiplication", "Parallel graph algorithms"]},
+      {"name": "GPU and Distributed Frameworks", "hours": 5, "weight": 1, "topics": ["GPU programming with CUDA", "MapReduce and Spark", "Load balancing and scheduling"]}
+    ]},
+    {"name": "Programming Languages", "about": "Principles behind programming languages", "chapters": [
+      {"name": "Syntax and Semantics", "hours": 6, "weight": 2, "foundation": true, "topics": ["Language paradigms", "Grammars, BNF and abstract syntax", "Operational semantics", "Interpreters and compilers"]},
+      {"name": "Names, Scopes and Bindings", "hours": 6, "weight": 2, "foundation": true, "topics": ["Binding times", "Static and dynamic scoping", "Environments and closures", "Parameter passing mechanisms", "Storage management: stack and heap"]},
+      {"name": "Types", "hours": 7, "weight": 2.5, "topics": ["Type systems and type checking", "Static versus dynamic typing", "Polymorphism and generics", "Type inference", "Algebraic data types and pattern matching"]},
+      {"name": "Functional Programming", "hours": 7, "weight": 2.5, "topics": ["Lambda calculus", "Higher-order functions", "Recursion and tail calls", "Lazy evaluation", "Immutability and referential transparency"]},
+      {"name": "Logic and Object-Oriented Paradigms", "hours": 6, "weight": 1.5, "topics": ["Logic programming and Prolog", "Unification and backtracking", "Objects, classes and inheritance", "Dynamic dispatch", "Exception handling and concurrency constructs"]}
+    ]},
+    {"name": "Computer Graphics", "about": "Generating and transforming images", "chapters": [
+      {"name": "Graphics Systems and Output Primitives", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Raster and random scan displays", "DDA line drawing algorithm", "Bresenham's line algorithm", "Midpoint circle and ellipse algorithms", "Polygon filling algorithms"]},
+      {"name": "2D Transformations and Viewing", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Translation, rotation and scaling", "Homogeneous coordinates and composite transformations", "Window-to-viewport transformation", "Cohen-Sutherland line clipping", "Sutherland-Hodgman polygon clipping"]},
+      {"name": "3D Transformations and Projections", "hours": 6, "weight": 2, "topics": ["3D transformations", "Parallel projections", "Perspective projections", "3D viewing pipeline"]},
+      {"name": "Curves and Surfaces", "hours": 5, "weight": 2, "topics": ["Parametric curves and continuity", "Hermite curves", "Bezier curves", "B-spline curves and surfaces"]},
+      {"name": "Visible Surface Detection", "hours": 5, "weight": 2, "topics": ["Back-face detection", "Z-buffer algorithm", "Scan-line and painter's algorithms", "BSP trees"]},
+      {"name": "Illumination and Shading", "hours": 5, "weight": 1.5, "topics": ["Phong illumination model", "Gouraud and Phong shading", "Ray tracing", "Colour models", "Texture mapping"]}
+    ]},
+    {"name": "Natural Language Processing", "about": "Getting computers to work with human language", "chapters": [
+      {"name": "Text Processing and Language Models", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Tokenisation, stemming and lemmatisation", "Regular expressions and edit distance", "N-gram language models", "Smoothing techniques", "Perplexity"]},
+      {"name": "Words and Syntax", "hours": 7, "weight": 2, "topics": ["Part-of-speech tagging", "Hidden Markov models and the Viterbi algorithm", "Context-free grammars for language", "Constituency parsing and CKY", "Dependency parsing"]},
+      {"name": "Semantics", "hours": 6, "weight": 2, "topics": ["Word senses and WordNet", "Vector semantics and TF-IDF", "Word embeddings: word2vec and GloVe", "Named entity recognition"]},
+      {"name": "Neural NLP", "hours": 7, "weight": 2, "topics": ["Recurrent networks for text", "Sequence-to-sequence models and attention", "Transformers and pre-trained models", "Fine-tuning language models"]},
+      {"name": "Applications", "hours": 5, "weight": 1.5, "topics": ["Text classification and sentiment analysis", "Machine translation", "Question answering", "Text summarisation"]}
+    ]},
+    {"name": "Big Data Analytics", "about": "Storing and processing data at scale", "chapters": [
+      {"name": "Big Data Fundamentals", "hours": 4, "weight": 1.5, "foundation": true, "topics": ["The Vs of big data", "Types of data and analytics", "Big data architecture"]},
+      {"name": "Hadoop and MapReduce", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["HDFS architecture", "MapReduce programming model", "YARN resource management", "MapReduce design patterns", "Hadoop ecosystem overview"]},
+      {"name": "Spark and In-Memory Processing", "hours": 6, "weight": 2, "topics": ["Resilient distributed datasets", "Transformations and actions", "Spark SQL and DataFrames", "Spark MLlib"]},
+      {"name": "NoSQL Databases", "hours": 6, "weight": 2, "topics": ["Key-value and document stores", "Column-family stores", "Graph databases", "Consistency and the CAP theorem"]},
+      {"name": "Stream Processing and Analytics", "hours": 6, "weight": 2, "topics": ["Stream data models", "Kafka and stream processing engines", "Sampling and sketching algorithms", "Recommendation systems", "Link analysis and PageRank"]}
+    ]},
+    {"name": "Digital Image Processing", "about": "Enhancing and analysing digital images", "chapters": [
+      {"name": "Image Fundamentals", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Image formation, sampling and quantisation", "Pixel relationships and connectivity", "Colour models", "Image file formats"]},
+      {"name": "Spatial Domain Enhancement", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Intensity transformations", "Histogram equalisation and specification", "Spatial smoothing filters", "Sharpening filters"]},
+      {"name": "Frequency Domain Processing", "hours": 7, "weight": 2.5, "topics": ["2D discrete Fourier transform", "Low-pass and high-pass frequency filters", "Homomorphic filtering", "Image transforms: DCT and wavelets"]},
+      {"name": "Restoration and Compression", "hours": 7, "weight": 2, "topics": ["Noise models", "Inverse and Wiener filtering", "Lossless compression: Huffman and run-length coding", "Lossy compression and JPEG"]},
+      {"name": "Segmentation and Morphology", "hours": 7, "weight": 2, "topics": ["Edge detection operators", "Thresholding", "Region-based segmentation", "Erosion and dilation", "Opening, closing and their applications"]},
+      {"name": "Representation and Recognition", "hours": 4, "weight": 1, "topics": ["Boundary descriptors", "Regional descriptors and texture", "Introduction to object recognition"]}
+    ]},
+    {"name": "Internet of Things", "about": "Connected sensors, devices and platforms", "chapters": [
+      {"name": "IoT Fundamentals and Architecture", "hours": 5, "weight": 2, "foundation": true, "topics": ["IoT characteristics and reference architecture", "Sensors and actuators", "Microcontroller platforms: Arduino and Raspberry Pi", "Edge, fog and cloud layers"]},
+      {"name": "Connectivity", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["RFID and NFC", "Bluetooth Low Energy and Zigbee", "Wi-Fi and cellular IoT", "LoRaWAN and low-power wide-area networks", "6LoWPAN and IPv6"]},
+      {"name": "IoT Protocols", "hours": 5, "weight": 2, "topics": ["MQTT", "CoAP", "HTTP and REST for devices", "AMQP and data formats"]},
+      {"name": "Data and Analytics", "hours": 5, "weight": 1.5, "topics": ["IoT cloud platforms", "Time-series data storage", "Stream analytics", "Machine learning at the edge"]},
+      {"name": "Security and Applications", "hours": 5, "weight": 2, "topics": ["IoT security threats", "Authentication and secure boot", "Smart homes and smart cities", "Industrial IoT"]}
+    ]},
+    {"name": "Human-Computer Interaction", "about": "Designing usable interactive systems", "chapters": [
+      {"name": "Foundations of HCI", "hours": 5, "weight": 2, "foundation": true, "topics": ["Human perception, memory and attention", "Models of interaction", "Usability goals and principles", "Mental models and affordances"]},
+      {"name": "User-Centred Design", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Design process and design thinking", "User research: interviews and observation", "Personas and scenarios", "Task analysis"]},
+      {"name": "Prototyping and Interface Design", "hours": 6, "weight": 2, "topics": ["Low- and high-fidelity prototyping", "Design guidelines and heuristics", "Visual design and layout", "Interaction styles", "Accessibility"]},
+      {"name": "Evaluation", "hours": 5, "weight": 2, "topics": ["Heuristic evaluation", "Usability testing", "Fitts's law and predictive models", "Experimental design and statistics for HCI"]}
+    ]}
+  ]
+}

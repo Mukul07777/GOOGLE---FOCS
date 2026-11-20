@@ -1,0 +1,25 @@
+NUMBERED
+2.1 Doubling a Square
+2.2 Halving a Square
+2.3 Hypotenuse of an Isosceles Right Triangle
+2.4 Combining Two Different Squares
+2.5 Right–Triangles Having Integer Sidelengths
+2.6 A Long-Standing Open Problem
+2.7 Further Applications of the Baudhāyana - Pythagoras Theorem
+BIG
+2.1 Doubling a Square
+THE BAUDHĀYANA-
+2 PYTHAGORAS THEOREM
+2.2 Halving a Square
+2.3 Hypotenuse of an Isosceles Right Triangle
+2.4 Combining Two Different Squares
++ → ?
+2.5 Right–Triangles Having Integer Sidelengths
+as a common factor, then is (
+) a Baudhāyana triple? Check this
+2.6 A Long-Standing Open Problem
+2.7 Further Applications of the Baudhāyana - Pythagoras Theorem
+SUMMARY
+Find the Colours!
+SAMPLE
+2.1 Doubling a Square In Baudhāyana’s Śulba-Sūtra (c. 800 BCE), Baudhāyana considers the following question: How can one construct a square having double the area of a given square? A first guess might be to simply double the length of each side of the square. Will this new square have double the area of the original square? It’s not hard to see that the new square will have area 2 × 2 = 4 times the area of the original square: So how can one make a square that has double the area? Baudhāyana in his Śulba-Sūtra (Verse 1.9) gave an elegant answer to this question: The diagonal of a square produces a square of double the area of the original square. As Baudhāyana says, the key is to construct a square on the diagonal of the original square: THE BAUDHĀYANA- PYTHAGORAS THEOREM 2 Ganita Prakash | Grade 8 | Part-II 34 Why does the new dotted square have double the area of the original square? In many of the constructions in the Śulba-Sūtra, it is desirable to construct, where needed, what Baudhāyana calls ‘east-west’ and ‘north-south’ lines, i.e., horizontal and vertical lines that are perpendicular to each other. Can you draw some horizontal and vertical lines to see why the new square has double the area of the original square? You could draw some horizontal and vertical lines as shown on the right. Why should the extension of the vertical and horizontal sides of the original square pass through the vertices of the dotted square? [Hint: From the diagonal property of a square, the line that bisects an angle passes through the opposite vertex. Argue why the vertical and horizontal sides of the original square bisect the two angles of the dotted square.] So, the new square has double the area of the original square, because the original square is made up of two small triangles

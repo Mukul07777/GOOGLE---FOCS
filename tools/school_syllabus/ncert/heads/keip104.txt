@@ -1,0 +1,46 @@
+NUMBERED
+4.1 Introduction to List
+4.1.1 Accessing Elements in a List
+4.1.2 Lists are Mutable
+4.2 List Operations
+4.2.1 Concatenation
+4.2.2 Repetition
+4.2.3 Membership
+4.2.4 Slicing
+4.3 Traversing a List
+4.4 List Methods and Built-in Functions
+4.5 List Manipulation
+4.6 Introduction to Dictionaries
+4.6.1 Creating a Dictionary
+4.6.2 Accessing Items in a Dictionary
+4.6.3 Membership Operation
+4.6.4 Dictionaries are Mutable
+4.7 Traversing a Dictionary
+4.8 Dictionary Methods and Built-in Functions
+4.9 Manipulating Dictionaries
+BIG
+“Computer Science is a science of abstraction – creating the right model for
+a problem and devising the appropriate
+mechanizable techniques to solve it.”
+— A. Aho and J. Ullman
+4.1 Introduction to List
+Working with
+Lists and Dictionaries
+Notes
+4.2 List Operations
+4.3 Traversing a List
+4.4 List Methods and Built-in Functions
+4.5 List Manipulation
+4.6 Introduction to Dictionaries
+4.7 Traversing a Dictionary
+4.8 Dictionary Methods and Built-in Functions
+4.9 Manipulating Dictionaries
+Summary
+Exercise
+Notes 6. Consider a list:
+Programming Problems
+2. Write a program to read a list of n integers (positive Notes
+Case Study Based Question
+Case Study
+SAMPLE
+“Computer Science is a science of abstraction – creating the right model for a problem and devising the appropriate mechanizable techniques to solve it.” — A. Aho and J. Ullman 4.1 Introduction to List The data type list is an ordered sequence which is mutable and made up of one or more elements. Unlike a string which consists of only characters, a list can have elements of different data types such as integer, float, string, tuple or even another list. A list is very useful to group elements of mixed data types. Elements of a list are enclosed in square brackets and are separated by comma. Example 4.1 #list1 is the list of six even numbers >>> list1 = [2,4,6,8,10,12] >>> print(list1) [2, 4, 6, 8, 10, 12] Working with Lists and Dictionaries Chapter 4 In this chapter »» Introduction to List »» List Operations »» Traversing a List »» List Methods and Built- in Functions »» List Manipulation »» Introduction to Dictionaries »» Traversing a Dictionary »» Dictionary Methods and Built-in Functions »» Manipulating Dictionaries Reprint 2026-27 56 Informatics Practices – Class XI #list2 is the list of vowels >>> list2 = ['a','e','i','o','u'] >>> print(list2) ['a', 'e', 'i', 'o', 'u'] #list3 is the list of mixed data types >>> list3 = [100,23.5,'Hello'] >>> print(list3) [100, 23.5, 'Hello'] #list4 is the list of lists called nested #list >>> list4 =[['Physics',101],['Chemistry',202], ['Mathematics',303]] >>> print(list4) [['Physics', 101], ['Chemistry', 202], ['Mathematics', 303]] 4.1.1 Accessing Elements in a List Each element in list is accessed using value called index. The fist index value is 0, the second index is 1 and so on. Elements in the list are assigned index values in increasing order sterling from 0. To access an element, use square brackets with the index [] value o

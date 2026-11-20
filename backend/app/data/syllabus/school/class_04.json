@@ -1,0 +1,551 @@
+{
+ "class": 4,
+ "default": null,
+ "subjects": [
+  {
+   "name": "English",
+   "units": [
+    {
+     "name": "Unit 1: My Land",
+     "chapters": [
+      {
+       "name": "Together We Can",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "The Tinkling Bells",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Be Smart, Be Safe",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: My Beautiful World",
+     "chapters": [
+      {
+       "name": "One Thing at a Time",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "The Old Stag",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Braille",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Fun with Games",
+     "chapters": [
+      {
+       "name": "Fit Body, Fit Mind, Fit Nation",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "The Lagori Champions",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Hekko",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: Up High",
+     "chapters": [
+      {
+       "name": "The Swing",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "A Journey to the Magical Mountains",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Maheshwar",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Maths Mela",
+     "chapters": [
+      {
+       "name": "Shapes Around Us",
+       "book": "Maths Mela",
+       "topics": [
+        "Solid shapes in buildings",
+        "Faces, edges and corners",
+        "Making models with blocks"
+       ]
+      },
+      {
+       "name": "Hide and Seek",
+       "book": "Maths Mela",
+       "topics": [
+        "What can be seen from a place",
+        "Top, front and side views",
+        "Positions on a map"
+       ]
+      },
+      {
+       "name": "Pattern Around Us",
+       "book": "Maths Mela",
+       "topics": [
+        "Counting by grouping",
+        "Patterns in numbers",
+        "Patterns in shapes"
+       ]
+      },
+      {
+       "name": "Thousands Around Us",
+       "book": "Maths Mela",
+       "topics": [
+        "Numbers up to 10,000",
+        "Place value",
+        "Comparing and ordering numbers",
+        "Adding and subtracting large numbers"
+       ]
+      },
+      {
+       "name": "Sharing and Measuring",
+       "book": "Maths Mela",
+       "topics": [
+        "Parts and wholes",
+        "Halves, thirds and quarters",
+        "Fractions of a collection",
+        "Measuring with fractions"
+       ]
+      },
+      {
+       "name": "Measuring Length",
+       "book": "Maths Mela",
+       "topics": [
+        "Length, height, width and depth",
+        "Centimetre and metre",
+        "Measuring and estimating length"
+       ]
+      },
+      {
+       "name": "The Cleanest Village",
+       "book": "Maths Mela",
+       "topics": [
+        "Money",
+        "Adding and subtracting money",
+        "Planning a trip"
+       ]
+      },
+      {
+       "name": "Weigh it, Pour it",
+       "book": "Maths Mela",
+       "topics": [
+        "Grams and kilograms",
+        "Millilitres and litres",
+        "Comparing weights and capacities"
+       ]
+      },
+      {
+       "name": "Equal Groups",
+       "book": "Maths Mela",
+       "topics": [
+        "Equal groups and multiplication",
+        "Multiples",
+        "Multiplication tables"
+       ]
+      },
+      {
+       "name": "Elephants, Tigers, and Leopards",
+       "book": "Maths Mela",
+       "topics": [
+        "Number games with a target",
+        "Ways to add and subtract",
+        "Reading data about animals"
+       ]
+      },
+      {
+       "name": "Fun with Symmetry",
+       "book": "Maths Mela",
+       "topics": [
+        "Line of symmetry",
+        "Symmetrical shapes",
+        "Making symmetrical patterns"
+       ]
+      },
+      {
+       "name": "Ticking Clocks and Turning Calendar",
+       "book": "Maths Mela",
+       "topics": [
+        "Reading a clock",
+        "Hours and minutes",
+        "The calendar and leap years"
+       ]
+      },
+      {
+       "name": "The Transport Museum",
+       "book": "Maths Mela",
+       "topics": [
+        "Multiplying two-digit numbers",
+        "Division",
+        "Puzzles with products"
+       ]
+      },
+      {
+       "name": "Data Handling (Class 4)",
+       "book": "Maths Mela",
+       "topics": [
+        "Asking the right question",
+        "Collecting and organising data",
+        "Tables and pictographs",
+        "Bar graphs"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi",
+   "units": [
+    {
+     "name": "वीणा",
+     "chapters": [
+      {
+       "name": "चिड़िया का गीत",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बगीचे का घोंघा",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "नीम",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हमारा आहार",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "आसमान गिरा",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "जयपुर से पत्र",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "नकली हीरे",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "ओणम के रंग",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मिठाइयों का सम्मेलन",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "कैमरा",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "कविता का कमाल",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "शतरंज में मात",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हमारा आदित्य",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "The World Around Us",
+   "units": [
+    {
+     "name": "Unit 1: Our Community",
+     "chapters": [
+      {
+       "name": "Living Together",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Our community",
+        "People who help us",
+        "Sharing and caring"
+       ]
+      },
+      {
+       "name": "Exploring Our Neighbourhood",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Places in our neighbourhood",
+        "Drawing a map of the neighbourhood",
+        "Public places and their care"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: Life Around Us",
+     "chapters": [
+      {
+       "name": "Nature Trail",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Safety rules on a trail",
+        "Bird diary",
+        "Tiny animals",
+        "Leaf autograph"
+       ]
+      },
+      {
+       "name": "Growing up with Nature",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Seeds and growing plants",
+        "Animals and their young",
+        "Caring for nature"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Health and Well-being",
+     "chapters": [
+      {
+       "name": "Food for Health",
+       "book": "Our Wondrous World",
+       "topics": [
+        "A balanced meal",
+        "Food groups",
+        "Healthy eating habits"
+       ]
+      },
+      {
+       "name": "Happy and Healthy Living",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Exercise and yoga",
+        "Rest and sleep",
+        "Keeping clean"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: Things Around Us",
+     "chapters": [
+      {
+       "name": "How Things Work",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Tools and simple machines at home",
+        "Wheels and levers",
+        "How tools help us"
+       ]
+      },
+      {
+       "name": "How Things are Made",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Raw materials",
+        "From farm to factory",
+        "Handmade and machine-made things"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 5: Our Environment",
+     "chapters": [
+      {
+       "name": "Different Lands, Different Lives",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Deserts, mountains and coasts",
+        "How people live in different lands",
+        "Houses, food and clothes"
+       ]
+      },
+      {
+       "name": "Our Sky",
+       "book": "Our Wondrous World",
+       "topics": [
+        "The Sun, the Moon and the stars",
+        "Day and night",
+        "Watching the sky"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

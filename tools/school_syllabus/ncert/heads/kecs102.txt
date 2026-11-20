@@ -1,0 +1,22 @@
+NUMBERED
+2.1 Introduction
+2.1.1 American Standard Code for Information Interchange (ASCII)
+2.1.2 Indian Script Code for Information Interchange (ISCII)
+2.1.3 UNICODE
+2.2 Number System
+2.2.1 Decimal Number System
+2.2.2 Binary Number System
+2.2.3 Octal Number System
+2.2.4 Hexadecimal Number System
+2.2.5 Applications of Hexadecimal Number System
+2.3 Conversion between Number Systems
+2.3.1 Conversion from Decimal to other Number Systems
+2.3.2 Conversion from other Number Systems to Decimal Number System
+2.3.3 Conversion from Binary Number to Octal/ Hexadecimal Number and Vice-Versa
+2.3.4 Conversion of a Number with Fractional Part
+BIG
+Chapter 2
+Encoding Schemes and Number System
+‘ हम सब एक”
+SAMPLE
+2.1 Introduction Have you ever thought how the keys on the computer keyboard that are in human recognisable form are interpreted by the computer system? This section briefly discusses text interpretation by the computer. We have learnt in the previous chapter that computer understands only binary language of 0s and 1s. Therefore, when a key on the keyboard is pressed, it is internally mapped to a unique code, which is further converted to binary. Example 2.1 When the key ‘A’ is pressed (Figure 2.1), it is internally mapped to a decimal value 65 (code value), which is then converted to its equivalent binary value for the computer to understand. Figure 2.1: Encoding of data entered using keyboard Similarly, when we press alphabet ‘अ’ on hindi keyboard, internally it is mapped to a hexadecimal value 0905, whose binary equivalent is 0000100100000101. So what is encoding? The mechanism of converting data into an equivalent cipher using specific code is “We owe a lot to the Indians, who taught us how to count, without which no worthwhile scientific discovery could have been made.” –Albert Einstein Chapter 2 Encoding Schemes and Number System In this chapter »» Introduction to Encoding »» UNICODE »» Number System »» Conversion Between Number Systems Reprint 2026-27 Computer Science – Class xi 28 called encoding. It is important to understand why code value 65 is used for the key “A” and not any other value? Is it same for all the keyboards irrespective of their make? Yes, it is same for all the keyboards. This has been possible because of standard encoding schemes where each letter, numeral and symbol is encoded or assigned a unique code. Some of the well-known encoding schemes are described in the following sections. 2.1.1 American Standard Code for Information Interchange (A

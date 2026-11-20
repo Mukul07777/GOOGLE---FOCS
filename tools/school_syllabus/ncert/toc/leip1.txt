@@ -1,0 +1,207 @@
+# 12 | Informatics Practices | Informatics Practices | leip1 | pages 10
+=== page 4
+In the present education system of our country, specialised and 
+discipline based courses are introduced at the higher secondary stage. 
+This stage is crucial as well as challenging because of the transition 
+from general to discipline-based curriculum. The syllabus at this stage 
+needs to have sufficient rigour and depth while remaining mindful of the 
+comprehension level of the learners. Further, the textbook should not be 
+heavily loaded with content. 
+We are living in an era where information drives many of our socio 
+economic decisions. Millions of people are accessing internet round the 
+clock for availing various services and thereby generating vast amount of 
+data. Processing of data is becoming a key skill with applications across the 
+disciplines. Thus, study of basic concepts of data handling and analysis 
+is becoming more and more desirable. There are courses offered in the 
+name of Computer Science, Information and Communication Technology 
+(ICT), Information Technology (IT), etc. by various boards and schools up 
+to secondary stage, as optional. These mainly focus on using computer for 
+word processing, presentation tools and application software. 
+Informatics Practices (IP) at the higher secondary stage of school 
+education is also offered as an optional subject. At this stage, students 
+can take up IP with the aim of pursuing a career in data science or related 
+areas after going through professional courses at higher levels. Therefore, 
+at higher secondary stage, the curriculum of IP introduces basics of 
+database management systems and data processing. The book has seven 
+chapters covering the following broader themes: 
+• 
+SQL Queries: Querying database using the Structured Query 
+Language by applying SQL functions including aggregate functions.
+• 
+Data Handling: The popular Python library called Pandas has been 
+introduced. The important data structures of Pandas – Series and 
+DataFrame have been covered in details and basic data handling 
+and data analysis using Pandas are included.
+• 
+Data Visualisation: The Pandas library called Pyplot is introduced. 
+It demonstrates how to generate high quality graphs and charts 
+from Python using the Pyplot tool.
+• 
+Internet and Web: Introduction to the concepts of Computer 
+networks are given, followed by a brief overview of Internet, its 
+application are given. The concept of web, website, and its hosting 
+is also included. 
+• 
+Societal Impact: Awareness of digital footprints, data privacy and 
+protection, cyber crime, etiquettes, copyright and plagiarism, 
+E-waste in a digital society and their implications on security, 
+privacy, piracy, ethics, values and health concerns.
+Preface	
+Reprint 2026-27
+
+=== page 5
+vi
+Each chapter has two additional components — (i) activities and 
+(ii) think and reflect for self assessment while learning as well as to generate 
+further interest in the learner. A number of hands-on examples are given to 
+gradually explain methodology to solve different types of problems across 
+the Chapters. The programming examples as well as the exercises in the 
+chapters are required to be solved in a computer and verify with the given 
+outputs. 	
+Box items are pinned inside the chapters either to explain related 
+concepts or to describe additional information related to the topic covered 
+in that section. However, these box-items are not to be assessed through 
+examinations.
+Project Based Learning given at the end includes exemplar projects 
+related to real-world problems. Teachers are supposed to assign these or 
+similar projects to be developed in groups. Working in such projects may 
+promote peer-learning, team spirit and responsiveness.
+The chapters have been written by involving practicing teachers as well 
+as subject experts. Several iterations have resulted into this book. Thanks 
+are due to the authors and reviewers for their valuable contribution. I would 
+like to place on record appreciation for Professor Om Vikas for leading the 
+review activities of the book as well as for his guidance and motivation 
+to the development team throughout. Comments and suggestions 
+are welcome.
+New Delhi	
+Dr. Rejaul Karim Barbhuiya
+31 August 2020	
+	
+Assistant Professor
+Central Institute of 
+Educational Technology
+Reprint 2026-27
+
+=== page 8
+Foreword	 	
+iii
+Chapter 1 Querying and SQL Functions	
+1
+1.1 	 Introduction	
+	
+1 
+1.2 	 Functions in SQL	
+4
+1.3 	 GROUP BY in SQL	
+14
+1.4 	 Operations on Relations 	
+16
+1.5 	 Using Two Relations in a Query	
+19
+Chapter 2 Data Handling using Pandas - I	
+27
+2.1 Introduction to Python Libraries	
+27
+2.2 Series	
+29
+2.3 DataFrame	
+40
+2.4 Importing and Exporting Data between CSV	
+	
+Files and DataFrames	
+55
+2.5 Pandas Series Vs NumPy ndarray	
+57
+Chapter 3 Data Handling using Pandas - II	
+63
+3.1 Introduction	
+63
+3.2 Descriptive Statistics	
+65
+3.3 Data Aggregations	
+75
+3.4 Sorting a DataFrame	
+77
+3.5 Group by Functions	
+79
+3.6 Altering the Index	
+82
+3.7 Other DataFrame Operations	
+84
+3.8 Handling Missing Values	
+89
+3.9 Import and Export of Data between Pandas 	
+	
+	
+and MySQL	
+98
+Chapter 4 Plotting Data using Matplotlib	
+105
+4.1 Introduction	
+105
+4.2 Plotting using Matplotlib	
+106
+4.3 Customisation of Plots	
+108
+4.4 The Pandas Plot Function (Pandas Visualisation)	
+112
+Contents
+Reprint 2026-27
+
+=== page 9
+x
+Chapter 5 Internet and Web	
+137
+5.1  Introduction to Computer Networks	
+137
+5.2  Types of Networks	
+139
+5.3  Network Devices	
+142
+5.4  Networking Topologies	
+146
+5.5  The Internet	
+148
+5.6  Applications of Internet	
+149
+5.7  Website	
+153
+5.8  Web Page	
+154
+5.9  Web Server	
+156
+5.10 	 Hosting of a Website	
+157
+5.11 	 Browser	
+158
+Chapter 6 Societal Impacts	
+167
+6.1 	 Introduction	
+167
+6.2 	 Digital Footprints	
+168
+6.3 	 Digital Society and Netizen	
+169
+6.4	 Data Protection	
+174
+6.5 	 Creative Commons	
+178
+6.6	 Cyber Crime 	
+179
+6.7 	 Indian Information Technology Act (IT Act)	
+182
+6.8 	 E-waste: Hazards and Management	
+183
+6.9 	 Impact on Health	
+186
+Chapter 7 Project Based Learning	
+195
+7.1	 Introduction	
+195
+7.2 	Approaches for Solving Projects	
+196
+7.3 	Teamwork	
+197
+7.4 	Project Descriptions	
+199
+Reprint 2026-27

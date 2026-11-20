@@ -1,0 +1,17 @@
+{
+  "name": "Focs — Every lecture, understood",
+  "short_name": "Focs",
+  "description": "AI notes from any lecture board, pop quizzes, full mock tests and study rooms.",
+  "start_url": "/app",
+  "share_target": { "action": "/app/studio", "method": "GET", "params": { "title": "shared_title", "text": "shared_text", "url": "shared_url" } },
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#e9e7e3",
+  "theme_color": "#e9e7e3",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

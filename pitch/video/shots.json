@@ -1,0 +1,130 @@
+{
+  "fps": 30,
+  "shots": [
+    { "id": "open", "type": "open", "dur": 10 },
+    { "id": "title", "type": "title", "dur": 8 },
+    { "id": "lanes", "type": "lanes", "dur": 5.5 },
+
+    { "id": "c1", "type": "chapter", "dur": 1.6, "num": "01", "title": "Speed", "dir": "teacher → student" },
+    { "id": "live", "type": "app", "dur": 0, "url": "focs.app/app/studio",
+      "eyebrow": "Lane 01 · live lecture", "head": "Share the lecture tab. Focs *reads the board.*",
+      "sub": "Any lecture in the browser: YouTube, PW, Unacademy, Zoom. Crop to the board and just watch.",
+      "segments": [
+        { "clip": "live", "from": 3.0, "to": 12.0, "rate": 1.15 },
+        { "clip": "live", "from": 12.0, "to": 22.0, "rate": 1.0, "voice": true },
+        { "clip": "live", "from": 33.0, "to": 45.0, "rate": 1.2 },
+        { "clip": "live", "from": 45.0, "to": 70.0, "rate": 6.25 }
+      ],
+      "callouts": [
+        { "at": 0.6, "dur": 5, "x": 0.27, "y": 0.13, "text": "getDisplayMedia · one tab, never your others" },
+        { "at": 5.4, "dur": 3.4, "x": 0.12, "y": 0.62, "text": "crop to the board · faces and player ignored" },
+        { "at": 8.6, "dur": 5.6, "x": 0.18, "y": 0.4, "text": "FocsOCR · our own CNN + BiLSTM + CTC · 3.1 M params · ONNX on CPU", "big": true },
+        { "at": 11.5, "dur": 5, "x": 0.66, "y": 0.2, "text": "board → notes in seconds · Markdown + KaTeX" },
+        { "at": 14.4, "dur": 4.4, "x": 0.12, "y": 0.78, "text": "teacher's voice → captions (Whisper) · audio never stored" },
+        { "at": 19.5, "dur": 4.5, "x": 0.62, "y": 0.18, "text": "pop quiz · lock it in: Sure or Guessing" },
+        { "at": 24.4, "dur": 4.4, "x": 0.6, "y": 0.86, "text": "sure + wrong = a blind spot · it leads the gap map", "accent": true },
+        { "at": 28.8, "dur": 3.4, "x": 0.2, "y": 0.3, "text": "idle board = ₹0 · on-device change detection, 48×27 signature" }
+      ],
+      "zoom": [[0, 1, 0.5, 0.5], [7.4, 1, 0.5, 0.5], [8.6, 1.28, 0.3, 0.38], [11.6, 1.28, 0.3, 0.38], [12.8, 1.3, 0.79, 0.45], [16.0, 1.3, 0.79, 0.45], [17.4, 1, 0.5, 0.5], [19.0, 1, 0.5, 0.5], [20.2, 1.22, 0.56, 0.5], [27.6, 1.22, 0.56, 0.5], [28.8, 1, 0.5, 0.5]] },
+    { "id": "lecture", "type": "app", "dur": 0, "url": "focs.app/app/library/14",
+      "eyebrow": "After class", "head": "Everything the teacher said, *already revised.*",
+      "sub": "A summary of the teacher's words (exact words a tap away), notes, a revision sheet and flashcards.",
+      "segments": [{ "clip": "lecture", "from": 1.0, "to": 18.5, "rate": 1.75 }],
+      "callouts": [
+        { "at": 1.2, "dur": 4, "x": 0.3, "y": 0.3, "text": "revision sheet · formulas · common mistakes" },
+        { "at": 6.2, "dur": 3.6, "x": 0.3, "y": 0.4, "text": "what the teacher said · summarised once, kept on the lecture" }
+      ] },
+
+    { "id": "c2", "type": "chapter", "dur": 1.6, "num": "02", "title": "Language", "dir": "teacher → student" },
+    { "id": "lang", "type": "split", "dur": 8,
+      "eyebrow": "Lane 02 · language and ability", "head": "Same lecture. *Your language.*",
+      "left": { "clip": "lecture", "from": 2.0, "rate": 1, "label": "English · Riya" },
+      "right": { "clip": "hindi", "from": 1.0, "rate": 1, "label": "हिंदी · Aman" },
+      "note": "Notes, quizzes, doubts and the whole interface in English, Hinglish or Hindi. Every formula is checked unchanged after translation." },
+
+    { "id": "c3", "type": "chapter", "dur": 1.6, "num": "03", "title": "Understanding", "dir": "teacher → student" },
+    { "id": "tests", "type": "app", "dur": 0, "url": "focs.app/app/mock",
+      "eyebrow": "Lane 03 · understanding", "head": "Tests that find *what you don't know you don't know.*",
+      "sub": "Chapter tests and full JEE mocks on an NTA-style screen. Then a gap map, not just a score.",
+      "segments": [
+        { "clip": "warmup", "from": 7.0, "to": 31.0, "rate": 3.0 },
+        { "clip": "exam", "from": 5.0, "to": 39.0, "rate": 3.8 },
+        { "clip": "exam", "from": 44.5, "to": 60.0, "rate": 1.35 }
+      ],
+      "callouts": [
+        { "at": 0.5, "dur": 4, "x": 0.66, "y": 0.2, "text": "no dead waiting · revise what's coming while AI writes the paper" },
+        { "at": 4.8, "dur": 3.2, "x": 0.3, "y": 0.86, "text": "every AI question kept only if a 2nd model gets the same answer" },
+        { "at": 8.6, "dur": 4, "x": 0.4, "y": 0.12, "text": "+4 / −1 · server-side timer · palette · autosave" },
+        { "at": 13.4, "dur": 5, "x": 0.3, "y": 0.62, "text": "gap map · shaky chapters, blind spots, 3 next steps", "accent": true }
+      ],
+      "zoom": [[0, 1, 0.5, 0.5], [13, 1, 0.5, 0.5], [14.4, 1.25, 0.32, 0.55], [21, 1.25, 0.32, 0.55]] },
+    { "id": "montage", "type": "montage", "dur": 6,
+      "items": [
+        { "clip": "plan", "from": 1.0, "rate": 2.2, "label": "A plan to the exam date, rebuilt every day" },
+        { "clip": "revise", "from": 1.0, "rate": 2.2, "label": "Last-day revision: most marks first" },
+        { "clip": "flashcards", "from": 1.0, "rate": 2, "label": "Spaced-repetition flashcards" }
+      ] },
+
+    { "id": "c4", "type": "chapter", "dur": 1.6, "num": "04", "title": "Return", "dir": "student → teacher", "back": true },
+    { "id": "return", "type": "return", "dur": 11,
+      "eyebrow": "Lane 04 · the return lane", "head": "The student taps *I'm lost.* The teacher sees it live.",
+      "phone": { "clip": "room-phone", "from": 1.0, "rate": 1 }, "desk": { "clip": "room-teacher", "from": 0.0, "rate": 1 },
+      "tap": 1.64 },
+    { "id": "report", "type": "app", "dur": 0, "url": "focs.app/app/rooms/SGR7TY/report",
+      "eyebrow": "After class · for the teacher", "head": "A confusion map: *which board lost the room.*",
+      "sub": "\"I'm lost\" taps, wrong answers and doubts, pinned to the board. Anonymous: counts, never names.",
+      "segments": [{ "clip": "room-teacher", "from": 11.0, "to": 27.5, "rate": 1.65 }],
+      "callouts": [
+        { "at": 1.0, "dur": 4, "x": 0.4, "y": 0.2, "text": "ranked by taps + wrong answers + doubts" },
+        { "at": 4.4, "dur": 4.5, "x": 0.66, "y": 0.4, "text": "re-explain · AI recap sent back to the whole room", "accent": true }
+      ] },
+    { "id": "senior", "type": "app", "dur": 0, "url": "focs.app/app/campus?tab=ask",
+      "eyebrow": "Ask a senior", "head": "An AI draft at once. *A verified senior checks it.*",
+      "sub": "Juniors ask students who've done the course. Seniors confirm a college email first.",
+      "segments": [{ "clip": "senior", "from": 13.0, "to": 20.5, "rate": 1.25 }],
+      "callouts": [{ "at": 0.8, "dur": 4.4, "x": 0.35, "y": 0.5, "text": "AI draft, labelled · checked by a senior · settled by the asker" }] },
+
+    { "id": "c5", "type": "chapter", "dur": 1.8, "num": "05", "title": "Mentors", "dir": "people who cleared it → you" },
+    { "id": "mentors", "type": "app", "dur": 0, "url": "focs.app/app/mentors",
+      "eyebrow": "Mentors · for students", "head": "IITians for JEE. Rankers for UPSC. *Verified by Focs.*",
+      "sub": "Chat and a weekly check-in, private calls at the mentor's price, and live master sessions.",
+      "segments": [{ "clip": "mentors", "from": 0.5, "to": 29.0, "rate": 1.95 }],
+      "callouts": [
+        { "at": 1.0, "dur": 3.4, "x": 0.4, "y": 0.6, "text": "verified: rank card checked by the Focs admin" },
+        { "at": 4.6, "dur": 3, "x": 0.4, "y": 0.6, "text": "every exam: JEE, NEET, UPSC, GATE, CA, B.Tech" },
+        { "at": 8.6, "dur": 5.4, "x": 0.62, "y": 0.62, "text": "Pro covers 1 live master session every week", "accent": true }
+      ] },
+    { "id": "chat", "type": "app", "dur": 0, "url": "focs.app/app/mentors/1",
+      "eyebrow": "A mentorship", "head": "A weekly check-in that *carries your real progress.*",
+      "sub": "The mentor sees the week on Focs. Book a 30-minute call: UPI, cards or netbanking via Razorpay.",
+      "segments": [{ "clip": "chat", "from": 1.0, "to": 17.5, "rate": 1.6 }],
+      "callouts": [
+        { "at": 0.8, "dur": 3.6, "x": 0.55, "y": 0.5, "text": "contacts masked · chats reportable · many students are under 18" },
+        { "at": 5.4, "dur": 4, "x": 0.5, "y": 0.75, "text": "1:1 call ₹49 · Focs keeps 20%, the mentor 80%", "accent": true }
+      ] },
+    { "id": "pro", "type": "pro", "dur": 8, "clip": "pro", "from": 0.0, "rate": 1 },
+
+    { "id": "apply", "type": "app", "dur": 0, "url": "focs.app/mentor/signup",
+      "eyebrow": "Mentors · the other side", "head": "Cleared the exam? *Apply with proof.*",
+      "sub": "Rank, qualification, where you are now, your price, and a rank card or college ID.",
+      "segments": [{ "clip": "apply", "from": 0.5, "to": 32.5, "rate": 3.5 }],
+      "callouts": [{ "at": 4.4, "dur": 4, "x": 0.5, "y": 0.75, "text": "phone and proof seen by Focs staff only" }] },
+    { "id": "admin", "type": "app", "dur": 0, "url": "focs.app/admin",
+      "eyebrow": "Focs admin", "head": "We check every mentor. *Then the proof is deleted.*",
+      "sub": "The admin panel: growth, revenue, real AI cost per student, payouts, refunds, and the mentor queue.",
+      "segments": [{ "clip": "admin", "from": 0.5, "to": 25.5, "rate": 2.25 }],
+      "proofAt": 7.6,
+      "callouts": [
+        { "at": 1.2, "dur": 4.6, "x": 0.66, "y": 0.4, "text": "AI cost tracked per feature, model and student", "accent": true },
+        { "at": 8.8, "dur": 2.4, "x": 0.5, "y": 0.75, "text": "approve → mentor notified · proof deleted" }
+      ] },
+    { "id": "mentorside", "type": "app", "dur": 0, "url": "focs.app/mentor",
+      "eyebrow": "The mentor's dashboard", "head": "Seekers, calls, sessions, *earnings.*",
+      "sub": "Mentors set weekly hours and seat prices, leave call notes and action items, and get paid out.",
+      "segments": [{ "clip": "mentorside", "from": 1.0, "to": 18.5, "rate": 2.2 }],
+      "callouts": [] },
+
+    { "id": "tech", "type": "tech", "dur": 16 },
+    { "id": "finale", "type": "finale", "dur": 8 }
+  ]
+}

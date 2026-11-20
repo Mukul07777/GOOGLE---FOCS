@@ -1,0 +1,28 @@
+NUMBERED
+9.1 INTRODUCTION
+9.2 REFLECTION OF LIGHT BY SPHERICAL MIRRORS
+9.3 REFRACTION
+9.4 TOTAL INTERNAL REFLECTION
+9.5 REFRACTION AT SPHERICAL SURFACES
+9.6 REFRACTION THROUGH A PRISM
+9.7 OPTICAL INSTRUMENTS
+BIG
+Chapter Nine
+RAY OPTICS
+AND OPTICAL
+INSTRUMENTS
+9.1 INTRODUCTION
+Physics
+9.2 REFLECTION OF LIGHT BY SPHERICAL MIRRORS
+Ray Optics and
+Optical Instruments
+9.3 REFRACTION
+9.4 TOTAL INTERNAL REFLECTION
+9.5 REFRACTION AT SPHERICAL SURFACES
+AND BY LENSES
+9.6 REFRACTION THROUGH A PRISM
+9.7 OPTICAL INSTRUMENTS
+EXERCISES
+Notes
+SAMPLE
+Chapter Nine RAY OPTICS AND OPTICAL INSTRUMENTS 9.1 INTRODUCTION Nature has endowed the human eye (retina) with the sensitivity to detect electromagnetic waves within a small range of the electromagnetic spectrum. Electromagnetic radiation belonging to this region of the spectrum (wavelength of about 400 nm to 750 nm) is called light. It is mainly through light and the sense of vision that we know and interpret the world around us. There are two things that we can intuitively mention about light from common experience. First, that it travels with enormous speed and second, that it travels in a straight line. It took some time for people to realise that the speed of light is finite and measurable. Its presently accepted value in vacuum is c = 2.99792458 × 108 m s–1. For many purposes, it suffices to take c = 3 × 108 m s–1. The speed of light in vacuum is the highest speed attainable in nature. The intuitive notion that light travels in a straight line seems to contradict what we have learnt in Chapter 8, that light is an electromagnetic wave of wavelength belonging to the visible part of the spectrum. How to reconcile the two facts? The answer is that the wavelength of light is very small compared to the size of ordinary objects that we encounter commonly (generally of the order of a few cm or larger). In this situation, as you will learn in Chapter 10, a light wave can be considered to travel from one point to another, along a straight line joining Reprint 2026-27 Physics 222 FIGURE 9.1 The incident ray, reflected ray and the normal to the reflecting surface lie in the same plane. FIGURE 9.2 The Cartesian Sign Convention. them. The path is called a ray of light, and a bundle of such rays constitutes a beam of light. In this chapter, we consider the phenomena of reflecti

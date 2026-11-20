@@ -1,0 +1,51 @@
+NUMBERED
+7.1 Depreciation
+7.1.1 Meaning of Depreciation
+7.1.2 Features of Depreciation
+7.2 Depreciation and other Similar Terms
+7.2.1 Depletion
+7.2.2 Amortisation
+7.3 Causes of Depreciation
+7.3.1 Wear and Tear due to Use or Passage of Time
+7.3.2 Expiration of Legal Rights
+7.3.3 Obsolescence
+7.3.4 Abnormal Factors
+7.4 Need for Depreciation
+7.4.1 Matching of Costs and Revenue
+7.4.2 Consideration of Tax
+7.4.3 True and Fair Financial Position
+7.4.4 Compliance with Law
+7.5 Factors Affecting the Amount of Depreciation
+7.5.1 Cost of Asset
+7.5.2 Estimated Net Residual Value
+7.5.3 Depreciable Cost
+7.5.4 Estimated Useful Life
+7.6 Methods of Calculating Depreciation Amount
+7.6.1 Straight Line Method
+7.6.2 Written Down Value Method
+7.7 Straight Line Method and Written Down Method: A Comparative Analysis
+7.7.1 Basis of Charging Depreciation
+7.7.2 Annual Charge of Depreciation
+7.7.3 Total Charge Against Profit and Loss Account on Account of Depreciation and Repair Expenses
+7.7.4 Recognition by Income Tax Law
+7.7.5 Suitability
+7.8 Methods of Recording Depreciation
+7.8.1 Charging Depreciation to Asset account
+7.8.2 Creating Provision for Depreciation Account/Accumulated Depreciation Account
+7.9 Disposal of Asset
+7.9.1 Use of Asset Disposal Account
+7.10 Effect of any Addition or Extension to the Existing Asset
+7.11 Provisions
+7.11.1 Accounting Treatment for Provisions
+7.12 Reserves
+7.12.1 Difference between Reserve and Provision
+7.12.2 Types of Reserves
+7.12.3 Difference between Revenue and Capital Reserve
+7.12.4 Importance of Reserves
+7.13 Secret Reserve
+BIG
+Depreciation, Provisions and Reserves 7
+  Years 2015-16 and 2016-17 =  × 6,80,000 100 
+SECTION – II
+SAMPLE
+226 Accountancy M atching principle requires that the revenue of a given period is matched against the expenses for the same period. This ensures ascertainment of the correct amount of profit or loss. If some cost is incurred whose benefit extend to more than one accounting period, it is not justified to charge the entire cost as expense in the year in which it is incurred. In fact, such a cost must be spread over the periods in which it provides benefits. Depreciation, on fixed assets, which is the main subject matter of the present chapter, deals with such a situation. Further, it may not always be possible to ascertain with certainty the amount of some particular expense. Recall the principle of conservatism (prudence) which requires that instead of ignoring such items of costs, adequate provision must be made and charged against profits of the current period. Moreover, a part of profit may be retained in the business in the form of reserves to provide for growth, expansion or meeting certain specific needs of the business in future. This chapter deals with two distinct topics and hence is being presented in two different sections. First section deals with depreciation and second section deals with provisions and reserves. SECTION – I 7.1 Depreciation Now you are aware that fixed assets are the assets which are used in business for more than one LEARNING OBJECTIVES After studying this chapter, you will be able to : • explain the meaning of depreciation and distinguish it from amortisation and depletion; • state the need for charging depreciation and identify its causes; • compute depreciation using straight line and written down value methods; • record transactions relating to depreciation and disposition of assets; • explain the meaning and purpose of creating provi

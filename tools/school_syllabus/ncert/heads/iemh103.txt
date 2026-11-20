@@ -1,0 +1,46 @@
+NUMBERED
+3.1.1 A History Written in Bone
+3.1.2 The Indian Context: Trade and Astronomy
+3.2 The Revolution of Śhūnya: When Nothing Became Something
+3.2.1 From Philosophy to Mathematics: The Concept of Śhūnyatā
+3.2.2 The Bakhśhālī Manuscript and Brahmagupta’s Rules
+3.3 Integers: Expanding the Horizon
+3.3.1 The Arithmetic of Integers
+3.4 Filling the Spaces: Fractions and Rational Numbers
+3.4.1 Representation of Rational Numbers on the Number Line
+3.4.2 The Density of Rational Numbers
+3.5 Irrational Numbers
+3.5.1 The Proof of Irrationality of
+3.5.2 Construction of Length
+3.5.3 The Story of Pi (π) and Madhava’s Infinite Series
+3.6 Real Numbers: Decimals and Cyclic Patterns
+3.6.1 Rational Decimals: Terminating and Repeating
+3.6.2 The Magic of Cyclic Numbers
+3.6.3 Irrational Decimals: Chaos and Infinity
+3.7 Conclusion: The Never-Ending Journey
+BIG
+The World of Numbers
+3.1. The Dawn of Mathematics: The Human Need to Count
+Exercise Set 3.1
+3.2 The Revolution of Śhūnya: When Nothing Became Something
+Brahmagupta’s Rules for Zero
+3.3 Integers: Expanding the Horizon
+Think and Reflect
+Exercise Set 3.2
+3.4 Filling the Spaces: Fractions and Rational Numbers
+Exercise Set 3.3
+Example 1: |
+|= , |– |is also equal to and |0|= 0.
+Exercise Set 3.4
+3.5 Irrational Numbers
+3.6 Real Numbers: Decimals and Cyclic Patterns
+Exercise Set 3.5
+Try to find more numbers (n) whose reciprocals (
+n ) produce
+3.7 Conclusion: The Never-Ending Journey
+The Evolution of Our World of Numbers
+End-of-Chapter Exercises
+(a +b)
+Chapter Summary
+SAMPLE
+The World of Numbers 3.1. The Dawn of Mathematics: The Human Need to Count Long before humanity built cities, formulated laws, or studied the stars, there existed a fundamental, practical necessity: the need to keep count. Mathematics did not begin in a classroom with equations on a board; it began in the dirt, on the bark of trees, and on bones. Imagine you are living thousands of years ago in a small agricultural settlement along the banks of the Saraswati river. You have a herd of cattle. Every morning, they go out into the dense forests to graze, and every evening, they return. How do you ensure that a calf has not wandered off? Without words for numbers, and without written symbols, early humans solved this through a concept called one-to-one correspondence. For every cow that left the settlement, the herder might place one pebble in a clay pot. In the evening, for every cow that returned, one pebble was removed. If the pot was empty at the end of the day, the herd was safe. If pebbles remained, cows were missing. This simple act of matching one object to another was the birth of the Natural Numbers ( = {1, 2, 3, 4, … }). 3.1.1 A History Written in Bone While the decimal place-value system we use today was perfected in the Indian subcontinent, the earliest physical evidence of humanity recording natural numbers takes us deep into the heart of Africa. The first mathematicians did not use paper; they used tally marks carved into bone. The Lebombo Bone, discovered in the Lebombo Mountains between South Africa and Swaziland, dates back approximately 35,000 years. It is a bone featuring 29 distinct, deliberately-carved uniformly-sized notches. Anthropologists and mathematicians believe this was not just random scratching, but a tool used as a lunar phase counter or a m

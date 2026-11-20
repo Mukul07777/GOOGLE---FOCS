@@ -1,0 +1,30 @@
+NUMBERED
+14.1 INTRODUCTION
+14.2 CLASSIFICATION OF METALS, CONDUCTORS AND
+14.3 INTRINSIC SEMICONDUCTOR
+14.4 EXTRINSIC SEMICONDUCTOR
+14.5 p-n JUNCTION
+14.6 SEMICONDUCTOR DIODE
+14.7 APPLICATION OF JUNCTION DIODE AS A RECTIFIER
+BIG
+14.1 INTRODUCTION
+Chapter Fourteen
+SEMICONDUCTOR
+ELECTRONICS:
+MATERIALS, DEVICES
+AND SIMPLE CIRCUITS
+Physics
+14.2 CLASSIFICATION OF METALS, CONDUCTORS AND
+SEMICONDUCTORS
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+14.3 INTRINSIC SEMICONDUCTOR
+14.4 EXTRINSIC SEMICONDUCTOR
+14.5 p-n JUNCTION
+14.6 SEMICONDUCTOR DIODE
+14.7 APPLICATION OF JUNCTION DIODE AS A RECTIFIER
+EXERCISES
+Notes
+SAMPLE
+14.1 INTRODUCTION Devices in which a controlled flow of electrons can be obtained are the basic building blocks of all the electronic circuits. Before the discovery of transistor in 1948, such devices were mostly vacuum tubes (also called valves) like the vacuum diode which has two electrodes, viz., anode (often called plate) and cathode; triode which has three electrodes – cathode, plate and grid; tetrode and pentode (respectively with 4 and 5 electrodes). In a vacuum tube, the electrons are supplied by a heated cathode and the controlled flow of these electrons in vacuum is obtained by varying the voltage between its different electrodes. Vacuum is required in the inter-electrode space; otherwise the moving electrons may lose their energy on collision with the air molecules in their path. In these devices the electrons can flow only from the cathode to the anode (i.e., only in one direction). Therefore, such devices are generally referred to as valves. These vacuum tube devices are bulky, consume high power, operate generally at high voltages (~100 V) and have limited life and low reliability. The seed of the development of modern solid-state semiconductor electronics goes back to 1930’s when it was realised that some solid- state semiconductors and their junctions offer the possibility of controlling the number and the direction of flow of charge carriers through them. Simple excitations like light, heat or small applied voltage can change the number of mobile charges in a semiconductor. Note that the supply Chapter Fourteen SEMICONDUCTOR ELECTRONICS: MATERIALS, DEVICES AND SIMPLE CIRCUITS Reprint 2025-26 Physics 324 and flow of charge carriers in the semiconductor devices are within the solid itself, while in the earlier vacuum tubes/valves, the mobile electrons wer

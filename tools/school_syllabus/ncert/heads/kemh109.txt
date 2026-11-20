@@ -1,0 +1,31 @@
+NUMBERED
+9.1 Introduction
+1.9 + 3. –3
+9.2 Slope of a Line
+9.3 Various Forms of the Equation of a Line
+9.4 Distance of a Point From a Line
+BIG
+STRAIGHT LINES
+Passing through (
+y = m1x + c1, y = m2x + c2 and x = 0 is (
+points (
+and (
+®Slope (m) of a non-vertical line passing through the points (x1, y1) and (x2, y2)
+® If a line makes an angle á with the positive direction of x-axis, then the
+®Slope of horizontal line is zero and slope of vertical line is undefined.
+® An acute angle (say θ) between lines L1 and L2 with slopes m1 and m2 is
+®Two lines are parallel if and only if their slopes are equal.
+®Two lines are perpendicular if and only if product of their slopes is –1.
+®Three points A, B and C are collinear, if and only if slope of AB = slope of BC.
+®Equation of the horizontal line having distance a from the x-axis is either
+®Equation of the vertical line having distance b from the y-axis is either
+®The point (x, y) lies on the line with slope m and through the fixed point (xo, yo),
+® Equation of the line passing through the points (x1, y1) and (x2, y2) is given by
+®The point (x, y) on the line with slope m and y-intercept c lies on the line if and
+®If a line with slope m makes x-intercept d. Then equation of the line is
+®Equation of a line making intercepts a and b on the x-and y-axis,
+®Any equation of the form Ax + By + C = 0, with A and B are not zero,
+®The perpendicular distance (d) of a line Ax + By+ C = 0 from a point (x1, y1)
+®Distance between the parallel lines Ax + By + C1 = 0 and Ax + By + C2 = 0,
+SAMPLE
+vG eometry, as a logical system, is a means and even the most powerful means to make children feel the strength of the human spirit that is of their own spirit. – H. FREUDENTHALv 9.1 Introduction We are familiar with two-dimensional coordinate geometry from earlier classes. Mainly, it is a combination of algebra and geometry. A systematic study of geometry by the use of algebra was first carried out by celebrated French philosopher and mathematician René Descartes, in his book ‘La Géométry, published in 1637. This book introduced the notion of the equation of a curve and related analytical methods into the study of geometry. The resulting combination of analysis and geometry is referred now as analytical geometry. In the earlier classes, we initiated the study of coordinate geometry, where we studied about coordinate axes, coordinate plane, plotting of points in a plane, distance between two points, section formulae, etc. All these concepts are the basics of coordinate geometry. Let us have a brief recall of coordinate geometry done in earlier classes. To recapitulate, the location of the points (6, – 4) and (3, 0) in the XY-plane is shown in Fig 9.1. We may note that the point (6, – 4) is at 6 units distance from the y-axis measured along the positive x-axis and at 4 units distance from the x-axis measured along the negative y-axis. Similarly, the point (3, 0) is at 3 units distance from the y-axis measured along the positive x-axis and has zero distance from the x-axis. We also studied there following important formulae: 9 Chapter STRAIGHT LINES René Descartes (1596 -1650) Fig 9.1 Reprint 2026-27 152 MATHEMATICS I. Distance between the points P (x1, y1) and Q (x2, y2) is ( ) ( ) 1 2 2 2 2 1 PQ x – x y – y = + For example, distance between the points (6, – 4) and (3, 0

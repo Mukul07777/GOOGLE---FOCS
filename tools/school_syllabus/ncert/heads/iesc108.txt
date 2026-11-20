@@ -1,0 +1,70 @@
+NUMBERED
+8.1 Rediscovering the Roots of Atomic Theory
+8.2 A Short Historical Journey Through Atomic Models
+8.2.1 Thomson’s model of an atom
+8.2.2 Testing Thomson’s model: The gold foil experiment
+8.2.3 Bohr’s model of the atom
+8.3 What Components Contribute to the Mass of an Atom?
+8.3.1 Discovery of the Neutron
+8.4 Symbols of Elements
+8.5 Atomic Number
+8.6 Mass Number
+8.7 How Are Electrons Distributed in Different Energy Levels?
+8.7.1 Building up atoms
+8.8 Combining Capacity of an Atom: Valency
+8.9 A Deeper Look into Atomic Structure
+8.9.1 Isotopes
+8.9.2 Isobars
+BIG
+Journey Inside
+the Atom
+Atoms
+8.1 Rediscovering the Roots of Atomic Theory
+8.2 A Short Historical Journey Through Atomic Models
+y Most of an atom is empty space, as most α-particles passed through the
+y The nucleus is dense, contains al the positive charge and most of the
+y The electrons revolve around the nucleus, somewhat like planets
+y Electrons do not move randomly around the
+y These shells are represented by the letters K, L,
+y Electrons can revolve only in these al owed shel s, and not in between
+y The first energy level K (n = 1) is the one closest to the nucleus (Fig. 8.7)
+y The energy of these levels increases as we move away from the
+y An electron can move to another shell by absorbing or releasing a
+y Each shel can hold only a certain number of electrons.
+8.3 What Components Contribute to the Mass of an Atom?
+8.4 Symbols of Elements
+y Many symbols are the first letter or the first two letters of the name of
+y The first letter of a symbol is always written as a capital letter
+y Symbols of some elements are formed from the first letter of the name
+y Symbols of some elements come from their Latin, Greek, or German
+y Names and symbols of some commonly used elements are given in
+8.5 Atomic Number
+8.6 Mass Number
+8.7 How Are Electrons Distributed in Different Energy Levels?
+y The maximum number of electrons present in a shell is given by the
+y The maximum number of electrons that can be accommodated in the
+y Electrons are fil ed in these shel s in a stepwise manner, starting from
+8.8 Combining Capacity of an Atom: Valency
+8.9 A Deeper Look into Atomic Structure
+y Atoms are the building blocks of matter. y J. J. Thomson proposed that in an atom, electrons are embedded in
+y Rutherford’s model described the atom as mostly empty space,
+y Niels Bohr’s model proposed that electrons move in fixed energy
+y If the outermost shell of an atom has an octet of electrons (or
+y Valency is the combining capacity of an atom. It is equal to the
+y The atomic number of an element is equal to the number of
+y The mass number of an atom is equal to the total number of
+y Isotopes are atoms of same element that have the same atomic
+y The average atomic mass of an element is calculated based on
+y Isobars are atoms of different elements with the same mass
+At a Glance
+Revise, Reflect, Refine
+y Create an ‘Atomic Prediction Board’ game based on atomic number,
+y Prepare a report on how the properties of atoms impact us in
+y Create a role-play, stage play or story about the ‘Journey Inside the Atom’,
+y Use selected software or digital tools and try to create animations or
+y Watch a film or documentary about the structure of the atom and write
+y Draw a bar graph showing the number of electrons in each energy level
+y To learn more about atoms, you can explore the links given below:
+The Journey Beyond
+SAMPLE
+Journey Inside the Atom Chapter 8 Everything that you see or observe, or feel around is matter. You have learnt that matter consists of tiny particles called atoms. Take a closer look at the picture given above. What do you observe? Do you notice that both living beings, like us, and non-living things, like a house, are ultimately composed of atoms? These atoms are so tiny that they cannot be seen with the naked eye. You may be wondering — Is an atom truly the smallest unit of matter, or can it be divided even further? Scientists, too, have been exploring whether atoms are divisible. If so, what are their constituents and how are these arranged? Let us examine how the concept of atoms emerged and how it has been evolved since then. Grade 8 Curiosity Chapter 7 Atoms Si N O H P C Human Body Organ Tissue Cell Silicates Brick Wall Room House Protein Cell Think It Over y Are atoms the smallest indivisible particles? y Why do electrons not fall into the nucleus even though they are attracted to protons in it? y Why did scientists keep modifying atomic models? 141 Journey Inside the Atom 8.1 Rediscovering the Roots of Atomic Theory Let us embark on a journey that takes us back more than 2,000 years, to the intellectual landscapes of ancient India and ancient Greece. In these distant yet remarkably parallel civilisations, profound thinkers, such as Acharya Kanada in India, and Leucippus and Democritus in Greece, pondered over the same fundamental question that has continued to inspire human inquiry across centuries — What is everything made up of? Acharya Kanada suggested that if matter (dravya) is divided repeatedly, you will reach a stage where you would encounter the smallest particles that can no longer be divided. He called these particles parmanus. His ideas are recorded 

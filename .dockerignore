@@ -1,0 +1,16 @@
+**/.venv
+**/node_modules
+**/__pycache__
+frontend/dist
+backend/.env
+backend/focs.db*
+backend/storage
+ml/
+_backup/
+backend/env
+
+# server login keys and git history never go into an image
+keys/
+*.pem
+*.ppk
+.git

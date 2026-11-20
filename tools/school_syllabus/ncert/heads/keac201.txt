@@ -1,0 +1,23 @@
+NUMBERED
+8.1 Stakeholders and their Information Requirements
+8.2 Distinction between Capital and Revenue
+8.2.1 Expenditure
+8.2.2 Receipts
+8.2.3 Importance of Distinction between Capital and Revenue
+8.3 Financial Statements
+8.4 Trading and Profit and Loss Account
+8.4.1 Relevant Items in Trading and Profit and Loss Account
+8.4.2 Closing Entries
+8.4.3 Concept of Gross Profti and Net Profit
+8.4.4 Cost of Goods Sold and Closing Stock–Trading Account Revisited
+8.5 Operating Profit (EBIT)
+8.6 Balance Sheet
+8.6.1 Preparing Balance Sheet
+8.6.2 Relevant Items in the Balance Sheet
+8.6.3 Marshalling and Grouping of Assets and Liabilities
+8.7 Opening Entry
+BIG
+Financial Statements - I 8
+on April 01, 2017. The amount of interest works out to ` 500 (` 5,000 × 10/100),
+SAMPLE
+Financial Statements - I 8 Learning Objectives After studying this chapter, you will be able to : • state the nature of the financial statements; • identify the various stakeholders and their information require-­ ments; • distinguish between the capital and reve­ nue expenditure and receipts; • explain the concept of trading and profit and loss account and its preparation; • State the nature of gross profit, net profit and operating profit; • describe the concept of balance sheet and its preparation; • explain grouping and marshalling of assets and liabilities; • prepare profit and loss account and balance sheet of a sole prop­ rietor­y firm; and • make an opening entry. Y ou have learnt that financial accounting is a well-defined sequential activity which begins with Journal (Journalising), Ledger (Posting), and preparation of Trial Balance (Balancing and Summarisation at the first stage). In the present chapter, we will take up the next step, namely, preparation of financial statements, and discuss the types of information requirements of various stakeholders, the distinction between capital and revenue items and its importance and the nature of financial statements and the preparation thereof. 8.1 Stakeholders and their Information Requirements Recall from chapter I (Financial Accounting Part I) that the objective of business is to communicate the meaningful information to various stakeholders in the business so that they can make informed decisions. A stakeholder is any person associated with the business. The stakes of various stakeholders can be monetary or non-monetary. The stakes can be active or passive; or can be direct or indirect. The owner and persons advancing loan to the business would have monetary stake. The government, consumer or a researcher will ha

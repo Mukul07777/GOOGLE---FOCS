@@ -1,0 +1,160 @@
+{
+  "area": "Mechanical engineering",
+  "courses": [
+    {"name": "Mechanics of Solids", "about": "Stress, strain and deformation of structural members (strength of materials)", "chapters": [
+      {"name": "Simple Stresses and Strains", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Normal and shear stress and strain", "Hooke's law and the stress-strain diagram", "Elastic constants and their relations", "Bars of varying section and composite bars", "Thermal stresses", "Strain energy and impact loading"]},
+      {"name": "Principal Stresses and Strains", "hours": 6, "weight": 2, "topics": ["Stresses on inclined planes", "Principal stresses and maximum shear stress", "Mohr's circle of stress", "Theories of failure"]},
+      {"name": "Shear Force and Bending Moment", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Types of beams, supports and loads", "Shear force and bending moment diagrams for cantilevers", "SFD and BMD for simply supported beams", "Overhanging beams and points of contraflexure", "Relation between load, shear force and bending moment"]},
+      {"name": "Stresses in Beams", "hours": 7, "weight": 2.5, "topics": ["Theory of simple bending", "Section modulus and bending stress distribution", "Shear stress distribution in beams", "Composite beams"]},
+      {"name": "Deflection of Beams", "hours": 7, "weight": 2, "topics": ["Double integration method", "Macaulay's method", "Moment-area method", "Castigliano's theorem"]},
+      {"name": "Torsion, Columns and Pressure Vessels", "hours": 8, "weight": 2.5, "topics": ["Torsion of circular shafts", "Power transmitted by shafts and springs", "Euler's theory of columns", "Rankine's formula", "Thin cylinders and spheres", "Thick cylinders and Lame's equations"]}
+    ]},
+    {"name": "Engineering Thermodynamics", "about": "Laws of thermodynamics and properties of substances", "chapters": [
+      {"name": "Basic Concepts and the First Law", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["System, property, state and process", "Work and heat transfer", "First law for closed systems", "Steady flow energy equation and its applications", "Unsteady flow processes"]},
+      {"name": "Second Law of Thermodynamics", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Heat engines, refrigerators and heat pumps", "Kelvin-Planck and Clausius statements", "Reversibility and the Carnot cycle", "Carnot theorems and thermodynamic temperature scale"]},
+      {"name": "Entropy and Availability", "hours": 7, "weight": 2.5, "topics": ["Clausius inequality and entropy", "Entropy change for ideal gases", "Principle of increase of entropy", "Availability and irreversibility", "Second-law efficiency"]},
+      {"name": "Properties of Pure Substances", "hours": 7, "weight": 2, "topics": ["Phase change and p-v-T surfaces", "Steam tables and the Mollier diagram", "Dryness fraction and its measurement", "Processes with steam"]},
+      {"name": "Ideal and Real Gases", "hours": 5, "weight": 1.5, "topics": ["Ideal gas laws and specific heats", "Gas mixtures", "Van der Waals equation and compressibility factor", "Thermodynamic relations: Maxwell's equations"]},
+      {"name": "Gas Power Cycles", "hours": 7, "weight": 2.5, "topics": ["Otto cycle", "Diesel and dual cycles", "Comparison of cycles", "Brayton cycle", "Stirling and Ericsson cycles"]}
+    ]},
+    {"name": "Applied Thermodynamics", "about": "Steam power, compressors, nozzles and engines", "chapters": [
+      {"name": "Vapour Power Cycles", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Rankine cycle and its efficiency", "Reheat cycle", "Regenerative cycle and feedwater heaters", "Binary vapour and cogeneration cycles"]},
+      {"name": "Boilers and Condensers", "hours": 6, "weight": 2, "topics": ["Fire-tube and water-tube boilers", "Boiler mountings and accessories", "Boiler performance and draught", "Steam condensers and vacuum efficiency"]},
+      {"name": "Nozzles and Steam Turbines", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Flow through nozzles and critical pressure ratio", "Impulse turbines and velocity diagrams", "Compounding of turbines", "Reaction turbines and degree of reaction", "Turbine governing"]},
+      {"name": "Air Compressors", "hours": 6, "weight": 2, "topics": ["Reciprocating compressors and volumetric efficiency", "Multistage compression and intercooling", "Rotary compressors", "Centrifugal and axial compressors"]},
+      {"name": "Gas Turbines and Jet Propulsion", "hours": 6, "weight": 2, "topics": ["Gas turbine cycle with regeneration and reheat", "Turbojet, turbofan and turboprop engines", "Rocket propulsion basics", "Combustion and fuels"]},
+      {"name": "Refrigeration Basics and Psychrometry", "hours": 5, "weight": 1.5, "topics": ["Air refrigeration cycle", "Vapour compression cycle", "Psychrometric properties and chart", "Psychrometric processes"]}
+    ]},
+    {"name": "Fluid Mechanics", "about": "Fluid statics, kinematics, dynamics and viscous flow", "chapters": [
+      {"name": "Fluid Properties and Statics", "hours": 7, "weight": 2, "foundation": true, "topics": ["Density, viscosity and surface tension", "Pressure and its measurement: manometers", "Hydrostatic forces on plane and curved surfaces", "Buoyancy and metacentric height"]},
+      {"name": "Fluid Kinematics", "hours": 6, "weight": 2, "foundation": true, "topics": ["Lagrangian and Eulerian descriptions", "Streamlines, pathlines and streaklines", "Continuity equation", "Velocity potential and stream function", "Vorticity and circulation"]},
+      {"name": "Fluid Dynamics", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Euler's equation of motion", "Bernoulli's equation and its applications", "Venturimeter, orifice meter and Pitot tube", "Momentum equation and force on bends", "Flow through orifices and notches"]},
+      {"name": "Viscous Flow and Flow in Pipes", "hours": 8, "weight": 2.5, "topics": ["Laminar flow: Hagen-Poiseuille equation", "Turbulent flow and Reynolds stresses", "Darcy-Weisbach equation and the Moody chart", "Minor losses in pipes", "Pipes in series and parallel"]},
+      {"name": "Dimensional Analysis and Similitude", "hours": 5, "weight": 2, "topics": ["Rayleigh's method", "Buckingham pi theorem", "Dimensionless numbers", "Model laws and similarity"]},
+      {"name": "Boundary Layer and External Flow", "hours": 7, "weight": 2, "topics": ["Boundary layer thicknesses", "Von Karman momentum integral equation", "Boundary layer separation and its control", "Drag and lift on immersed bodies", "Compressible flow basics and Mach number"]}
+    ]},
+    {"name": "Fluid Machinery", "about": "Turbines, pumps and hydraulic systems", "chapters": [
+      {"name": "Impact of Jets", "hours": 5, "weight": 2, "foundation": true, "topics": ["Force of a jet on stationary plates", "Force on moving plates and vanes", "Velocity triangles and work done"]},
+      {"name": "Hydraulic Turbines", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Classification of turbines and heads", "Pelton wheel", "Francis turbine", "Kaplan and propeller turbines", "Draft tubes and cavitation", "Specific speed, unit quantities and characteristic curves"]},
+      {"name": "Centrifugal Pumps", "hours": 8, "weight": 2.5, "topics": ["Working principle and components", "Work done and efficiencies", "Minimum starting speed and priming", "Multistage pumps", "NPSH and cavitation", "Pump characteristic curves and specific speed"]},
+      {"name": "Reciprocating Pumps", "hours": 5, "weight": 1.5, "topics": ["Working of single- and double-acting pumps", "Slip and indicator diagrams", "Effect of acceleration and friction", "Air vessels"]},
+      {"name": "Hydraulic Systems and Devices", "hours": 6, "weight": 1.5, "topics": ["Hydraulic press, accumulator and intensifier", "Hydraulic ram and lift", "Fluid couplings and torque converters", "Gear and vane pumps"]}
+    ]},
+    {"name": "Engineering Materials and Metallurgy", "about": "Structure, properties and heat treatment of engineering materials", "chapters": [
+      {"name": "Crystal Structure and Imperfections", "hours": 6, "weight": 2, "foundation": true, "topics": ["Crystal systems and unit cells", "Miller indices", "Point, line and surface defects", "Dislocations and plastic deformation", "Strengthening mechanisms"]},
+      {"name": "Phase Diagrams", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Solid solutions and Hume-Rothery rules", "Gibbs phase rule and the lever rule", "Binary isomorphous and eutectic systems", "Iron-carbon equilibrium diagram", "Microstructures of steels and cast irons"]},
+      {"name": "Heat Treatment", "hours": 7, "weight": 2.5, "topics": ["TTT and CCT diagrams", "Annealing and normalising", "Hardening and tempering", "Hardenability and the Jominy test", "Case hardening: carburising and nitriding"]},
+      {"name": "Mechanical Properties and Testing", "hours": 7, "weight": 2, "topics": ["Tensile test and stress-strain behaviour", "Hardness tests", "Impact and fracture toughness", "Fatigue and the S-N curve", "Creep"]},
+      {"name": "Engineering Alloys and Non-Metals", "hours": 7, "weight": 2, "topics": ["Plain carbon and alloy steels", "Cast irons", "Aluminium, copper and titanium alloys", "Polymers and ceramics", "Composite materials"]}
+    ]},
+    {"name": "Manufacturing Processes", "about": "Casting, forming and joining of metals", "chapters": [
+      {"name": "Metal Casting", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Patterns and pattern allowances", "Moulding sands and their properties", "Gating system design", "Riser design and solidification", "Special casting processes", "Casting defects and inspection"]},
+      {"name": "Metal Forming", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Hot and cold working", "Rolling: process and load calculation", "Forging operations and defects", "Extrusion and drawing", "Sheet metal operations: shearing, bending and deep drawing"]},
+      {"name": "Welding and Joining", "hours": 9, "weight": 2.5, "topics": ["Classification of welding processes", "Gas welding and cutting", "Arc welding: SMAW, MIG and TIG", "Resistance welding", "Heat-affected zone and welding defects", "Brazing, soldering and adhesive bonding"]},
+      {"name": "Powder Metallurgy and Plastics", "hours": 5, "weight": 1.5, "topics": ["Powder production and characterisation", "Compaction and sintering", "Injection and blow moulding of plastics", "Processing of composites"]}
+    ]},
+    {"name": "Machining and Machine Tools", "about": "Metal cutting theory, machine tools and modern machining", "chapters": [
+      {"name": "Theory of Metal Cutting", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Orthogonal and oblique cutting", "Chip formation and types of chips", "Merchant's circle and cutting forces", "Tool geometry and nomenclature", "Heat generation and cutting fluids"]},
+      {"name": "Tool Life and Machinability", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Tool wear mechanisms", "Taylor's tool life equation", "Cutting tool materials", "Machinability and economics of machining", "Surface finish"]},
+      {"name": "Machine Tools", "hours": 9, "weight": 2, "topics": ["Lathe: operations and machining time", "Drilling and boring machines", "Milling machines and indexing", "Shaper, planer and slotter", "Broaching"]},
+      {"name": "Grinding and Finishing", "hours": 5, "weight": 1.5, "topics": ["Grinding wheels: specification and selection", "Grinding processes", "Honing, lapping and superfinishing"]},
+      {"name": "Non-Traditional Machining", "hours": 7, "weight": 2, "topics": ["Electrical discharge machining", "Electrochemical machining", "Ultrasonic and abrasive jet machining", "Laser beam and electron beam machining"]},
+      {"name": "Metrology, Jigs and CNC", "hours": 7, "weight": 2, "topics": ["Limits, fits and tolerances", "Gauges and comparators", "Jigs and fixtures: locating and clamping", "CNC machines and part programming"]}
+    ]},
+    {"name": "Kinematics of Machines", "about": "Mechanisms, cams and gears", "chapters": [
+      {"name": "Mechanisms and Machines", "hours": 6, "weight": 2, "foundation": true, "topics": ["Links, pairs and kinematic chains", "Degrees of freedom and Grubler's criterion", "Four-bar chain and its inversions", "Slider-crank chain inversions", "Straight-line and steering mechanisms"]},
+      {"name": "Velocity Analysis", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Relative velocity method", "Instantaneous centre method", "Kennedy's theorem", "Rubbing velocity at pin joints"]},
+      {"name": "Acceleration Analysis", "hours": 7, "weight": 2.5, "topics": ["Acceleration diagrams for mechanisms", "Coriolis component of acceleration", "Klein's construction", "Analytical analysis of slider-crank"]},
+      {"name": "Cams and Followers", "hours": 7, "weight": 2, "topics": ["Types of cams and followers", "Follower motions: SHM, uniform acceleration and cycloidal", "Cam profile construction", "Pressure angle and undercutting"]},
+      {"name": "Gears", "hours": 7, "weight": 2.5, "topics": ["Law of gearing and tooth profiles", "Involute gear terminology", "Path of contact and contact ratio", "Interference and minimum number of teeth", "Helical, bevel and worm gears"]},
+      {"name": "Gear Trains and Friction Drives", "hours": 7, "weight": 2, "topics": ["Simple and compound gear trains", "Epicyclic gear trains", "Belt and rope drives", "Clutches and brakes", "Friction in bearings and screws"]}
+    ]},
+    {"name": "Dynamics of Machines", "about": "Forces, balancing, governors, gyroscopes and vibrations", "chapters": [
+      {"name": "Force Analysis", "hours": 7, "weight": 2, "foundation": true, "topics": ["Static force analysis of mechanisms", "D'Alembert's principle and inertia forces", "Dynamic analysis of the slider-crank mechanism", "Turning moment diagrams", "Flywheel design"]},
+      {"name": "Balancing", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Static and dynamic balancing", "Balancing of rotating masses in several planes", "Balancing of reciprocating masses", "Balancing of multi-cylinder in-line engines", "Balancing of V and radial engines"]},
+      {"name": "Governors", "hours": 6, "weight": 2, "topics": ["Watt, Porter and Proell governors", "Hartnell and spring-loaded governors", "Sensitiveness, stability and isochronism", "Effort and power of a governor"]},
+      {"name": "Gyroscopes", "hours": 5, "weight": 2, "topics": ["Gyroscopic couple and precession", "Gyroscopic effects on aeroplanes and ships", "Stability of two- and four-wheel vehicles"]},
+      {"name": "Free and Forced Vibrations", "hours": 9, "weight": 2.5, "topics": ["Undamped free vibrations and natural frequency", "Damped free vibrations and logarithmic decrement", "Forced vibrations and magnification factor", "Vibration isolation and transmissibility", "Whirling of shafts", "Torsional vibrations"]}
+    ]},
+    {"name": "Design of Machine Elements", "about": "Designing shafts, joints, springs, bearings and gears", "chapters": [
+      {"name": "Design Fundamentals", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Design process and factor of safety", "Theories of failure under static load", "Stress concentration", "Fatigue: endurance limit and S-N curve", "Soderberg, Goodman and Gerber criteria"]},
+      {"name": "Joints and Fasteners", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Riveted joints", "Welded joints", "Threaded fasteners and bolted joints", "Cotter and knuckle joints", "Power screws"]},
+      {"name": "Shafts, Keys and Couplings", "hours": 7, "weight": 2.5, "topics": ["Design of shafts for strength and rigidity", "ASME code for shaft design", "Keys and splines", "Rigid and flexible couplings"]},
+      {"name": "Springs", "hours": 5, "weight": 1.5, "topics": ["Helical compression and tension springs", "Springs under fatigue loading", "Leaf springs"]},
+      {"name": "Bearings", "hours": 7, "weight": 2, "topics": ["Hydrodynamic lubrication and the Petroff equation", "Design of journal bearings", "Rolling contact bearings: types and selection", "Bearing life and load rating"]},
+      {"name": "Gears, Clutches and Brakes", "hours": 9, "weight": 2.5, "topics": ["Spur gear design: Lewis and Buckingham equations", "Helical and bevel gear design", "Worm gear design", "Friction clutches", "Brakes: block, band and disc", "Belt and chain drive selection"]}
+    ]},
+    {"name": "Heat and Mass Transfer", "about": "Conduction, convection, radiation and heat exchangers", "chapters": [
+      {"name": "Steady-State Conduction", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Fourier's law and thermal conductivity", "General heat conduction equation", "Conduction through plane and composite walls", "Conduction in cylinders and spheres", "Critical thickness of insulation", "Conduction with heat generation"]},
+      {"name": "Extended Surfaces and Transient Conduction", "hours": 7, "weight": 2, "topics": ["Fins: temperature distribution and heat flow", "Fin efficiency and effectiveness", "Lumped capacitance method", "Heisler charts"]},
+      {"name": "Forced Convection", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Hydrodynamic and thermal boundary layers", "Dimensionless numbers in convection", "Flow over a flat plate", "Internal flow in tubes", "Reynolds and Colburn analogies"]},
+      {"name": "Free Convection, Boiling and Condensation", "hours": 6, "weight": 1.5, "topics": ["Natural convection and the Grashof number", "Correlations for free convection", "Pool boiling regimes", "Film and dropwise condensation"]},
+      {"name": "Radiation", "hours": 8, "weight": 2.5, "topics": ["Black body radiation and Planck's law", "Stefan-Boltzmann and Wien's laws", "Emissivity and Kirchhoff's law", "Shape factors", "Radiation exchange between surfaces and radiation shields"]},
+      {"name": "Heat Exchangers and Mass Transfer", "hours": 8, "weight": 2.5, "topics": ["Types of heat exchangers and overall heat transfer coefficient", "LMTD method", "Effectiveness-NTU method", "Fouling", "Fick's law of diffusion", "Convective mass transfer"]}
+    ]},
+    {"name": "Refrigeration and Air Conditioning", "about": "Refrigeration cycles, refrigerants and air-conditioning design", "chapters": [
+      {"name": "Air Refrigeration", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Units of refrigeration and COP", "Reversed Carnot cycle", "Bell-Coleman cycle", "Aircraft refrigeration systems"]},
+      {"name": "Vapour Compression Systems", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Simple vapour compression cycle on p-h and T-s charts", "Effect of subcooling and superheating", "Actual cycle and losses", "Multistage and cascade systems", "Compressors, condensers, evaporators and expansion devices"]},
+      {"name": "Vapour Absorption and Other Systems", "hours": 6, "weight": 2, "topics": ["Ammonia-water absorption system", "Lithium bromide-water system", "Electrolux refrigerator", "Steam jet and thermoelectric refrigeration"]},
+      {"name": "Refrigerants", "hours": 4, "weight": 1.5, "topics": ["Classification and designation of refrigerants", "Desirable properties", "Ozone depletion and global warming potential", "Alternative refrigerants"]},
+      {"name": "Psychrometry", "hours": 7, "weight": 2.5, "topics": ["Psychrometric properties of moist air", "Psychrometric chart", "Sensible and latent heating and cooling", "Humidification and dehumidification", "Bypass factor and adiabatic mixing"]},
+      {"name": "Air-Conditioning Systems", "hours": 7, "weight": 2, "topics": ["Human comfort and comfort charts", "Cooling load calculations", "Sensible heat factor and apparatus dew point", "Summer and winter air-conditioning systems", "Duct design and air distribution"]}
+    ]},
+    {"name": "Industrial Engineering", "about": "Productivity, work study, production planning and quality", "chapters": [
+      {"name": "Productivity and Work Study", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Productivity and its measurement", "Method study and process charts", "Motion economy principles", "Work measurement and time study", "Work sampling and standard time"]},
+      {"name": "Plant Layout and Material Handling", "hours": 5, "weight": 1.5, "topics": ["Plant location factors", "Types of plant layout", "Line balancing", "Material handling equipment"]},
+      {"name": "Production Planning and Control", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Forecasting methods", "Aggregate planning", "Master production schedule and MRP", "Scheduling and sequencing rules", "Just-in-time and lean manufacturing"]},
+      {"name": "Inventory Control", "hours": 6, "weight": 2.5, "topics": ["Inventory costs", "EOQ model and its extensions", "Quantity discounts", "ABC and VED analysis", "Safety stock and reorder point"]},
+      {"name": "Quality Control", "hours": 7, "weight": 2, "topics": ["Statistical quality control", "Control charts for variables", "Control charts for attributes", "Acceptance sampling and the OC curve", "Total quality management and six sigma"]},
+      {"name": "Project and Maintenance Management", "hours": 6, "weight": 2, "topics": ["Network diagrams and CPM", "PERT and probability of completion", "Crashing of networks", "Maintenance strategies and reliability", "Break-even analysis"]}
+    ]},
+    {"name": "Operations Research", "about": "Optimisation models for decision making", "chapters": [
+      {"name": "Linear Programming", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Formulation of linear programming problems", "Graphical method", "Simplex method", "Big-M and two-phase methods", "Duality and the dual simplex method", "Sensitivity analysis"]},
+      {"name": "Transportation and Assignment", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Transportation problem: initial basic feasible solutions", "MODI method for optimality", "Assignment problem and the Hungarian method", "Travelling salesman problem"]},
+      {"name": "Network Models", "hours": 6, "weight": 2, "topics": ["Critical path method", "PERT", "Shortest path and maximum flow problems", "Minimum spanning tree"]},
+      {"name": "Queueing and Inventory Models", "hours": 7, "weight": 2, "topics": ["Queueing system characteristics", "M/M/1 queue", "M/M/c and finite queues", "Deterministic inventory models", "Probabilistic inventory models"]},
+      {"name": "Game Theory, Sequencing and Dynamic Programming", "hours": 7, "weight": 2, "topics": ["Two-person zero-sum games and saddle points", "Mixed strategies and dominance", "Sequencing: Johnson's rule", "Replacement models", "Dynamic programming", "Simulation basics"]}
+    ]},
+    {"name": "CAD/CAM", "about": "Computer-aided design, manufacturing and automation", "chapters": [
+      {"name": "CAD Fundamentals and Transformations", "hours": 6, "weight": 2, "foundation": true, "topics": ["Product life cycle and CAD/CAM", "2D and 3D geometric transformations", "Homogeneous coordinates", "Projections and viewing"]},
+      {"name": "Geometric Modelling", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Wireframe modelling", "Parametric curves: Hermite, Bezier and B-spline", "Surface modelling", "Solid modelling: CSG and B-rep", "Data exchange standards"]},
+      {"name": "Numerical Control", "hours": 8, "weight": 2.5, "topics": ["NC, CNC and DNC systems", "Coordinate systems and motion control", "Manual part programming with G and M codes", "Canned cycles and tool compensation", "Computer-assisted part programming"]},
+      {"name": "Group Technology and Process Planning", "hours": 6, "weight": 2, "topics": ["Part families and coding systems", "Cellular manufacturing", "Computer-aided process planning", "Flexible manufacturing systems"]},
+      {"name": "Automation and Additive Manufacturing", "hours": 7, "weight": 2, "topics": ["Automated material handling and AGVs", "Industrial robots in manufacturing", "Computer-integrated manufacturing", "Additive manufacturing processes", "Finite element analysis in design"]}
+    ]},
+    {"name": "Internal Combustion Engines", "about": "Engine cycles, combustion, systems and performance", "chapters": [
+      {"name": "Engine Cycles and Fuels", "hours": 6, "weight": 2, "foundation": true, "topics": ["Classification and working of IC engines", "Air-standard and fuel-air cycles", "Actual cycles and their losses", "Fuels and their ratings: octane and cetane numbers", "Alternative fuels"]},
+      {"name": "Combustion in SI Engines", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Stages of combustion in SI engines", "Flame propagation", "Knocking and its control", "Combustion chambers for SI engines"]},
+      {"name": "Combustion in CI Engines", "hours": 6, "weight": 2.5, "topics": ["Stages of combustion in CI engines", "Ignition delay", "Diesel knock", "Combustion chambers for CI engines"]},
+      {"name": "Fuel Supply, Ignition, Cooling and Lubrication", "hours": 7, "weight": 2, "topics": ["Carburetion and fuel injection in SI engines", "Fuel injection systems in CI engines", "Ignition systems", "Cooling systems", "Lubrication systems", "Supercharging and turbocharging"]},
+      {"name": "Performance and Emissions", "hours": 7, "weight": 2.5, "topics": ["Performance parameters and their measurement", "Heat balance sheet", "Performance characteristics", "Engine emissions and their formation", "Emission control and norms"]}
+    ]},
+    {"name": "Mechanical Vibrations", "about": "Vibration of single- and multi-degree-of-freedom systems", "chapters": [
+      {"name": "Free Vibration of Single-Degree Systems", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Simple harmonic motion and vibration terminology", "Equation of motion and natural frequency", "Energy and Rayleigh methods", "Viscous damping and logarithmic decrement", "Coulomb damping"]},
+      {"name": "Forced Vibration", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Response to harmonic excitation", "Magnification factor and resonance", "Rotating unbalance", "Support excitation", "Vibration isolation and transmissibility", "Vibration measuring instruments"]},
+      {"name": "Two-Degree-of-Freedom Systems", "hours": 7, "weight": 2, "topics": ["Natural frequencies and mode shapes", "Coordinate coupling", "Dynamic vibration absorber", "Semi-definite systems"]},
+      {"name": "Multi-Degree-of-Freedom Systems", "hours": 7, "weight": 2, "topics": ["Influence coefficients", "Matrix method and eigenvalue problem", "Holzer's and Stodola's methods", "Rayleigh's and Dunkerley's methods"]},
+      {"name": "Continuous Systems and Critical Speeds", "hours": 6, "weight": 1.5, "topics": ["Vibration of strings and bars", "Transverse vibration of beams", "Whirling of shafts", "Torsional vibration of rotor systems"]}
+    ]},
+    {"name": "Finite Element Method", "about": "Numerical analysis of structures and fields by finite elements", "chapters": [
+      {"name": "Fundamentals", "hours": 6, "weight": 2, "foundation": true, "topics": ["Steps of the finite element method", "Variational and weighted residual methods", "Rayleigh-Ritz and Galerkin methods", "Stiffness matrix by the direct method"]},
+      {"name": "One-Dimensional Elements", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Bar element and shape functions", "Assembly and boundary conditions", "Truss elements", "Beam elements", "Temperature effects"]},
+      {"name": "Two-Dimensional Elements", "hours": 8, "weight": 2.5, "topics": ["Plane stress and plane strain", "Constant strain triangle", "Axisymmetric elements", "Isoparametric elements and numerical integration"]},
+      {"name": "Field and Dynamic Problems", "hours": 7, "weight": 2, "topics": ["Heat transfer analysis", "Mass matrices and eigenvalue problems", "Free vibration analysis", "Convergence, meshing and commercial FE software"]}
+    ]},
+    {"name": "Mechatronics", "about": "Sensors, actuators, control and robotics", "chapters": [
+      {"name": "Sensors and Signal Conditioning", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Elements of a mechatronic system", "Displacement, velocity and proximity sensors", "Force, pressure and temperature sensors", "Signal conditioning and op-amp circuits", "Data acquisition and ADC/DAC"]},
+      {"name": "Actuators", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Pneumatic and hydraulic actuation systems", "Directional and pressure control valves", "DC, AC and stepper motors", "Servo motors and drives"]},
+      {"name": "System Models and Controllers", "hours": 7, "weight": 2, "topics": ["Modelling of mechanical and electrical systems", "Transfer functions and time response", "PID control", "Digital control basics"]},
+      {"name": "Microcontrollers and PLCs", "hours": 7, "weight": 2, "topics": ["Microcontroller architecture and interfacing", "Programmable logic controllers", "Ladder logic programming", "Timers, counters and sequencing"]},
+      {"name": "Robotics", "hours": 7, "weight": 2, "topics": ["Robot anatomy and configurations", "Forward and inverse kinematics", "End effectors and robot sensors", "Robot programming and applications"]}
+    ]},
+    {"name": "Metrology and Measurements", "about": "Measuring instruments, transducers and dimensional metrology", "chapters": [
+      {"name": "Measurement Fundamentals", "hours": 5, "weight": 2, "foundation": true, "topics": ["Measurement systems and standards", "Static and dynamic characteristics", "Errors and their analysis", "Calibration", "Sensors and transducers"]},
+      {"name": "Displacement, Pressure and Strain", "hours": 6, "weight": 2, "topics": ["Displacement and time measurement", "Pressure transducers", "Measuring very low pressures", "Strain gauges and strain rosettes"]},
+      {"name": "Flow, Temperature, Force and Torque", "hours": 6, "weight": 2, "topics": ["Rotameter, hot-wire anemometer and laser Doppler velocimetry", "Thermocouples, thermistors and pyrometers", "Load cells and torque measurement", "Seismic instruments"]},
+      {"name": "Linear and Angular Metrology", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Line and end standards", "Limits, fits and tolerances", "Linear and angular measuring instruments", "Comparators", "Limit gauges"]},
+      {"name": "Surface and Form Measurement", "hours": 5, "weight": 2, "topics": ["Surface roughness", "Screw thread and gear measurement", "Coordinate measuring machines", "Optical measurement and interferometry"]}
+    ]}
+  ]
+}

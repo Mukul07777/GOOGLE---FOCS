@@ -1,0 +1,25 @@
+# One container serves the API and the built web app on :8000.
+#   docker compose up --build
+# On a public server, put Caddy or nginx in front for HTTPS (docs/LAUNCH_CHECKLIST.md). The port is published on
+# 127.0.0.1 only, so visitors can't go around the proxy: plain http, and made-up X-Forwarded-For addresses that would
+# dodge the rate limits. (Docker's published ports also skip the server's firewall.)
+services:
+  focs:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file:
+      - backend/.env
+    environment:
+      HOST: 0.0.0.0
+      ENV: production
+      TRUSTED_PROXY_HOPS: 1  # the proxy in front; with nothing in front this still works (no X-Forwarded-For)
+      # Data stays in this container's volume. Remove this line to use SUPABASE_DB_URL from backend/.env instead.
+      DATABASE_URL: sqlite:////data/focs.db
+      STORAGE_DIR: /data/storage
+    volumes:
+      - focs-data:/data
+    restart: unless-stopped
+
+volumes:
+  focs-data:

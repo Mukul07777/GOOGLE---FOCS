@@ -1,0 +1,29 @@
+NUMBERED
+10.1 Introduction to Tuples
+10.1.1 Accessing Elements in a Tuple
+10.1.2 Tuple is Immutable
+10.2 Tuple Operations
+10.2.1 Concatenation
+10.2.2 Repetition
+10.2.3 Membership
+10.2.4 Slicing
+10.3 Tuple Methods and Built-in Functions
+10.4 Tuple Assignment
+10.5 Nested Tuples
+10.6 Tuple Handling
+10.7 Introduction to Dictionaries
+10.7.1 Creating a Dictionary
+10.7.2 Accessing Items in a Dictionary
+10.8 Dictionaries are Mutable
+10.8.1 Adding a new item
+10.8.2 Modifying an Existing Item
+10.9 Dictionary Operations
+10.9.1 Membership
+10.10 Traversing a Dictionary
+10.11 Dictionary methods and Built-in functions
+10.12 Manipulating Dictionaries
+BIG
+Chapter 10
+Tuples and Dictionaries
+SAMPLE
+10.1 Introduction to Tuples A tuple is an ordered sequence of elements of different data types, such as integer, float, string, list or even a tuple. Elements of a tuple are enclosed in parenthesis (round brackets) and are separated by commas. Like list and string, elements of a tuple can be accessed using index values, starting from 0. “Computers are to computing as instruments are to music. Software is the score whose interpretations amplifies our reach and lifts our spirits. Leonardo da Vinci called music the shaping of the invisible, and his phrase is even more apt as a description of software.” – A Kay Chapter 10 Tuples and Dictionaries In this chapter »» Introduction to Tuples »» Tuple Operations »» Tuple Methods and Built-in Functions »» Tuple Assignment »» Nested Tuples »» Tuple Handling »» Introduction to Dictionaries »» Dictionaries are Mutable »» Dictionary Operations »» Traversing a Dictionary »» Dictionary Methods and Built-in Functions »» Manipulating Dictionaries Example 10.1 #tuple1 is the tuple of integers >>> tuple1 = (1,2,3,4,5) >>> tuple1 (1, 2, 3, 4, 5) #tuple2 is the tuple of mixed data types >>> tuple2 =('Economics',87,'Accountancy',89.6) >>> tuple2 ('Economics', 87, 'Accountancy', 89.6) #tuple3 is the tuple with list as an element >>> tuple3 = (10,20,30,[40,50]) >>> tuple3 (10, 20, 30, [40, 50]) #tuple4 is the tuple with tuple as an element >>> tuple4 = (1,2,3,4,5,(10,20)) >>> tuple4 (1, 2, 3, 4, 5, (10, 20)) If there is only a single element in a tuple then the element should be followed by a comma. If we assign the value without comma it is treated as integer. It should be noted that a sequence without parenthesis is treated as tuple by default. #incorrect way of assigning single element to #tuple #tuple5 is assigned a single element >>> tuple5

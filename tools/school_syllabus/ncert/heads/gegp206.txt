@@ -1,0 +1,11 @@
+NUMBERED
+6.1 Geometric Constructions
+6.2 Tiling
+BIG
+6 CONSTRUCTIONS
+AND TILINGS
+6.1 Geometric Constructions
+6.2 Tiling
+SUMMARY
+SAMPLE
+CONSTRUCTIONS AND TILINGS 6 6.1 Geometric Constructions Eyes Do you recall the ‘Eyes’ construction we did in Grade 6? Of course, eyes can be drawn freehand, but we wanted to construct them so that the lower arc and upper arc of each eye look symmetrical. We relied on our spatial estimation to determine the two centres, A and B (see the figure), from which we drew the lower arc and upper arc respectively. The arcs define a line XY that ‘supports’ the drawing though it is not part of the final figure. We can start with this supporting line and systematically find the centres A and B. For the eye to be symmetrical, or for the supporting line to be the line of symmetry, the upper and lower arcs should have the same radius. In other words, we must have AX = BX. Since AX = AY and BX = BY, this means AX = AY = BX = BY A B X Y Constructions and Tilings How do we find such A and B? From X and Y, draw arcs above and below XY, with the same radii. The two points at which the arcs meet, above and below XY, give us A and B, respectively. Use this to construct an eye. In Fig. 6.1, join A and B with a line. Where does AB intersect XY, and what is the angle formed between them? We observe that AB passes through the midpoint of XY, and is also perpendicular to it. A division of a line, or any geometrical object, into two identical parts is called bisection. A line that bisects a given line and is perpendicular to it, is called the perpendicular bisector. Will the line joining the two points at which the arcs meet, above and below XY, always be the perpendicular bisector of XY, i.e., when XY is of any length, and the arcs are drawn using a radius of any length? This can be answered through congruence. Let us consider a line segment XY. Find points A and B such that AX = AY = BX = BY. Dra

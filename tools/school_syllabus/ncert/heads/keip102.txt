@@ -1,0 +1,28 @@
+NUMBERED
+2.1 Introduction to Emerging Trends
+2.2 Artificial Intelligence (AI)
+2.2.1 Machine Learning
+2.2.2 Natural Language Processing (NLP)
+2.2.3 Immersive Experiences
+2.2.4 Robotics
+2.3 Big Data
+2.3.1 Characteristics of Big Data
+2.3.2 Data Analytics
+2.4 Internet of Things (IoT)
+2.4.1 Web of Things (WoT)
+2.4.2 Sensors
+2.4.3 Smart Cities
+2.5 Cloud Computing
+2.5.1 Cloud Services
+2.6 Grid Computing
+2.7 Blockchains
+BIG
+“Computer science is no more about
+computers than astronomy is about
+telescopes”
+— Edsger Dijkstra
+Emerging
+Trends
+Summary
+SAMPLE
+2.1 Introduction to Emerging Trends Computers have been around for quite some time now. New technologies and initiatives emerge with each passing day. In order to understand the existing technologies and have a better view of the developments around us, we must keep an eye on the emerging trends. Many new technologies are introduced almost every day. Some of these do not succeed and fade away over time. Some of these new technologies prosper and persist over time, gaining attention from users. Emerging trends are the state-of-the-art technologies, which gain “Computer science is no more about computers than astronomy is about telescopes” — Edsger Dijkstra In this chapter »» Introduction to Emerging Trends »» Artificial Intelligence (AI) »» Big Data »» Internet of Things (IoT) »» Cloud Computing »» Grid Computing »» Blockchains Emerging Trends Chapter 2 Reprint 2026-27 16 Informatics Practices – Class XI popularity and set a new trend among users. In this chapter, we will learn about some emerging trends that will make a huge impact (in the future) on digital economy and interaction in digital societies. 2.2 Artificial Intelligence (AI) Have you ever wondered how maps in your smartphone are able to guide you to take the fastest route to your destination by analysing real time data, such as traffic congestion? On uploading a photo on a social networking site, has it ever happened that your friends in the photograph were recognised and tagged automatically? These are some of the examples of application of Artificial Intelligence. The intelligent digital personal assistants like Siri, Google Now, Cortana, Alexa are all powered by AI. Artificial Intelligence endeavours to simulate the natural intelligence of human beings into machines, thus making them behave intelligently. 

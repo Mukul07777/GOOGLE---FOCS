@@ -1,0 +1,21 @@
+{
+  "appId": "com.focs.app",
+  "appName": "Focs",
+  "webDir": "www",
+  "backgroundColor": "#06070f",
+  "server": {
+    "androidScheme": "http",
+    "hostname": "localhost",
+    "cleartext": true,
+    "allowNavigation": [
+      "*"
+    ],
+    "errorPath": "unreachable.html"
+  },
+  "android": {
+    "backgroundColor": "#06070f",
+    "allowMixedContent": true,
+    "adjustMarginsForEdgeToEdge": "auto"
+  },
+  "appendUserAgent": "FocsApp/1.4"
+}

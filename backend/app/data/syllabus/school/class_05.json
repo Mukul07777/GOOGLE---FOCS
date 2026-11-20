@@ -1,0 +1,531 @@
+{
+ "class": 5,
+ "default": null,
+ "subjects": [
+  {
+   "name": "English",
+   "units": [
+    {
+     "name": "Unit 1: Let's Have Fun",
+     "chapters": [
+      {
+       "name": "Papa's Spectacles",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Gone with the Scooter",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: My Colourful World",
+     "chapters": [
+      {
+       "name": "The Rainbow",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "The Wise Parrot",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Water",
+     "chapters": [
+      {
+       "name": "The Frog",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "What a Tank!",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: Ups and Downs",
+     "chapters": [
+      {
+       "name": "Gilli Danda",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "The Decision of the Panchayat",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 5: Work is Worship",
+     "chapters": [
+      {
+       "name": "Vocation",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Glass Bangles",
+       "book": "Santoor",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Maths Mela",
+     "chapters": [
+      {
+       "name": "We the Travellers — I",
+       "book": "Maths Mela",
+       "topics": [
+        "Large numbers",
+        "Place value up to lakhs",
+        "Reading and writing large numbers"
+       ]
+      },
+      {
+       "name": "Fractions (Class 5)",
+       "book": "Maths Mela",
+       "topics": [
+        "Fractions of a whole",
+        "Comparing fractions",
+        "Equivalent fractions"
+       ]
+      },
+      {
+       "name": "Angles as Turns",
+       "book": "Maths Mela",
+       "topics": [
+        "Full, half and quarter turns",
+        "Angles",
+        "Right angles"
+       ]
+      },
+      {
+       "name": "We the Travellers — II",
+       "book": "Maths Mela",
+       "topics": [
+        "Adding and subtracting large numbers",
+        "Making sums equal",
+        "Estimating sums"
+       ]
+      },
+      {
+       "name": "Far and Near",
+       "book": "Maths Mela",
+       "topics": [
+        "Units of length",
+        "Kilometre, metre and centimetre",
+        "Converting between units"
+       ]
+      },
+      {
+       "name": "The Dairy Farm",
+       "book": "Maths Mela",
+       "topics": [
+        "Multiplication",
+        "Arrangements in rows and columns",
+        "Story sums"
+       ]
+      },
+      {
+       "name": "Shapes and Patterns",
+       "book": "Maths Mela",
+       "topics": [
+        "Weaving patterns",
+        "Patterns with shapes",
+        "Tiling"
+       ]
+      },
+      {
+       "name": "Weight and Capacity",
+       "book": "Maths Mela",
+       "topics": [
+        "Grams and kilograms",
+        "Millilitres and litres",
+        "Estimating weight and capacity"
+       ]
+      },
+      {
+       "name": "Coconut Farm",
+       "book": "Maths Mela",
+       "topics": [
+        "Division facts",
+        "Dividend, divisor, quotient and remainder",
+        "Long division"
+       ]
+      },
+      {
+       "name": "Symmetrical Designs",
+       "book": "Maths Mela",
+       "topics": [
+        "Reflection symmetry",
+        "Lines of symmetry",
+        "Rotational symmetry"
+       ]
+      },
+      {
+       "name": "Grandmother's Quilt",
+       "book": "Maths Mela",
+       "topics": [
+        "Perimeter",
+        "Area",
+        "Squares and rectangles"
+       ]
+      },
+      {
+       "name": "Racing Seconds",
+       "book": "Maths Mela",
+       "topics": [
+        "Reading time",
+        "How long something takes",
+        "Seconds, minutes and hours"
+       ]
+      },
+      {
+       "name": "Animal Jumps",
+       "book": "Maths Mela",
+       "topics": [
+        "Multiples",
+        "Factors",
+        "Number patterns"
+       ]
+      },
+      {
+       "name": "Maps and Locations",
+       "book": "Maths Mela",
+       "topics": [
+        "Directions",
+        "Reading a map",
+        "Scale and distance"
+       ]
+      },
+      {
+       "name": "Data Through Pictures",
+       "book": "Maths Mela",
+       "topics": [
+        "Collecting data",
+        "Pictographs",
+        "Bar graphs"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi",
+   "units": [
+    {
+     "name": "वीणा",
+     "chapters": [
+      {
+       "name": "किरन",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "न्याय की कुर्सी",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चाँद का कुरता",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "साङकेन",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "सुंदरिया",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चतुर चित्रकार",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मेरा बचपन",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "काज़ीरंगा राष्ट्रीय उद्यान की यात्रा",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "न्याय",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "तीन मछलियाँ",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हमारे ये कलामंदिर",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "गंगा की कहानी",
+       "book": "वीणा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "The World Around Us",
+   "units": [
+    {
+     "name": "Unit 1: Life Around Us",
+     "chapters": [
+      {
+       "name": "Water — The Essence of Life",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Water for life",
+        "Sources of water",
+        "Saving water"
+       ]
+      },
+      {
+       "name": "Journey of a River",
+       "book": "Our Wondrous World",
+       "topics": [
+        "From the mountains to the sea",
+        "Life along a river",
+        "Keeping rivers clean"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: Health and Well-being",
+     "chapters": [
+      {
+       "name": "The Mystery of Food",
+       "book": "Our Wondrous World",
+       "topics": [
+        "What our food gives us",
+        "Where food comes from",
+        "Keeping food from spoiling"
+       ]
+      },
+      {
+       "name": "Our School — A Happy Place",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Our school",
+        "Safety at school",
+        "Friendship and kindness"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Incredible India",
+     "chapters": [
+      {
+       "name": "Our Vibrant Country",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Republic Day celebrations",
+        "The diversity of India",
+        "Finding India in currency notes"
+       ]
+      },
+      {
+       "name": "Some Unique Places",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Unique places of India",
+        "Heritage sites",
+        "Travel and maps"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: Things Around Us",
+     "chapters": [
+      {
+       "name": "Energy — How Things Work",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Forms of energy",
+        "Energy at home",
+        "Saving energy"
+       ]
+      },
+      {
+       "name": "Clothes — How Things are Made",
+       "book": "Our Wondrous World",
+       "topics": [
+        "From fibre to fabric",
+        "Clothes for different seasons",
+        "Weaving and dyeing"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 5: Our Amazing Planet",
+     "chapters": [
+      {
+       "name": "Rhythms of Nature",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Day and night",
+        "Seasons",
+        "Cycles in nature"
+       ]
+      },
+      {
+       "name": "Earth — Our Shared Home",
+       "book": "Our Wondrous World",
+       "topics": [
+        "Living things share the Earth",
+        "Protecting the environment",
+        "What we can do"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

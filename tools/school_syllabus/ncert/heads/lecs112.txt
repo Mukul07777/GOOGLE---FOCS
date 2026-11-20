@@ -1,0 +1,38 @@
+NUMBERED
+12.1 Threats and Prevention
+12.2 Malware
+12.2.1 Virus
+12.2.2 Worms
+12.2.3 Ransomware
+12.2.4 Trojan
+12.2.5 Spyware
+12.2.6 Adware
+12.2.7 Keyloggers
+12.2.8 Modes of Malware distribution
+12.2.9 Combating Malware
+12.3 Antivirus
+12.3.1 Methods of Malware Identification used by Antivirus
+12.4 Spam
+12.5 HTTP vs HTTPS
+12.6 Firewall
+12.6.1 Types of Firewall
+12.7 Cookies
+12.7.1 Threats due to Cookies
+12.8 Hackers and Crackers
+12.8.1 White Hats: Ethical Hacker
+12.8.2 Black Hats: Crackers
+12.8.3 Grey Hats
+12.9 Network Security Threats
+12.9.1 Denial of Service
+12.9.2 Intrusion Problems
+12.9.3 Snooping
+12.9.4 Eavesdropping
+BIG
+“Treat your password like your toothbrush. Don't let anybody else use it,
+and get a new one every six months.”
+— Clif ord Stoll
+12 Security Aspects
+Summary
+Exercise
+SAMPLE
+In this Chapter »» Threats and Prevention »» Malware »» Antivirus »» Spam »» HTTP vs HTTPS »» Firewall »» Cookies »» Hackers and Crackers »» Network Security Threats C h a p t e r “Treat your password like your toothbrush. Don't let anybody else use it, and get a new one every six months.” — Clifford Stoll 12.1 Threats and Prevention Being alone is the most ideal situation for an individual in terms of security. It applies to computers as well. A computer with no link to an external device or computer is free from the security threats arising otherwise. However, it is not an ideal solution for a human being or a computer to stay aloof in order to mitigate any security threats, as the world at present is on its way to become fully connected. This connectedness of various devices and computers has brought into our focus the various network threats and its prevention. Network security is concerned with protection of our device as well as data from illegitimate access or misuse. Threats include all the ways in which one can exploit any vulnerability or weakness in a network or communication system in order to cause harm or damage one’s reputation. Security Aspects 12 Reprint 2026-27 Computer Science - Class XII 224 12.2 Malware Malware is a short term used for MALicious softWARE. It is any software developed with an intention to damage hardware devices, steal data, or cause any other trouble to the user. Various types of malware have been created from time-to-time, and large-scale damages have been inflicted. Many of these malware programs have been identified and counter measures have been initiated. However, different types of malware keep on coming on a regular basis that compromise the security of computer systems and cause intangible damages. Besides, each year, malwar

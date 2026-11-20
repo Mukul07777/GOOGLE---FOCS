@@ -1,0 +1,53 @@
+NUMBERED
+9.1 Introduction
+9.2 Structured Query Language (SQL)
+9.2.1 Installing MySQL
+9.3 Data Types and Constraints in MySQL
+9.3.1 Data type of Attribute
+9.3.2 Constraints
+9.4 SQL for Data Definition
+9.4.1 CREATE Database
+9.4.5 DROP Statement
+9.5 SQL for Data Manipulation
+9.5.1 INSERTION of Records
+9.6 SQL for Data Query
+9.6.1 SELECT Statement
+9.6.2 QUERYING using Database OFFICE
+9.7 Data Updation and Deletion
+9.7.1 Data Updation
+9.7.2 Data Deletion
+9.8 Functions in SQL
+9.8.1 Single Row Functions
+9.8.2 Aggregate Functions
+9.9 GROUP BY Clause in SQL
+9.10 Operations on Relations
+9.10.1 UNION (∪)
+9.10.2 INTERSECT (∩)
+9.10.3 MINUS (-)
+9.10.4 Cartesian Product (X)
+9.11 Using Two Relations in a Query
+9.11.1 Cartesian product on two tables
+9.11.2 JOIN on two tables
+BIG
+In this Chapter
+“Any unique image that you desire probably already exists on the internet or
+in some database.. The problem today is no longer how to create the right image, but how to
+find an already existing one. ”
+— Lev Manovich
+9.1 Introduction
+9.2 Structured Query Language (SQL)
+Structured Query 9 Language (SQL)
+9.3 Data Types and Constraints in MySQL
+9.4 SQL for Data Definition
+Notes
+9.5 SQL for Data Manipulation
+9.6 SQL for Data Query
+9.7 Data Updation and Deletion
+9.8 Functions in SQL
+9.9 GROUP BY Clause in SQL
+9.10 Operations on Relations
+9.11 Using Two Relations in a Query
+Summary
+Exercise
+SAMPLE
+In this Chapter »» Introduction »» Structured Query Language (SQL) »» Data Types and Constraints in MySQL »» SQL for Data Definition »» SQL for Data Manipulation »» SQL for Data Query »» Data Updation and Deletion »» Functions in SQL »» GROUP BY Clause in SQL »» Operations on Relations »» Using Two Relations in a Query C h a p t e r “Any unique image that you desire probably already exists on the internet or in some database... The problem today is no longer how to create the right image, but how to find an already existing one. ” — Lev Manovich 9.1 Introduction We have learnt about Relational Database Management Systems (RDBMS) and its purpose in the previous chapter. There are many RDBMS such as MySQL, Microsoft SQL Server, PostgreSQL, Oracle, etc. that allow us to create a database consisting of relations. These RDBMS also allow us to store, retrieve and manipulate data on that database through queries. In this chapter, we will learn how to create, populate and query databases using MySQL. 9.2 Structured Query Language (SQL) One has to write application programs to access data in case of a file system. However, for database management systems there are special kinds of languages called query language that can be used to access and manipulate data from the database. The Structured Query Language (SQL) is the most popular query language used by major relational 9 Structured Query Language (SQL) Reprint 2026-27 Computer Science - Class XII 132 database management systems such as MySQL, ORACLE, SQL Server, etc. SQL is easy to learn as the statements comprise of descriptive English words and are not case sensitive. We can create and interact with a database using SQL easily. Benefit of using SQL is that we do not have to specify how to get the data from the database. Rath

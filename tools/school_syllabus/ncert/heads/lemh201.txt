@@ -1,0 +1,49 @@
+NUMBERED
+7.1 Introduction
+7.2 Integration as an Inverse Process of Differentiation
+7.3 Methods of Integration
+7.4 Integrals of Some Particular Functions
+7.5 Integration by Partial Fractions
+7.6 Integration by Parts
+7.7 Definite Integral
+7.8 Fundamental Theorem of Calculus
+7.9 Evaluation of Definite Integrals by Substitution
+7.10 Some Properties of Definite Integrals
+BIG
+Chapter 7
+INTEGRALS
+ANote In practice, we normally do not mention the interval over which the various
+dx ∫
+So the families of curves {
+A Note The equivalence of the families {
+(iii) ∫
+ANote From now onwards, we shall write only one constant of integration in the
+(i) ∫tan
+(ii) ∫cot
+(iii) ∫sec
+(iv) ∫cosec
+(1) ∫
+(2) ∫
+(3) ∫
+(4) ∫
+(5) ∫
+(6) ∫
+ANote The technique used in (1) will be explained in Section 7.5.
+I = ∫
+(ii) ∫
+A (x) = ∫
+an anti derivative of f. Then ∫
+ANote In order to quicken this method, we can proceed as follows: After
+® Integration is the inverse process of differentiation. In the differential calculus,
+® Some properties of indefinite integrals are as follows:
+® Some standard integrals
+® Integration by partial fractions
+® Integration by substitution
+® Integrals of some special functions
+® Integration by parts
+® Some special types of integrals
+® We have defined
+® First fundamental theorem of integral calculus
+® Second fundamental theorem of integral calculus
+SAMPLE
+INTEGRALS 225 v Just as a mountaineer climbs a mountain – because it is there, so a good mathematics student studies new material because it is there. — JAMES B. BRISTOL v 7.1 Introduction Differential Calculus is centred on the concept of the derivative. The original motivation for the derivative was the problem of defining tangent lines to the graphs of functions and calculating the slope of such lines. Integral Calculus is motivated by the problem of defining and calculating the area of the region bounded by the graph of the functions. If a function f is differentiable in an interval I, i.e., its derivative f ′exists at each point of I, then a natural question arises that given f ′at each point of I, can we determine the function? The functions that could possibly have given function as a derivative are called anti derivatives (or primitive) of the function. Further, the formula that gives all these anti derivatives is called the indefinite integral of the function and such process of finding anti derivatives is called integration. Such type of problems arise in many practical situations. For instance, if we know the instantaneous velocity of an object at any instant, then there arises a natural question, i.e., can we determine the position of the object at any instant? There are several such practical and theoretical situations where the process of integration is involved. The development of integral calculus arises out of the efforts of solving the problems of the following types: (a) the problem of finding a function whenever its derivative is given, (b) the problem of finding the area bounded by the graph of a function under certain conditions. These two problems lead to the two forms of the integrals, e.g., indefinite and definite integrals, which together const

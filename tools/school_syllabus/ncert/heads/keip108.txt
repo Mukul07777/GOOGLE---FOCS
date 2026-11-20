@@ -1,0 +1,37 @@
+NUMBERED
+8.1 Introduction
+8.2 Structured Query Language (SQL)
+8.2.1 Installing MySQL
+8.3 Data Types and Constraints in MySQL
+8.3.1 Data type of Attribute
+8.3.2 Constraints
+8.4 SQL for Data Definition
+8.4.1 CREATE Database
+8.4.5 DROP Statement
+8.5 SQL for Data Manipulation
+8.5.1 INSERTION of Records
+8.6 SQL for Data Query
+8.6.1 SELECT Statement
+8.6.2 QUERYING using Database OFFICE
+8.7 Data Updation and Deletion
+8.7.1 Data Updation
+8.7.2 Data Deletion
+BIG
+8.1 Introduction
+Introduction to Structured Query
+Language (SQL)
+“The most important motivation for the research work that resulted in the relational model was the objective of providing a sharp
+and clear boundary between the logical and
+physical aspects of database management.”
+– E. F. Codd
+8.2 Structured Query Language (SQL)
+8.3 Data Types and Constraints in MySQL
+8.4 SQL for Data Definition
+Notes
+8.5 SQL for Data Manipulation
+8.6 SQL for Data Query
+8.7 Data Updation and Deletion
+Summary
+Exercise
+SAMPLE
+8.1 Introduction We have learnt about Relational Database Management System (RDBMS) and purpose in the previous chapter. There are many RDBMS such as MySQL, Microsoft SQL Server, PostgreSQL, Oracle, etc. that allow us to create a database consisting of relations and to link one or more relations for efficient querying to store, retrieve and manipulate data on that database. In this chapter, we will learn how to create, populate and query database using MySQL. In this chapter »» Introduction »» Structured Query Language (SQL) »» Data Types and Constraints in MySQL »» SQL for Data Definition »» SQL for Data Manipulation »» SQL for Data Query »» Data Updation and Deletion Introduction to Structured Query Language (SQL) Chapter 8 “The most important motivation for the research work that resulted in the relational model was the objective of providing a sharp and clear boundary between the logical and physical aspects of database management.” – E. F. Codd Reprint 2026-27 144 Informatics Practices – Class XI 8.2 Structured Query Language (SQL) One has to write application programs to access data in case of a file system. However, for database management systems there are special kind of programming languages called query language that can be used to access data from the database. The Structured Query Language (SQL) is the most popular query language used by major relational database management systems such as MySQL, ORACLE, SQL Server, etc. SQL is easy to learn as the statements comprise of descriptive English words and are not case sensitive. We can create and interact with a database using SQL in an efficient and easy way. The benefit with SQL is that we don’t have to specify how to get the data from the database. Rather, we simply specify what is to be retrieved, and SQL do

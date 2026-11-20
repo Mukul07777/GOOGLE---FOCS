@@ -1,0 +1,26 @@
+{
+  "name": "room-teacher",
+  "seconds": 28.22,
+  "frames": 549,
+  "fps": 19.5,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "lost1",
+      "t": 4.46
+    },
+    {
+      "label": "map",
+      "t": 10.65
+    },
+    {
+      "label": "reexplain",
+      "t": 17.32
+    },
+    {
+      "label": "end",
+      "t": 27.81
+    }
+  ]
+}

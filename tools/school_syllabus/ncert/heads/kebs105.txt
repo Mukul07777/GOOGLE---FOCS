@@ -1,0 +1,22 @@
+NUMBERED
+5.1 Introduction
+5.2 e-Business
+5.2.1 Scope of e-Business
+5.3 Benefits of e-Business
+5.4 Limitations of e-Business
+5.5 Online Transactions
+5.6 Security and Safety of e-Transactions: e-Business Risks
+5.7 Resources Required for Successful e-business Implementation
+BIG
+Chapter 5
+Emerging Modes of Business
+• state the meaning of e-business;
+• explain the process of online buying and selling as a part of
+• distinguish e-business from traditional business;
+• state benefits of switching over to electronic mode;
+• explain requirements for a firm’s initiation into e-business;
+• identify major security concerns of electronic mode of doing business;
+• discuss the need for business process outsourcing; and
+• appreciate the scope of business process outsourcing.
+SAMPLE
+Chapter 5 Emerging Modes of Business LEARNING OBJECTIVES After studying this chapter, you should be able to: • state the meaning of e-business; • explain the process of online buying and selling as a part of e-business; • distinguish e-business from traditional business; • state benefits of switching over to electronic mode; • explain requirements for a firm’s initiation into e-business; • identify major security concerns of electronic mode of doing business; • discuss the need for business process outsourcing; and • appreciate the scope of business process outsourcing. Reprint 2026-27 114 BUSINESS STUDIES 5.1 Introduction The way business is done has undergone fundamental changes during the last decade or so. The manner of conducting business is referred to as the ‘mode of business,’ and, the prefix ‘emerging’ underlines the fact, that these changes are happening here and now, and, that these trends are likely to continue. In fact, if one were to list the three strongest trends that are shaping business, these would be: (i) digitisation — the conversion of text, sound, images, video, and other content into a series of ones and zeroes that can be transmitted electronically, (ii) outsourcing, and, (iii) inter- nationalisation and globalisation. You will read about international business in Chapter 11. In this chapter, we will be familiarising you with the first two developments, i.e., digitisation (a term from electronics) of business — also referred to as electronic business (e-business), and Business Process Outsourcing (BPO). Before we do so, a brief discussion about the factors responsible for these two new modes of business would be in order. The newer modes of business are not new business. These are rather simply the new ways of doing business attributable to a nu

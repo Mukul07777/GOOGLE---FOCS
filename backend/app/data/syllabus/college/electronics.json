@@ -1,0 +1,150 @@
+{
+  "area": "Electronics and communication",
+  "courses": [
+    {"name": "Network Analysis and Synthesis", "about": "Circuit theory: theorems, transients and two-port networks", "chapters": [
+      {"name": "Circuit Analysis Techniques", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Kirchhoff's laws, mesh and nodal analysis", "Source transformation and dependent sources", "Superposition, Thevenin and Norton theorems", "Maximum power transfer and reciprocity theorems", "Graph theory: tree, cut-set and tie-set matrices"]},
+      {"name": "Transient Analysis", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Initial conditions in circuits", "First-order RL and RC transients", "Second-order RLC transients", "Step, impulse and ramp responses", "Circuit analysis with Laplace transforms"]},
+      {"name": "Sinusoidal Steady State and Resonance", "hours": 6, "weight": 2, "topics": ["Phasor analysis of AC networks", "Series and parallel resonance", "Quality factor and bandwidth", "Coupled circuits and the dot convention"]},
+      {"name": "Network Functions", "hours": 5, "weight": 1.5, "topics": ["Driving-point and transfer functions", "Poles and zeros", "Time response from pole-zero plots", "Stability of networks"]},
+      {"name": "Two-Port Networks", "hours": 7, "weight": 2.5, "topics": ["Z and Y parameters", "h and ABCD parameters", "Relations between parameter sets", "Interconnection of two-port networks", "T and pi networks"]},
+      {"name": "Network Synthesis and Filters", "hours": 7, "weight": 1.5, "topics": ["Positive real functions and Hurwitz polynomials", "Foster forms of LC networks", "Cauer forms of LC networks", "Synthesis of RC and RL networks", "Passive filters: low-pass, high-pass and band-pass"]}
+    ]},
+    {"name": "Electronic Devices and Circuits", "about": "Semiconductor physics, diodes and transistor amplifiers", "chapters": [
+      {"name": "Semiconductor Physics", "hours": 7, "weight": 2, "foundation": true, "topics": ["Energy bands and carrier concentration", "Drift and diffusion currents", "Fermi level in intrinsic and extrinsic semiconductors", "Generation, recombination and continuity equation", "Hall effect"]},
+      {"name": "PN Junction and Diode Circuits", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["PN junction: depletion region and built-in potential", "Diode current equation and capacitances", "Rectifiers and filters", "Clippers, clampers and voltage multipliers", "Zener, LED, photodiode and varactor diodes"]},
+      {"name": "BJT Characteristics and Biasing", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["BJT operation and current components", "Input and output characteristics", "Load line and operating point", "Fixed, collector-feedback and voltage-divider bias", "Bias stability and thermal runaway"]},
+      {"name": "BJT Small-Signal Amplifiers", "hours": 7, "weight": 2.5, "topics": ["Hybrid and r-e small-signal models", "CE amplifier analysis", "CB and CC amplifiers", "Low- and high-frequency response", "Multistage amplifiers"]},
+      {"name": "Field Effect Transistors", "hours": 7, "weight": 2, "topics": ["JFET characteristics and parameters", "MOSFET structure and I-V characteristics", "FET biasing", "FET small-signal model and amplifiers", "MOS capacitor and threshold voltage"]},
+      {"name": "Power Devices and Regulators", "hours": 5, "weight": 1, "topics": ["Power amplifier classes A, B, AB and C", "SCR, DIAC and TRIAC", "Series and shunt voltage regulators", "Switching regulators overview"]}
+    ]},
+    {"name": "Analog Circuits", "about": "Amplifiers, feedback, oscillators and op-amp circuits", "chapters": [
+      {"name": "Differential and Multistage Amplifiers", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Differential amplifier and CMRR", "Current mirrors and active loads", "Cascode and Darlington connections", "Frequency response and Miller effect", "Gain-bandwidth product"]},
+      {"name": "Feedback Amplifiers", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Feedback concept and its advantages", "Voltage-series and voltage-shunt feedback", "Current-series and current-shunt feedback", "Effect of feedback on impedance and bandwidth", "Stability, gain margin and phase margin"]},
+      {"name": "Oscillators", "hours": 6, "weight": 2, "topics": ["Barkhausen criterion", "RC phase-shift and Wien bridge oscillators", "Hartley and Colpitts oscillators", "Crystal oscillators", "Frequency stability"]},
+      {"name": "Operational Amplifier Circuits", "hours": 7, "weight": 2.5, "topics": ["Op-amp characteristics and non-idealities", "Inverting, non-inverting and instrumentation amplifiers", "Integrators and differentiators", "Active filters", "Comparators and the Schmitt trigger"]},
+      {"name": "Waveform Generators and Timers", "hours": 6, "weight": 1.5, "topics": ["Astable, monostable and bistable multivibrators", "555 timer and its applications", "Triangular and sawtooth generators", "Phase-locked loop"]},
+      {"name": "Power Amplifiers and Data Converters", "hours": 6, "weight": 1.5, "topics": ["Class A and class B power amplifiers", "Crossover distortion and class AB", "Efficiency and heat sinks", "Digital-to-analog converters", "Analog-to-digital converters"]}
+    ]},
+    {"name": "Linear Integrated Circuits", "about": "Op-amp based design and special-purpose ICs", "chapters": [
+      {"name": "Op-Amp Fundamentals", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Internal stages of an op-amp", "Ideal and practical op-amp parameters", "Offset voltage, bias current and drift", "Slew rate and frequency compensation", "Open-loop and closed-loop configurations"]},
+      {"name": "Linear Applications", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Summing and difference amplifiers", "Instrumentation amplifier", "Voltage-to-current and current-to-voltage converters", "Integrator and differentiator circuits", "Precision rectifiers"]},
+      {"name": "Active Filters", "hours": 6, "weight": 2, "topics": ["First- and second-order low-pass filters", "High-pass and band-pass filters", "Notch and all-pass filters", "Butterworth and Chebyshev responses"]},
+      {"name": "Nonlinear Applications", "hours": 6, "weight": 2, "topics": ["Comparators and zero-crossing detectors", "Schmitt trigger", "Log and antilog amplifiers", "Sample-and-hold circuits", "Waveform generators"]},
+      {"name": "Timers, PLL and Regulators", "hours": 7, "weight": 2, "topics": ["555 timer: astable and monostable operation", "Phase-locked loop and its applications", "Voltage-controlled oscillator", "Three-terminal voltage regulators", "Switching regulators"]},
+      {"name": "Data Converters", "hours": 5, "weight": 1.5, "topics": ["Weighted-resistor and R-2R ladder DAC", "Flash and successive-approximation ADC", "Dual-slope and sigma-delta ADC", "Converter specifications"]}
+    ]},
+    {"name": "Signals and Systems", "about": "Continuous- and discrete-time signals, systems and transforms", "chapters": [
+      {"name": "Signals and Their Properties", "hours": 6, "weight": 2, "foundation": true, "topics": ["Classification of signals", "Elementary signals: step, impulse, ramp and exponential", "Operations on signals", "Energy and power signals", "Even and odd decomposition"]},
+      {"name": "Linear Time-Invariant Systems", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["System properties: linearity, causality and stability", "Impulse response", "Convolution integral", "Convolution sum", "Systems described by differential and difference equations"]},
+      {"name": "Fourier Series", "hours": 6, "weight": 2, "topics": ["Trigonometric and exponential Fourier series", "Properties of Fourier series", "Spectrum of periodic signals", "Parseval's theorem"]},
+      {"name": "Fourier Transform", "hours": 8, "weight": 2.5, "topics": ["Continuous-time Fourier transform", "Properties of the Fourier transform", "Frequency response of LTI systems", "Discrete-time Fourier transform", "Energy spectral density"]},
+      {"name": "Laplace Transform", "hours": 7, "weight": 2, "topics": ["Laplace transform and region of convergence", "Properties and inverse transform", "Transfer function, poles and zeros", "Stability and causality from the ROC"]},
+      {"name": "Sampling and Z-Transform", "hours": 8, "weight": 2.5, "topics": ["Sampling theorem and aliasing", "Reconstruction of signals", "Z-transform and its ROC", "Properties and inverse Z-transform", "Analysis of discrete-time systems"]}
+    ]},
+    {"name": "Electromagnetic Field Theory", "about": "Static fields, Maxwell's equations, waves and transmission lines", "chapters": [
+      {"name": "Vector Analysis", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Coordinate systems: Cartesian, cylindrical and spherical", "Gradient, divergence and curl", "Divergence and Stokes' theorems", "Line, surface and volume integrals"]},
+      {"name": "Electrostatics", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Coulomb's law and electric field intensity", "Gauss's law and its applications", "Electric potential", "Conductors, dielectrics and boundary conditions", "Capacitance and energy", "Poisson's and Laplace's equations"]},
+      {"name": "Magnetostatics", "hours": 7, "weight": 2, "topics": ["Biot-Savart law", "Ampere's circuital law", "Magnetic flux density and vector potential", "Magnetic boundary conditions", "Inductance and magnetic energy"]},
+      {"name": "Time-Varying Fields and Maxwell's Equations", "hours": 6, "weight": 2.5, "topics": ["Faraday's law", "Displacement current", "Maxwell's equations in integral and point form", "Poynting theorem"]},
+      {"name": "Electromagnetic Waves", "hours": 8, "weight": 2.5, "topics": ["Wave equation and uniform plane waves", "Waves in lossless and lossy media", "Skin depth", "Polarisation of waves", "Reflection and refraction at interfaces"]},
+      {"name": "Transmission Lines and Waveguides", "hours": 8, "weight": 2, "topics": ["Transmission line equations and parameters", "Characteristic impedance and reflection coefficient", "Standing waves and VSWR", "Smith chart and impedance matching", "Rectangular waveguide modes"]}
+    ]},
+    {"name": "Communication Systems", "about": "Analog modulation, noise and the basics of digital transmission", "chapters": [
+      {"name": "Signals, Spectra and Noise", "hours": 6, "weight": 2, "foundation": true, "topics": ["Elements of a communication system", "Fourier analysis of signals", "Random processes and power spectral density", "Thermal noise, noise figure and noise temperature"]},
+      {"name": "Amplitude Modulation", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["AM: time and frequency domain description", "Power and modulation index", "DSB-SC modulation and demodulation", "SSB and VSB", "AM modulators and envelope detection", "Superheterodyne receiver"]},
+      {"name": "Angle Modulation", "hours": 7, "weight": 2.5, "topics": ["Frequency and phase modulation", "Narrowband and wideband FM, Carson's rule", "FM generation: direct and indirect methods", "FM demodulation and PLL", "Pre-emphasis and de-emphasis"]},
+      {"name": "Noise in Analog Systems", "hours": 5, "weight": 1.5, "topics": ["Signal-to-noise ratio in AM systems", "Noise in FM and the threshold effect", "Figure of merit comparisons"]},
+      {"name": "Pulse Modulation", "hours": 7, "weight": 2, "topics": ["Sampling and pulse amplitude modulation", "PWM and PPM", "Pulse code modulation and quantisation noise", "Delta modulation and DPCM", "Time-division multiplexing"]},
+      {"name": "Introduction to Digital Transmission", "hours": 5, "weight": 1.5, "topics": ["Line codes", "ASK, FSK and PSK basics", "Bit error rate concept", "Frequency-division multiplexing"]}
+    ]},
+    {"name": "Digital Communication", "about": "Digital modulation, detection, information theory and coding", "chapters": [
+      {"name": "Waveform Coding", "hours": 6, "weight": 2, "foundation": true, "topics": ["Sampling and quantisation", "PCM, companding and SQNR", "DPCM and delta modulation", "Line coding and power spectra"]},
+      {"name": "Baseband Transmission", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Intersymbol interference", "Nyquist criterion and raised-cosine pulses", "Eye diagram", "Matched filter", "Equalisation"]},
+      {"name": "Digital Modulation Techniques", "hours": 9, "weight": 2.5, "topics": ["Signal space and constellation diagrams", "BPSK and QPSK", "BFSK and MSK", "M-ary PSK and QAM", "Coherent and non-coherent detection", "Bandwidth and power efficiency"]},
+      {"name": "Error Probability", "hours": 6, "weight": 2, "topics": ["Optimum receiver in AWGN", "Bit error rate of BPSK and QPSK", "Error probability of FSK and QAM", "Comparison of modulation schemes"]},
+      {"name": "Information Theory", "hours": 6, "weight": 2, "topics": ["Entropy and mutual information", "Source coding theorem and Huffman coding", "Channel capacity and Shannon's theorem", "Shannon-Hartley law"]},
+      {"name": "Error Control Coding", "hours": 7, "weight": 2, "topics": ["Linear block codes", "Hamming codes", "Cyclic codes", "Convolutional codes and the Viterbi algorithm", "Spread spectrum: DSSS and FHSS"]}
+    ]},
+    {"name": "Control Systems", "about": "Modelling, stability and design of feedback systems", "chapters": [
+      {"name": "System Modelling", "hours": 7, "weight": 2, "foundation": true, "topics": ["Open-loop and closed-loop systems", "Transfer functions of electrical and mechanical systems", "Block diagram reduction", "Signal flow graphs and Mason's gain formula", "Effects of feedback"]},
+      {"name": "Time Response Analysis", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Standard test signals", "First-order system response", "Second-order system response and specifications", "Steady-state error and error constants", "Effect of adding poles and zeros"]},
+      {"name": "Stability and Root Locus", "hours": 8, "weight": 2.5, "topics": ["Concept of stability", "Routh-Hurwitz criterion", "Root locus construction rules", "Root locus analysis and gain selection"]},
+      {"name": "Frequency Response Analysis", "hours": 8, "weight": 2.5, "topics": ["Frequency-domain specifications", "Bode plots", "Gain margin and phase margin", "Polar plots and the Nyquist criterion", "Nichols chart"]},
+      {"name": "Compensators and Controllers", "hours": 6, "weight": 2, "topics": ["P, PI, PD and PID controllers", "Lead compensator", "Lag and lag-lead compensators", "Controller tuning"]},
+      {"name": "State-Space Analysis", "hours": 7, "weight": 2, "topics": ["State variables and state equations", "State transition matrix", "Transfer function from state model", "Controllability and observability", "Pole placement"]}
+    ]},
+    {"name": "Digital Signal Processing", "about": "Discrete-time signals, transforms and digital filters", "chapters": [
+      {"name": "Discrete-Time Signals and Systems", "hours": 6, "weight": 2, "foundation": true, "topics": ["Discrete-time signals and sequences", "LTI systems and convolution", "Difference equations", "Frequency response and the DTFT", "Z-transform review"]},
+      {"name": "Discrete Fourier Transform", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["DFT and its properties", "Circular convolution", "Fast Fourier transform: radix-2 algorithms", "Spectral analysis using the DFT", "Windowing and spectral leakage"]},
+      {"name": "IIR Filter Design", "hours": 8, "weight": 2.5, "topics": ["Analog Butterworth and Chebyshev prototypes", "Impulse invariance method", "Bilinear transformation", "Frequency transformations"]},
+      {"name": "FIR Filter Design", "hours": 7, "weight": 2.5, "topics": ["Linear-phase FIR filters", "Window method of design", "Frequency sampling method", "Comparison of FIR and IIR filters"]},
+      {"name": "Filter Structures and Finite Word Length", "hours": 6, "weight": 1.5, "topics": ["Direct form I and II structures", "Cascade and parallel structures", "Quantisation and round-off errors", "Limit cycle oscillations"]},
+      {"name": "Multirate Processing and DSP Processors", "hours": 5, "weight": 1.5, "topics": ["Decimation and interpolation", "Sampling rate conversion", "DSP processor architecture", "Applications of DSP"]}
+    ]},
+    {"name": "VLSI Design", "about": "CMOS devices, logic design and layout", "chapters": [
+      {"name": "MOS Transistor Theory", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["MOSFET structure and threshold voltage", "I-V characteristics and regions of operation", "Second-order effects: channel-length modulation and body effect", "MOS capacitances", "Scaling and short-channel effects"]},
+      {"name": "CMOS Fabrication and Layout", "hours": 6, "weight": 2, "topics": ["CMOS process flow", "Design rules and stick diagrams", "Layout of basic gates", "Latch-up and its prevention"]},
+      {"name": "CMOS Inverter", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Voltage transfer characteristic", "Noise margins", "Propagation delay", "Static and dynamic power dissipation", "Inverter sizing"]},
+      {"name": "Combinational CMOS Logic", "hours": 7, "weight": 2.5, "topics": ["Static CMOS gates", "Pass-transistor and transmission-gate logic", "Dynamic and domino logic", "Logical effort and gate sizing"]},
+      {"name": "Sequential Circuits and Memories", "hours": 7, "weight": 2, "topics": ["Latches and flip-flops in CMOS", "Timing: setup, hold and clock skew", "SRAM and DRAM cells", "ROM and flash memory"]},
+      {"name": "Design Flow and Testing", "hours": 6, "weight": 1.5, "topics": ["ASIC and FPGA design flows", "Hardware description languages", "Interconnect delay models", "Fault models and design for testability"]}
+    ]},
+    {"name": "Digital System Design", "about": "Designing digital systems with hardware description languages", "chapters": [
+      {"name": "HDL Fundamentals", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Design methodologies and abstraction levels", "Verilog/VHDL modules and data types", "Gate-level, dataflow and behavioural modelling", "Test benches and simulation"]},
+      {"name": "Combinational Design with HDL", "hours": 6, "weight": 2, "foundation": true, "topics": ["Adders and subtractors in HDL", "Multiplexers, decoders and encoders", "Arithmetic logic unit design", "Timing and delays"]},
+      {"name": "Sequential Design with HDL", "hours": 7, "weight": 2.5, "topics": ["Flip-flops, registers and counters in HDL", "Blocking and non-blocking assignments", "Finite state machine coding styles", "Synchronous and asynchronous resets"]},
+      {"name": "Algorithmic State Machines", "hours": 6, "weight": 2, "topics": ["ASM charts", "Datapath and controller design", "Sequential multipliers and dividers", "Register transfer level design"]},
+      {"name": "Programmable Logic and Synthesis", "hours": 7, "weight": 2, "topics": ["PLA, PAL and CPLD", "FPGA architecture", "Logic synthesis and optimisation", "Static timing analysis", "Asynchronous sequential circuits and hazards"]}
+    ]},
+    {"name": "Embedded Systems", "about": "Microcontroller-based system design", "chapters": [
+      {"name": "Embedded System Fundamentals", "hours": 5, "weight": 2, "foundation": true, "topics": ["Characteristics of embedded systems", "Processors, memory and peripherals", "Design process and constraints", "Hardware-software co-design"]},
+      {"name": "ARM Architecture and Programming", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["ARM processor modes and registers", "ARM and Thumb instruction sets", "Assembly and embedded C programming", "Exceptions and interrupt handling", "Cortex-M microcontrollers"]},
+      {"name": "Peripherals and Interfacing", "hours": 8, "weight": 2.5, "topics": ["GPIO, timers and PWM", "ADC and DAC interfacing", "UART serial communication", "SPI and I2C protocols", "CAN and USB overview", "Sensor and actuator interfacing"]},
+      {"name": "Real-Time Operating Systems", "hours": 7, "weight": 2, "topics": ["Real-time systems and task models", "RTOS scheduling: rate monotonic and EDF", "Semaphores, mutexes and priority inversion", "Inter-task communication", "Memory management in RTOS"]},
+      {"name": "Embedded System Design and Testing", "hours": 6, "weight": 1.5, "topics": ["Low-power design techniques", "Debugging tools and techniques", "FPGA-based embedded design", "Case studies of embedded systems"]}
+    ]},
+    {"name": "Microwave Engineering", "about": "Waveguides, microwave devices and measurements", "chapters": [
+      {"name": "Waveguides and Resonators", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Rectangular waveguides: TE and TM modes", "Cut-off frequency and guide wavelength", "Circular waveguides", "Cavity resonators and quality factor", "Microstrip lines"]},
+      {"name": "Scattering Parameters and Components", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["S-parameters and their properties", "E-plane, H-plane and magic tees", "Directional couplers", "Isolators and circulators", "Attenuators and phase shifters"]},
+      {"name": "Microwave Tubes", "hours": 7, "weight": 2, "topics": ["Limitations of conventional tubes", "Two-cavity klystron", "Reflex klystron", "Travelling-wave tube", "Magnetron"]},
+      {"name": "Solid-State Microwave Devices", "hours": 6, "weight": 2, "topics": ["Gunn diode", "IMPATT and TRAPATT diodes", "PIN and tunnel diodes", "Microwave transistors and MESFETs"]},
+      {"name": "Microwave Measurements and Systems", "hours": 6, "weight": 1.5, "topics": ["Measurement of power and frequency", "VSWR and impedance measurement", "Radar range equation", "Microwave link design"]}
+    ]},
+    {"name": "Antennas and Wave Propagation", "about": "Radiation, antenna types and propagation of radio waves", "chapters": [
+      {"name": "Antenna Fundamentals", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Radiation mechanism and retarded potentials", "Radiation pattern, beamwidth and directivity", "Gain, efficiency and effective aperture", "Polarisation and antenna impedance", "Friis transmission equation"]},
+      {"name": "Wire Antennas", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Hertzian dipole", "Half-wave dipole", "Monopole and loop antennas", "Folded dipole and Yagi-Uda antenna"]},
+      {"name": "Antenna Arrays", "hours": 7, "weight": 2.5, "topics": ["Two-element arrays", "Uniform linear arrays", "Broadside and end-fire arrays", "Pattern multiplication", "Binomial and Chebyshev arrays"]},
+      {"name": "Aperture and Special Antennas", "hours": 6, "weight": 2, "topics": ["Horn antennas", "Parabolic reflector antennas", "Microstrip patch antennas", "Helical and log-periodic antennas"]},
+      {"name": "Wave Propagation", "hours": 6, "weight": 2, "topics": ["Ground wave propagation", "Sky wave propagation and the ionosphere", "Critical frequency, MUF and skip distance", "Space wave propagation and line of sight", "Tropospheric and duct propagation"]}
+    ]},
+    {"name": "Optical Communication", "about": "Optical fibres, sources, detectors and links", "chapters": [
+      {"name": "Optical Fibres", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Ray theory, acceptance angle and numerical aperture", "Step-index and graded-index fibres", "Modes in optical fibres", "Single-mode fibres and cut-off wavelength"]},
+      {"name": "Transmission Characteristics", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Attenuation mechanisms", "Material and waveguide dispersion", "Intermodal dispersion", "Nonlinear effects in fibres"]},
+      {"name": "Optical Sources", "hours": 6, "weight": 2, "topics": ["Light-emitting diodes", "Laser diodes: principle and characteristics", "Modulation of optical sources", "Source-to-fibre coupling"]},
+      {"name": "Optical Detectors and Receivers", "hours": 6, "weight": 2, "topics": ["PIN photodiode", "Avalanche photodiode", "Receiver noise and sensitivity", "Bit error rate and quantum limit"]},
+      {"name": "Optical Links and Networks", "hours": 7, "weight": 2, "topics": ["Power budget and rise-time budget", "Optical amplifiers (EDFA)", "Wavelength-division multiplexing", "Splices, connectors and couplers", "SONET/SDH and optical networks"]}
+    ]},
+    {"name": "Wireless Communication", "about": "Cellular systems, fading channels and modern wireless standards", "chapters": [
+      {"name": "Cellular Concept", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Frequency reuse and cell planning", "Co-channel and adjacent-channel interference", "Handoff strategies", "Trunking and grade of service", "Improving capacity: cell splitting and sectoring"]},
+      {"name": "Mobile Radio Propagation", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Free-space and two-ray path loss models", "Log-normal shadowing and empirical models", "Multipath and small-scale fading", "Delay spread and coherence bandwidth", "Doppler spread and coherence time", "Rayleigh and Rician fading"]},
+      {"name": "Modulation and Diversity", "hours": 7, "weight": 2, "topics": ["Modulation for mobile radio: GMSK and QAM", "Diversity techniques", "Equalisation", "RAKE receiver", "Channel coding for wireless"]},
+      {"name": "Multiple Access and OFDM", "hours": 7, "weight": 2, "topics": ["FDMA, TDMA and CDMA", "Spread spectrum", "OFDM and OFDMA", "MIMO and spatial multiplexing"]},
+      {"name": "Wireless Standards", "hours": 6, "weight": 1.5, "topics": ["GSM architecture and channels", "3G and LTE overview", "5G new radio overview", "Wi-Fi and Bluetooth"]}
+    ]},
+    {"name": "Electrical and Electronic Measurements", "about": "Instruments, bridges, transducers and measurement systems", "chapters": [
+      {"name": "Measurement Fundamentals", "hours": 5, "weight": 2, "foundation": true, "topics": ["Static and dynamic characteristics of instruments", "Errors in measurement and their analysis", "Standards and calibration", "Statistical treatment of data"]},
+      {"name": "Analog Instruments", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["PMMC and moving-iron instruments", "Electrodynamometer instruments", "Extension of range: shunts and multipliers", "Wattmeters and energy meters", "Instrument transformers"]},
+      {"name": "Bridges", "hours": 6, "weight": 2.5, "topics": ["Wheatstone and Kelvin bridges", "Maxwell and Hay bridges for inductance", "Schering bridge for capacitance", "Wien bridge for frequency", "Measurement of high resistance"]},
+      {"name": "Electronic Instruments", "hours": 6, "weight": 2, "topics": ["Digital voltmeters and multimeters", "Cathode ray and digital storage oscilloscopes", "Signal generators and spectrum analysers", "Frequency and time measurement"]},
+      {"name": "Transducers", "hours": 7, "weight": 2, "topics": ["Classification of transducers", "Strain gauges and load cells", "LVDT and capacitive transducers", "Temperature transducers: RTD, thermistor and thermocouple", "Piezoelectric and Hall-effect transducers"]},
+      {"name": "Data Acquisition", "hours": 5, "weight": 1, "topics": ["Signal conditioning", "Data acquisition systems", "Telemetry", "Virtual instrumentation"]}
+    ]},
+    {"name": "Information Theory and Coding", "about": "Limits of compression and reliable communication", "chapters": [
+      {"name": "Information Measures", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Self-information and entropy", "Joint and conditional entropy", "Mutual information", "Discrete memoryless sources"]},
+      {"name": "Source Coding", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Kraft inequality and prefix codes", "Shannon's source coding theorem", "Huffman coding", "Shannon-Fano and arithmetic coding", "Lempel-Ziv coding"]},
+      {"name": "Channel Capacity", "hours": 6, "weight": 2, "topics": ["Discrete memoryless channels", "Capacity of binary symmetric and erasure channels", "Channel coding theorem", "Gaussian channel and the Shannon limit"]},
+      {"name": "Linear Block and Cyclic Codes", "hours": 8, "weight": 2.5, "topics": ["Generator and parity-check matrices", "Syndrome decoding", "Hamming codes", "Cyclic codes and polynomial representation", "BCH and Reed-Solomon codes"]},
+      {"name": "Convolutional and Modern Codes", "hours": 6, "weight": 1.5, "topics": ["Convolutional encoders and trellis diagrams", "Viterbi decoding", "Turbo codes", "LDPC codes"]}
+    ]}
+  ]
+}

@@ -1,0 +1,30 @@
+NUMBERED
+1.1 Introduction
+1.2 Functions in SQL
+1.2.1 Single Row Functions
+1.2.2 Aggregate Functions
+1.3 GROUP BY in SQL
+1.4 Operations on Relations
+1.4.1 UNION (U)
+1.4.2 INTERSECT (∩)
+1.4.3 MINUS (-)
+1.4.4 Cartesian Product
+1.5 Using Two Relations in a Query
+1.5.1 Cartesian product on two tables
+1.5.2 JOIN on two tables
+BIG
+— Lev Manovich
+C h a p t e r
+Querying and SQL Functions
+In this chapter
+1.2 Functions in SQL
+1.3 GROUP BY in SQL
+1.4 Operations on Relations
+Notes
+1.5 Using Two Relations in a Query
+Summary
+Exercise
+Notes MONTHNAME(“1979/11/26”);
+i i. SELECT COUNT(DISTINCT PName) FROM Notes
+SAMPLE
+1.1 Introduction In Class XI, we have understood database concepts and learned how to create databases using MySQL. We have also learnt how to populate, manipulate and retrieve data from a database using SQL queries. In this chapter, we are going to learn more SQL commands which are required to perform various queries in a database. We will understand how to use single row functions, multiple row functions, arranging records in ascending or descending order, grouping records based on some criteria, and working on multiple tables using SQL. Let us create a database called CARSHOWROOM, having the schema as “Any unique image that you desire probably already exists on the internet or in some database... The problem today is no longer how to create the right image, but how to find an already existing one” — Lev Manovich C h a p t e r 1 Querying and SQL Functions In this chapter »» Introduction »» Functions in SQL »» Group By in SQL »» Operations on Relations »» Using Two Relations in a Query Reprint 2026-27 Informatics Practices 2 shown in Figure 1.1. It has the following four relations: • INVENTORY: Stores name, price, model, year of manufacturing, and fuel type for each car in inventory of the showroom, • CUSTOMER: Stores customer Id, name, address, phone number and email for each customer, • SALE: Stores the invoice number, car Id, customer id, sale date, mode of payment, sales person’s employee Id, and selling price of the car sold, • EMPLOYEE: Stores employee Id, name, date of birth, date of joining, designation, and salary of each employee in the showroom. Car ID CarName Price Model YearManufacture FuelType Inventory InvoiceNo CarID CustID SaleDate PaymentMode EmpID SalePrice Sale EmpID EmpName DOB DOJ Designation Salary Employee CustID CustName CustAdd Phone Email Cus

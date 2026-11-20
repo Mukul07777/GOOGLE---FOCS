@@ -1,0 +1,171 @@
+# 12 | Physics | Physics Part II | leph2 | pages 18
+=== page 13
+Contents of Physics Part I
+Class XII
+CHAPTER ONE
+ELECTRIC CHARGES AND FIELDS
+1
+CHAPTER TWO
+ELECTROSTATIC POTENTIAL AND CAPACITANCE
+45
+CHAPTER THREE
+CURRENT ELECTRICITY
+81
+CHAPTER FOUR
+MOVING CHARGES AND MAGNETISM
+107
+CHAPTER FIVE
+MAGNETISM AND MATTER
+136
+CHAPTER SIX
+ELECTROMAGNETIC INDUCTION
+154
+CHAPTER SEVEN
+ALTERNATING CURRENT
+177
+CHAPTER EIGHT
+ELECTROMAGNETIC WAVES
+201
+ANSWERS
+217
+
+=== page 14
+CONTENTS
+FOREWORD
+v
+RATIONALISATION OF CONTENT IN THE TEXTBOOK
+vii
+PREFACE
+ix
+CHAPTER NINE
+RAY OPTICS AND OPTICAL INSTRUMENTS
+9.1
+Introduction
+221
+9.2
+Reflection of Light by Spherical Mirrors
+222
+9.3
+Refraction
+228
+9.4
+Total Internal Reflection
+229
+9.5
+Refraction at Spherical Surfaces and by Lenses
+232
+9.6
+Refraction through a Prism
+239
+9.7
+Optical Instruments
+240
+CHAPTER TEN
+WAVE OPTICS
+10.1
+Introduction
+255
+10.2
+Huygens Principle
+257
+10.3
+Refraction and Reflection of Plane Waves using Huygens Principle
+258
+10.4
+Coherent and Incoherent Addition of Waves
+262
+10.5
+Interference of Light Waves and Young’s Experiment
+265
+10.6
+Diffraction
+266
+10.7
+Polarisation
+269
+CHAPTER ELEVEN
+DUAL NATURE OF RADIATION AND MATTER
+11.1
+Introduction
+274
+11.2
+Electron Emission
+275
+
+=== page 15
+11.3
+Photoelectric Effect
+276
+11.4
+Experimental Study of Photoelectric Effect
+277
+11.5
+Photoelectric Effect and Wave Theory of Light
+280
+11.6
+Einstein’s Photoelectric Equation: Energy Quantum of Radiation
+281
+11.7
+Particle Nature of Light: The Photon
+283
+11.8
+Wave Nature of Matter
+284
+CHAPTER TWELVE
+ATOMS
+12.1
+Introduction
+290
+12.2
+Alpha-particle Scattering and Rutherford’s Nuclear Model of Atom
+291
+12.3
+Atomic Spectra
+296
+12.4
+Bohr Model of the Hydrogen Atom
+297
+12.5
+The Line Spectra of the Hydrogen Atom
+300
+12.6
+DE Broglie’s Explanation of Bohr’s Second Postulate of Quantisation
+301
+CHAPTER THIRTEEN
+NUCLEI
+13.1
+Introduction
+306
+13.2
+Atomic Masses and Composition of Nucleus
+306
+13.3
+Size of the Nucleus
+309
+13.4
+Mass-Energy and Nuclear Binding Energy
+310
+13.5
+Nuclear Force
+313
+13.6
+Radioactivity
+314
+13.7
+Nuclear Energy
+314
+CHAPTER FOURTEEN
+SEMICONDUCTOR ELECTRONICS: MATERIALS, DEVICES AND SIMPLE CIRCUITS
+14.1
+Introduction
+323
+14.2
+Classification of Metals, Conductors and Semiconductors
+324
+14.3
+Intrinsic Semiconductor
+327
+14.4
+Extrinsic Semiconductor
+329
+xvi

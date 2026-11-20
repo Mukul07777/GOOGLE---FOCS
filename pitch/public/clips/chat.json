@@ -1,0 +1,22 @@
+{
+  "name": "chat",
+  "seconds": 18.04,
+  "frames": 564,
+  "fps": 31.3,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "book",
+      "t": 5.16
+    },
+    {
+      "label": "pay",
+      "t": 12.99
+    },
+    {
+      "label": "end",
+      "t": 17.63
+    }
+  ]
+}

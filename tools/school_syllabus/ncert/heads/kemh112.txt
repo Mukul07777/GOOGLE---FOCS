@@ -1,0 +1,26 @@
+NUMBERED
+12.1 Introduction
+12.2 Intuitive Idea of Derivatives
+12.3 Limits
+12.4 Limits of Trigonometric Functions
+12.5 Derivatives
+BIG
+LIMITS AND DERIVATIVES
+ANote In particular as a special case of (iii), when g is the constant function
+Binomial theorem tells that (x + h)n = (
+( ) (
+(ii) (
+23. (
+24. (
+®The expected value of the function as dictated by the points to the left of a
+®Limit of a function at a point is the common value of the left and right hand
+®For a function f and a real number a, lim
+®For functions f and g the following holds:
+®Following are some of the standard limits
+®The derivative of a function f at a is defined by
+®Derivative of a function f at any point x is defined by
+®For functions u and v the following holds:
+®Following are some of the standard derivatives.
+— v —
+SAMPLE
+vWith the Calculus as a key, Mathematics can be successfully applied to the explanation of the course of Nature – WHITEHEAD v 12.1 Introduction This chapter is an introduction to Calculus. Calculus is that branch of mathematics which mainly deals with the study of change in the value of a function as the points in the domain change. First, we give an intuitive idea of derivative (without actually defining it). Then we give a naive definition of limit and study some algebra of limits. Then we come back to a definition of derivative and study some algebra of derivatives. We also obtain derivatives of certain standard functions. 12.2 Intuitive Idea of Derivatives Physical experiments have confirmed that the body dropped from a tall cliff covers a distance of 4.9t2 metres in t seconds, i.e., distance s in metres covered by the body as a function of time t in seconds is given by s = 4.9t2. The adjoining Table 13.1 gives the distance travelled in metres at various intervals of time in seconds of a body dropped from a tall cliff. The objective is to find the veloctiy of the body at time t = 2 seconds from this data. One way to approach this problem is to find the average velocity for various intervals of time ending at t = 2 seconds and hope that these throw some light on the velocity at t = 2 seconds. Average velocity between t = t1 and t = t2 equals distance travelled between t = t1 and t = t2 seconds divided by (t2 – t1). Hence the average velocity in the first two seconds 12 Chapter LIMITS AND DERIVATIVES Sir Issac Newton (1642-1727) Reprint 2026-27 218 MATHEMATICS = 2 1 2 1 Distance travelled between 2 0 Time interval ( ) t and t t t = = − = ( ) ( ) 19.6 0 9.8 / 2 0 m m s s − = − . Similarly, the average velocity between t = 1 and t = 2 is ( ) ( ) 19.6 – 4.9 2 1 m s − = 1

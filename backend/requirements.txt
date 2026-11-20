@@ -1,0 +1,33 @@
+# Exact versions: every install (run.bat, Docker, CI) gets what the tests last passed with.
+# To upgrade one: change its pin, run `python -m pytest`, commit both together.
+
+# --- web ---
+fastapi==0.143.3
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+email-validator==2.3.0
+sentry-sdk[fastapi]==2.72.0  # error reports, on when SENTRY_DSN is set
+httpx==0.28.1
+youtube-transcript-api==1.2.4   # captions for study-room quizzes (optional at runtime)
+anthropic==0.72.0   # Claude: last-resort fallback when Groq and Gemini are both down/rate-limited (ANTHROPIC_API_KEY)
+
+# --- data ---
+sqlalchemy==2.1.5
+psycopg[binary]==3.3.6      # Postgres driver (Supabase)
+pydantic==2.14.1
+pydantic-settings==2.16.0
+
+# --- auth ---
+PyJWT[crypto]==2.15.1  # [crypto]: checks Google's RS256-signed sign-in tokens
+bcrypt==5.0.0
+
+# --- vision / OCR runtime (no torch needed at runtime) ---
+numpy==2.5.4
+pillow==13.0.0
+opencv-python==5.0.0.93
+onnxruntime==1.31.0
+rapidocr-onnxruntime==1.4.4
+
+# --- Windows: current MSVC runtime inside the venv (see app/__init__.py) ---
+msvc-runtime>=14.40; sys_platform == "win32"
+pymupdf==1.28.2  # reading PYQ PDFs (scripts/import_pyq.py)

@@ -1,0 +1,46 @@
+NUMBERED
+5.1 Introduction to Computer Networks
+5.2 Types of Networks
+5.2.1 Local Area Network (LAN)
+5.2.2 Metropolitan Area Network (MAN)
+5.2.3 Wide Area Network (WAN)
+5.3 Network Devices
+5.3.1 Modem
+5.3.2 Ethernet Card
+5.3.3 Repeater
+5.3.4 Hub
+5.3.5 Switch
+5.3.6 Router
+5.3.7 Gateway
+5.4 Networking Topologies
+5.4.1 Mesh Topology
+5.4.2 Ring Topology
+5.4.3 Bus Topology
+5.4.4 Star Topology
+5.4.5 Tree or Hybrid Topology
+5.5 The Internet
+5.6 Applications of Internet
+5.6.1 The World Wide Web (WWW)
+5.6.2 Electronic Mail (Email)
+5.6.3 Chat
+5.6.4 VoIP
+5.7 Website
+5.7.1 Purpose of a Website
+5.8 Web Page
+5.8.1 Static and Dynamic Web Pages
+5.9 Web Server
+5.10 Hosting of a Website
+5.10.1 How to host a website?
+5.11 Browser
+5.11.1 Browser Settings
+5.11.2 Add-Ons and Plug-ins
+5.11.3 Cookies
+BIG
+C h a p t e r
+5 Internet and Web
+http://www.ncert.nic.in/textbook/textbook.htm
+Web Browser
+Summary
+Exercise
+SAMPLE
+5.1 Introduction to Computer Networks We are living in a connected world. Information is being produced, exchanged, and traced across the globe in real time. It's possible as almost everyone and everything in the digital world is interconnected through one way or the other. A group of two or more similar things or people interconnected with each other is called network (Figure 5.1). Some of the examples of network in our everyday life include: • Social network • Mobile network • Network of computers • Airlines, railway, banks, hospitals networks. In this chapter » Introduction to Computer Networks » Types of Networks » Network Devices » Networking Topologies » The Internet » Applications of Internet » Website » Web Page » Web Server » Hosting of a website » Browser “The internet could be a very positive step towards education, organisation and participation in a meaningful society.” — Noam Chomsky C h a p t e r 5 Internet and Web Reprint 2026-27 Informatics Practices 138 A computer network (Figure 5.2) is an interconnection among two or more computers or computing devices. Such interconnection allows computers to share data and resources among each other. A basic network may connect a few computers placed in a room. The network size may vary from small to large depending on the number of computers it connects. A computer network can include different types of hosts (also called nodes) like server, desktop, laptop, cellular phones. A computer network (Figure 5.2) is an interconnection among two or more computers or computing devices. Such interconnection allows computers to share data and resources among each other. A basic network may connect a few computers placed in a room. The network size may vary from small to large depending on the number of computers it connects.

@@ -1,0 +1,19 @@
+{
+  "name": "focs-pitch",
+  "private": true,
+  "description": "The Shark Tank pitch: the deck, the app footage and the demo video",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio video/index.ts",
+    "render": "remotion render video/index.ts FocsDemo out/focs-demo-silent.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.536",
+    "@remotion/media-utils": "4.0.536",
+    "playwright-core": "1.64.1",
+    "pptxgenjs": "4.0.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.536"
+  }
+}

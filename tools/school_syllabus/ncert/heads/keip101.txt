@@ -1,0 +1,26 @@
+NUMBERED
+1.1 Introduction to Computer System
+1.1.1 Central Processing Unit (CPU)
+1.1.2 Input Devices
+1.1.3 Output Devices
+1.2 Evolution of Computer
+1.3 Computer Memory
+1.3.1 Units of Memory
+1.3.2 Types of Memory
+1.3.3 Data Capturing, Storage, and Retrieval
+1.3.4 Data Deletion and Recovery
+1.4 Software
+1.4.1 Need of Software
+1.4.2 System Software
+1.4.3 Application Software
+1.4.4 Proprietary or Free and Open Source Software
+BIG
+Computer
+System
+“A computer would deserve to be called intel igent if it could deceive a human into
+believing that it was human.”
+— Alan Turing
+Summary
+Exercise
+SAMPLE
+1.1 Introduction to Computer System A computer is an electronic device that can be programmed to accept data (input), process it and generate result (output). A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises of a central processing unit, memory, input/output devices, and storage devices. All these components function together as a single unit to deliver the desired output. A computer system comes in various forms and sizes. It can vary Computer System Chapter 1 “A computer would deserve to be called intelligent if it could deceive a human into believing that it was human.” — Alan Turing In this chapter »» Introduction to Computer System »» Evolution of Computer »» Computer Memory »» Software Reprint 2026-27 Informatics Practices – Class XI 2 from a high-end server to a personal desktop, laptop, tablet computer, or smartphone. Figure 1.1 shows the block diagram of a computer system. The directed lines represent the flow of data and signal between the components. 1.1.1 Central Processing Unit (CPU) It is the electronic circuitry of a computer that carries out the actual processing and is usually referred to as the brain of the computer. It is also commonly called 'processor' also. Physically, a CPU can be placed on one or more microchips called integrated circuits (IC). The ICs comprise semiconductor materials. The CPU is given instructions and data through programs. The CPU then fetches the program and data from the memory and performs arithmetic and logical operations as per the given instructions and stores the result back to memory. While processing, the CPU stores the data as well as instructions in its local memory, 'called' registers. Registers are part of the CPU chip and they are li

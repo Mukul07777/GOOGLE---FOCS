@@ -1,0 +1,39 @@
+NUMBERED
+1.1 Meaning of Accounting
+1.1.1 Economic Events
+1.1.2 Identification, Measurement, Recording and Communication
+1.1.3 Organisation
+1.1.4 Interested Users of Information
+1.2 Accounting as a Source of Information
+1.2.1 Qualitative Characteristics of Accounting Information
+1.3 Objectives of Accounting
+1.3.1 Maintenance of Records of Business Transactions
+1.3.2 Calculation of Profti and Loss
+1.3.3 Depiction of Financial Position
+1.3.4 Providing Accounting Information to its Users
+1.4 Role of Accounting
+1.5 Basic Terms in Accounting
+1.5.1 Entity
+1.5.2 Transaction
+1.5.3 Assets
+1.5.4 Liabilities
+1.5.5 Capital
+1.5.6 Sales
+1.5.7 Revenues
+1.5.8 Expenses
+1.5.9 Expenditure
+1.5.10 Profit
+1.5.11 Gain
+1.5.12 Loss
+1.5.13 Discount
+1.5.14 Voucher
+1.5.15 Goods
+1.5.16 Drawings
+1.5.17 Purchases
+1.5.18 Stock
+1.5.19 Debtors
+1.5.20 Creditors
+BIG
+Introduction to Accounting 1
+SAMPLE
+Learning Objectives After studying this chapter you will be able to: • state the meaning and need of accounting; • discuss accounting as a source of information; • identify the internal and external users of accounting information; • explain the objectives of accounting; • describe the role of accounting; • explain the basic terms used in accounting. O ver the centuries, accounting has remained confined to the financial record-keeping functions of the accountant. But, today’s rapidly changing business environment has forced the accountants to reassess their roles and functions both within the organisation and the society. The role of an accountant has now shifted from that of a mere recorder of transactions to that of the member providing relevant information to the decision- making team. Broadly speaking, accounting today is much more than just book-keeping and the preparation of financial reports. Accountants are now capable of working in exciting new growth areas such as: forensic accounting (solving crimes such as computer hacking and the theft of large amounts of money on the internet); e-commerce (designing web-based payment system); financial planning, environm­ental accounting, etc. This realisation came due to the fact that accounting is capable of providing the kind of information that managers and other interested persons need in order to make better decisions. This aspect of accounting Introduction to Accounting 1 Reprint 2026-27 2 Accountancy gradually assumed so much importance that it has now been raised to the level of an information system. As an information system, it collects data and communicates economic information about the organisation to a wide variety of users whose decisions and actions are related to its performance. This introductory chapter

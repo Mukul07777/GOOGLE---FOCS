@@ -1,0 +1,12 @@
+NUMBERED
+5.1 Introduction
+5.2 Bubble Sort
+5.3 Selection Sort
+5.4 Insertion Sort
+5.5 Time Complexity of Algorithms
+BIG
+Sorting
+Summary
+Exercise
+SAMPLE
+In this Chapter »» Introduction »» Bubble Sort »» Selection Sort »» Insertion Sort »» Time Complexity of Algorithms C h a p t e r “Every one of today's smartphones has thousands of times more processing power than the computers that guided astronauts to the moon.” — Peter Thiel 5.1 Introduction Sorting is the process of ordering or arranging a given collection of elements in some particular order. We can sort a collection of numbers in ascending (increasing) or descending (decreasing) order. If the collection is of strings, we can sort it in an alphabetical order (a-z or z-a) or according to the length of the string. For example, words in a dictionary are sorted in alphabetical order; seats in an examination hall are ordered according to candidates’ roll number. We can also sort a list of students based on their height or weight. Imagine finding the meaning of a word from a dictionary that is not ordered. We will have to search for the word on each page till we find the word, which will be very tedious. That is why dictionaries have the words in alphabetical order and it ease the process of searching. 5 Sorting Reprint 2026-27 Computer Science - Class XII 68 Sorting a large number of items can take a substantial amount of time. However, this extra time (called overhead) is worth when compared to the amount of time needed to find an element from an unsorted list. Sorting is an important area of study in computer science, and many sorting algorithms have been developed and analysed from their performance point of view. In this chapter, we will learn about three sorting methods and implement them using Python. Bubble sort is discussed in section 5.2, followed by discussion on selection sort and insertion sort in section 5.3 and 5.4, respectively 5.2 Bubble Sort The first s

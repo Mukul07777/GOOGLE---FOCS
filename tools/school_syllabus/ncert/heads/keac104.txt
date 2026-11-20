@@ -1,0 +1,15 @@
+NUMBERED
+4.1 Cash Book
+4.1.1 Single Column Cash Book
+4.1.2 Double Column Cash Book
+4.1.3 Petty Cash Book
+4.1.4 Balancing of Cash Book
+4.2 Purchases (Journal) Book
+4.3 Purchases Return (Journal) Book
+4.4 Sales (Journal) Book
+4.5 Sales Return (Journal) Book
+4.7 Balancing the Accounts
+BIG
+Recording of Transactions-II 4
+SAMPLE
+I n chapter 3, you learnt that all the business transactions are first recorded in the journal and then they are posted in the ledger accounts. A small business may be able to record all its transactions in one book only, i.e., the journal. But as the business expands and the number of transactions becomes large, it may become cumbersome to jour-nalise each transaction. For quick, efficient and accurate recording of business transactions, Journal is sub-divided into special journals. Many of the business transactions are repetitive in nature. They can be easily recorded in special journals, each meant for recording all the transactions of a similar nature. For example, all cash transactions may be recorded in one book, all credit sales transactions in another book and all credit purchases transactions in yet another book and so on. These special journals are also called daybooks or subsidiary books. Transactions that cannot be recorded in any special journal are recorded in journal called the Journal Proper. Special journals prove economical and make division of labour possible in accounting work. In this chapter we will discuss the following special purpose books: • Cash Book • Purchases Book • Purchases Return (Return Outwards) Book • Sales Book • Sales Return (Return Inwards) Book • Journal Proper Recording of Transactions-II 4 LEARNING OBJECTIVES After studying this chapter, you will be able to : • state the need for special purpose books; • record the transactions in cash book and post them in the ledger; • prepare the petty cash book; • record the transactions in the special purpose books; • post the entries in the special purpose book and to the ledger; • balance the ledger accounts. Reprint 2026-27 100 Accountancy 4.1 Cash Book Cash book is a book in which all t

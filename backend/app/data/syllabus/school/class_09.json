@@ -1,0 +1,1270 @@
+{
+ "class": 9,
+ "default": [
+  "English",
+  "Hindi",
+  "Mathematics",
+  "Science",
+  "Social Science",
+  "Information Technology"
+ ],
+ "subjects": [
+  {
+   "name": "English",
+   "units": [
+    {
+     "name": "Kaveri",
+     "chapters": [
+      {
+       "name": "How I Taught My Grandmother to Read",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Bharat Our Land",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Pot Maker",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Gifts of Grace: Honouring Our Vocations",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Winds of Change",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Canvas of Soil",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Vitamin-M",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "I Cannot Remember My Mother",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The World of Limitless Possibilities",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Nine Gold Medals",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Twin Melodies",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "A Friend Found in Music",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Carrier of Words",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Words",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Follow That Dream",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Believe in Yourself",
+       "book": "Kaveri",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Ganita Manjari Part I",
+     "chapters": [
+      {
+       "name": "Orienting Yourself: The Use of Coordinates",
+       "book": "Ganita Manjari Part I",
+       "marks": 4,
+       "topics": [
+        "Settling In",
+        "The 2-d Cartesian Coordinate System",
+        "Distance Between Two Points in the 2-D Plane"
+       ]
+      },
+      {
+       "name": "Introduction to Linear Polynomials",
+       "book": "Ganita Manjari Part I",
+       "marks": 5,
+       "topics": [
+        "Linear Polynomials",
+        "Exploring linear patterns",
+        "Linear Relationships",
+        "Visualising linear relationships"
+       ]
+      },
+      {
+       "name": "The World of Numbers",
+       "book": "Ganita Manjari Part I",
+       "marks": 7,
+       "topics": [
+        "From Philosophy to Mathematics: The Concept of Śhūnyatā",
+        "The Bakhśhālī Manuscript and Brahmagupta’s Rules",
+        "Integers: Expanding the Horizon",
+        "Representation of Rational Numbers on the Number Line",
+        "The Density of Rational Numbers",
+        "The Proof of Irrationality of √2",
+        "Constructing irrational lengths",
+        "The Story of Pi (π) and Madhava’s Infinite Series",
+        "Real Numbers: Decimals and Cyclic Patterns"
+       ]
+      },
+      {
+       "name": "Exploring Algebraic Identities",
+       "book": "Ganita Manjari Part I",
+       "marks": 5,
+       "topics": [
+        "Visualising Identities",
+        "Factorisation of Algebraic Expressions Using Identities",
+        "Factorisation Using Algebra Tiles",
+        "Factorisation Without Using Algebra Tiles",
+        "Finding New Identities",
+        "Simplifying Rational Expressions"
+       ]
+      },
+      {
+       "name": "I'm Up and Down, and Round and Round",
+       "book": "Ganita Manjari Part I",
+       "marks": 8.3,
+       "topics": [
+        "Definitions",
+        "Symmetries of a Circle",
+        "How Many Circles?",
+        "Chords and the Angles They Subtend",
+        "Midpoints and Perpendicular Bisectors of Chords",
+        "Distance of Chords from the Centre",
+        "Which of the two unequal chords is farther from the centre?",
+        "Angles Subtended by an Arc",
+        "Angle subtended by an arc at a point on the circle outside the arc",
+        "Concyclicity of Points"
+       ]
+      },
+      {
+       "name": "Measuring Space: Perimeter and Area",
+       "book": "Ganita Manjari Part I",
+       "marks": 7,
+       "topics": [
+        "Perimeter of a Shape",
+        "Perimeter of a Circle — The C/D Ratio",
+        "π Is Irrational",
+        "Length of an Arc of a Circle",
+        "Problems, Puzzles, and Paradoxes on Perimeter",
+        "Area of a Rectangle",
+        "Area of a Parallelogram",
+        "Area of a Triangle",
+        "Squaring a Rectangle",
+        "Area of a Circle"
+       ]
+      },
+      {
+       "name": "The Mathematics of Maybe: Introduction to Probability",
+       "book": "Ganita Manjari Part I",
+       "marks": 5,
+       "topics": [
+        "What is Randomness?",
+        "The Probability Scale",
+        "Experimental Probability: Performing Observations or Experiments",
+        "Theoretical Probability",
+        "Analysing Statistical Data Using Probability",
+        "Sample Space",
+        "Events",
+        "Tree diagrams"
+       ]
+      },
+      {
+       "name": "Predicting What Comes Next: Exploring Sequences and Progressions",
+       "book": "Ganita Manjari Part I",
+       "marks": 5,
+       "topics": [
+        "Explicit Rule for a Sequence",
+        "Recursive Rule for a Sequence",
+        "Arithmetic Progressions",
+        "Visualising an AP",
+        "Sum of the First n Natural Numbers",
+        "Geometric Progressions",
+        "Fun with Fractals",
+        "Visualising a GP"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Ganita Manjari Part II",
+     "chapters": [
+      {
+       "name": "Propositions and their Converses",
+       "book": "Ganita Manjari Part II",
+       "marks": 8.3,
+       "topics": [
+        "The converse of a proposition",
+        "Proving a proposition",
+        "Propositions in geometry"
+       ]
+      },
+      {
+       "name": "How Quantities Combine: Understanding Data",
+       "book": "Ganita Manjari Part II",
+       "marks": 5,
+       "topics": [
+        "Combining Things",
+        "Average of Averages",
+        "Mixtures",
+        "Custom Weights",
+        "Visualising and Interpreting Data",
+        "Stacking Columns",
+        "An Alternative to Pie Chart"
+       ]
+      },
+      {
+       "name": "The World of Algorithms",
+       "book": "Ganita Manjari Part II",
+       "topics": [
+        "Adding Numbers",
+        "Computing the Divisors of a Number",
+        "Finding the Greatest Common Divisor",
+        "First Algorithm for gcd",
+        "Improving the Algorithm",
+        "Analysing these Algorithms",
+        "Euclid’s Subtraction Algorithm",
+        "Āryabhaṭa’s Division Algorithm"
+       ]
+      },
+      {
+       "name": "Quadrilaterals (Class 9)",
+       "book": "Ganita Manjari Part II",
+       "marks": 8.3,
+       "topics": [
+        "What Exactly is a Quadrilateral?",
+        "Parallelograms",
+        "Applications of Parallelograms",
+        "An Important Property of Triangles",
+        "A Surprising Property of Medians",
+        "Tiling the Plane Using Any 4-gon"
+       ]
+      },
+      {
+       "name": "Two Variables, One Line",
+       "book": "Ganita Manjari Part II",
+       "marks": 5,
+       "topics": [
+        "Linear Equations in Two Variables",
+        "Algebraic Meaning of Solution",
+        "Geometric Visualisation of Solutions",
+        "Understanding Slope",
+        "Slope-Intercept Form",
+        "Finding Solutions to a Pair of Linear Equations",
+        "Graphical Method for Solving A Pair of Linear Equations in Two Variables"
+       ]
+      },
+      {
+       "name": "Math of Space: Surface Area and Volume",
+       "book": "Ganita Manjari Part II",
+       "marks": 7,
+       "topics": [
+        "Cuboids and Cubes",
+        "Right Circular Cylinder",
+        "Another Way of Understanding Why the Above Formulas Are True",
+        "Cones",
+        "Pyramidal Shapes",
+        "Spheres and Hemispheres",
+        "Hemisphere",
+        "Areas and Volumes Around Us",
+        "Guesstimates: Did You Ever Wonder?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Science",
+   "units": [
+    {
+     "name": "Exploration",
+     "chapters": [
+      {
+       "name": "Exploration: Entering the World of Secondary Science",
+       "book": "Exploration",
+       "topics": [
+        "What is science?",
+        "Ways of exploring",
+        "Scientific inquiry",
+        "Science, technology and society"
+       ]
+      },
+      {
+       "name": "Cell: The Building Block of Life",
+       "book": "Exploration",
+       "marks": 6.75,
+       "topics": [
+        "How to Study Cells?",
+        "Structure of a Cell",
+        "Cell membrane — The universal feature of a cell",
+        "Cell wall — The outer covering of cells",
+        "The Cell Interior — A Coordinated Working System",
+        "Why do eukaryotic cells need these organelles?",
+        "How do Normal Cells Grow and Divide?",
+        "Cell division",
+        "Cell Theory — The Unifying Principle of Biology",
+        "Do cells grow and reproduce forever?"
+       ]
+      },
+      {
+       "name": "Tissues in Action",
+       "book": "Exploration",
+       "marks": 6.75,
+       "topics": [
+        "Why are Plant and Animal Tissues Different?",
+        "Lateral meristem — How do plants grow in girth?",
+        "Intercalary meristem — How do plants grow after being cut?",
+        "Permanent tissues",
+        "Animal Tissues",
+        "The Musculoskeletal System",
+        "Types of Joints",
+        "Skeletal System"
+       ]
+      },
+      {
+       "name": "Describing Motion Around Us",
+       "book": "Exploration",
+       "marks": 5.75,
+       "topics": [
+        "Describing position",
+        "Distance travelled and displacement",
+        "Average speed and average velocity",
+        "Average acceleration",
+        "Plotting graph",
+        "Position-time graphs",
+        "Velocity-time graphs",
+        "Kinematic Equations for Motion in a Straight Line with Constant Acceleration",
+        "Motion in a Plane"
+       ]
+      },
+      {
+       "name": "Exploring Mixtures and their Separation",
+       "book": "Exploration",
+       "marks": 8.33,
+       "topics": [
+        "How Can We Classify Mixtures?",
+        "Concentration of a solution",
+        "How do we express concentration?",
+        "Solubility of substances",
+        "Crystallization",
+        "Distillation",
+        "Paper Chromatography",
+        "How Can We Separate the Components of Heterogeneous Mixtures?",
+        "Tyndall Effect"
+       ]
+      },
+      {
+       "name": "How Forces Affect Motion",
+       "book": "Exploration",
+       "marks": 5.75,
+       "topics": [
+        "The Concept of Force",
+        "Measuring the magnitude of a force",
+        "Balanced and Unbalanced Forces",
+        "The Force of Friction: Often Overlooked but Always Present",
+        "Newton’s First Law of Motion",
+        "Newton’s Second Law of Motion",
+        "Newton’s Third Law of Motion",
+        "Forces Acting on a System of Objects"
+       ]
+      },
+      {
+       "name": "Work, Energy, and Simple Machines",
+       "book": "Exploration",
+       "marks": 5.75,
+       "topics": [
+        "When is work done equal to zero?",
+        "Positive and negative work done",
+        "The Work-Energy Theorem",
+        "Forms of Energy",
+        "Kinetic energy",
+        "Potential energy",
+        "Conservation of mechanical energy",
+        "Power",
+        "Simple Machines"
+       ]
+      },
+      {
+       "name": "Journey Inside the Atom",
+       "book": "Exploration",
+       "marks": 8.33,
+       "topics": [
+        "Rediscovering the Roots of Atomic Theory",
+        "A Short Historical Journey Through Atomic Models",
+        "What Components Contribute to the Mass of an Atom?",
+        "Symbols of Elements",
+        "Atomic Number",
+        "Mass Number",
+        "How Are Electrons Distributed in Different Energy Levels?",
+        "Combining Capacity of an Atom: Valency",
+        "Isotopes",
+        "Isobars"
+       ]
+      },
+      {
+       "name": "Atomic Foundations of Matter",
+       "book": "Exploration",
+       "marks": 8.33,
+       "topics": [
+        "Law of Conservation of Mass",
+        "Law of Constant Proportions",
+        "Dalton’s Atomic Theory",
+        "Bonding by sharing of electrons — Covalent Bond",
+        "Bonding by electron transfer — Ionic bond",
+        "Writing chemical formulae of covalent compounds",
+        "Writing chemical formulae of ionic compounds",
+        "Properties of the Ionic and the Covalent Compounds",
+        "Molecular Mass of Covalent Compounds",
+        "Formula Unit Mass of Ionic Compounds"
+       ]
+      },
+      {
+       "name": "Sound Waves: Characteristics and Applications",
+       "book": "Exploration",
+       "marks": 5.75,
+       "topics": [
+        "Production of Sound",
+        "Propagation of Sound",
+        "Sound Waves",
+        "Energy of Sound Waves",
+        "Graphical Representation of a Sound Wave",
+        "Characteristics of a Sound Wave",
+        "Echo",
+        "Reverberation",
+        "Ultrasonic and Infrasonic Waves, and their Applications"
+       ]
+      },
+      {
+       "name": "Reproduction: How Life Continues",
+       "book": "Exploration",
+       "marks": 6.75,
+       "topics": [
+        "Asexual Reproduction",
+        "How does meiosis help create variations in sexual reproduction?",
+        "Sexual reproduction in flowering plants",
+        "How does the process of pollination occur in flowers?",
+        "Pollination strategies and reproductive success",
+        "Fertilisation and seed formation",
+        "Sexual Reproduction in Animals",
+        "Variations in Reproduction in Animals",
+        "Reproduction in Human Beings"
+       ]
+      },
+      {
+       "name": "Patterns in Life: Diversity and Classification",
+       "book": "Exploration",
+       "marks": 6.75,
+       "topics": [
+        "India as a Biodiversity Hotspot",
+        "How has the Biodiversity Evolved?",
+        "How to Classify Organisms?",
+        "The Need for Classification",
+        "Biological Classification Systems Over Time",
+        "Five Kingdom Classification",
+        "Adaptations as Outcomes of Structural Change",
+        "Scientific Naming — The Binomial System",
+        "Fossils as Evidence",
+        "Biodiversity Under Threat"
+       ]
+      },
+      {
+       "name": "Earth as a System: Energy, Matter, and Life",
+       "book": "Exploration",
+       "marks": 5,
+       "topics": [
+        "Interaction of solar radiation on the Earth’s surface",
+        "Latitude and Earth’s shape",
+        "Role of the atmosphere",
+        "Local winds",
+        "Planetary winds",
+        "Ocean currents",
+        "Biogeochemical Cycles",
+        "Human Impact on Earth’s Processes"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Social Science",
+   "units": [
+    {
+     "name": "Understanding Society Part I",
+     "chapters": [
+      {
+       "name": "Understanding Social Science",
+       "book": "Understanding Society: India and Beyond Part I",
+       "topics": [
+        "Social Science in Everyday Life",
+        "Social Science as a Study of Disciplines",
+        "Geography",
+        "History",
+        "Literary Sources",
+        "Archaeological Sources",
+        "Epigraphic Sources",
+        "Numismatic Sources",
+        "Political Science",
+        "Economics"
+       ]
+      },
+      {
+       "name": "Shaping of the Earth's Surface",
+       "book": "Understanding Society: India and Beyond Part I",
+       "topics": [
+        "Plate Tectonics",
+        "Process of Weathering and Erosion",
+        "Weathering",
+        "Erosion",
+        "Agents of Gradation",
+        "Running Water",
+        "Waves and Currents",
+        "Glaciers",
+        "Wind",
+        "Underground Water"
+       ]
+      },
+      {
+       "name": "Atmosphere and Climate",
+       "book": "Understanding Society: India and Beyond Part I",
+       "topics": [
+        "Composition and Structure of the Atmosphere",
+        "Composition of the Atmosphere",
+        "Structure of the Atmosphere",
+        "Weather and Climate",
+        "Elements of Weather and Climate",
+        "Seasons in India",
+        "Monsoon",
+        "Climate Change",
+        "Effects of the Floods in Punjab"
+       ]
+      },
+      {
+       "name": "Early Humans and Beginning of Civilisation",
+       "book": "Understanding Society: India and Beyond Part I",
+       "topics": [
+        "The Invention of Writing: Before and After",
+        "Why Should We Study Early Human History?",
+        "Who Were Our Human Ancestors?",
+        "Palaeolithic Hunter–Gatherers",
+        "Mesolithic Hunter–Gatherers",
+        "The Neolithic Revolution",
+        "Neolithic Period in Indian Subcontinent",
+        "Sindhu–Sarasvatī Civilisation",
+        "Bronze Age Civilisations Outside India",
+        "Mesopotamian Civilisation"
+       ]
+      },
+      {
+       "name": "State and Society up to 1000 CE",
+       "book": "Understanding Society: India and Beyond Part I",
+       "topics": [
+        "Understanding Early Indian State and Society",
+        "State and Administration",
+        "The Vedic Period",
+        "Political Institutions in the Vedic Period",
+        "Early Kingdoms and Republics",
+        "Duties and Ideals of the King",
+        "Council of Ministers",
+        "How Were Empires Administered?",
+        "Ethics: The Foundation of Law and Life",
+        "Social Structures and Everyday Life"
+       ]
+      },
+      {
+       "name": "Democracy",
+       "book": "Understanding Society: India and Beyond Part I",
+       "topics": [
+        "Tracing Democratic Traditions from Early Times",
+        "Popular Sovereignty",
+        "Rule of Law",
+        "Fundamental Rights",
+        "Separation of Powers",
+        "Accountability and Transparency",
+        "Multi-Party System",
+        "Safeguarding the Rights of Vulnerable Groups",
+        "Challenges to Democratic Practices in India"
+       ]
+      },
+      {
+       "name": "Elections",
+       "book": "Understanding Society: India and Beyond Part I",
+       "topics": [
+        "Inside India’s Election Machinery",
+        "The Electoral System",
+        "The Laws",
+        "Delimitation Commission",
+        "Election Commission of India (ECI)",
+        "Political Parties"
+       ]
+      },
+      {
+       "name": "Building Blocks in Economics: The Problem of Choice",
+       "book": "Understanding Society: India and Beyond Part I",
+       "topics": [
+        "Choices and Limited Resources",
+        "What does Economics Deal with?",
+        "Key Questions in Economics",
+        "What to Produce and for Whom?",
+        "How to Produce?",
+        "Economic Systems and How Choices are Made",
+        "Planned Economy",
+        "Market Economy",
+        "Mixed Economy"
+       ]
+      },
+      {
+       "name": "The Price Puzzle: What Drives the Market",
+       "book": "Understanding Society: India and Beyond Part I",
+       "topics": [
+        "Demand",
+        "Other Determinants of Demand",
+        "Supply",
+        "Other Determinants of Supply",
+        "Market Equilibrium",
+        "Does Market Equilibrium Exist in the Real World?",
+        "Role of Government in the Economy",
+        "Regulation of Unfair Practices",
+        "Provision of Public Goods",
+        "Limitations of Government Intervention"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Understanding Society Part II",
+     "chapters": [
+      {
+       "name": "Oceans and Life",
+       "book": "Understanding Society: India and Beyond Part II",
+       "topics": [
+        "Ocean Relief",
+        "Movement of Ocean Water—Waves, Tides, and Currents",
+        "Waves",
+        "Tides",
+        "Ocean Currents",
+        "Cyclones and Tsunamis—Early Warning Systems",
+        "Marine Resources and Their Significance",
+        "Significance of Marine Resources",
+        "Maritime Zones",
+        "International Maritime Rules and Regulations"
+       ]
+      },
+      {
+       "name": "Life on Earth",
+       "book": "Understanding Society: India and Beyond Part II",
+       "topics": [
+        "Types of Biomes",
+        "Terrestrial Biomes",
+        "Aquatic Biomes",
+        "Biome Pyramid",
+        "Interconnectedness between Biomes and Living Beings",
+        "Maintaining Ecological Balance and Biodiversity"
+       ]
+      },
+      {
+       "name": "Resistance and Resilience (1000–1700 CE)",
+       "book": "Understanding Society: India and Beyond Part II",
+       "topics": [
+        "Safeguarding Sovereignty: Resistance, Alliances, and Confederacies",
+        "The Ahom Kingdom: Centuries of Endurance",
+        "Vijayanagara Empire: Resilience against Expansion",
+        "Marathas: The Quest for Swarājya",
+        "The Sikhs: A Story of Spiritual and Political Resilience",
+        "Jat Resistance",
+        "Bhakti Tradition: Affirmation of the Spirit of Resilience",
+        "Temples: The Resilience of Sacred Sites",
+        "The World of the Indian Ocean: Continuity and Change"
+       ]
+      },
+      {
+       "name": "Governance and Public Policy",
+       "book": "Understanding Society: India and Beyond Part II",
+       "topics": [
+        "Understanding Government and Governance",
+        "Evolution of Governance in India",
+        "Good Governance",
+        "E-Governance: Technology for Better Governance",
+        "The Meaning of Public Policy",
+        "What is ‘Public’ about Public Policy?",
+        "Participants in the Public Policy Process",
+        "The Making of a Public Policy",
+        "The Policy Process: Key Stages"
+       ]
+      },
+      {
+       "name": "Managing Your Personal Finances",
+       "book": "Understanding Society: India and Beyond Part II",
+       "topics": [
+        "Pillars of Personal Finance",
+        "Income (Earnings)",
+        "Budgeting (Planning Expenses)",
+        "Saving",
+        "Steps in Budgeting",
+        "Investing (Growing Wealth)",
+        "Protection and Risk Management",
+        "Borrowing and Credit",
+        "Risk and Return",
+        "Taxes"
+       ]
+      },
+      {
+       "name": "From Ideas to Startups",
+       "book": "Understanding Society: India and Beyond Part II",
+       "topics": [
+        "Business Plan—A Road Map for the Business",
+        "Functional Areas of a Business",
+        "Management and Operations",
+        "Finance and Accounting",
+        "Human Resources",
+        "Marketing and Sales",
+        "Startups and Their Contribution to the Nation"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi",
+   "units": [
+    {
+     "name": "गद्य खंड",
+     "chapters": [
+      {
+       "name": "दो बैलों की कथा",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "क्या लिखूँ?",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "संवादहीन",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "ऐसी भी बातें होती हैं",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "आखिरी चट्टान तक",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "रीढ़ की हड्डी",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मैं और मेरा देश",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "काव्य खंड",
+     "chapters": [
+      {
+       "name": "पद (रैदास)",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "राम-लक्ष्मण-परशुराम संवाद",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "भारति, जय, विजय करे!",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "झाँसी की रानी",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "घर की याद",
+       "book": "गंगा",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sanskrit",
+   "units": [
+    {
+     "name": "शारदा",
+     "chapters": [
+      {
+       "name": "सत्यं शिवं सुन्दरं संस्कृतम्",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "सुखस्य मूलं धर्मः धर्मस्य मूलम् अर्थः",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "आत्मवत्सर्वभूतेषु यः पश्यति सः पण्डितः",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "न खलु वयस्तेजसो हेतुः",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "एषा सा कृतकबुद्धिः मानवबुद्धेः सहकरी",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "मनःपूतं समाचरेत्",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "उपायं चिन्तयेत् प्राज्ञस्तथापायं च चिन्तयेत्",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "अन्नाद् आनन्दं प्रति",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "कृतं प्रतिकृतं भूयादेष धर्मः सनातनः",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "णमो अरिहन्ताणम्",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "वर्णोच्चारण-शिक्षा २",
+       "book": "शारदा",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Information Technology",
+   "units": [
+    {
+     "name": "Part A: Employability Skills",
+     "chapters": [
+      {
+       "name": "Communication Skills I",
+       "marks": 2,
+       "topics": [
+        "Methods and process of communication",
+        "Verbal and non-verbal communication",
+        "Barriers to communication",
+        "Pronunciation and parts of speech",
+        "Greetings and introductions"
+       ]
+      },
+      {
+       "name": "Self-Management Skills I",
+       "marks": 2,
+       "topics": [
+        "Stress management",
+        "Self-awareness: strengths and weaknesses",
+        "Self-motivation",
+        "Self-regulation and goal setting"
+       ]
+      },
+      {
+       "name": "ICT Skills I",
+       "marks": 2,
+       "topics": [
+        "Role of ICT in daily life",
+        "Smartphones and tablets",
+        "Computer peripherals",
+        "Basic computer operations",
+        "Communication technologies"
+       ]
+      },
+      {
+       "name": "Entrepreneurial Skills I",
+       "marks": 2,
+       "topics": [
+        "Entrepreneurship and society",
+        "Qualities and functions of an entrepreneur",
+        "Myths about entrepreneurship",
+        "Entrepreneurship as a career"
+       ]
+      },
+      {
+       "name": "Green Skills I",
+       "marks": 2,
+       "topics": [
+        "Society and environment",
+        "Conserving natural resources",
+        "Sustainable development",
+        "Green economy"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Part B: Subject Skills",
+     "chapters": [
+      {
+       "name": "Introduction to IT-ITeS Industry",
+       "marks": 5,
+       "topics": [
+        "IT and ITeS",
+        "IT at home, at work and in society",
+        "BPO, KPO and the IT industry in India"
+       ]
+      },
+      {
+       "name": "Data Entry and Keyboarding Skills",
+       "marks": 5,
+       "topics": [
+        "Keyboard layout and the home row",
+        "Touch typing",
+        "Typing speed and accuracy",
+        "Ergonomics"
+       ]
+      },
+      {
+       "name": "Digital Documentation",
+       "marks": 10,
+       "topics": [
+        "Creating, saving and printing a document",
+        "Formatting text and paragraphs",
+        "Lists, tables and images",
+        "Page layout, headers and footers",
+        "Spelling and grammar check"
+       ]
+      },
+      {
+       "name": "Electronic Spreadsheet",
+       "marks": 10,
+       "topics": [
+        "Rows, columns and cells",
+        "Entering data and formulas",
+        "Cell references",
+        "SUM, AVERAGE, MAX and MIN",
+        "Formatting and charts"
+       ]
+      },
+      {
+       "name": "Digital Presentation",
+       "marks": 10,
+       "topics": [
+        "Creating a presentation",
+        "Slide layouts and themes",
+        "Images, tables and charts",
+        "Transitions and animations",
+        "Running and printing a slide show"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Computer Applications",
+   "units": [
+    {
+     "name": "Computer Applications (165)",
+     "chapters": [
+      {
+       "name": "Basics of Information Technology",
+       "marks": 10,
+       "topics": [
+        "The computer system and its parts",
+        "Input and output devices",
+        "Memory and storage units",
+        "Types of software",
+        "Operating systems"
+       ]
+      },
+      {
+       "name": "Cyber Safety",
+       "marks": 10,
+       "topics": [
+        "Safe browsing",
+        "Protecting your identity",
+        "Keeping information confidential",
+        "Cyber trolls and bullying",
+        "Malware and safe email"
+       ]
+      },
+      {
+       "name": "Office Tools",
+       "marks": 10,
+       "topics": [
+        "Word processor",
+        "Presentation tool",
+        "Spreadsheet tool"
+       ]
+      },
+      {
+       "name": "Lab Exercises: Scratch or Python",
+       "marks": 20,
+       "topics": [
+        "Algorithms and flowcharts",
+        "Variables and data types",
+        "Conditions and loops",
+        "Simple programs"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

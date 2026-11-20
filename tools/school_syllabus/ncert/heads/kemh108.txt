@@ -1,0 +1,16 @@
+NUMBERED
+8.1 Introduction
+8.2 Sequences
+8.3 Series
+8.4 Geometric Progression (G . P.)
+8.5 Relationship Between A.M. and G.M.
+BIG
+SEQUENCES AND SERIES
+are in the ratio (
+®By a sequence, we mean an arrangement of number in definite order according
+®Let a1, a2, a3, ... be the sequence, then the sum expressed as a1 + a2 + a3 + ...
+®A sequence is said to be a geometric progression or G.P., if the ratio of any
+®The geometric mean (G.M.) of any two positive numbers a and b is given by
+— v —
+SAMPLE
+vNatural numbers are the product of human spirit. – DEDEKIND v 8.1 Introduction In mathematics, the word, “sequence” is used in much the same way as it is in ordinary English. When we say that a collection of objects is listed in a sequence, we usually mean that the collection is ordered in such a way that it has an identified first member, second member, third member and so on. For example, population of human beings or bacteria at different times form a sequence. The amount of money deposited in a bank, over a number of years form a sequence. Depreciated values of certain commodity occur in a sequence. Sequences have important applications in several spheres of human activities. Sequences, following specific patterns are called progressions. In previous class, we have studied about arithmetic progression (A.P). In this Chapter, besides discussing more about A.P.; arithmetic mean, geometric mean, relationship between A.M. and G.M., special series in forms of sum to n terms of consecutive natural numbers, sum to n terms of squares of natural numbers and sum to n terms of cubes of natural numbers will also be studied. 8.2 Sequences Let us consider the following examples: Assume that there is a generation gap of 30 years, we are asked to find the number of ancestors, i.e., parents, grandparents, great grandparents, etc. that a person might have over 300 years. Here, the total number of generations = 300 10 30 = Fibonacci (1175-1250) Chapter SEQUENCES AND SERIES 8 Reprint 2026-27 136 MATHEMATICS The number of person’s ancestors for the first, second, third, …, tenth generations are 2, 4, 8, 16, 32, …, 1024. These numbers form what we call a sequence. Consider the successive quotients that we obtain in the division of 10 by 3 at different steps of division. In this process 

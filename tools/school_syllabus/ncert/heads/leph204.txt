@@ -1,0 +1,34 @@
+NUMBERED
+12.1 INTRODUCTION
+12.2 ALPHA
+12.3 ATOMIC SPECTRA
+12.4 BOHR MODEL OF THE HYDROGEN
+12.5 THE LINE SPECTRA OF THE HYDROGEN ATOM
+12.6 DE BROGLIE’S EXPLANATION OF BOHR’S
+BIG
+Physics
+12.1 INTRODUCTION
+Chapter Twelve
+ATOMS
+Atoms
+12.2 ALPHA
+LPHA-PAR
+TICLE S
+TTERING AND
+RUTHERFORD
+UTHERFORD’S N
+NUCLEAR
+UCLEAR MODEL
+ODEL OF
+OF ATOM
+ERNST RUTHERFORD (1871 – 1937)
+12.3 ATOMIC SPECTRA
+12.4 BOHR MODEL OF THE HYDROGEN
+ATOM
+NIELS HENRIK DAVID BOHR (1885 – 1962)
+12.5 THE LINE SPECTRA OF THE HYDROGEN ATOM
+12.6 DE BROGLIE’S EXPLANATION OF BOHR’S
+SECOND POSTULATE OF QUANTISATION
+EXERCISES
+SAMPLE
+Physics 290 12.1 INTRODUCTION By the nineteenth century, enough evidence had accumulated in favour of atomic hypothesis of matter. In 1897, the experiments on electric discharge through gases carried out by the English physicist J. J. Thomson (1856 – 1940) revealed that atoms of different elements contain negatively charged constituents (electrons) that are identical for all atoms. However, atoms on a whole are electrically neutral. Therefore, an atom must also contain some positive charge to neutralise the negative charge of the electrons. But what is the arrangement of the positive charge and the electrons inside the atom? In other words, what is the structure of an atom? The first model of atom was proposed by J. J. Thomson in 1898. According to this model, the positive charge of the atom is uniformly distributed throughout the volume of the atom and the negatively charged electrons are embedded in it like seeds in a watermelon. This model was picturesquely called plum pudding model of the atom. However subsequent studies on atoms, as described in this chapter, showed that the distribution of the electrons and positive charges are very different from that proposed in this model. We know that condensed matter (solids and liquids) and dense gases at all temperatures emit electromagnetic radiation in which a continuous distribution of several wavelengths is present, though with different intensities. This radiation is considered to be due to oscillations of atoms Chapter Twelve ATOMS Reprint 2026-27 291 Atoms and molecules, governed by the interaction of each atom or molecule with its neighbours. In contrast, light emitted from rarefied gases heated in a flame, or excited electrically in a glow tube such as the familiar neon sign or mercury vapour light has only certain

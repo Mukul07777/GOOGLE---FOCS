@@ -1,0 +1,31 @@
+NUMBERED
+1.1 Introduction to Computer System
+1.1.1 Central Processing Unit (CPU)
+1.1.2 Input Devices
+1.1.3 Output Devices
+1.2 Evolution of Computer
+1.3 Computer Memory
+1.3.1 Units of Memory
+1.3.2 Types of Memory
+1.4 Data Transfer between Memory and CPU
+1.5 Microprocessors
+1.5.1 Microprocessor Specifications
+1.5.2 Microcontrollers
+1.6 Data and Information
+1.6.1 Data and Its Types
+1.6.2 Data Capturing, Storage and Retrieval
+1.6.3 Data Deletion and Recovery
+1.7 Software
+1.7.1 Need of Software
+1.7.2 System Software
+1.7.3 Programming Tools
+1.7.4 Application Software
+1.7.5 Proprietary or Free and Open Source Software
+1.8 Operating System
+1.8.1 OS User Interface
+1.8.2 Functions of Operating System
+BIG
+Chapter 1
+Computer System
+SAMPLE
+1.1 Introduction to Computer System A computer is an electronic device that can be programmed to accept data (input), process it and generate result (output). A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output. A computer system comes in various forms and sizes. It can vary from a high-end server to personal desktop, laptop, tablet computer, or a smartphone. Figure 1.1 shows the block diagram of a computer system. The directed lines represent the flow of data and signal between the components. 1.1.1 Central Processing Unit (CPU) It is the electronic circuitry of a computer that carries out the actual processing and usually referred as the brain of the computer. It is commonly called processor also. Physically, a CPU can be placed on one or more microchips called integrated circuits (IC). The ICs comprise semiconductor materials. “A computer would deserve to be called intelligent if it could deceive a human into believing that it was human.” –Alan Turing Chapter 1 Computer System In this chapter »» Introduction to Computer System »» Evolution of Computer »» Computer Memory »» Data Transfer between Memory and CPU »» Data and Information »» Microprocessors »» Software »» Operating System Figure 1.1: Components of a computer system Secondary Storage Devices Input Device Control Unit (CU) Arithmetic Logic Unit (ALU) Primary Memory Output Device Central Processing Unit (CPU) Reprint 2026-27 Computer Science – Class xi 2 The CPU is given instructions and data through programs. The CPU then fetches the program and data from the memor

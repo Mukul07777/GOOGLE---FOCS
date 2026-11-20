@@ -1,0 +1,32 @@
+NUMBERED
+6.1 Introduction
+6.2 Digital Footprints
+6.3 Digital Society and Netizen
+6.3.1 Net Etiquettes
+6.3.2 Communication Etiquettes
+6.3.3 Social Media Etiquettes
+6.4 Data Protection
+6.4.1 Intellectual Property Right (IPR)
+6.4.2 Licensing
+6.4.3 Violation of IPR
+6.4.4 Public Access and Open Source Software
+6.5 Creative Commons
+6.6 Cyber Crime
+6.6.1 Hacking
+6.6.2 Phishing and Fraud Emails
+6.6.3 Ransomware
+6.6.4 Combatting and Preventing Cyber Crime
+6.7 Indian Information Technology Act (IT Act)
+6.8 E-waste: Hazards and Management
+6.8.1 Impact of e-waste on environment
+6.8.2 Impact of e-waste on humans
+6.8.3 Management of e-waste
+6.8.4 E-waste Management in India
+6.9 Impact on Health
+BIG
+C h a p t e r
+6 Societal Impacts
+Summary
+Exercise Notes
+SAMPLE
+In this chapter » Introduction » Digital Footprints » Digital Society and Netizen » Data Protection » Creative Commons » Cyber Crime » Indian Information Technology Act (IT Act) » E-waste: Hazards and Management » Impact on Health 6.1 Introduction In recent years, the world around us has seen a lot of changes due to use of ‘Digital Technologies’. These changes have made a dramatic impact on our lives, making things more convenient, faster, and easier to handle. In the past, a letter would take days to reach, and every recipient would get his or her own copy and respond separately. Today, one can send and receive emails to more than one person at a time. The instantaneous nature of electronic communications has made us more efficient and productive. From the banking industry to aviation, industrial production to e-commerce, especially with regard to the delivery of their “I think computer viruses should count as life. I think it says something about human nature that the only form of life we have created so far is purely destructive. We’ve created life in our own image.” — Stephen Hawking C h a p t e r 6 Societal Impacts Reprint 2026-27 Informatics Practices 168 goods and services, all are now dependent on the use of computers and digital technologies. Applications of digital technologies have redefined and evolved all spheres of human activities. Today more and more people are using digital technologies through smartphones, computers, etc., with the help of high speed Internet. Why did the digital technologies become so widespread? The introduction of personal computers (PCs) and Internet followed by smartphones has brought these technologies to the common man. While we reap the benefits of digital technologies, these technologies can also be misused. Let’s look at the 

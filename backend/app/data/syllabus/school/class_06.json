@@ -1,0 +1,1194 @@
+{
+ "class": 6,
+ "default": [
+  "English",
+  "Hindi",
+  "Mathematics",
+  "Science",
+  "Social Science",
+  "Sanskrit"
+ ],
+ "subjects": [
+  {
+   "name": "English",
+   "units": [
+    {
+     "name": "Unit 1: Fables and Folk Tales",
+     "chapters": [
+      {
+       "name": "A Bottle of Dew",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Raven and the Fox",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Rama to the Rescue",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: Friendship",
+     "chapters": [
+      {
+       "name": "The Unlikely Best Friends",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "A Friend's Prayer",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Chair",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Nurturing Nature",
+     "chapters": [
+      {
+       "name": "Neem Baba",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "What a Bird Thought",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Spices that Heal Us",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: Sports and Wellness",
+     "chapters": [
+      {
+       "name": "Change of Heart",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Winner",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Yoga — A Way of Life",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 5: Culture and Tradition",
+     "chapters": [
+      {
+       "name": "Hamara Bharat — Incredible India!",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Kites",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Ila Sachani: Embroidering Dreams with her Feet",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "National War Memorial",
+       "book": "Poorvi",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Ganita Prakash",
+     "chapters": [
+      {
+       "name": "Patterns in Mathematics",
+       "book": "Ganita Prakash",
+       "topics": [
+        "What is Mathematics?",
+        "Patterns in Numbers",
+        "Visualising Number Sequences",
+        "Relations among Number Sequences",
+        "Patterns in Shapes",
+        "Relation to Number Sequences"
+       ]
+      },
+      {
+       "name": "Lines and Angles",
+       "book": "Ganita Prakash",
+       "topics": [
+        "Point",
+        "Line Segment",
+        "Ray",
+        "Angle",
+        "Comparing Angles",
+        "Making Rotating Arms",
+        "Special Types of Angles",
+        "Measuring Angles",
+        "Drawing Angles"
+       ]
+      },
+      {
+       "name": "Number Play (Class 6)",
+       "book": "Ganita Prakash",
+       "topics": [
+        "Numbers can Tell us Things",
+        "Supercells",
+        "Patterns of Numbers on the Number Line",
+        "Playing with Digits",
+        "Pretty Palindromic Patterns",
+        "The Magic Number of Kaprekar",
+        "Clock and Calendar Numbers",
+        "Mental Math",
+        "Playing with Number Patterns",
+        "An Unsolved Mystery — the Collatz Conjecture!"
+       ]
+      },
+      {
+       "name": "Data Handling and Presentation",
+       "book": "Ganita Prakash",
+       "topics": [
+        "Collecting and Organising Data",
+        "Pictographs",
+        "Bar Graphs",
+        "Drawing a Bar Graph",
+        "Artistic and Aesthetic Considerations"
+       ]
+      },
+      {
+       "name": "Prime Time",
+       "book": "Ganita Prakash",
+       "topics": [
+        "Common Multiples and Common Factors",
+        "Prime Numbers",
+        "Co-prime numbers for safekeeping treasures",
+        "Prime Factorisation",
+        "Divisibility Tests",
+        "Fun with numbers"
+       ]
+      },
+      {
+       "name": "Perimeter and Area",
+       "book": "Ganita Prakash",
+       "topics": [
+        "Perimeter",
+        "Area of a Triangle"
+       ]
+      },
+      {
+       "name": "Fractions (Class 6)",
+       "book": "Ganita Prakash",
+       "topics": [
+        "Fractional Units and Equal Shares",
+        "Fractional Units as Parts of a Whole",
+        "Measuring Using Fractional Units",
+        "Marking Fraction Lengths on the Number Line",
+        "Mixed Fractions",
+        "Equivalent Fractions",
+        "Comparing Fractions",
+        "Addition and Subtraction of Fractions",
+        "A Pinch of History"
+       ]
+      },
+      {
+       "name": "Playing with Constructions",
+       "book": "Ganita Prakash",
+       "topics": [
+        "Artwork",
+        "Squares and Rectangles",
+        "Constructing Squares and Rectangles",
+        "An Exploration in Rectangles",
+        "Exploring Diagonals of Rectangles and Squares",
+        "Points Equidistant from Two Given Points"
+       ]
+      },
+      {
+       "name": "Symmetry",
+       "book": "Ganita Prakash",
+       "topics": [
+        "Line of Symmetry",
+        "Rotational Symmetry"
+       ]
+      },
+      {
+       "name": "The Other Side of Zero",
+       "book": "Ganita Prakash",
+       "topics": [
+        "Bela’s Building of Fun",
+        "The Token Model",
+        "Integers in Other Places",
+        "Explorations with Integers",
+        "A Pinch of History"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Science",
+   "units": [
+    {
+     "name": "Curiosity",
+     "chapters": [
+      {
+       "name": "The Wonderful World of Science",
+       "book": "Curiosity",
+       "topics": [
+        "What is science?",
+        "Science is all around us",
+        "Asking questions",
+        "Observing, wondering and finding out",
+        "The scientific method"
+       ]
+      },
+      {
+       "name": "Diversity in the Living World",
+       "book": "Curiosity",
+       "topics": [
+        "Diversity in Plants and Animals Around Us",
+        "How to Group Plants and Animals?",
+        "How to group plants?",
+        "How to group animals?",
+        "Plants and Animals in Different Surroundings"
+       ]
+      },
+      {
+       "name": "Mindful Eating: A Path to a Healthy Body",
+       "book": "Curiosity",
+       "topics": [
+        "Food in different regions",
+        "How have cooking practices changed over time?",
+        "What are the Components of Food?",
+        "Test for starch",
+        "Test for fats",
+        "Test for proteins",
+        "Balanced Diet",
+        "Millets: Nutrition-rich Cereals",
+        "Food Miles: From Farm to Our Plate"
+       ]
+      },
+      {
+       "name": "Exploring Magnets",
+       "book": "Curiosity",
+       "topics": [
+        "Magnetic and Non-magnetic Materials",
+        "Poles of Magnet",
+        "Finding Directions",
+        "Attraction and Repulsion between Magnets",
+        "Fun with Magnets"
+       ]
+      },
+      {
+       "name": "Measurement of Length and Motion",
+       "book": "Curiosity",
+       "topics": [
+        "How do we Measure?",
+        "Standard Units",
+        "Correct Way of Measuring Length",
+        "Measuring the length of a curved line",
+        "Describing Position",
+        "Moving Things",
+        "Types of Motion"
+       ]
+      },
+      {
+       "name": "Materials Around Us",
+       "book": "Curiosity",
+       "topics": [
+        "Observing Objects Around Us",
+        "How to Group Materials?",
+        "What are the different Properties of Materials?",
+        "Observe and identify appearance of materials",
+        "Which materials are hard?",
+        "Explore materials through which one can see or cannot see",
+        "What is soluble in water; what is not?",
+        "How heavy or light?",
+        "Space and volume",
+        "What is Matter?"
+       ]
+      },
+      {
+       "name": "Temperature and its Measurement",
+       "book": "Curiosity",
+       "topics": [
+        "Hot or Cold?",
+        "Temperature",
+        "Measuring Temperature",
+        "Clinical thermometer",
+        "Laboratory thermometer",
+        "Air temperature"
+       ]
+      },
+      {
+       "name": "A Journey through States of Water",
+       "book": "Curiosity",
+       "topics": [
+        "Investigating Water’s Disappearing Act",
+        "Another Mystery",
+        "What are the different States of Water?",
+        "How can we change the States of Water?",
+        "How can Water be Evaporated Faster or Slower?",
+        "Cooling Effect",
+        "How do Clouds give us Rain?"
+       ]
+      },
+      {
+       "name": "Methods of Separation in Everyday Life",
+       "book": "Curiosity",
+       "topics": [
+        "Why we separate substances",
+        "Handpicking",
+        "Threshing and winnowing",
+        "Sieving",
+        "Sedimentation and decantation",
+        "Filtration",
+        "Evaporation",
+        "Churning"
+       ]
+      },
+      {
+       "name": "Living Creatures: Exploring their Characteristics",
+       "book": "Curiosity",
+       "topics": [
+        "What Sets the Living Apart from the Non-living?",
+        "Essential Conditions for Germination of a Seed",
+        "Growth and Movement in Plants",
+        "Life Cycle of a Plant",
+        "Life Cycle of Animals",
+        "Life cycle of a mosquito",
+        "Life cycle of a frog"
+       ]
+      },
+      {
+       "name": "Nature's Treasures",
+       "book": "Curiosity",
+       "topics": [
+        "Air",
+        "Water",
+        "Energy from the Sun",
+        "Forests",
+        "Soil, Rocks and Minerals",
+        "Fossil Fuels",
+        "Natural Resources: renewable and non-renewable",
+        "Resources we use"
+       ]
+      },
+      {
+       "name": "Beyond Earth",
+       "book": "Curiosity",
+       "topics": [
+        "Stars and Constellations",
+        "Night Sky Watching",
+        "Our Solar System",
+        "The Milky Way Galaxy",
+        "The Universe"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Social Science",
+   "units": [
+    {
+     "name": "India and the World: Land and the People",
+     "chapters": [
+      {
+       "name": "Locating Places on the Earth",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "Why Social Science?",
+        "A Map and Its Components",
+        "Mapping the Earth",
+        "Understanding Time Zones"
+       ]
+      },
+      {
+       "name": "Oceans and Continents",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "The Distribution of Water and Land on the Earth",
+        "Oceans and disasters",
+        "Islands",
+        "Oceans and Life"
+       ]
+      },
+      {
+       "name": "Landforms and Life",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "Mountains",
+        "Plateaus",
+        "Plains"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Tapestry of the Past",
+     "chapters": [
+      {
+       "name": "Timeline and Sources of History",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "How Do We Learn About the Past?",
+        "How Is Time Measured in History?",
+        "What Are the Sources of History?",
+        "The Beginnings of Human History",
+        "The First Crops"
+       ]
+      },
+      {
+       "name": "India, That Is Bharat",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "How Indians Named India",
+        "How Foreigners Named India"
+       ]
+      },
+      {
+       "name": "The Beginnings of Indian Civilisation",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "What Is a Civilisation?",
+        "From Village to City",
+        "Town-Planning",
+        "Water Management",
+        "What Did the Harappans Eat?",
+        "A Brisk Trade",
+        "The Lives of the Ancients",
+        "The End or a New Beginning?"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Our Cultural Heritage and Knowledge Traditions",
+     "chapters": [
+      {
+       "name": "India's Cultural Roots",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "The Vedas and Vedic Culture",
+        "Folk and Tribal Roots"
+       ]
+      },
+      {
+       "name": "Unity in Diversity, or 'Many in the One'",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "A Rich Diversity",
+        "Food for All",
+        "Textiles and Clothing",
+        "Festivals Galore",
+        "An Epic Spread"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Governance and Democracy",
+     "chapters": [
+      {
+       "name": "Family and Community",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "The family",
+        "Roles and responsibilities in a family",
+        "Families across India",
+        "The community",
+        "Communities caring for each other"
+       ]
+      },
+      {
+       "name": "Grassroots Democracy — Part 1: Governance",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "Three Organs of Government",
+        "Three Levels of Government"
+       ]
+      },
+      {
+       "name": "Grassroots Democracy — Part 2: Local Government in Rural Areas",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "Panchayati Raj System",
+        "Gram Panchayat",
+        "Exemplary Sarpanchs",
+        "Child-Friendly Panchayat Initiative",
+        "Panchayat Samiti and Zila Parishad"
+       ]
+      },
+      {
+       "name": "Grassroots Democracy — Part 3: Local Government in Urban Areas",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "Urban local bodies",
+        "Municipal corporations",
+        "Municipal councils and nagar panchayats",
+        "Wards and ward councillors",
+        "What urban local bodies do"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Economic Life Around Us",
+     "chapters": [
+      {
+       "name": "The Value of Work",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "Types of Economic Activities",
+        "The Importance of Non-Economic Activities"
+       ]
+      },
+      {
+       "name": "Economic Activities Around Us",
+       "book": "Exploring Society: India and Beyond",
+       "topics": [
+        "The Classification of Economic Activities into Economic Sectors",
+        "Interdependence Among Sectors"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi",
+   "units": [
+    {
+     "name": "मल्हार",
+     "chapters": [
+      {
+       "name": "मातृभूमि",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "गोल",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "पहली बूँद",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हार की जीत",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "रहीम के दोहे",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मेरी माँ",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "जलाते चलो",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "सत्रिया और बिहू नृत्य",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मैया मैं नहिं माखन खायो",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "परीक्षा",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चेतक की वीरता",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हिंद महासागर में छोटा-सा हिंदुस्तान",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "पेड़ की बात",
+       "book": "मल्हार",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sanskrit",
+   "units": [
+    {
+     "name": "दीपकम्",
+     "chapters": [
+      {
+       "name": "वयं वर्णमालां पठामः",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "संयुक्त-व्यञ्जनानि",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "एषः कः? एषा का? एतत् किम्?",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "अहं च त्वं च",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "संख्यागणना ननु सरला",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "अहं प्रातः उत्तिष्ठामि",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "शूराः वयं धीराः वयम्",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "सः एव महान् चित्रकारः",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "अतिथिदेवो भव",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "बुद्धिः सर्वार्थसाधिका",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "यः जानाति सः पण्डितः",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "त्वम् आपणं गच्छ",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "पृथिव्यां त्रीणि रत्नानि",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "आलस्यं हि मनुष्याणां शरीरस्थः महान् रिपुः",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "माधवस्य प्रियम् अङ्गम्",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "वृक्षाः सत्पुरुषाः इव",
+       "book": "दीपकम्",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "French",
+   "units": [
+    {
+     "name": "Français: Level 1 (A1, part 1)",
+     "chapters": [
+      {
+       "name": "Greetings and introductions (Class 6)",
+       "topics": [
+        "Saying hello and goodbye",
+        "Introducing yourself and others",
+        "Polite expressions",
+        "The alphabet and pronunciation"
+       ]
+      },
+      {
+       "name": "Numbers, days and months (Class 6)",
+       "topics": [
+        "Numbers 0 to 100",
+        "Days of the week",
+        "Months and seasons",
+        "Telling the date"
+       ]
+      },
+      {
+       "name": "My family (Class 6)",
+       "topics": [
+        "Family members",
+        "Describing people",
+        "Possessive adjectives",
+        "Talking about age"
+       ]
+      },
+      {
+       "name": "My school (Class 6)",
+       "topics": [
+        "Classroom objects",
+        "School subjects",
+        "Definite and indefinite articles",
+        "Gender and number of nouns"
+       ]
+      },
+      {
+       "name": "Colours and clothes (Class 6)",
+       "topics": [
+        "Colours",
+        "Clothes",
+        "Adjective agreement",
+        "Likes and dislikes"
+       ]
+      },
+      {
+       "name": "Food and drinks (Class 6)",
+       "topics": [
+        "Common foods and drinks",
+        "Meals of the day",
+        "Ordering politely",
+        "Words of quantity"
+       ]
+      },
+      {
+       "name": "Regular verbs in the present (Class 6)",
+       "topics": [
+        "Subject pronouns",
+        "Regular verbs in the present tense",
+        "Negative sentences",
+        "Asking simple questions"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "German",
+   "units": [
+    {
+     "name": "Deutsch: Level 1 (A1, part 1)",
+     "chapters": [
+      {
+       "name": "Greetings and introductions (Class 6)",
+       "topics": [
+        "Saying hello and goodbye",
+        "Introducing yourself and others",
+        "Polite expressions",
+        "The alphabet and pronunciation"
+       ]
+      },
+      {
+       "name": "Numbers, days and months (Class 6)",
+       "topics": [
+        "Numbers 0 to 100",
+        "Days of the week",
+        "Months and seasons",
+        "Telling the date"
+       ]
+      },
+      {
+       "name": "My family (Class 6)",
+       "topics": [
+        "Family members",
+        "Describing people",
+        "Possessive adjectives",
+        "Talking about age"
+       ]
+      },
+      {
+       "name": "My school (Class 6)",
+       "topics": [
+        "Classroom objects",
+        "School subjects",
+        "Definite and indefinite articles",
+        "Gender and number of nouns"
+       ]
+      },
+      {
+       "name": "Colours and clothes (Class 6)",
+       "topics": [
+        "Colours",
+        "Clothes",
+        "Adjective agreement",
+        "Likes and dislikes"
+       ]
+      },
+      {
+       "name": "Food and drinks (Class 6)",
+       "topics": [
+        "Common foods and drinks",
+        "Meals of the day",
+        "Ordering politely",
+        "Words of quantity"
+       ]
+      },
+      {
+       "name": "Regular verbs in the present (Class 6)",
+       "topics": [
+        "Subject pronouns",
+        "Regular verbs in the present tense",
+        "Negative sentences",
+        "Asking simple questions"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Spanish",
+   "units": [
+    {
+     "name": "Español: Level 1 (A1, part 1)",
+     "chapters": [
+      {
+       "name": "Greetings and introductions (Class 6)",
+       "topics": [
+        "Saying hello and goodbye",
+        "Introducing yourself and others",
+        "Polite expressions",
+        "The alphabet and pronunciation"
+       ]
+      },
+      {
+       "name": "Numbers, days and months (Class 6)",
+       "topics": [
+        "Numbers 0 to 100",
+        "Days of the week",
+        "Months and seasons",
+        "Telling the date"
+       ]
+      },
+      {
+       "name": "My family (Class 6)",
+       "topics": [
+        "Family members",
+        "Describing people",
+        "Possessive adjectives",
+        "Talking about age"
+       ]
+      },
+      {
+       "name": "My school (Class 6)",
+       "topics": [
+        "Classroom objects",
+        "School subjects",
+        "Definite and indefinite articles",
+        "Gender and number of nouns"
+       ]
+      },
+      {
+       "name": "Colours and clothes (Class 6)",
+       "topics": [
+        "Colours",
+        "Clothes",
+        "Adjective agreement",
+        "Likes and dislikes"
+       ]
+      },
+      {
+       "name": "Food and drinks (Class 6)",
+       "topics": [
+        "Common foods and drinks",
+        "Meals of the day",
+        "Ordering politely",
+        "Words of quantity"
+       ]
+      },
+      {
+       "name": "Regular verbs in the present (Class 6)",
+       "topics": [
+        "Subject pronouns",
+        "Regular verbs in the present tense",
+        "Negative sentences",
+        "Asking simple questions"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

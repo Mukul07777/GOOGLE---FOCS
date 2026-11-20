@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Focs</string>
+    <string name="title_activity_main">Focs</string>
+    <string name="package_name">com.focs.app</string>
+    <string name="custom_url_scheme">com.focs.app</string>
+</resources>

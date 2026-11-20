@@ -1,0 +1,27 @@
+NUMBERED
+2.1 Introduction to Python Libraries
+2.2 Series
+2.2.1 Creation of Series
+2.2.2 Accessing Elements of a Series
+2.2.3 Attributes of Series
+2.2.4 Methods of Series
+2.2.5 Mathematical Operations on Series
+2.3 DataFrame
+2.3.1 Creation of DataFrame
+2.3.2 Operations on rows and columns in DataFrames
+2.3.3 Accessing DataFrames Element through Indexing
+2.3.4 Accessing DataFrames Element through Slicing
+2.3.5 Joining, Merging and Concatenation of DataFrames
+2.3.6 Attributes of DataFrames
+2.4 Importing and Exporting Data between CSV Files and DataFrames
+2.4.1 Importing a CSV file to a DataFrame
+2.4.2 Exporting a DataFrame to a CSV file
+2.5 Pandas Series Vs NumPy ndarray
+BIG
+C h a p t e r
+Data Handling Using
+2 Pandas - I
+Summary
+Notes Exercise
+SAMPLE
+2.1 Introduction to Python Libraries Python libraries contain a collection of built- in modules that allow us to perform many actions without writing detailed programs for it. Each library in Python contains a large number of modules that one can import and use. NumPy, Pandas and Matplotlib are three well-established Python libraries for scientific and analytical use. These libraries allow us to manipulate, transform and visualise data easily and efficiently. NumPy, which stands for ‘Numerical Python’, is a library we discussed in class XI. Recall that, it is a package that can be used for numerical data analysis and “If you don't think carefully, you might believe that programming is just typing statements in a programming language.” — W. Cunningham C h a p t e r 2 Data Handling Using Pandas - I In this chapter » Introduction to Python Libraries » Series » DataFrame » Importing and Exporting Data between CSV Files and DataFrames » Pandas Series Vs NumPy ndarray Reprint 2026-27 Informatics Practices 28 scientific computing. NumPy uses a multidimensional array object and has functions and tools for working with these arrays. Elements of an array stay together in memory, hence, they can be quickly accessed. PANDAS (PANel DAta) is a high-level data manipulation tool used for analysing data. It is very easy to import and export data using Pandas library which has a very rich set of functions. It is built on packages like NumPy and Matplotlib and gives us a single, convenient place to do most of our data analysis and visualisation work. Pandas has three important data structures, namely – Series, DataFrame and Panel to make the process of analysing data organised, effective and efficient. The Matplotlib library in Python is used for plotting graphs and visualisation. Using M

@@ -1,0 +1,34 @@
+NUMBERED
+7.1 What is Probability?
+7.1.1 What is Randomness?
+7.1.2 The Probability Scale
+7.2 Measuring Probability Objectively
+7.2.1 Experimental Probability: Performing Observations or Experiments
+7.2.2 Theoretical Probability
+7.2.3 Analysing Statistical Data Using Probability
+7.3 Elements of Probability: Sample Spaces and Events
+7.3.1 Sample Space
+7.3.2 Events
+7.4 Tree diagrams
+BIG
+The Mathematics of Maybe: Introduction to Probability
+7.1 What is Probability?
+Think and Reflect
+Exercise Set 7.1
+7.2 Measuring Probability Objectively
+Did you know? The game of Snakes
+LEARN MORE ABOUT SAMPLING
+Want to learn more about sampling? What we have learned so far is
+GAMBLER’S FALLACY
+Many people think that if something random happens many times in a
+FAIR AND UNBIASED
+When we speak of a coin, we assume it to be ‘fair’, i.e., it is symmetrical
+Exercise Set 7.2
+7.3 Elements of Probability: Sample Spaces and Events
+Exercise Set 7.3
+7.4 Tree diagrams
+Exercise Set 7.4
+End-of-Chapter Exercises
+Chapter Summary
+SAMPLE
+The Mathematics of Maybe: Introduction to Probability 7.1 What is Probability? Probability is a type of measurement, similar to how we measure quantities like length, area, or volume. However, instead of measuring physical quantities, probability is used to measure the likelihood of events. Specifically, it helps us express how confident or certain we are that a particular event will occur. For example, you may ask your friend: • Is it going to rain today? • Will our school win the inter-school ­hockey match tomorrow? • Will I be chosen in the monthly lucky draw to perform at the school assembly? [The names of all the students in school are written on slips of paper and one slip is randomly selected.] These events are examples of random events. We know the possible outcomes (either it will rain today or it will not; our school team will either win, draw or lose the hockey match; one student will be chosen to perform at the school assembly), but we do not know in advance which one will definitely occur. That is, there is an element of chance or randomness involved every time such an event takes place. Can we predict these outcomes with 100% certainty? One could respond to these questions with words such as impossible or certain, or using phrases such as less likely, more likely or equally likely. This decision is based on different kinds of evidence that have been gathered. For example, one friend might say, “The sun is shining brightly, so it’s unlikely to rain today”, while another might observe, “It’s very hot, which makes me think it could rain later”. In both cases, they are predicting rainfall based on how they interpret the present weather conditions. This is the subjective probability given to the event of today’s rainfall. 7 Ganita Manjari | Grade 9 | Part I 156

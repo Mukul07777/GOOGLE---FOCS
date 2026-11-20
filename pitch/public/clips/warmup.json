@@ -1,0 +1,22 @@
+{
+  "name": "warmup",
+  "seconds": 40.71,
+  "frames": 2796,
+  "fps": 68.7,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "start",
+      "t": 5.23
+    },
+    {
+      "label": "warmup",
+      "t": 8.35
+    },
+    {
+      "label": "end",
+      "t": 40.3
+    }
+  ]
+}

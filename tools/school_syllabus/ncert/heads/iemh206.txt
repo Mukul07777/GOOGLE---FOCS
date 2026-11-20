@@ -1,0 +1,36 @@
+NUMBERED
+14.1 Cuboids and Cubes
+14.2 Right Circular Cylinder
+14.2.1 Another Way of Understanding Why the Above Formulas Are True
+14.3 Cones
+14.4 Pyramidal Shapes
+14.5 Spheres and Hemispheres
+14.5.2 Hemisphere
+14.6 Areas and Volumes Around Us
+14.6.1 Guesstimates: Did You Ever Wonder?
+BIG
+Math of Space: Surface Area and Volume
+14.1 Cuboids and Cubes
+Think and Reflect
+Exercise Set 14.1
+14.2 Right Circular Cylinder
+Exercise Set 14.2
+can be formed. (π ≈
+14.3 Cones
+Exercise Set 14.3
+14.4 Pyramidal Shapes
+14.5 Spheres and Hemispheres
+Exercise Set 14.4
+14.6 Areas and Volumes Around Us
+End-of-Chapter Exercises
+Chapter Summary
+Learning Material
+Graph Paper
+Net of a Cuboid
+Net of a Cube
+Nets of a Cylinder
+Nets of a Cone
+Net of a Triangular Pyramid
+Net of a Square Pyramid
+SAMPLE
+Math of Space: Surface Area and Volume In the previous grade we explored nets of some solids including cubes, cylinders, and cones. We saw that solids have a surface and occupy some space or volume. In this chapter, we will learn how to determine surface areas and volumes of cuboids, cylinders, cones, pyramids, and spheres, and how we can use these to solve some interesting problems. 14.1 Cuboids and Cubes Fig. 14.1A: Cuboid bricks Fig. 14.1B: Rubik’s Cube h w l Fig. 14.1C: Cuboid A cuboid has the shape shown in these pictures. A useful way of thinking about a cuboid is that it is a ‘three-dimensional (3D) version’ of a rectangle. It has six faces, all rectangles. It is characterised by three quantities: length, width, and height — these are denoted by l, w, h respectively. You can cut out the net of a cuboid given at the end of the textbook, make appropriate folds and join the edges to form the cuboid. What is the total surface area of a cuboid? You may refer to the net of the cuboid given in Fig. 14.2. Considering the faces individually, we see that the total surface area (TSA) of the cuboid is TSA = 2(wl + hl + hw). 14 Fig. 14.2 h h h h w w l l 124 Ganita Manjari | Grade 9 | Part II Volume measures the amount of three-dimensional space an object or a container occupies. It is measured in cubic units, e.g., cubic meters (m3) or cubic centimeters (cm3). We set the volume of a unit cube (i.e., a cuboid measuring one unit in each direction) to be one cubic unit (e.g., 1 m3 or 1 cm3, as the case may be). The volume of a general cuboid is the number of unit cubes that fit into it. Accordingly, the formula for the volume V of a cuboid is length × width × height or V = lwh. Compare the formula for the volume of a cuboid with the formula for the area of a rectangle (length × 

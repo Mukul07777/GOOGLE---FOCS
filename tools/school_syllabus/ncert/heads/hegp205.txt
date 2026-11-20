@@ -1,0 +1,12 @@
+NUMBERED
+5.1 The Balancing Act
+5.2 Visualising and Interpreting Data
+BIG
+5.1 The Balancing Act
+TALES BY DOTS
+AND LINES
+5.2 Visualising and Interpreting Data
+SUMMARY
+Game of Hex
+SAMPLE
+5.1 The Balancing Act Last year, we learnt about the mean and median. Recall that the mean of some data is the sum of all the values divided by the number of values in the data. The median is the middle value when the data is sorted. We shall try to understand the mean and median from a different perspective and see how the mean behaves with changing data. Consider any 2 numbers. Find their average/arithmetic mean. Repeat this by taking other pairs. What do you observe? For example, let the two numbers be 3 and 7. Their average is 3 + 7 2 = 5. Taking another pair of numbers, say 8 and 9, their average is 8 + 9 2 = 8.5. Visualising these as dot plots we get Notice that the mean is exactly halfway between the two numbers. We have learnt earlier that the arithmetic mean is a measure of central tendency and represents the ‘centre’ of the data. Let us see how the mean represents the ‘centre’ in the case of 3 numbers. Calculate and mark the mean of each collection of data below. TALES BY DOTS AND LINES 5 Ganita Prakash | Grade 8 | Part-II 104 Can you explain how the mean is the centre of each collection? Mark the mean for the collections below. Can you explain how the mean is the centre of each collection? Is the mean the midpoint of the two endpoints/extremes of the data? It is not always so. Instead, the total distances are equal on both the sides of the mean. This is illustrated through the following dot plots. Verify that this holds for all the collections of data shown earlier. Can there be more than one such ‘centre’? In other words, is there any other value such that the sum of the distances to the values lower than it and the values higher than it will still be equal? In the case of the collection 10, 10, 11, and 17 whose mean is 12, suppose there is a different centr

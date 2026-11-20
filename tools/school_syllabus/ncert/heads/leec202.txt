@@ -1,0 +1,21 @@
+NUMBERED
+2.1 UTILITY
+2.2 THE CONSUMER’S BUDGET
+2.3 OPTIMAL CHOICE OF THE CONSUMER
+2.4 DEMAND
+2.5 MARKET DEMAND
+2.6 ELASTICITY OF DEMAND
+BIG
+Chapter 2
+Theory of Consumer Behaviour
+2.1 UTILITY
+2.2 THE CONSUMER’S BUDGET
+2.3 OPTIMAL CHOICE OF THE CONSUMER
+2.4 DEMAND
+2.5 MARKET DEMAND
+2.6 ELASTICITY OF DEMAND
+yr a m m u S
+st pe cn o C y e K
+se si cr e x E
+SAMPLE
+Chapter 2 Theor Theor Theor Theor Theory of y of y of y of y of Consumer Behaviour Consumer Behaviour Consumer Behaviour Consumer Behaviour Consumer Behaviour In this chapter, we will study the behaviour of an individual consumer. The consumer has to decide how to spend her income on different goods1. Economists call this the problem of choice. Most naturally, any consumer will want to get a combination of goods that gives her maximum satisfaction. What will be this ‘best’ combination? This depends on the likes of the consumer and what the consumer can afford to buy. The ‘likes’ of the consumer are also called ‘preferences’. And what the consumer can afford to buy, depends on prices of the goods and the income of the consumer. This chapter presents two different approaches that explain consumer behaviour (i) Cardinal Utility Analysis and (ii) Ordinal Utility Analysis. Preliminary Notations and Assumptions A consumer, in general, consumes many goods; but for simplicity, we shall consider the consumer’s choice problem in a situation where there are only two goods2: bananas and mangoes. Any combination of the amount of the two goods will be called a consumption bundle or, in short, a bundle. In general, we shall use the variable x1 to denote the quantity of bananas and x2 to denote the quantity of mangoes. x1 and x2 can be positive or zero. (x1, x2) would mean the bundle consisting of x1 quantity of bananas and x2 quantity of mangoes. For particular values of x1 and x2, (x1, x2), would give us a particular bundle. For example, the bundle (5,10) consists of 5 bananas and 10 mangoes; the bundle (10, 5) consists of 10 bananas and 5 mangoes. 2.1 UTILITY A consumer usually decides his demand for a commodity on the basis of utility (or satisfaction) that he derives from it. What

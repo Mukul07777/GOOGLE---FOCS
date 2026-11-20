@@ -1,0 +1,1664 @@
+{
+ "class": 10,
+ "default": [
+  "English",
+  "Hindi Course A",
+  "Mathematics",
+  "Science",
+  "Social Science",
+  "Information Technology"
+ ],
+ "subjects": [
+  {
+   "name": "English",
+   "units": [
+    {
+     "name": "First Flight",
+     "chapters": [
+      {
+       "name": "A Letter to God",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Dust of Snow",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Fire and Ice",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Nelson Mandela: Long Walk to Freedom",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "A Tiger in the Zoo",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Two Stories about Flying",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "How to Tell Wild Animals",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Ball Poem",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "From the Diary of Anne Frank",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Amanda!",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Glimpses of India",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Trees",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Mijbil the Otter",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Fog",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Madam Rides the Bus",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Tale of Custard the Dragon",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Sermon at Benares",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "For Anne Gregory",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Proposal",
+       "book": "First Flight",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footprints without Feet",
+     "chapters": [
+      {
+       "name": "A Triumph of Surgery",
+       "book": "Footprints without Feet",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Thief's Story",
+       "book": "Footprints without Feet",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Midnight Visitor",
+       "book": "Footprints without Feet",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "A Question of Trust",
+       "book": "Footprints without Feet",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Footprints without Feet",
+       "book": "Footprints without Feet",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Making of a Scientist",
+       "book": "Footprints without Feet",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Necklace",
+       "book": "Footprints without Feet",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Bholi",
+       "book": "Footprints without Feet",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Book That Saved the Earth",
+       "book": "Footprints without Feet",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Number Systems",
+     "chapters": [
+      {
+       "name": "Real Numbers",
+       "book": "Mathematics",
+       "topics": [
+        "The Fundamental Theorem of Arithmetic",
+        "Revisiting Irrational Numbers"
+       ],
+       "marks": 6.0
+      }
+     ]
+    },
+    {
+     "name": "Algebra",
+     "chapters": [
+      {
+       "name": "Polynomials",
+       "book": "Mathematics",
+       "topics": [
+        "Geometrical Meaning of the Zeroes of a Polynomial",
+        "Relationship between Zeroes and Coefficients of a Polynomial"
+       ],
+       "marks": 5.0
+      },
+      {
+       "name": "Pair of Linear Equations in Two Variables",
+       "book": "Mathematics",
+       "topics": [
+        "Graphical Method of Solution of a Pair of Linear Equations",
+        "Algebraic Methods of Solving a Pair of Linear Equations",
+        "Substitution Method",
+        "Elimination Method"
+       ],
+       "marks": 5.0
+      },
+      {
+       "name": "Quadratic Equations",
+       "book": "Mathematics",
+       "topics": [
+        "Solution of a Quadratic Equation by Factorisation",
+        "Nature of Roots"
+       ],
+       "marks": 5.0
+      },
+      {
+       "name": "Arithmetic Progressions",
+       "book": "Mathematics",
+       "topics": [
+        "Nth Term of an AP",
+        "Sum of First n Terms of an AP"
+       ],
+       "marks": 5.0
+      }
+     ]
+    },
+    {
+     "name": "Geometry",
+     "chapters": [
+      {
+       "name": "Triangles",
+       "book": "Mathematics",
+       "marks": 7.5,
+       "topics": [
+        "Similar Figures",
+        "Similarity of Triangles",
+        "Criteria for Similarity of Triangles"
+       ]
+      },
+      {
+       "name": "Circles",
+       "book": "Mathematics",
+       "marks": 7.5,
+       "topics": [
+        "Tangent to a Circle",
+        "Number of Tangents from a Point on a Circle"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Coordinate Geometry",
+     "chapters": [
+      {
+       "name": "Coordinate Geometry",
+       "book": "Mathematics",
+       "topics": [
+        "Distance Formula",
+        "Section Formula"
+       ],
+       "marks": 6.0
+      }
+     ]
+    },
+    {
+     "name": "Trigonometry",
+     "chapters": [
+      {
+       "name": "Introduction to Trigonometry",
+       "book": "Mathematics",
+       "topics": [
+        "Trigonometric Ratios of Some Specific Angles",
+        "Trigonometric Identities"
+       ],
+       "marks": 6.0
+      },
+      {
+       "name": "Some Applications of Trigonometry",
+       "book": "Mathematics",
+       "topics": [
+        "Heights and distances",
+        "Line of sight",
+        "Angle of elevation",
+        "Angle of depression",
+        "Problems on heights and distances"
+       ],
+       "marks": 6.0
+      }
+     ]
+    },
+    {
+     "name": "Mensuration",
+     "chapters": [
+      {
+       "name": "Areas Related to Circles",
+       "book": "Mathematics",
+       "topics": [
+        "Perimeter and area of a circle",
+        "Area of a sector",
+        "Length of an arc",
+        "Area of a segment of a circle"
+       ],
+       "marks": 5.0
+      },
+      {
+       "name": "Surface Areas and Volumes",
+       "book": "Mathematics",
+       "topics": [
+        "Surface Area of a Combination of Solids",
+        "Volume of a Combination of Solids"
+       ],
+       "marks": 5.0
+      }
+     ]
+    },
+    {
+     "name": "Statistics and Probability",
+     "chapters": [
+      {
+       "name": "Statistics (Class 10)",
+       "book": "Mathematics",
+       "topics": [
+        "Mean of Grouped Data",
+        "Mode of Grouped Data",
+        "Median of Grouped Data"
+       ],
+       "marks": 5.5
+      },
+      {
+       "name": "Probability (Class 10)",
+       "book": "Mathematics",
+       "topics": [
+        "Probability: a theoretical approach",
+        "Equally likely outcomes",
+        "Complementary events",
+        "Impossible and sure events",
+        "Problems on single events"
+       ],
+       "marks": 5.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Science",
+   "units": [
+    {
+     "name": "Chemical Substances: Nature and Behaviour",
+     "chapters": [
+      {
+       "name": "Chemical Reactions and Equations",
+       "book": "Science",
+       "topics": [
+        "Writing a Chemical Equation",
+        "Balanced Chemical Equations",
+        "Combination Reaction",
+        "Decomposition Reaction",
+        "Displacement Reaction",
+        "Double Displacement Reaction",
+        "Oxidation and Reduction",
+        "Corrosion",
+        "Rancidity"
+       ],
+       "marks": 6.25
+      },
+      {
+       "name": "Acids, Bases and Salts",
+       "book": "Science",
+       "topics": [
+        "Understanding the Chemical Properties of Acids and Bases",
+        "What Do All Acids and All Bases Have in Common?",
+        "How Strong Are Acid or Base Solutions?",
+        "Family of Salts",
+        "pH of Salts",
+        "Chemicals from Common Salt",
+        "Are the Crystals of Salts Really Dry?"
+       ],
+       "marks": 6.25
+      },
+      {
+       "name": "Metals and Non-metals",
+       "book": "Science",
+       "topics": [
+        "Metals",
+        "Non-metals",
+        "Chemical Properties of Metals",
+        "How Do Metals and Non-metals React?",
+        "Extraction of Metals",
+        "Enrichment of Ores",
+        "Refining of Metals",
+        "Corrosion"
+       ],
+       "marks": 6.25
+      },
+      {
+       "name": "Carbon and its Compounds",
+       "book": "Science",
+       "topics": [
+        "Bonding in Carbon – the Covalent Bond",
+        "Versatile Nature of Carbon",
+        "Combustion",
+        "Oxidation",
+        "Addition Reaction",
+        "Substitution Reaction",
+        "Properties of Ethanol",
+        "Properties of Ethanoic Acid",
+        "Soaps and Detergents"
+       ],
+       "marks": 6.25
+      }
+     ]
+    },
+    {
+     "name": "World of Living",
+     "chapters": [
+      {
+       "name": "Life Processes",
+       "book": "Science",
+       "topics": [
+        "What Are Life Processes?",
+        "Autotrophic Nutrition",
+        "Heterotrophic Nutrition",
+        "How do Organisms obtain their Nutrition?",
+        "Nutrition in Human Beings",
+        "Respiration",
+        "Transportation in Human Beings",
+        "Transportation in Plants",
+        "Excretion in Human Beings",
+        "Excretion in Plants"
+       ],
+       "marks": 6.25
+      },
+      {
+       "name": "Control and Coordination",
+       "book": "Science",
+       "topics": [
+        "Animals – Nervous System",
+        "What happens in Reflex Actions?",
+        "Human Brain",
+        "How are these Tissues protected?",
+        "How does the Nervous Tissue cause Action?",
+        "Coordination in Plants",
+        "Immediate Response to Stimulus",
+        "Movement Due to Growth",
+        "Hormones in Animals"
+       ],
+       "marks": 6.25
+      },
+      {
+       "name": "How do Organisms Reproduce?",
+       "book": "Science",
+       "topics": [
+        "Do Organisms Create Exact Copies of Themselves?",
+        "Fission",
+        "Fragmentation",
+        "Regeneration",
+        "Budding",
+        "Vegetative Propagation",
+        "Spore Formation",
+        "Sexual Reproduction"
+       ],
+       "marks": 6.25
+      },
+      {
+       "name": "Heredity",
+       "book": "Science",
+       "topics": [
+        "Accumulation of Variation During Reproduction",
+        "Inherited Traits",
+        "Rules for the Inheritance of Traits – Mendel’s Contributions",
+        "How do these Traits get Expressed?",
+        "Sex Determination"
+       ],
+       "marks": 6.25
+      }
+     ]
+    },
+    {
+     "name": "Natural Phenomena",
+     "chapters": [
+      {
+       "name": "Light — Reflection and Refraction",
+       "book": "Science",
+       "topics": [
+        "Reflection of Light",
+        "Image Formation by Spherical Mirrors",
+        "Representation of Images Formed by Spherical Mirrors Using Ray Diagrams",
+        "Sign Convention for Reflection by Spherical Mirrors",
+        "Mirror Formula and Magnification",
+        "Refraction of Light"
+       ],
+       "marks": 6.0
+      },
+      {
+       "name": "The Human Eye and the Colourful World",
+       "book": "Science",
+       "topics": [
+        "The Human Eye",
+        "Power of Accommodation",
+        "Defects of Vision and Their Correction",
+        "Refraction of Light Through a Prism",
+        "Dispersion of White Light by a Glass Prism",
+        "Atmospheric Refraction",
+        "Scattering of Light",
+        "Tyndall Effect",
+        "Why is the colour of the clear Sky Blue?"
+       ],
+       "marks": 6.0
+      }
+     ]
+    },
+    {
+     "name": "Effects of Current",
+     "chapters": [
+      {
+       "name": "Electricity",
+       "book": "Science",
+       "topics": [
+        "Electric Current and Circuit",
+        "Electric Potential and Potential Difference",
+        "Circuit Diagram",
+        "Ohm’s Law",
+        "Factors on Which the Resistance of a Conductor Depends",
+        "Resistors in Series",
+        "Resistors in Parallel",
+        "Heating Effect of Electric Current",
+        "Electric Power"
+       ],
+       "marks": 6.5
+      },
+      {
+       "name": "Magnetic Effects of Electric Current",
+       "book": "Science",
+       "topics": [
+        "Magnetic Field and Field Lines",
+        "Magnetic Field Due to a Current-carrying Conductor",
+        "Magnetic Field due to a Current through a Straight Conductor",
+        "Right-Hand Thumb Rule",
+        "Magnetic Field due to a Current through a Circular Loop",
+        "Magnetic Field due to a Current in a Solenoid",
+        "Force on a Current-carrying Conductor in a Magnetic Field",
+        "Domestic Electric Circuits"
+       ],
+       "marks": 6.5
+      }
+     ]
+    },
+    {
+     "name": "Natural Resources",
+     "chapters": [
+      {
+       "name": "Our Environment",
+       "book": "Science",
+       "topics": [
+        "Eco-system — What Are Its Components?",
+        "Food Chains and Webs",
+        "How Do Our Activities Affect the Environment?",
+        "Ozone Layer and How it is Getting Depleted",
+        "Managing the Garbage we Produce"
+       ],
+       "marks": 5.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Social Science",
+   "units": [
+    {
+     "name": "History: India and the Contemporary World II",
+     "chapters": [
+      {
+       "name": "The Rise of Nationalism in Europe",
+       "book": "India and the Contemporary World II",
+       "marks": 6,
+       "topics": [
+        "The French Revolution and the idea of the nation",
+        "The making of nationalism in Europe",
+        "The aristocracy and the new middle class",
+        "What did liberal nationalism stand for?",
+        "A new conservatism after 1815",
+        "The age of revolutions: 1830–1848",
+        "The making of Germany and Italy",
+        "Visualising the nation",
+        "Nationalism and imperialism"
+       ]
+      },
+      {
+       "name": "Nationalism in India",
+       "book": "India and the Contemporary World II",
+       "marks": 6,
+       "topics": [
+        "The First World War, Khilafat and Non-Cooperation",
+        "The idea of satyagraha",
+        "The Rowlatt Act",
+        "Why Non-cooperation?",
+        "Differing strands within the movement",
+        "Towards Civil Disobedience",
+        "The Salt March and the Civil Disobedience Movement",
+        "How participants saw the movement",
+        "The limits of Civil Disobedience",
+        "The sense of collective belonging"
+       ]
+      },
+      {
+       "name": "The Making of a Global World",
+       "book": "India and the Contemporary World II",
+       "marks": 4,
+       "topics": [
+        "The pre-modern world",
+        "Silk routes link the world",
+        "Food travels: spaghetti and potatoes",
+        "Conquest, disease and trade",
+        "A world economy takes shape",
+        "Role of technology",
+        "Late nineteenth-century colonialism",
+        "Rinderpest, or the cattle plague",
+        "Indentured labour migration from India",
+        "Indian trade, colonialism and the global system"
+       ]
+      },
+      {
+       "name": "The Age of Industrialisation",
+       "book": "India and the Contemporary World II",
+       "marks": 1.5,
+       "topics": [
+        "Before the Industrial Revolution",
+        "The coming of the factory and the pace of change",
+        "Hand labour and steam power",
+        "Life of the workers",
+        "Industrialisation in the colonies",
+        "The age of Indian textiles",
+        "What happened to weavers?",
+        "Factories come up",
+        "The peculiarities of industrial growth",
+        "Market for goods"
+       ]
+      },
+      {
+       "name": "Print Culture and the Modern World",
+       "book": "India and the Contemporary World II",
+       "marks": 4,
+       "topics": [
+        "The first printed books",
+        "Print comes to Europe",
+        "The print revolution and its impact",
+        "The reading mania",
+        "The nineteenth century",
+        "India and the world of print",
+        "Religious reform and public debates",
+        "New forms of publication",
+        "Print and censorship"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Geography: Contemporary India II",
+     "chapters": [
+      {
+       "name": "Resources and Development",
+       "book": "Contemporary India II",
+       "topics": [
+        "Types of resources",
+        "Development of resources and resource planning",
+        "Land resources and land use pattern",
+        "Land degradation and conservation",
+        "Soil as a resource: soils of India",
+        "Soil erosion and soil conservation"
+       ],
+       "marks": 2.86
+      },
+      {
+       "name": "Forest and Wildlife Resources",
+       "book": "Contemporary India II",
+       "topics": [
+        "Flora and fauna in India",
+        "Vanishing forests",
+        "Conservation of forests and wildlife",
+        "Types and distribution of forests",
+        "Community and conservation"
+       ],
+       "marks": 2.86
+      },
+      {
+       "name": "Water Resources",
+       "book": "Contemporary India II",
+       "topics": [
+        "Water scarcity and the need for conservation",
+        "Multi-purpose river projects",
+        "Integrated water resources management",
+        "Rainwater harvesting"
+       ],
+       "marks": 2.86
+      },
+      {
+       "name": "Agriculture",
+       "book": "Contemporary India II",
+       "topics": [
+        "Types of farming",
+        "Cropping pattern",
+        "Major crops",
+        "Technological and institutional reforms",
+        "Impact of globalisation on agriculture"
+       ],
+       "marks": 2.86
+      },
+      {
+       "name": "Minerals and Energy Resources",
+       "book": "Contemporary India II",
+       "topics": [
+        "What is a mineral?",
+        "Mode of occurrence of minerals",
+        "Ferrous and non-ferrous minerals",
+        "Non-metallic minerals",
+        "Conservation of minerals",
+        "Conventional and non-conventional energy",
+        "Conservation of energy resources"
+       ],
+       "marks": 2.86
+      },
+      {
+       "name": "Manufacturing Industries",
+       "book": "Contemporary India II",
+       "topics": [
+        "Importance of manufacturing",
+        "Industrial location",
+        "Classification of industries",
+        "Agro-based industries: textiles and sugar",
+        "Mineral-based industries",
+        "Industrial pollution and environmental degradation",
+        "Control of environmental degradation"
+       ],
+       "marks": 2.86
+      },
+      {
+       "name": "Lifelines of National Economy",
+       "book": "Contemporary India II",
+       "topics": [
+        "Roadways",
+        "Railways",
+        "Pipelines",
+        "Waterways",
+        "Airways",
+        "Communication",
+        "International trade",
+        "Tourism as a trade"
+       ],
+       "marks": 2.86
+      }
+     ]
+    },
+    {
+     "name": "Political Science: Democratic Politics II",
+     "chapters": [
+      {
+       "name": "Power-sharing",
+       "book": "Democratic Politics II",
+       "topics": [
+        "Belgium and Sri Lanka",
+        "Majoritarianism in Sri Lanka",
+        "Accommodation in Belgium",
+        "Why is power sharing desirable?",
+        "Forms of power sharing"
+       ],
+       "marks": 4.0
+      },
+      {
+       "name": "Federalism",
+       "book": "Democratic Politics II",
+       "topics": [
+        "What is federalism?",
+        "What makes India a federal country?",
+        "How is federalism practised?",
+        "Decentralisation in India"
+       ],
+       "marks": 4.0
+      },
+      {
+       "name": "Gender, Religion and Caste",
+       "book": "Democratic Politics II",
+       "topics": [
+        "Gender and politics",
+        "Public and private division",
+        "Women's political representation",
+        "Religion, communalism and politics",
+        "Communalism",
+        "Secular state",
+        "Caste and politics",
+        "Caste inequalities",
+        "Caste in politics, and politics in caste"
+       ],
+       "marks": 4.0
+      },
+      {
+       "name": "Political Parties",
+       "book": "Democratic Politics II",
+       "topics": [
+        "Why do we need political parties?",
+        "Meaning and functions of parties",
+        "How many parties should we have?",
+        "National political parties",
+        "State parties",
+        "Challenges to political parties",
+        "How can parties be reformed?"
+       ],
+       "marks": 4.0
+      },
+      {
+       "name": "Outcomes of Democracy",
+       "book": "Democratic Politics II",
+       "topics": [
+        "How do we assess democracy's outcomes?",
+        "Accountable, responsive and legitimate government",
+        "Economic growth and development",
+        "Reduction of inequality and poverty",
+        "Accommodation of social diversity",
+        "Dignity and freedom of the citizens"
+       ],
+       "marks": 4.0
+      }
+     ]
+    },
+    {
+     "name": "Economics: Understanding Economic Development",
+     "chapters": [
+      {
+       "name": "Development",
+       "book": "Understanding Economic Development",
+       "topics": [
+        "What development promises: different people, different goals",
+        "Income and other goals",
+        "National development",
+        "How to compare different countries or states?",
+        "Income and other criteria",
+        "Public facilities",
+        "Sustainability of development"
+       ],
+       "marks": 4.0
+      },
+      {
+       "name": "Sectors of the Indian Economy",
+       "book": "Understanding Economic Development",
+       "topics": [
+        "Sectors of economic activities",
+        "Comparing the three sectors",
+        "Primary, secondary and tertiary sectors in India",
+        "Where are most of the people employed?",
+        "How to create more employment?",
+        "Division of sectors as organised and unorganised",
+        "How to protect workers in the unorganised sector?",
+        "Sectors in terms of ownership: public and private"
+       ],
+       "marks": 4.0
+      },
+      {
+       "name": "Money and Credit",
+       "book": "Understanding Economic Development",
+       "topics": [
+        "Money as a medium of exchange",
+        "Modern forms of money",
+        "Loan activities of banks",
+        "Two different credit situations",
+        "Terms of credit",
+        "Variety of credit arrangements",
+        "Formal sector credit in India",
+        "Self-help groups for the poor"
+       ],
+       "marks": 4.0
+      },
+      {
+       "name": "Globalisation and the Indian Economy",
+       "book": "Understanding Economic Development",
+       "topics": [
+        "Production across countries",
+        "Interlinking production across countries",
+        "Foreign trade and integration of markets",
+        "What is globalisation?",
+        "Factors that have enabled globalisation",
+        "World Trade Organisation",
+        "Impact of globalisation in India",
+        "The struggle for fair globalisation"
+       ],
+       "marks": 4.0
+      },
+      {
+       "name": "Consumer Rights",
+       "book": "Understanding Economic Development",
+       "topics": [
+        "The consumer in the marketplace",
+        "The consumer movement",
+        "Consumer rights: safety, information and choice",
+        "Where should consumers go to get justice?",
+        "Learning to become well-informed consumers",
+        "Taking the consumer movement forward"
+       ],
+       "marks": 4.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi Course A",
+   "units": [
+    {
+     "name": "क्षितिज भाग 2",
+     "chapters": [
+      {
+       "name": "सूरदास के पद",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "राम-लक्ष्मण-परशुराम संवाद",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "आत्मकथ्य",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "उत्साह और अट नहीं रही है",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "यह दंतुरित मुसकान और फसल",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "संगतकार",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "नेताजी का चश्मा",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बालगोबिन भगत",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "लखनवी अंदाज़",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "एक कहानी यह भी",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "नौबतखाने में इबादत",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "संस्कृति",
+       "book": "क्षितिज भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "कृतिका भाग 2",
+     "chapters": [
+      {
+       "name": "माता का अँचल",
+       "book": "कृतिका भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "साना-साना हाथ जोड़ि",
+       "book": "कृतिका भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मैं क्यों लिखता हूँ?",
+       "book": "कृतिका भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi Course B",
+   "units": [
+    {
+     "name": "स्पर्श भाग 2",
+     "chapters": [
+      {
+       "name": "साखी",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "पद (मीरा)",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मनुष्यता",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "पर्वत प्रदेश में पावस",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "तोप",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "कर चले हम फ़िदा",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "आत्मत्राण",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बड़े भाई साहब",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "डायरी का एक पन्ना",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "तताँरा-वामीरो कथा",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "तीसरी कसम के शिल्पकार शैलेंद्र",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "अब कहाँ दूसरे के दुख से दुखी होने वाले",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "पतझर में टूटी पत्तियाँ",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "कारतूस",
+       "book": "स्पर्श भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "संचयन भाग 2",
+     "chapters": [
+      {
+       "name": "हरिहर काका",
+       "book": "संचयन भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "सपनों के-से दिन",
+       "book": "संचयन भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "टोपी शुक्ला",
+       "book": "संचयन भाग 2",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sanskrit",
+   "units": [
+    {
+     "name": "शेमुषी भाग 2",
+     "chapters": [
+      {
+       "name": "शुचिपर्यावरणम्",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "बुद्धिर्बलवती सदा",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "शिशुलालनम्",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "जननी तुल्यवत्सला",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "सुभाषितानि",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "सौहार्दं प्रकृतेः शोभा",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "विचित्रः साक्षी",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "सूक्तयः",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "भूकम्पविभीषिका",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      },
+      {
+       "name": "अन्योक्तयः",
+       "book": "शेमुषी भाग 2",
+       "topics": [
+        "पाठस्य अर्थः भावः च",
+        "शब्दार्थाः",
+        "व्याकरणम्",
+        "अनुवादः लेखनं च"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Information Technology",
+   "units": [
+    {
+     "name": "Part A: Employability Skills",
+     "chapters": [
+      {
+       "name": "Communication Skills II",
+       "marks": 2,
+       "topics": [
+        "The communication cycle",
+        "The 7 Cs of effective communication",
+        "Writing sentences and paragraphs",
+        "Feedback"
+       ]
+      },
+      {
+       "name": "Self-Management Skills II",
+       "marks": 2,
+       "topics": [
+        "Self-motivation",
+        "Time management",
+        "Working independently",
+        "Personal grooming"
+       ]
+      },
+      {
+       "name": "ICT Skills II",
+       "marks": 2,
+       "topics": [
+        "Operating systems and files",
+        "Care and maintenance of a computer",
+        "Computer security and privacy",
+        "Viruses and backups"
+       ]
+      },
+      {
+       "name": "Entrepreneurial Skills II",
+       "marks": 2,
+       "topics": [
+        "Entrepreneurship and society",
+        "Barriers to entrepreneurship",
+        "Entrepreneurial attitudes",
+        "Business ideas and planning"
+       ]
+      },
+      {
+       "name": "Green Skills II",
+       "marks": 2,
+       "topics": [
+        "Sustainable development goals",
+        "Green jobs",
+        "Why green jobs matter"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Part B: Subject Skills",
+     "chapters": [
+      {
+       "name": "Digital Documentation (Advanced)",
+       "marks": 10,
+       "topics": [
+        "Styles",
+        "Inserting and using images",
+        "Templates",
+        "Table of contents",
+        "Mail merge"
+       ]
+      },
+      {
+       "name": "Electronic Spreadsheet (Advanced)",
+       "marks": 10,
+       "topics": [
+        "Consolidating data",
+        "Subtotals and data tables",
+        "Scenarios and goal seek",
+        "Linking sheets and files",
+        "Sharing and tracking changes",
+        "Macros"
+       ]
+      },
+      {
+       "name": "Database Management System",
+       "marks": 10,
+       "topics": [
+        "Data and databases",
+        "Tables, fields and records",
+        "Primary and foreign keys",
+        "Tables and relationships",
+        "Queries and SQL basics",
+        "Forms and reports"
+       ]
+      },
+      {
+       "name": "Web Applications and Security",
+       "marks": 10,
+       "topics": [
+        "Networking fundamentals",
+        "Instant messaging and blogging",
+        "Online transactions and shopping",
+        "Internet security and safe passwords",
+        "Occupational health and safety"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Computer Applications",
+   "units": [
+    {
+     "name": "Computer Applications (165)",
+     "chapters": [
+      {
+       "name": "Networking",
+       "marks": 15,
+       "topics": [
+        "The internet and the World Wide Web",
+        "LAN, MAN, WAN and PAN",
+        "Network devices",
+        "Email, chat, video conferencing and e-learning",
+        "HTTP, FTP and TCP/IP",
+        "Web servers and hosting"
+       ]
+      },
+      {
+       "name": "HTML",
+       "marks": 25,
+       "topics": [
+        "Structure of an HTML page",
+        "Text formatting",
+        "Lists",
+        "Images and links",
+        "Tables",
+        "Forms",
+        "Audio and video",
+        "CSS basics"
+       ]
+      },
+      {
+       "name": "Cyber Ethics",
+       "marks": 10,
+       "topics": [
+        "Netiquette",
+        "Software licences and open source",
+        "Intellectual property and plagiarism",
+        "Digital property rights",
+        "Freedom of information and the digital divide",
+        "E-commerce and its security"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+NUMBERED
+8.1 Artwork
+8.2 Squares and Rectangles
+8.3 Constructing Squares and Rectangles
+8.4 An Exploration in Rectangles
+8.5 Exploring Diagonals of Rectangles and Squares
+8.6 Points Equidistant from Two Given Points
+BIG
+8 Playing with
+Constructions
+8.1 Artwork
+8.2 Squares and Rectangles
+• Are all the sides still equal? Yes. • Are all the angles still 90°? Yes.
+8.3 Constructing Squares and Rectangles
+•• all the angles are equal to 90º but •• opposite sides are not equal?
+8.4 An Exploration in Rectangles
+• When X is 5 mm away from A and Y is 3 cm away from B,
+• When X is 1 cm away from A and Y is 1 cm away from B,
+• When X is 2 cm away from A and Y is 4 cm away from B,
+• two identical squares; • three identical squares.
+8.5 Exploring Diagonals of Rectangles and Squares
+• One uses the fact that all the angles of a rectangle are right
+• The other uses the fact that opposite sides are equal.
+8.6 Points Equidistant from Two Given Points
+S u m m a r y
+SAMPLE
+Playing with Constructions 8 8.1 Artwork Observe the following figures and try drawing them freehand. Fig. 8.1 Reprint 2026-27 Ganita Prakash | Grade 6 188 Now, arm yourself with a ruler and a compass. Let us explore if we can draw these figures with these tools and get familiar with a compass. Observe the way a compass is made. What can one draw with the compass? Explore! Do you know what curves are? They are any shapes that can be drawn on paper with a pencil, and include straight lines, circles and other figures as shown below: Mark a point ‘P’ in your notebook. Then, mark as many points as possible, in different directions, that are 4 cm away from P. Think: Imagine marking all the points of 4 cm distance from the point P. How would they look? Try to draw it and verify if it is correct by taking some points on the curve and checking if their distances from P are indeed 4 cm. Explore, if you have not already done so, and see if a compass can be used for this purpose. You can start by marking a few points of distance 4 cm from P using the compass. How can this be done? R 4 cm 4 cm P Q Reprint 2026-27 Playing with Constructions 189 You will have to open up the compass against a ruler (see Fig. 8.2) such that the distance between the tip of the compass and the pencil is 4 cm. Now, try to get the full curve. Hint: Keep the point of the compass fixed moving only the pencil. What is the shape of the curve? It is a circle! Take a point on the circle. What will be its distance from P—equal to 4 cm, less than 4 cm or greater than 4 cm? Similarly, what will be the distance between P and another point on the circle? As shown in the figure, the point P is called the centre of the circle and the distance between the centre and any point on the circle is called the radius of the c

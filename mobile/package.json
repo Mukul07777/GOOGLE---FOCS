@@ -1,0 +1,16 @@
+{
+  "name": "focs-mobile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The Focs Android app: the web app in a native shell (Capacitor), talking to a Focs server.",
+  "scripts": {
+    "sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7",
+    "@capacitor/core": "^7"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7"
+  }
+}

@@ -1,0 +1,278 @@
+{
+ "area": "Placements",
+ "courses": [
+  {
+   "name": "Coding Interview Patterns",
+   "about": "The problem patterns coding rounds start from: arrays, hashing, pointers, searching, strings and linear structures",
+   "chapters": [
+    {
+     "name": "Complexity, Arrays and Hashing",
+     "hours": 8,
+     "weight": 3,
+     "foundation": true,
+     "topics": [
+      "Time and space complexity of a solution, and reading the constraints",
+      "Array traversal, prefix sums and difference arrays",
+      "Hash maps and hash sets: counting, lookup and grouping",
+      "Two-sum and its variants",
+      "Kadane's algorithm and maximum subarray problems",
+      "Sorting as a first step, and custom comparators"
+     ]
+    },
+    {
+     "name": "Two Pointers and Sliding Window",
+     "hours": 7,
+     "weight": 3,
+     "foundation": true,
+     "topics": [
+      "Two pointers from both ends: pairs, triplets and partitioning",
+      "Fast and slow pointers",
+      "Fixed-size sliding window",
+      "Variable-size sliding window: longest and shortest substring problems",
+      "Window with a frequency map"
+     ]
+    },
+    {
+     "name": "Binary Search Patterns",
+     "hours": 6,
+     "weight": 2.5,
+     "topics": [
+      "Binary search and its boundary cases: first and last position",
+      "Search in a rotated sorted array",
+      "Binary search on the answer: minimise the maximum, maximise the minimum",
+      "Search in a 2D matrix and peak finding"
+     ]
+    },
+    {
+     "name": "Strings",
+     "hours": 6,
+     "weight": 2,
+     "topics": [
+      "Palindromes and anagrams",
+      "String building, reversal and in-place edits",
+      "Pattern matching: the idea of KMP and rolling hash",
+      "Parsing problems: numbers, expressions and valid strings"
+     ]
+    },
+    {
+     "name": "Stacks, Queues and Linked Lists",
+     "hours": 8,
+     "weight": 2.5,
+     "topics": [
+      "Stack for matching and evaluation: brackets and expressions",
+      "Monotonic stack: next greater element and histogram area",
+      "Queue, deque and the sliding-window maximum",
+      "Linked list reversal, middle and cycle detection",
+      "Merging lists and removing the k-th node from the end",
+      "Designing an LRU cache"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Advanced Coding Patterns",
+   "about": "The patterns technical interviews go deeper on: trees, heaps, graphs, backtracking and dynamic programming",
+   "chapters": [
+    {
+     "name": "Trees and Binary Search Trees",
+     "hours": 9,
+     "weight": 3,
+     "topics": [
+      "Depth-first traversals, recursive and iterative",
+      "Level-order traversal and views of a tree",
+      "Height, diameter and balanced checks",
+      "Lowest common ancestor",
+      "Binary search tree: validate, insert, delete and k-th smallest",
+      "Building a tree from its traversals",
+      "Tries for prefix problems"
+     ]
+    },
+    {
+     "name": "Heaps, Intervals and Greedy",
+     "hours": 7,
+     "weight": 2.5,
+     "topics": [
+      "Heap for top-k and k-th largest",
+      "Merging k sorted lists and the running median",
+      "Merging and inserting intervals, meeting rooms",
+      "Greedy choices and why they work: activity selection, jump game",
+      "Greedy with sorting: minimum platforms and task scheduling"
+     ]
+    },
+    {
+     "name": "Graph Patterns",
+     "hours": 9,
+     "weight": 3,
+     "topics": [
+      "Representing a graph, and grids as graphs",
+      "Breadth-first search and shortest path in an unweighted graph",
+      "Depth-first search, connected components and number of islands",
+      "Cycle detection and topological sort: course schedule",
+      "Dijkstra's algorithm in interview problems",
+      "Union-find for connectivity"
+     ]
+    },
+    {
+     "name": "Recursion and Backtracking",
+     "hours": 7,
+     "weight": 2,
+     "topics": [
+      "Thinking recursively: the choice, the constraint and the goal",
+      "Subsets, permutations and combinations",
+      "Combination sum and partition problems",
+      "N-queens, sudoku and word search",
+      "Pruning the search"
+     ]
+    },
+    {
+     "name": "Dynamic Programming Patterns",
+     "hours": 12,
+     "weight": 3.5,
+     "topics": [
+      "From recursion to memoisation to a table",
+      "One-dimensional DP: climbing stairs, house robber, coin change",
+      "Knapsack: 0/1, unbounded and subset sum",
+      "Longest increasing subsequence",
+      "Two-string DP: longest common subsequence and edit distance",
+      "Grid paths and DP on a matrix",
+      "DP on intervals and on trees: the idea",
+      "Reducing space in a DP"
+     ]
+    },
+    {
+     "name": "Bit Manipulation and Maths",
+     "hours": 4,
+     "weight": 1.5,
+     "topics": [
+      "Bitwise operators, set bits and powers of two",
+      "XOR tricks: the single number",
+      "Primes, the sieve, GCD and modular arithmetic",
+      "Fast exponentiation and counting with combinatorics"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "System Design Basics",
+   "about": "Object-oriented design and the building blocks of large systems, as asked for freshers at product companies",
+   "chapters": [
+    {
+     "name": "Object-Oriented Design",
+     "hours": 7,
+     "weight": 3,
+     "foundation": true,
+     "topics": [
+      "From requirements to classes: entities, relationships and responsibilities",
+      "The SOLID principles",
+      "Composition over inheritance, and interfaces",
+      "Class and sequence diagrams for an interview",
+      "Classic low-level designs: parking lot, library, elevator"
+     ]
+    },
+    {
+     "name": "Design Patterns",
+     "hours": 5,
+     "weight": 2,
+     "topics": [
+      "Singleton, factory and builder",
+      "Observer and strategy",
+      "Adapter and decorator",
+      "When a pattern helps and when it is over-engineering"
+     ]
+    },
+    {
+     "name": "Scaling a System",
+     "hours": 7,
+     "weight": 2.5,
+     "topics": [
+      "Clients, servers, DNS and what happens when you open a URL",
+      "Vertical and horizontal scaling, and load balancers",
+      "Caching: where to cache, eviction and invalidation",
+      "Content delivery networks",
+      "Stateless services and sessions"
+     ]
+    },
+    {
+     "name": "Data at Scale",
+     "hours": 7,
+     "weight": 2.5,
+     "topics": [
+      "SQL or NoSQL: choosing a database",
+      "Indexes, replication and read replicas",
+      "Sharding and consistent hashing",
+      "The CAP theorem and eventual consistency",
+      "Message queues and asynchronous processing"
+     ]
+    },
+    {
+     "name": "APIs and Classic Designs",
+     "hours": 8,
+     "weight": 2.5,
+     "topics": [
+      "REST APIs: resources, status codes and idempotency",
+      "Authentication basics: sessions, tokens and OAuth in one line each",
+      "Rate limiting",
+      "Designing a URL shortener",
+      "Designing a chat or a news feed: the outline",
+      "Estimating load: users, requests per second and storage"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Interview Skills",
+   "about": "Your resume, your projects and the HR round: what interviewers ask and what a strong answer has",
+   "chapters": [
+    {
+     "name": "Resume and Projects",
+     "hours": 4,
+     "weight": 3,
+     "foundation": true,
+     "topics": [
+      "A one-page resume: what goes in and what comes out",
+      "Writing a project in bullet points: action, technology, result",
+      "Explaining a project in two minutes",
+      "Questions interviewers ask on a project, and on its trade-offs",
+      "Your GitHub, LinkedIn and coding profiles"
+     ]
+    },
+    {
+     "name": "The Placement Process",
+     "hours": 3,
+     "weight": 2,
+     "topics": [
+      "The rounds: online test, coding round, technical interviews and HR",
+      "How online assessments are scored and proctored",
+      "Thinking aloud in a coding interview: clarify, plan, code, test",
+      "What to do when you are stuck",
+      "Reading a job description, CTC and an offer letter"
+     ]
+    },
+    {
+     "name": "Behavioural and HR Questions",
+     "hours": 5,
+     "weight": 3,
+     "topics": [
+      "Tell me about yourself",
+      "The STAR method for behavioural answers",
+      "Strengths, weaknesses and failures",
+      "Teamwork, conflict and leadership stories",
+      "Why this company, and where you see yourself",
+      "Questions to ask the interviewer"
+     ]
+    },
+    {
+     "name": "Communication and Group Discussion",
+     "hours": 3,
+     "weight": 1.5,
+     "topics": [
+      "Speaking clearly and structuring an answer",
+      "Group discussion: opening, building on a point and summarising",
+      "Email and message etiquette with recruiters",
+      "Interview manners, online and in person"
+     ]
+    }
+   ]
+  }
+ ]
+}

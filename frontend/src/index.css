@@ -1,0 +1,1577 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+@custom-variant light (&:where([data-theme="light"], [data-theme="light"] *));
+
+/* ------------------------------------------------------------------ tokens */
+/* Focs's look: editorial and monochrome, like a fashion lookbook. Stone (light, the first look) is warm grey paper
+   with pure black ink; Ink (dark) turns it over: near-black with ivory type. No gradients, no glow: flat surfaces,
+   square edges, hairline rules, solid black buttons, and Jost capitals set wide for labels, the way a magazine runs
+   its section heads. Colour is kept for meaning only (live, right, wrong, careful). Every text colour passes WCAG AA
+   on its page and on its cards. */
+:root,
+[data-theme="light"] {
+  --bg: #e9e7e3;
+  --bg-soft: #f3f2ef;
+  --panel: #f6f5f2;
+  --elev: #f8f7f4;
+  --elev-2: #dedbd5;
+  --line: rgb(17 17 17 / 0.12);
+  --line-strong: rgb(17 17 17 / 0.26);
+  --hover: rgb(17 17 17 / 0.05);
+  --fg: #0d0d0d;
+  --fg-soft: #2b2a28;
+  --muted: #595752;
+  --accent: #0d0d0d;
+  --accent-hi: #2f2f2f;
+  --accent-lo: #5a5a5a;
+  --accent-2: #45433f;
+  --accent-3: #66625c;
+  --accent-fg: #f6f5f2;
+  --accent-soft: rgb(13 13 13 / 0.06);
+  --ok: #1f5c36;
+  --warn: #874707;
+  --bad: #a01b28;
+  --board: #1c1c1b;
+  --frame: rgb(17 17 17 / 0.14);
+  --rim: transparent;
+  --hl: #0d0d0d;
+  --hl-soft: rgb(13 13 13 / 0.07);
+  --gold: #0d0d0d;
+  --brand-fg: #f6f5f2;
+  --sel-bg: #0d0d0d;
+  --sel-fg: #f6f5f2;
+  --ai: #0d0d0d;
+  --ai-glow: transparent;
+  --grad-text: linear-gradient(#0d0d0d, #0d0d0d);
+  --panel-sheen: none;
+  --spot: rgb(13 13 13 / 0.03);
+  --shadow: none;
+  --shadow-lift: 0 0 0 1px #0d0d0d;
+  --glow: 0 0 0 1px #0d0d0d;
+  --metal: #0d0d0d;
+  --aurora: none;
+  --grid: transparent;
+  --grain: 0.022;
+  --grain-invert: 1;
+  --band: #0d0d0d;
+  --band-fg: #f3f2ef;
+  --band-muted: #b9b6b0;
+  --display-weight: 500;
+  --toast-border: 1px solid var(--line-strong);
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #0e0e0d;
+  --bg-soft: #141413;
+  --panel: #161615;
+  --elev: #1b1b1a;
+  --elev-2: #262624;
+  --line: rgb(255 255 255 / 0.1);
+  --line-strong: rgb(255 255 255 / 0.22);
+  --hover: rgb(255 255 255 / 0.05);
+  --fg: #f2f0eb;
+  --fg-soft: #d0cdc6;
+  --muted: #9d9991;
+  --accent: #f2f0eb;
+  --accent-hi: #ffffff;
+  --accent-lo: #bdb9b1;
+  --accent-2: #c9c5bd;
+  --accent-3: #aaa59c;
+  --accent-fg: #0e0e0d;
+  --accent-soft: rgb(242 240 235 / 0.08);
+  --ok: #82cf9c;
+  --warn: #e8b46a;
+  --bad: #f18a90;
+  --board: #20201f;
+  --frame: rgb(255 255 255 / 0.11);
+  --rim: transparent;
+  --hl: #f2f0eb;
+  --hl-soft: rgb(242 240 235 / 0.08);
+  --gold: #f2f0eb;
+  --brand-fg: #0e0e0d;
+  --sel-bg: #f2f0eb;
+  --sel-fg: #0e0e0d;
+  --ai: #f2f0eb;
+  --ai-glow: transparent;
+  --grad-text: linear-gradient(#f2f0eb, #f2f0eb);
+  --panel-sheen: none;
+  --spot: rgb(255 255 255 / 0.03);
+  --shadow: none;
+  --shadow-lift: 0 0 0 1px #f2f0eb;
+  --glow: 0 0 0 1px #f2f0eb;
+  --metal: #f2f0eb;
+  --aurora: none;
+  --grid: transparent;
+  --grain: 0.03;
+  --grain-invert: 0;
+  --band: #f2f0eb;
+  --band-fg: #0e0e0d;
+  --band-muted: #4f4c47;
+  --display-weight: 500;
+  --toast-border: 1px solid var(--line-strong);
+  color-scheme: dark;
+}
+
+/* Fonts are read at run time (not baked into the utilities), so Settings → Accessibility can swap them. */
+:root {
+  --sans-face: "Geist Variable", "Noto Sans Devanagari", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* headings, labels and buttons: a geometric face in the Futura tradition, the lookbook's capitals */
+  --display-face: "Jost Variable", "Noto Sans Devanagari", var(--sans-face);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-panel: var(--panel);
+  --color-elev: var(--elev);
+  --color-elev-2: var(--elev-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-hover: var(--hover);
+  --color-fg: var(--fg);
+  --color-fg-soft: var(--fg-soft);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-hi: var(--accent-hi);
+  --color-accent-lo: var(--accent-lo);
+  --color-accent-2: var(--accent-2);
+  --color-accent-3: var(--accent-3);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-soft: var(--accent-soft);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+  --color-board: var(--board);
+  --color-frame: var(--frame);
+  --color-hl: var(--hl);
+  --color-hl-soft: var(--hl-soft);
+  --color-brand-fg: var(--brand-fg);
+  --color-ai: var(--ai);
+  --font-sans: var(--sans-face);
+  --font-mono: "Geist Mono Variable", ui-monospace, "Cascadia Code", Consolas, monospace;
+  --font-display: var(--display-face);
+  /* the one italic word a headline turns on: Jost's own italic, so the page stays in one family like the lookbook */
+  --font-serif: var(--display-face);
+  --font-brand: var(--display-face);
+  --color-band: var(--band);
+  --color-band-fg: var(--band-fg);
+  --color-band-muted: var(--band-muted);
+  --shadow-panel: var(--shadow);
+  /* square edges everywhere: the lookbook's photographs and buttons have no rounded corners */
+  --radius-xs: 1px;
+  --radius-sm: 2px;
+  --radius-md: 2px;
+  --radius-lg: 2px;
+  --radius-xl: 3px;
+  --radius-2xl: 3px;
+  --radius-3xl: 4px;
+  --radius-4xl: 4px;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ------------------------------------------------------------------ base */
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-bg text-fg font-sans;
+    letter-spacing: -0.006em;
+  }
+  /* a fine paper grain over everything: what makes a flat colour read as a material */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: var(--grain);
+    filter: invert(var(--grain-invert));
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  ::selection {
+    background: var(--fg);
+    color: var(--bg);
+  }
+  *:focus-visible {
+    outline: 2px solid var(--fg);
+    outline-offset: 2px;
+    border-radius: 0;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in oklab, var(--fg) 22%, transparent);
+    border-radius: 0;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: color-mix(in oklab, var(--fg) 32%, transparent);
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+/* Headlines in Jost in every heading of the app (notes and revision sheets keep their own). In the base layer, so a
+   page's own classes (and the lookbook classes below) still win. */
+@layer base {
+  h1:not(.prose-notes h1) {
+    font-family: var(--font-display);
+    font-weight: var(--display-weight);
+    letter-spacing: -0.02em;
+    line-height: 1.04;
+    text-wrap: balance;
+  }
+  :is(h2, h3):not(.prose-notes *, .sheet-body *) {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  h2:not(.prose-notes h2) {
+    text-wrap: balance;
+  }
+  h3:not(.prose-notes *, .sheet-body *) {
+    letter-spacing: 0;
+  }
+}
+/* Settings → Accessibility → legible font: headings follow the body into Atkinson Hyperlegible */
+html[data-font="legible"] {
+  --display-weight: 700;
+  --display-face: var(--sans-face);
+}
+
+/* The lookbook's type: capitals set wide for labels and links, heavy capitals for the big headline, and a band in the
+   opposite colour. In the components layer, so a size or spacing class on the same element still wins. */
+@layer components {
+  .caps {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+  }
+  .display-caps {
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.015em;
+    line-height: 0.95;
+  }
+  /* a text link with a rule under it ("EXPLORE NEW IN", "VIEW ALL") */
+  .link-line {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding-bottom: 3px;
+    border-bottom: 1px solid currentColor;
+    font-family: var(--font-display);
+    font-size: 11.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    transition: opacity 0.2s, gap 0.25s var(--ease-out-expo);
+  }
+  .link-line:hover {
+    gap: 0.7em;
+    opacity: 0.75;
+  }
+  /* black on Stone, ivory on Ink */
+  .band {
+    background: var(--band);
+    color: var(--band-fg);
+  }
+  /* a grey "photograph" inside the band: a lighter square of the band's own colours */
+  .band-tile {
+    background: linear-gradient(160deg, color-mix(in oklab, var(--band-fg) 24%, var(--band)), color-mix(in oklab, var(--band-fg) 7%, var(--band)));
+    color: var(--band-fg);
+  }
+}
+
+/* ------------------------------------------------------------------ components */
+@layer components {
+  /* A card is a flat sheet with a hairline edge and square corners, like a print on the page. */
+  .panel {
+    border: 1px solid var(--frame);
+    border-radius: 3px;
+    background-color: var(--panel);
+    box-shadow: var(--shadow);
+  }
+  /* A card that can be opened: a light follows the pointer across it, it rises, and Focs's focus brackets lock onto
+     it (the AI layer marking what you are looking at). Keyboard focus locks on too. */
+  .lift {
+    position: relative;
+    transition: translate 0.35s var(--ease-out-expo), border-color 0.25s;
+  }
+  .lift:hover {
+    translate: 0 -2px;
+    border-color: var(--fg);
+  }
+  .lift::after,
+  .lock::before,
+  .brackets,
+  .det::before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    --arm: 12px;
+    --w: 1.5px;
+    background:
+      linear-gradient(var(--ai) 0 0) 0 0 / var(--arm) var(--w), linear-gradient(var(--ai) 0 0) 0 0 / var(--w) var(--arm),
+      linear-gradient(var(--ai) 0 0) 100% 0 / var(--arm) var(--w), linear-gradient(var(--ai) 0 0) 100% 0 / var(--w) var(--arm),
+      linear-gradient(var(--ai) 0 0) 0 100% / var(--arm) var(--w), linear-gradient(var(--ai) 0 0) 0 100% / var(--w) var(--arm),
+      linear-gradient(var(--ai) 0 0) 100% 100% / var(--arm) var(--w), linear-gradient(var(--ai) 0 0) 100% 100% / var(--w) var(--arm);
+    background-repeat: no-repeat;
+  }
+  .lift::after {
+    display: none;
+    inset: -8px;
+    border-radius: 4px;
+    opacity: 0;
+    scale: 1.06;
+    transition: opacity 0.2s, scale 0.5s var(--ease-out-expo);
+  }
+  .lift:hover::after,
+  .lift:focus-visible::after,
+  .lift:focus-within::after,
+  .lift[data-on]::after {
+    opacity: 1;
+    scale: 1;
+  }
+  /* the same brackets locking onto a word as the page opens; data-hud adds a read-out under it */
+  .lock {
+    position: relative;
+    display: inline-block;
+  }
+  .lock::before {
+    inset: 0.02em -0.1em -0.04em;
+    --arm: 0.16em;
+    --w: 2px;
+    animation: lock-on 0.9s var(--ease-out-expo) 0.2s both;
+  }
+  .lock[data-hud]::after {
+    content: attr(data-hud);
+    position: absolute;
+    right: -0.1em;
+    bottom: -20px;
+    font: 500 10.5px/1 var(--font-display);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ai);
+    white-space: nowrap;
+    animation: hud-in 0.5s ease-out 1s both;
+  }
+  /* a small label: wide capitals behind a square */
+  .hud {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6em;
+    font: 500 10.5px/1 var(--font-display);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ai);
+  }
+  .hud::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: currentColor;
+  }
+  /* glass you can see the page through: overlays, floating bars */
+  .glass {
+    background-color: color-mix(in oklab, var(--bg-soft) 94%, transparent);
+    backdrop-filter: blur(16px);
+  }
+  .glass-bar {
+    background-color: color-mix(in oklab, var(--bg) 92%, transparent);
+    backdrop-filter: blur(16px);
+  }
+  .glow {
+    box-shadow: var(--glow);
+  }
+  /* the word that matters: set in plain ink (no gradient in this look) */
+  .text-gradient {
+    color: var(--fg);
+  }
+  /* the brand fill: solid ink (avatars, tiles, your own chat bubbles) */
+  .bg-gradient-brand {
+    background: var(--fg);
+    color: var(--bg);
+  }
+  .hairline {
+    height: 1px;
+    background: var(--line-strong);
+  }
+  .figure {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+  /* a section's label: wide capitals over a short rule ("FASHION THAT MOVES WITH YOU.") */
+  .eyebrow {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 12px;
+    font: 500 11.5px/1.6 var(--font-display);
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: var(--fg);
+  }
+  .eyebrow::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2.4rem;
+    height: 1px;
+    background: currentColor;
+  }
+  .text-center .eyebrow::after,
+  .eyebrow.text-center::after {
+    left: 50%;
+    translate: -50% 0;
+  }
+  /* a featured card: a ring of light runs round its edge */
+  .ring-gradient {
+    position: relative;
+    isolation: isolate;
+  }
+  .ring-gradient::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    z-index: 1;
+    border-radius: inherit;
+    padding: 1px;
+    background: var(--fg);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+  .grid-bg {
+    background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: radial-gradient(ellipse at 50% 0%, #000 20%, transparent 70%);
+  }
+  .noise::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  .chalk {
+    font-family: "Segoe Print", "Comic Sans MS", var(--font-sans);
+    color: #f1f1ea;
+    text-shadow: 0 0 1px rgb(255 255 255 / 0.4);
+  }
+  /* FocsOCR's reading line over a board */
+  .scanline {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 72px;
+    background: linear-gradient(180deg, transparent, rgb(255 255 255 / 0.07) 80%, rgb(255 255 255 / 0.5) 97%, transparent);
+    animation: scan 3.2s ease-in-out infinite;
+    pointer-events: none;
+  }
+  .live-dot {
+    @apply relative inline-flex h-2.5 w-2.5 rounded-full bg-bad;
+  }
+  .live-dot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 999px;
+    background: var(--bad);
+    animation: ping 1.6s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+  .skeleton {
+    background: linear-gradient(90deg, var(--elev-2) 0%, color-mix(in oklab, var(--fg) 7%, var(--elev-2)) 50%, var(--elev-2) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.6s linear infinite;
+  }
+  .flip-card {
+    perspective: 1600px;
+  }
+  .flip-inner {
+    transition: transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transform-style: preserve-3d;
+  }
+  .flip-inner.flipped {
+    transform: rotateY(180deg);
+  }
+  .flip-face {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .flip-back {
+    transform: rotateY(180deg);
+  }
+  .grow-x {
+    transform-origin: left;
+    animation: grow-x 1.1s var(--ease-out-expo) backwards;
+  }
+  .draw-ring {
+    animation: draw-ring 1.3s var(--ease-out-expo) backwards;
+  }
+}
+
+/* ------------------------------------------------------------------ controls (components/ui) */
+@layer components {
+  /* Buttons are the lookbook's: square, wide capitals in Jost. */
+  .btn {
+    font-family: var(--font-display);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+  .btn:active {
+    scale: 0.98;
+  }
+  /* the next thing to do: solid ink ("SHOP NOW") */
+  .btn-primary {
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  .btn-primary:hover {
+    background: color-mix(in oklab, var(--accent) 80%, var(--bg));
+    border-color: color-mix(in oklab, var(--accent) 80%, var(--bg));
+  }
+  /* an outlined button that fills with ink under the pointer */
+  .btn-secondary {
+    border: 1px solid var(--fg);
+    background-color: transparent;
+    color: var(--fg);
+  }
+  .btn-secondary:hover {
+    background-color: var(--fg);
+    color: var(--bg);
+  }
+  .btn-ghost {
+    color: var(--fg-soft);
+  }
+  .btn-ghost:hover {
+    color: var(--fg);
+    background-color: var(--hover);
+  }
+  .btn-outline {
+    border: 1px solid var(--line-strong);
+    color: var(--fg);
+  }
+  .btn-outline:hover {
+    border-color: var(--fg);
+  }
+  .btn-danger {
+    border: 1px solid color-mix(in oklab, var(--bad) 50%, transparent);
+    background-color: transparent;
+    color: var(--bad);
+  }
+  .btn-danger:hover {
+    background-color: color-mix(in oklab, var(--bad) 9%, transparent);
+  }
+  .btn-success {
+    border: 1px solid color-mix(in oklab, var(--ok) 50%, transparent);
+    background-color: transparent;
+    color: var(--ok);
+  }
+  .btn-success:hover {
+    background-color: color-mix(in oklab, var(--ok) 9%, transparent);
+  }
+
+  /* text fields: a square box with a hairline edge that turns to ink when it has your attention */
+  .field {
+    width: 100%;
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    background-color: var(--panel);
+    padding-inline: 0.875rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--fg);
+    transition: border-color 0.2s, background-color 0.2s, box-shadow 0.2s;
+  }
+  .field::placeholder {
+    color: color-mix(in oklab, var(--muted) 85%, transparent);
+  }
+  .field:hover {
+    border-color: color-mix(in oklab, var(--fg) 45%, transparent);
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--fg);
+    background-color: var(--elev);
+    box-shadow: 0 0 0 1px var(--fg);
+  }
+
+  /* segmented controls and tabs: a block of ink slides to the chosen option */
+  .seg {
+    border: 1px solid var(--line-strong);
+    background-color: transparent;
+  }
+  .seg-pill {
+    background-color: var(--sel-bg);
+  }
+  .seg-on {
+    color: var(--sel-fg);
+  }
+
+  /* the sidebar: wide capitals; the page you are on gets a rule of ink down its edge */
+  .nav-item {
+    color: var(--muted);
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+  .nav-item:not(.nav-item-on):hover {
+    background-color: var(--hover);
+    color: var(--fg);
+  }
+  .nav-item-on {
+    color: var(--fg);
+    font-weight: 600;
+  }
+  .nav-item-on .nav-icon {
+    color: var(--fg);
+  }
+  .nav-pill {
+    position: absolute;
+    inset: 0;
+    border-radius: 2px;
+    background-color: var(--hover);
+  }
+  .nav-pill::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--fg);
+  }
+  /* the landing page's section links: wide capitals, the one being read underlined */
+  .nav-chip {
+    padding: 0.35rem 0;
+    font-family: var(--font-display);
+    font-size: 11.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--muted);
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .nav-chip:not(.nav-chip-on):hover {
+    color: var(--fg);
+  }
+  .nav-chip-on {
+    color: var(--fg);
+    border-bottom-color: var(--fg);
+  }
+  /* a small label chip */
+  .sticker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    padding: 0.3rem 0.7rem;
+    font-family: var(--font-display);
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--fg-soft);
+    background-color: var(--bg);
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .sticker:hover {
+    border-color: var(--fg);
+    color: var(--fg);
+  }
+  /* the landing page's reading progress: a line of light along the top edge */
+  .scroll-ink {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 2px;
+    transform-origin: left;
+    background: var(--fg);
+  }
+  /* words gliding past, fading out at both ends (pauses under the pointer) */
+  .marquee {
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  }
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: ticker 46s linear infinite;
+  }
+  .marquee:hover .marquee-track {
+    animation-play-state: paused;
+  }
+  /* The bridge's lanes carry light: a pulse runs along each one, periwinkle to the student and gold back to the
+     teacher. A lane picked out by the pointer runs brighter and faster. */
+  .lane-line {
+    --c: var(--accent);
+    position: absolute;
+    inset-inline: 0;
+    top: 50%;
+    height: 1.5px;
+    translate: 0 -50%;
+    overflow: hidden;
+    background: linear-gradient(90deg, transparent, color-mix(in oklab, var(--c) 32%, transparent) 12%, color-mix(in oklab, var(--c) 32%, transparent) 88%, transparent);
+    transition: height 0.25s;
+  }
+  .lane-line::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    background: linear-gradient(90deg, transparent, var(--c), transparent);
+    animation: beam 2.4s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  }
+  .lane-back .lane-line {
+    --c: var(--muted);
+  }
+  .lane-back .lane-line::after {
+    animation-direction: reverse;
+  }
+  .lane[data-on] .lane-line {
+    height: 2.5px;
+  }
+  .lane[data-on] .lane-line::after {
+    animation-duration: 1.1s;
+  }
+  /* on a phone the sides stack and the light runs down between them */
+  .lane-down {
+    overflow: hidden;
+    background: linear-gradient(180deg, transparent, color-mix(in oklab, var(--accent) 32%, transparent) 10%, color-mix(in oklab, var(--accent) 32%, transparent) 90%, transparent);
+  }
+  .lane-down::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    height: 30%;
+    background: linear-gradient(180deg, transparent, var(--accent), transparent);
+    animation: beam-down 2.6s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  }
+  /* something a pointer tilts in 3-D (useTilt): it leans toward the pointer */
+  .tilt {
+    transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+    transition: transform 0.6s var(--ease-out-expo);
+  }
+  .tilt[data-tilting] {
+    transition-duration: 0.12s;
+  }
+  /* Focs's lens behind a hero: rings like the logo's, one arc of light turning on them */
+  .lens-spin {
+    transform-origin: center;
+    animation: lens-spin 28s linear infinite;
+  }
+  .lens-spin-rev {
+    transform-origin: center;
+    animation: lens-spin 46s linear infinite reverse;
+  }
+}
+
+/* the AI layer's motion */
+@keyframes lock-on {
+  from {
+    opacity: 0;
+    scale: 1.3;
+  }
+  55% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+@keyframes hud-in {
+  from {
+    opacity: 0;
+    translate: 0 -4px;
+  }
+}
+@keyframes hud-blink {
+  50% {
+    opacity: 0.25;
+  }
+}
+@keyframes ticker {
+  to {
+    translate: -50% 0;
+  }
+}
+@keyframes beam {
+  from {
+    left: -40%;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes beam-down {
+  from {
+    top: -30%;
+  }
+  to {
+    top: 100%;
+  }
+}
+@keyframes lens-spin {
+  to {
+    rotate: 360deg;
+  }
+}
+
+/* ------------------------------------------------------------------ backdrop */
+/* components/Backdrop.tsx: a faint grid under the aurora, and on wide screens the AI layer at work in the margins:
+   formulas from a lecture board that FocsOCR has picked out (brackets, a confidence read-out) and line diagrams drawn
+   in light. As a landing page opens, a reading line passes down it and each formula locks as the line reaches it. */
+@layer components {
+  .backdrop {
+    inset: 0;
+    z-index: -10;
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
+  }
+  .bd-grid {
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 56px 56px;
+    background-position: center top;
+    -webkit-mask-image: radial-gradient(ellipse 85% 65% at 50% 0%, #000 25%, transparent 75%);
+    mask-image: radial-gradient(ellipse 85% 65% at 50% 0%, #000 25%, transparent 75%);
+  }
+  .backdrop-quiet .bd-grid {
+    opacity: 0.6;
+    -webkit-mask-image: radial-gradient(ellipse 70% 45% at 60% 0%, #000 10%, transparent 70%);
+    mask-image: radial-gradient(ellipse 70% 45% at 60% 0%, #000 10%, transparent 70%);
+  }
+  .det {
+    position: absolute;
+    padding: 5px 10px 6px;
+    font: italic 400 24px/1.1 var(--font-serif);
+    color: color-mix(in oklab, var(--fg) 20%, transparent);
+    white-space: nowrap;
+  }
+  .det::before {
+    inset: 0;
+    --arm: 8px;
+    --w: 1.5px;
+    opacity: 0.55;
+  }
+  .det::after {
+    content: attr(data-conf);
+    position: absolute;
+    left: 1px;
+    top: -15px;
+    font: 500 9px/1 var(--font-mono);
+    letter-spacing: 0.16em;
+    color: var(--ai);
+    opacity: 0.7;
+  }
+  .det-text::before {
+    content: attr(data-text);
+  }
+  .det-read::before {
+    animation: lock-on 0.8s var(--ease-out-expo) var(--read-at) both;
+  }
+  .det-read::after {
+    animation: hud-in 0.5s ease-out calc(var(--read-at) + 0.3s) both;
+  }
+  .holo {
+    display: block;
+    height: auto;
+    overflow: visible;
+    fill: none;
+    stroke: var(--ai);
+    stroke-width: 1.3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 0.14;
+  }
+  .backdrop-scan {
+    position: absolute;
+    inset-inline: 0;
+    top: 0;
+    height: 90px;
+    background: linear-gradient(to bottom, transparent, color-mix(in oklab, var(--ai) 2%, transparent) 60%, color-mix(in oklab, var(--ai) 7%, transparent) 97.5%, color-mix(in oklab, var(--ai) 50%, transparent) 99.2%, transparent);
+    animation: backdrop-scan 3s linear 0.6s both;
+  }
+}
+@keyframes backdrop-scan {
+  0% {
+    transform: translateY(-200px);
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(660px);
+    opacity: 0;
+  }
+}
+
+@layer base {
+/* A page arrives one block after another: each top-level block of the page rises into place, a beat after the one
+   above it. (No lasting transform: "backwards" only holds the first frame, so sticky and fixed children are safe.) */
+.page-enter > * > * {
+  animation: rise 0.7s var(--ease-out-expo) backwards;
+}
+.page-enter > * > *:nth-child(2) { animation-delay: 70ms; }
+.page-enter > * > *:nth-child(3) { animation-delay: 140ms; }
+.page-enter > * > *:nth-child(4) { animation-delay: 210ms; }
+.page-enter > * > *:nth-child(5) { animation-delay: 270ms; }
+.page-enter > * > *:nth-child(n + 6) { animation-delay: 320ms; }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes spin-angle {
+  to {
+    --angle: 360deg;
+  }
+}
+@keyframes scan {
+  0% {
+    top: -72px;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@keyframes ping {
+  75%,
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+}
+@keyframes grow-x {
+  from {
+    transform: scaleX(0);
+  }
+}
+@keyframes draw-ring {
+  from {
+    stroke-dashoffset: var(--ring-length);
+  }
+}
+/* the opening screen: the mark draws itself, then breathes */
+@keyframes mark-in {
+  from {
+    opacity: 0;
+    transform: scale(0.86);
+    filter: blur(6px);
+  }
+}
+@keyframes breathe {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(0.96);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ------------------------------------------------------------------ accessibility (Settings → Accessibility) */
+/* Text size scales the app itself, not the browser window, so the layout keeps its breakpoints readable. */
+html[data-zoom="on"] #root {
+  zoom: var(--a11y-zoom);
+}
+html[data-spacing="wide"] :where(p, li, td, th, dd, blockquote, .prose-notes) {
+  line-height: 1.85 !important;
+  letter-spacing: 0.012em;
+  word-spacing: 0.06em;
+}
+html[data-font="legible"] {
+  --sans-face: "Atkinson Hyperlegible", "Noto Sans Devanagari", ui-sans-serif, system-ui, sans-serif;
+}
+html[data-contrast="high"] {
+  --fg-soft: #141414;
+  --muted: #33312e;
+  --line: rgb(0 0 0 / 0.26);
+  --line-strong: rgb(0 0 0 / 0.46);
+  --frame: rgb(0 0 0 / 0.32);
+}
+html[data-contrast="high"][data-theme="dark"] {
+  --fg-soft: #ece9e3;
+  --muted: #cbc7bf;
+  --line: rgb(255 255 255 / 0.22);
+  --line-strong: rgb(255 255 255 / 0.4);
+  --frame: rgb(255 255 255 / 0.3);
+}
+html[data-contrast="high"] *:focus-visible {
+  outline: 3px solid var(--fg);
+  outline-offset: 3px;
+}
+html[data-motion="reduce"] *,
+html[data-motion="reduce"] *::before,
+html[data-motion="reduce"] *::after {
+  animation-duration: 0.01ms !important;
+  animation-delay: 0ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+/* Text only screen readers hear: live announcements of new notes, captions and quizzes. */
+.sr-only-live {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ------------------------------------------------------------------ markdown notes */
+.prose-notes {
+  @apply text-[0.95rem] leading-relaxed text-fg-soft;
+}
+.prose-notes h1,
+.prose-notes h2,
+.prose-notes h3,
+.prose-notes h4 {
+  @apply mt-4 mb-2 font-semibold tracking-tight text-fg first:mt-0;
+}
+.prose-notes h1 {
+  @apply text-xl;
+}
+.prose-notes h2 {
+  @apply text-lg;
+}
+.prose-notes h3 {
+  @apply text-[0.8rem] uppercase tracking-[0.08em] text-muted;
+}
+.prose-notes p {
+  @apply my-2;
+}
+.prose-notes ul,
+.prose-notes ol {
+  @apply my-2 space-y-1 pl-5;
+}
+.prose-notes ul {
+  list-style: none;
+}
+.prose-notes ul > li {
+  position: relative;
+}
+.prose-notes ul > li::before {
+  content: "";
+  position: absolute;
+  left: -0.95rem;
+  top: 0.62em;
+  width: 5px;
+  height: 5px;
+  background: var(--metal);
+}
+.prose-notes ol {
+  list-style: decimal;
+}
+.prose-notes strong {
+  @apply font-semibold text-fg;
+}
+.prose-notes code {
+  @apply rounded-md border border-line bg-elev-2 px-1.5 py-0.5 font-mono text-[0.85em] text-fg;
+}
+.prose-notes pre {
+  @apply my-3 overflow-x-auto rounded-xl border border-line bg-elev-2 p-3;
+}
+.prose-notes pre code {
+  @apply border-0 bg-transparent p-0;
+}
+.prose-notes blockquote {
+  @apply my-3 border-l-2 border-accent/60 pl-3 text-muted;
+}
+.prose-notes a {
+  @apply text-accent underline underline-offset-2;
+}
+/* tables slide sideways inside whatever holds them (see ScrollX) instead of spilling out of it */
+.prose-notes .md-table {
+  @apply my-3;
+}
+.prose-notes table {
+  @apply border-collapse text-sm;
+  width: max-content;
+  min-width: 100%;
+}
+.prose-notes th,
+.prose-notes td {
+  @apply border border-line px-2.5 py-1.5 text-left align-top;
+  max-width: 22rem; /* a long cell wraps rather than making the table endless */
+}
+.prose-notes th {
+  @apply bg-elev-2/60 font-semibold text-fg;
+}
+.prose-notes {
+  overflow-wrap: anywhere; /* a long unbroken formula name or link never widens the bubble */
+}
+.prose-notes .katex-display {
+  @apply my-3 overflow-x-auto overflow-y-hidden rounded-xl border border-line bg-elev-2/60 px-3 py-2;
+}
+.prose-notes .katex {
+  font-size: 1.05em;
+  color: var(--fg);
+}
+
+/* ------------------------------------------------------------------ revision sheet */
+.print-only {
+  display: none;
+}
+.sheet-body .md-table {
+  @apply my-1 rounded-xl;
+  border: 1px solid var(--line);
+}
+.sheet-body table {
+  @apply text-[13.5px];
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.sheet-body thead th {
+  @apply bg-elev-2 px-3 py-2 text-left text-[11px] font-semibold uppercase tracking-[0.08em] text-muted;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+.sheet-body tbody td {
+  @apply px-3 py-2.5 align-top text-fg-soft;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+.sheet-body tbody tr:last-child td {
+  border-bottom: 0;
+}
+.sheet-body tbody td:first-child {
+  @apply whitespace-nowrap text-fg;
+}
+.sheet-body tbody tr:hover td {
+  background: color-mix(in oklab, var(--elev-2) 60%, transparent);
+}
+
+/* ------------------------------------------------------------------ sideways scrolling (ScrollX) */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.scroll-fade-right {
+  mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+}
+.scroll-fade-left {
+  mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent);
+}
+.scroll-fade-both {
+  mask-image: linear-gradient(to right, transparent, #000 28px, #000 calc(100% - 28px), transparent);
+}
+
+/* Edge/IE draw their own password-reveal and clear buttons; Focs has its own show-password toggle */
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+/* ------------------------------------------------------------------ notes reader (detailed notes, capsules) */
+.notes-reader .prose-notes {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.notes-reader .prose-notes .katex {
+  font-size: 1.08em;
+}
+.notes-reader .sheet-body table {
+  font-size: 0.94em;
+}
+.notes-reader .sheet-body tbody td {
+  @apply py-3;
+}
+.notes-reader section > h3 {
+  @apply text-[17px];
+}
+.notes-reader .prose-notes li {
+  @apply my-1.5;
+}
+
+/* toasts on a phone: keep inside the screen with a 12px gutter (sonner's fixed width runs past 360-390px screens) */
+@media (max-width: 600px) {
+  [data-sonner-toaster] { --width: calc(100vw - 24px) !important; left: 12px !important; right: 12px !important; transform: none !important; }
+}
+
+/* toasts drop below a phone's notch / status bar */
+[data-sonner-toaster][data-y-position="top"] { top: calc(16px + env(safe-area-inset-top)) !important; }
+
+/* iOS zooms the page into any field under 16px when it gets focus */
+@media (pointer: coarse) {
+  input:not(.text-xl, [class*="text-[24px]"]), select, textarea {
+    font-size: 16px !important;
+  }
+  input[type="range"] {
+    min-height: 2.5rem;
+  }
+  /* a bigger place to tap on small text links, without moving the layout */
+  .link-line {
+    position: relative;
+  }
+  .link-line::before {
+    content: "";
+    position: absolute;
+    inset: -0.75rem -0.25rem;
+  }
+  [data-sonner-toast] [data-close-button] {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+}
+
+/* ------------------------------------------------------------------ notes: each kind of content in its own form */
+.note-label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+.note-blocks > * + * {
+  margin-top: 1.1rem;
+}
+.note-lead p {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.55;
+  color: var(--fg);
+}
+.note-block .note-label {
+  margin-bottom: 0.5rem;
+}
+.note-block > .prose-notes > :first-child {
+  margin-top: 0;
+}
+.note-block > .prose-notes > :last-child {
+  margin-bottom: 0;
+}
+.note-definition {
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--fg);
+}
+.note-definition p {
+  color: var(--fg);
+}
+.note-formulas {
+  padding: 0.8rem 0.95rem;
+  border: 1px solid var(--line);
+  background: color-mix(in oklab, var(--elev-2) 55%, transparent);
+}
+.note-formulas ul {
+  padding-left: 0;
+}
+.note-formulas ul > li {
+  padding-block: 0.4rem;
+  border-top: 1px solid var(--line);
+}
+.note-formulas ul > li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+.note-formulas ul > li:last-child {
+  padding-bottom: 0;
+}
+.note-formulas ul > li::before {
+  display: none;
+}
+.note-formulas .katex-display,
+.note-example .katex-display,
+.note-steps .katex-display {
+  margin-block: 0.35rem;
+  padding: 0.25rem 0;
+  border: 0;
+  background: none;
+}
+.note-example {
+  padding: 0.9rem 0.95rem;
+  border: 1px solid var(--line-strong);
+}
+.note-example ol,
+.note-steps ol {
+  counter-reset: step;
+  list-style: none;
+  padding-left: 0;
+}
+.note-example ol > li,
+.note-steps ol > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 2rem;
+  padding-bottom: 0.45rem;
+}
+.note-example ol > li:last-child,
+.note-steps ol > li:last-child {
+  padding-bottom: 0;
+}
+.note-example ol > li::before,
+.note-steps ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  border: 1px solid var(--line-strong);
+  background: var(--panel);
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--fg);
+}
+.note-example ol > li:not(:last-child)::after,
+.note-steps ol > li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 0.67rem;
+  top: 1.45em;
+  bottom: -0.1em;
+  width: 1px;
+  background: var(--line-strong);
+}
+.note-tip {
+  padding: 0.7rem 0.95rem;
+  background: var(--fg);
+}
+.note-tip .note-label,
+.note-tip .prose-notes,
+.note-tip .prose-notes strong,
+.note-tip .prose-notes .katex {
+  color: var(--bg);
+}
+.note-tip ul {
+  padding-left: 0;
+}
+.note-tip ul > li::before {
+  display: none;
+}
+.note-spoken {
+  margin-top: 1.1rem;
+  padding-top: 0.85rem;
+  border-top: 1px dashed var(--line-strong);
+  font-size: 0.92rem;
+}
+
+/* ------------------------------------------------------------------ sheets: numbered like a printed guide */
+.sheet-lead {
+  padding: 0.25rem 0.1rem;
+}
+.sheet-lead .note-label {
+  margin-bottom: 0.45rem;
+}
+.sheet-lead p {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.55;
+  color: var(--fg);
+}
+.sheet-section {
+  padding: 1.1rem 1.15rem 1.2rem;
+}
+.sheet-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 0 0 0.85rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-display);
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--fg);
+}
+.sheet-number {
+  flex-shrink: 0;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.sheet-jump {
+  flex-shrink: 0;
+  max-width: 13rem;
+  overflow: hidden;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 2px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--fg-soft);
+  transition: border-color 0.2s, color 0.2s;
+}
+.sheet-jump:hover {
+  border-color: var(--fg);
+  color: var(--fg);
+}
+.sheet-map {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sheet-map > li + li {
+  border-top: 1px solid var(--line);
+}
+.sheet-map-n {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: var(--fg);
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--bg);
+}
+.sheet-map-name,
+.sheet-map-name p {
+  margin: 0;
+  font-weight: 600;
+  color: var(--fg);
+}
+.sheet-map .prose-notes p {
+  margin: 0;
+}
+
+@media (pointer: coarse) {
+  .sheet-jump {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.5rem;
+  }
+}
+
+/* a formula table is three cells across on a laptop, one small card a row on a phone */
+@media (max-width: 639px) {
+  .sheet-formulas .md-table {
+    overflow: visible;
+    border: 0;
+  }
+  .sheet-formulas table,
+  .sheet-formulas tbody,
+  .sheet-formulas tr,
+  .sheet-formulas td {
+    display: block;
+    width: auto;
+    min-width: 0;
+    max-width: none;
+  }
+  .sheet-formulas thead {
+    display: none;
+  }
+  .sheet-formulas tbody tr {
+    padding-block: 0.7rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .sheet-formulas tbody tr:first-child {
+    padding-top: 0;
+  }
+  .sheet-formulas tbody tr:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .sheet-formulas tbody td {
+    padding: 0;
+    border: 0;
+    white-space: normal !important;
+  }
+  .sheet-formulas tbody td:first-child {
+    margin-bottom: 0.2rem;
+    overflow-x: auto;
+    font-size: 1.02rem;
+  }
+  .sheet-formulas tbody td:nth-child(3) {
+    margin-top: 0.15rem;
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+}
+
+.notes-reader section.sheet-lead > h3 {
+  font-size: 10.5px;
+}
+.notes-reader .sheet-lead {
+  margin-bottom: 0.9rem;
+}
+
+/* Hindi: the spaced capitals of an English label pull a Devanagari word apart */
+html[lang="hi"] .caps,
+html[lang="hi"] .note-label,
+html[lang="hi"] .sheet-number,
+html[lang="hi"] [class*="tracking-"],
+html[lang="hi"] .btn {
+  letter-spacing: 0.01em !important;
+}

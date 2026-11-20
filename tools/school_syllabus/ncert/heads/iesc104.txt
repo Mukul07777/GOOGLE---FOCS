@@ -1,0 +1,39 @@
+NUMBERED
+4.1 Motion in a Straight Line
+4.1.1 Describing position
+4.1.2 Distance travelled and displacement
+4.1.3 Average speed and average velocity
+4.1.4 Average acceleration
+4.2 Graphical Representation of Motion
+4.2.1 Plotting graph
+4.2.2 Position-time graphs
+4.2.3 Velocity-time graphs
+4.3 Kinematic Equations for Motion in a Straight Line with Constant Acceleration
+4.4 Motion in a Plane
+4.4.1 Uniform circular motion
+BIG
+Describing Motion
+Around Us
+4.1 Motion in a Straight Line
+4.2 Graphical Representation of Motion
+displacement (5 m s 10 s) 10 s 5 m s
+4.3 Kinematic Equations for Motion in a Straight Line with Constant Acceleration
+4.4 Motion in a Plane
+y The distance and direction of an object with respect to the reference
+y If the position of the object with respect to a reference point changes
+y Displacement is the net change in the position of the object between
+y The average speed of an object is the total distance travelled divided
+y The average velocity of an object in a time interval is the change in
+y The average acceleration of an object over a time interval is the change
+y For the motion of an object in a straight line with constant acceleration,
+y When an object moves in a circular path with constant (uniform)
+At a Glance
+Revise, Reflect, Refine
+y Take a cardboard disc (radius ~ 8 cm)
+y Many smartphones have an inbuilt accelerometer that can detect very
+y For motion in a straight line with constant acceleration, we derived
+y Plot graphs for data given in Table 4.4, using different X and Y scales,
+y Talk to a motor mechanic about how a vehicle’s braking or stopping
+The Journey Beyond
+SAMPLE
+Describing Motion Around Us Chapter 4 Everything in nature is in motion, from massive astronomical objects to subatomic particles. And what a variety in motion we have in nature — flitting butterflies, slithering snakes, hopping hares, galloping horses, tendrils of climbers twinning around a support, closing of flytraps, dancing dust particles in a sunbeam, smoke particles moving in air, rising and falling of ocean tides, and gathering clouds! Isn’t motion in nature wonderful? But how do we study the wide variety of complex motions around us? As you have read in the first chapter, to explore a complex phenomenon, scientists first study it in its idealised simplified forms. Such types of motion are linear, circular, and oscillatory about which you learnt in earlier grades. In this chapter, you will learn more about linear motion (motion in a straight line) and uniform circular motion. Earlier, you learnt about some physical quantities, such as distance, time and speed. Now, you will learn y How much distance should we maintain from the truck ahead to avoid a collision if it suddenly applies the brakes? y Does this distance depend upon the speed with which we are moving? Think It Over Grade 6 Curiosity Chapter 5 Grade 7 Curiosity Chapter 8 Describing Motion Around Us 49 about some more physical quantities, such as displacement, average velocity and average acceleration. You will also learn to describe motion not only in words, but also with numbers, equations and graphs. 4.1 Motion in a Straight Line You have learnt that when an object moves in a straight line, its motion is called linear motion. It can also be called motion in a straight line. It is the simplest kind of motion. Have you noticed it around you, such as children in a swimming race, a vertically falling ball

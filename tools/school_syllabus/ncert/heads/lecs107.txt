@@ -1,0 +1,17 @@
+NUMBERED
+7.1 Introduction to Data
+7.2 Data Collection
+7.3 Data Storage
+7.4 Data Processing
+7.5 Statistical Techniques for Data Processing
+BIG
+“Data is not information, Information
+is not knowledge, Knowledge is not
+understanding, Understanding is not
+wisdom.”
+— Gary Schubert
+Understanding Data
+Summary
+Exercise
+SAMPLE
+7.1 Introduction to Data Many a time, people take decisions based on certain data or information. For example, while choosing a college for getting admission, one looks at placement data of previous years of that college, educational qualification and experience of the faculty members, laboratory and hostel facilities, fees, etc. So we can say that identification of a college is based on various data and their analysis. Governments systematically collect and record data about the population through a process called census. Census data contains valuable information which are helpful is planning and formulating policies. Likewise, the coaching staff of a sports team analyses previous performances of opponent teams for making strategies. Banks maintain data about the customers, their account details and transactions. All these examples highlight the need of data in various fields. Data are indeed crucial for decision making. In this Chapter »» Introduction to Data »» Data Collection »» Data Storage »» Data Processing »» Statistical Techniques for Data Processing C h a p t e r “Data is not information, Information is not knowledge, Knowledge is not understanding, Understanding is not wisdom.” — Gary Schubert 7 Understanding Data Reprint 2026-27 Computer Science - Class XII 98 In the previous examples, one cannot make decisions by looking at the data itself. In our example of choosing a college, suppose the placement cell of the college has maintained data of about 2000 students placed with different companies at different salary packages in the last 3 years. Looking at such data, one cannot make any remark about the placement of students of that college. The college processes and analyses this data and the results are given in the placement brochure of the college through s

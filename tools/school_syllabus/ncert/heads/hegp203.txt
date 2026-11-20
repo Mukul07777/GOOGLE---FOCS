@@ -1,0 +1,19 @@
+NUMBERED
+3.1 Proportionality — A Quick Recap
+3.2 Ratios in Maps
+3.3 Ratios with More than 2 Terms
+3.4 Dividing a Whole in a Given Ratio
+3.5 A Slice of the Pie
+3.6 Inverse Proportions
+BIG
+3.1 Proportionality — A Quick Recap
+PROPORTIONAL
+REASONING–2
+3.2 Ratios in Maps
+3.3 Ratios with More than 2 Terms
+3.4 Dividing a Whole in a Given Ratio
+3.5 A Slice of the Pie
+3.6 Inverse Proportions
+SUMMARY
+SAMPLE
+3.1 Proportionality — A Quick Recap In an earlier chapter, we explored proportional relationships between quantities and we used the ratio notation to represent such relationships. When two or more related quantities change by the same factor, we call that relationship a proportional relationship. For example, idli batter is made by mixing rice and urad dal. The proportion of these two can have regional variations. One of the proportions used is: for 2 cups of rice, we add 1 cup of urad dal. We represent this relationship using the ratio notation 2 : 1. Viswanath made idlis by mixing 6 cups of rice with 3 cups of urad dal, while Puneet made idlis by mixing 4 cups of rice with 2 cups of urad dal. If cooked in the same way, would their idlis taste the same? Viswanath’s mixture can be represented as 6 : 3 and Puneet’s mixture as 4 : 2. Recall that, to verify that these two ratios are proportional, we can use the cross-multiplication method: × × 6 : 3 4 : 2 The two products are the same (12). So, the two ratios are proportional. It is likely that the idlis would taste the same, if all the other ingredients are proportional too! In general, we can say that two ratios a : b and c : d are proportional if a × d = b × c, or a c = b d. PROPORTIONAL REASONING–2 3 Ganita Prakash | Grade 8 | Part-II 56 3.2 Ratios in Maps Have you noticed that in many maps there is a ratio given, usually in the lower right corner of the map? It usually contains 1 and a very large number, such as 1 : 60,00,000. What does RF 1 : 60,00,000 mean? What does it indicate? Can you guess? A Representative Fraction (RF) is an expression that shows the ratio between a distance on the map and the corresponding actual distance on the ground. For example, if the ratio on a map is 1 : 60,00,000, that means a distan

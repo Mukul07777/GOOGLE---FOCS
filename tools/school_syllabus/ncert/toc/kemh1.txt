@@ -1,0 +1,201 @@
+# 11 | Mathematics | Mathematics | kemh1 | pages 12
+=== page 4
+v
+Rationalisation of Content in the Textbooks
+In view of the COVID-19 pandemic, it is imperative to reduce content load on
+students. The National Education Policy 2020, also emphasises reducing the content
+load and providing opportunities for experiential learning with creative mindset. In
+this background, the NCERT has undertaken the exercise to rationalise the textbooks
+across all classes. Learning Outcomes already developed by the NCERT across
+classes have been taken into consideration in this exercise.
+Contents of the textbooks have been rationalised in view of the following:
+•
+Overlapping with similar content included in other subject areas in the same
+class
+•
+Similar content included in the lower or higher class in the same subject
+•
+Difficulty level
+•
+Content, which is easily accessible to students without much interventions
+from teachers and can be learned by children through self-learning or peer-
+learning
+•
+Content, which is irrelevant in the present context
+This present edition, is a reformatted version after carrying out the
+changes given above.
+Reprint 2026-27
+
+=== page 5
+Reprint 2026-27
+
+=== page 8
+Contents
+Foreword
+iii
+Rationalisation of Content in the Textbooks
+v
+1.
+Sets
+1
+1.1
+Introduction
+1
+1.2
+Sets and their Representations
+1
+1.3
+The Empty Set
+5
+1.4
+Finite and Infinite Sets
+6
+1.5
+Equal  Sets
+7
+1.6
+Subsets
+9
+1.7
+Universal Set
+12
+1.8
+Venn Diagrams
+13
+1.9
+Operations on Sets
+13
+1.10 Complement of a Set
+18
+2.
+Relations and Functions
+24
+2.1
+Introduction
+24
+2.2
+Cartesian Product of Sets
+24
+2.3
+Relations
+28
+2.4
+Functions
+30
+3.
+Trigonometric Functions
+43
+3.1
+Introduction
+43
+3.2
+Angles
+43
+3.3
+Trigonometric Functions
+49
+3.4
+Trigonometric Functions of Sum and Difference of Two Angles
+57
+4.
+Complex Numbers and Quadratic Equations
+76
+4.1
+Introduction
+76
+4.2
+Complex Numbers
+76
+Reprint 2026-27
+
+=== page 9
+x
+4.3
+Algebra of Complex Numbers
+77
+4.4
+The Modulus and the Conjugate of a Complex Number
+81
+4.5
+Argand Plane and Polar Representation
+83
+5.
+Linear Inequalities
+89
+5.1
+Introduction
+89
+5.2
+Inequalities
+89
+5.3
+Algebraic Solutions of Linear Inequalities in One Variable
+and their Graphical Representation
+91
+6.
+Permutations and Combinations
+100
+6.1
+Introduction
+100
+6.2
+Fundamental Principle of Counting
+100
+6.3
+Permutations
+104
+6.4
+Combinations
+114
+7.
+Binomial Theorem
+126
+7.1
+Introduction
+126
+7.2
+Binomial Theorem for Positive Integral Indices
+126
+8.
+Sequences and Series
+135
+8.1
+Introduction
+135
+8.2
+Sequences
+135
+8.3
+Series
+137
+8.4
+Geometric Progression (G.P.)
+139
+8.5
+Relationship Between A.M. and G.M.
+144
+9.
+Straight Lines
+151
+9.1
+Introduction
+151
+9.2
+Slope of a Line
+152
+9.3
+Various Forms of the Equation of a Line
+159
+9.4
+Distance of a Point From a Line
+164
+10.
+Conic Sections
+176
+10.1 Introduction
+176
+10.2 Sections of a Cone
+176
+10.3 Circle
+179
+Reprint 2026-27

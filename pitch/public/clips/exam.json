@@ -1,0 +1,30 @@
+{
+  "name": "exam",
+  "seconds": 61.95,
+  "frames": 3564,
+  "fps": 57.5,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "paper",
+      "t": 5.35
+    },
+    {
+      "label": "submit",
+      "t": 38.94
+    },
+    {
+      "label": "result",
+      "t": 45.34
+    },
+    {
+      "label": "explain",
+      "t": 61.53
+    },
+    {
+      "label": "end",
+      "t": 61.54
+    }
+  ]
+}

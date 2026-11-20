@@ -1,0 +1,46 @@
+NUMBERED
+3.1 Rate of a
+3.1 For the reaction R ® P, the concentration of a reactant changes from 0.03M
+3.2 In a reaction, 2A ® Products, the concentration of A decreases from 0.5
+3.2 Factors Influencing
+3.3 Integrated
+3.4 Temperature
+3.5 Collision
+28.1 years. If 1mg of 90Sr was absorbed in the bones of a newly born
+BIG
+Objectives
+Chemical Kinetics
+Unit3
+3.1 Rate of a
+Rate of a
+Chemical
+Reaction
+Example 3.1
+Solution
+Intext Questions
+Example 3.2
+3.2 Factors Influencing
+Factors Influencing
+Rate of a Reaction
+Example 3.3
+Example 3.4
+3.3 Integrated
+Integrated
+Rate
+Equations
+Example 3.5
+Example 3.6
+Example 3.7
+Example 3.8
+3.4 Temperature
+Dependence of
+the Rate of a
+Example 3.10
+Example 3.9
+3.5 Collision
+Theory of
+Reactions
+Summary
+Exercises
+SAMPLE
+Chemistry, by its very nature, is concerned with change. Substances with well defined properties are converted by chemical reactions into other substances with different properties. For any chemical reaction, chemists try to find out (a) the feasibility of a chemical reaction which can be predicted by thermodynamics ( as you know that a reaction with DG < 0, at constant temperature and pressure is feasible); (b) extent to which a reaction will proceed can be determined from chemical equilibrium; (c) speed of a reaction i.e. time taken by a reaction to reach equilibrium. Along with feasibility and extent, it is equally important to know the rate and the factors controlling the rate of a chemical reaction for its complete understanding. For example, which parameters determine as to how rapidly food gets spoiled? How to design a rapidly setting material for dental filling? Or what controls the rate at which fuel burns in an auto engine? All these questions can be answered by the branch of chemistry, which deals with the study of reaction rates and their mechanisms, called chemical kinetics. The word kinetics is derived from the Greek word ‘kinesis’ meaning movement. Thermodynamics tells only about the feasibility of a reaction whereas chemical kinetics tells about the rate of a reaction. For example, thermodynamic data indicate that diamond shall convert to graphite but in reality the conversion rate is so slow that the change is not perceptible at all. Therefore, most people think After studying this Unit, you will be able to · define the average and instantaneous rate of a reaction; · express the rate of a reaction in terms of change in concentration of either of the reactants or products with time; · distinguish between elementary and complex reactions; · differentiate 

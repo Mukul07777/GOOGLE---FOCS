@@ -1,0 +1,60 @@
+{
+  "area": "AI and data science",
+  "courses": [
+    {"name": "Foundations of Data Science", "about": "The data science process: from raw data to insight", "chapters": [
+      {"name": "Introduction to Data Science", "hours": 5, "weight": 2, "foundation": true, "topics": ["What data science is", "The data science life cycle", "Structured, semi-structured and unstructured data", "Roles: data scientist, analyst and engineer", "Applications and the ethics of using data"]},
+      {"name": "Data Collection and Wrangling", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Data sources, APIs and web scraping", "Reading CSV, JSON and SQL data", "Handling missing values", "Outliers and noisy data", "Transformation and normalisation", "Tidy data"]},
+      {"name": "Python for Data Science", "hours": 7, "weight": 2, "topics": ["NumPy arrays and vectorised operations", "Pandas Series and DataFrames", "Indexing, filtering and merging", "Group-by and pivot tables", "Plotting with Matplotlib"]},
+      {"name": "Exploratory Data Analysis", "hours": 7, "weight": 2.5, "topics": ["Descriptive statistics", "Distributions and histograms", "Correlation and covariance", "Box plots and outlier detection", "Grouping and aggregation"]},
+      {"name": "Statistical Inference", "hours": 7, "weight": 2, "topics": ["Sampling and sampling distributions", "Confidence intervals", "Hypothesis testing and p-values", "t-test, chi-square test and ANOVA", "A/B testing"]},
+      {"name": "Introduction to Predictive Modelling", "hours": 6, "weight": 2, "topics": ["Features and labels", "Train-test split", "Simple and multiple linear regression", "Classification basics", "Evaluating a model"]}
+    ]},
+    {"name": "Data Visualization", "about": "Showing data so that people understand it", "chapters": [
+      {"name": "Principles of Visualization", "hours": 5, "weight": 2, "foundation": true, "topics": ["The purpose of a chart", "Data types and visual encodings", "Perception: position, length and colour", "Data-ink ratio and Tufte's principles", "Common chart mistakes"]},
+      {"name": "Charts for Data", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Bar charts and histograms", "Line charts and time series", "Scatter plots and bubble charts", "Box plots and violin plots", "Heatmaps", "Pie and donut charts: when to use them"]},
+      {"name": "Multivariate and High-dimensional Data", "hours": 6, "weight": 2, "topics": ["Small multiples and faceting", "Parallel coordinates", "Scatter-plot matrices", "Dimensionality reduction for plots: PCA and t-SNE", "Treemaps"]},
+      {"name": "Geospatial and Network Visualization", "hours": 5, "weight": 1.5, "topics": ["Maps and choropleths", "Map projections", "Node-link diagrams", "Adjacency matrices"]},
+      {"name": "Interactive Visualization and Dashboards", "hours": 6, "weight": 2, "topics": ["Interaction: filter, zoom and details on demand", "Dashboard design", "Tableau and Power BI", "Plotly and Seaborn"]},
+      {"name": "Storytelling with Data", "hours": 4, "weight": 1.5, "topics": ["Choosing the right chart", "Narrative structure", "Annotation and highlighting", "Visualization for decision-making"]}
+    ]},
+    {"name": "Optimization Techniques", "about": "Linear, non-linear and gradient-based optimization, with machine learning in mind", "chapters": [
+      {"name": "Linear Programming", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Formulating linear programs", "Graphical method", "Simplex method", "Duality", "Sensitivity analysis"]},
+      {"name": "Transportation and Assignment Problems", "hours": 5, "weight": 1.5, "topics": ["Initial solutions to a transportation problem", "MODI method", "Hungarian method for assignment", "Unbalanced problems"]},
+      {"name": "Nonlinear Optimization", "hours": 6, "weight": 2, "topics": ["Unconstrained optima and optimality conditions", "Lagrange multipliers", "KKT conditions", "Quadratic programming"]},
+      {"name": "Convex Optimization", "hours": 6, "weight": 2, "topics": ["Convex sets and convex functions", "Convex optimization problems", "Duality in convex problems", "Convex problems in machine learning"]},
+      {"name": "Gradient-based Methods", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Gradient descent and step size", "Newton's method", "Stochastic and mini-batch gradient descent", "Momentum, RMSProp and Adam", "Convergence"]},
+      {"name": "Integer and Metaheuristic Optimization", "hours": 6, "weight": 1.5, "topics": ["Integer programming and branch and bound", "Dynamic programming", "Genetic algorithms", "Simulated annealing and particle swarm optimization"]}
+    ]},
+    {"name": "Computer Vision", "about": "Getting machines to understand images and video", "chapters": [
+      {"name": "Image Formation and Processing", "hours": 6, "weight": 2, "foundation": true, "topics": ["Image formation and camera models", "Colour spaces", "Filtering and convolution", "Edge detection", "Histogram equalisation"]},
+      {"name": "Features and Matching", "hours": 6, "weight": 2, "topics": ["Corners and the Harris detector", "SIFT and ORB features", "Feature matching", "RANSAC", "Image stitching"]},
+      {"name": "Geometry and 3-D Vision", "hours": 6, "weight": 2, "topics": ["Camera calibration", "Epipolar geometry", "Stereo and depth estimation", "Structure from motion"]},
+      {"name": "Segmentation and Motion", "hours": 5, "weight": 1.5, "topics": ["Thresholding and region growing", "Clustering-based segmentation", "Optical flow", "Object tracking"]},
+      {"name": "Deep Learning for Vision", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["CNNs for image classification", "Object detection: the R-CNN family and YOLO", "Semantic and instance segmentation", "Transfer learning and data augmentation", "Vision transformers"]},
+      {"name": "Applications of Computer Vision", "hours": 4, "weight": 1.5, "topics": ["Face detection and recognition", "Optical character recognition", "Medical image analysis", "Perception for autonomous driving"]}
+    ]},
+    {"name": "Reinforcement Learning", "about": "Learning to act from rewards", "chapters": [
+      {"name": "Foundations of Reinforcement Learning", "hours": 5, "weight": 2, "foundation": true, "topics": ["Agent, environment and reward", "Exploration and exploitation", "Multi-armed bandits", "Epsilon-greedy and UCB"]},
+      {"name": "Markov Decision Processes", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["States, actions, transitions and rewards", "Returns and discounting", "Value functions and the Bellman equations", "Optimal policies"]},
+      {"name": "Dynamic Programming", "hours": 5, "weight": 2, "topics": ["Policy evaluation", "Policy iteration", "Value iteration", "Generalised policy iteration"]},
+      {"name": "Monte Carlo and Temporal-difference Learning", "hours": 7, "weight": 2.5, "topics": ["Monte Carlo prediction and control", "TD(0) prediction", "SARSA", "Q-learning", "Eligibility traces"]},
+      {"name": "Function Approximation and Deep RL", "hours": 7, "weight": 2, "topics": ["Value function approximation", "Deep Q-networks", "Experience replay and target networks", "Policy gradient and REINFORCE", "Actor-critic methods"]},
+      {"name": "Advanced Topics and Applications", "hours": 4, "weight": 1.5, "topics": ["Model-based reinforcement learning", "Multi-agent reinforcement learning", "Reinforcement learning in games and robotics", "Learning from human feedback"]}
+    ]},
+    {"name": "Time Series Analysis", "about": "Modelling and forecasting data that changes over time", "chapters": [
+      {"name": "Time Series Basics", "hours": 5, "weight": 2, "foundation": true, "topics": ["Trend, seasonality, cycles and noise", "Stationarity", "Autocorrelation and partial autocorrelation", "Decomposition"]},
+      {"name": "Smoothing Methods", "hours": 5, "weight": 2, "topics": ["Moving averages", "Simple exponential smoothing", "Holt's linear trend method", "Holt-Winters seasonal method"]},
+      {"name": "ARIMA Models", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Autoregressive models", "Moving-average models", "ARMA and ARIMA", "Box-Jenkins methodology", "Seasonal ARIMA"]},
+      {"name": "Forecast Evaluation", "hours": 4, "weight": 1.5, "topics": ["Train-test splits for time series", "MAE, RMSE and MAPE", "Cross-validation for time series", "Residual diagnostics"]},
+      {"name": "Machine Learning for Time Series", "hours": 6, "weight": 2, "topics": ["Lag features", "Tree-based models for forecasting", "RNNs and LSTMs for sequences", "Anomaly detection in time series"]}
+    ]},
+    {"name": "Generative AI", "about": "Models that generate text, images and more, and building with them", "chapters": [
+      {"name": "Generative Models", "hours": 6, "weight": 2, "foundation": true, "topics": ["Generative and discriminative models", "Density estimation", "Autoencoders", "Variational autoencoders"]},
+      {"name": "Generative Adversarial Networks", "hours": 6, "weight": 2, "topics": ["Generator and discriminator", "Training GANs and mode collapse", "DCGAN and conditional GANs", "Applications of GANs"]},
+      {"name": "Diffusion Models", "hours": 5, "weight": 2, "topics": ["Forward and reverse diffusion", "Denoising diffusion models", "Text-to-image generation", "Guidance"]},
+      {"name": "Large Language Models", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Transformers and tokenisation", "Pre-training and scaling", "Fine-tuning and instruction tuning", "Reinforcement learning from human feedback", "Prompt engineering"]},
+      {"name": "Building with LLMs", "hours": 6, "weight": 2, "topics": ["Embeddings and vector search", "Retrieval-augmented generation", "Tool use and agents", "Evaluating LLM applications"]},
+      {"name": "Responsible Generative AI", "hours": 4, "weight": 1.5, "topics": ["Bias and fairness", "Hallucination", "Safety, privacy and copyright", "Regulation and governance"]}
+    ]}
+  ]
+}

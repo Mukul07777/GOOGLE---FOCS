@@ -1,0 +1,139 @@
+{
+  "area": "Biotechnology",
+  "courses": [
+    {"name": "Biochemistry", "about": "The molecules of life and the metabolism that builds and breaks them", "chapters": [
+      {"name": "Carbohydrates and Lipids", "hours": 6, "weight": 2, "foundation": true, "topics": ["Monosaccharides, disaccharides and polysaccharides", "Glycosidic bonds", "Fatty acids and triglycerides", "Phospholipids and membranes", "Steroids"]},
+      {"name": "Amino Acids and Proteins", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Structure and classification of amino acids", "The peptide bond", "Primary, secondary, tertiary and quaternary structure", "Protein folding and denaturation", "Protein purification basics"]},
+      {"name": "Nucleic Acids", "hours": 5, "weight": 2, "topics": ["Nucleotides and nucleosides", "Structure of DNA", "Types of RNA", "Properties of nucleic acids"]},
+      {"name": "Enzymes", "hours": 6, "weight": 2, "topics": ["Classification of enzymes", "Michaelis-Menten kinetics", "Enzyme inhibition", "Allosteric regulation", "Coenzymes and cofactors"]},
+      {"name": "Bioenergetics and Carbohydrate Metabolism", "hours": 7, "weight": 2.5, "topics": ["ATP and high-energy compounds", "Glycolysis", "The TCA cycle", "Electron transport and oxidative phosphorylation", "Gluconeogenesis and glycogen metabolism"]},
+      {"name": "Lipid and Amino Acid Metabolism", "hours": 6, "weight": 2, "topics": ["Beta-oxidation of fatty acids", "Fatty acid synthesis", "Transamination and deamination", "The urea cycle", "Integration of metabolism"]}
+    ]},
+    {"name": "Cell Biology", "about": "The structure and working of cells", "chapters": [
+      {"name": "Cell Structure", "hours": 6, "weight": 2, "foundation": true, "topics": ["Prokaryotic and eukaryotic cells", "Plant and animal cells", "Cell theory", "Microscopy techniques"]},
+      {"name": "Cell Membrane and Transport", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Fluid mosaic model", "Passive and active transport", "Endocytosis and exocytosis", "Membrane potential"]},
+      {"name": "Cell Organelles", "hours": 6, "weight": 2, "topics": ["The nucleus", "Endoplasmic reticulum and Golgi apparatus", "Mitochondria and chloroplasts", "Lysosomes and peroxisomes", "The cytoskeleton"]},
+      {"name": "Cell Cycle and Cell Division", "hours": 6, "weight": 2.5, "topics": ["Phases of the cell cycle", "Mitosis", "Meiosis", "Regulation of the cell cycle", "Cancer: loss of cell-cycle control"]},
+      {"name": "Cell Signalling", "hours": 5, "weight": 2, "topics": ["Signal molecules and receptors", "G-protein coupled receptors", "Receptor tyrosine kinases", "Second messengers"]},
+      {"name": "Cell Death and Differentiation", "hours": 4, "weight": 1.5, "topics": ["Apoptosis and necrosis", "Stem cells", "Cell differentiation", "Cell junctions and the extracellular matrix"]}
+    ]},
+    {"name": "Microbiology", "about": "Microorganisms, how they grow and how they are used and controlled", "chapters": [
+      {"name": "Microbial Diversity", "hours": 5, "weight": 2, "foundation": true, "topics": ["History of microbiology", "Classification of microorganisms", "Bacteria, archaea, fungi, algae and protozoa", "Viruses"]},
+      {"name": "Microscopy and Staining", "hours": 4, "weight": 1.5, "topics": ["Light and electron microscopy", "Simple and differential staining", "Gram staining", "Acid-fast and spore staining"]},
+      {"name": "Microbial Nutrition and Growth", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Nutritional types of microbes", "Culture media", "The growth curve", "Measuring microbial growth", "Batch and continuous culture"]},
+      {"name": "Control of Microorganisms", "hours": 5, "weight": 2, "topics": ["Physical methods of sterilisation", "Chemical disinfectants", "Antibiotics and how they act", "Antimicrobial resistance"]},
+      {"name": "Microbial Metabolism and Genetics", "hours": 6, "weight": 2, "topics": ["Fermentation and respiration", "Transformation, transduction and conjugation", "Plasmids", "Mutation"]},
+      {"name": "Applied Microbiology", "hours": 6, "weight": 2, "topics": ["Food and dairy microbiology", "Industrial microbiology", "Environmental microbiology", "Medical microbiology and pathogens"]}
+    ]},
+    {"name": "Molecular Biology", "about": "How DNA is copied, read and regulated", "chapters": [
+      {"name": "DNA Replication", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Semi-conservative replication", "Enzymes of replication", "Replication in prokaryotes and eukaryotes", "Telomeres"]},
+      {"name": "DNA Damage and Repair", "hours": 5, "weight": 2, "topics": ["Types of DNA damage", "Mismatch repair", "Excision repair", "Recombination repair"]},
+      {"name": "Transcription", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["RNA polymerases", "Transcription in prokaryotes", "Transcription in eukaryotes", "RNA processing: capping, splicing and polyadenylation"]},
+      {"name": "Translation", "hours": 6, "weight": 2.5, "topics": ["The genetic code", "Ribosomes and tRNA", "Initiation, elongation and termination", "Post-translational modifications"]},
+      {"name": "Regulation of Gene Expression", "hours": 7, "weight": 2.5, "topics": ["The lac operon", "The trp operon", "Gene regulation in eukaryotes", "Epigenetics", "RNA interference"]}
+    ]},
+    {"name": "Genetics", "about": "Inheritance, from Mendel to populations", "chapters": [
+      {"name": "Mendelian Genetics", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Mendel's laws", "Monohybrid and dihybrid crosses", "Incomplete dominance and codominance", "Multiple alleles and blood groups", "Gene interaction and epistasis"]},
+      {"name": "Chromosomes and Linkage", "hours": 6, "weight": 2, "topics": ["Chromosome theory of inheritance", "Linkage and crossing over", "Gene mapping", "Sex determination and sex-linked inheritance"]},
+      {"name": "Chromosomal Aberrations and Mutation", "hours": 5, "weight": 2, "topics": ["Structural chromosomal changes", "Aneuploidy and polyploidy", "Gene mutations", "Mutagens"]},
+      {"name": "Extra-chromosomal and Quantitative Inheritance", "hours": 5, "weight": 1.5, "topics": ["Cytoplasmic inheritance", "Polygenic inheritance", "Heritability"]},
+      {"name": "Human Genetics", "hours": 5, "weight": 2, "topics": ["Pedigree analysis", "Genetic disorders", "Genetic counselling"]},
+      {"name": "Population Genetics and Evolution", "hours": 5, "weight": 2, "topics": ["Gene and genotype frequencies", "Hardy-Weinberg equilibrium", "Selection, drift and migration", "Speciation"]}
+    ]},
+    {"name": "Analytical Techniques in Biotechnology", "about": "The instruments and methods used to study biomolecules", "chapters": [
+      {"name": "Spectroscopy", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["UV-visible spectroscopy and the Beer-Lambert law", "Fluorescence spectroscopy", "Infrared spectroscopy", "NMR spectroscopy", "Mass spectrometry"]},
+      {"name": "Chromatography", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Principles of chromatography", "Paper and thin-layer chromatography", "Gel filtration and ion-exchange chromatography", "Affinity chromatography", "HPLC and gas chromatography"]},
+      {"name": "Electrophoresis", "hours": 5, "weight": 2, "topics": ["Agarose gel electrophoresis", "SDS-PAGE", "Isoelectric focusing and 2-D electrophoresis", "Blotting techniques"]},
+      {"name": "Centrifugation", "hours": 4, "weight": 1.5, "topics": ["Principles of sedimentation", "Differential centrifugation", "Density-gradient centrifugation", "Ultracentrifugation"]},
+      {"name": "Microscopy and Imaging", "hours": 4, "weight": 1.5, "topics": ["Phase-contrast and fluorescence microscopy", "Confocal microscopy", "Electron microscopy"]},
+      {"name": "Other Techniques", "hours": 4, "weight": 1.5, "topics": ["Radioisotope techniques", "X-ray crystallography", "Flow cytometry"]}
+    ]},
+    {"name": "Enzyme Technology", "about": "Enzyme kinetics, production, immobilisation and uses", "chapters": [
+      {"name": "Enzymes and their Properties", "hours": 5, "weight": 2, "foundation": true, "topics": ["Nomenclature and classification", "Active site and specificity", "Factors affecting enzyme activity", "Units of enzyme activity"]},
+      {"name": "Enzyme Kinetics", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Michaelis-Menten kinetics", "Lineweaver-Burk and other plots", "Kinetics of inhibition", "Multi-substrate reactions", "Allosteric enzymes"]},
+      {"name": "Production and Purification of Enzymes", "hours": 6, "weight": 2, "topics": ["Sources of enzymes", "Microbial production", "Extraction and purification", "Characterisation"]},
+      {"name": "Enzyme Immobilisation", "hours": 6, "weight": 2.5, "topics": ["Methods of immobilisation", "Kinetics of immobilised enzymes", "Mass transfer effects", "Immobilised enzyme reactors"]},
+      {"name": "Applications of Enzymes", "hours": 5, "weight": 2, "topics": ["Industrial enzymes", "Enzymes in food and detergents", "Medical and analytical uses", "Biosensors"]}
+    ]},
+    {"name": "Genetic Engineering", "about": "Recombinant DNA technology: cutting, joining, copying and editing genes", "chapters": [
+      {"name": "Tools of Genetic Engineering", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Restriction enzymes", "DNA ligase and modifying enzymes", "Cloning vectors: plasmids, phages and cosmids", "Artificial chromosomes: BACs and YACs"]},
+      {"name": "Gene Cloning", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Constructing recombinant DNA", "Transformation and transfection", "Selection and screening", "Genomic and cDNA libraries"]},
+      {"name": "Polymerase Chain Reaction", "hours": 5, "weight": 2, "topics": ["Principle of PCR", "Types of PCR", "Real-time PCR", "Applications of PCR"]},
+      {"name": "DNA Sequencing and Analysis", "hours": 5, "weight": 2, "topics": ["Sanger sequencing", "Next-generation sequencing", "Southern, northern and western blotting", "DNA fingerprinting"]},
+      {"name": "Expression of Cloned Genes", "hours": 6, "weight": 2, "topics": ["Expression vectors", "Expression in E. coli", "Expression in yeast and mammalian cells", "Producing recombinant proteins"]},
+      {"name": "Genome Editing and Applications", "hours": 5, "weight": 2, "topics": ["Site-directed mutagenesis", "CRISPR-Cas9", "Gene therapy", "Transgenic organisms"]}
+    ]},
+    {"name": "Immunology", "about": "How the immune system defends the body, and how it is used in medicine", "chapters": [
+      {"name": "The Immune System", "hours": 5, "weight": 2, "foundation": true, "topics": ["Innate and adaptive immunity", "Cells of the immune system", "Lymphoid organs", "Inflammation"]},
+      {"name": "Antigens and Antibodies", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Antigens, haptens and epitopes", "Structure of antibodies", "Classes of antibodies", "Generation of antibody diversity"]},
+      {"name": "Major Histocompatibility Complex", "hours": 5, "weight": 2, "topics": ["MHC class I and class II", "Antigen processing and presentation", "MHC and transplantation"]},
+      {"name": "Immune Responses", "hours": 7, "weight": 2.5, "topics": ["B-cell activation and humoral immunity", "T-cell activation and cell-mediated immunity", "Cytokines", "The complement system"]},
+      {"name": "Immunological Techniques", "hours": 5, "weight": 2, "topics": ["Antigen-antibody reactions", "ELISA", "Immunofluorescence and flow cytometry", "Monoclonal antibodies and hybridoma technology"]},
+      {"name": "Clinical Immunology", "hours": 5, "weight": 2, "topics": ["Hypersensitivity", "Autoimmunity", "Immunodeficiency", "Vaccines"]}
+    ]},
+    {"name": "Bioprocess Engineering", "about": "Growing cells in bioreactors to make products (biochemical engineering)", "chapters": [
+      {"name": "Introduction to Bioprocesses", "hours": 5, "weight": 2, "foundation": true, "topics": ["Outline of a bioprocess", "Upstream and downstream processing", "Industrial microorganisms and strain improvement", "Media design"]},
+      {"name": "Microbial Growth Kinetics", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Phases of growth", "The Monod model", "Substrate utilisation and yield coefficients", "Kinetics of product formation"]},
+      {"name": "Bioreactors", "hours": 7, "weight": 2.5, "topics": ["Types of bioreactors", "Batch, fed-batch and continuous operation", "Chemostat analysis", "Bioreactor design"]},
+      {"name": "Transport in Bioreactors", "hours": 6, "weight": 2, "topics": ["Oxygen transfer and kLa", "Measuring kLa", "Mixing and power requirement", "Heat transfer in fermenters"]},
+      {"name": "Sterilisation", "hours": 4, "weight": 1.5, "topics": ["Kinetics of thermal death", "Batch sterilisation", "Continuous sterilisation", "Sterilising air"]},
+      {"name": "Scale-up and Control", "hours": 5, "weight": 2, "topics": ["Scale-up criteria", "Instrumentation and control of bioreactors", "Preventing contamination"]}
+    ]},
+    {"name": "Bioinformatics", "about": "Computational analysis of biological sequences and structures", "chapters": [
+      {"name": "Biological Databases", "hours": 5, "weight": 2, "foundation": true, "topics": ["Nucleotide databases: GenBank, EMBL and DDBJ", "Protein databases: UniProt and PDB", "Searching and retrieving data", "Sequence file formats"]},
+      {"name": "Sequence Alignment", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Pairwise alignment", "Dot plots", "Scoring matrices: PAM and BLOSUM", "Needleman-Wunsch and Smith-Waterman", "BLAST and FASTA"]},
+      {"name": "Multiple Alignment and Phylogenetics", "hours": 6, "weight": 2, "topics": ["Multiple sequence alignment", "Clustal", "Phylogenetic trees", "Distance-based and character-based methods"]},
+      {"name": "Structural Bioinformatics", "hours": 5, "weight": 2, "topics": ["Predicting protein structure", "Homology modelling", "Molecular visualisation", "Molecular docking"]},
+      {"name": "Genome Annotation and Gene Prediction", "hours": 5, "weight": 2, "topics": ["Genome annotation", "Gene prediction", "Hidden Markov models in bioinformatics"]},
+      {"name": "Computational Tools", "hours": 4, "weight": 1.5, "topics": ["Bioinformatics with Python and R", "Machine learning in biology", "Computer-aided drug discovery"]}
+    ]},
+    {"name": "Downstream Processing", "about": "Recovering and purifying products from a bioprocess", "chapters": [
+      {"name": "Overview of Bioseparation", "hours": 4, "weight": 1.5, "foundation": true, "topics": ["Why downstream processing matters", "Characteristics of bioproducts", "Process economics", "Stages of recovery and purification"]},
+      {"name": "Cell Disruption and Solid-Liquid Separation", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Mechanical cell disruption", "Chemical and enzymatic disruption", "Filtration of broths", "Centrifugation", "Flocculation"]},
+      {"name": "Product Isolation", "hours": 6, "weight": 2, "topics": ["Liquid-liquid extraction", "Aqueous two-phase extraction", "Precipitation", "Adsorption"]},
+      {"name": "Purification", "hours": 7, "weight": 2.5, "topics": ["Chromatographic separations", "Scaling up chromatography", "Ultrafiltration and dialysis", "Electrophoretic separation"]},
+      {"name": "Product Polishing", "hours": 5, "weight": 2, "topics": ["Crystallisation", "Drying", "Lyophilisation", "Formulation"]}
+    ]},
+    {"name": "Plant Biotechnology", "about": "Plant tissue culture and genetically improved crops", "chapters": [
+      {"name": "Plant Tissue Culture", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Culture media and aseptic technique", "Callus and suspension culture", "Organogenesis and somatic embryogenesis", "Micropropagation"]},
+      {"name": "Haploids and Protoplasts", "hours": 5, "weight": 2, "topics": ["Anther and pollen culture", "Protoplast isolation and fusion", "Somatic hybrids", "Somaclonal variation"]},
+      {"name": "Plant Genetic Transformation", "hours": 7, "weight": 2.5, "topics": ["Agrobacterium-mediated gene transfer", "Direct gene transfer", "Selectable markers and reporter genes", "Transgenic plants"]},
+      {"name": "Applications in Agriculture", "hours": 6, "weight": 2, "topics": ["Insect resistance: Bt crops", "Herbicide and stress tolerance", "Better nutritional quality", "Molecular markers in breeding"]},
+      {"name": "Secondary Metabolites and Molecular Farming", "hours": 5, "weight": 2, "topics": ["Producing secondary metabolites", "Bioreactors for plant cells", "Plants as factories for vaccines and proteins", "Biosafety of GM crops"]}
+    ]},
+    {"name": "Animal Biotechnology", "about": "Animal cell culture, transgenic animals and animal health", "chapters": [
+      {"name": "Animal Cell Culture", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Culture media and growth conditions", "Primary cultures and cell lines", "Characterising and maintaining cell lines", "Contamination", "Cryopreservation"]},
+      {"name": "Scale-up of Animal Cell Culture", "hours": 5, "weight": 2, "topics": ["Bioreactors for animal cells", "Suspension and anchorage-dependent cultures", "Products of animal cell culture"]},
+      {"name": "Reproductive Biotechnology", "hours": 5, "weight": 2, "topics": ["In-vitro fertilisation and embryo transfer", "Cloning animals", "Embryonic stem cells"]},
+      {"name": "Transgenic Animals", "hours": 6, "weight": 2, "topics": ["Making transgenic animals", "Knockout animals", "Transgenic animals in research and industry"]},
+      {"name": "Animal Health and Production", "hours": 5, "weight": 2, "topics": ["Vaccines for animals", "Diagnosing animal diseases", "Molecular markers in animal breeding", "Ethical issues"]}
+    ]},
+    {"name": "Genomics and Proteomics", "about": "Studying whole genomes and the proteins they make", "chapters": [
+      {"name": "Genome Organisation", "hours": 5, "weight": 2, "foundation": true, "topics": ["Prokaryotic and eukaryotic genomes", "Genome size and complexity", "Repetitive DNA", "Organelle genomes"]},
+      {"name": "Genome Sequencing and Mapping", "hours": 6, "weight": 2.5, "topics": ["Genetic and physical maps", "Shotgun sequencing", "Genome assembly", "The Human Genome Project"]},
+      {"name": "Functional Genomics", "hours": 6, "weight": 2, "topics": ["Transcriptomics", "Microarrays", "RNA-seq", "Gene knockouts and knockdowns"]},
+      {"name": "Proteomics", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["2-D gel electrophoresis of proteins", "Mass spectrometry for proteins", "Identifying proteins", "Protein-protein interactions"]},
+      {"name": "Applications of Omics", "hours": 5, "weight": 2, "topics": ["Comparative genomics", "Pharmacogenomics", "Metabolomics", "Systems biology"]}
+    ]},
+    {"name": "Bioethics, Biosafety and IPR", "about": "Ethics, safety rules and intellectual property in biotechnology", "chapters": [
+      {"name": "Bioethics", "hours": 5, "weight": 2, "foundation": true, "topics": ["Ethical principles", "Ethics of genetic engineering", "Human cloning and stem cell research", "Ethics of animal experiments"]},
+      {"name": "Biosafety", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Biosafety levels", "Containment", "Risk assessment of GMOs", "Biosafety regulation in India: GEAC and RCGM"]},
+      {"name": "Intellectual Property Rights", "hours": 6, "weight": 2.5, "topics": ["Types of IPR", "Patents and patentability", "Patenting biological material", "Trade secrets, trademarks and copyright"]},
+      {"name": "Patent Procedure and Agreements", "hours": 5, "weight": 2, "topics": ["Filing a patent in India", "TRIPS and the Budapest Treaty", "Biodiversity and benefit sharing", "Case studies"]}
+    ]},
+    {"name": "Pharmaceutical Biotechnology", "about": "Developing and making biological medicines", "chapters": [
+      {"name": "Drug Discovery and Development", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Stages of drug development", "Target identification", "Lead discovery and optimisation", "Preclinical studies"]},
+      {"name": "Clinical Trials and Regulation", "hours": 5, "weight": 2, "topics": ["Phases of clinical trials", "Good clinical and manufacturing practice", "Drug regulatory agencies"]},
+      {"name": "Biopharmaceuticals", "hours": 7, "weight": 2.5, "topics": ["Recombinant therapeutic proteins", "Insulin and growth hormone", "Interferons and interleukins", "Monoclonal antibodies as medicines"]},
+      {"name": "Vaccines and Gene-based Therapies", "hours": 6, "weight": 2, "topics": ["Vaccine technology", "Recombinant and mRNA vaccines", "Gene therapy", "Antisense and RNA therapeutics"]},
+      {"name": "Drug Delivery and Formulation", "hours": 5, "weight": 2, "topics": ["Pharmacokinetics", "Drug delivery systems", "Formulating biologics", "Stability of biopharmaceuticals"]}
+    ]},
+    {"name": "Environmental Biotechnology", "about": "Using microbes and plants to treat waste and clean up pollution", "chapters": [
+      {"name": "Microbes and the Environment", "hours": 5, "weight": 2, "foundation": true, "topics": ["Microbial ecology", "Biogeochemical cycles", "Environmental pollutants", "Biodegradation"]},
+      {"name": "Biological Wastewater Treatment", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Activated sludge process", "Trickling filters", "Anaerobic digestion", "Nutrient removal"]},
+      {"name": "Bioremediation", "hours": 6, "weight": 2.5, "topics": ["In-situ and ex-situ bioremediation", "Phytoremediation", "Bioremediation of hydrocarbons and heavy metals", "Biosorption"]},
+      {"name": "Solid Waste and Biofuels", "hours": 6, "weight": 2, "topics": ["Composting", "Biogas", "Bioethanol and biodiesel", "Biohydrogen"]},
+      {"name": "Environmental Monitoring", "hours": 4, "weight": 1.5, "topics": ["Biosensors for pollutants", "Bioindicators", "Ecotoxicology"]}
+    ]}
+  ]
+}

@@ -1,0 +1,2763 @@
+{
+ "class": 11,
+ "default": [
+  "Physics",
+  "Chemistry",
+  "Mathematics",
+  "Biology",
+  "English Core"
+ ],
+ "subjects": [
+  {
+   "name": "Physics",
+   "units": [
+    {
+     "name": "Measurement, Kinematics and Laws of Motion",
+     "book": "Physics Part I",
+     "marks": 23,
+     "chapters": [
+      {
+       "name": "Units and Measurements",
+       "topics": [
+        "Units of measurement and systems of units",
+        "SI units: fundamental and derived",
+        "Significant figures",
+        "Uncertainty in a result",
+        "Dimensions of physical quantities",
+        "Dimensional analysis and its applications"
+       ]
+      },
+      {
+       "name": "Motion in a Straight Line",
+       "topics": [
+        "Frame of reference and position",
+        "Average and instantaneous velocity",
+        "Uniform and non-uniform motion",
+        "Uniformly accelerated motion",
+        "Position-time and velocity-time graphs",
+        "Kinematic equations (graphical and calculus treatment)"
+       ]
+      },
+      {
+       "name": "Motion in a Plane",
+       "topics": [
+        "Scalars and vectors",
+        "Addition, subtraction and multiplication of vectors",
+        "Resolution of a vector: rectangular components",
+        "Scalar and vector products",
+        "Projectile motion",
+        "Uniform circular motion"
+       ]
+      },
+      {
+       "name": "Laws of Motion",
+       "topics": [
+        "Inertia and Newton's first law",
+        "Momentum and Newton's second law; impulse",
+        "Newton's third law",
+        "Conservation of linear momentum",
+        "Equilibrium of concurrent forces",
+        "Static, kinetic and rolling friction",
+        "Dynamics of circular motion: level and banked roads"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Work and Energy, Rotation, Gravitation",
+     "book": "Physics Part I",
+     "marks": 17,
+     "chapters": [
+      {
+       "name": "Work, Energy and Power",
+       "topics": [
+        "Work done by constant and variable forces",
+        "Kinetic energy and the work-energy theorem",
+        "Power",
+        "Potential energy; potential energy of a spring",
+        "Conservative and non-conservative forces",
+        "Motion in a vertical circle",
+        "Elastic and inelastic collisions"
+       ]
+      },
+      {
+       "name": "System of Particles and Rotational Motion",
+       "topics": [
+        "Centre of mass of a two-particle system and of a rigid body",
+        "Momentum conservation and centre-of-mass motion",
+        "Torque and angular momentum",
+        "Conservation of angular momentum",
+        "Equilibrium of rigid bodies",
+        "Equations of rotational motion",
+        "Moment of inertia and radius of gyration"
+       ]
+      },
+      {
+       "name": "Gravitation",
+       "topics": [
+        "Kepler's laws of planetary motion",
+        "Universal law of gravitation",
+        "Acceleration due to gravity with altitude and depth",
+        "Gravitational potential energy and potential",
+        "Escape speed",
+        "Orbital velocity and energy of a satellite"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Properties of Bulk Matter, Thermodynamics, Kinetic Theory",
+     "book": "Physics Part II",
+     "marks": 20,
+     "chapters": [
+      {
+       "name": "Mechanical Properties of Solids",
+       "topics": [
+        "Elasticity and the stress-strain relationship",
+        "Hooke's law",
+        "Young's, bulk and shear moduli",
+        "Poisson's ratio",
+        "Elastic energy",
+        "Applications of elastic behaviour"
+       ]
+      },
+      {
+       "name": "Mechanical Properties of Fluids",
+       "topics": [
+        "Pressure due to a fluid column; Pascal's law",
+        "Hydraulic lift and brakes",
+        "Viscosity, Stokes' law and terminal velocity",
+        "Streamline and turbulent flow; critical velocity",
+        "Bernoulli's theorem and its applications",
+        "Surface tension, angle of contact and capillary rise"
+       ]
+      },
+      {
+       "name": "Thermal Properties of Matter",
+       "topics": [
+        "Heat and temperature",
+        "Thermal expansion; anomalous expansion of water",
+        "Specific heat capacity and calorimetry",
+        "Change of state and latent heat",
+        "Conduction, convection and radiation",
+        "Blackbody radiation: Wien's and Stefan's laws"
+       ]
+      },
+      {
+       "name": "Thermodynamics",
+       "topics": [
+        "Thermal equilibrium and the zeroth law",
+        "Heat, work and internal energy",
+        "First law of thermodynamics",
+        "State variables and equation of state",
+        "Isothermal, adiabatic, reversible and cyclic processes",
+        "Second law of thermodynamics"
+       ]
+      },
+      {
+       "name": "Kinetic Theory",
+       "topics": [
+        "Equation of state of a perfect gas",
+        "Work done in compressing a gas",
+        "Kinetic theory: assumptions and pressure",
+        "Kinetic interpretation of temperature; rms speed",
+        "Degrees of freedom and equipartition of energy",
+        "Mean free path"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Oscillations and Waves",
+     "book": "Physics Part II",
+     "marks": 10,
+     "chapters": [
+      {
+       "name": "Oscillations",
+       "topics": [
+        "Periodic motion: time period and frequency",
+        "Simple harmonic motion and its equation",
+        "Phase",
+        "Oscillations of a loaded spring",
+        "Energy in SHM",
+        "Simple pendulum and its time period"
+       ]
+      },
+      {
+       "name": "Waves",
+       "topics": [
+        "Transverse and longitudinal waves",
+        "Speed of a travelling wave",
+        "Displacement relation for a progressive wave",
+        "Superposition and reflection of waves",
+        "Standing waves in strings and organ pipes",
+        "Fundamental mode, harmonics and beats"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Chemistry",
+   "units": [
+    {
+     "name": "Chemistry Part I",
+     "chapters": [
+      {
+       "name": "Some Basic Concepts of Chemistry",
+       "marks": 7,
+       "topics": [
+        "Nature and properties of matter",
+        "Uncertainty in measurement",
+        "Laws of chemical combination",
+        "Dalton's atomic theory",
+        "Atomic and molecular masses",
+        "Mole concept and molar mass",
+        "Percentage composition",
+        "Stoichiometry and stoichiometric calculations"
+       ]
+      },
+      {
+       "name": "Structure of Atom",
+       "marks": 9,
+       "topics": [
+        "Discovery of sub-atomic particles",
+        "Atomic models",
+        "Developments leading to Bohr's model",
+        "Bohr's model of the hydrogen atom",
+        "Towards the quantum mechanical model",
+        "Quantum mechanical model of the atom"
+       ]
+      },
+      {
+       "name": "Classification of Elements and Periodicity in Properties",
+       "marks": 6,
+       "topics": [
+        "Why we classify elements",
+        "Genesis of periodic classification",
+        "Modern periodic law and the present periodic table",
+        "Nomenclature of elements with Z > 100",
+        "Electronic configuration and the s, p, d, f blocks",
+        "Periodic trends in properties"
+       ]
+      },
+      {
+       "name": "Chemical Bonding and Molecular Structure",
+       "marks": 7,
+       "topics": [
+        "Kossel-Lewis approach to bonding",
+        "Ionic bond",
+        "Bond parameters",
+        "VSEPR theory",
+        "Valence bond theory and hybridisation",
+        "Molecular orbital theory; homonuclear diatomic molecules",
+        "Hydrogen bonding"
+       ]
+      },
+      {
+       "name": "Thermodynamics",
+       "marks": 9,
+       "topics": [
+        "Thermodynamic terms",
+        "Applications: work, heat and the first law",
+        "Measuring ΔU and ΔH: calorimetry",
+        "Enthalpy change of a reaction",
+        "Enthalpies of different types of reactions",
+        "Spontaneity",
+        "Gibbs energy change and equilibrium"
+       ]
+      },
+      {
+       "name": "Equilibrium",
+       "marks": 7,
+       "topics": [
+        "Equilibrium in physical and chemical processes",
+        "Law of chemical equilibrium and the equilibrium constant",
+        "Homogeneous and heterogeneous equilibria",
+        "K, Q and Gibbs energy",
+        "Factors affecting equilibria",
+        "Ionic equilibrium: acids, bases and salts",
+        "Buffer solutions",
+        "Solubility equilibria of sparingly soluble salts"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Chemistry Part II",
+     "chapters": [
+      {
+       "name": "Redox Reactions",
+       "marks": 4,
+       "topics": [
+        "Classical idea of oxidation and reduction",
+        "Redox reactions as electron transfer",
+        "Oxidation number",
+        "Redox reactions and electrode processes"
+       ]
+      },
+      {
+       "name": "Organic Chemistry: Some Basic Principles and Techniques",
+       "marks": 11,
+       "topics": [
+        "Tetravalence of carbon and shapes of organic compounds",
+        "Structural representation and classification",
+        "IUPAC nomenclature",
+        "Isomerism",
+        "Fundamental concepts in reaction mechanism",
+        "Methods of purification",
+        "Qualitative and quantitative analysis"
+       ]
+      },
+      {
+       "name": "Hydrocarbons",
+       "marks": 10,
+       "topics": [
+        "Classification of hydrocarbons",
+        "Alkanes",
+        "Alkenes",
+        "Alkynes",
+        "Aromatic hydrocarbons",
+        "Carcinogenicity and toxicity"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Sets and Functions",
+     "marks": 23,
+     "chapters": [
+      {
+       "name": "Sets",
+       "topics": [
+        "Sets and their representations",
+        "Empty, finite, infinite and equal sets",
+        "Subsets and intervals",
+        "Universal set and Venn diagrams",
+        "Union, intersection and difference of sets",
+        "Complement of a set and its properties"
+       ]
+      },
+      {
+       "name": "Relations and Functions (Class 11)",
+       "topics": [
+        "Ordered pairs and Cartesian products",
+        "Relations: domain, co-domain and range",
+        "Functions as special relations",
+        "Real-valued functions and their graphs",
+        "Constant, identity, polynomial, modulus, signum and greatest integer functions",
+        "Algebra of functions"
+       ]
+      },
+      {
+       "name": "Trigonometric Functions",
+       "topics": [
+        "Angles in degrees and radians",
+        "Trigonometric functions on the unit circle",
+        "Signs, domain and range; graphs",
+        "sin(x ± y) and cos(x ± y)",
+        "Sum and product formulas",
+        "Identities for 2x and 3x"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Algebra",
+     "marks": 25,
+     "chapters": [
+      {
+       "name": "Complex Numbers and Quadratic Equations",
+       "topics": [
+        "Need for complex numbers; iota",
+        "Algebra of complex numbers",
+        "Modulus and conjugate",
+        "Argand plane"
+       ]
+      },
+      {
+       "name": "Linear Inequalities",
+       "topics": [
+        "Linear inequalities",
+        "Algebraic solutions in one variable",
+        "Representation on the number line"
+       ]
+      },
+      {
+       "name": "Permutations and Combinations",
+       "topics": [
+        "Fundamental principle of counting",
+        "Factorial notation",
+        "Permutations",
+        "Combinations",
+        "Simple applications"
+       ]
+      },
+      {
+       "name": "Binomial Theorem",
+       "topics": [
+        "Binomial theorem for positive integral indices",
+        "Pascal's triangle",
+        "Simple applications"
+       ]
+      },
+      {
+       "name": "Sequences and Series",
+       "topics": [
+        "Sequences and series",
+        "Arithmetic mean",
+        "Geometric progression: general term and sum of n terms",
+        "Infinite GP and its sum",
+        "Geometric mean and the AM-GM relation"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Coordinate Geometry",
+     "marks": 12,
+     "chapters": [
+      {
+       "name": "Straight Lines",
+       "topics": [
+        "Slope of a line and angle between two lines",
+        "Point-slope and slope-intercept forms",
+        "Two-point and intercept forms",
+        "Distance of a point from a line"
+       ]
+      },
+      {
+       "name": "Conic Sections",
+       "topics": [
+        "Sections of a cone",
+        "Circle: standard equation",
+        "Parabola",
+        "Ellipse",
+        "Hyperbola"
+       ]
+      },
+      {
+       "name": "Introduction to Three Dimensional Geometry",
+       "topics": [
+        "Coordinate axes and planes in three dimensions",
+        "Coordinates of a point in space",
+        "Distance between two points"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Calculus",
+     "marks": 8,
+     "chapters": [
+      {
+       "name": "Limits and Derivatives",
+       "topics": [
+        "Derivative as a rate of change",
+        "Intuitive idea of a limit",
+        "Limits of polynomial, rational, trigonometric, exponential and logarithmic functions",
+        "Definition of the derivative; slope of a tangent",
+        "Derivatives of sums, products and quotients"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Statistics and Probability",
+     "marks": 12,
+     "chapters": [
+      {
+       "name": "Statistics (Class 11)",
+       "topics": [
+        "Measures of dispersion: range",
+        "Mean deviation",
+        "Variance and standard deviation of ungrouped data",
+        "Variance and standard deviation of grouped data"
+       ]
+      },
+      {
+       "name": "Probability (Class 11)",
+       "topics": [
+        "Events: 'not', 'and' and 'or' events",
+        "Exhaustive and mutually exclusive events",
+        "Axiomatic probability",
+        "Probability of an event and of 'not', 'and', 'or' events"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Biology",
+   "units": [
+    {
+     "name": "Diversity of Living Organisms",
+     "marks": 15,
+     "chapters": [
+      {
+       "name": "The Living World",
+       "topics": [
+        "Biodiversity and the need for classification",
+        "Three domains of life",
+        "Taxonomy and systematics",
+        "Species and taxonomic hierarchy",
+        "Binomial nomenclature"
+       ]
+      },
+      {
+       "name": "Biological Classification",
+       "topics": [
+        "Five kingdom classification",
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Lichens, viruses and viroids"
+       ]
+      },
+      {
+       "name": "Plant Kingdom",
+       "topics": [
+        "Algae",
+        "Bryophytes",
+        "Pteridophytes",
+        "Gymnosperms",
+        "Angiosperms"
+       ]
+      },
+      {
+       "name": "Animal Kingdom",
+       "topics": [
+        "Basis of classification of animals",
+        "Non-chordates up to phyla",
+        "Chordates up to classes",
+        "Salient features and examples"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Structural Organisation in Plants and Animals",
+     "marks": 10,
+     "chapters": [
+      {
+       "name": "Morphology of Flowering Plants",
+       "topics": [
+        "Root, stem and leaf",
+        "Inflorescence",
+        "Flower",
+        "Fruit and seed",
+        "Family Solanaceae"
+       ]
+      },
+      {
+       "name": "Anatomy of Flowering Plants",
+       "topics": [
+        "Tissues",
+        "Tissue systems",
+        "Anatomy of dicots and monocots"
+       ]
+      },
+      {
+       "name": "Structural Organisation in Animals",
+       "topics": [
+        "Frog: morphology",
+        "Frog: digestive and circulatory systems",
+        "Frog: respiratory and nervous systems",
+        "Frog: reproductive system"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Cell: Structure and Function",
+     "marks": 15,
+     "chapters": [
+      {
+       "name": "Cell: The Unit of Life",
+       "topics": [
+        "Cell theory",
+        "Prokaryotic and eukaryotic cells",
+        "Cell envelope, membrane and wall",
+        "Endomembrane system",
+        "Mitochondria, ribosomes and plastids",
+        "Cytoskeleton, cilia, flagella and centrioles",
+        "Nucleus"
+       ]
+      },
+      {
+       "name": "Biomolecules",
+       "topics": [
+        "Chemical constituents of living cells",
+        "Proteins",
+        "Carbohydrates and lipids",
+        "Nucleic acids",
+        "Enzymes: types, properties and action"
+       ]
+      },
+      {
+       "name": "Cell Cycle and Cell Division",
+       "topics": [
+        "Cell cycle",
+        "Mitosis",
+        "Meiosis",
+        "Significance of mitosis and meiosis"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Plant Physiology",
+     "marks": 12,
+     "chapters": [
+      {
+       "name": "Photosynthesis in Higher Plants",
+       "topics": [
+        "Site of photosynthesis and pigments",
+        "Light reaction: photochemical phase",
+        "Cyclic and non-cyclic photophosphorylation",
+        "Chemiosmotic hypothesis",
+        "Biosynthetic phase: C3 and C4 pathways",
+        "Photorespiration",
+        "Factors affecting photosynthesis"
+       ]
+      },
+      {
+       "name": "Respiration in Plants",
+       "topics": [
+        "Exchange of gases",
+        "Glycolysis",
+        "Fermentation",
+        "TCA cycle and electron transport system",
+        "ATP yield and amphibolic pathway",
+        "Respiratory quotient"
+       ]
+      },
+      {
+       "name": "Plant Growth and Development",
+       "topics": [
+        "Seed germination",
+        "Phases and rate of plant growth",
+        "Differentiation, dedifferentiation and redifferentiation",
+        "Plant growth regulators: auxin, gibberellin, cytokinin",
+        "Ethylene and ABA"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Human Physiology",
+     "marks": 18,
+     "chapters": [
+      {
+       "name": "Breathing and Exchange of Gases",
+       "topics": [
+        "Human respiratory system",
+        "Mechanism of breathing",
+        "Exchange and transport of gases",
+        "Regulation of respiration",
+        "Respiratory volumes",
+        "Respiratory disorders"
+       ]
+      },
+      {
+       "name": "Body Fluids and Circulation",
+       "topics": [
+        "Blood: composition, groups and coagulation",
+        "Lymph",
+        "Human heart and blood vessels",
+        "Cardiac cycle, cardiac output and ECG",
+        "Double circulation and its regulation",
+        "Disorders of the circulatory system"
+       ]
+      },
+      {
+       "name": "Excretory Products and their Elimination",
+       "topics": [
+        "Modes of excretion",
+        "Human excretory system",
+        "Urine formation and osmoregulation",
+        "Regulation of kidney function",
+        "Role of other organs in excretion",
+        "Disorders, dialysis and kidney transplant"
+       ]
+      },
+      {
+       "name": "Locomotion and Movement",
+       "topics": [
+        "Types of movement",
+        "Skeletal muscle and contractile proteins",
+        "Mechanism of muscle contraction",
+        "Skeletal system and joints",
+        "Disorders of the muscular and skeletal systems"
+       ]
+      },
+      {
+       "name": "Neural Control and Coordination",
+       "topics": [
+        "Neuron and nerves",
+        "Central nervous system",
+        "Peripheral and visceral nervous systems",
+        "Generation and conduction of a nerve impulse"
+       ]
+      },
+      {
+       "name": "Chemical Coordination and Integration",
+       "topics": [
+        "Endocrine glands and hormones",
+        "Hypothalamus, pituitary and pineal",
+        "Thyroid, parathyroid and adrenal",
+        "Pancreas and gonads",
+        "Mechanism of hormone action",
+        "Hormonal disorders"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "English Core",
+   "units": [
+    {
+     "name": "Hornbill",
+     "chapters": [
+      {
+       "name": "The Portrait of a Lady",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "A Photograph",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "We're Not Afraid to Die... if We Can All Be Together",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Discovering Tut: the Saga Continues",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Laburnum Top",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Voice of the Rain",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Ailing Planet: the Green Movement's Role",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Childhood",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Adventure",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Silk Road",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Father to Son",
+       "book": "Hornbill",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Snapshots",
+     "chapters": [
+      {
+       "name": "The Summer of the Beautiful White Horse",
+       "book": "Snapshots",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Address",
+       "book": "Snapshots",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Mother's Day",
+       "book": "Snapshots",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "Birth",
+       "book": "Snapshots",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      },
+      {
+       "name": "The Tale of Melon City",
+       "book": "Snapshots",
+       "topics": [
+        "Reading and understanding the text",
+        "Words and their meanings",
+        "Grammar in context",
+        "Speaking and writing about the text"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi Core",
+   "units": [
+    {
+     "name": "आरोह भाग 1: गद्य खंड",
+     "chapters": [
+      {
+       "name": "नमक का दारोगा",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मियाँ नसीरुद्दीन",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "अपू के साथ ढाई साल",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "विदाई-संभाषण",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "गलता लोहा",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "रजनी",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "जामुन का पेड़",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "भारत माता",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "आरोह भाग 1: काव्य खंड",
+     "chapters": [
+      {
+       "name": "हम तौ एक एक करि जांनां (कबीर)",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मेरे तो गिरधर गोपाल, दूसरो न कोई (मीरा)",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "घर की याद",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चंपा काले-काले अच्छर नहीं चीन्हती",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "ग़ज़ल (दुष्यंत कुमार)",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हे भूख! मत मचल (अक्कमहादेवी)",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "सबसे ख़तरनाक",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "आओ, मिलकर बचाएँ",
+       "book": "आरोह भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "वितान भाग 1",
+     "chapters": [
+      {
+       "name": "भारतीय गायिकाओं में बेजोड़: लता मंगेशकर",
+       "book": "वितान भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "राजस्थान की रजत बूँदें",
+       "book": "वितान भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "आलो-आँधारि",
+       "book": "वितान भाग 1",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Accountancy",
+   "units": [
+    {
+     "name": "Theoretical Framework",
+     "chapters": [
+      {
+       "name": "Introduction to Accounting",
+       "book": "Financial Accounting Part I",
+       "topics": [
+        "Economic Events",
+        "Identification, Measurement, Recording and Communication",
+        "Organisation",
+        "Interested Users of Information",
+        "Accounting as a Source of Information",
+        "Objectives of Accounting",
+        "Role of Accounting",
+        "Basic Terms in Accounting"
+       ],
+       "marks": 6.0
+      },
+      {
+       "name": "Theory Base of Accounting",
+       "book": "Financial Accounting Part I",
+       "topics": [
+        "Generally Accepted Accounting Principles",
+        "Basic Accounting Concepts",
+        "Systems of Accounting",
+        "Basis of Accounting",
+        "Accounting Standards"
+       ],
+       "marks": 6.0
+      }
+     ]
+    },
+    {
+     "name": "Accounting Process",
+     "chapters": [
+      {
+       "name": "Recording of Transactions – I",
+       "book": "Financial Accounting Part I",
+       "topics": [
+        "Business Transactions and Source Document",
+        "Preparation of Accounting Vouchers",
+        "Accounting Equation",
+        "Using Debit and Credit",
+        "Rules of Debit and Credit",
+        "Books of Original Entry",
+        "Journal",
+        "The Ledger",
+        "Classification of Ledger Accounts",
+        "Posting from Journal"
+       ],
+       "marks": 8.8
+      },
+      {
+       "name": "Recording of Transactions – II",
+       "book": "Financial Accounting Part I",
+       "topics": [
+        "Cash Book",
+        "Single Column Cash Book",
+        "Double Column Cash Book",
+        "Petty Cash Book",
+        "Balancing of Cash Book",
+        "Purchases (Journal) Book",
+        "Purchases Return (Journal) Book",
+        "Sales (Journal) Book",
+        "Sales Return (Journal) Book",
+        "Balancing the Accounts"
+       ],
+       "marks": 8.8
+      },
+      {
+       "name": "Bank Reconciliation Statement",
+       "book": "Financial Accounting Part I",
+       "topics": [
+        "Need for Reconciliation",
+        "Timing Differences",
+        "Differences Caused by Errors",
+        "Preparation of Bank Reconciliation Statement without adjusting Cash Book Balance"
+       ],
+       "marks": 8.8
+      },
+      {
+       "name": "Trial Balance and Rectification of Errors",
+       "book": "Financial Accounting Part I",
+       "topics": [
+        "Meaning of Trial Balance",
+        "To Ascertain the Arithmetical Accuracy of Ledger Accounts",
+        "To Help in Locating Errors",
+        "To Help in the Preparation of the Financial Statements",
+        "Totals method",
+        "Balances Method",
+        "Totals-cum-balances Method",
+        "Searching of Errors",
+        "Rectification of Errors"
+       ],
+       "marks": 8.8
+      },
+      {
+       "name": "Depreciation, Provisions and Reserves",
+       "book": "Financial Accounting Part I",
+       "topics": [
+        "Depreciation and other Similar Terms",
+        "Causes of Depreciation",
+        "Need for Depreciation",
+        "Factors Affecting the Amount of Depreciation",
+        "Methods of Calculating Depreciation Amount",
+        "Straight Line Method and Written Down Method: A Comparative Analysis",
+        "Methods of Recording Depreciation",
+        "Disposal of Asset",
+        "Effect of any Addition or Extension to the Existing Asset"
+       ],
+       "marks": 8.8
+      }
+     ]
+    },
+    {
+     "name": "Financial Statements of Sole Proprietorship",
+     "chapters": [
+      {
+       "name": "Financial Statements – I",
+       "book": "Financial Accounting Part II",
+       "topics": [
+        "Stakeholders and their Information Requirements",
+        "Expenditure",
+        "Receipts",
+        "Importance of Distinction between Capital and Revenue",
+        "Trading and Profit and Loss Account",
+        "Operating Profit (EBIT)",
+        "Balance Sheet",
+        "Opening Entry"
+       ],
+       "marks": 12.0
+      },
+      {
+       "name": "Financial Statements – II",
+       "book": "Financial Accounting Part II",
+       "topics": [
+        "Need for Adjustments",
+        "Closing Stock",
+        "Outstanding Expenses",
+        "Prepaid Expenses",
+        "Accrued Income",
+        "Income Received in Advance",
+        "Depreciation",
+        "Bad Debts",
+        "Provision for Bad and Doubtful Debts",
+        "Provision for Discount on Debtors"
+       ],
+       "marks": 12.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Business Studies",
+   "units": [
+    {
+     "name": "Foundations of Business",
+     "chapters": [
+      {
+       "name": "Business, Trade and Commerce",
+       "book": "Business Studies",
+       "marks": 8,
+       "topics": [
+        "Characteristics of Business Activities",
+        "Comparison of Business, Profession and Employment",
+        "Industry",
+        "Commerce",
+        "Trade and Auxiliaries to Trade",
+        "Objectives of Business",
+        "Classification of Objectives of Business",
+        "Nature of Business Risks",
+        "Cause of Business Risks",
+        "Starting a Business — Basic Factors"
+       ]
+      },
+      {
+       "name": "Forms of Business Organisation",
+       "book": "Business Studies",
+       "marks": 8,
+       "topics": [
+        "Sole Proprietorship",
+        "Joint Hindu Family Business",
+        "Types of Partnerships",
+        "Partnership Deed",
+        "Registration",
+        "Cooperative Society",
+        "Joint Stock Company",
+        "Choice of Form of Business Organisation"
+       ]
+      },
+      {
+       "name": "Private, Public and Global Enterprises",
+       "book": "Business Studies",
+       "marks": 7,
+       "topics": [
+        "Private Sector and Public Sector",
+        "Departmental Undertakings",
+        "Statutory Corporations",
+        "Government Company",
+        "Changing Role of Public Sector",
+        "Global Enterprises",
+        "Types of Joint Ventures",
+        "Benefits",
+        "Public Private Partnership (PPP)"
+       ]
+      },
+      {
+       "name": "Business Services",
+       "book": "Business Studies",
+       "marks": 7,
+       "topics": [
+        "Nature of Services",
+        "Types of Services",
+        "Type of Banks",
+        "Functions of Commercial Banks",
+        "E-Banking",
+        "Insurance",
+        "Communication Services",
+        "Transportation"
+       ]
+      },
+      {
+       "name": "Emerging Modes of Business",
+       "book": "Business Studies",
+       "marks": 5,
+       "topics": [
+        "E-Business",
+        "Scope of e-Business",
+        "Benefits of e-Business",
+        "Limitations of e-Business",
+        "Online Transactions",
+        "Security and Safety of e-Transactions: e-Business Risks",
+        "Resources Required for Successful e-business Implementation"
+       ]
+      },
+      {
+       "name": "Social Responsibilities of Business and Business Ethics",
+       "book": "Business Studies",
+       "marks": 5,
+       "topics": [
+        "Concept of Social Responsibility",
+        "Arguments for Social Responsibility",
+        "Arguments against Social Responsibility",
+        "Reality of Social Responsibility",
+        "Kinds of Social Responsibility",
+        "Social Responsibility Towards Different Interest Groups",
+        "Business and Environmental Protection",
+        "Concept of Business Ethics",
+        "Elements of Business Ethics"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Finance and Trade",
+     "chapters": [
+      {
+       "name": "Sources of Business Finance",
+       "book": "Business Studies",
+       "marks": 10,
+       "topics": [
+        "Meaning, Nature and Significance",
+        "Period Basis",
+        "Ownership Basis",
+        "Source of Generation Basis",
+        "Sources of Finance",
+        "International Financing",
+        "Factors Affecting the Choice"
+       ]
+      },
+      {
+       "name": "MSME and Business Entrepreneurship",
+       "book": "Business Studies",
+       "marks": 10,
+       "topics": [
+        "Micro, Small and Medium Enterprises",
+        "Role of MSME",
+        "Problems Associated With MSME",
+        "MSME and Entrepreneurship Development",
+        "Intellectual Property Rights (IPR)",
+        "Why is IPR Important for Entrepreneurs?",
+        "Types of IPs"
+       ]
+      },
+      {
+       "name": "Internal Trade",
+       "book": "Business Studies",
+       "marks": 10,
+       "topics": [
+        "Services to Retailers",
+        "Services to Manufacturers and Wholesalers",
+        "Services to Consumers",
+        "Itinerant Retailers",
+        "Fixed Shop Retailers"
+       ]
+      },
+      {
+       "name": "International Business",
+       "book": "Business Studies",
+       "marks": 10,
+       "topics": [
+        "Modes of Entry into International Business",
+        "Exporting and Importing",
+        "Contract Manufacturing",
+        "Licensing and Franchising",
+        "Joint Ventures",
+        "Wholly Owned Subsidiaries",
+        "Export-Import Procedures",
+        "Export Procedure",
+        "Import Procedure"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Economics",
+   "units": [
+    {
+     "name": "Statistics for Economics",
+     "chapters": [
+      {
+       "name": "Introduction",
+       "book": "Statistics for Economics",
+       "marks": 3.75,
+       "topics": [
+        "Why economics?",
+        "Consumption, production and distribution",
+        "Statistics in economics",
+        "What statistics does"
+       ]
+      },
+      {
+       "name": "Collection of Data",
+       "book": "Statistics for Economics",
+       "marks": 3.75,
+       "topics": [
+        "Primary and secondary data",
+        "How data are collected",
+        "Preparing a questionnaire",
+        "Modes of data collection",
+        "Census and sample surveys",
+        "Sampling and non-sampling errors",
+        "Census of India and NSO"
+       ]
+      },
+      {
+       "name": "Organisation of Data",
+       "book": "Statistics for Economics",
+       "marks": 3.75,
+       "topics": [
+        "Raw data",
+        "Classification of data",
+        "Variables: continuous and discrete",
+        "Frequency distribution",
+        "Univariate and bivariate frequency distributions"
+       ]
+      },
+      {
+       "name": "Presentation of Data",
+       "book": "Statistics for Economics",
+       "marks": 3.75,
+       "topics": [
+        "Textual presentation",
+        "Tabular presentation",
+        "Bar diagrams and pie charts",
+        "Histogram, frequency polygon and ogive",
+        "Arithmetic line graphs"
+       ]
+      },
+      {
+       "name": "Measures of Central Tendency",
+       "book": "Statistics for Economics",
+       "marks": 8.33,
+       "topics": [
+        "Arithmetic mean",
+        "Median",
+        "Quartiles and percentiles",
+        "Mode",
+        "Relative positions of mean, median and mode"
+       ]
+      },
+      {
+       "name": "Correlation",
+       "book": "Statistics for Economics",
+       "marks": 8.33,
+       "topics": [
+        "Types of relationship",
+        "Scatter diagram",
+        "Karl Pearson's coefficient of correlation",
+        "Spearman's rank correlation"
+       ]
+      },
+      {
+       "name": "Index Numbers",
+       "book": "Statistics for Economics",
+       "marks": 8.33,
+       "topics": [
+        "What is an index number?",
+        "Constructing an index number",
+        "Consumer and wholesale price indices; index of industrial production",
+        "Issues in constructing an index number",
+        "Index numbers in economics"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Introductory Microeconomics",
+     "chapters": [
+      {
+       "name": "Introduction to Microeconomics",
+       "book": "Introductory Microeconomics",
+       "marks": 4,
+       "topics": [
+        "A Simple Economy",
+        "Central Problems of an Economy",
+        "Organisation of Economic Activities",
+        "The Centrally Planned Economy",
+        "Positive and Normative Economics",
+        "Microeconomics and Macroeconomics",
+        "Plan of the Book"
+       ]
+      },
+      {
+       "name": "Theory of Consumer Behaviour",
+       "book": "Introductory Microeconomics",
+       "marks": 14,
+       "topics": [
+        "Utility",
+        "The Consumer’s Budget",
+        "Optimal Choice of the Consumer",
+        "Demand",
+        "Market Demand",
+        "Elasticity of Demand"
+       ]
+      },
+      {
+       "name": "Production and Costs",
+       "book": "Introductory Microeconomics",
+       "marks": 7,
+       "topics": [
+        "Production Function",
+        "The Short Run and the Long Run",
+        "Total Product, Average Product and Marginal Product",
+        "The Law of Diminishing Marginal Product and the Law of Variable Proportions",
+        "Shapes of Total Product, Marginal Product and Average Product",
+        "Returns to Scale",
+        "Costs"
+       ]
+      },
+      {
+       "name": "The Theory of the Firm under Perfect Competition",
+       "book": "Introductory Microeconomics",
+       "marks": 7,
+       "topics": [
+        "Perfect Competition: Defining Features",
+        "Revenue",
+        "Profit Maximisation",
+        "Supply Curve of a Firm",
+        "Determinants of a Firm’s Supply Curve",
+        "Market Supply Curve",
+        "Price Elasticity of Supply"
+       ]
+      },
+      {
+       "name": "Market Equilibrium",
+       "book": "Introductory Microeconomics",
+       "marks": 8,
+       "topics": [
+        "Equilibrium, Excess Demand, Excess Supply",
+        "Applications"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Computer Science",
+   "units": [
+    {
+     "name": "Computer Systems and Organisation",
+     "chapters": [
+      {
+       "name": "Computer System",
+       "book": "Computer Science",
+       "topics": [
+        "Evolution of Computer",
+        "Units of Memory",
+        "Types of Memory",
+        "Data Transfer between Memory and CPU",
+        "Microprocessor Specifications",
+        "Microcontrollers",
+        "Data and Information",
+        "Software",
+        "OS User Interface",
+        "Functions of Operating System"
+       ],
+       "marks": 5.0
+      },
+      {
+       "name": "Encoding Schemes and Number System",
+       "book": "Computer Science",
+       "topics": [
+        "Decimal Number System",
+        "Binary Number System",
+        "Octal Number System",
+        "Hexadecimal Number System",
+        "Applications of Hexadecimal Number System",
+        "Conversion from Decimal to other Number Systems",
+        "Conversion from other Number Systems to Decimal Number System",
+        "Conversion from Binary Number to Octal/ Hexadecimal Number and Vice-Versa",
+        "Conversion of a Number with Fractional Part"
+       ],
+       "marks": 5.0
+      }
+     ]
+    },
+    {
+     "name": "Computational Thinking and Programming",
+     "chapters": [
+      {
+       "name": "Introduction to Problem Solving",
+       "book": "Computer Science",
+       "topics": [
+        "Steps for Problem Solving",
+        "Algorithm",
+        "Flowchart — Visual Representation of Algorithms",
+        "Pseudocode",
+        "Flow of Control",
+        "Verifying Algorithms",
+        "Comparison of Algorithm",
+        "Coding",
+        "Decomposition"
+       ],
+       "marks": 6.43
+      },
+      {
+       "name": "Getting Started with Python",
+       "book": "Computer Science",
+       "topics": [
+        "Python Keywords",
+        "Identifiers",
+        "Variables",
+        "Comments",
+        "Everything is an Object",
+        "Data Types",
+        "Operators",
+        "Expressions",
+        "Statement",
+        "Input and Output"
+       ],
+       "marks": 6.43
+      },
+      {
+       "name": "Flow of Control",
+       "book": "Computer Science",
+       "topics": [
+        "Selection",
+        "Indentation",
+        "Repetition",
+        "The ‘For’ Loop",
+        "The ‘While’ Loop",
+        "Break and Continue Statement",
+        "Break Statement",
+        "Continue Statement",
+        "Nested Loops"
+       ],
+       "marks": 6.43
+      },
+      {
+       "name": "Functions",
+       "book": "Computer Science",
+       "topics": [
+        "Creating User Defined Function",
+        "Arguments and Parameters",
+        "Functions Returning Value",
+        "Flow of Execution",
+        "Scope of a Variable",
+        "Built-in functions",
+        "Module"
+       ],
+       "marks": 6.43
+      },
+      {
+       "name": "Strings",
+       "book": "Computer Science",
+       "topics": [
+        "Accessing Characters in a String",
+        "String is Immutable",
+        "Concatenation",
+        "Repetition",
+        "Membership",
+        "Slicing",
+        "Traversing a String",
+        "String Methods and Built-in Functions",
+        "Handling Strings"
+       ],
+       "marks": 6.43
+      },
+      {
+       "name": "Lists",
+       "book": "Computer Science",
+       "topics": [
+        "Concatenation",
+        "Repetition",
+        "Membership",
+        "Slicing",
+        "Traversing a List",
+        "List Methods and Built-in Functions",
+        "Nested Lists",
+        "Copying Lists",
+        "List as Argument to a Function",
+        "List Manipulation"
+       ],
+       "marks": 6.43
+      },
+      {
+       "name": "Tuples and Dictionaries",
+       "book": "Computer Science",
+       "topics": [
+        "Tuple Operations",
+        "Tuple Methods and Built-in Functions",
+        "Tuple Assignment",
+        "Nested Tuples",
+        "Tuple Handling",
+        "Dictionaries are Mutable",
+        "Dictionary Operations",
+        "Traversing a Dictionary",
+        "Dictionary methods and Built-in functions",
+        "Manipulating Dictionaries"
+       ],
+       "marks": 6.43
+      }
+     ]
+    },
+    {
+     "name": "Society, Law and Ethics",
+     "chapters": [
+      {
+       "name": "Societal Impact",
+       "book": "Computer Science",
+       "topics": [
+        "Digital Footprints",
+        "Net Etiquettes",
+        "Communication Etiquettes",
+        "Social Media Etiquettes",
+        "Intellectual Property Right (IPR)",
+        "Violation of IPR",
+        "Public Access and Open Source Software",
+        "Cyber Crime",
+        "Indian Information Technology Act (IT Act)",
+        "Impact on Health"
+       ],
+       "marks": 15.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Informatics Practices",
+   "units": [
+    {
+     "name": "Introduction to Computer System",
+     "chapters": [
+      {
+       "name": "Computer System",
+       "book": "Informatics Practices",
+       "topics": [
+        "Evolution of Computer",
+        "Units of Memory",
+        "Types of Memory",
+        "Data Capturing, Storage, and Retrieval",
+        "Data Deletion and Recovery",
+        "Need of Software",
+        "System Software",
+        "Application Software",
+        "Proprietary or Free and Open Source Software"
+       ],
+       "marks": 10.0
+      }
+     ]
+    },
+    {
+     "name": "Introduction to Emerging Trends",
+     "chapters": [
+      {
+       "name": "Emerging Trends",
+       "book": "Informatics Practices",
+       "topics": [
+        "Artificial Intelligence (AI)",
+        "Characteristics of Big Data",
+        "Data Analytics",
+        "Web of Things (WoT)",
+        "Sensors",
+        "Smart Cities",
+        "Cloud Computing",
+        "Grid Computing",
+        "Blockchains"
+       ],
+       "marks": 5.0
+      }
+     ]
+    },
+    {
+     "name": "Introduction to Python",
+     "chapters": [
+      {
+       "name": "Brief Overview of Python",
+       "book": "Informatics Practices",
+       "topics": [
+        "Python Keywords",
+        "Identifiers",
+        "Variables",
+        "Data Types",
+        "Operators",
+        "Expressions",
+        "Input and Output",
+        "Debugging",
+        "Functions",
+        "If..else Statements"
+       ],
+       "marks": 12.5
+      },
+      {
+       "name": "Working with Lists and Dictionaries",
+       "book": "Informatics Practices",
+       "topics": [
+        "Concatenation",
+        "Repetition",
+        "Membership",
+        "Slicing",
+        "Traversing a List",
+        "List Methods and Built-in Functions",
+        "List Manipulation",
+        "Traversing a Dictionary",
+        "Dictionary Methods and Built-in Functions",
+        "Manipulating Dictionaries"
+       ],
+       "marks": 12.5
+      }
+     ]
+    },
+    {
+     "name": "Database Concepts and SQL",
+     "chapters": [
+      {
+       "name": "Database Concepts",
+       "book": "Informatics Practices",
+       "topics": [
+        "File System to DBMS",
+        "Key Concepts in DBMS",
+        "Relational Data Model",
+        "Candidate Key",
+        "Primary Key",
+        "Composite Primary Key",
+        "Foreign Key"
+       ],
+       "marks": 15.0
+      },
+      {
+       "name": "Introduction to Structured Query Language (SQL)",
+       "book": "Informatics Practices",
+       "topics": [
+        "Structured Query Language (SQL)",
+        "Data type of Attribute",
+        "Constraints",
+        "CREATE Database",
+        "DROP Statement",
+        "SQL for Data Manipulation",
+        "SELECT Statement",
+        "QUERYING using Database OFFICE",
+        "Data Updation",
+        "Data Deletion"
+       ],
+       "marks": 15.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "History",
+   "units": [
+    {
+     "name": "Early Societies",
+     "chapters": [
+      {
+       "name": "Writing and City Life",
+       "book": "Themes in World History",
+       "topics": [
+        "Mesopotamia and its geography",
+        "The significance of urbanism",
+        "Movement of goods into cities",
+        "The development of writing",
+        "Literacy and the uses of writing",
+        "Urbanisation in southern Mesopotamia: temples and kings",
+        "Life in the city",
+        "A trading town in a pastoral zone: Mari",
+        "Cities in Mesopotamian culture",
+        "The legacy of writing"
+       ],
+       "marks": 10.0
+      }
+     ]
+    },
+    {
+     "name": "Empires",
+     "chapters": [
+      {
+       "name": "An Empire Across Three Continents",
+       "book": "Themes in World History",
+       "topics": [
+        "Sources for Roman history",
+        "The early empire",
+        "The third-century crisis",
+        "Gender, literacy and culture",
+        "Economic expansion",
+        "Controlling workers",
+        "Social hierarchies",
+        "Late antiquity"
+       ],
+       "marks": 10.0
+      },
+      {
+       "name": "Nomadic Empires",
+       "book": "Themes in World History",
+       "topics": [
+        "Sources on the Mongols",
+        "The social and political background",
+        "The career of Genghis Khan",
+        "The Mongols after Genghis Khan",
+        "Social, political and military organisation",
+        "The yasa",
+        "Genghis Khan and the Mongols in world history"
+       ],
+       "marks": 10.0
+      }
+     ]
+    },
+    {
+     "name": "Changing Traditions",
+     "chapters": [
+      {
+       "name": "The Three Orders",
+       "book": "Themes in World History",
+       "topics": [
+        "France and the three orders",
+        "Feudalism",
+        "The first order: the clergy",
+        "The second order: the nobility",
+        "The third order: peasants, free and unfree",
+        "Environment, land use and new agricultural technology",
+        "A fourth order? New towns and townspeople",
+        "Cathedral-towns",
+        "The crisis of the fourteenth century",
+        "Political changes"
+       ],
+       "marks": 10.0
+      },
+      {
+       "name": "Changing Cultural Traditions",
+       "book": "Themes in World History",
+       "topics": [
+        "The revival of Italian cities",
+        "Universities and humanism",
+        "The humanist view of history",
+        "Science and philosophy: the Arabs' contribution",
+        "Artists and realism",
+        "Architecture",
+        "The first printed books",
+        "The aspirations of women",
+        "Debates within Christianity",
+        "The Copernican revolution"
+       ],
+       "marks": 10.0
+      }
+     ]
+    },
+    {
+     "name": "Towards Modernisation",
+     "chapters": [
+      {
+       "name": "Displacing Indigenous Peoples",
+       "book": "Themes in World History",
+       "marks": 10,
+       "topics": [
+        "European imperialism",
+        "The native peoples of North America",
+        "Mutual perceptions",
+        "Winners and losers",
+        "The gold rush and the growth of industries",
+        "Constitutional rights",
+        "The Back to the Land movement",
+        "Australia and its first peoples",
+        "The winds of change in Australia"
+       ]
+      },
+      {
+       "name": "Paths to Modernisation",
+       "book": "Themes in World History",
+       "marks": 15,
+       "topics": [
+        "Japan: the political system",
+        "The Meiji Restoration",
+        "Modernising the economy and industrialisation",
+        "Daily life in modern Japan",
+        "Overcoming modernity",
+        "After defeat: Japan as a global economic power",
+        "China: establishing the republic",
+        "The rise of the Communist Party of China",
+        "Establishing the New Democracy: 1949–65",
+        "Reforms from 1978, and the Republic of China in Taiwan"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Geography",
+   "units": [
+    {
+     "name": "Fundamentals of Physical Geography",
+     "chapters": [
+      {
+       "name": "Geography as a Discipline",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 3,
+       "topics": [
+        "Geography as an integrating discipline",
+        "Physical geography and the natural sciences",
+        "Geography and the social sciences",
+        "Branches of geography",
+        "Importance of physical geography"
+       ]
+      },
+      {
+       "name": "The Origin and Evolution of the Earth",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 3,
+       "topics": [
+        "Early theories of the origin of the Earth",
+        "Modern theories: the Big Bang",
+        "Formation of stars",
+        "Formation of planets",
+        "Evolution of the lithosphere, atmosphere and hydrosphere",
+        "Origin of life"
+       ]
+      },
+      {
+       "name": "Interior of the Earth",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 3,
+       "topics": [
+        "Sources of information about the interior",
+        "Earthquakes and earthquake waves",
+        "Shadow zone",
+        "Structure of the Earth: crust, mantle and core",
+        "Volcanoes and volcanic landforms"
+       ]
+      },
+      {
+       "name": "Distribution of Oceans and Continents",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 3,
+       "topics": [
+        "Continental drift",
+        "Evidence for continental drift",
+        "Ocean floor configuration",
+        "Sea-floor spreading",
+        "Plate tectonics",
+        "Movement of the Indian plate"
+       ]
+      },
+      {
+       "name": "Geomorphic Processes",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 3,
+       "topics": [
+        "Geomorphic processes and agents",
+        "Endogenic processes: diastrophism and volcanism",
+        "Exogenic processes",
+        "Weathering",
+        "Mass movements",
+        "Erosion and deposition",
+        "Soil formation"
+       ]
+      },
+      {
+       "name": "Landforms and their Evolution",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 3,
+       "topics": [
+        "Running water",
+        "Groundwater",
+        "Glaciers",
+        "Waves and currents",
+        "Winds"
+       ]
+      },
+      {
+       "name": "Composition and Structure of Atmosphere",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 2,
+       "topics": [
+        "Composition of the atmosphere",
+        "Gases, water vapour and dust particles",
+        "Structure of the atmosphere",
+        "Elements of weather and climate"
+       ]
+      },
+      {
+       "name": "Solar Radiation, Heat Balance and Temperature",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 2,
+       "topics": [
+        "Solar radiation and insolation",
+        "Heating and cooling of the atmosphere",
+        "Heat budget of the Earth",
+        "Factors controlling temperature distribution",
+        "Distribution of temperature",
+        "Inversion of temperature"
+       ]
+      },
+      {
+       "name": "Atmospheric Circulation and Weather Systems",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 2,
+       "topics": [
+        "Atmospheric pressure and pressure belts",
+        "Forces affecting wind",
+        "General circulation of the atmosphere",
+        "Air masses and fronts",
+        "Extra-tropical and tropical cyclones",
+        "Thunderstorms and tornadoes"
+       ]
+      },
+      {
+       "name": "Water in the Atmosphere",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 2,
+       "topics": [
+        "Humidity",
+        "Evaporation and condensation",
+        "Dew, frost, fog and mist",
+        "Clouds",
+        "Precipitation and types of rainfall",
+        "World distribution of rainfall"
+       ]
+      },
+      {
+       "name": "Water (Oceans)",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 2,
+       "topics": [
+        "The hydrological cycle",
+        "Relief of the ocean floor",
+        "Temperature of ocean waters",
+        "Salinity of ocean waters"
+       ]
+      },
+      {
+       "name": "Movements of Ocean Water",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 2,
+       "topics": [
+        "Waves",
+        "Tides",
+        "Ocean currents",
+        "Major ocean currents",
+        "Effects of ocean currents"
+       ]
+      },
+      {
+       "name": "Biodiversity and Conservation",
+       "book": "Fundamentals of Physical Geography",
+       "marks": 2,
+       "topics": [
+        "Biodiversity: genetic, species and ecosystem",
+        "Importance of biodiversity",
+        "Loss of biodiversity",
+        "Conservation of biodiversity"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "India: Physical Environment",
+     "chapters": [
+      {
+       "name": "India — Location",
+       "book": "India: Physical Environment",
+       "topics": [
+        "Location of India",
+        "Size of India",
+        "India and its neighbours"
+       ]
+      },
+      {
+       "name": "Structure and Physiography",
+       "book": "India: Physical Environment",
+       "topics": [
+        "Geological structure",
+        "The Northern and North-eastern Mountains",
+        "The Northern Plains",
+        "The Peninsular Plateau",
+        "The Indian Desert",
+        "The Coastal Plains",
+        "The Islands"
+       ]
+      },
+      {
+       "name": "Drainage System",
+       "book": "India: Physical Environment",
+       "topics": [
+        "Drainage patterns",
+        "The Himalayan drainage: Indus, Ganga and Brahmaputra",
+        "Evolution of the Himalayan drainage",
+        "The Peninsular drainage system",
+        "River systems of the Peninsula",
+        "Extent of usability of river water"
+       ]
+      },
+      {
+       "name": "Climate",
+       "book": "India: Physical Environment",
+       "topics": [
+        "Unity and diversity in the monsoon climate",
+        "Factors determining India's climate",
+        "The nature of the Indian monsoon",
+        "The seasons",
+        "Distribution of rainfall",
+        "Climatic regions of India",
+        "Monsoon and economic life"
+       ]
+      },
+      {
+       "name": "Natural Vegetation",
+       "book": "India: Physical Environment",
+       "topics": [
+        "Types of forests",
+        "Forest cover in India",
+        "Forest conservation",
+        "Wildlife conservation",
+        "Biosphere reserves"
+       ]
+      },
+      {
+       "name": "Natural Hazards and Disasters",
+       "book": "India: Physical Environment",
+       "topics": [
+        "Natural disasters and hazards",
+        "Classification of disasters",
+        "Earthquakes and tsunamis",
+        "Tropical cyclones",
+        "Floods",
+        "Droughts",
+        "Landslides",
+        "Disaster management"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Political Science",
+   "units": [
+    {
+     "name": "Indian Constitution at Work",
+     "chapters": [
+      {
+       "name": "Constitution: Why and How?",
+       "book": "Indian Constitution at Work",
+       "marks": 4,
+       "topics": [
+        "Why do we need a constitution?",
+        "The authority of a constitution",
+        "How the Indian Constitution was made",
+        "The Constituent Assembly",
+        "Institutional arrangements",
+        "Provisions borrowed from other constitutions"
+       ]
+      },
+      {
+       "name": "Rights in the Indian Constitution",
+       "book": "Indian Constitution at Work",
+       "marks": 4,
+       "topics": [
+        "The importance of rights",
+        "Bill of rights",
+        "Fundamental Rights in the Indian Constitution",
+        "Right to equality",
+        "Right against exploitation",
+        "Right to freedom of religion",
+        "Cultural and educational rights",
+        "Right to constitutional remedies",
+        "Directive Principles of State Policy"
+       ]
+      },
+      {
+       "name": "Election and Representation",
+       "book": "Indian Constitution at Work",
+       "marks": 6,
+       "topics": [
+        "Elections and democracy",
+        "Election system in India",
+        "First past the post system",
+        "Proportional representation",
+        "Why India adopted the FPTP system",
+        "Reservation of constituencies",
+        "Free and fair elections",
+        "Universal franchise and the right to contest",
+        "Independent Election Commission",
+        "Electoral reforms"
+       ]
+      },
+      {
+       "name": "Executive",
+       "book": "Indian Constitution at Work",
+       "marks": 4,
+       "topics": [
+        "What is an executive?",
+        "Types of executive",
+        "Parliamentary executive in India",
+        "The President: powers and position",
+        "Prime Minister and Council of Ministers",
+        "Permanent executive: the bureaucracy"
+       ]
+      },
+      {
+       "name": "Legislature",
+       "book": "Indian Constitution at Work",
+       "marks": 4,
+       "topics": [
+        "Why do we need a parliament?",
+        "Why two houses?",
+        "Rajya Sabha and Lok Sabha",
+        "What Parliament does",
+        "How Parliament makes laws",
+        "How Parliament controls the executive",
+        "Parliamentary committees"
+       ]
+      },
+      {
+       "name": "Judiciary",
+       "book": "Indian Constitution at Work",
+       "marks": 4,
+       "topics": [
+        "Why an independent judiciary?",
+        "Appointment and removal of judges",
+        "Structure of the judiciary",
+        "Jurisdiction of the Supreme Court",
+        "Judicial activism",
+        "Judiciary and rights",
+        "Judiciary and Parliament"
+       ]
+      },
+      {
+       "name": "Federalism",
+       "book": "Indian Constitution at Work",
+       "marks": 6,
+       "topics": [
+        "What is federalism?",
+        "Federalism in the Indian Constitution",
+        "Federalism with a strong central government",
+        "Conflicts in India's federal system",
+        "Special provisions"
+       ]
+      },
+      {
+       "name": "Local Governments",
+       "book": "Indian Constitution at Work",
+       "marks": 4,
+       "topics": [
+        "Why local governments?",
+        "Growth of local government in India",
+        "The 73rd and 74th Amendments",
+        "Implementation of the amendments"
+       ]
+      },
+      {
+       "name": "Constitution as a Living Document",
+       "book": "Indian Constitution at Work",
+       "marks": 2,
+       "topics": [
+        "Are constitutions static?",
+        "How the Constitution is amended",
+        "Why so many amendments?",
+        "The basic structure"
+       ]
+      },
+      {
+       "name": "The Philosophy of the Constitution",
+       "book": "Indian Constitution at Work",
+       "marks": 2,
+       "topics": [
+        "What the philosophy of a constitution means",
+        "The political philosophy of our Constitution",
+        "Procedural achievements",
+        "Criticisms and limitations"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Political Theory",
+     "chapters": [
+      {
+       "name": "Political Theory: An Introduction",
+       "book": "Political Theory",
+       "marks": 4,
+       "topics": [
+        "What Is Politics?",
+        "What Do We Study in Political Theory?",
+        "Putting Political Theory to Practice",
+        "Why Should We Study Political Theory?"
+       ]
+      },
+      {
+       "name": "Freedom",
+       "book": "Political Theory",
+       "marks": 6,
+       "topics": [
+        "The Ideal of Freedom",
+        "What Is Freedom?",
+        "Why Do We Need Constraints?",
+        "Harm Principle",
+        "Negative and Positive Liberty"
+       ]
+      },
+      {
+       "name": "Equality",
+       "book": "Political Theory",
+       "marks": 6,
+       "topics": [
+        "Why Does Equality Matter?",
+        "What Is Equality?",
+        "Three Dimensions of Equality",
+        "How Can We Promote Equality?"
+       ]
+      },
+      {
+       "name": "Social Justice",
+       "book": "Political Theory",
+       "marks": 6,
+       "topics": [
+        "What Is Justice?",
+        "Just Distribution",
+        "John Rawls’ Theory of Justice",
+        "Pursuing Social Justice"
+       ]
+      },
+      {
+       "name": "Rights",
+       "book": "Political Theory",
+       "marks": 4,
+       "topics": [
+        "What Are Rights?",
+        "Where Do Rights Come From?",
+        "Legal Rights and the State",
+        "Kinds of Rights",
+        "Rights and Responsibilities"
+       ]
+      },
+      {
+       "name": "Citizenship",
+       "book": "Political Theory",
+       "marks": 4,
+       "topics": [
+        "Full and Equal Membership",
+        "Equal Rights",
+        "Citizen and Nation",
+        "Universal Citizenship",
+        "Global Citizenship"
+       ]
+      },
+      {
+       "name": "Nationalism",
+       "book": "Political Theory",
+       "marks": 4,
+       "topics": [
+        "Introducing Nationalism",
+        "Nations and Nationalism",
+        "National Self-determination",
+        "Nationalism and Pluralism"
+       ]
+      },
+      {
+       "name": "Secularism",
+       "book": "Political Theory",
+       "marks": 6,
+       "topics": [
+        "What Is Secularism?",
+        "Secular State",
+        "The Western Model of Secularism",
+        "The Indian Model",
+        "Criticisms of Indian Secularism"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Psychology",
+   "units": [
+    {
+     "name": "Introduction to Psychology",
+     "chapters": [
+      {
+       "name": "What is Psychology?",
+       "book": "Introduction to Psychology",
+       "marks": 11,
+       "topics": [
+        "Psychology as a natural and a social science",
+        "Understanding mind and behaviour",
+        "Popular notions about psychology",
+        "Evolution of psychology",
+        "Development of psychology in India",
+        "Branches of psychology",
+        "Psychology and other disciplines",
+        "Psychologists at work",
+        "Psychology in everyday life"
+       ]
+      },
+      {
+       "name": "Methods of Enquiry in Psychology",
+       "book": "Introduction to Psychology",
+       "marks": 13,
+       "topics": [
+        "Goals of psychological enquiry",
+        "Steps in conducting scientific research",
+        "Alternative paradigms of research",
+        "Nature of psychological data",
+        "Observational method",
+        "Experimental method",
+        "Correlational research and survey research",
+        "Psychological testing and case study",
+        "Analysis of data",
+        "Limitations and ethical issues"
+       ]
+      },
+      {
+       "name": "Human Development",
+       "book": "Introduction to Psychology",
+       "marks": 11,
+       "topics": [
+        "Meaning of development",
+        "Life-span perspective on development",
+        "Factors influencing development",
+        "Context of development",
+        "Overview of developmental stages",
+        "Prenatal stage",
+        "Infancy",
+        "Childhood",
+        "Challenges of adolescence",
+        "Adulthood and old age"
+       ]
+      },
+      {
+       "name": "Sensory, Attentional and Perceptual Processes",
+       "book": "Introduction to Psychology",
+       "marks": 8,
+       "topics": [
+        "Knowing the world",
+        "Nature and varieties of stimulus",
+        "Sense modalities",
+        "Attentional processes",
+        "Selective and sustained attention",
+        "Perceptual processes",
+        "Principles of perceptual organisation",
+        "Perception of space, depth and distance",
+        "Perceptual constancies and illusions",
+        "Socio-cultural influences on perception"
+       ]
+      },
+      {
+       "name": "Learning",
+       "book": "Introduction to Psychology",
+       "marks": 9,
+       "topics": [
+        "Nature of learning",
+        "Paradigms of learning",
+        "Classical conditioning",
+        "Operant conditioning",
+        "Observational learning",
+        "Cognitive learning",
+        "Verbal learning",
+        "Skill learning",
+        "Factors facilitating learning",
+        "Learning disabilities"
+       ]
+      },
+      {
+       "name": "Human Memory",
+       "book": "Introduction to Psychology",
+       "marks": 8,
+       "topics": [
+        "Nature of memory",
+        "Information processing approach: the stage model",
+        "Memory systems: sensory, short-term and long-term",
+        "Levels of processing",
+        "Types of long-term memory",
+        "Knowledge representation and organisation in memory",
+        "Memory as a constructive process",
+        "Nature and causes of forgetting",
+        "Enhancing memory"
+       ]
+      },
+      {
+       "name": "Thinking",
+       "book": "Introduction to Psychology",
+       "marks": 5,
+       "topics": [
+        "Nature of thinking",
+        "The processes of thinking",
+        "Problem solving",
+        "Reasoning",
+        "Decision-making",
+        "Creative thinking",
+        "Thought and language",
+        "Development of language"
+       ]
+      },
+      {
+       "name": "Motivation and Emotion",
+       "book": "Introduction to Psychology",
+       "marks": 5,
+       "topics": [
+        "Nature of motivation",
+        "Types of motives: biological and psychosocial",
+        "Maslow's hierarchy of needs",
+        "Nature of emotions",
+        "Expression of emotions",
+        "Culture and emotions",
+        "Managing negative emotions",
+        "Enhancing positive emotions"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sociology",
+   "units": [
+    {
+     "name": "Introducing Sociology",
+     "chapters": [
+      {
+       "name": "Sociology and Society",
+       "book": "Introducing Sociology",
+       "marks": 10,
+       "topics": [
+        "Introducing sociology",
+        "The individual and society",
+        "Pluralities and inequalities among societies",
+        "Emergence of sociology",
+        "Scope of sociology",
+        "Sociology and the other social sciences"
+       ]
+      },
+      {
+       "name": "Terms, Concepts and their Use in Sociology",
+       "book": "Introducing Sociology",
+       "marks": 10,
+       "topics": [
+        "Why sociology needs its own terms",
+        "Social groups and society",
+        "Social stratification",
+        "Status and role",
+        "Society and social control"
+       ]
+      },
+      {
+       "name": "Understanding Social Institutions",
+       "book": "Introducing Sociology",
+       "marks": 12,
+       "topics": [
+        "Family, marriage and kinship",
+        "Work and economic life",
+        "Political institutions",
+        "Religion as a social institution",
+        "Education as a social institution"
+       ]
+      },
+      {
+       "name": "Culture and Socialisation",
+       "book": "Introducing Sociology",
+       "marks": 12,
+       "topics": [
+        "Diverse settings, different cultures",
+        "Defining culture",
+        "Dimensions of culture",
+        "Socialisation",
+        "Agencies of socialisation"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Understanding Society",
+     "chapters": [
+      {
+       "name": "Social Change and Social Order in Rural and Urban Society",
+       "book": "Understanding Society",
+       "marks": 12,
+       "topics": [
+        "Social change and its types",
+        "Social order",
+        "Domination, authority and law",
+        "Contestation, crime and violence",
+        "Village, town and city",
+        "Change and order in rural and urban areas"
+       ]
+      },
+      {
+       "name": "Introducing Western Sociologists",
+       "book": "Understanding Society",
+       "marks": 12,
+       "topics": [
+        "The context of sociology",
+        "Karl Marx on class struggle",
+        "Emile Durkheim and the division of labour",
+        "Max Weber: interpretive sociology",
+        "Ideal types and bureaucracy"
+       ]
+      },
+      {
+       "name": "Indian Sociologists",
+       "book": "Understanding Society",
+       "marks": 12,
+       "topics": [
+        "G.S. Ghurye on race and caste",
+        "D.P. Mukerji on tradition and change",
+        "A.R. Desai on the state",
+        "M.N. Srinivas on the village"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

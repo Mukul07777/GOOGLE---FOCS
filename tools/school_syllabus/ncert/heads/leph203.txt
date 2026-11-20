@@ -1,0 +1,34 @@
+NUMBERED
+11.1 INTRODUCTION
+11.2 ELECTRON EMISSION
+11.3 PHOTOELECTRIC EFFECT
+11.4 EXPERIMENTAL STUDY OF PHOTOELECTRIC
+11.5 PHOTOELECTRIC EFFECT AND WAVE THEORY
+11.6 EINSTEIN’S PHOTOELECTRIC EQUATION: ENERGY
+11.7 PARTICLE NATURE OF LIGHT: THE PHOTON
+11.8 WAVE NATURE OF MATTER
+2.40 kg m s
+BIG
+Physics
+11.1 INTRODUCTION
+Chapter Eleven
+DUAL NATURE OF
+RADIATION AND
+MATTER
+Dual Nature of Radiation
+and Matter
+11.2 ELECTRON EMISSION
+11.3 PHOTOELECTRIC EFFECT
+11.4 EXPERIMENTAL STUDY OF PHOTOELECTRIC
+EFFECT
+11.5 PHOTOELECTRIC EFFECT AND WAVE THEORY
+OF LIGHT
+11.6 EINSTEIN’S PHOTOELECTRIC EQUATION: ENERGY
+QUANTUM OF RADIATION
+ALBERT EINSTEIN (1879 – 1955)
+11.7 PARTICLE NATURE OF LIGHT: THE PHOTON
+11.8 WAVE NATURE OF MATTER
+LOUIS VICTOR DE BROGLIE (1892 – 1987)
+EXERCISES
+SAMPLE
+Physics 274 11.1 INTRODUCTION The Maxwell’s equations of electromagnetism and Hertz experiments on the generation and detection of electromagnetic waves in 1887 strongly established the wave nature of light. Towards the same period at the end of 19th century, experimental investigations on conduction of electricity (electric discharge) through gases at low pressure in a discharge tube led to many historic discoveries. The discovery of X-rays by Roentgen in 1895, and of electron by J. J. Thomson in 1897, were important milestones in the understanding of atomic structure. It was found that at sufficiently low pressure of about 0.001 mm of mercury column, a discharge took place between the two electrodes on applying the electric field to the gas in the discharge tube. A fluorescent glow appeared on the glass opposite to cathode. The colour of glow of the glass depended on the type of glass, it being yellowish-green for soda glass. The cause of this fluorescence was attributed to the radiation which appeared to be coming from the cathode. These cathode rays were discovered, in 1870, by William Crookes who later, in 1879, suggested that these rays consisted of streams of fast moving negatively charged particles. The British physicist J. J. Thomson (1856-1940) confirmed this hypothesis. By applying mutually perpendicular electric and magnetic fields across the discharge tube, J. J. Thomson was the first to determine experimentally the speed Chapter Eleven DUAL NATURE OF RADIATION AND MATTER Reprint 2026-27 275 Dual Nature of Radiation and Matter and the specific charge [charge to mass ratio (e/m)] of the cathode ray particles. They were found to travel with speeds ranging from about 0.1 to 0.2 times the speed of light (3 ×108 m/s). The presently accepted value of e/m is 1.76 

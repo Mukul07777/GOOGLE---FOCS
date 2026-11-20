@@ -1,0 +1,84 @@
+{
+  "area": "Electrical engineering",
+  "courses": [
+    {"name": "Electrical Machines I", "about": "Electromechanical energy conversion, DC machines and transformers", "chapters": [
+      {"name": "Electromechanical Energy Conversion", "hours": 6, "weight": 1.5, "foundation": true, "topics": ["Magnetic circuits and core losses", "Energy and co-energy", "Force and torque in magnetic systems", "Singly and doubly excited systems"]},
+      {"name": "Single-Phase Transformers", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Construction and working principle", "EMF equation and phasor diagrams", "Equivalent circuit", "Open-circuit and short-circuit tests", "Voltage regulation and efficiency", "Parallel operation and all-day efficiency"]},
+      {"name": "Three-Phase and Special Transformers", "hours": 6, "weight": 2, "topics": ["Three-phase transformer connections", "Vector groups", "Autotransformers", "Scott connection", "Tap-changing transformers"]},
+      {"name": "DC Generators", "hours": 7, "weight": 2, "topics": ["Construction and armature windings", "EMF equation", "Armature reaction and commutation", "Characteristics of DC generators", "Voltage build-up in shunt generators"]},
+      {"name": "DC Motors", "hours": 8, "weight": 2.5, "topics": ["Torque equation and back EMF", "Characteristics of shunt, series and compound motors", "Starters for DC motors", "Speed control methods", "Losses, efficiency and testing (Swinburne's and Hopkinson's tests)", "Braking of DC motors"]}
+    ]},
+    {"name": "Electrical Machines II", "about": "Induction and synchronous machines", "chapters": [
+      {"name": "Three-Phase Induction Motors", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Rotating magnetic field", "Construction and principle of operation", "Slip and rotor quantities", "Equivalent circuit and phasor diagram", "Torque-slip characteristics", "No-load and blocked-rotor tests and the circle diagram"]},
+      {"name": "Starting and Speed Control of Induction Motors", "hours": 6, "weight": 2, "topics": ["Starting methods: DOL, star-delta and autotransformer", "Rotor resistance starting", "Speed control by V/f and pole changing", "Induction generator", "Crawling and cogging"]},
+      {"name": "Single-Phase and Special Motors", "hours": 5, "weight": 1.5, "topics": ["Double revolving field theory", "Split-phase and capacitor motors", "Shaded-pole motor", "Stepper, universal and BLDC motors"]},
+      {"name": "Synchronous Generators", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Construction and EMF equation", "Winding factors", "Armature reaction and synchronous reactance", "Voltage regulation: EMF, MMF and ZPF methods", "Two-reaction theory for salient-pole machines", "Parallel operation and synchronisation"]},
+      {"name": "Synchronous Motors", "hours": 7, "weight": 2, "topics": ["Principle and methods of starting", "Phasor diagrams and power-angle characteristics", "V-curves and inverted V-curves", "Hunting and damper windings", "Synchronous condenser"]}
+    ]},
+    {"name": "Power Electronics", "about": "Power semiconductor devices and converters", "chapters": [
+      {"name": "Power Semiconductor Devices", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Power diodes and their characteristics", "Thyristor (SCR) characteristics and two-transistor model", "Turn-on and turn-off methods and commutation", "Power MOSFET and IGBT", "Protection, snubbers and gate drive circuits"]},
+      {"name": "Phase-Controlled Rectifiers", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Single-phase half-wave and full-wave converters", "Effect of freewheeling diode", "Three-phase controlled rectifiers", "Effect of source inductance", "Dual converters", "Power factor and harmonics"]},
+      {"name": "DC-DC Converters", "hours": 7, "weight": 2.5, "topics": ["Chopper principle and control strategies", "Buck converter", "Boost converter", "Buck-boost and Cuk converters", "Chopper classification by quadrant"]},
+      {"name": "Inverters", "hours": 8, "weight": 2.5, "topics": ["Single-phase half-bridge and full-bridge inverters", "Three-phase inverters: 120 and 180 degree conduction", "Pulse-width modulation techniques", "Harmonic reduction", "Current source inverters"]},
+      {"name": "AC Voltage Controllers and Cycloconverters", "hours": 5, "weight": 1.5, "topics": ["Single-phase AC voltage controllers", "Three-phase AC voltage controllers", "Cycloconverters", "Matrix converters"]},
+      {"name": "Applications", "hours": 5, "weight": 1, "topics": ["Switched-mode power supplies", "Uninterruptible power supplies", "HVDC transmission and FACTS overview", "Power electronics for renewable energy"]}
+    ]},
+    {"name": "Power Systems I", "about": "Generation, transmission and distribution of electric power", "chapters": [
+      {"name": "Power System Structure and Economics", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Structure of a power system", "Load curves and load factor", "Demand and diversity factors", "Tariffs and power factor improvement"]},
+      {"name": "Transmission Line Parameters", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Resistance and skin effect", "Inductance of single-phase and three-phase lines", "Capacitance of transmission lines", "Bundled conductors and transposition"]},
+      {"name": "Performance of Transmission Lines", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Short line model and regulation", "Medium line: nominal T and pi models", "Long line and ABCD constants", "Ferranti effect and surge impedance loading", "Power flow through a transmission line"]},
+      {"name": "Mechanical Design and Insulators", "hours": 6, "weight": 2, "topics": ["Sag and tension calculations", "Types of insulators", "String efficiency and its improvement", "Corona and its effects"]},
+      {"name": "Underground Cables", "hours": 5, "weight": 1.5, "topics": ["Construction and types of cables", "Insulation resistance and capacitance", "Dielectric stress and grading", "Fault location in cables"]},
+      {"name": "Distribution Systems", "hours": 6, "weight": 2, "topics": ["Radial and ring main distributors", "DC and AC distributor calculations", "Substation layouts and bus-bar arrangements", "Neutral grounding"]}
+    ]},
+    {"name": "Power Systems II", "about": "Power system analysis: load flow, faults and stability", "chapters": [
+      {"name": "Per-Unit System and Network Modelling", "hours": 6, "weight": 2, "foundation": true, "topics": ["Per-unit quantities and change of base", "Single-line and reactance diagrams", "Bus admittance matrix", "Bus impedance matrix"]},
+      {"name": "Load Flow Analysis", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Bus classification and power flow equations", "Gauss-Seidel method", "Newton-Raphson method", "Fast decoupled load flow", "Voltage control"]},
+      {"name": "Symmetrical Faults", "hours": 6, "weight": 2, "topics": ["Transients on a transmission line", "Short circuit of a synchronous machine", "Fault calculations with the Z-bus", "Short-circuit capacity and breaker selection"]},
+      {"name": "Unsymmetrical Faults", "hours": 8, "weight": 2.5, "topics": ["Symmetrical components", "Sequence impedances and networks", "Single line-to-ground fault", "Line-to-line fault", "Double line-to-ground fault"]},
+      {"name": "Power System Stability", "hours": 8, "weight": 2.5, "topics": ["Steady-state and transient stability", "Swing equation", "Power-angle curve", "Equal area criterion", "Critical clearing angle and time", "Methods of improving stability"]},
+      {"name": "Economic Operation", "hours": 5, "weight": 1.5, "topics": ["Economic dispatch neglecting losses", "Economic dispatch with transmission losses", "Unit commitment", "Load frequency control basics"]}
+    ]},
+    {"name": "Switchgear and Protection", "about": "Relays, circuit breakers and protection schemes", "chapters": [
+      {"name": "Protective Relaying Fundamentals", "hours": 5, "weight": 2, "foundation": true, "topics": ["Need for protection and zones of protection", "Primary and backup protection", "Current and potential transformers", "Qualities of a protection system"]},
+      {"name": "Relays", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Electromagnetic attraction and induction relays", "Overcurrent relays and their characteristics", "Directional relays", "Distance relays: impedance, reactance and mho", "Differential relays", "Static and numerical relays"]},
+      {"name": "Apparatus Protection", "hours": 8, "weight": 2.5, "topics": ["Generator protection", "Transformer protection and the Buchholz relay", "Bus-bar protection", "Motor protection", "Transmission line protection and carrier schemes"]},
+      {"name": "Circuit Breakers", "hours": 8, "weight": 2.5, "topics": ["Arc formation and extinction", "Restriking and recovery voltage", "Oil and air-blast circuit breakers", "SF6 and vacuum circuit breakers", "Circuit breaker ratings and testing", "Fuses and their characteristics"]},
+      {"name": "Overvoltage Protection", "hours": 5, "weight": 1.5, "topics": ["Causes of overvoltages", "Lightning arresters", "Insulation coordination", "Earthing practices"]}
+    ]},
+    {"name": "Electric Drives", "about": "Speed control of DC and AC motors with power converters", "chapters": [
+      {"name": "Dynamics of Electric Drives", "hours": 6, "weight": 2, "foundation": true, "topics": ["Components of an electric drive", "Fundamental torque equation", "Multi-quadrant operation", "Load torque characteristics and steady-state stability", "Motor rating and duty cycles"]},
+      {"name": "DC Motor Drives", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Speed control and braking of DC motors", "Single-phase controlled rectifier drives", "Three-phase controlled rectifier drives", "Chopper-fed DC drives", "Closed-loop control of DC drives"]},
+      {"name": "Induction Motor Drives", "hours": 9, "weight": 2.5, "topics": ["Stator voltage control", "Variable frequency (V/f) control", "Voltage source and current source inverter drives", "Slip power recovery schemes", "Vector control basics", "Braking of induction motors"]},
+      {"name": "Synchronous and Special Motor Drives", "hours": 6, "weight": 2, "topics": ["Synchronous motor drives", "Brushless DC motor drives", "Stepper motor drives", "Switched reluctance motor drives"]},
+      {"name": "Industrial Applications", "hours": 5, "weight": 1, "topics": ["Traction drives", "Drives in steel, paper and cement mills", "Energy conservation in drives", "Electric vehicle drives"]}
+    ]},
+    {"name": "Power System Operation and Control", "about": "Keeping frequency, voltage and cost under control", "chapters": [
+      {"name": "Economic Load Dispatch", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Input-output characteristics of thermal units", "Equal incremental cost criterion", "Transmission loss formula and penalty factors", "Unit commitment methods", "Hydrothermal scheduling"]},
+      {"name": "Load Frequency Control", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Speed governor and turbine models", "Single-area load frequency control", "Steady-state and dynamic response", "Two-area control and tie-line bias", "Automatic generation control"]},
+      {"name": "Voltage and Reactive Power Control", "hours": 7, "weight": 2, "topics": ["Automatic voltage regulator", "Shunt and series compensation", "Tap-changing transformers", "Static VAR compensators and FACTS devices"]},
+      {"name": "Power System Security and State Estimation", "hours": 6, "weight": 1.5, "topics": ["Security assessment and contingency analysis", "State estimation", "SCADA and energy management systems", "Smart grid overview"]}
+    ]},
+    {"name": "High Voltage Engineering", "about": "Breakdown, generation and measurement of high voltages", "chapters": [
+      {"name": "Breakdown in Gases", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Ionisation processes", "Townsend's theory", "Streamer theory", "Paschen's law", "Corona discharges"]},
+      {"name": "Breakdown in Liquids and Solids", "hours": 5, "weight": 2, "topics": ["Breakdown in pure and commercial liquids", "Intrinsic and thermal breakdown in solids", "Electromechanical breakdown", "Partial discharges"]},
+      {"name": "Generation of High Voltages and Currents", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Cascade transformers and resonant circuits", "Voltage multiplier circuits", "Van de Graaff generator", "Marx impulse generator", "Impulse current generators"]},
+      {"name": "Measurement of High Voltages", "hours": 6, "weight": 2, "topics": ["Sphere gap measurement", "Potential dividers", "Electrostatic and generating voltmeters", "Measurement of impulse voltages and currents"]},
+      {"name": "Testing and Insulation Coordination", "hours": 6, "weight": 1.5, "topics": ["Testing of insulators and bushings", "Testing of transformers and cables", "Lightning and switching surges", "Insulation coordination"]}
+    ]},
+    {"name": "Renewable Energy Systems", "about": "Solar, wind and other renewable sources and their grid integration", "chapters": [
+      {"name": "Energy Scenario and Solar Radiation", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Conventional and renewable energy sources", "Solar radiation geometry", "Measurement of solar radiation", "Solar thermal collectors"]},
+      {"name": "Solar Photovoltaics", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["PV cell principle and I-V characteristics", "Modules, arrays and partial shading", "Maximum power point tracking", "Stand-alone and grid-connected PV systems", "Sizing of PV systems"]},
+      {"name": "Wind Energy", "hours": 7, "weight": 2.5, "topics": ["Wind power and the Betz limit", "Wind turbine types and components", "Power curve and control", "Wind generators: SCIG, DFIG and PMSG"]},
+      {"name": "Other Renewable Sources", "hours": 6, "weight": 1.5, "topics": ["Biomass and biogas", "Small hydro power", "Geothermal energy", "Ocean, tidal and wave energy", "Fuel cells and hydrogen"]},
+      {"name": "Storage and Grid Integration", "hours": 6, "weight": 2, "topics": ["Battery energy storage", "Hybrid energy systems", "Grid integration issues", "Distributed generation and microgrids"]}
+    ]},
+    {"name": "Power Plant Engineering", "about": "Thermal, hydro, nuclear and gas power plants", "chapters": [
+      {"name": "Steam Power Plants", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Rankine cycle and its improvements", "Boilers and their accessories", "Steam turbines", "Condensers and cooling towers", "Coal and ash handling"]},
+      {"name": "Gas Turbine and Diesel Plants", "hours": 6, "weight": 2, "topics": ["Brayton cycle", "Regeneration, reheating and intercooling", "Combined cycle plants", "Diesel power plants"]},
+      {"name": "Hydroelectric Plants", "hours": 6, "weight": 2, "topics": ["Hydrology and site selection", "Classification of hydro plants", "Pelton, Francis and Kaplan turbines", "Pumped storage plants"]},
+      {"name": "Nuclear Power Plants", "hours": 6, "weight": 2, "topics": ["Nuclear fission and chain reaction", "Reactor components", "PWR, BWR and fast breeder reactors", "Nuclear waste and safety"]},
+      {"name": "Economics of Power Generation", "hours": 5, "weight": 1.5, "topics": ["Load curves and plant factors", "Cost of generation", "Tariff structures", "Environmental aspects of power plants"]}
+    ]}
+  ]
+}

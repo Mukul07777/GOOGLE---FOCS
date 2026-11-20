@@ -1,0 +1,246 @@
+# 11 | Economics | Indian Economic Development | keec1 | pages 16
+=== page 7
+ACKNOWLEDGEMENTS
+Many friends and colleagues have helped in preparing this textbook. The
+National Council of Educational Research and Training acknowledges
+M. Karpagam, Lecturer, Department of Economics, Meenakshi College,
+Chennai; J. John, Director, Centre for Education and Communication, New
+Delhi; Pratyusa K. Mandal, Reader, DESS, NCERT, New Delhi; Nandana
+Reddy, Director (Development), Concern for Working Children, Bangalore;
+V. Selvam, Research Scholar, Centre for Study of Regional Development
+and Satish Jain, Professor, Centre for Economic Studies and Planning,
+Jawaharlal Nehru University, New Delhi; Pooja Kapoor, Modern School,
+Barakhamba Road, New Delhi; Priya Vaidya, Sardar Patel Vidyalaya, Lodhi
+Estate, New Delhi; and Nalini Padmanabhan, DTEA Senior Secondary
+School, Janakpuri, New Delhi for providing their feedback and inputs.
+The Council expresses its gratitude to Jan Breman and Parthiv Shah
+for using photographs from their book, Working in the mill no more,
+published by Oxford University Press, Delhi. Some stories were taken from
+the book, Everybody Loves a Good Drought, authored by P. Sainath and
+published by Penguin Books, New Delhi. A photo relating to farmers
+committing suicides has been used from The Hindu. A few photographs
+and text materials on environmental issues have been used from the State
+of India’s Environment 1 and 2 published by the Centre for Science and
+Environment, New Delhi. The Council thanks the authors, copyright holders
+and publishers of these reference materials. The Council also acknowledges
+the Press Information Bureau, Ministry of Information and Broadcasting,
+New Delhi; National Rail Museum, New Delhi for allowing  to use photographs
+available in their photo library. Some photographs were given by S. Thirumal
+Murugan, Principal, Adhiyaman Matriculation School, Uthangarai, Tamil
+Nadu; John Suresh Kumar, Synodical Board of Social Service; Sindhu
+Menon of Labour File, New Delhi; R. C. Das of CIET, New Delhi; Renuka of
+National Institute of Health and Family Welfare, New Delhi. The Council
+acknowledges their contribution as well. Special thanks are due to Savita
+Sinha, Professor and Head, Department of Education in Social Sciences
+and Humanities for her support. The Council gratefully acknowledges the
+contributions of Mamta and Arvind Sharma, DTP Operators; Neena
+Chandra, Copy Editor; Dillip Kumar Agasti, Proof Reader; and Dinesh Kumar,
+Incharge Computer Station in shaping this book. The efforts of the
+Publication Department, NCERT are also duly acknowledged.
+The Council also acknowledges the efforts of Neerja Rashmi, Professor,
+DESS, NCERT; M.V. Srinivasan, DESS, NCERT; Jaya Singh, DESS, NCERT;
+Pratima Kumari, Associate Professor, DESS, NCERT; Ashita Raveendran,
+Associate Professor, PMD, NCERT; Sabita Patnaik, PGT Economics, DMS,
+RIE, Bhubaneshwar; Anita Raveendra PGT  Economics, DMS, RIE, Mysore,
+towards the rationalisation of content of the textbook.
+Reprint 2026-27
+
+=== page 8
+HOW TO USE THIS BOOK
+The main objective of this book, Indian Economic Development, is to
+expose you to some of the key issues facing the Indian economy. In
+this process, as young adults, you are expected to be sensitised about
+these issues, appreciate and learn to critically assess the role of the
+government in various economic spheres. The book also provides
+opportunities for knowing what economic resources are and how these
+resources are being utilised in different sectors. You are also exposed
+to numerical information relating to various aspects of Indian economy
+and India’s economic policies. You are expected to develop analytical
+skills, interpret the economic events and visualise the economic future
+of India. Nevertheless, conscious effort has been made not to burden
+with concepts and data.
+With regard to various economic issues and trends, this book
+attempts to bring out alternative views on every issue so that you can
+engage yourself in well-informed debates. On completion of the course,
+Indian Economic Development, you are expected to acquire skills to
+understand macroeconomic events which occur around you, and to
+critically evaluate and interpret the relevant information provided by
+the media.
+This course comprises of many activities with each chapter. You need
+to carry out those activities under the guidance of teachers. In fact, the
+role of the teacher in enriching the understanding of the Indian economy
+is greater in this course. The activities include classroom discussions,
+collecting information from government documents such
+as Economic Survey, archival materials, from newspapers,
+television, internet and other sources. Learners should also
+be encouraged to read the original works of scholars on
+various topics.
+For all this to happen, the teachers have to initiate the
+process by taking some steps before starting the course. At the beginning
+of the academic year, you can collect clippings from newspapers and
+magazines relating to different topics under the course — five year
+plans and the role of NITI Aayog in planning; allocation of funds to
+various sectors like agriculture, industry, services and for  specific
+causes such as poverty and employment; key issues of rural
+Reprint 2026-27
+
+=== page 12
+CONTENTS
+FOREWORD
+iii
+     RATIONALISATION OF CONTENT IN THE TEXTBOOKS
+v
+UNIT I: DEVELOPMENT POLICIES AND EXPERIENCE (1947–90)
+1–35
+CHAPTER 1: INDIAN ECONOMY ON THE EVE OF INDEPENDENCE
+3
+–
+LOW LEVEL OF ECONOMIC DEVELOPMENT UNDER THE COLONIAL RULE
+4
+–
+AGRICULTURAL SECTOR
+5
+–
+INDUSTRIAL SECTOR
+7
+–
+FOREIGN TRADE
+8
+–
+DEMOGRAPHIC CONDITION
+9
+–
+OCCUPATIONAL STRUCTURE
+10
+–
+INFRASTRUCTURE
+11
+CHAPTER 2: INDIAN ECONOMY 1950-1990
+16
+–
+THE GOALS OF FIVE YEAR PLANS
+19
+–
+AGRICULTURE
+22
+–
+INDUSTRY AND TRADE
+27
+–
+TRADE POLICY: IMPORT SUBSTITUTION
+30
+UNIT II: ECONOMIC REFORMS SINCE 1991
+36–56
+CHAPTER 3: LIBERALISATION, PRIVATISATION AND GLOBALISATION: AN APPRAISAL
+38
+–
+BACKGROUND
+39
+–
+LIBERALISATION
+41
+–
+PRIVATISATION
+44
+–
+GLOBALISATION
+45
+–
+INDIAN ECONOMY DURING REFORMS: AN ASSESSMENT
+48
+UNIT III: CURRENT CHALLENGES FACING THE INDIAN ECONOMY
+57–74
+CHAPTER 4: HUMAN CAPITAL FORMATION IN INDIA
+58
+–
+WHAT IS HUMAN CAPITAL?
+60
+–
+SOURCES OF HUMAN CAPITAL
+60
+Reprint 2026-27
+
+=== page 13
+–
+HUMAN CAPITAL AND HUMAN DEVELOPMENT
+66
+–
+STATE OF HUMAN CAPITAL FORMATION IN INDIA
+67
+–
+EDUCATION SECTOR IN INDIA
+68
+–
+FUTURE PROSPECTS
+70
+CHAPTER 5: RURAL DEVELOPMENT
+75–91
+–
+WHAT IS RURAL DEVELOPMENT?
+76
+–
+CREDIT AND MARKETING IN RURAL AREAS
+77
+–
+AGRICULTURAL MARKET SYSTEM
+80
+–
+DIVERSIFICATION INTO PRODUCTIVE ACTIVITIES
+82
+–
+SUSTAINABLE DEVELOPMENT AND ORGANIC FARMING
+86
+CHAPTER 6: EMPLOYMENT: GROWTH, INFORMALISATION AND OTHER ISSUES
+92–114
+–
+WORKERS  AND EMPLOYMENT
+94
+–
+PARTICIPATION OF PEOPLE IN EMPLOYMENT
+95
+–
+SELF-EMPLOYED AND HIRED WORKERS
+96
+–
+EMPLOYMENT IN FIRMS, FACTORIES AND OFFICES
+99
+–
+GROWTH AND CHANGING STRUCTURE OF EMPLOYMENT
+100
+–
+INFORMALISATION OF INDIAN WORKFORCE
+103
+–
+UNEMPLOYMENT
+106
+–
+GOVERNMENT AND EMPLOYMENT GENERATION
+108
+CHAPTER 7: ENVIRONMENT AND SUSTAINABLE DEVELOPMENT
+115–131
+–
+ENVIRONMENT — DEFINITION AND FUNCTIONS
+116
+–
+STATE OF INDIA’S ENVIRONMENT
+120
+–
+SUSTAINABLE DEVELOPMENT
+124
+–
+STRATEGIES FOR SUSTAINABLE DEVELOPMENT
+125
+UNIT IV:   DEVELOPMENT EXPERIENCES OF INDIA: A COMPARISON
+132–150
+WITH NEIGHBOURS
+CHAPTER 8: COMPARATIVE DEVELOPMENT EXPERIENCES OF
+134
+ INDIA AND ITS NEIGHBOURS
+–
+DEVELOPMENTAL PATH — A SNAPSHOT VIEW
+135
+–
+DEMOGRAPHIC INDICATORS
+138
+xiv
+Reprint 2026-27

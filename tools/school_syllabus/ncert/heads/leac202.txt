@@ -1,0 +1,32 @@
+NUMBERED
+2.1 Meaning of Debentures
+2.2 Distinction between Shares and Debentures
+2.3 Types of Debentures
+2.3.1 From the Point of view of Security
+2.3.2 From the Point of view of Tenure
+2.3.3 From the Point of view of Convertibility
+2.3.4 From Coupon Rate Point of view
+2.3.5 From the view Point of Registration
+2.4 Issue of Debentures
+2.4.1 Issue of Debentures for Cash
+2.4.2 Issue of Debentures at a Discount
+2.4.3 Debentures issued at Premium
+2.5 Over Subscription
+2.6 Issue of Debentures for Consideration other than Cash
+2.7 Issue of Debentures as a Col ateral Security
+2.8 Terms of Issue of Debentures
+2.9 Interest on Debentures
+2.9.1 Accounting Treatment
+2.10 Writing off Discount/Loss on Issue of Debentures
+2.11 Redemption of Debentures
+2.12 Redemption by Payment in Lump Sum
+2.12.2 Redemption by Payment in Instalments
+2.13 Redemption by Purchase in Open Market
+2.14 Redemption by Conversion
+BIG
+SECTION I
+Issue and Redemption of Debentures 2
+JOURNAL
+SECTION II
+SAMPLE
+A company raises its capital by means of issue of shares. But the funds raised by the issue of shares are seldom adequate to meet their long term financial needs of a company. Hence, most companies turn to raising long-term funds also through debentures which are issued either through the route of private placement or by offering the same to the public. The finances raised through debentures are also known as long-term debt. This chapter deals with the accounting treatment of issue and redemption of debentures and other related aspects. SECTION I 2.1 Meaning of Debentures Debenture: The word ‘debenture’ has been derived from a Latin word ‘debere’ which means to borrow. Debenture is a written instrument acknowledging a debt under the common seal of the company. It contains a contract for repayment of principal after a specified period or at intervals or at the option of the company and for payment of interest at a fixed rate payable usually either half-yearly or yearly on fixed dates. According to section 2(30) of The Companies Act, 2013 ‘Debenture’ includes Debenture Inventory, Bonds and any other securities of a company whether constituting a charge on the assets of the company or not. LEARNING OBJECTIVES After studying this chapter you will be able to : • state the meaning of debenture and explain the difference between debentures and shares; • describe various types of debentures; • record the journal entries for the issue of debentures at par, at a discount and at premium; • explain the concept of debentures issued for consideration other than cash and the accounting thereof; • explain the concept of issue of debentures as a collateral security and the accounting thereof; • record the journal entries for issue of debentures with various terms of issue, terms of rede

@@ -1,0 +1,203 @@
+# 10 | Mathematics | Mathematics | jemh1 | pages 14
+=== page 4
+Rationalisation of Content in the Textbooks
+In view of the COVID-19 pandemic, it is imperative to reduce content load on
+students. The National Education Policy 2020, also emphasises reducing the content
+load and providing opportunities for experiential learning with creative mindset. In
+this background, the NCERT has undertaken the exercise to rationalise the textbooks
+across all classes. Learning Outcomes already developed by the NCERT across
+classes have been taken into consideration in this exercise.
+Contents of the textbooks have been rationalised in view of the following:
+•
+Overlapping with similar content included in other subject areas in the same
+class
+•
+Similar content included in the lower or higher class in the same subject
+•
+Difficulty level
+•
+Content, which is easily accessible to students without much interventions from
+teachers and can be learned by children through self-learning or peer-learning
+•
+Content, which is irrelevant in the present context
+This present edition, is a reformatted version after carrying out the changes
+given above.
+Reprint 2026-27
+
+=== page 5
+Reprint 2026-27
+
+=== page 10
+Contents
+Foreword
+iii
+Rationalisation of Contents in the Textbooks
+v
+Preface
+vii
+1.
+Real Numbers
+1
+1.1
+Introduction
+1
+1.2
+The Fundamental Theorem of Arithmetic
+2
+1.3
+Revisiting Irrational Numbers
+6
+1.4
+Summary
+9
+2.
+Polynomials
+10
+2.1
+Introduction
+10
+2.2
+Geometrical Meaning of the Zeroes of a Polynomial
+11
+2.3
+Relationship between Zeroes and Coefficients of a Polynomial
+18
+2.4
+Summary
+23
+3.
+Pair of Linear Equations in Two Variables
+24
+3.1
+Introduction
+24
+3.2
+Graphical Method of Solution of a Pair of Linear Equations
+25
+3.3
+Algebraic Methods of Solving a Pair of Linear Equations
+30
+3.3.1 Substitution Method
+30
+3.3.2 Elimination Method
+34
+3.4
+Summary
+37
+4.
+Quadratic Equations
+38
+4.1
+Introduction
+38
+4.2
+Quadratic Equations
+39
+4.3
+Solution of a Quadratic Equation by Factorisation
+42
+4.4
+Nature of Roots
+44
+4.5
+Summary
+47
+5.
+Arithmetic Progressions
+49
+5.1
+Introduction
+49
+Reprint 2026-27
+
+=== page 11
+5.2
+Arithmetic Progressions
+51
+5.3
+nth Term of an AP
+56
+5.4
+Sum of First n Terms of an AP
+63
+5.5
+Summary
+72
+6.
+Triangles
+73
+6.1
+Introduction
+73
+6.2
+Similar Figures
+74
+6.3
+Similarity of Triangles
+79
+6.4
+Criteria for Similarity of Triangles
+85
+6.5
+Summary
+97
+7.
+Coordinate Geometry
+99
+7.1
+Introduction
+99
+7.2
+Distance Formula
+100
+7.3
+Section Formula
+106
+7.4
+Summary
+112
+8.
+Introduction to Trigonometry
+113
+8.1
+Introduction
+113
+8.2
+Trigonometric Ratios
+114
+8.3
+Trigonometric Ratios of Some Specific Angles
+121
+8.4
+Trigonometric Identities
+128
+8.5
+Summary
+132
+9.
+Some Applications of Trigonometry
+133
+9.1
+Heights and Distances
+133
+9.2
+Summary
+143
+10. Circles
+144
+10.1 Introduction
+144
+10.2 Tangent to a Circle
+145
+10.3 Number of Tangents from a Point on a Circle
+147
+10.4 Summary
+153
+11. Areas Related to Circles
+154
+11.1 Areas of Sector and Segment of a Circle
+154
+11.2 Summary
+160
+xii
+Reprint 2026-27

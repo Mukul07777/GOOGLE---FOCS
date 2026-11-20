@@ -1,0 +1,41 @@
+NUMBERED
+3.1 Introduction to Python
+3.1.2 Execution Modes
+3.1.1 Working with Python
+3.2 Python Keywords
+3.3 Identifiers
+3.4 Variables
+3.5 Data Types
+3.5.1 Number
+3.5.2 Sequence
+3.5.3 Mapping
+3.6 Operators
+3.6.1 Arithmetic Operators
+3.6.2 Relational Operators
+3.6.4 Logical Operators
+3.6.3 Assignment Operators
+3.6.5 Membership Operators
+3.7 Expressions
+3.7.1 Precedence of Operators
+3.8 Input and Output
+3.9 Debugging
+3.9.1 Syntax Errors
+3.9.2 Logical Errors
+3.9.3 Runtime Error
+3.10 Functions
+3.11 if..else Statements
+3.12 For Loop
+3.12.1 The range() Function
+3.13 Nested Loops
+BIG
+Brief Overview
+of Python
+“Don't you hate code that's not properly
+indented? Making it [indenting] part of
+the syntax guarantees that al code is
+properly indented.”
+— G. van Rossum
+Summary Notes
+Exercise
+SAMPLE
+3.1 Introduction to Python An ordered set of instructions or commands to be executed by a computer is called a program. The language used to specify those set of instructions to the computer is called a programming language for example Python, C, C++, Java, etc. This chapter gives a brief overview of Python programming language. Python is a very popular and easy to learn programming language, created by Guido van Rossum in 1991. It is used in a variety of fields, including software development, web development, scientific computing, big data Brief Overview of Python Chapter 3 In this chapter »» Introduction to Python »» Python Keywords »» Identifiers »» Variables »» Data Types »» Operators »» Expressions »» Input and Output »» Debugging »» Functions »» if..else Statements »» for Loop »» Nested Loops “Don't you hate code that's not properly indented? Making it [indenting] part of the syntax guarantees that all code is properly indented.” — G. van Rossum Reprint 2026-27 32 Informatics Practices – Class XI 3.1.2 Execution Modes There are two ways to run a program using the Python interpreter: a) Interactive mode b) Script mode (A) Interactive Mode In the interactive mode, we can type a Python statement on the >>> prompt directly. As soon as we press enter, the interpreter executes the statement and displays the result(s), as shown in Figure 3.2. Working in the interactive mode is convenient for testing a single line code for instant execution. But in the interactive mode, we cannot save the statements for Figure 3.2: Python Interpreter in Interactive Mode Download Python The latest version of Python is available on the official website: https://www.python. org/ and Artificial Intelligence. The programs given in this book are written using Python 3.7.0. However, one can ins

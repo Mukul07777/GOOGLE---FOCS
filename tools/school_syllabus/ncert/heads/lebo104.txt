@@ -1,0 +1,26 @@
+NUMBERED
+4.1 MENDEL’S LAWS OF INHERITANCE
+4.2 INHERITANCE OF ONE GENE
+4.3 INHERITANCE OF TWO GENES
+4.4 POLYGENIC INHERITANCE
+4.5 PLEIOTROPY
+4.6 SEX DETERMINATION
+4.7 MUTATION
+4.8 GENETIC DISORDERS
+BIG
+CHAPTER 4
+PRINCIPLES OF INHERITANCE
+AND VARIATION
+4.1 MENDEL’S LAWS OF INHERITANCE
+4.2 INHERITANCE OF ONE GENE
+symbols & and % are used to denote the female
+4.3 INHERITANCE OF TWO GENES
+4.4 POLYGENIC INHERITANCE
+4.5 PLEIOTROPY
+4.6 SEX DETERMINATION
+4.7 MUTATION
+4.8 GENETIC DISORDERS
+SUMMARY
+EXERCISES
+SAMPLE
+The work of Mendel and others who followed him gave us an idea of inheritance patterns. However the nature of those ‘factors’ which determine the phenotype was not very clear. As these ‘factors’ represent the genetic basis of inheritance, understanding the structure of genetic material and the structural basis of genotype and phenotype conversion became the focus of attention in biology for the next century. The entire body of molecular biology was a consequent development with major contributions from Watson, Crick, Nirenberg, Khorana, Kornbergs (father and son), Benzer, Monod, Brenner, etc. A parallel problem being tackled was the mechanism of evolution. Awareness in the areas of molecular genetics, structural biology and bio informatics have enriched our understanding of the molecular basis of evolution. In this unit the structure and function of DNA and the story and theory of evolution have been examined and explained. Chapter 4 Principles of Inheritance and Variation Chapter 5 Molecular Basis of Inheritance Chapter 6 Evolution Reprint 2026-27 James Dewey Watson was born in Chicago on 6 April 1928. In 1947, he received B.Sc. degree in Zoology. During these years his interest in bird-watching had matured into a serious desire to learn genetics. This became possible when he received a Fellowship for graduate study in Zoology at Indiana University, Bloomington, where he received his Ph.D. degree in 1950 on a study of the effect of hard X-rays on bacteriophage multiplication. He met Crick and discovered their common interest in solving the DNA structure. Their first serious effort, was unsatisfactory. Their second effort based upon more experimental evidence and better appreciation of the nucleic acid literature, resulted, early in March 1953, in the proposal of the co

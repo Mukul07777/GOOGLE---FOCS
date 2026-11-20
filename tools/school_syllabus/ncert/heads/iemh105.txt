@@ -1,0 +1,32 @@
+NUMBERED
+5.1 Definitions
+5.2 Symmetries of a Circle
+5.3 How Many Circles?
+5.4 Chords and the Angles They Subtend
+5.5 Midpoints and Perpendicular Bisectors of Chords
+5.6 Distance of Chords from the Centre
+5.6.1 Which of the two unequal chords is farther from the centre?
+5.7 Angles Subtended by an Arc
+5.7.1 Angle subtended by an arc at a point on the circle outside the arc
+5.8 Concyclicity of Points
+BIG
+I’m Up and Down, and Round and Round
+Think and Reflect
+5.1 Definitions
+5.2 Symmetries of a Circle
+5.3 How Many Circles?
+Exercise Set 5.1
+5.4 Chords and the Angles They Subtend
+Exercise Set 5.2
+5.5 Midpoints and Perpendicular Bisectors of Chords
+Exercise Set 5.3
+5.6 Distance of Chords from the Centre
+Exercise Set 5.4
+Exercise Set 5.5
+5.7 Angles Subtended by an Arc
+Exercise Set 5.6
+5.8 Concyclicity of Points
+End-of-Chapter Exercises
+Chapter Summary
+SAMPLE
+I’m Up and Down, and Round and Round Humanity has always been fascinated by the shapes of the things around them. In some early cave paintings, the sun is depicted as a circle. In the cave paintings of Gudahandi in Odisha, one sees numerous geometric patterns including triangles, squares, circles, and ovals. These shapes were likely inspired by what humans saw in nature. Can you recognise the origin of the shapes in Fig. 5.1? Fig. 5.1 Circles form when raindrops fall on water. The cross-section of a plant stem and the inflorescence of a sunflower are also circular in shape. The full moon and sun also look circular. Moon Sun (during a total solar eclipse) Fig 5.2 5 I’m Up and Down, and Round and Round 93 What properties are common to all circles, big and small? You have studied one such property in Grade 7. Humans must have noticed it after observing many circular patterns in nature. Every circle has a centre. All points on the circle are at equal distance from the centre. We turn this observation around and make it the definition of a circle. Activity: List some objects from nature that resemble a circle. Think and Reflect Jamuna has a circular piece of paper. She is trying to locate its centre. ­Amina gives her a suggestion. She follows the instructions and is thrilled to find that it works. Can you guess what Amina told her? 5.1 Definitions When we talk of mathematical shapes such as circles, triangles and squares, we always assume that the figures are drawn on a piece of paper — a two-dimensional plane. C D E B A Fig. 5.3: Circle, Centre A, Chord BC A circle is the set of all points on the plane that are equidistant from a given point on that plane. The set of points that satisfy a given condition is also called the locus of points that satisfy the condition. Using t

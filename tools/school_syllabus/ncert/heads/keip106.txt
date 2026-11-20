@@ -1,0 +1,36 @@
+NUMBERED
+6.1 Introduction
+6.2 Array
+6.3 NumPy Array
+6.4 Indexing and Slicing
+6.5 Operations on Arrays
+6.6 Concatenating Arrays
+6.7 Reshaping Arrays
+6.8 Splitting Arrays
+6.9 Statistical Operations on Arrays
+6.10 Loading Arrays from Files
+6.11 Saving NumPy Arrays in Files on Disk
+BIG
+6.1 Introduction
+Introduction
+to NumPy
+“The goal is to turn data into information,
+and information into insight.”
+— Carly Fiorina
+6.2 Array
+6.3 NumPy Array
+Notes
+6.4 Indexing and Slicing
+6.5 Operations on Arrays
+6.6 Concatenating Arrays
+6.7 Reshaping Arrays
+6.8 Splitting Arrays
+6.9 Statistical Operations on Arrays
+6.10 Loading Arrays from Files
+6.11 Saving NumPy Arrays in Files on Disk
+Summary
+Exercise
+Case Study (Solved)
+Solutions to Case Study based Exercises
+SAMPLE
+6.1 Introduction NumPy stands for ‘Numerical Python’. It is a package for data analysis and scientific computing with Python. NumPy uses a multidimensional array object, and has functions and tools for working with these arrays. The powerful n-dimensional array in NumPy speeds-up data processing. NumPy can be easily interfaced with other Python packages and provides tools for integrating with other programming languages like C, C++ etc. Introduction to NumPy Chapter 6 “The goal is to turn data into information, and information into insight.” — Carly Fiorina In this chapter »» Introduction »» Array »» NumPy Array »» Indexing and Slicing »» Operations on Arrays »» Concatenating Arrays »» Reshaping Arrays »» Splitting Arrays »» Statistical Operations on Arrays »» Loading Arrays from Files »» Saving NumPy Arrays in Files on Disk Reprint 2026-27 96 Informatics Practices – Class XI Installing NumPy NumPy can be installed by typing following command: pip install NumPy 6.2 Array We have learnt about various data types like list, tuple, and dictionary. In this chapter we will discuss another datatype ‘Array’. An array is a data type used to store multiple values using a single identifier (variable name). An array contains an ordered collection of data elements where each element is of the same type and can be referenced by its index (position). The important characteristics of an array are: • Each element of the array is of same data type, though the values stored in them may be different. • The entire array is stored contiguously in memory. This makes operations on array fast. • Each element of the array is identified or referred using the name of the Array along with the index of that element, which is unique for each element. The index of an element is an integral value assoc

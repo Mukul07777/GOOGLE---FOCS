@@ -1,0 +1,145 @@
+{
+  "area": "Chemical engineering",
+  "courses": [
+    {"name": "Chemical Process Calculations", "about": "Material and energy balances on chemical processes (stoichiometry)", "chapters": [
+      {"name": "Units, Dimensions and Basic Concepts", "hours": 5, "weight": 2, "foundation": true, "topics": ["Units and dimensions", "Unit conversion", "Mole, mass and volume relations", "Composition of mixtures and solutions", "Ideal gas law and gas mixtures"]},
+      {"name": "Material Balances without Reaction", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["The general balance equation", "Degrees of freedom analysis", "Balances on single units", "Multiple-unit processes", "Recycle, bypass and purge"]},
+      {"name": "Material Balances with Reaction", "hours": 7, "weight": 2.5, "topics": ["Stoichiometry and the limiting reactant", "Conversion, yield and selectivity", "Atomic and molecular species balances", "Combustion calculations", "Recycle with reaction"]},
+      {"name": "Vapour Pressure and Humidity", "hours": 5, "weight": 2, "topics": ["Vapour pressure and the Antoine equation", "Raoult's law", "Humidity and saturation", "Psychrometric chart", "Condensation and vaporisation"]},
+      {"name": "Energy Balances", "hours": 7, "weight": 2.5, "topics": ["Forms of energy and the first law", "Enthalpy and heat capacity", "Heat of reaction and Hess's law", "Heats of formation and combustion", "Adiabatic flame temperature"]},
+      {"name": "Unsteady-state Balances", "hours": 4, "weight": 1.5, "topics": ["Transient material balances", "Transient energy balances", "Differential equations from balances"]}
+    ]},
+    {"name": "Chemical Engineering Thermodynamics", "about": "Properties of fluids, phase equilibria and reaction equilibria", "chapters": [
+      {"name": "Laws of Thermodynamics", "hours": 6, "weight": 2, "foundation": true, "topics": ["First law for closed and open systems", "Second law and entropy", "Third law", "Reversible and irreversible processes"]},
+      {"name": "Volumetric Properties of Fluids", "hours": 6, "weight": 2, "topics": ["PVT behaviour of pure substances", "Virial equations", "Cubic equations of state", "Generalised correlations and the acentric factor"]},
+      {"name": "Thermodynamic Property Relations", "hours": 6, "weight": 2, "topics": ["Maxwell relations", "Residual properties", "Fugacity and fugacity coefficient", "Property tables and charts"]},
+      {"name": "Solution Thermodynamics", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Partial molar properties", "Chemical potential", "Ideal solutions", "Excess properties and activity coefficients", "Gibbs-Duhem equation"]},
+      {"name": "Phase Equilibria", "hours": 8, "weight": 2.5, "topics": ["Vapour-liquid equilibrium", "Raoult's law and modified Raoult's law", "Bubble-point and dew-point calculations", "Azeotropes", "Activity-coefficient models: Margules, Van Laar and Wilson"]},
+      {"name": "Chemical Reaction Equilibria", "hours": 6, "weight": 2, "topics": ["Reaction coordinate", "Equilibrium constant and temperature", "Equilibrium conversion", "Equilibria with several reactions"]}
+    ]},
+    {"name": "Mechanical Operations", "about": "Handling and separating solid particles", "chapters": [
+      {"name": "Particle Characterisation", "hours": 5, "weight": 2, "foundation": true, "topics": ["Particle size and shape", "Screen analysis", "Mean diameters and size distributions", "Specific surface"]},
+      {"name": "Size Reduction", "hours": 6, "weight": 2, "topics": ["Laws of comminution: Rittinger, Kick and Bond", "Crushers", "Grinders and ball mills", "Energy for size reduction"]},
+      {"name": "Screening and Sedimentation", "hours": 6, "weight": 2, "topics": ["Industrial screens and their effectiveness", "Free and hindered settling", "Stokes' law", "Thickeners and clarifiers"]},
+      {"name": "Filtration", "hours": 6, "weight": 2.5, "topics": ["Theory of filtration", "Constant-pressure and constant-rate filtration", "Filter media and filter aids", "Filter press and rotary drum filter"]},
+      {"name": "Fluid-Particle Systems", "hours": 6, "weight": 2, "topics": ["Flow through packed beds and the Ergun equation", "Fluidisation", "Cyclone separators", "Centrifugation"]},
+      {"name": "Mixing, Agitation and Conveying", "hours": 5, "weight": 1.5, "topics": ["Agitated vessels and impellers", "Power consumption in mixing", "Mixing of solids", "Conveyors and storage of solids"]}
+    ]},
+    {"name": "Process Heat Transfer", "about": "Conduction, convection, radiation and the equipment that transfers heat", "chapters": [
+      {"name": "Conduction", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Fourier's law", "Steady conduction through walls, cylinders and spheres", "Composite walls and contact resistance", "Critical thickness of insulation", "Extended surfaces and fins"]},
+      {"name": "Convection", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Heat transfer coefficients", "Forced convection in pipes and over surfaces", "Natural convection", "Dimensionless numbers and correlations"]},
+      {"name": "Boiling and Condensation", "hours": 5, "weight": 2, "topics": ["The pool boiling curve", "Film and dropwise condensation", "Nusselt's theory of condensation", "Flow boiling"]},
+      {"name": "Radiation", "hours": 5, "weight": 1.5, "topics": ["Black and grey bodies", "Stefan-Boltzmann law", "View factors", "Radiation exchange between surfaces"]},
+      {"name": "Heat Exchangers", "hours": 8, "weight": 2.5, "topics": ["Types of heat exchangers", "Overall coefficient and fouling", "LMTD method", "Effectiveness-NTU method", "Shell-and-tube exchangers"]},
+      {"name": "Evaporation", "hours": 5, "weight": 2, "topics": ["Types of evaporators", "Boiling-point elevation and Dühring's rule", "Single-effect evaporator calculations", "Multiple-effect evaporation"]}
+    ]},
+    {"name": "Mass Transfer I", "about": "Diffusion, interphase transfer, absorption, humidification and drying", "chapters": [
+      {"name": "Diffusion", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Fick's law", "Diffusion in gases and liquids", "Estimating diffusivity", "Diffusion in solids", "Diffusion through a stagnant film"]},
+      {"name": "Mass Transfer Coefficients", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Individual and overall coefficients", "Film, penetration and surface-renewal theories", "Analogies between momentum, heat and mass transfer", "Dimensionless correlations"]},
+      {"name": "Interphase Mass Transfer", "hours": 5, "weight": 2, "topics": ["Equilibrium between phases", "Two-film theory", "Controlling resistance", "Stage-wise and continuous contact"]},
+      {"name": "Gas Absorption", "hours": 8, "weight": 2.5, "topics": ["Solubility of gases and Henry's law", "Choice of solvent", "Minimum liquid rate", "Packed tower design: HTU and NTU", "Tray towers"]},
+      {"name": "Humidification and Cooling Towers", "hours": 5, "weight": 2, "topics": ["Humidity and psychrometry", "Adiabatic saturation", "Cooling tower design", "Dehumidification"]},
+      {"name": "Drying", "hours": 6, "weight": 2, "topics": ["Drying equilibrium and moisture content", "Rate-of-drying curve", "Constant-rate and falling-rate periods", "Types of dryers"]}
+    ]},
+    {"name": "Mass Transfer II", "about": "Distillation, extraction, leaching, adsorption and crystallisation", "chapters": [
+      {"name": "Distillation Fundamentals", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Relative volatility", "Flash distillation", "Simple (differential) distillation", "Steam distillation"]},
+      {"name": "Continuous Fractionation", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["McCabe-Thiele method", "Minimum, total and optimum reflux", "Ponchon-Savarit method", "Tray efficiency", "Multicomponent distillation"]},
+      {"name": "Liquid-Liquid Extraction", "hours": 6, "weight": 2, "topics": ["Ternary equilibrium diagrams", "Choice of solvent", "Single-stage and multistage extraction", "Extraction equipment"]},
+      {"name": "Leaching", "hours": 5, "weight": 1.5, "topics": ["Leaching equilibrium", "Single-stage leaching", "Countercurrent multistage leaching", "Leaching equipment"]},
+      {"name": "Adsorption", "hours": 5, "weight": 2, "topics": ["Langmuir and Freundlich isotherms", "Adsorbents", "Fixed-bed adsorption and breakthrough curves", "Ion exchange"]},
+      {"name": "Crystallisation and Membrane Separation", "hours": 5, "weight": 1.5, "topics": ["Solubility and supersaturation", "Nucleation and crystal growth", "Crystallisers", "Membrane separation processes"]}
+    ]},
+    {"name": "Chemical Reaction Engineering I", "about": "Kinetics and the design of ideal reactors", "chapters": [
+      {"name": "Kinetics of Homogeneous Reactions", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Rate of reaction and rate laws", "Order and molecularity", "Temperature dependence and the Arrhenius law", "Elementary and non-elementary reactions"]},
+      {"name": "Interpretation of Batch Reactor Data", "hours": 6, "weight": 2.5, "topics": ["Integral method of analysis", "Differential method", "Half-life method", "Variable-volume batch reactors"]},
+      {"name": "Ideal Reactors", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Design equations for batch, CSTR and PFR", "Space time and space velocity", "Size comparison of single reactors", "Reactors in series and parallel", "Recycle reactors"]},
+      {"name": "Multiple Reactions", "hours": 6, "weight": 2, "topics": ["Parallel reactions", "Series reactions", "Selectivity and yield", "Choosing a reactor for the product wanted"]},
+      {"name": "Temperature and Pressure Effects", "hours": 6, "weight": 2, "topics": ["Heat of reaction and equilibrium conversion", "Adiabatic operation", "Optimum temperature progression", "Non-isothermal reactor design"]}
+    ]},
+    {"name": "Chemical Reaction Engineering II", "about": "Non-ideal flow, catalysis and heterogeneous reactors", "chapters": [
+      {"name": "Non-ideal Flow", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Residence time distribution: E and F curves", "Tanks-in-series model", "Dispersion model", "Segregation and micromixing", "Diagnosing faulty flow in reactors"]},
+      {"name": "Heterogeneous Reactions", "hours": 5, "weight": 2, "topics": ["Rate expressions for heterogeneous reactions", "Combining rate steps", "Fluid-fluid reactions"]},
+      {"name": "Solid Catalysis", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Adsorption and catalytic reaction steps", "Langmuir-Hinshelwood kinetics", "The rate-limiting step", "Catalyst properties and preparation"]},
+      {"name": "Pore Diffusion and Catalytic Reactors", "hours": 7, "weight": 2, "topics": ["Effectiveness factor and Thiele modulus", "External mass transfer", "Packed-bed reactors", "Fluidised-bed reactors"]},
+      {"name": "Fluid-Particle Reactions", "hours": 5, "weight": 2, "topics": ["Shrinking-core model", "Progressive-conversion model", "Rate-controlling steps", "Design for particles of one or mixed sizes"]},
+      {"name": "Catalyst Deactivation", "hours": 4, "weight": 1.5, "topics": ["Mechanisms of deactivation", "Deactivation kinetics", "Regeneration"]}
+    ]},
+    {"name": "Chemical Technology", "about": "How the main inorganic and organic chemicals are made", "chapters": [
+      {"name": "Unit Processes and the Chemical Industry", "hours": 5, "weight": 2, "foundation": true, "topics": ["Unit processes and unit operations", "Process flow diagrams", "Raw materials and energy", "The Indian chemical industry"]},
+      {"name": "Inorganic Chemical Industries", "hours": 7, "weight": 2.5, "topics": ["Chlor-alkali industry", "Soda ash by the Solvay process", "Sulphuric acid by the contact process", "Nitric acid", "Ammonia by the Haber process"]},
+      {"name": "Fertilisers", "hours": 5, "weight": 2, "topics": ["Nitrogenous fertilisers: urea", "Phosphatic fertilisers", "Potassic and mixed fertilisers"]},
+      {"name": "Cement, Glass and Ceramics", "hours": 5, "weight": 1.5, "topics": ["Portland cement manufacture", "Glass manufacture", "Refractories and ceramics"]},
+      {"name": "Organic Chemical Industries", "hours": 7, "weight": 2.5, "topics": ["Pulp and paper", "Sugar and alcohol", "Oils, fats and soaps", "Synthetic detergents", "Dyes and paints"]},
+      {"name": "Petrochemicals", "hours": 5, "weight": 2, "topics": ["Petrochemical feedstocks", "Ethylene and propylene derivatives", "Aromatics", "Synthesis gas and methanol"]}
+    ]},
+    {"name": "Process Dynamics and Control", "about": "How processes respond over time, and how they are controlled", "chapters": [
+      {"name": "Process Models and Laplace Transforms", "hours": 6, "weight": 2, "foundation": true, "topics": ["Why processes need control", "Dynamic models from balances", "Laplace transforms", "Transfer functions", "Deviation variables and linearisation"]},
+      {"name": "Dynamic Behaviour of Processes", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["First-order systems", "Liquid-level and thermal systems", "Second-order systems", "Interacting and non-interacting systems", "Dead time"]},
+      {"name": "Feedback Control", "hours": 7, "weight": 2.5, "topics": ["The feedback control loop", "P, PI and PID controllers", "Closed-loop response", "Offset", "Final control elements"]},
+      {"name": "Stability Analysis", "hours": 6, "weight": 2, "topics": ["Routh-Hurwitz criterion", "Root locus", "Frequency response and Bode plots", "Nyquist criterion and stability margins"]},
+      {"name": "Controller Tuning and Advanced Control", "hours": 6, "weight": 2, "topics": ["Ziegler-Nichols and Cohen-Coon tuning", "Cascade control", "Feedforward control", "Ratio and split-range control"]},
+      {"name": "Process Instrumentation", "hours": 4, "weight": 1.5, "topics": ["Measuring temperature and pressure", "Measuring flow and level", "Control valves", "P&I diagrams"]}
+    ]},
+    {"name": "Transport Phenomena", "about": "Momentum, heat and mass transport from the same equations", "chapters": [
+      {"name": "Momentum Transport", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Newton's law of viscosity", "Non-Newtonian fluids", "Shell momentum balances", "Flow in tubes and falling films"]},
+      {"name": "Equations of Change for Momentum", "hours": 7, "weight": 2.5, "topics": ["Equation of continuity", "Equation of motion", "Navier-Stokes equations", "Solving flow problems with the equations of change"]},
+      {"name": "Energy Transport", "hours": 7, "weight": 2.5, "topics": ["Fourier's law and thermal conductivity", "Shell energy balances", "Equations of change for energy", "Heat conduction with heat generation"]},
+      {"name": "Mass Transport", "hours": 7, "weight": 2.5, "topics": ["Fick's law and diffusivity", "Shell mass balances", "Diffusion with chemical reaction", "Equations of change for mixtures"]},
+      {"name": "Boundary Layers and Turbulence", "hours": 5, "weight": 2, "topics": ["Boundary-layer theory", "Turbulent flow and time-smoothed equations", "Analogies between the transport processes"]}
+    ]},
+    {"name": "Process Equipment Design", "about": "Mechanical and process design of vessels, exchangers and columns", "chapters": [
+      {"name": "Design Fundamentals", "hours": 5, "weight": 2, "foundation": true, "topics": ["Design codes and standards", "Materials of construction", "Corrosion allowance", "Design pressure, temperature and stress"]},
+      {"name": "Pressure Vessels", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Thin cylindrical and spherical shells", "Heads and closures", "Vessels under external pressure", "Nozzles and reinforcement", "Vessel supports"]},
+      {"name": "Storage Vessels", "hours": 4, "weight": 1.5, "topics": ["Atmospheric storage tanks", "Storing volatile liquids", "Spheres and bullets for pressurised storage"]},
+      {"name": "Heat Exchanger Design", "hours": 7, "weight": 2.5, "topics": ["Shell-and-tube exchanger design", "Tube-side and shell-side coefficients (Kern's method)", "Pressure drop", "Condensers and reboilers"]},
+      {"name": "Mass Transfer Equipment Design", "hours": 7, "weight": 2.5, "topics": ["Plate column design", "Tray hydraulics and flooding", "Packed column design", "Column internals"]},
+      {"name": "Reactor and Agitator Design", "hours": 5, "weight": 1.5, "topics": ["Jacketed reaction vessels", "Agitator design", "Mechanical design of reactors"]}
+    ]},
+    {"name": "Plant Design and Economics", "about": "From process to plant: design steps, costs and profitability", "chapters": [
+      {"name": "Process Design Development", "hours": 5, "weight": 2, "foundation": true, "topics": ["Stages of process design", "Choosing a process", "Flowsheets", "Plant location and layout"]},
+      {"name": "Cost Estimation", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Capital investment", "Cost indices", "The six-tenths rule", "Estimating equipment costs", "Manufacturing costs"]},
+      {"name": "Time Value of Money", "hours": 5, "weight": 2, "topics": ["Simple and compound interest", "Present worth and annuities", "Capitalised cost"]},
+      {"name": "Depreciation and Taxes", "hours": 4, "weight": 1.5, "topics": ["Methods of depreciation", "Taxes and insurance", "Book value"]},
+      {"name": "Profitability Analysis", "hours": 7, "weight": 2.5, "topics": ["Rate of return", "Payback period", "Net present worth", "Discounted cash flow", "Break-even analysis"]},
+      {"name": "Optimum Design", "hours": 5, "weight": 2, "topics": ["Optimum economic design", "Optimum pipe diameter", "Optimum insulation thickness", "Replacement analysis"]}
+    ]},
+    {"name": "Process Modelling and Simulation", "about": "Mathematical models of process units and simulating whole flowsheets", "chapters": [
+      {"name": "Fundamentals of Modelling", "hours": 5, "weight": 2, "foundation": true, "topics": ["Uses of mathematical models", "Lumped and distributed models", "Conservation equations", "Degrees of freedom"]},
+      {"name": "Models of Process Units", "hours": 7, "weight": 2.5, "topics": ["Tank and reactor models", "Heat exchanger models", "Distillation column models", "Batch processes"]},
+      {"name": "Numerical Methods for Simulation", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Non-linear equations and Newton-Raphson", "ODE solvers: Euler and Runge-Kutta", "Stiff systems", "Finite differences for partial differential equations"]},
+      {"name": "Steady-state Flowsheet Simulation", "hours": 6, "weight": 2, "topics": ["Sequential modular approach", "Equation-oriented approach", "Tearing and converging recycles", "Process simulators: Aspen Plus and DWSIM"]},
+      {"name": "Dynamic Simulation and Optimisation", "hours": 5, "weight": 2, "topics": ["Dynamic simulation", "Parameter estimation", "Optimising process models"]}
+    ]},
+    {"name": "Petroleum Refining Technology", "about": "From crude oil to fuels and products", "chapters": [
+      {"name": "Crude Oil and its Evaluation", "hours": 5, "weight": 2, "foundation": true, "topics": ["Origin and composition of crude oil", "Crude oil assays", "Properties of petroleum products", "Refineries in India"]},
+      {"name": "Crude Distillation", "hours": 6, "weight": 2.5, "topics": ["Pre-treatment and desalting", "Atmospheric distillation", "Vacuum distillation", "Product cuts"]},
+      {"name": "Cracking Processes", "hours": 7, "weight": 2.5, "topics": ["Thermal cracking and visbreaking", "Delayed coking", "Fluid catalytic cracking", "Hydrocracking"]},
+      {"name": "Reforming and Upgrading", "hours": 6, "weight": 2, "topics": ["Catalytic reforming", "Isomerisation", "Alkylation and polymerisation"]},
+      {"name": "Treatment Processes", "hours": 5, "weight": 2, "topics": ["Hydrotreating and desulphurisation", "Sweetening", "Lube oil manufacture"]},
+      {"name": "Refinery Operations", "hours": 4, "weight": 1.5, "topics": ["Blending products", "Refinery configurations", "Environmental control in refineries"]}
+    ]},
+    {"name": "Polymer Science and Engineering", "about": "How polymers are made, characterised and processed", "chapters": [
+      {"name": "Introduction to Polymers", "hours": 5, "weight": 2, "foundation": true, "topics": ["Classification of polymers", "Molecular weight and its distribution", "Glass transition and crystallinity", "Structure-property relations"]},
+      {"name": "Polymerisation", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Step-growth polymerisation", "Free-radical chain polymerisation", "Ionic and coordination polymerisation", "Copolymerisation"]},
+      {"name": "Polymerisation Techniques", "hours": 5, "weight": 2, "topics": ["Bulk and solution polymerisation", "Suspension polymerisation", "Emulsion polymerisation", "Polymer reactors"]},
+      {"name": "Characterisation of Polymers", "hours": 5, "weight": 1.5, "topics": ["Determining molecular weight", "Thermal analysis: DSC and TGA", "Spectroscopic methods", "Mechanical testing"]},
+      {"name": "Polymer Processing", "hours": 6, "weight": 2, "topics": ["Rheology of polymer melts", "Extrusion", "Injection moulding", "Blow moulding and thermoforming"]},
+      {"name": "Commercial Polymers", "hours": 5, "weight": 2, "topics": ["Polyethylene and polypropylene", "PVC and polystyrene", "Polyesters and nylons", "Rubbers and elastomers"]}
+    ]},
+    {"name": "Process Safety and Hazard Analysis", "about": "Preventing fires, explosions and toxic releases in process plants", "chapters": [
+      {"name": "Safety Fundamentals", "hours": 5, "weight": 2, "foundation": true, "topics": ["Accident statistics and safety culture", "Toxicology and exposure limits", "Industrial hygiene", "Lessons from Bhopal and other accidents"]},
+      {"name": "Fires and Explosions", "hours": 6, "weight": 2.5, "topics": ["The fire triangle and flammability limits", "Ignition sources", "Deflagration and detonation", "BLEVEs and vapour cloud explosions"]},
+      {"name": "Source and Dispersion Models", "hours": 6, "weight": 2, "topics": ["Release models for liquids and gases", "Dispersion models", "Consequence analysis"]},
+      {"name": "Hazard Identification", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["HAZOP studies", "Checklists and what-if analysis", "Failure modes and effects analysis", "Safety reviews"]},
+      {"name": "Risk Assessment", "hours": 6, "weight": 2, "topics": ["Fault tree analysis", "Event tree analysis", "Quantitative risk assessment", "Layers of protection analysis"]},
+      {"name": "Prevention and Relief", "hours": 5, "weight": 1.5, "topics": ["Inerting and purging", "Relief valves and rupture discs", "Sizing reliefs", "Safety regulations in India"]}
+    ]},
+    {"name": "Industrial Pollution Control", "about": "Controlling air, water and solid-waste pollution from industry", "chapters": [
+      {"name": "Pollution and Regulations", "hours": 4, "weight": 1.5, "foundation": true, "topics": ["Sources and types of industrial pollution", "Environmental laws in India", "Pollution control boards and standards", "Environmental impact assessment"]},
+      {"name": "Air Pollution Control", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Air pollutants and their effects", "Meteorology and dispersion", "Settling chambers and cyclones", "Bag filters and electrostatic precipitators", "Scrubbers", "Controlling gaseous pollutants"]},
+      {"name": "Industrial Wastewater Treatment", "hours": 8, "weight": 2.5, "topics": ["Characteristics of industrial wastewater", "Primary treatment", "Activated sludge and trickling filters", "Anaerobic treatment", "Tertiary treatment"]},
+      {"name": "Solid and Hazardous Waste", "hours": 5, "weight": 2, "topics": ["Characteristics of solid waste", "Landfills", "Incineration", "Managing hazardous waste"]},
+      {"name": "Pollution Control in Industries", "hours": 5, "weight": 2, "topics": ["Refineries and petrochemical plants", "Fertiliser plants", "Pulp and paper mills", "Cleaner production and waste minimisation"]}
+    ]}
+  ]
+}

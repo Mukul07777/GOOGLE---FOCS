@@ -1,0 +1,39 @@
+NUMBERED
+13.1 Linear Equations in Two Variables
+13.1.1 Standard Form of Linear Equations in Two Variables
+13.2 Solution of Linear Equation in Two Variables
+13.2.1 Algebraic Meaning of Solution
+13.2.2 Geometric Visualisation of Solutions
+13.3 Slope-intercept form of a Linear Equation in Two Variables
+13.3.1 Understanding Slope
+13.3.2 Slope-Intercept Form
+13.5 Finding Solutions to a Pair of Linear Equations
+13.5.1 Algebraic Methods for Solving a Pair of Linear Equations
+13.6 Graphical Method for Solving A Pair of Linear Equations in Two Variables
+BIG
+Two Variables, One Line
+13.1 Linear Equations in Two Variables
+Exercise Set 13.1
+13.2 Solution of Linear Equation in Two Variables
+Think and Reflect
+Are (1,
+2) (2 4 )
+2 (2 )
+, 4) are also solutions
+When we plot the ordered pairs A(0, 0), B(1,
+5 ) and C (5, –2) we see
+Exercise Set 13.2
+13.3 Slope-intercept form of a Linear Equation in Two Variables
+  
+Exercise Set 13.3
+13.4. Pair of Linear Equations in Two Variables
+Exercise Set 13.4
+13.5 Finding Solutions to a Pair of Linear Equations
+x = 3 – 2(
+29) 29
+13.6 Graphical Method for Solving A Pair of Linear Equations in Two Variables
+Exercise Set 13.5
+End-of-Chapter Exercises
+Chapter Summary
+SAMPLE
+Two Variables, One Line In Chapter 2 of Ganita Manjari, Part I, we explored linear patterns and learnt about linear polynomials. In this chapter, we will go a step further in exploring linear equations in two variables, by learning how to solve a pair of linear equations. 13.1 Linear Equations in Two Variables Radha stops at a fruit cart. The price tags say that mangoes cost ₹60 per kg and bananas cost ₹50 per kg. She buys some kilograms of mangoes and some kilograms of bananas. Altogether, she pays ₹280. Can we express this situation as an equation? Since we do not know how many kilograms of mangoes or bananas she bought, let us assume that x = number of kilograms of mangoes y = number of kilograms of bananas The cost of the mangoes is ₹60x and the cost of the bananas is ₹50y. The total cost is ₹280. Hence, we can express this using the linear equation 60x + 50y = 280. Notice that the left-hand side (LHS) and the right-hand side (RHS) of the equation both represent the same quantity, that is, the total cost (in ₹). The equation 60x + 50y = 280 is a linear equation in two variables. 13 86 Ganita Manjari | Grade 9 | Part II 13.1.1 Standard Form of Linear Equations in Two Variables Any equation that can be expressed in the form ax + by + c = 0, where a, b and c are real numbers, and a and b are not both zero, is called a linear equation in two variables. ax + by + c = 0 is referred to as the standard form of the linear equation. Here a and b are the coefficients of the variables x and y respectively and c is a constant. It is useful to note the following: (i) The coefficients a and b and the constant c can also be rational numbers. For example, 1 4 x + 3 5 y – 1 2 = 0 is also a linear equation in two variables in standard form. However, for convenience, in such cases we 

@@ -1,0 +1,9 @@
+NUMBERED
+
+BIG
+CONTROLLING
+O B J E C T I V E S8
+Meaning of Controlling
+Notes
+SAMPLE
+CONTROLLING CHAPTER L E A R N I N G O B J E C T I V E S8 After studying this chapter, you should be able to: n Explain the meaning of controlling; n State the importance of controlling; n Describe the relationship between planning and controlling; n Explain the steps in the process of controlling; and n Describe the techniques of controlling. A Departure Control System (DCS) automates processing an airlines airport management operations which includes managing the informant required for airport check-in, printing boarding pass, baggage acceptance, boarding load control and aircraft checks. Today almost 98% of DCS manage e-ticket using interface from a number of devices including check-in kiosks, online check‑in, mobile boarding pass and baggage handling. DCS are able to identify and capture updated reservations from an airline computer reservation system for passengers called passenger name record (PNR). A DCS is used to update reservations typically as ckecked-in, boarded, and flown or another status. Additionally and increasingly a DCS or some city fare sectors may also interface with immigration control for visa, immigration and passenger no fly watch list. It is quite clear from the example that all managers need to manage situations intelligently and take corrective action before any damage is done to the business. Controlling function of management comes to the rescue of a manager here. It not only helps in keeping a track on the progress of activities but also ensures that activities conform to the standards set in advance so that organisational goals are achieved. Meaning of Controlling Controlling is one of the important functions of a manager. In order to seek planned results from the subordinates, a manager needs to exercise effective control over the activit

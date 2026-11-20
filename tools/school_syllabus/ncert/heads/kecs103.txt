@@ -1,0 +1,13 @@
+NUMBERED
+3.1 Introduction
+3.2 Artificial Intelligence (AI)
+3.3 Big data
+3.4 Internet of Things (IoT)
+3.5 Cloud Computing
+3.6 Grid Computing
+3.7 Blockchains
+BIG
+Chapter 3
+Emerging Trends
+SAMPLE
+3.1 Introduction Computers have been around for quite some time now. New technologies and initiatives emerge with each passing day. In order to understand the existing technologies and have a better view of the developments around us, we must keep an eye on the emerging trends. Many new technologies are introduced almost every day. Some of these do not succeed and fade away over time. Some of these new technologies prosper and persist over time, gaining attention from users. Emerging trends are the state-of-the-art technologies, which gain popularity and set a new trend among users. In this chapter, we will learn about some emerging trends that will make a huge impact (in the future) on digital economy and interaction in digital societies. 3.2 Artificial Intelligence (AI) Have you ever wondered how maps in your smartphone are able to guide you to take the fastest route to your destination by analysing real time data, such as traffic congestion? On uploading a photo on a social networking site, has it ever happened that your friends in the photograph were recognised and tagged automatically? These are some of the examples of application of Artificial Intelligence. The intelligent digital personal assistants like Siri, Google Now, Cortana, Alexa are all powered by AI. Artificial Intelligence endeavours to simulate the natural intelligence of human beings into machines, thus making them behave intelligently. An intelligent machine is supposed to imitate some of the cognitive functions of humans like learning, decision- making and problem solving. In order to make machines perform tasks with minimum human intervention, they are programmed to create a knowledge base and make “Computer science is no more about computers than as- tronomy is about telescopes” –Edsger Dijkstra C

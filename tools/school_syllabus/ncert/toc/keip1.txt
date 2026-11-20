@@ -1,0 +1,276 @@
+# 11 | Informatics Practices | Informatics Practices | keip1 | pages 10
+=== page 4
+Preface	
+In the present education system of our country, specialised/discipline 
+based courses are introduced at the higher secondary stage. This stage 
+is crucial as well as challenging because of the transition from general 
+to discipline-based curriculum. The syllabus at this stage needs to have 
+sufficient rigour and depth while remaining mindful of the comprehension 
+level of the learners. Further, the textbook should not be heavily loaded 
+with content.
+We are living in an era where information drives many of our 
+socio-economic decisions. Millions of people are accessing internet round 
+the clock for availing various  services and thereby generating vast amount 
+of data. Processing of data is becoming a key skill with applications 
+across the disciplines. Thus, study of basic concepts of data handling 
+and analysis is becoming more and more desirable. There are courses 
+offered in the name of computer science, Information and Communication 
+Technology (ICT), Information Technology (IT), etc. by various boards and 
+schools up to the secondary stage, as an optional subject. These mainly 
+focus on using computer for word processing, presentation tools and 
+application software.
+Informatics Practices (IP) at the higher secondary stage of school 
+education is also offered as an optional subject. At this stage, students 
+can take up IP with the aim of pursuing a career in data science or related 
+areas after going through professional courses at higher levels. Therefore, 
+at the higher secondary stage, the curriculum of IP introduces the basics 
+of database management systems and data processing. The book has eight 
+chapters covering the following broader themes: 
+•
+Basic understanding of computer systems and their evolution,
+introduction to software and their categorisation, computer
+memory, awareness of emerging trends in the field of information
+and communication technology.
+•
+Basic constructs of a program using Python programming
+language — program structure, identifiers, variables, flow of control,
+advanced data types like Lists and Dictionaries.
+•
+Handling data using specialised Python library called NumPy — concept
+of single and multi-dimensional Array.
+•
+Concepts of data, database, and relational database management
+system using MySQL. Structured query language — data definition,
+data manipulation and data querying.
+Python programming language and NumPy are introduced using both 
+the interactive and script mode. A number of hands-on examples are given 
+in Python, NumPy and MySQL to gradually explain the methodology to 
+solve different types of problems and handle data. The programming and 
+database related examples as well as the exercises in those chapters are 
+required to be solved in a computer and verified with the given outputs.
+Reprint 2026-27
+
+=== page 5
+vi
+The chapters in this book have two additional components — activities 
+for self assessment and ‘think and reflect’ to generate further interest in 
+the learner.
+Group projects through case studies are proposed to solve complex 
+problems. Some exercises have been made in case-study form to promote 
+problem-finding and problem-solving skills.
+These chapters have been written by involving practicing teachers as 
+well as subject experts. These have been iteratively peer-reviewed. Several 
+iterations have resulted into this book. Thanks to the authors and reviewers 
+for their valuable contribution.
+Comments and suggestions are welcome to make this endeavour par 
+excellence.
+Dr. Rejaul Karim Barbhuiya
+ Assistant Professor, 
+Department of Education in 
+Science and Mathematics, NCERT
+Reprint 2026-27
+
+=== page 8
+Contents
+Foreword	 	
+iii
+Preface	
+	
+v
+Chapter 1 Computer System 
+1
+1.1	
+Introduction to Computer System	
+1
+1.2	
+Evolution of Computer	
+3
+1.3	
+Computer Memory	
+5
+1.4	
+Software 
+9
+Chapter 2 Emerging Trends	
+15
+2.1	
+Introduction to Emerging Trends	
+15
+2.2 
+Artificial Intelligence (AI) 
+16
+2.3	
+Big Data 
+19
+2.4 
+Internet of Things (IoT) 
+21
+2.5	
+Cloud Computing	
+23
+2.6 
+Grid Computing 
+25
+2.7 
+Blockchains 
+26
+Chapter 3 Brief Overview of Python	
+31
+3.1	
+Introduction to Python	
+31
+3.2	
+Python Keywords	
+34
+3.3 
+Identifiers 
+34
+3.4	
+Variables	
+34
+3.5	
+Data Types 
+35
+3.6 
+Operators 
+38
+3.7	
+Expressions 
+41
+3.8 
+Input and Output 
+42
+3.9	
+Debugging	
+43
+3.10	 Functions	
+44
+3.11	if..else Statements
+46
+3.12	for Loop
+48
+3.13	 Nested Loops	
+50
+Chapter 4 Working with Lists and Dictionaries	
+55
+4.1	
+Introduction to List	
+55
+4.2 
+List Operations 
+57
+4.3	
+Traversing a List	
+59
+4.4 
+List Methods and Built-in Functions 
+60
+Reprint 2026-27
+
+=== page 9
+x
+4.5	
+List Manipulation    
+62
+4.6	
+Introduction to Dictionaries    
+67
+4.7	
+Traversing a Dictionary	
+69
+4.8	
+Dictionary Methods and Built-in Functions	
+69
+4.9	
+Manipulating Dictionaries	
+71
+Chapter 5 Understanding Data	
+81
+5.1	
+Introduction to Data	
+81
+5.2	
+Data Collection	
+85
+5.3	
+Data Storage	
+86
+5.4	
+Data Processing	
+87
+5.5	
+Statistical Techniques for Data Processing	
+88
+Chapter 6 Introduction to NumPy 
+95
+6.1	
+Introduction	
+95
+6.2	
+Array	
+96
+6.3	
+NumPy Array	
+96
+6.4	
+Indexing and Slicing	
+100
+6.5	
+Operations on Arrays	
+102
+6.6	
+Concatenating Arrays	
+104
+6.7	
+Reshaping Arrays	
+105
+6.8	
+Splitting Arrays	
+106
+6.9	
+Statistical Operations on Arrays	
+107
+6.10	 Loading Arrays from Files	
+109
+6.11	 Saving NumPy Arrays in Files on Disk	
+112
+Chapter 7 Database Concepts	
+123
+7.1	
+Introduction	
+123
+7.2	
+File System	
+124
+7.3	
+Database Management System	
+127
+7.4	
+Relational Data Model	
+132
+7.5	
+Keys in a Relational Database  
+136
+Chapter 8 Introduction to  Structured Query Language (SQL) 	 143
+8.1	
+Introduction	
+143
+8.2	
+Structured Query Language (SQL) 
+144
+8.3	
+Data Types and Constraints in MySQL	
+145
+8.4	
+SQL for Data Definition	
+146
+8.5	
+SQL for Data Manipulation	
+153
+8.6	
+SQL for Data Query	
+156 
+8.7	
+Data Updation and Deletion	
+166
+Reprint 2026-27

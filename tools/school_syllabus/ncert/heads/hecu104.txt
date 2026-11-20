@@ -1,0 +1,25 @@
+NUMBERED
+4.1 Does an Electric Current Have a Magnetic Effect?
+4.1.1 Electromagnets
+4.1.2 Lifting electromagnets
+4.2 Does a Current Carrying Wire Get Hot?
+4.3 How Does a Battery Generate Electricity?
+4.3.1 Voltaic cell
+4.3.2 Dry cells
+4.3.3 Rechargeable batteries
+BIG
+Electricity: Magnetic 4
+and Heating Efef cts
+Probe and ponder
+4.1 Does an Electric Current Have a Magnetic Effect?
+Activity 4.1: Let us investigate
+Activity 4.2: Let us explore
+Activity 4.3: Let us experiment
+Activity 4.4: Let us investigate
+4.2 Does a Current Carrying Wire Get Hot?
+Activity 4.5: Let us observe
+Safety firsStafety First
+4.3 How Does a Battery Generate Electricity?
+Activity 4.6: Let us construct
+SAMPLE
+46 Curiosity — Textbook of Science for Grade 8 Electricity: Magnetic and Heating Effects 4 z If we don’t have an electric lamp while making an electric circuit with an electric cell, is there any other way through which we can find out if current is flowing in the circuit? z Is it possible to make temporary magnets? How can these be made? z We can generate heat by burning fossil fuels and wood; but how is heat generated in various electrical appliances? z How do we know if a cell or a battery is dead? Can all cells and batteries be recharged? z Share your questions ? Probe and ponder Reprint 2026-27 Chapter 4 — Electricity: Magnetic and Heating Effects 47 It was the day of the science exhibition, and the school was buzzing with energy. Mohini and Aakarsh, along with their friends, went from one exhibit to another, eagerly exploring different models, asking questions and taking notes. One simple model really fascinated them. It was a working model of a lifting electromagnet which was displayed by their senior, Sumana. In it, instead of a hook like a typical crane, there was an iron nail wrapped with a wire, which was connected to a battery. When Sumana closed the circuit, the nail picked up iron paper clips like a magnet. When she opened the circuit, the clips fell off. Mohini and Aakarsh, were surprised. They remembered learning earlier (in the chapter ‘Exploring Magnets’, Curiosity, Grade 6) that magnetic materials were attracted by magnet and that iron was a magnetic material. But in Sumana’s model, there was no magnet, only an electric circuit. They were so excited that they wanted to try it out themselves. 4.1 Does an Electric Current Have a Magnetic Effect? Activity 4.1: Let us investigate z Collect a magnetic compass, an electric cell, a cell holder, two drawing 

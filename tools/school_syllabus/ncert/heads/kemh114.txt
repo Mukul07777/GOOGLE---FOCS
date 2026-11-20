@@ -1,0 +1,24 @@
+NUMBERED
+14.1 Event
+14.2 Axiomatic Approach to Probability
+BIG
+PROBABILITY
+ANote It may be noted that the singleton {ωi} is called elementary event and
+®Event: A subset of the sample space
+®Impossible event : The empty set
+®Sure event: The whole sample space
+®Complementary event or ‘not event’ : The set A′ or S – A
+®Event A or B: The set A ∪ B
+®Event A and B: The set A ∩ B
+®Event A and not B: The set A – B
+®Mutually exclusive event: A and B are mutually exclusive if A ∩ B = φ
+®Exhaustive and mutually exclusive events: Events E1, E2,..., En are mutually
+®Probability: Number P (ωi) associated with sample point ω i such that
+®Equally likely outcomes: All outcomes with equal probability
+®Probability of an event: For a finite sample space with equally likely outcomes
+®If A and B are any two events, then
+®If A and B are mutually exclusive, then P(A or B) = P(A) + P(B)
+®If A is any event, then
+— v —
+SAMPLE
+vWhere a mathematical reasoning can be had, it is as great a folly to make use of any other, as to grope for a thing in the dark, when you have a candle in your hand. – JOHN ARBUTHNOT v 14.1 Event We have studied about random experiment and sample space associated with an experiment. The sample space serves as an universal set for all questions concerned with the experiment. Consider the experiment of tossing a coin two times. An associated sample space is S = {HH, HT, TH, TT}. Now suppose that we are interested in those outcomes which correspond to the occurrence of exactly one head. We find that HT and TH are the only elements of S corresponding to the occurrence of this happening (event). These two elements form the set E = { HT, TH} We know that the set E is a subset of the sample space S . Similarly, we find the following correspondence between events and subsets of S. Description of events Corresponding subset of ‘S’ Number of tails is exactly 2 A = {TT} Number of tails is atleast one B = {HT, TH, TT} Number of heads is atmost one C = {HT, TH, TT} Second toss is not head D = { HT, TT} Number of tails is atmost two S = {HH, HT, TH, TT} Number of tails is more than two φ The above discussion suggests that a subset of sample space is associated with an event and an event is associated with a subset of sample space. In the light of this we define an event as follows. Definition Any subset E of a sample space S is called an event. 14 Chapter PROBABILITY Reprint 2026-27 290 MATHEMATICS 14.1.1 Occurrence of an event Consider the experiment of throwing a die. Let E denotes the event “ a number less than 4 appears”. If actually ‘1’ had appeared on the die then we say that event E has occurred. As a matter of fact if outcomes are 2 or 3, we say that event E has occurred Thu

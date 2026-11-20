@@ -1,0 +1,29 @@
+NUMBERED
+9.1 Need for Adjustments
+9.2 Closing Stock
+9.3 Outstanding Expenses
+9.4 Prepaid Expenses
+9.5 Accrued Income
+9.6 Income Received in Advance
+9.7 Depreciation
+9.8 Bad Debts
+9.9 Provision for Bad and Doubtful Debts
+9.10 Provision for Discount on Debtors
+9.11 Manager’s Commission
+9.12 Interest on Capital
+BIG
+Financial Statements - II 9
+APPENDIX
+Description of Commonly Used Functions in Access
+Note
+Our National Anthem
+Jana-gana-mana adhinayaka, jaya he
+Bharata-bhagya-vidhata. Punjab-Sindh-Gujarat-Maratha
+Dravida-Utkala-Banga Vindhya-Himachala-Yamuna-Ganga
+Uchchhala-jaladhi-taranga.
+Tava shubha name jage, Tava shubha asisa mage,
+Gahe tava jaya gatha. Jana-gana-mangala-dayaka jaya he
+Bharata-bhagya-vidhata. Jaya he, jaya he, jaya he,
+Jaya jaya jaya, jaya he!
+SAMPLE
+318 Accountancy Financial Statements - II 9 I n chapter 8, you learnt about the preparation of simple final accounts in the format of trading and profit and loss account and balance sheet. The preparation of simple final accounts pre-supposes the absence of any accounting complexities which are normal to business operations. These complexities arise due to the fact that the process of determining income and financial position is based on the accrual basis of accounting. This emphasises that while ascertaining the profitability, the revenues be considered on earned basis and not on receipt basis, and the expenses be considered on incurred basis and not on paid basis. Hence, many items need some adjustment while preparing the financial statements. In this chapter we shall discuss all items which require adjustments and the way these are brought into the books of account and incorporated in the final accounts. 9.1 Need for Adjustments According to accrual concept of accounting, the profit or loss for an accounting year is not based on the revenues realised in cash and the expenses paid in cash during that year. There may exist some receipts and expenses in the current year which partially relate to the previous year or to the next year. Also, there may exist incomes and expenses relating to the current year that still need to be brought into books of account. Such items duly adjusted, the final accounts will not reflect the true and fair view of the state of affairs of the business. Learning Objectives After studying this chapter, you will be able to : • describe the need for adjustments while preparing the financial statements; • explain the accounting treatment of adj­ust­ ments for outstanding and prepaid expenses, accrued and advance receipts of incomes; • discuss the 

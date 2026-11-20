@@ -1,0 +1,34 @@
+NUMBERED
+3.1 Introduction
+3.2 Descriptive Statistics
+3.2.1 Calculating Maximum Values
+3.2.2 Calculating Minimum Values
+3.2.3 Calculating Sum of Values
+3.2.4 Calculating Number of Values
+3.2.5 Calculating Mean
+3.2.6 Calculating Median
+3.2.7 Calculating Mode
+3.2.8 Calculating Quartile
+3.2.9 Calculating Variance
+3.2.10 Calculating Standard Deviation
+3.3 Data Aggregations
+3.4 Sorting a DataFrame
+3.5 GROUP BY Functions
+3.6 Altering the Index
+3.7 Other DataFrame Operations
+3.7.1 Reshaping Data
+3.8 Handling Missing Values
+3.8.1 Checking Missing Values
+3.8.2 Dropping Missing Values
+3.8.3 Estimating Missing Values
+3.9 Import and Export of Data between Pandas
+3.9.1 Importing Data from MySQL to Pandas
+3.9.2 Exporting Data from Pandas to MySQL
+BIG
+C h a p t e r
+Data Handling using
+3 Pandas - II
+Summary
+Exercise
+SAMPLE
+In this chapter » Introduction » Descriptive Statistics » Data Aggregations » Sorting a DataFrame » GROUP BY Functions » Altering the Index » Other DataFrame Operations » Handling Missing Values » Import and Export of Data between Pandas and MySQL 3.1 Introduction As discussed in the previous chapter, Pandas is a well established Python Library used for manipulation, processing and analysis of data. We have already discussed the basic operations on Series and DataFrame like creating them and then accessing data from them. Pandas provides more powerful and useful functions for data analysis. In this chapter, we will be working with more advanced features of DataFrame like sorting data, answering analytical questions using the data, cleaning data and applying different useful functions on the data. Below is the example data on which we will be applying the advanced features of Pandas. “We owe a lot to the Indians, who taught us how to count, without which no worthwhile scientific discovery could have been made.” — Albert Einstein C h a p t e r 3 Data Handling using Pandas - II Reprint 2026-27 Informatics Practices 64 Case Study Let us consider the data of marks scored in unit tests held in school. For each unit test, the marks scored by all students of the class is recorded. Maximum marks are 25 in each subject. The subjects are Maths, Science. Social Studies (S.St.), Hindi, and English. For simplicity, we assume there are 4 students in the class and the table below shows their marks in Unit Test 1, Unit Test 2 and Unit Test 3. Table 3.1 shows this data. Table 3.1 Case Study Result Name/ Subjects Unit Test Maths Science S.St. Hindi Eng Raman 1 22 21 18 20 21 Raman 2 21 20 17 22 24 Raman 3 14 19 15 24 23 Zuhaire 1 20 17 22 24 19 Zuhaire 2 23 15 21 25 15 Zuhaire 3 22 18 19 

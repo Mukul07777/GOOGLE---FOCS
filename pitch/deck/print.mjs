@@ -1,0 +1,12 @@
+import { chromium } from "playwright-core";
+import { pathToFileURL } from "node:url";
+const [src, out, png] = process.argv.slice(2);
+const b = await chromium.launch({ channel: "chrome" });
+const p = await b.newPage();
+await p.goto(pathToFileURL(src).href, { waitUntil: "networkidle" });
+await p.evaluate(() => document.fonts.ready);
+await p.pdf({ path: out, format: "A4", printBackground: true, preferCSSPageSize: true });
+await p.setViewportSize({ width: 794, height: 1123 });
+await p.screenshot({ path: png });
+await b.close();
+console.log("wrote", out);

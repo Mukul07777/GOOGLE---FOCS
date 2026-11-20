@@ -1,0 +1,6524 @@
+[
+ {
+  "class": 1,
+  "subject": "English",
+  "title": "Mridang",
+  "url": "textbook.php?aemr1=0-9"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (English)",
+  "url": "textbook.php?aejm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Hindi)",
+  "url": "textbook.php?ahjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Marathi)",
+  "url": "textbook.php?amrjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Sindhi)",
+  "url": "textbook.php?asijm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Punjabi)",
+  "url": "textbook.php?apjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Gujarati)",
+  "url": "textbook.php?agjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Malayalam)",
+  "url": "textbook.php?ayjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Konkani)",
+  "url": "textbook.php?akjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Assamese)",
+  "url": "textbook.php?aajm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Maithili)",
+  "url": "textbook.php?aijm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Bodo)",
+  "url": "textbook.php?aojm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Sanskrit)",
+  "url": "textbook.php?askjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Oriya)",
+  "url": "textbook.php?aorjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Bengali)",
+  "url": "textbook.php?abnjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Santhali)",
+  "url": "textbook.php?asnjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Manipuri)",
+  "url": "textbook.php?amnjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Urdu)",
+  "url": "textbook.php?aujm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Nepali)",
+  "url": "textbook.php?anpjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Telugu)",
+  "url": "textbook.php?atljm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Kannada)",
+  "url": "textbook.php?aknjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Tamil)",
+  "url": "textbook.php?atmjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Dogri)",
+  "url": "textbook.php?adgjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Kashmiri)",
+  "url": "textbook.php?aksjm1=0-13"
+ },
+ {
+  "class": 1,
+  "subject": "Hindi",
+  "title": "Sarangi",
+  "url": "textbook.php?ahsr1=0-19"
+ },
+ {
+  "class": 1,
+  "subject": "Urdu",
+  "title": "Shahnai",
+  "url": "textbook.php?aush1=0-18"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (English)",
+  "url": "textbook.php?bejm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Hindi)",
+  "url": "textbook.php?bhjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Assamese)",
+  "url": "textbook.php?basjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Punjabi)",
+  "url": "textbook.php?bpnjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Gujarati)",
+  "url": "textbook.php?bgjjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Malayalam)",
+  "url": "textbook.php?bmljm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Maithli)",
+  "url": "textbook.php?bmtjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Bodo)",
+  "url": "textbook.php?bbdjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Marathi)",
+  "url": "textbook.php?bmrjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Sindhi)",
+  "url": "textbook.php?bsijm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Bengali)",
+  "url": "textbook.php?bbnjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Sanskrit)",
+  "url": "textbook.php?bskjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Nepali)",
+  "url": "textbook.php?bnpjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Oriya)",
+  "url": "textbook.php?borjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Manipuri)",
+  "url": "textbook.php?bmnjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Urdu)",
+  "url": "textbook.php?bujm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Santhali)",
+  "url": "textbook.php?bsnjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Konkani)",
+  "url": "textbook.php?bkojm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Kannada)",
+  "url": "textbook.php?bknjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Tamil)",
+  "url": "textbook.php?btmjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Telugu)",
+  "url": "textbook.php?btljm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Dogri)",
+  "url": "textbook.php?bdgjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Mathematics",
+  "title": "Joyful-Mathematics (Kashmiri)",
+  "url": "textbook.php?bksjm1=0-11"
+ },
+ {
+  "class": 2,
+  "subject": "Hindi",
+  "title": "Sarangi",
+  "url": "textbook.php?bhsr1=0-26"
+ },
+ {
+  "class": 2,
+  "subject": "English",
+  "title": "Mridang",
+  "url": "textbook.php?bemr1=0-13"
+ },
+ {
+  "class": 2,
+  "subject": "Urdu",
+  "title": "Shahnai",
+  "url": "textbook.php?bush1=0-19"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela",
+  "url": "textbook.php?cemm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Ganit Mela",
+  "url": "textbook.php?chmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Riyazi Mela",
+  "url": "textbook.php?cumm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Assamese)",
+  "url": "textbook.php?casmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Bengali)",
+  "url": "textbook.php?cbnmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Bodo)",
+  "url": "textbook.php?cbdmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Dogri)",
+  "url": "textbook.php?cdgmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Gujarati)",
+  "url": "textbook.php?cgjmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Kannada)",
+  "url": "textbook.php?cknmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Maithili)",
+  "url": "textbook.php?cmtmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Malayalam)",
+  "url": "textbook.php?cmlmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Manipuri)",
+  "url": "textbook.php?cmnmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Nepali)",
+  "url": "textbook.php?cnpmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Odia)",
+  "url": "textbook.php?cormm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Punjabi)",
+  "url": "textbook.php?cpnmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Santhali)",
+  "url": "textbook.php?csnmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Tamil)",
+  "url": "textbook.php?ctmmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Telugu)",
+  "url": "textbook.php?ctlmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Sanskrit)",
+  "url": "textbook.php?cskmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Marathi)",
+  "url": "textbook.php?cmrmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Konkani)",
+  "url": "textbook.php?ckomm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Sindhi)",
+  "url": "textbook.php?csimm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Mathematics",
+  "title": "Maths Mela (Kashmiri)",
+  "url": "textbook.php?cksmm1=0-14"
+ },
+ {
+  "class": 3,
+  "subject": "Hindi",
+  "title": "Veena",
+  "url": "textbook.php?chve1=0-18"
+ },
+ {
+  "class": 3,
+  "subject": "Urdu",
+  "title": "Sitar",
+  "url": "textbook.php?cust1=0-19"
+ },
+ {
+  "class": 3,
+  "subject": "English",
+  "title": "Santoor",
+  "url": "textbook.php?cesa1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World",
+  "url": "textbook.php?ceev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Hamara Adhbhut Sansar",
+  "url": "textbook.php?chev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Hamari Hairat Angez Duniya",
+  "url": "textbook.php?cuev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Bengali)",
+  "url": "textbook.php?cbnev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Odia)",
+  "url": "textbook.php?corev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Marathi)",
+  "url": "textbook.php?cmrev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Nepali)",
+  "url": "textbook.php?cnpev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Telugu)",
+  "url": "textbook.php?ctlev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Gujrati)",
+  "url": "textbook.php?cgjev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Manipuri)",
+  "url": "textbook.php?cmnev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Sanskrit)",
+  "url": "textbook.php?cskev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Assamese)",
+  "url": "textbook.php?casev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Bodo)",
+  "url": "textbook.php?cbdev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Punjabi)",
+  "url": "textbook.php?cpnev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Malayalam)",
+  "url": "textbook.php?cmlev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Maithili)",
+  "url": "textbook.php?cmtev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Dogri)",
+  "url": "textbook.php?cdgev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Kannada)",
+  "url": "textbook.php?cknev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Santhali)",
+  "url": "textbook.php?csnev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Tamil)",
+  "url": "textbook.php?ctmev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Sindhi)",
+  "url": "textbook.php?csiev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Kashmiri)",
+  "url": "textbook.php?cksev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Konkani)",
+  "url": "textbook.php?ckoev1=0-12"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I",
+  "url": "textbook.php?cebu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Hindi)",
+  "url": "textbook.php?chbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Urdu)",
+  "url": "textbook.php?cubu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Bengali)",
+  "url": "textbook.php?cbnbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Maithili)",
+  "url": "textbook.php?cmtbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Manipuri)",
+  "url": "textbook.php?cmnbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Marathi)",
+  "url": "textbook.php?cmrbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Nepali)",
+  "url": "textbook.php?cnpbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Punjabi)",
+  "url": "textbook.php?cpnbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Bodo)",
+  "url": "textbook.php?cbdbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Gujarati)",
+  "url": "textbook.php?cgjbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Dogri)",
+  "url": "textbook.php?cdgbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Konkani)",
+  "url": "textbook.php?ckobu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Santhali)",
+  "url": "textbook.php?csnbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Tamil)",
+  "url": "textbook.php?ctmbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Telugu)",
+  "url": "textbook.php?ctlbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Assamese)",
+  "url": "textbook.php?casbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Kannada)",
+  "url": "textbook.php?cknbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Sanskrit)",
+  "url": "textbook.php?cskbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Malayalam)",
+  "url": "textbook.php?cmlbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Odia)",
+  "url": "textbook.php?corbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Sindhi)",
+  "url": "textbook.php?csibu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Arts",
+  "title": "Bansuri - I (Kashmiri)",
+  "url": "textbook.php?cksbu1=0-20"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga",
+  "url": "textbook.php?ceky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Hindi)",
+  "url": "textbook.php?chky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Malayalam)",
+  "url": "textbook.php?cmlky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Bengali)",
+  "url": "textbook.php?cbnky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Gujarati)",
+  "url": "textbook.php?cgjky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Kannada)",
+  "url": "textbook.php?cknky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Konkani)",
+  "url": "textbook.php?ckoky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Manipuri)",
+  "url": "textbook.php?cmnky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Nepali)",
+  "url": "textbook.php?cnpky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Odia)",
+  "url": "textbook.php?corky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Assamese)",
+  "url": "textbook.php?casky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Dogri)",
+  "url": "textbook.php?cdgky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Punjabi)",
+  "url": "textbook.php?cpnky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Sanskrit)",
+  "url": "textbook.php?cskky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Santhali)",
+  "url": "textbook.php?csnky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Tamil)",
+  "url": "textbook.php?ctmky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Marathi)",
+  "url": "textbook.php?cmrky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Bodo)",
+  "url": "textbook.php?cbdky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Telugu)",
+  "url": "textbook.php?ctlky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Maithili)",
+  "url": "textbook.php?cmtky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Urdu)",
+  "url": "textbook.php?cuky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Sindhi)",
+  "url": "textbook.php?csiky1=0-7"
+ },
+ {
+  "class": 3,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Kashmiri)",
+  "url": "textbook.php?cksky1=0-7"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela",
+  "url": "textbook.php?demm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Ganit Mela",
+  "url": "textbook.php?dhmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Riyazi Mela",
+  "url": "textbook.php?dumm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Maithili)",
+  "url": "textbook.php?dmtmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Punjabi)",
+  "url": "textbook.php?dpnmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Gujarati)",
+  "url": "textbook.php?dgjmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Dogri)",
+  "url": "textbook.php?ddgmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Nepali)",
+  "url": "textbook.php?dnpmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Manipuri)",
+  "url": "textbook.php?dmnmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Assamese)",
+  "url": "textbook.php?dasmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Sindhi)",
+  "url": "textbook.php?dsimm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Odia)",
+  "url": "textbook.php?dormm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Bodo)",
+  "url": "textbook.php?dbdmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Bengali)",
+  "url": "textbook.php?dbnmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Marathi)",
+  "url": "textbook.php?dmrmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Kannada)",
+  "url": "textbook.php?dknmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Malayalam)",
+  "url": "textbook.php?dmlmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Sanskrit)",
+  "url": "textbook.php?dskmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Tamil)",
+  "url": "textbook.php?dtmmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Santhali)",
+  "url": "textbook.php?dsnmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Telugu)",
+  "url": "textbook.php?dtlmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Konkani)",
+  "url": "textbook.php?dkomm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Kashmiri)",
+  "url": "textbook.php?dksmm1=0-14"
+ },
+ {
+  "class": 4,
+  "subject": "Hindi",
+  "title": "Veena",
+  "url": "textbook.php?dhve1=0-13"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World",
+  "url": "textbook.php?deev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Hamara Adhbhut Sansar",
+  "url": "textbook.php?dhev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Hamari Hairatangez Duniya ",
+  "url": "textbook.php?duev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Punjabi)",
+  "url": "textbook.php?dpev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Gujarati)",
+  "url": "textbook.php?dgjev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Kannada)",
+  "url": "textbook.php?dknev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Sanskrit)",
+  "url": "textbook.php?dskev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Konkani)",
+  "url": "textbook.php?dkoev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Bengali)",
+  "url": "textbook.php?dbnev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Odia)",
+  "url": "textbook.php?dorev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Marathi)",
+  "url": "textbook.php?dmrev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Malayalam)",
+  "url": "textbook.php?dmlev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Bodo)",
+  "url": "textbook.php?dbdev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Nepali)",
+  "url": "textbook.php?dnpev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Assamese)",
+  "url": "textbook.php?dasev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Dogri)",
+  "url": "textbook.php?ddgev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Manipuri)",
+  "url": "textbook.php?dmnev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Tamil)",
+  "url": "textbook.php?dtmev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Kashmiri)",
+  "url": "textbook.php?dksev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Telugu)",
+  "url": "textbook.php?dtlev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Sindhi)",
+  "url": "textbook.php?dsiev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Santhali)",
+  "url": "textbook.php?dsnev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "The World Around Us",
+  "title": "Our Wondrous World (Maithili)",
+  "url": "textbook.php?dmtev1=0-10"
+ },
+ {
+  "class": 4,
+  "subject": "English",
+  "title": "Santoor",
+  "url": "textbook.php?desa1=0-12"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri",
+  "url": "textbook.php?debu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Hindi)",
+  "url": "textbook.php?dhbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Urdu)",
+  "url": "textbook.php?dubu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Odia)",
+  "url": "textbook.php?dorbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Gujarati)",
+  "url": "textbook.php?dgjbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Punjabi)",
+  "url": "textbook.php?dpnbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Sindhi)",
+  "url": "textbook.php?dsibu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Tamil)",
+  "url": "textbook.php?dtmbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Bodo)",
+  "url": "textbook.php?dbdbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Nepali)",
+  "url": "textbook.php?dnpbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Konkani)",
+  "url": "textbook.php?dkobu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Assamese)",
+  "url": "textbook.php?dasbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Bengali)",
+  "url": "textbook.php?dbnbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Dogri)",
+  "url": "textbook.php?ddgbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Manipuri)",
+  "url": "textbook.php?dmnbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Sanskrit)",
+  "url": "textbook.php?dskbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Malayalam)",
+  "url": "textbook.php?dmlbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Kannada)",
+  "url": "textbook.php?dknbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Kashmiri)",
+  "url": "textbook.php?dksbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Maithili)",
+  "url": "textbook.php?dmtbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Marathi)",
+  "url": "textbook.php?dmrbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Santhali)",
+  "url": "textbook.php?dsnbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Arts",
+  "title": "Bansuri - I (Telugu)",
+  "url": "textbook.php?dtlbu1=0-18"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga",
+  "url": "textbook.php?deky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Hindi)",
+  "url": "textbook.php?dhky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Odia)",
+  "url": "textbook.php?dorky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Gujarati)",
+  "url": "textbook.php?dgjky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Bengali)",
+  "url": "textbook.php?dbnky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Assamese)",
+  "url": "textbook.php?dasky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Tamil)",
+  "url": "textbook.php?dtmky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Punjabi)",
+  "url": "textbook.php?dpnky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Marathi)",
+  "url": "textbook.php?dmrky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Telugu)",
+  "url": "textbook.php?dtlky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Dogri)",
+  "url": "textbook.php?ddgky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Kannada)",
+  "url": "textbook.php?dknky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Nepali)",
+  "url": "textbook.php?dnpky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Sanskrit)",
+  "url": "textbook.php?dskky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Kashmiri)",
+  "url": "textbook.php?dksky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Malayalam)",
+  "url": "textbook.php?dmlky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Manipuri)",
+  "url": "textbook.php?dmnky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Bodo)",
+  "url": "textbook.php?dbdky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Maithili)",
+  "url": "textbook.php?dmtky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Konkani)",
+  "url": "textbook.php?dkoky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Sindhi)",
+  "url": "textbook.php?dsiky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga (Santhali)",
+  "url": "textbook.php?dsnky1=0-3"
+ },
+ {
+  "class": 4,
+  "subject": "Urdu",
+  "title": "Sitaar",
+  "url": "textbook.php?dust1=0-14"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela",
+  "url": "textbook.php?eemm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Ganit-Mela",
+  "url": "textbook.php?ehmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Riyazi Mela",
+  "url": "textbook.php?eumm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Tamil)",
+  "url": "textbook.php?etmmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Marathi)",
+  "url": "textbook.php?emrmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Odia)",
+  "url": "textbook.php?eormm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Punjabi)",
+  "url": "textbook.php?epnmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Manipuri)",
+  "url": "textbook.php?emnmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Kannada)",
+  "url": "textbook.php?eknmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Nepali)",
+  "url": "textbook.php?enpmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Konkani)",
+  "url": "textbook.php?ekomm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Assamese)",
+  "url": "textbook.php?easmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Bodo)",
+  "url": "textbook.php?ebdmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Bengali)",
+  "url": "textbook.php?ebnmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Dogri)",
+  "url": "textbook.php?edgmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Malayalam)",
+  "url": "textbook.php?emlmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Telugu)",
+  "url": "textbook.php?etlmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Kashmiri)",
+  "url": "textbook.php?eksmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Gujarati)",
+  "url": "textbook.php?egjmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Sindhi)",
+  "url": "textbook.php?esimm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Santhali)",
+  "url": "textbook.php?esnmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Maithili)",
+  "url": "textbook.php?emtmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Mathematics",
+  "title": "Math-Mela (Sanskrit)",
+  "url": "textbook.php?eskmm1=0-15"
+ },
+ {
+  "class": 5,
+  "subject": "Hindi",
+  "title": "Veena",
+  "url": "textbook.php?ehve1=0-12"
+ },
+ {
+  "class": 5,
+  "subject": "English",
+  "title": "Santoor",
+  "url": "textbook.php?eesa1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World",
+  "url": "textbook.php?eeev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Hamara Adbhut Sansar",
+  "url": "textbook.php?ehev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Hamari Hairatangez Duniya",
+  "url": "textbook.php?euev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Odia)",
+  "url": "textbook.php?eorev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Gujarati)",
+  "url": "textbook.php?egjev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Santhali)",
+  "url": "textbook.php?esnev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Dogri)",
+  "url": "textbook.php?edgev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Malayalam)",
+  "url": "textbook.php?emlev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Sanskrit)",
+  "url": "textbook.php?eskev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Bengali)",
+  "url": "textbook.php?ebnev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Nepali)",
+  "url": "textbook.php?enpev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Kannada)",
+  "url": "textbook.php?eknev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Punjabi)",
+  "url": "textbook.php?epnev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Tamil)",
+  "url": "textbook.php?etmev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Manipuri)",
+  "url": "textbook.php?emnev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Marathi)",
+  "url": "textbook.php?emrev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Telugu)",
+  "url": "textbook.php?etlev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Assamese)",
+  "url": "textbook.php?easev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Kashmiri)",
+  "url": "textbook.php?eksev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Bodo)",
+  "url": "textbook.php?ebdev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Maithili)",
+  "url": "textbook.php?emtev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Konkani)",
+  "url": "textbook.php?ekoev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "The World Around Us",
+  "title": "Our Wonderous World (Sindhi)",
+  "url": "textbook.php?esiev1=0-10"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri",
+  "url": "textbook.php?eebu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Hindi)",
+  "url": "textbook.php?ehbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Urdu)",
+  "url": "textbook.php?eubu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Gujarati)",
+  "url": "textbook.php?egjbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Maithili)",
+  "url": "textbook.php?emtbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Odia)",
+  "url": "textbook.php?eorbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Punjabi)",
+  "url": "textbook.php?epnbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Kannada)",
+  "url": "textbook.php?eknbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Bengali)",
+  "url": "textbook.php?ebnbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Dogri)",
+  "url": "textbook.php?edgbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Tamil)",
+  "url": "textbook.php?etmbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Kashmiri)",
+  "url": "textbook.php?eksbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Nepali)",
+  "url": "textbook.php?enpbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Assamese)",
+  "url": "textbook.php?easbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Sanskrit)",
+  "url": "textbook.php?eskbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Marathi)",
+  "url": "textbook.php?emrbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Sindhi)",
+  "url": "textbook.php?esibu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Telugu)",
+  "url": "textbook.php?etlbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Manipuri)",
+  "url": "textbook.php?emnbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Malayalam)",
+  "url": "textbook.php?emlbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Bodo)",
+  "url": "textbook.php?ebdbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Santhali)",
+  "url": "textbook.php?esnbu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Arts",
+  "title": "Bansuri (Konkani)",
+  "url": "textbook.php?ekobu1=0-19"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga",
+  "url": "textbook.php?eeky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Odia)",
+  "url": "textbook.php?eorky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Punjabi)",
+  "url": "textbook.php?epnky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Kannada)",
+  "url": "textbook.php?eknky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Bengali)",
+  "url": "textbook.php?ebnky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Tamil)",
+  "url": "textbook.php?etmky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Nepali)",
+  "url": "textbook.php?enpky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Maithili)",
+  "url": "textbook.php?emtky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Manipuri)",
+  "url": "textbook.php?emnky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Telugu)",
+  "url": "textbook.php?etlky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Gujarati)",
+  "url": "textbook.php?egjky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Assamese)",
+  "url": "textbook.php?easky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Sanskrit)",
+  "url": "textbook.php?eskky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Konkani)",
+  "url": "textbook.php?ekoky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Bodo)",
+  "url": "textbook.php?ebdky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Dogri)",
+  "url": "textbook.php?edgky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Kashmiri)",
+  "url": "textbook.php?eksky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Marathi)",
+  "url": "textbook.php?emrky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Santhali)",
+  "url": "textbook.php?esnky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Sindhi)",
+  "url": "textbook.php?esiky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yoga(Malayalam)",
+  "url": "textbook.php?emlky1=0-3"
+ },
+ {
+  "class": 5,
+  "subject": "Urdu",
+  "title": "Sitaar",
+  "url": "textbook.php?eust1=0-18"
+ },
+ {
+  "class": 6,
+  "subject": "Hindi",
+  "title": "Malhar",
+  "url": "textbook.php?fhml1=0-13"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh",
+  "url": "textbook.php?fekb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Hindi)",
+  "url": "textbook.php?fhkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Bengali)",
+  "url": "textbook.php?fbnkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Bodo)",
+  "url": "textbook.php?fbdkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Dogri)",
+  "url": "textbook.php?fdgkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Konkani)",
+  "url": "textbook.php?fkokb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Odia)",
+  "url": "textbook.php?forkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Punjabi)",
+  "url": "textbook.php?fpnkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Malayalam)",
+  "url": "textbook.php?fmlkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Kannada)",
+  "url": "textbook.php?fknkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Manipuri)",
+  "url": "textbook.php?fmnkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Tamil)",
+  "url": "textbook.php?ftmkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Gujarati)",
+  "url": "textbook.php?fgjkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Maithili)",
+  "url": "textbook.php?fmtkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Assamese)",
+  "url": "textbook.php?faskb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Nepali)",
+  "url": "textbook.php?fnpkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Sanskrit)",
+  "url": "textbook.php?fskkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Kashmiri)",
+  "url": "textbook.php?fkskb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Marathi)",
+  "url": "textbook.php?fmrkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Telugu)",
+  "url": "textbook.php?ftlkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Santhali)",
+  "url": "textbook.php?fsnkb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Sindhi)",
+  "url": "textbook.php?fsikb1=0-6"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra",
+  "url": "textbook.php?feky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Hindi)",
+  "url": "textbook.php?fhky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Bengali)",
+  "url": "textbook.php?fbnky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Punjabi)",
+  "url": "textbook.php?fpnky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Assamese)",
+  "url": "textbook.php?fasky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Tamil)",
+  "url": "textbook.php?ftmky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Nepali)",
+  "url": "textbook.php?fnpky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Odia)",
+  "url": "textbook.php?forky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Dogri)",
+  "url": "textbook.php?fdgky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Telugu)",
+  "url": "textbook.php?ftlky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Konkani)",
+  "url": "textbook.php?fkoky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Kannada)",
+  "url": "textbook.php?fknky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Malayalam)",
+  "url": "textbook.php?fmlky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Bodo)",
+  "url": "textbook.php?fbdky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Kashmiri)",
+  "url": "textbook.php?fksky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Manipuri)",
+  "url": "textbook.php?fmnky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Marathi)",
+  "url": "textbook.php?fmrky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Sanskrit)",
+  "url": "textbook.php?fskky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Santhali)",
+  "url": "textbook.php?fsnky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Sindhi)",
+  "url": "textbook.php?fsiky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Maithili)",
+  "url": "textbook.php?fmtky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Gujarati)",
+  "url": "textbook.php?fgjky1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Physical Education and Well Being",
+  "title": "Jismani Taleem aur Tandurusti",
+  "url": "textbook.php?fukl1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "English",
+  "title": "Poorvi",
+  "url": "textbook.php?fepr1=0-5"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash",
+  "url": "textbook.php?fegp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Hindi)",
+  "url": "textbook.php?fhgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Odia)",
+  "url": "textbook.php?forgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Bodo)",
+  "url": "textbook.php?fbdgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Malayalam)",
+  "url": "textbook.php?fmlgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Punjabi)",
+  "url": "textbook.php?fpngp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Sanskrit)",
+  "url": "textbook.php?fskgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Kannada)",
+  "url": "textbook.php?fkngp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Tamil)",
+  "url": "textbook.php?ftmgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Marathi)",
+  "url": "textbook.php?fmrgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Bengali)",
+  "url": "textbook.php?fbngp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Telugu)",
+  "url": "textbook.php?ftlgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Maithili)",
+  "url": "textbook.php?fmtgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Dogri)",
+  "url": "textbook.php?fdggp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Nepali)",
+  "url": "textbook.php?fnpgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Urdu)",
+  "url": "textbook.php?fugp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Assamese)",
+  "url": "textbook.php?fasgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Gujarati)",
+  "url": "textbook.php?fgjgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Manipuri)",
+  "url": "textbook.php?fmngp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Konkani)",
+  "url": "textbook.php?fkogp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Santhali)",
+  "url": "textbook.php?fsngp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Sindhi)",
+  "url": "textbook.php?fsigp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash (Kashmiri)",
+  "url": "textbook.php?fksgp1=0-10"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond",
+  "url": "textbook.php?fees1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Samaj Ka Aadhyan: Bharat or uske aage",
+  "url": "textbook.php?fhes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Kannada)",
+  "url": "textbook.php?fknes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Kashmiri)",
+  "url": "textbook.php?fkses1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Odia)",
+  "url": "textbook.php?fores1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Manipuri)",
+  "url": "textbook.php?fmnes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Marathi)",
+  "url": "textbook.php?fmres1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Punjabi)",
+  "url": "textbook.php?fpnes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Dogri)",
+  "url": "textbook.php?fdges1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Gujrati)",
+  "url": "textbook.php?fgjes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Malayalam)",
+  "url": "textbook.php?fmles1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Sanskrit)",
+  "url": "textbook.php?fskes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Bengali)",
+  "url": "textbook.php?fbnes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Bodo)",
+  "url": "textbook.php?fbdes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Maithili)",
+  "url": "textbook.php?fmtes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Nepali)",
+  "url": "textbook.php?fnpes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Tamil)",
+  "url": "textbook.php?ftmes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Telugu)",
+  "url": "textbook.php?ftles1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Muashre Ki Daryaft Hindustan aur Us Se Aage (Urdu)",
+  "url": "textbook.php?fues1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Santhali)",
+  "url": "textbook.php?fsnes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Assamese)",
+  "url": "textbook.php?fases1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Konkani)",
+  "url": "textbook.php?fkoes1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond (Sindhi)",
+  "url": "textbook.php?fsies1=0-14"
+ },
+ {
+  "class": 6,
+  "subject": "Sanskrit",
+  "title": "Deepakam",
+  "url": "textbook.php?fsde1=0-16"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity",
+  "url": "textbook.php?fecu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Jigyasa",
+  "url": "textbook.php?fhcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Tajassus",
+  "url": "textbook.php?fucu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Malayalam)",
+  "url": "textbook.php?fmlcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Tamil)",
+  "url": "textbook.php?ftmcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Kannada)",
+  "url": "textbook.php?fkncu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Maithili)",
+  "url": "textbook.php?fmtcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Punjabi)",
+  "url": "textbook.php?fpncu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Bengali)",
+  "url": "textbook.php?fbncu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Odia)",
+  "url": "textbook.php?forcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Konkani)",
+  "url": "textbook.php?fkocu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Manipuri)",
+  "url": "textbook.php?fmncu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Nepali)",
+  "url": "textbook.php?fnpcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Sanskrit)",
+  "url": "textbook.php?fskcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Telugu)",
+  "url": "textbook.php?ftlcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Assamese)",
+  "url": "textbook.php?fascu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Marathi)",
+  "url": "textbook.php?fmrcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Bodo)",
+  "url": "textbook.php?fbdcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Dogri)",
+  "url": "textbook.php?fdgcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Gujarati)",
+  "url": "textbook.php?fgjcu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Santhali)",
+  "url": "textbook.php?fsncu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Kashmiri)",
+  "url": "textbook.php?fkscu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Science",
+  "title": "Curiosity (Sindhi)",
+  "url": "textbook.php?fsicu1=0-12"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I",
+  "url": "textbook.php?fekr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Hindi)",
+  "url": "textbook.php?fhkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Bengali)",
+  "url": "textbook.php?fbnkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Konkani)",
+  "url": "textbook.php?fkokr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Bodo)",
+  "url": "textbook.php?fbdkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Maithili)",
+  "url": "textbook.php?fmtkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Manipuri)",
+  "url": "textbook.php?fmnkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Assamese)",
+  "url": "textbook.php?faskr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Dogri)",
+  "url": "textbook.php?fdgkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Odia)",
+  "url": "textbook.php?forkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Tamil)",
+  "url": "textbook.php?ftmkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Gujarati)",
+  "url": "textbook.php?fgjkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Kannada)",
+  "url": "textbook.php?fknkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Malayalam)",
+  "url": "textbook.php?fmlkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Marathi)",
+  "url": "textbook.php?fmrkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Sanskrit)",
+  "url": "textbook.php?fskkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Nepali)",
+  "url": "textbook.php?fnpkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Punjabi)",
+  "url": "textbook.php?fpnkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Telugu)",
+  "url": "textbook.php?ftlkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Kashmiri)",
+  "url": "textbook.php?fkskr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Sindhi)",
+  "url": "textbook.php?fsikr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Arts",
+  "title": "Kriti-I (Santhali)",
+  "url": "textbook.php?fsnkr1=0-22"
+ },
+ {
+  "class": 6,
+  "subject": "Urdu",
+  "title": "Khayal",
+  "url": "textbook.php?fuky1=0-14"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash",
+  "url": "textbook.php?gegp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II",
+  "url": "textbook.php?gegp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Hindi)",
+  "url": "textbook.php?ghgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Urdu)",
+  "url": "textbook.php?gugp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Hindi)",
+  "url": "textbook.php?ghgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Bengali)",
+  "url": "textbook.php?gbngp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Gujarati)",
+  "url": "textbook.php?ggjgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Punjabi)",
+  "url": "textbook.php?gpngp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Nepali)",
+  "url": "textbook.php?gnpgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Dogri)",
+  "url": "textbook.php?gdggp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Tamil)",
+  "url": "textbook.php?gtmgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Telugu)",
+  "url": "textbook.php?gtlgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Marathi)",
+  "url": "textbook.php?gmrgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Kannada)",
+  "url": "textbook.php?gkngp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Bodo)",
+  "url": "textbook.php?gbdgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Odia)",
+  "url": "textbook.php?gorgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Assamese)",
+  "url": "textbook.php?gasgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Konkani)",
+  "url": "textbook.php?gkogp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Manipuri)",
+  "url": "textbook.php?gmngp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Sanskrit)",
+  "url": "textbook.php?gskgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Sindhi)",
+  "url": "textbook.php?gsigp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Kashmiri)",
+  "url": "textbook.php?gksgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Maithili)",
+  "url": "textbook.php?gmtgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash(Malayalam)",
+  "url": "textbook.php?gmlgp1=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Gujarati)",
+  "url": "textbook.php?ggjgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Kannada)",
+  "url": "textbook.php?gkngp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Marathi)",
+  "url": "textbook.php?gmrgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Odia)",
+  "url": "textbook.php?gorgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Punjabi)",
+  "url": "textbook.php?gpngp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Assamese)",
+  "url": "textbook.php?gasgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Bengali)",
+  "url": "textbook.php?gbngp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Tamil)",
+  "url": "textbook.php?gtmgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Malayalam)",
+  "url": "textbook.php?gmlgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Telugu)",
+  "url": "textbook.php?gtlgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Dogri)",
+  "url": "textbook.php?gdggp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Bodo)",
+  "url": "textbook.php?gbdgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Nepali)",
+  "url": "textbook.php?gnpgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Sindhi)",
+  "url": "textbook.php?gsigp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Manipuri)",
+  "url": "textbook.php?gmngp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Maithili)",
+  "url": "textbook.php?gmtgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Konkani)",
+  "url": "textbook.php?gkogp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Sanskrit)",
+  "url": "textbook.php?gskgp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash-II (Santhali)",
+  "url": "textbook.php?gsngp2=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti",
+  "url": "textbook.php?gekr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Hindi)",
+  "url": "textbook.php?ghkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Bengali)",
+  "url": "textbook.php?gbnkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Punjabi)",
+  "url": "textbook.php?gpnkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Sanskrit)",
+  "url": "textbook.php?gskkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Kannada)",
+  "url": "textbook.php?gknkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Odia)",
+  "url": "textbook.php?gorkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Marathi)",
+  "url": "textbook.php?gmrkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Dogri)",
+  "url": "textbook.php?gdgkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Bodo)",
+  "url": "textbook.php?gbdkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Gujarati)",
+  "url": "textbook.php?ggjkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Konkani)",
+  "url": "textbook.php?gkokr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Assamese)",
+  "url": "textbook.php?gaskr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Maithili)",
+  "url": "textbook.php?gmtkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Santhali)",
+  "url": "textbook.php?gsnkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Tamil)",
+  "url": "textbook.php?gtmkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Nepali)",
+  "url": "textbook.php?gnpkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Sindhi)",
+  "url": "textbook.php?gsikr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Telugu)",
+  "url": "textbook.php?gsikr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Manipuri)",
+  "url": "textbook.php?gmnkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Malayalam)",
+  "url": "textbook.php?gmlkr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Arts",
+  "title": "Kriti-I (Kashmiri)",
+  "url": "textbook.php?gkskr1=0-20"
+ },
+ {
+  "class": 7,
+  "subject": "Hindi",
+  "title": "Malhar",
+  "url": "textbook.php?ghml1=0-10"
+ },
+ {
+  "class": 7,
+  "subject": "Sanskrit",
+  "title": "Deepakam",
+  "url": "textbook.php?gsde1=0-15"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity",
+  "url": "textbook.php?gecu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Jigyasa",
+  "url": "textbook.php?ghcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Tajassus",
+  "url": "textbook.php?gucu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Marathi)",
+  "url": "textbook.php?gmrcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Odia)",
+  "url": "textbook.php?gorcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Bengali)",
+  "url": "textbook.php?gbncu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Punjabi)",
+  "url": "textbook.php?gpncu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Assamese)",
+  "url": "textbook.php?gascu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Tamil)",
+  "url": "textbook.php?gtmcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Nepali)",
+  "url": "textbook.php?gnpcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Manipuri)",
+  "url": "textbook.php?gmncu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Telugu)",
+  "url": "textbook.php?gtlcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Bodo)",
+  "url": "textbook.php?gbdcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Santhali)",
+  "url": "textbook.php?gsncu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Kannada)",
+  "url": "textbook.php?gkncu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Dogri)",
+  "url": "textbook.php?gdgcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Konkani)",
+  "url": "textbook.php?gkocu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Kashmiri)",
+  "url": "textbook.php?gkscu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Malayalam)",
+  "url": "textbook.php?gmlcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Maithili)",
+  "url": "textbook.php?gmtcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Sanskrit)",
+  "url": "textbook.php?gskcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Sindhi)",
+  "url": "textbook.php?gsicu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Science",
+  "title": "Curiosity (Gujarati)",
+  "url": "textbook.php?ggjcu1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "English",
+  "title": "Poorvi",
+  "url": "textbook.php?gepr1=0-5"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I",
+  "url": "textbook.php?gees1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Samaj Ka Aadhyan: Bharat or uske aage Part-I",
+  "url": "textbook.php?ghes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II",
+  "url": "textbook.php?gees2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Samaj Ka Aadhyan: Bharat or uske aage Part-II",
+  "url": "textbook.php?ghes2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Muashrey ki Daryaft - Hindustan aur Uske age Part-I",
+  "url": "textbook.php?gues1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Muashrey ki Daryaft - Hindustan aur Uske age Part-II",
+  "url": "textbook.php?gues2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Odia)",
+  "url": "textbook.php?gores1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Marathi)",
+  "url": "textbook.php?gmres1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Punjabi)",
+  "url": "textbook.php?gpnes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Konkani)",
+  "url": "textbook.php?gkoes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Malayalam)",
+  "url": "textbook.php?gmles1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Kannada)",
+  "url": "textbook.php?gknes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Dogri)",
+  "url": "textbook.php?gdges1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Manipuri)",
+  "url": "textbook.php?gmnes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Nepali)",
+  "url": "textbook.php?gnpes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Sanskrit)",
+  "url": "textbook.php?gskes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Maithili)",
+  "url": "textbook.php?gmtes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Assamese)",
+  "url": "textbook.php?gases1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Bengali)",
+  "url": "textbook.php?gbnes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Bodo)",
+  "url": "textbook.php?gbdes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Gujarati)",
+  "url": "textbook.php?ggjes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Tamil)",
+  "url": "textbook.php?gtmes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Santhali)",
+  "url": "textbook.php?gsnes1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Sindhi)",
+  "url": "textbook.php?gsies1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Telugu)",
+  "url": "textbook.php?gtles1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Kashmiri)",
+  "url": "textbook.php?gkses1=0-12"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Gujarati)",
+  "url": "textbook.php?ggjes2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Kannada)",
+  "url": "textbook.php?gknes2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Odia)",
+  "url": "textbook.php?gores2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Punjabi)",
+  "url": "textbook.php?gpnes2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Bengali)",
+  "url": "textbook.php?gbnes2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Tamil)",
+  "url": "textbook.php?gtmes2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Malayalam)",
+  "url": "textbook.php?gmles2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Assamese)",
+  "url": "textbook.php?gases2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Marathi)",
+  "url": "textbook.php?gmres2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II (Telugu)",
+  "url": "textbook.php?gmres2=0-8"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra",
+  "url": "textbook.php?geky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Urdu)",
+  "url": "textbook.php?gukl1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Hindi)",
+  "url": "textbook.php?ghky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Punjabi)",
+  "url": "textbook.php?gpnky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Dogri)",
+  "url": "textbook.php?gdgky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Santhali)",
+  "url": "textbook.php?gsnky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Malayalam)",
+  "url": "textbook.php?gmlky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Gujarati)",
+  "url": "textbook.php?ggjky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Odia)",
+  "url": "textbook.php?gorky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Bengali)",
+  "url": "textbook.php?gbnky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Marathi)",
+  "url": "textbook.php?gmrky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Konkani)",
+  "url": "textbook.php?gkoky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Bodo)",
+  "url": "textbook.php?gbdky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Sanskrit)",
+  "url": "textbook.php?gskky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Kannada)",
+  "url": "textbook.php?gknky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Tamil)",
+  "url": "textbook.php?gtmky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Telugu)",
+  "url": "textbook.php?gtlky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Manipuri)",
+  "url": "textbook.php?gmnky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Nepali)",
+  "url": "textbook.php?gnpky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Assamese)",
+  "url": "textbook.php?gasky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Kashmiri)",
+  "url": "textbook.php?gksky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Maithili)",
+  "url": "textbook.php?gmtky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Sindhi)",
+  "url": "textbook.php?gsiky1=0-6"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh",
+  "url": "textbook.php?gekb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Hindi)",
+  "url": "textbook.php?ghkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Telugu)",
+  "url": "textbook.php?gtlkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Odia)",
+  "url": "textbook.php?gorkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Punjabi)",
+  "url": "textbook.php?gpnkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Gujarati)",
+  "url": "textbook.php?ggjkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Tamil)",
+  "url": "textbook.php?gtmkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Dogri)",
+  "url": "textbook.php?gdgkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Kannada)",
+  "url": "textbook.php?gknkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Nepali)",
+  "url": "textbook.php?gnpkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Sanskrit)",
+  "url": "textbook.php?gskkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Malayalam)",
+  "url": "textbook.php?gmlkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Konkani)",
+  "url": "textbook.php?gkokb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Bengali)",
+  "url": "textbook.php?gbnkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Bodo)",
+  "url": "textbook.php?gbdkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Kashmiri)",
+  "url": "textbook.php?gkskb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Maithili)",
+  "url": "textbook.php?gmtkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Marathi)",
+  "url": "textbook.php?gmrkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Santhali)",
+  "url": "textbook.php?gsnkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Assamese)",
+  "url": "textbook.php?gaskb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Manipuri)",
+  "url": "textbook.php?gmnkb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Sindhi)",
+  "url": "textbook.php?gsikb1=0-7"
+ },
+ {
+  "class": 7,
+  "subject": "Urdu",
+  "title": "Khayal",
+  "url": "textbook.php?guky1=0-14"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I",
+  "url": "textbook.php?hegp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II",
+  "url": "textbook.php?hegp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Hindi)",
+  "url": "textbook.php?hhgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II (Hindi)",
+  "url": "textbook.php?hhgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Urdu)",
+  "url": "textbook.php?hugp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Punjabi)",
+  "url": "textbook.php?hpngp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Maithili)",
+  "url": "textbook.php?hmtgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Marathi)",
+  "url": "textbook.php?hmrgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Bengali)",
+  "url": "textbook.php?hbngp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Bodo)",
+  "url": "textbook.php?hbdgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Nepali)",
+  "url": "textbook.php?hnpgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Odia)",
+  "url": "textbook.php?horgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Kannada)",
+  "url": "textbook.php?hkngp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Telugu)",
+  "url": "textbook.php?htlgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Dogri)",
+  "url": "textbook.php?hdggp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Konkani)",
+  "url": "textbook.php?hkogp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Tamil)",
+  "url": "textbook.php?htmgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Kashmiri)",
+  "url": "textbook.php?hksgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Manipuri)",
+  "url": "textbook.php?hmngp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Sanskrit)",
+  "url": "textbook.php?hskgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Santhali)",
+  "url": "textbook.php?hsngp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Malayalam)",
+  "url": "textbook.php?hmlgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Sindhi)",
+  "url": "textbook.php?hsigp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Assamese)",
+  "url": "textbook.php?hasgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-I (Gujarati)",
+  "url": "textbook.php?hgjgp1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Kannada)",
+  "url": "textbook.php?hkngp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Odia)",
+  "url": "textbook.php?horgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Punjabi)",
+  "url": "textbook.php?hpngp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Gujarati)",
+  "url": "textbook.php?hgjgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Tamil)",
+  "url": "textbook.php?htmgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Malayalam)",
+  "url": "textbook.php?hmlgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Assamese)",
+  "url": "textbook.php?hasgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Marathi)",
+  "url": "textbook.php?hmrgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Telugu)",
+  "url": "textbook.php?htlgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Bengali)",
+  "url": "textbook.php?hbngp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Santhali)",
+  "url": "textbook.php?hsngp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Sindhi)",
+  "url": "textbook.php?hsigp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Manipuri)",
+  "url": "textbook.php?hmngp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Bodo)",
+  "url": "textbook.php?hbdgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Dogri)",
+  "url": "textbook.php?hdggp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Sanskrit)",
+  "url": "textbook.php?hskgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Mathematics",
+  "title": "Ganita Prakash Part-II(Nepali)",
+  "url": "textbook.php?hnpgp2=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti",
+  "url": "textbook.php?hekr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Hindi)",
+  "url": "textbook.php?hhkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Urdu)",
+  "url": "textbook.php?hukr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Marathi)",
+  "url": "textbook.php?hmrkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Tamil)",
+  "url": "textbook.php?htmkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Punjabi)",
+  "url": "textbook.php?hpnkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Nepali)",
+  "url": "textbook.php?hnpkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Odia)",
+  "url": "textbook.php?horkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Dogri)",
+  "url": "textbook.php?hdgkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Kannada)",
+  "url": "textbook.php?hknkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Malayalam)",
+  "url": "textbook.php?hmlkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Bodo)",
+  "url": "textbook.php?hbdkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Bengali)",
+  "url": "textbook.php?hbnkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Telugu)",
+  "url": "textbook.php?htlkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Assamese)",
+  "url": "textbook.php?haskr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Kashmiri)",
+  "url": "textbook.php?hkskr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Sanskrit)",
+  "url": "textbook.php?hskkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Gujarati)",
+  "url": "textbook.php?hgjkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Konkani)",
+  "url": "textbook.php?hkokr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Santhali)",
+  "url": "textbook.php?hsnkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Maithili)",
+  "url": "textbook.php?hmtkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Manipuri)",
+  "url": "textbook.php?hmnkr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Arts",
+  "title": "Kriti (Sindhi)",
+  "url": "textbook.php?hsikr1=0-19"
+ },
+ {
+  "class": 8,
+  "subject": "Hindi",
+  "title": "Malhar",
+  "url": "textbook.php?hhml1=0-10"
+ },
+ {
+  "class": 8,
+  "subject": "Sanskrit",
+  "title": "Deepakam",
+  "url": "textbook.php?hsde1=0-16"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity",
+  "url": "textbook.php?hecu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Jigyasa",
+  "url": "textbook.php?hhcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Tajassus",
+  "url": "textbook.php?hucu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Punjabi)",
+  "url": "textbook.php?hpncu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Tamil)",
+  "url": "textbook.php?htmcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Odia)",
+  "url": "textbook.php?horcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Assamese)",
+  "url": "textbook.php?hascu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Marathi)",
+  "url": "textbook.php?hmrcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Bengali)",
+  "url": "textbook.php?hbncu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Dogri)",
+  "url": "textbook.php?hdgcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Telugu)",
+  "url": "textbook.php?htlcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Bodo)",
+  "url": "textbook.php?hbdcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Gujarati)",
+  "url": "textbook.php?hgjcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Manipuri)",
+  "url": "textbook.php?hmncu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Sanskrit)",
+  "url": "textbook.php?hskcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Malayalam)",
+  "url": "textbook.php?hmlcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Kannada)",
+  "url": "textbook.php?hkncu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Konkani)",
+  "url": "textbook.php?hkocu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Maithili)",
+  "url": "textbook.php?hmtcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Nepali)",
+  "url": "textbook.php?hnpcu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Santhali)",
+  "url": "textbook.php?hsncu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Sindhi)",
+  "url": "textbook.php?hsicu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "Science",
+  "title": "Curiosity (Kashmiri)",
+  "url": "textbook.php?hkscu1=0-13"
+ },
+ {
+  "class": 8,
+  "subject": "English",
+  "title": "Poorvi",
+  "url": "textbook.php?hepr1=0-5"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I",
+  "url": "textbook.php?hees1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Samaj Ka Aadhyan: Bharat or uske aage Part-I",
+  "url": "textbook.php?hhes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Muashrey ki Daryaft - Hindustan Aur Uske Age Part-I ",
+  "url": "textbook.php?hues1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-II",
+  "url": "textbook.php?hees2=0-8"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Odia) ",
+  "url": "textbook.php?hores1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Sanskrit) ",
+  "url": "textbook.php?hskes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Malayalam) ",
+  "url": "textbook.php?hmles1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Punjabi) ",
+  "url": "textbook.php?hpnes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Gujarati) ",
+  "url": "textbook.php?hgjes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Bengali) ",
+  "url": "textbook.php?hbnes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Tamil) ",
+  "url": "textbook.php?htmes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Nepali) ",
+  "url": "textbook.php?hnpes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Manipuri) ",
+  "url": "textbook.php?hmnes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Kannada) ",
+  "url": "textbook.php?hknes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Marathi) ",
+  "url": "textbook.php?hmres1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Dogri) ",
+  "url": "textbook.php?hdges1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Assamese) ",
+  "url": "textbook.php?hases1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Konkani) ",
+  "url": "textbook.php?hkoes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Maithili) ",
+  "url": "textbook.php?hmtes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Bodo) ",
+  "url": "textbook.php?hbdes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Kashmiri) ",
+  "url": "textbook.php?hkses1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Santhali) ",
+  "url": "textbook.php?hsnes1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Telugu) ",
+  "url": "textbook.php?htles1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Social Science",
+  "title": "Exploring Society India and Beyond Part-I (Sindhi) ",
+  "url": "textbook.php?hsies1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra",
+  "url": "textbook.php?heky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra ( Hindi)",
+  "url": "textbook.php?hhky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Urdu)",
+  "url": "textbook.php?huky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Punjabi)",
+  "url": "textbook.php?hpnky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Marathi)",
+  "url": "textbook.php?hmrky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Odia)",
+  "url": "textbook.php?horky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Malayalam)",
+  "url": "textbook.php?hmlky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Gujarati)",
+  "url": "textbook.php?hgjky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Sanskrit)",
+  "url": "textbook.php?hskky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Nepali)",
+  "url": "textbook.php?hnpky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Tamil)",
+  "url": "textbook.php?htmky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Bengali)",
+  "url": "textbook.php?hbnky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Dogri)",
+  "url": "textbook.php?hdgky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Bodo)",
+  "url": "textbook.php?hbdky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Kannada)",
+  "url": "textbook.php?hknky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Telugu)",
+  "url": "textbook.php?htlky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Manipuri)",
+  "url": "textbook.php?hmnky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Maithili)",
+  "url": "textbook.php?hmtky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Assamese)",
+  "url": "textbook.php?hasky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Kashmiri)",
+  "url": "textbook.php?hksky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Konkani)",
+  "url": "textbook.php?hkoky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Sindhi)",
+  "url": "textbook.php?hsiky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Yatra (Santhali)",
+  "url": "textbook.php?hsnky1=0-6"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh",
+  "url": "textbook.php?hekb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh (Hindi)",
+  "url": "textbook.php?hhkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Gujarati)",
+  "url": "textbook.php?hgjkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Bodo)",
+  "url": "textbook.php?hbdkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Odia)",
+  "url": "textbook.php?horkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Telugu)",
+  "url": "textbook.php?htlkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Sanskrit)",
+  "url": "textbook.php?hskkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Punjabi)",
+  "url": "textbook.php?hpnkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Nepali)",
+  "url": "textbook.php?hnpkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Marathi)",
+  "url": "textbook.php?hmrkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Kannada)",
+  "url": "textbook.php?hknkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Tamil)",
+  "url": "textbook.php?htmkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Dogri)",
+  "url": "textbook.php?hdgkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Konkani)",
+  "url": "textbook.php?hkokb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Maithili)",
+  "url": "textbook.php?hmtkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Malayalam)",
+  "url": "textbook.php?hmlkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Manipuri)",
+  "url": "textbook.php?hmnkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Santhali)",
+  "url": "textbook.php?hsnkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Bengali)",
+  "url": "textbook.php?hbnkb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Assamese)",
+  "url": "textbook.php?haskb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Sindhi)",
+  "url": "textbook.php?hsikb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Vocational Education",
+  "title": "Kaushal Bodh(Kashmiri)",
+  "url": "textbook.php?hkskb1=0-7"
+ },
+ {
+  "class": 8,
+  "subject": "Urdu",
+  "title": "Khayal",
+  "url": "textbook.php?hukl1=0-21"
+ },
+ {
+  "class": 9,
+  "subject": "English",
+  "title": "Kaveri",
+  "url": "textbook.php?iebe1=0-8"
+ },
+ {
+  "class": 9,
+  "subject": "Hindi",
+  "title": "Ganga",
+  "url": "textbook.php?ihga1=0-12"
+ },
+ {
+  "class": 9,
+  "subject": "Sanskrit",
+  "title": "Sharada",
+  "url": "textbook.php?ihsh1=0-16"
+ },
+ {
+  "class": 9,
+  "subject": "Sanskrit",
+  "title": "Risikulya(R2)",
+  "url": "textbook.php?isanskritr21=0-10"
+ },
+ {
+  "class": 9,
+  "subject": "Mathematics",
+  "title": "Ganita Manjari",
+  "url": "textbook.php?iemh1=0-8"
+ },
+ {
+  "class": 9,
+  "subject": "Mathematics",
+  "title": "Ganita Manjari PART-II",
+  "url": "textbook.php?iemh2=0-6"
+ },
+ {
+  "class": 9,
+  "subject": "Mathematics",
+  "title": "Ganita Manjari (Hindi)",
+  "url": "textbook.php?ihmh1=0-8"
+ },
+ {
+  "class": 9,
+  "subject": "Mathematics",
+  "title": "Ganit Manjari (Urdu)",
+  "url": "textbook.php?iumh1=0-8"
+ },
+ {
+  "class": 9,
+  "subject": "Science",
+  "title": "Exploration",
+  "url": "textbook.php?iesc1=0-13"
+ },
+ {
+  "class": 9,
+  "subject": "Science",
+  "title": "Anveshan",
+  "url": "textbook.php?ihsc1=0-13"
+ },
+ {
+  "class": 9,
+  "subject": "Urdu",
+  "title": "Jamuna",
+  "url": "textbook.php?iuju1=0-15"
+ },
+ {
+  "class": 9,
+  "subject": "Social Science",
+  "title": "Understanding Society India and Beyond PART-I",
+  "url": "textbook.php?iest1=0-9"
+ },
+ {
+  "class": 9,
+  "subject": "Social Science",
+  "title": "Understanding Society India and Beyond PART-II",
+  "url": "textbook.php?iest2=0-6"
+ },
+ {
+  "class": 9,
+  "subject": "Environmental Education",
+  "title": "Project Books",
+  "url": "textbook.php?iepb1=pp-0"
+ },
+ {
+  "class": 9,
+  "subject": "Physical Education and Well Being",
+  "title": "Khel Praveen",
+  "url": "textbook.php?iehp1=0-6"
+ },
+ {
+  "class": 9,
+  "subject": "Skill Education",
+  "title": "Kaushal Vikas",
+  "url": "textbook.php?iekv1=0-12"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "Cashier",
+  "url": "textbook.php?ievc1=0-5"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "Store Operations Assistant",
+  "url": "textbook.php?ieva1=0-4"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "Solanceous Crop Cultivator",
+  "url": "textbook.php?ievs1=0-5"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "Assistant Beauty Therapist",
+  "url": "textbook.php?ievt1=0-3"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "Animal Health Workers (Agriculture)",
+  "url": "textbook.php?ievw1=0-4"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "Hand Embroiderer (Addawala)",
+  "url": "textbook.php?ieve1=0-5"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "Hand Embroiderer",
+  "url": "textbook.php?ievh1=0-5"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "Plumber General",
+  "url": "textbook.php?iepg1=0-5"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "IT Domestic Data Entry Operator",
+  "url": "textbook.php?ieeo1=0-5"
+ },
+ {
+  "class": 9,
+  "subject": "Vocational",
+  "title": "Employability Skill",
+  "url": "textbook.php?iees1=0-5"
+ },
+ {
+  "class": 9,
+  "subject": "Arts",
+  "title": "Madhurima",
+  "url": "textbook.php?iemr1=0-17"
+ },
+ {
+  "class": 10,
+  "subject": "Mathematics",
+  "title": "Mathematics",
+  "url": "textbook.php?jemh1=0-14"
+ },
+ {
+  "class": 10,
+  "subject": "Mathematics",
+  "title": "Ganit",
+  "url": "textbook.php?jhmh1=0-14"
+ },
+ {
+  "class": 10,
+  "subject": "Mathematics",
+  "title": "Riyazi",
+  "url": "textbook.php?jumh1=0-15"
+ },
+ {
+  "class": 10,
+  "subject": "Science",
+  "title": "Science",
+  "url": "textbook.php?jesc1=0-13"
+ },
+ {
+  "class": 10,
+  "subject": "Science",
+  "title": "Vigyan",
+  "url": "textbook.php?jhsc1=0-13"
+ },
+ {
+  "class": 10,
+  "subject": "Science",
+  "title": "Science(Urdu)",
+  "url": "textbook.php?jusc1=0-16"
+ },
+ {
+  "class": 10,
+  "subject": "Hindi",
+  "title": "Kshitij-2",
+  "url": "textbook.php?jhks1=0-12"
+ },
+ {
+  "class": 10,
+  "subject": "Hindi",
+  "title": "Sparsh",
+  "url": "textbook.php?jhsp1=0-14"
+ },
+ {
+  "class": 10,
+  "subject": "Hindi",
+  "title": "Sanchayan Bhag-2",
+  "url": "textbook.php?jhsy1=0-3"
+ },
+ {
+  "class": 10,
+  "subject": "Hindi",
+  "title": "Kritika",
+  "url": "textbook.php?jhkr1=0-3"
+ },
+ {
+  "class": 10,
+  "subject": "English",
+  "title": "First Flight",
+  "url": "textbook.php?jeff1=0-9"
+ },
+ {
+  "class": 10,
+  "subject": "English",
+  "title": "Foot Prints Without feet Supp. Reader",
+  "url": "textbook.php?jefp1=0-9"
+ },
+ {
+  "class": 10,
+  "subject": "English",
+  "title": "Words and Expressions  2",
+  "url": "textbook.php?jewe2=0-9"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Contemporary India ",
+  "url": "textbook.php?jess1=0-7"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Samkalin Bharat",
+  "url": "textbook.php?jhss1=0-7"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Aasri Hindustan-II",
+  "url": "textbook.php?juss1=0-7"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Understanding Economic Development",
+  "url": "textbook.php?jess2=0-5"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Arthik Vikas ki Samajh",
+  "url": "textbook.php?jhss2=0-5"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Maashi Taraqqui Ki Samajh",
+  "url": "textbook.php?juss2=0-5"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "India and the Contemporary World-II ",
+  "url": "textbook.php?jess3=0-5"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Bharat Aur Samakalin Vishav-2",
+  "url": "textbook.php?jhss3=0-5"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Hindustan Aur Asri Duniya",
+  "url": "textbook.php?juss3=0-5"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Democratic Politics",
+  "url": "textbook.php?jess4=0-5"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Loktantrik Rajniti",
+  "url": "textbook.php?jhss4=0-5"
+ },
+ {
+  "class": 10,
+  "subject": "Social Science",
+  "title": "Jamhuri Siyasat-II ",
+  "url": "textbook.php?juss4=0-8"
+ },
+ {
+  "class": 10,
+  "subject": "Sanskrit",
+  "title": "Shemushi",
+  "url": "textbook.php?jhsk1=0-10"
+ },
+ {
+  "class": 10,
+  "subject": "Sanskrit",
+  "title": "Vyakaranavithi",
+  "url": "textbook.php?jhva1=0-12"
+ },
+ {
+  "class": 10,
+  "subject": "Sanskrit",
+  "title": "Abhyaswaan Bhav-II",
+  "url": "textbook.php?jsab1=0-14"
+ },
+ {
+  "class": 10,
+  "subject": "Urdu",
+  "title": "Gulzar-e-Urdu",
+  "url": "textbook.php?juge1=0-12"
+ },
+ {
+  "class": 10,
+  "subject": "Urdu",
+  "title": "Nawa-e-Urdu",
+  "url": "textbook.php?june1=0-14"
+ },
+ {
+  "class": 10,
+  "subject": "Urdu",
+  "title": "Jaan Pahechan",
+  "url": "textbook.php?jujp1=0-22"
+ },
+ {
+  "class": 10,
+  "subject": "Urdu",
+  "title": "Door-Paas",
+  "url": "textbook.php?judp1=0-19"
+ },
+ {
+  "class": 10,
+  "subject": "Urdu",
+  "title": "Sab Rang",
+  "url": "textbook.php?jusr1=0-9"
+ },
+ {
+  "class": 10,
+  "subject": "Environmental Education",
+  "title": "Project Books",
+  "url": ""
+ },
+ {
+  "class": 10,
+  "subject": "Health and Physical Education",
+  "title": "Health and Physical Education",
+  "url": "textbook.php?jehp1=0-13"
+ },
+ {
+  "class": 11,
+  "subject": "Sanskrit",
+  "title": "Bhaswati",
+  "url": "textbook.php?khsk1=0-11"
+ },
+ {
+  "class": 11,
+  "subject": "Sanskrit",
+  "title": "Shashwati",
+  "url": "textbook.php?khsk2=0-11"
+ },
+ {
+  "class": 11,
+  "subject": "Accountancy",
+  "title": "Financial Accounting-I",
+  "url": "textbook.php?keac1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Accountancy",
+  "title": "Lekhashastra-I",
+  "url": "textbook.php?khac1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Accountancy",
+  "title": "Accountancy-II",
+  "url": "textbook.php?keac2=0-2"
+ },
+ {
+  "class": 11,
+  "subject": "Accountancy",
+  "title": "Lekhashastra-II",
+  "url": "textbook.php?khac2=0-2"
+ },
+ {
+  "class": 11,
+  "subject": "Accountancy",
+  "title": "Khatadari-I(Urdu)",
+  "url": "textbook.php?kuac1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Accountancy",
+  "title": "Khatadari-II(Urdu)",
+  "url": "textbook.php?kuac2=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Business Studies",
+  "title": "Business Studies",
+  "url": "textbook.php?kebs1=0-11"
+ },
+ {
+  "class": 11,
+  "subject": "Business Studies",
+  "title": "Vyavsay Adhyanan",
+  "url": "textbook.php?khbs1=0-11"
+ },
+ {
+  "class": 11,
+  "subject": "Business Studies",
+  "title": "Karobari Mutalah I",
+  "url": "textbook.php?kubs1=0-11"
+ },
+ {
+  "class": 11,
+  "subject": "Chemistry",
+  "title": "Chemistry Part-I",
+  "url": "textbook.php?kech1=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Chemistry",
+  "title": "Rasayan Vigyan bhag-I",
+  "url": "textbook.php?khch1=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Chemistry",
+  "title": "Keemiya I",
+  "url": "textbook.php?kuch1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Chemistry",
+  "title": "Chemistry Part II",
+  "url": "textbook.php?kech2=0-3"
+ },
+ {
+  "class": 11,
+  "subject": "Chemistry",
+  "title": "Rasayan Vigyan bhag-II",
+  "url": "textbook.php?khch2=0-3"
+ },
+ {
+  "class": 11,
+  "subject": "Chemistry",
+  "title": "Keemiya II",
+  "url": "textbook.php?kuch2=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Mathematics",
+  "title": "Mathematics",
+  "url": "textbook.php?kemh1=0-14"
+ },
+ {
+  "class": 11,
+  "subject": "Mathematics",
+  "title": "Ganit",
+  "url": "textbook.php?khmh1=0-14"
+ },
+ {
+  "class": 11,
+  "subject": "Mathematics",
+  "title": "Riyazi I",
+  "url": "textbook.php?kumh1=0-16"
+ },
+ {
+  "class": 11,
+  "subject": "Vocational",
+  "title": "Floriculturist- Protected Cultivation",
+  "url": "textbook.php?kepc1=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Vocational",
+  "title": "Vision Technician",
+  "url": "textbook.php?kevt1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Vocational",
+  "title": "Floriculturist",
+  "url": "textbook.php?keoc1=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Vocational",
+  "title": "General Duty Assistant",
+  "url": "textbook.php?keda1=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Vocational",
+  "title": "Dairy Farmer Enterpreneur",
+  "url": "textbook.php?kedf1=0-4"
+ },
+ {
+  "class": 11,
+  "subject": "Vocational",
+  "title": "Floriculturist",
+  "url": "textbook.php?kefc1=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Biology",
+  "title": "Biology",
+  "url": "textbook.php?kebo1=0-19"
+ },
+ {
+  "class": 11,
+  "subject": "Biology",
+  "title": "Jeev Vigyan",
+  "url": "textbook.php?khbo1=0-19"
+ },
+ {
+  "class": 11,
+  "subject": "Biology",
+  "title": "Hayatiyaat",
+  "url": "textbook.php?kubo1=0-22"
+ },
+ {
+  "class": 11,
+  "subject": "Home Science",
+  "title": "Human Ecology and Family Sciences Part I ",
+  "url": "textbook.php?kehe1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Home Science",
+  "title": "Human Ecology and Family Sciences Part II ",
+  "url": "textbook.php?kehe2=0-4"
+ },
+ {
+  "class": 11,
+  "subject": "Home Science",
+  "title": "Manav Paristhitiki evm pariwar vigyan Bhag-I ",
+  "url": "textbook.php?khhe1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Home Science",
+  "title": "Manav Paristhitiki evm pariwar vigyan Bhag-II ",
+  "url": "textbook.php?khhe2=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Home Science",
+  "title": "Insani Mahauliyat aur Uloom e Khandandari-I ",
+  "url": "textbook.php?kuim1=0-10"
+ },
+ {
+  "class": 11,
+  "subject": "Home Science",
+  "title": "Insani Mahauliyat aur Uloom e Khandandari Part-II ",
+  "url": "textbook.php?kuim2=0-9"
+ },
+ {
+  "class": 11,
+  "subject": "Psychology",
+  "title": "Introduction to Psychology",
+  "url": "textbook.php?kepy1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Psychology",
+  "title": "Manovigyan",
+  "url": "textbook.php?khpy1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Psychology",
+  "title": "Nafsiyaat ",
+  "url": "textbook.php?kupy1=0-9"
+ },
+ {
+  "class": 11,
+  "subject": "Economics",
+  "title": "Indian Economic Development",
+  "url": "textbook.php?keec1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Economics",
+  "title": "Statistics for Economics",
+  "url": "textbook.php?kest1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Economics",
+  "title": "Sankhyiki",
+  "url": "textbook.php?khst1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Economics",
+  "title": "Bhartiya Airthryavstha Ka Vikas ",
+  "url": "textbook.php?khec1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Economics",
+  "title": "Hindustan Ki Moaashi Tarraqqi(Urdu)",
+  "url": "textbook.php?kuec1=0-10"
+ },
+ {
+  "class": 11,
+  "subject": "Economics",
+  "title": "Shumariyaat Bar-e-Mushiyat(Urdu)",
+  "url": "textbook.php?kusc1=0-9"
+ },
+ {
+  "class": 11,
+  "subject": "Geography",
+  "title": "Fundamental of Physical Geography",
+  "url": "textbook.php?kegy2=0-14"
+ },
+ {
+  "class": 11,
+  "subject": "Geography",
+  "title": "Bhautique Bhugol ke Mool Sidhant",
+  "url": "textbook.php?khgy2=0-14"
+ },
+ {
+  "class": 11,
+  "subject": "Geography",
+  "title": "Hindustan Tabi'i Mahaul (Urdu)",
+  "url": "textbook.php?kugy1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Geography",
+  "title": "Pratical Work in Geography",
+  "url": "textbook.php?kegy3=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Geography",
+  "title": "Bhugol Main Prayogatmak Karya",
+  "url": "textbook.php?khgy3=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Geography",
+  "title": "India Physical Environment",
+  "url": "textbook.php?kegy1=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Geography",
+  "title": "Bhart Bhautik Paryabaran",
+  "url": "textbook.php?khgy1=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Geography",
+  "title": "Jughrafia Mein Aamli Kam (Urdu)",
+  "url": "textbook.php?kugy3=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Geography",
+  "title": "Tabi'i Jughraiya Ka Mubadiyat (Urdu)",
+  "url": "textbook.php?kugm1=0-16"
+ },
+ {
+  "class": 11,
+  "subject": "Physics",
+  "title": "Physics Part-I",
+  "url": "textbook.php?keph1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Physics",
+  "title": "Bhautiki-I",
+  "url": "textbook.php?khph1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Physics",
+  "title": "Tabiyaat-I",
+  "url": "textbook.php?kuph1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Physics",
+  "title": "Physics Part-II",
+  "url": "textbook.php?keph2=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Physics",
+  "title": "Bhautiki-II",
+  "url": "textbook.php?khph2=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Physics",
+  "title": "Tabiyaat-II",
+  "url": "textbook.php?kuph2=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "Hindi",
+  "title": "Antra",
+  "url": "textbook.php?khat1=0-16"
+ },
+ {
+  "class": 11,
+  "subject": "Hindi",
+  "title": "Aroh",
+  "url": "textbook.php?khar1=0-16"
+ },
+ {
+  "class": 11,
+  "subject": "Hindi",
+  "title": "Vitan",
+  "url": "textbook.php?khvt1=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Hindi",
+  "title": "Antral",
+  "url": "textbook.php?khan1=0-2"
+ },
+ {
+  "class": 11,
+  "subject": "Sociology",
+  "title": "Introducing Sociology",
+  "url": "textbook.php?kesy1=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Sociology",
+  "title": "Samaj Shastra Parichay-I",
+  "url": "textbook.php?khsy1=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Sociology",
+  "title": "Samajiyaat Ka Tarf",
+  "url": "textbook.php?kusy1=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Sociology",
+  "title": "Understanding Society",
+  "url": "textbook.php?kesy2=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Sociology",
+  "title": "Samaj ka Bodh",
+  "url": "textbook.php?khsy2=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Sociology",
+  "title": "Mutala-e-Muashira",
+  "url": "textbook.php?kusy2=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "English",
+  "title": "Woven Words",
+  "url": "textbook.php?keww1=0-27"
+ },
+ {
+  "class": 11,
+  "subject": "English",
+  "title": "Hornbill",
+  "url": "textbook.php?kehb1=0-14"
+ },
+ {
+  "class": 11,
+  "subject": "English",
+  "title": "Snapshots Suppl.Reader English",
+  "url": "textbook.php?kesp1=0-5"
+ },
+ {
+  "class": 11,
+  "subject": "Political Science",
+  "title": "Political Theory",
+  "url": "textbook.php?keps1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Political Science",
+  "title": "Raajneeti Sidhant",
+  "url": "textbook.php?khps1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Political Science",
+  "title": "Hindustani Aain aur Kaam",
+  "url": "textbook.php?kups1=0-10"
+ },
+ {
+  "class": 11,
+  "subject": "Political Science",
+  "title": "India Constitution at Work",
+  "url": "textbook.php?keps2=0-10"
+ },
+ {
+  "class": 11,
+  "subject": "Political Science",
+  "title": "Bharat ka Samvidhan Sidhant aur Vyavhar",
+  "url": "textbook.php?khps2=0-10"
+ },
+ {
+  "class": 11,
+  "subject": "Political Science",
+  "title": "Siyasi Nazaria",
+  "url": "textbook.php?kups2=0-10"
+ },
+ {
+  "class": 11,
+  "subject": "History",
+  "title": "Themes in World History",
+  "url": "textbook.php?kehs1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "History",
+  "title": "Vishwa Itihas Ke Kuch Vishay",
+  "url": "textbook.php?khhs1=0-7"
+ },
+ {
+  "class": 11,
+  "subject": "History",
+  "title": "Tareekh-e-Alam per Mabni Mauzuaat Part I",
+  "url": "textbook.php?kuta1=0-11"
+ },
+ {
+  "class": 11,
+  "subject": "Heritage Crafts",
+  "title": "Living Craft Traditions of India",
+  "url": "textbook.php?kehc1=0-10"
+ },
+ {
+  "class": 11,
+  "subject": "Heritage Crafts",
+  "title": "Hindustan me Dastkari Ki Riwayat",
+  "url": "textbook.php?kuhc1=0-10"
+ },
+ {
+  "class": 11,
+  "subject": "Graphics design",
+  "title": "The story of graphic design",
+  "url": "textbook.php?kegd1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Graphics design",
+  "title": "graphic design ek kahani",
+  "url": "textbook.php?khgd1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Computers and Communication Technology",
+  "title": "CCT Part-I",
+  "url": "textbook.php?kect1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Computers and Communication Technology",
+  "title": "CCT Part-II",
+  "url": "textbook.php?kect2=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Computers and Communication Technology",
+  "title": "Computer aur Sanchar Prodhogiki Part-I",
+  "url": "textbook.php?khct1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Computers and Communication Technology",
+  "title": "Computer aur Sanchar Prodhogiki Part-II",
+  "url": "textbook.php?khct2=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Computers and Communication Technology",
+  "title": "Computer Aur Muwaslati Technology I",
+  "url": "textbook.php?kuct1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Computers and Communication Technology",
+  "title": "Computer Aur Muwaslati Technology II",
+  "url": "textbook.php?kuct2=0-6"
+ },
+ {
+  "class": 11,
+  "subject": "Fine Art",
+  "title": "An Introduction to Indian Art Part-I",
+  "url": "textbook.php?kefa1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Fine Art",
+  "title": "Bhartiya Kala ka parichay",
+  "url": "textbook.php?khfa1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Urdu",
+  "title": "Nai Awaz",
+  "url": "textbook.php?kuna1=0-20"
+ },
+ {
+  "class": 11,
+  "subject": "Urdu",
+  "title": "Dhanak",
+  "url": "textbook.php?kudh1=0-27"
+ },
+ {
+  "class": 11,
+  "subject": "Urdu",
+  "title": "Gulistan e Adab",
+  "url": "textbook.php?kuga1=0-22"
+ },
+ {
+  "class": 11,
+  "subject": "Urdu",
+  "title": "Khyabane Urdu",
+  "url": "textbook.php?kuku1=0-15"
+ },
+ {
+  "class": 11,
+  "subject": "Creative Writing and Translation",
+  "title": "Srijan",
+  "url": "textbook.php?khsr1=0-4"
+ },
+ {
+  "class": 11,
+  "subject": "Creative Writing and Translation",
+  "title": "Takhleequi Jauhar",
+  "url": "textbook.php?kucw1=0-4"
+ },
+ {
+  "class": 11,
+  "subject": "Informatics Practices",
+  "title": "Informatics Practices",
+  "url": "textbook.php?keip1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Biotechnology",
+  "title": "Biotechnology",
+  "url": "textbook.php?kebt1=0-12"
+ },
+ {
+  "class": 11,
+  "subject": "Computer Science",
+  "title": "Computer Science",
+  "url": "textbook.php?kecs1=0-11"
+ },
+ {
+  "class": 11,
+  "subject": "Computer Science",
+  "title": "Computer Science - Urdu",
+  "url": "textbook.php?kucs1=0-11"
+ },
+ {
+  "class": 11,
+  "subject": "Health and Physical Education",
+  "title": "Health and Physical Education",
+  "url": "textbook.php?kehp1=0-11"
+ },
+ {
+  "class": 11,
+  "subject": "Knowledge Traditions Practices of India",
+  "title": "Knowledge Traditions Practices of India",
+  "url": "textbook.php?keks1=0-9"
+ },
+ {
+  "class": 11,
+  "subject": "Sangeet",
+  "title": "Tabla evam Pakhawaj",
+  "url": "textbook.php?khtp1=0-8"
+ },
+ {
+  "class": 11,
+  "subject": "Sangeet",
+  "title": "Hindustani Sangeet Gayan Evam Vadan",
+  "url": "textbook.php?khgv1=0-10"
+ },
+ {
+  "class": 12,
+  "subject": "Accountancy",
+  "title": "Accountancy-I",
+  "url": "textbook.php?leac1=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "Accountancy",
+  "title": "Accountancy Part-II",
+  "url": "textbook.php?leac2=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Accountancy",
+  "title": "Lekhashastra Part-I",
+  "url": "textbook.php?lhac1=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "Accountancy",
+  "title": "Lekhashastra Part-II",
+  "url": "textbook.php?lhac2=0-5"
+ },
+ {
+  "class": 12,
+  "subject": "Accountancy",
+  "title": "Computerised Accounting System",
+  "url": "textbook.php?leca1=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "Accountancy",
+  "title": "Khatadari-I(Urdu)",
+  "url": "textbook.php?luac1=0-5"
+ },
+ {
+  "class": 12,
+  "subject": "Accountancy",
+  "title": "Khatadari-II(Urdu)",
+  "url": "textbook.php?luac2=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Mathematics",
+  "title": "Mathematics Part-I",
+  "url": "textbook.php?lemh1=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Mathematics",
+  "title": "Mathematics Part-II",
+  "url": "textbook.php?lemh2=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Mathematics",
+  "title": "Ganit-I",
+  "url": "textbook.php?lhmh1=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Mathematics",
+  "title": "Ganit-II",
+  "url": "textbook.php?lhmh2=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Mathematics",
+  "title": "Riyazi-I",
+  "url": "textbook.php?lumh1=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Mathematics",
+  "title": "Riyazi-II",
+  "url": "textbook.php?lumh2=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Physics",
+  "title": "Physics Part-I",
+  "url": "textbook.php?leph1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Physics",
+  "title": "Physics Part-II",
+  "url": "textbook.php?leph2=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Physics",
+  "title": "Bhautiki-I",
+  "url": "textbook.php?lhph1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Physics",
+  "title": "Bhautiki-II",
+  "url": "textbook.php?lhph2=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Physics",
+  "title": "Tabiyaat-I",
+  "url": "textbook.php?luph1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Physics",
+  "title": "Tabiyaat-II",
+  "url": "textbook.php?luph2=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Hindi",
+  "title": "Antra",
+  "url": "textbook.php?lhat1=0-21"
+ },
+ {
+  "class": 12,
+  "subject": "Hindi",
+  "title": "Aroh",
+  "url": "textbook.php?lhar1=0-15"
+ },
+ {
+  "class": 12,
+  "subject": "Hindi",
+  "title": "Vitan",
+  "url": "textbook.php?lhvt1=0-3"
+ },
+ {
+  "class": 12,
+  "subject": "Hindi",
+  "title": "Antral Bhag 2",
+  "url": "textbook.php?lhan1=0-3"
+ },
+ {
+  "class": 12,
+  "subject": "English",
+  "title": "Kaliedoscope",
+  "url": "textbook.php?lekl1=0-21"
+ },
+ {
+  "class": 12,
+  "subject": "English",
+  "title": "Flamingo",
+  "url": "textbook.php?lefl1=0-13"
+ },
+ {
+  "class": 12,
+  "subject": "English",
+  "title": "Vistas",
+  "url": "textbook.php?levt1=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Biotechnology",
+  "title": "Biotechnology",
+  "url": "textbook.php?lebt1=0-13"
+ },
+ {
+  "class": 12,
+  "subject": "Biology",
+  "title": "Biology",
+  "url": "textbook.php?lebo1=0-13"
+ },
+ {
+  "class": 12,
+  "subject": "Biology",
+  "title": "Jeev Vigyan",
+  "url": "textbook.php?lhbo1=0-13"
+ },
+ {
+  "class": 12,
+  "subject": "Biology",
+  "title": "Hayatiyaat",
+  "url": "textbook.php?lubo1=0-16"
+ },
+ {
+  "class": 12,
+  "subject": "History",
+  "title": "Themes in Indian History-I",
+  "url": "textbook.php?lehs1=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "History",
+  "title": "Bharatiya Itihas ke kuchh Vishay-I",
+  "url": "textbook.php?lhhs1=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "History",
+  "title": "Themes in Indian History-II",
+  "url": "textbook.php?lehs2=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "History",
+  "title": "Bharatiya Itihas ke kuchh Vishay-II ",
+  "url": "textbook.php?lhhs2=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "History",
+  "title": "Themes in Indian History-III",
+  "url": "textbook.php?lehs3=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "History",
+  "title": "Bharatiya Itihas ke kuchh Vishay-III",
+  "url": "textbook.php?lhhs3=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "History",
+  "title": "Tareekh-e-Hind ke Mauzuaat-I(Urdu)",
+  "url": "textbook.php?luth1=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "History",
+  "title": "Tareekh-e-Hind ke Mauzuaat-II(Urdu)",
+  "url": "textbook.php?luth2=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "History",
+  "title": "Tareekh-e-Hind ke Mauzuaat-III(Urdu)",
+  "url": "textbook.php?luth3=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "Geography",
+  "title": "Fundamentals of Human Geography",
+  "url": "textbook.php?legy1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Geography",
+  "title": "Practical Work in Geography Part II",
+  "url": "textbook.php?legy3=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "Geography",
+  "title": "Manav Bhugol Ke Mool Sidhant",
+  "url": "textbook.php?lhgy1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Geography",
+  "title": "Bhugol main peryojnatmak pryogatmak karye",
+  "url": "textbook.php?lhgy3=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "Geography",
+  "title": "India -People And Economy",
+  "url": "textbook.php?legy2=0-9"
+ },
+ {
+  "class": 12,
+  "subject": "Geography",
+  "title": "Bharat log aur arthvyasastha(Bhugol)",
+  "url": "textbook.php?lhgy2=0-9"
+ },
+ {
+  "class": 12,
+  "subject": "Geography",
+  "title": "Insani Jughrafia Ke Buniyadi Usool(Urdu)",
+  "url": "textbook.php?lufh1=0-10"
+ },
+ {
+  "class": 12,
+  "subject": "Geography",
+  "title": " Hindustan Awam Aur Maishat(Urdu)",
+  "url": "textbook.php?lugy1=0-12"
+ },
+ {
+  "class": 12,
+  "subject": "Geography",
+  "title": " Jughrafia Mein Aamli Kam(Urdu)",
+  "url": "textbook.php?lugy3=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Psychology",
+  "title": "Psychology",
+  "url": "textbook.php?lepy1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Psychology",
+  "title": "Manovigyan",
+  "url": "textbook.php?lhpy1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Psychology",
+  "title": "Nafsiat(Urdu)",
+  "url": "textbook.php?lupy1=0-9"
+ },
+ {
+  "class": 12,
+  "subject": "Sociology",
+  "title": "Indian Society",
+  "url": "textbook.php?lesy1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Sociology",
+  "title": "Bhartiya Samaj",
+  "url": "textbook.php?lhsy1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Sociology",
+  "title": "Social Change and Development in India",
+  "url": "textbook.php?lesy2=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Sociology",
+  "title": "Bharat main Samajik Parivartan aur Vikas",
+  "url": "textbook.php?lhsy2=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Sociology",
+  "title": "Hindustani Samaj(Urdu)",
+  "url": "textbook.php?luis1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Sociology",
+  "title": "Hindustan Mein Samaji Tabdili Aur Taraqqi(Urdu)",
+  "url": "textbook.php?lusy2=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Chemistry",
+  "title": "Chemistry-I",
+  "url": "textbook.php?lech1=0-5"
+ },
+ {
+  "class": 12,
+  "subject": "Chemistry",
+  "title": "Chemistry-II",
+  "url": "textbook.php?lech2=0-5"
+ },
+ {
+  "class": 12,
+  "subject": "Chemistry",
+  "title": "Rasayan vigyan bhag I",
+  "url": "textbook.php?lhch1=0-5"
+ },
+ {
+  "class": 12,
+  "subject": "Chemistry",
+  "title": "Rasayan vigyan bhag II",
+  "url": "textbook.php?lhch2=0-5"
+ },
+ {
+  "class": 12,
+  "subject": "Chemistry",
+  "title": "Keemiya-I",
+  "url": "textbook.php?luch1=0-9"
+ },
+ {
+  "class": 12,
+  "subject": "Chemistry",
+  "title": "Keemiya-II",
+  "url": "textbook.php?luch2=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Sanskrit",
+  "title": "Bhaswati",
+  "url": "textbook.php?lhsk1=0-10"
+ },
+ {
+  "class": 12,
+  "subject": "Sanskrit",
+  "title": "Shaswati",
+  "url": "textbook.php?lhsk2=0-11"
+ },
+ {
+  "class": 12,
+  "subject": "Political Science",
+  "title": "Contemporary World Politics",
+  "url": "textbook.php?leps1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Political Science",
+  "title": "Samkalin Vishwa Rajniti",
+  "url": "textbook.php?lhps1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Political Science",
+  "title": "Politics in India Since Independence",
+  "url": "textbook.php?leps2=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Political Science",
+  "title": "Swatantra Bharat Mein Rajniti-II",
+  "url": "textbook.php?lhps2=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Political Science",
+  "title": "Aasri Alami Siyasat(Urdu)",
+  "url": "textbook.php?lups1=0-9"
+ },
+ {
+  "class": 12,
+  "subject": "Political Science",
+  "title": "Azadi Ke Baad Hindustan Ki Siyasat(Urdu)",
+  "url": "textbook.php?luab1=0-9"
+ },
+ {
+  "class": 12,
+  "subject": "Home Science",
+  "title": "Human Ecology and Family Sciences Part I ",
+  "url": "textbook.php?lehe1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Home Science",
+  "title": "Human Ecology and Family Sciences Part II ",
+  "url": "textbook.php?lehe2=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Home Science",
+  "title": "Manav Paristhitik avam Parivar Vigyan Bhag 1 ",
+  "url": "textbook.php?lehh1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Home Science",
+  "title": "Manav Paristhitiki avam Parivar Vigyan Bhag 2",
+  "url": "textbook.php?lehh2=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Economics",
+  "title": "Introductory Microeconomics",
+  "url": "textbook.php?leec2=0-5"
+ },
+ {
+  "class": 12,
+  "subject": "Economics",
+  "title": "Introductory Macroeconomics",
+  "url": "textbook.php?leec1=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Economics",
+  "title": "Vyashthi Arthshasrta",
+  "url": "textbook.php?lhec2=0-5"
+ },
+ {
+  "class": 12,
+  "subject": "Economics",
+  "title": "Samashty Arthshastra Ek Parichay",
+  "url": "textbook.php?lhec1=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Economics",
+  "title": "Juzvi Maashiyat ka Taruf(Urdu)",
+  "url": "textbook.php?lume1=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Economics",
+  "title": "Kulli Maashiyat Ka Taruf(Urdu)",
+  "url": "textbook.php?lume2=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Business Studies",
+  "title": "Business Studies-I",
+  "url": "textbook.php?lebs1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Business Studies",
+  "title": "Vyavasai Adhyan-I",
+  "url": "textbook.php?lhbs1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Business Studies",
+  "title": "Business Studies-II",
+  "url": "textbook.php?lebs2=0-3"
+ },
+ {
+  "class": 12,
+  "subject": "Business Studies",
+  "title": "Vyavasai Adhyan-II",
+  "url": "textbook.php?lhbs2=0-3"
+ },
+ {
+  "class": 12,
+  "subject": "Business Studies",
+  "title": "Karobari Uloom I(Urdu)",
+  "url": "textbook.php?lubs1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Business Studies",
+  "title": "Karobari Uloom II(Urdu)",
+  "url": "textbook.php?lubs2=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "Urdu",
+  "title": "Gulistan-e- Adab",
+  "url": "textbook.php?luga1=0-12"
+ },
+ {
+  "class": 12,
+  "subject": "Urdu",
+  "title": "Khayaban-e-Urdu",
+  "url": "textbook.php?luku1=0-6"
+ },
+ {
+  "class": 12,
+  "subject": "Urdu",
+  "title": "Nai Awaz",
+  "url": "textbook.php?luna1=0-16"
+ },
+ {
+  "class": 12,
+  "subject": "Urdu",
+  "title": "Dhanak",
+  "url": "textbook.php?ludh1=0-12"
+ },
+ {
+  "class": 12,
+  "subject": "Heritage Crafts",
+  "title": "Hindustan me Dastkari Ki Riwayat",
+  "url": "textbook.php?luhc1=0-9"
+ },
+ {
+  "class": 12,
+  "subject": "Heritage Crafts",
+  "title": "Craft Tradition of India",
+  "url": "textbook.php?lehc1=0-9"
+ },
+ {
+  "class": 12,
+  "subject": "Heritage Crafts",
+  "title": "Bharatiya Hastkla Ki Paramparayen",
+  "url": "textbook.php?lhhc1=0-9"
+ },
+ {
+  "class": 12,
+  "subject": "New Age Graphics Design",
+  "title": "New Age Graphics Design",
+  "url": "textbook.php?legd1=0-12"
+ },
+ {
+  "class": 12,
+  "subject": "Creative Writing & Translation",
+  "title": "Srijan-II",
+  "url": "textbook.php?khsr2=0-4"
+ },
+ {
+  "class": 12,
+  "subject": "Creative Writing & Translation",
+  "title": "Takhleequi Jauhar",
+  "url": "textbook.php?lucw1=0-11"
+ },
+ {
+  "class": 12,
+  "subject": "Fine Art",
+  "title": "An Introduction to Indian Art Part-II",
+  "url": "textbook.php?lefa1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Fine Art",
+  "title": "Bhartiya Kala ka Itihaas Bhag 2",
+  "url": "textbook.php?lhfa1=0-8"
+ },
+ {
+  "class": 12,
+  "subject": "Computer Science",
+  "title": "Computer Science",
+  "url": "textbook.php?lecs1=0-13"
+ },
+ {
+  "class": 12,
+  "subject": "Informatics Practices",
+  "title": "Informatics Practices",
+  "url": "textbook.php?leip1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Sangeet",
+  "title": "Tabla evam Pakhawaj",
+  "url": "textbook.php?lstp1=0-7"
+ },
+ {
+  "class": 12,
+  "subject": "Sangeet",
+  "title": "Hindustani Sangeet Gayan Evam Vaadan",
+  "url": "textbook.php?lsgv1=0-9"
+ },
+ {
+  "class": 13,
+  "subject": "Hindi",
+  "title": "Abhivyakti Aur Madhyam",
+  "url": "textbook.php?kham1=0-16"
+ },
+ {
+  "class": 13,
+  "subject": "Sanskrit",
+  "title": "Sanskrit Sahitya parichay",
+  "url": "textbook.php?klss1=0-12"
+ },
+ {
+  "class": 13,
+  "subject": "Heritage Crafts",
+  "title": "Exploring Craft Tradition of India",
+  "url": "textbook.php?mehc1=0-10"
+ },
+ {
+  "class": 13,
+  "subject": "Heritage Crafts",
+  "title": "Bhartiya Hastkala Parmparaon ki Khoj",
+  "url": "textbook.php?khhc1=0-10"
+ },
+ {
+  "class": 13,
+  "subject": "Urdu",
+  "title": "Zuban-O-Adab ki Tareekh",
+  "url": "textbook.php?kuza1=0-23"
+ },
+ {
+  "class": 13,
+  "subject": "Urdu",
+  "title": "Urdu Qwaid aur Insha",
+  "url": "textbook.php?juuq1=0-24"
+ },
+ {
+  "class": 13,
+  "subject": "Urdu",
+  "title": "Izhar Aur Zara-e-Izhar",
+  "url": "textbook.php?kuiz1=0-4"
+ }
+]

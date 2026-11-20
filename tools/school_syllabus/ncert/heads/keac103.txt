@@ -1,0 +1,16 @@
+NUMBERED
+3.1 Business Transactions and Source Document
+3.1.1 Preparation of Accounting Vouchers
+3.2 Accounting Equation
+3.3 Using Debit and Credit
+3.3.1 Rules of Debit and Credit
+3.4 Books of Original Entry
+3.4.1 Journal
+3.5 The Ledger
+3.5.1 Classification of Ledger Accounts
+3.6 Posting from Journal
+BIG
+Recording of Transactions-I 3
+• Any IGST credit will first be applied to set of IGST and then CGST. Balance,
+SAMPLE
+46 Accountancy LEARNING OBJECTIVES After studying this chapter, you will be able to: • describe the nature of transaction and source documents; • explain the prepa- ration of accounting vouchers; • apply accounting equation to explain the effect of transactions; • record transactions using rules of debit and credit; • explain the concept of book of original entry and recording of transactions in journal; • explain the concept of ledger and posting of journal entries to the ledger accounts. I n chapter 1 and 2, while explaining the development and importance of accounting as a source of disseminating the financial information along with the discussion on basic accounting concepts that guide the recording of business transactions, it has been indicated that accounting involves a process of identifying and analysing the business transactions, recording them, classifying and summarising their effects and finally communicating it to the interested users of accounting information. In this chapter, we will discuss the details of each step involved in the accounting process. The first step involves identifying the transactions to be recorded and preparing the source documents which are in turn recorded in the basic book of original entry called journal and are then posted to individual accounts in the principal book called ledger. 3.1 Business Transactions and Source Document After securing good percentage in your previous examination, as promised, your father wishes to buy you a computer. You go to the market along with your father to buy a computer. The dealer gives a cash memo along with the computer and in exchange your father makes cash payment of ` 35,000. Purchase of computer for cash is an example of a transaction, which involves reciprocal exchange of two things: (i) p

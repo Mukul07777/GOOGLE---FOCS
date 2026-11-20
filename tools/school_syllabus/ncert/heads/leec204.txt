@@ -1,0 +1,22 @@
+NUMBERED
+4.1 PERFECT COMPETITION: DEFINING FEATURES
+4.2 REVENUE
+4.3 PROFIT MAXIMISATION
+4.4 SUPPLY CURVE OF A FIRM
+4.5 DETERMINANTS OF A FIRM’S SUPPLY CURVE
+4.6 MARKET SUPPLY CURVE
+4.7 PRICE ELASTICITY OF SUPPLY
+BIG
+Chapter 4
+The Theory of the Firm under Perfect Competition
+4.1 PERFECT COMPETITION: DEFINING FEATURES
+4.2 REVENUE
+4.3 PROFIT MAXIMISATION
+4.4 SUPPLY CURVE OF A FIRM
+4.5 DETERMINANTS OF A FIRM’S SUPPLY CURVE
+4.6 MARKET SUPPLY CURVE
+4.7 PRICE ELASTICITY OF SUPPLY
+yr a m m u S se si cr e x E
+st pe cn o C y e K
+SAMPLE
+Chapter 4 The Theor The Theor The Theor The Theor The Theory of the F y of the F y of the F y of the F y of the Firm irm irm irm irm under P under P under P under P under Perererererfect Competition fect Competition fect Competition fect Competition fect Competition In the previous chapter, we studied concepts related to a firm’s production function and cost curves. The focus of this chapter is different. Here we ask : how does a firm decide how much to produce? Our answer to this question is by no means simple or uncontroversial. We base our answer on a critical, if somewhat unreasonable, assumption about firm behaviour – a firm, we maintain, is a ruthless profit maximiser. So, the amount that a firm produces and sells in the market is that which maximises its profit. Here, we also assume that the firm sells whatever it produces so that ‘output’ and quantity sold are often used interchangebly. The structure of this chapter is as follows. We first set up and examine in detail the profit maximisation problem of a firm. Then,0 we derive a firm’s supply curve. The supply curve shows the levels of output that a firm chooses to produce at different market prices. Finally, we study how to aggregate the supply curves of individual firms and obtain the market supply curve. 4.1 PERFECT COMPETITION: DEFINING FEATURES In order to analyse a firm’s profit maximisation problem, we must first specify the market environment in which the firm functions. In this chapter, we study a market environment called perfect competition. A perfectly competitive market has the following defining features: 1. The market consists of a large number of buyers and sellers 2. Each firm produces and sells a homogenous product. i.e., the product of one firm cannot be differentiated from the product of any 

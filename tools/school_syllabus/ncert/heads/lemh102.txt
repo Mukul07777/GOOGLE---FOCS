@@ -1,0 +1,21 @@
+NUMBERED
+2.1 Introduction
+2.2 Basic Concepts
+2.3 Properties of Inverse Trigonometric Functions
+BIG
+Chapter 2
+INVERSE TRIGONOMETRIC
+FUNCTIONS
+ANote
+sin–1 (
+= sin–1 (
+Take x = cos θ, then proceeding as above, we get, sin–1 (
+® The domains and ranges (principal value branches) of inverse trigonometric
+® sin–1x should not be confused with (sin x)–1. In fact (sin x)–1 =
+® The value of an inverse trigonometric functions which lies in its principal
+® y = sin–1 x ⇒ x = sin y
+® x = sin y ⇒ y = sin–1 x
+® sin (sin–1 x) = x
+® sin–1 (sin x) = x
+SAMPLE
+ 18 MATHEMATICS vMathematics, in general, is fundamentally the science of self-evident things. — FELIX KLEIN v 2.1 Introduction In Chapter 1, we have studied that the inverse of a function f, denoted by f –1, exists if f is one-one and onto. There are many functions which are not one-one, onto or both and hence we can not talk of their inverses. In Class XI, we studied that trigonometric functions are not one-one and onto over their natural domains and ranges and hence their inverses do not exist. In this chapter, we shall study about the restrictions on domains and ranges of trigonometric functions which ensure the existence of their inverses and observe their behaviour through graphical representations. Besides, some elementary properties will also be discussed. The inverse trigonometric functions play an important role in calculus for they serve to define many integrals. The concepts of inverse trigonometric functions is also used in science and engineering. 2.2 Basic Concepts In Class XI, we have studied trigonometric functions, which are defined as follows: sine function, i.e., sine : R → [– 1, 1] cosine function, i.e., cos : R → [– 1, 1] tangent function, i.e., tan : R – { x : x = (2n + 1) 2 π , n ∈ Z} → R cotangent function, i.e., cot : R – { x : x = nπ, n ∈ Z} → R secant function, i.e., sec : R – { x : x = (2n + 1) 2 π , n ∈ Z} → R – (– 1, 1) cosecant function, i.e., cosec : R – { x : x = nπ, n ∈ Z} → R – (– 1, 1) Chapter 2 INVERSE TRIGONOMETRIC FUNCTIONS Aryabhata (476-550 A. D.) Reprint 2026-27 INVERSE TRIGONOMETRIC FUNCTIONS 19 We have also learnt in Chapter 1 that if f : X→Y such that f (x) = y is one-one and onto, then we can define a unique function g : Y→X such that g(y) = x, where x ∈ X and y = f (x), y ∈ Y. Here, the domain of g = range of f and the ran

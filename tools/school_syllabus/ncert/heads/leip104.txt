@@ -1,0 +1,21 @@
+NUMBERED
+4.1 Introduction
+4.2 Plotting using Matplotlib
+4.3 Customisation of Plots
+4.3.1 Marker
+4.3.2 Colour
+4.3.3 Linewidth and Line Style
+4.4 The Pandas Plot function (Pandas Visualisation)
+4.4.1 Plotting a Line chart
+4.4.2 Plotting Bar Chart
+4.4.3 Plotting Histogram
+4.4.4 Plotting Scatter Chart
+4.4.5 Plotting Quartiles and Box plot
+4.4.6 Plotting Pie Chart
+BIG
+C h a p t e r
+Plotting Data using Matplotlib
+Summary
+Exercise
+SAMPLE
+4.1 Introduction We have learned how to organise and analyse data and perform various statistical operations on Pandas DataFrames. Likewise, in Class XI, we have learned how to analyse numerical data using NumPy. The results obtained after analysis is used to make inferences or draw conclusions about data as well as to make important business decisions. Sometimes, it is not easy to infer by merely looking at the results. In such cases, visualisation helps in better understanding of results of the analysis. Data visualisation means graphical or pictorial representation of the data using graph, chart, etc. The purpose of plotting data is to visualise variation or show relationships between variables. “Human visual perception is the “most powerful of data interfaces between computers and Humans” — M. McIntyre C h a p t e r 4 Plotting Data using Matplotlib In this chapter »» Introduction »» Plotting using Matplotlib »» Customisation of Plots »» The Pandas Plot Function (Pandas Visualisation) Reprint 2026-27 Informatics Practices 106 Visualisation also helps to effectively communicate information to intended users. Traffic symbols, ultrasound reports, Atlas book of maps, speedometer of a vehicle, tuners of instruments are few examples of visualisation that we come across in our daily lives. Visualisation of data is effectively used in fields like health, finance, science, mathematics, engineering, etc. In this chapter, we will learn how to visualise data using Matplotlib library of Python by plotting charts such as line, bar, scatter with respect to the various types of data. 4.2 Plotting using Matplotlib Matplotlib library is used for creating static, animated, and interactive 2D- plots or figures in Python. It can be installed using the following pip command from the comma

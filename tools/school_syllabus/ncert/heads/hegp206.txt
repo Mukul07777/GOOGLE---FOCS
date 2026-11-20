@@ -1,0 +1,18 @@
+NUMBERED
+6.1 Algebra Play
+6.2 Thinking about ‘Think of a Number’ Tricks
+6.3 Number Pyramids
+6.4 Fun with Grids
+6.5 The Largest Product
+6.6 Decoding Divisibility Tricks
+BIG
+6.1 Algebra Play
+6.2 Thinking about ‘Think of a Number’ Tricks
+6 ALGEBRA PLAY
+6.3 Number Pyramids
+6.4 Fun with Grids
+6.5 The Largest Product
+6.6 Decoding Divisibility Tricks
+SUMMARY
+SAMPLE
+6.1 Algebra Play Over the last two years, we have used algebra to model different situations. We have learned how to solve algebraic equations and find the values of unknown letter-numbers. Let’s now have some fun with algebra. We shall investigate tricks and puzzles, and explain why they work using algebra. We will also see how to invent new tricks and puzzles to entertain others. 6.2 Thinking about ‘Think of a Number’ Tricks In Grade 7, we learned about ‘Think of a Number’ tricks, like this one. 1. Think of a number. 2. Double it. 3. Add four. 4. Divide by two. 5. Subtract the original number you thought of. I predict you get 2. Am I right? Try it out with different starting numbers. Do you always end up with the same value, 2? Why? We saw that we can understand such tricks through algebra. 1. Think of a number: x 2. Double it: 2x 3. Add four: 2x + 4 4. Divide by 2: x + 2 5. Subtract the original number you thought of: x + 2 – x = 2 Therefore, no matter what the starting number is, the end result will always be 2! ALGEBRA PLAY 6 Ganita Prakash | Grade 8 | Part-II 136 How would you change this game to make the final answer 3? What about 5? Can you come up with more complicated steps that always lead to the same final value? Let us now look at a different trick of this type. Think of a date. 26/01 1 × 5 = 5 5 + 6 = 11 44 + 9 = 53 53 × 5 = 265 265 + 26 = 291. 11 × 4 = 44 Multiply the month by 5. Add 6. Add 9. Add the day. Tell me your answer. You thought of our Republic Day, 26/01. Multiply by 4. Multiply by 5. How did Shubham figure out the date chosen by Mukta? • Let the month be M and the day be D. • Multiply M by 5: 5M Algebra Play 137 • Add 6: 5M + 6 • Multiply by 4: 20M + 24 • Add 9: 20M + 33 • Multiply by 5: 100M + 165 • Add the day: 100M + 165 + D Mukta’s answer 

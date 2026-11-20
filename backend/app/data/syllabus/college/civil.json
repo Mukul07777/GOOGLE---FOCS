@@ -1,0 +1,136 @@
+{
+  "area": "Civil engineering",
+  "courses": [
+    {"name": "Surveying", "about": "Measurement of land: distances, levels, angles and modern methods", "chapters": [
+      {"name": "Linear Measurement and Compass Surveying", "hours": 7, "weight": 2, "foundation": true, "topics": ["Principles and classification of surveying", "Chain and tape surveying and corrections", "Prismatic and surveyor's compass", "Bearings, local attraction and declination", "Traversing and adjustment of closing error"]},
+      {"name": "Levelling and Contouring", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Levelling instruments and terms", "Height of instrument and rise-and-fall methods", "Reciprocal levelling and curvature and refraction corrections", "Contours and their characteristics", "Methods of contouring"]},
+      {"name": "Theodolite and Tacheometric Surveying", "hours": 8, "weight": 2.5, "topics": ["Theodolite: adjustments and measurement of angles", "Theodolite traversing and Gale's table", "Trigonometrical levelling", "Stadia and tangential tacheometry"]},
+      {"name": "Curves", "hours": 6, "weight": 2, "topics": ["Simple circular curves and their setting out", "Compound and reverse curves", "Transition curves", "Vertical curves"]},
+      {"name": "Areas, Volumes and Triangulation", "hours": 6, "weight": 1.5, "topics": ["Computation of areas", "Computation of volumes and mass-haul diagrams", "Triangulation systems and baseline measurement", "Theory of errors and adjustment"]},
+      {"name": "Modern Surveying", "hours": 6, "weight": 1.5, "topics": ["Electronic distance measurement and total station", "Global positioning system", "Photogrammetry basics", "Remote sensing and GIS"]}
+    ]},
+    {"name": "Building Materials and Construction", "about": "Materials of construction and how buildings are put together", "chapters": [
+      {"name": "Stones, Bricks and Timber", "hours": 6, "weight": 2, "foundation": true, "topics": ["Building stones: classification and tests", "Bricks: manufacture, classification and tests", "Timber: defects, seasoning and preservation", "Glass, plastics and steel as building materials"]},
+      {"name": "Cement and Aggregates", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Manufacture and composition of cement", "Hydration and Bogue's compounds", "Types of cement", "Tests on cement", "Aggregates: classification, grading and tests"]},
+      {"name": "Mortar and Concrete", "hours": 6, "weight": 2, "topics": ["Lime and cement mortars", "Ingredients and grades of concrete", "Workability and its tests", "Curing and strength of concrete"]},
+      {"name": "Masonry and Foundations", "hours": 7, "weight": 2, "topics": ["Brick masonry and bonds", "Stone masonry", "Types of walls and partitions", "Shallow foundations", "Deep foundations overview"]},
+      {"name": "Building Components and Services", "hours": 8, "weight": 2, "topics": ["Lintels, arches and staircases", "Floors and roofs", "Doors, windows and ventilators", "Damp-proofing and waterproofing", "Plastering, pointing and painting", "Building bye-laws and planning"]}
+    ]},
+    {"name": "Engineering Geology", "about": "Earth materials and processes for civil engineers", "chapters": [
+      {"name": "Physical Geology and Mineralogy", "hours": 6, "weight": 2, "foundation": true, "topics": ["Interior of the earth and plate tectonics", "Weathering and erosion", "Physical properties of minerals", "Rock-forming minerals"]},
+      {"name": "Petrology", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Igneous rocks", "Sedimentary rocks", "Metamorphic rocks", "Engineering properties of rocks"]},
+      {"name": "Structural Geology", "hours": 6, "weight": 2.5, "topics": ["Dip and strike", "Folds", "Faults", "Joints and unconformities"]},
+      {"name": "Geology in Engineering Projects", "hours": 7, "weight": 2, "topics": ["Geological investigations and geophysical methods", "Geology of dam and reservoir sites", "Geology of tunnels and bridges", "Landslides and their mitigation", "Earthquakes and seismic zones of India", "Groundwater geology"]}
+    ]},
+    {"name": "Structural Analysis I", "about": "Analysis of determinate structures and deflections", "chapters": [
+      {"name": "Determinacy and Statically Determinate Structures", "hours": 7, "weight": 2, "foundation": true, "topics": ["Static and kinematic indeterminacy", "Analysis of plane trusses", "Three-hinged arches", "Cables and suspension bridges"]},
+      {"name": "Deflection of Beams and Frames", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Moment-area method", "Conjugate beam method", "Strain energy and Castigliano's theorems", "Unit load method", "Deflection of trusses", "Maxwell's and Betti's reciprocal theorems"]},
+      {"name": "Influence Lines and Moving Loads", "hours": 8, "weight": 2.5, "topics": ["Influence lines for reactions, shear and moment", "Muller-Breslau principle", "Maximum shear and moment under moving loads", "Absolute maximum bending moment", "Influence lines for trusses"]},
+      {"name": "Fixed and Continuous Beams", "hours": 7, "weight": 2, "topics": ["Fixed beams: fixed-end moments", "Effect of sinking of supports", "Theorem of three moments", "Propped cantilevers"]},
+      {"name": "Columns and Unsymmetrical Bending", "hours": 5, "weight": 1.5, "topics": ["Combined direct and bending stresses", "Middle-third rule and the core of a section", "Unsymmetrical bending and shear centre"]}
+    ]},
+    {"name": "Structural Analysis II", "about": "Analysis of indeterminate structures", "chapters": [
+      {"name": "Slope-Deflection Method", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Slope-deflection equations", "Analysis of continuous beams", "Frames without sway", "Frames with sway"]},
+      {"name": "Moment Distribution Method", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Stiffness, carry-over and distribution factors", "Continuous beams with and without settlement", "Non-sway frames", "Sway frames", "Kani's method"]},
+      {"name": "Energy Methods and Arches", "hours": 6, "weight": 2, "topics": ["Consistent deformation method", "Analysis by strain energy", "Two-hinged arches", "Fixed arches"]},
+      {"name": "Matrix Methods", "hours": 9, "weight": 2.5, "topics": ["Flexibility method", "Stiffness method for beams", "Stiffness method for trusses and frames", "Direct stiffness method", "Introduction to the finite element method"]},
+      {"name": "Plastic Analysis and Approximate Methods", "hours": 6, "weight": 1.5, "topics": ["Plastic hinge and shape factor", "Collapse mechanisms and plastic analysis of beams", "Portal method", "Cantilever method"]}
+    ]},
+    {"name": "Soil Mechanics", "about": "Properties and behaviour of soils", "chapters": [
+      {"name": "Index Properties and Classification", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Soil formation and three-phase system", "Weight-volume relationships", "Grain size distribution", "Atterberg limits and consistency indices", "Soil classification systems"]},
+      {"name": "Permeability and Seepage", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Darcy's law and coefficient of permeability", "Laboratory and field permeability tests", "Permeability of stratified soils", "Flow nets", "Quick sand condition and piping"]},
+      {"name": "Effective Stress and Stress Distribution", "hours": 6, "weight": 2, "topics": ["Total, neutral and effective stress", "Capillarity", "Boussinesq's theory", "Pressure bulbs and Newmark's chart"]},
+      {"name": "Compaction", "hours": 5, "weight": 1.5, "topics": ["Standard and modified Proctor tests", "Factors affecting compaction", "Field compaction and its control"]},
+      {"name": "Consolidation", "hours": 7, "weight": 2.5, "topics": ["Terzaghi's one-dimensional consolidation theory", "Oedometer test and compression indices", "Preconsolidation pressure", "Time rate of consolidation", "Settlement computation"]},
+      {"name": "Shear Strength", "hours": 7, "weight": 2.5, "topics": ["Mohr-Coulomb failure criterion", "Direct shear test", "Triaxial tests: UU, CU and CD", "Unconfined compression and vane shear tests", "Shear strength of sands and clays"]}
+    ]},
+    {"name": "Foundation Engineering", "about": "Earth pressure, slopes and design of foundations", "chapters": [
+      {"name": "Site Investigation", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Methods of exploration and boring", "Sampling and sample disturbance", "Standard penetration test", "Cone penetration and plate load tests"]},
+      {"name": "Earth Pressure and Retaining Walls", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Earth pressure at rest, active and passive states", "Rankine's theory", "Coulomb's wedge theory", "Stability of retaining walls", "Sheet piles and braced cuts"]},
+      {"name": "Stability of Slopes", "hours": 6, "weight": 2, "topics": ["Infinite slopes", "Swedish circle and method of slices", "Friction circle method", "Taylor's stability number"]},
+      {"name": "Bearing Capacity of Shallow Foundations", "hours": 8, "weight": 2.5, "topics": ["Modes of shear failure", "Terzaghi's bearing capacity theory", "Meyerhof's and IS code methods", "Effect of water table and eccentric loading", "Settlement of foundations"]},
+      {"name": "Deep Foundations", "hours": 8, "weight": 2.5, "topics": ["Classification of piles", "Load capacity of piles: static and dynamic formulas", "Pile groups and group efficiency", "Negative skin friction", "Well foundations and caissons"]},
+      {"name": "Ground Improvement", "hours": 5, "weight": 1, "topics": ["Soil stabilisation", "Preloading and vertical drains", "Grouting and vibro-compaction", "Geosynthetics and reinforced earth"]}
+    ]},
+    {"name": "Open Channel Hydraulics", "about": "Flow in open channels, hydraulic jumps and hydraulic machines", "chapters": [
+      {"name": "Uniform Flow", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Types of open channel flow", "Chezy's and Manning's equations", "Most economical channel sections", "Velocity distribution in channels"]},
+      {"name": "Specific Energy and Critical Flow", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Specific energy diagram", "Critical depth and critical flow", "Specific force", "Channel transitions"]},
+      {"name": "Gradually Varied Flow", "hours": 7, "weight": 2, "topics": ["Dynamic equation of gradually varied flow", "Classification of surface profiles", "Computation of profiles: direct step method", "Backwater curves"]},
+      {"name": "Rapidly Varied Flow", "hours": 6, "weight": 2, "topics": ["Hydraulic jump and sequent depths", "Energy loss and types of jump", "Surges in open channels", "Flow measurement: weirs and flumes"]},
+      {"name": "Pipe Networks and Hydraulic Machines", "hours": 8, "weight": 2, "topics": ["Pipe networks and the Hardy Cross method", "Water hammer", "Hydraulic turbines: Pelton, Francis and Kaplan", "Centrifugal pumps", "Dimensional analysis and model studies"]}
+    ]},
+    {"name": "Engineering Hydrology", "about": "Occurrence, movement and estimation of water", "chapters": [
+      {"name": "Precipitation", "hours": 6, "weight": 2, "foundation": true, "topics": ["Hydrologic cycle and water budget", "Measurement of rainfall", "Mean rainfall over an area", "Intensity-duration-frequency relations", "Consistency and estimation of missing data"]},
+      {"name": "Abstractions from Precipitation", "hours": 5, "weight": 1.5, "topics": ["Evaporation and its estimation", "Evapotranspiration", "Infiltration and Horton's equation", "Infiltration indices"]},
+      {"name": "Runoff and Hydrographs", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Runoff and its estimation", "Stream flow measurement", "Components of a hydrograph and base flow separation", "Unit hydrograph theory", "S-curve and synthetic unit hydrograph"]},
+      {"name": "Floods and Flood Routing", "hours": 7, "weight": 2.5, "topics": ["Estimation of flood peak: rational and empirical methods", "Flood frequency analysis: Gumbel's method", "Reservoir routing", "Channel routing: Muskingum method"]},
+      {"name": "Groundwater Hydrology", "hours": 7, "weight": 2, "topics": ["Aquifers and their properties", "Darcy's law for groundwater flow", "Steady flow to wells", "Unsteady flow and pumping tests", "Well yield"]}
+    ]},
+    {"name": "Irrigation and Hydraulic Structures", "about": "Irrigation, canals, dams and their appurtenances", "chapters": [
+      {"name": "Irrigation Water Requirements", "hours": 6, "weight": 2, "foundation": true, "topics": ["Methods of irrigation", "Soil-water-plant relationships", "Duty, delta and base period", "Consumptive use and irrigation scheduling"]},
+      {"name": "Canal Design", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Canal alignment and classification", "Kennedy's silt theory", "Lacey's regime theory", "Design of lined canals", "Waterlogging and drainage"]},
+      {"name": "Diversion Headworks", "hours": 7, "weight": 2, "topics": ["Components of a diversion headwork", "Bligh's creep theory", "Khosla's theory and exit gradient", "Design of weirs on permeable foundations"]},
+      {"name": "Gravity and Earth Dams", "hours": 9, "weight": 2.5, "topics": ["Forces acting on a gravity dam", "Stability analysis of gravity dams", "Elementary and practical profiles", "Types of earth dams and causes of failure", "Seepage through earth dams and phreatic line"]},
+      {"name": "Spillways and Canal Structures", "hours": 7, "weight": 2, "topics": ["Types of spillways", "Energy dissipators and stilling basins", "Canal falls", "Cross-drainage works", "Canal regulators and outlets"]}
+    ]},
+    {"name": "Concrete Technology", "about": "Properties, mix design and durability of concrete", "chapters": [
+      {"name": "Concrete Ingredients", "hours": 6, "weight": 2, "foundation": true, "topics": ["Cement: hydration and properties", "Aggregates and their properties", "Water quality for concrete", "Chemical admixtures", "Mineral admixtures: fly ash, silica fume and GGBS"]},
+      {"name": "Fresh Concrete", "hours": 6, "weight": 2.5, "foundation": true, "topics": ["Workability and factors affecting it", "Slump, compaction factor and Vee-Bee tests", "Segregation and bleeding", "Batching, mixing, placing and compaction", "Curing methods"]},
+      {"name": "Hardened Concrete", "hours": 7, "weight": 2.5, "topics": ["Compressive, tensile and flexural strength", "Water-cement ratio and gel-space ratio", "Elasticity, creep and shrinkage", "Non-destructive testing"]},
+      {"name": "Mix Design", "hours": 6, "weight": 2.5, "topics": ["Principles of mix proportioning", "IS 10262 method of mix design", "ACI method", "Quality control and acceptance criteria"]},
+      {"name": "Durability and Special Concretes", "hours": 7, "weight": 2, "topics": ["Permeability and durability", "Sulphate attack, carbonation and corrosion of steel", "High-strength and high-performance concrete", "Self-compacting and fibre-reinforced concrete", "Lightweight and ready-mixed concrete"]}
+    ]},
+    {"name": "Design of Reinforced Concrete Structures", "about": "Limit state design of RC members to IS 456", "chapters": [
+      {"name": "Design Philosophy and Materials", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Working stress and limit state methods", "Characteristic strength and partial safety factors", "Stress-strain curves of concrete and steel", "Loads and load combinations"]},
+      {"name": "Flexure in Beams", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Assumptions of limit state of collapse in flexure", "Singly reinforced rectangular beams", "Doubly reinforced beams", "Flanged beams", "Serviceability: deflection and cracking"]},
+      {"name": "Shear, Bond and Torsion", "hours": 7, "weight": 2.5, "topics": ["Shear strength and design of stirrups", "Bond stress and development length", "Anchorage and splicing", "Design for torsion"]},
+      {"name": "Slabs", "hours": 7, "weight": 2, "topics": ["One-way slabs", "Two-way slabs by IS coefficients", "Continuous slabs", "Staircases"]},
+      {"name": "Columns", "hours": 7, "weight": 2.5, "topics": ["Short axially loaded columns", "Columns with uniaxial bending and interaction diagrams", "Biaxial bending", "Slender columns"]},
+      {"name": "Footings and Retaining Walls", "hours": 8, "weight": 2, "topics": ["Isolated footings", "Combined footings", "Cantilever retaining walls", "Water tanks: design principles", "Introduction to prestressed concrete"]}
+    ]},
+    {"name": "Design of Steel Structures", "about": "Limit state design of steel members to IS 800", "chapters": [
+      {"name": "Materials and Design Philosophy", "hours": 4, "weight": 1.5, "foundation": true, "topics": ["Structural steel and rolled sections", "Limit state design to IS 800", "Loads and load combinations", "Classification of cross-sections"]},
+      {"name": "Connections", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Bolted connections: bearing-type bolts", "High-strength friction grip bolts", "Welded connections: fillet and butt welds", "Eccentric connections", "Beam-to-column connections"]},
+      {"name": "Tension Members", "hours": 6, "weight": 2, "topics": ["Net area and shear lag", "Design strength of tension members", "Block shear failure", "Lug angles and splices"]},
+      {"name": "Compression Members", "hours": 8, "weight": 2.5, "topics": ["Buckling and effective length", "Design of axially loaded columns", "Built-up columns: lacing and battening", "Column bases: slab and gusseted bases"]},
+      {"name": "Beams", "hours": 8, "weight": 2.5, "topics": ["Laterally supported beams", "Laterally unsupported beams and lateral-torsional buckling", "Web buckling and crippling", "Built-up beams and plate girders", "Gantry girders"]},
+      {"name": "Roof Trusses and Industrial Buildings", "hours": 6, "weight": 1.5, "topics": ["Types of roof trusses", "Wind loads on roofs", "Design of purlins", "Design of truss members and joints"]}
+    ]},
+    {"name": "Transportation Engineering", "about": "Highway planning, design, materials and traffic", "chapters": [
+      {"name": "Highway Planning and Alignment", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Road development plans in India", "Classification of roads", "Highway alignment and surveys", "Road cross-section elements"]},
+      {"name": "Geometric Design", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Sight distances: stopping and overtaking", "Superelevation", "Widening on curves", "Transition curves", "Gradients and vertical curves"]},
+      {"name": "Highway Materials", "hours": 7, "weight": 2, "topics": ["Subgrade soil and the CBR test", "Tests on road aggregates", "Bitumen: tests and grades", "Bituminous mix design by the Marshall method"]},
+      {"name": "Pavement Design", "hours": 8, "weight": 2.5, "topics": ["Types of pavements and design factors", "Flexible pavement design by the IRC method", "Stresses in rigid pavements: Westergaard's analysis", "Rigid pavement design and joints", "Pavement construction and maintenance"]},
+      {"name": "Traffic Engineering", "hours": 8, "weight": 2.5, "topics": ["Traffic characteristics and studies", "Speed, flow and density relationships", "Capacity and level of service", "Intersection design and rotaries", "Traffic signal design by Webster's method", "Road safety"]},
+      {"name": "Railway and Airport Engineering", "hours": 6, "weight": 1.5, "topics": ["Permanent way and its components", "Geometric design of railway track", "Points and crossings", "Airport layout and runway orientation", "Runway length and corrections"]}
+    ]},
+    {"name": "Environmental Engineering", "about": "Water supply, wastewater treatment and pollution control", "chapters": [
+      {"name": "Water Demand and Quality", "hours": 6, "weight": 2, "foundation": true, "topics": ["Water demand and population forecasting", "Sources of water and intakes", "Physical, chemical and biological water quality", "Drinking water standards"]},
+      {"name": "Water Treatment", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Aeration and plain sedimentation", "Coagulation and flocculation", "Filtration: slow and rapid sand filters", "Disinfection and chlorination", "Water softening and advanced treatment"]},
+      {"name": "Water Distribution", "hours": 5, "weight": 1.5, "topics": ["Distribution systems and layouts", "Service reservoirs", "Pipe network analysis", "Pumps and appurtenances"]},
+      {"name": "Wastewater Characteristics and Collection", "hours": 6, "weight": 2, "topics": ["Quantity of sewage and storm water", "Design of sewers", "BOD, COD and their relationship", "Self-purification of streams and oxygen sag curve"]},
+      {"name": "Wastewater Treatment", "hours": 9, "weight": 2.5, "topics": ["Primary treatment: screening, grit removal and sedimentation", "Activated sludge process", "Trickling filters", "Oxidation ponds and aerated lagoons", "Sludge digestion and disposal", "Septic tanks"]},
+      {"name": "Solid Waste, Air and Noise Pollution", "hours": 6, "weight": 1.5, "topics": ["Municipal solid waste management", "Air pollutants and their effects", "Air pollution control devices", "Noise pollution and its control"]}
+    ]},
+    {"name": "Construction Planning and Management", "about": "Planning, scheduling and controlling construction projects", "chapters": [
+      {"name": "Project Planning and Scheduling", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Construction project life cycle", "Work breakdown structure", "Bar charts and milestone charts", "Critical path method and floats", "PERT and probability of completion"]},
+      {"name": "Resource and Cost Management", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["Resource allocation and levelling", "Time-cost trade-off and crashing", "Cost control and earned value", "Updating of networks"]},
+      {"name": "Construction Equipment", "hours": 6, "weight": 2, "topics": ["Earth-moving equipment", "Hoisting and conveying equipment", "Concrete production and placing equipment", "Equipment selection and owning costs"]},
+      {"name": "Contracts and Tendering", "hours": 6, "weight": 2, "topics": ["Types of contracts", "Tendering process", "Contract conditions and claims", "Arbitration"]},
+      {"name": "Quality and Safety", "hours": 5, "weight": 1.5, "topics": ["Quality control in construction", "Construction safety management", "Labour laws", "Building information modelling overview"]}
+    ]},
+    {"name": "Estimation, Costing and Valuation", "about": "Quantities, rates and the worth of civil works", "chapters": [
+      {"name": "Estimation of Quantities", "hours": 9, "weight": 2.5, "foundation": true, "topics": ["Types of estimates", "Units and methods of measurement", "Long wall-short wall and centre line methods", "Estimate of a building", "Estimates of roads and earthwork", "Bar bending schedule"]},
+      {"name": "Specifications and Rate Analysis", "hours": 7, "weight": 2.5, "foundation": true, "topics": ["General and detailed specifications", "Analysis of rates for earthwork and concrete", "Analysis of rates for masonry and finishes", "Schedule of rates"]},
+      {"name": "Valuation", "hours": 7, "weight": 2, "topics": ["Purpose and methods of valuation", "Depreciation and sinking fund", "Rent fixation", "Valuation of land and buildings"]},
+      {"name": "Tenders and Accounts", "hours": 5, "weight": 1.5, "topics": ["Tender documents and notice", "Measurement book and bills", "Public works accounts", "Arbitration basics"]}
+    ]},
+    {"name": "Earthquake Engineering", "about": "Structural dynamics and seismic design", "chapters": [
+      {"name": "Engineering Seismology", "hours": 5, "weight": 1.5, "foundation": true, "topics": ["Causes of earthquakes and seismic waves", "Magnitude and intensity", "Seismic zoning of India", "Strong ground motion"]},
+      {"name": "Single-Degree-of-Freedom Systems", "hours": 8, "weight": 2.5, "foundation": true, "topics": ["Free vibration of undamped and damped systems", "Response to harmonic loading", "Response to arbitrary loading and Duhamel's integral", "Response spectrum"]},
+      {"name": "Multi-Degree-of-Freedom Systems", "hours": 7, "weight": 2, "topics": ["Equations of motion for shear buildings", "Natural frequencies and mode shapes", "Modal superposition", "Modal combination rules"]},
+      {"name": "Seismic Design to IS 1893", "hours": 8, "weight": 2.5, "topics": ["Design philosophy and seismic coefficients", "Equivalent static method", "Response spectrum method", "Storey drift and irregularities", "Soft storey and torsion"]},
+      {"name": "Ductile Detailing", "hours": 6, "weight": 2, "topics": ["Ductility and capacity design", "Ductile detailing of beams and columns to IS 13920", "Shear walls", "Seismic retrofitting and base isolation"]}
+    ]}
+  ]
+}

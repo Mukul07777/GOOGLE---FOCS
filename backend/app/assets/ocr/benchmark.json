@@ -1,0 +1,146 @@
+{
+  "generated": "2026-10-01",
+  "images": 240,
+  "lines": 1075,
+  "cer_ignores_spaces": true,
+  "engines": {
+    "auto": {
+      "cer": 0.0051,
+      "line_acc": 0.9665,
+      "wer": null,
+      "ms_per_image": 1043.0
+    },
+    "focs": {
+      "cer": 0.0048,
+      "line_acc": 0.9693,
+      "wer": null,
+      "ms_per_image": 423.9
+    },
+    "rapid": {
+      "cer": 0.0727,
+      "line_acc": 0.6326,
+      "wer": null,
+      "ms_per_image": 660.3
+    }
+  },
+  "by_style": {
+    "chalkboard": {
+      "auto": 0.0087,
+      "focs": 0.0075,
+      "rapid": 0.0908
+    },
+    "code screen": {
+      "auto": 0.0038,
+      "focs": 0.0044,
+      "rapid": 0.0586
+    },
+    "notebook": {
+      "auto": 0.0023,
+      "focs": 0.0017,
+      "rapid": 0.0664
+    },
+    "pen tablet": {
+      "auto": 0.0017,
+      "focs": 0.0017,
+      "rapid": 0.0695
+    },
+    "slide": {
+      "auto": 0.0065,
+      "focs": 0.0065,
+      "rapid": 0.0747
+    },
+    "whiteboard": {
+      "auto": 0.0063,
+      "focs": 0.0058,
+      "rapid": 0.0704
+    }
+  },
+  "examples": [
+    {
+      "gt": [
+        "d/dx (e^x) = e^x",
+        "Illustration 18",
+        "C₆H₁₂O₆"
+      ],
+      "pred": [
+        "d/dx (e^x) = e^x",
+        "Illustration 18",
+        "C₆H₁₂O₆"
+      ]
+    },
+    {
+      "gt": [
+        "(iii)",
+        "Z = √(R² + (XL - XC)²)",
+        "Straight Lines"
+      ],
+      "pred": [
+        "(iii)",
+        "Z = √(R² + (XL - XC)²)",
+        "Straight Lines"
+      ]
+    },
+    {
+      "gt": [
+        "work is a scalar quantity",
+        "Take g = 10 m/s²",
+        "L = Iω",
+        "Important!",
+        "Limits and Continuity"
+      ],
+      "pred": [
+        "work is a scalar quantity",
+        "Take g = 10 m/s²",
+        "L = Iω",
+        "Important!",
+        "Limits and Continuity"
+      ]
+    },
+    {
+      "gt": [
+        "P(A∪B) = P(A) + P(B) - P(A∩B)",
+        "Carbocation",
+        "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+        "Potentiometer"
+      ],
+      "pred": [
+        "P(A∪B) = P(A) + P(B) - P(A∩B)",
+        "Carbocation",
+        "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+        "Potentiometer"
+      ]
+    },
+    {
+      "gt": [
+        "The ratio of current is 7:1",
+        "Find the current",
+        "Therefore z = 46.92 Wb",
+        "s = ut + ½at²"
+      ],
+      "pred": [
+        "The ratio of current is 7:1",
+        "Find the current",
+        "Therefore z = 46.92 Wb",
+        "s = ut + ½at²"
+      ]
+    },
+    {
+      "gt": [
+        "v = fλ",
+        "(i)",
+        "Consider a block of mass 31 kg",
+        "R = 8.314 J/mol K",
+        "2H₂ + O₂ → 2H₂O",
+        "Take g = 10 m/s²"
+      ],
+      "pred": [
+        "v = fλ",
+        "i)",
+        "Consider a block of mass 31 kg",
+        "R = 8.314 J/mol K",
+        "2H₂ + O₂ → 2H₂O",
+        "Take g = 10 m/s²"
+      ]
+    }
+  ]
+}

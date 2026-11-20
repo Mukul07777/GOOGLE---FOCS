@@ -1,0 +1,158 @@
+# 12 | Mathematics | Mathematics Part II | lemh2 | pages 14
+=== page 11
+Contents of
+MATHEMATICS PART I
+For Class XII
+Chapter 1
+Relations and Functions
+1 - 17
+Chapter 2
+Inverse Trigonometric Functions
+18 - 33
+Chapter 3
+Matrices
+34 - 75
+Chapter 4
+Determinants
+76 - 103
+Chapter 5
+Continuity and Differentiability
+104 - 146
+Chapter 6
+Application of Derivatives
+147 - 186
+Appendix 1: Proofs in Mathematics
+187 - 195
+Appendix 2: Mathematical Modelling
+196 - 207
+Answers
+208 - 224
+Reprint 2026-27
+
+=== page 12
+Contents
+PART II
+Foreword
+iii
+Rationalisation of Content in the Textbooks
+v
+Preface
+vii
+7.
+Integrals
+225
+7.1
+Introduction
+225
+7.2
+Integration as an Inverse Process of Differentiation
+226
+7.3
+Methods of Integration
+235
+7.4
+Integrals of Some Particular Functions
+243
+7.5
+Integration by Partial Fractions
+252
+7.6
+Integration by Parts
+259
+7.7
+Definite Integral
+267
+7.8
+Fundamental Theorem of Calculus
+267
+7.9
+Evaluation of Definite Integrals by Substitution
+271
+7.10 Some Properties of Definite Integrals
+273
+8.
+Application of Integrals
+292
+8.1
+Introduction
+292
+8.2
+Area under Simple Curves
+292
+9.
+Differential Equations
+300
+9.1
+Introduction
+300
+9.2
+Basic Concepts
+300
+9.3
+General and Particular Solutions of a
+304
+Differential Equation
+9.4
+Methods of Solving First Order, First Degree
+306
+Differential Equations
+10.
+Vector Algebra
+338
+10.1 Introduction
+338
+10.2 Some Basic Concepts
+338
+10.3 Types of Vectors
+341
+10.4 Addition of Vectors
+343
+10.5 Multiplication of a Vector by a Scalar
+346
+10.6 Product of Two Vectors
+355
+Reprint 2026-27
+
+=== page 13
+11.
+Three Dimensional Geometry
+377
+11.1
+Introduction
+377
+11.2
+Direction Cosines and Direction Ratios of a Line
+377
+11.3
+Equation of a Line in Space
+381
+11.4
+Angle between Two Lines
+383
+11.5
+Shortest Distance between Two Lines
+385
+12.
+Linear Programming
+394
+12.1 Introduction
+394
+12.2 Linear Programming Problem and its Mathematical Formulation
+395
+13.
+Probability
+406
+13.1 Introduction
+406
+13.2 Conditional Probability
+406
+13.3 Multiplication Theorem on Probability
+415
+13.4 Independent Events
+417
+13.5 Bayes' Theorem
+423
+Answers
+439
+xiv
+Reprint 2026-27

@@ -1,0 +1,12 @@
+NUMBERED
+4.1 Introduction to Queue
+4.2 Operations on Queue
+4.3 Implementation of Queue using Python
+4.4 Introduction to Deque
+4.5 Implementation of Deque Using Python
+BIG
+Queue
+Summary
+Exercise
+SAMPLE
+In this Chapter »» Introduction to Queue »» Operations on Queue »» Implementation of Queue using Python »» Introduction to Deque »» Implementation of Deque using Python C h a p t e r “We could say we want the Web to reflect a vision of the world where everything is done democratically. To do that, we get computers to talk with each other in such a way as to promote that ideal.” — Tim Berners-Lee 4 4.1 Introduction to Queue In the previous chapter we learned about a data structure called Stack, which works on Last-In- First-Out (LIFO) principle. In this chapter, we will learn about another data structure called Queue which works on First-In-First-Out (FIFO) principle. Queue is an ordered linear list of elements, having different ends for adding and removing elements in it. Examples of queue in our everyday life include students standing in a queue for morning assembly, customers forming a queue at the cash counter in a bank (Figure 4.1), vehicles queued at fuel pumps (Figure 4.2), etc. Queue Figure 4.1: Queue of people at a bank Next Cashier Reprint 2026-27 Computer Science - Class XII 54 4.1.1 First In First Out (FIFO) Queue follows the principle of First In First Out (FIFO), since the element entering first in the queue will be the first one to come out of it. Thus, the element that has been longest in the queue will be removed first. It is also known as a First Come First Served (FCFS) approach. Queue is an arrangement in which new objects/items always get added at one end, usually called the REAR, and objects/items always get removed from the other end, usually called the FRONT of the queue. REAR is also known as TAIL and FRONT as HEAD of a queue. 4.1.2 Applications of Queue (A) The concept of queue has many applications in real-life: • If a train ticket is in the wa

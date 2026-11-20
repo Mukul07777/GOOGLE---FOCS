@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Focs reads the board of any lecture, writes exam-ready notes, pops quizzes while you watch, runs full mock tests and lets you study with friends." />
+    <meta name="theme-color" content="#e9e7e3" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Focs" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Focs" />
+    <meta property="og:title" content="Focs — Every lecture, understood" />
+    <meta property="og:description" content="AI notes from any lecture board, pop quizzes, full mock tests and study rooms — made for India's students." />
+    <meta property="og:image" content="/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/og.png" />
+    <title>Focs — Every lecture, understood</title>
+    <script>
+      try {
+        // Stone (light) is Focs's first look; Ink (dark) is for whoever switches to it (top right).
+        // The key is THEME_KEY in src/stores/theme.ts.
+        if (localStorage.getItem("focs-look-4") === "dark") {
+          document.documentElement.dataset.theme = "dark";
+          document.querySelector('meta[name="theme-color"]').setAttribute("content", "#0e0e0d");
+        }
+      } catch (e) {}
+    </script>
+    <style>
+      html { background: #e9e7e3; color: #171614; }
+      html[data-theme="dark"] { background: #0e0e0d; color: #f1efea; }
+      .boot { position: fixed; inset: 0; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: center; }
+      .boot-bar { position: relative; width: 96px; height: 2px; overflow: hidden; background: color-mix(in srgb, currentColor 15%, transparent); }
+      .boot-bar::after { content: ""; position: absolute; inset: 0; width: 40%; background: currentColor; animation: boot 1.1s ease-in-out infinite; }
+      @keyframes boot { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+      @media (prefers-reduced-motion: reduce) { .boot-bar::after { animation: none; } }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- what a slow connection sees until the app has loaded -->
+      <div class="boot" role="status" aria-label="Loading Focs">
+        <svg viewBox="0 0 64 64" width="44" height="44" aria-hidden="true"><path d="M5 20V5h15M44 5h15v15M59 44v15H44M20 59H5V44" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="32" r="4.5" fill="#C9975B"/></svg>
+        <span class="boot-bar"></span>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

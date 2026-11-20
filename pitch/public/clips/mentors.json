@@ -1,0 +1,22 @@
+{
+  "name": "mentors",
+  "seconds": 29.04,
+  "frames": 865,
+  "fps": 29.8,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "upsc",
+      "t": 8.87
+    },
+    {
+      "label": "sessions",
+      "t": 14.34
+    },
+    {
+      "label": "end",
+      "t": 28.63
+    }
+  ]
+}

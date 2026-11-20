@@ -1,0 +1,22 @@
+{
+  "name": "lecture",
+  "seconds": 18.99,
+  "frames": 778,
+  "fps": 41,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "open",
+      "t": 3.71
+    },
+    {
+      "label": "sheet",
+      "t": 11.23
+    },
+    {
+      "label": "end",
+      "t": 18.58
+    }
+  ]
+}

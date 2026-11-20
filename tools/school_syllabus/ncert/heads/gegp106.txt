@@ -1,0 +1,16 @@
+NUMBERED
+6.1 Numbers Tell us Things
+6.2 Picking Parity
+6.3 Some Explorations in Grids
+6.4 Nature’s Favourite Sequence: The Virahāṅka– Fibonacci Numbers!
+6.5 Digits in Disguise
+BIG
+6.1 Numbers Tell us Things
+6 NUMBER PLAY
+6.2 Picking Parity
+6.3 Some Explorations in Grids
+6.4 Nature’s Favourite Sequence: The Virahāṅka– Fibonacci Numbers!
+6.5 Digits in Disguise
+SUMMARY
+SAMPLE
+6.1 Numbers Tell us Things What do the numbers in the figure below tell us? Remember the children from the Grade 6 textbook of mathematics? Now, they call out numbers using a different rule. What do you think these numbers mean? The children rearrange themselves and each one says a number based on the new arrangement. Could you figure out what these numbers convey? Observe and try to find out. NUMBER PLAY 6 Reprint 2026-27 Ganita Prakash | Grade 7 The rule is — each child calls out the number of children in front of them who are taller than them. Check if the number each child says matches this rule in both the arrangements. Write down the number each child should say based on this rule for the arrangement shown below. Figure it Out 1. Arrange the stick figure cutouts given at the end of the book or draw a height arrangement such that the sequence reads: (a) 0, 1, 1, 2, 4, 1, 5 (b) 0, 0, 0, 0, 0, 0, 0 (c) 0, 1, 2, 3, 4, 5, 6 (d) 0, 1, 0, 1, 0, 1, 0 (e) 0, 1, 1, 1, 1, 1, 1 (f) 0, 0, 0, 3, 3, 3, 3 2. For each of the statements given below, think and identify if it is Always True, Only Sometimes True, or Never True. Share your reasoning. (a) If a person says ‘0’, then they are the tallest in the group. (b) If a person is the tallest, then their number is ‘0’. (c) The first person’s number is ‘0’. (d) If a person is not first or last in line (i.e., if they are standing somewhere in between), then they cannot say ‘0’. (e) The person who calls out the largest number is the shortest. (f) What is the largest number possible in a group of 8 people? 128 Reprint 2026-27 Number Play 6.2 Picking Parity Kishor has some number cards and is working on a puzzle: There are 5 boxes, and each box should contain exactly 1 number card. The numbers in the boxes should sum to 30. Can you help 

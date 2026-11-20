@@ -1,0 +1,23 @@
+NUMBERED
+2.1 Generally Accepted Accounting Principles
+2.2 Basic Accounting Concepts
+2.2.1 Business Entity Concept
+2.2.2 Money Measurement Concept
+2.2.3 Going Concern Concept
+2.2.4 Accounting Period Concept
+2.2.5 Cost Concept
+2.2.6 Dual Aspect Concept
+2.2.7 Revenue Recognition (Realisation) Concept
+2.2.8 Matching Concept
+2.2.9 Full Disclosure Concept
+2.2.10 Consistency Concept
+2.2.11 Conservatism Concept
+2.2.12 Materiality Concept
+2.2.13 Objectivity Concept
+2.3 Systems of Accounting
+2.4 Basis of Accounting
+2.5 Accounting Standards
+BIG
+Theory Base of Accounting 2
+SAMPLE
+25 Theory Base of Accounting Learning Objectives After studying this chapter, you will be able to: • identify the need for theory base of acco- unting; • explain the nature of Generally Accepted Accounting Principles (GAAP); • state the meaning and purpose of the basic accounting concepts; • list the accounting standards issued by Institute of Chartered Accountants of India; • describe the systems of accounting; and • describe the basis of accounting. A s discussed in the previous chapter, accounting is concerned with the recording, classifying and summaris­ing of financial transactions and events and interpreting the results thereof. It aims at providing information about the financial performance of a firm to its various users such as owners, managers employees, investors, creditors, suppliers of goods and services and tax authorities and help them in taking important decisions. The investors, for example, may be interested in knowing the extent of profit or loss earned by the firm during a given period and compare it with the performance of other similar enterprises. The suppliers of credit, say a banker, may, in addition, be interested in liquidity position of the enterprise. All these people look forward to accounting for appropriate, useful and reliable information. For making the accounting information meaningful to its internal and external users, it is important that such information is reliable as well as comparable. The comparability of information is required both to make inter-firm comparisons, i.e. to see how a firm has performed as compared to the other firms, as well as to make inter-period comparison, i.e. how it has performed as compared to the previous years. This becomes possible only if the information provided by the financial statements is based o

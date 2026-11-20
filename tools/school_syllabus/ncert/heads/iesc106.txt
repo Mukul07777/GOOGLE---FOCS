@@ -1,0 +1,32 @@
+NUMBERED
+6.1 The Concept of Force
+6.1.1 Measuring the magnitude of a force
+6.2 Balanced and Unbalanced Forces
+6.3 The Force of Friction: Often Overlooked but Always Present
+6.4 Newton’s First Law of Motion
+6.5 Newton’s Second Law of Motion
+6.6 Newton’s Third Law of Motion
+6.7 Forces Acting on a System of Objects
+BIG
+How Forces Affect
+Motion
+6.1 The Concept of Force
+6.2 Balanced and Unbalanced Forces
+6.3 The Force of Friction: Often Overlooked but Always Present
+6.4 Newton’s First Law of Motion
+6.5 Newton’s Second Law of Motion
+6.6 Newton’s Third Law of Motion
+6.7 Forces Acting on a System of Objects
+At a Glance
+y The force of friction acts on an object in the direction opposite to its
+y Newton’s first law of motion: An object at rest remains at rest, and an
+y Newton’s second law of motion: When a net force acts on an object,
+y Newton’s third law of motion: Whenever one object is exerting a
+Revise, Reflect, Refine
+y You know that the force of friction depends on the nature of the
+y Take two toy cars of equal mass and stick a bar magnet on top of
+y Wrap a rope once around a rough tree branch or post. Attach
+y It is often instructive to examine how scientific ideas develop over
+The Journey Beyond
+SAMPLE
+How Forces Affect Motion Chapter 6 In Chapter 4, you learnt to describe the motion of an object in terms of its position, velocity and acceleration. But you did not consider what causes motion. Is there an underlying cause for a change in position and velocity of an object? What is the nature of this cause? Do all motions require a cause? In this chapter, we will investigate what causes changes in the motion of objects. We will also discuss Newton’s three laws of motion and learn how to apply them. 6.1 The Concept of Force You may recall learning earlier that a force can make an object move from rest, change the speed and direction of motion of a moving object, and can even change the shape of an object. For example, a ball at rest starts moving when you apply a force, a force applied by a cricket bat on a cricket ball changes its direction, and a lemon can be squeezed by the force applied by your fingers (Fig. 6.1). (c) Squeezing a lemon Fig. 6.1: Applying force on different objects (b) Striking a ball (a) Kicking a ball Grade 8 Curiosity Chapter 5 Think It Over y Why does a canoe move forward when the canoeist pushes water backwards with their paddle and why does it move faster when they push harder? y Suppose the same canoeist uses the same paddle force in two different canoes, one empty and one carrying another passenger. In which case will the canoe move faster? How Forces Affect Motion 95 Fig. 6.3: (a) Pushing a box kept on table or floor Force by hand Force of friction Fig. 6.2: Measuring the weight of an object using a spring balance While learning about force earlier, did you notice that whenever any type of force acting on an object was described, its direction was also specified? For example, the phrases used were, force of friction acting on an object in a d

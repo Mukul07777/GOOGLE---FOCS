@@ -1,0 +1,194 @@
+# 12 | Economics | Introductory Microeconomics | leec2 | pages 10
+=== page 7
+The National Council of Educational Research and Training (NCERT)
+acknowledges the invaluable contribution of academicians and
+practising school teachers for bringing out this textbook. We are grateful
+to Anjan Mukherjee, Professor, JNU, for going through the manuscript
+and suggesting relevant changes. We thank Jhaljit Singh, Reader,
+Department of Economics, University of Manipur for his contribution.
+We also thank our colleagues Neeraja Rashmi, Reader, Curriculum
+Group; M.V. Srinivasan, Ashita Raveendran, Lecturers, Department
+of Education in Social Sciences and Humanities (DESSH), for their
+feedback and suggestions.
+We would like to place on record the precious advise of (Late) Dipak
+Banerjee, Professor (Retd.), Presidency College, Kolkata. We could have
+benefited much more of his expertise, had his health permitted.
+The practising school teachers have helped in many ways. The
+Council expresses its gratitude to A.K. Singh, PGT (Economics), Kendriya
+Vidyalaya, Varanasi, Uttar Pradesh; Ambika Gulati, Head, Department
+of Economics, Sanskriti School; B.C. Thakur, PGT (Economics),
+Government Pratibha Vikas Vidyalaya, Surajmal Vihar; Ritu Gupta,
+Principal, Sneh International School, Shoban Nair, PGT (Economics),
+Mother’s International School, Rashmi Sharma, PGT (Economics),
+Kendriya Vidalaya, JNU Campus, New Delhi.
+We thank Savita Sinha, Professor and Head, DESSH, for her support.
+Special thanks are due to Vandana R. Singh, Consultant Editor,
+NCERT for going through the manuscript.
+The council also gratefully acknowledges the contributions of Dinesh
+Kumar, In-charge, Computer Station; Amar Kumar Prusty and Neena
+Chandra, Copy Editors; in shaping this book. The contribution of the
+Publication Department in bringing out this book is duly acknowledged.
+This textbook has been reviewed with the support of experts like
+Meeta Kumar, Associate Professor, Miranda House, University of Delhi;
+Shalini Saksena, Associate Professor, DCAC; and Bharat Garg,
+Assistant Professor, Shyam Lal College, University of Delhi. Their
+contributions are duly acknowledged.
+ The council is also thankful to Tampakmayum Alan Mustofa,  JPF;
+Ayaz Ahmad Ansari, Farheen Fatima and Amjad Husain, DTP Operators,
+in shaping this textbook.
+The Council also acknowledges the efforts of Neerja Rashmi,
+Professor, DESS, NCERT; M.V. Srinivasan, DESS, NCERT; Jaya Singh,
+DESS, NCERT; Pratima Kumari, Associate Professor, DESS, NCERT;
+Ashita Raveendran, Associate Professor, PMD, NCERT; Sabita Patnaik,
+PGT  Economics, DMS, RIE, Bhubaneshwar; Anita Raveendra PGT
+Economics, DMS, RIE, Mysore, towards the rationalishtion of content
+of the textbook.
+Reprint 2026-27
+
+=== page 8
+Contents
+Foreword
+iii
+1. INTRODUCTION
+1
+1.1 A Simple Economy
+1
+1.2 Central Problems of an Economy
+2
+1.3 Organisation of Economic Activities
+4
+1.3.1 The Centrally Planned Economy
+4
+1.3.2 The Market Economy
+5
+1.4 Positive and Normative Economics
+6
+1.5 Microeconomics and Macroeconomics
+6
+1.6 Plan of the Book
+6
+2. THEORY OF CONSUMER BEHAVIOUR
+8
+2.1 Utility
+8
+2.1.1 Cardinal Utility Analysis
+9
+2.1.2 Ordinal Utility Analysis
+11
+2.2 The Consumer’s Budget
+15
+2.2.1 Budget Set and Budget Line
+15
+2.2.2 Changes in the Budget Set
+17
+2.3 Optimal Choice of the Consumer
+19
+2.4 Demand
+21
+2.4.1 Demand Curve and the Law of Demand
+21
+2.4.2 Deriving a Demand Curve from Indifference
+Curves and Budget Constraints
+23
+2.4.3 Normal and Inferior Goods
+24
+2.4.4 Substitutes and Complements
+25
+2.4.5 Shifts in the Demand Curve
+25
+2.4.6 Movements along the Demand Curve and Shifts
+26
+in the Demand Curve
+2.5 Market Demand
+26
+2.6 Elasticity of Demand
+27
+2.6.1 Elasticity along a Linear Demand Curve
+29
+2.6.2 Factors Determining Price Elasticity of Demand for a Good 31
+2.6.3 Elasticity and Expenditure
+31
+3. PRODUCTION AND COSTS
+36
+3.1 Production Function
+36
+3.2 The Short Run and the Long Run
+38
+3.3 Total Product, Average Product and Marginal Product
+39
+3.3.1 Total Product
+39
+3.3.2 Average Product
+39
+3.3.3 Marginal Product
+39
+Reprint 2026-27
+
+=== page 9
+3.4 The Law of Diminishing Marginal Product and the Law of
+40
+Variable Proportions
+3.5 Shapes of Total Product, Marginal Product and Average Product Curves
+41
+3.6 Returns to Scale
+42
+3.7 Costs
+43
+3.7.1 Short Run Costs
+43
+3.7.2 Long Run Costs
+48
+4. THE THEORY OF THE FIRM UNDER PERFECT COMPETITION
+53
+4.1 Perfect Competition: Defining Features
+53
+4.2 Revenue
+54
+4.3 Profit Maximisation
+56
+4.3.1 Condition 1
+56
+4.3.2 Condition 2
+56
+4.3.3 Condition 3
+57
+4.3.4 The Profit Maximisation Problem: Graphical Representation
+58
+4.4 Supply Curve of a Firm
+59
+4.4.1 Short Run Supply Curve of a Firm
+59
+4.4.2 Long Run Supply Curve of a Firm
+60
+4.4.3 The Shut Down Point
+61
+4.4.4 The Normal Profit and Break-even Point
+61
+4.5 Determinants of a Firm’s Supply Curve
+62
+4.5.1 Technological Progress
+62
+4.5.2 Input Prices
+62
+4.6 Market Supply Curve
+63
+4.7 Price Elasticity of Supply
+65
+5. MARKET EQUILIBRIUM
+71
+5.1 Equilibrium, Excess Demand, Excess Supply
+71
+5.1.1 Market Equilibrium: Fixed Number of Firms
+72
+5.1.2 Market Equilibrium: Free Entry and Exit
+80
+5.2 Applications
+84
+5.2.1 Price Ceiling
+84
+5.2.2 Price Floor
+85
+Glossary
+88
+x
+Reprint 2026-27

@@ -1,0 +1,9 @@
+node_modules/
+# the web app as built for the phone (made by build_apk.bat)
+www/
+# the built app, and the key a release is signed with
+*.apk
+*.aab
+keystore.properties
+*.jks
+*.keystore

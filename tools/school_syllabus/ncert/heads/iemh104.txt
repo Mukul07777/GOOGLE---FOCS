@@ -1,0 +1,37 @@
+NUMBERED
+4.1 Introduction
+4.2 Visualising Identities
+4.3 Factorisation of Algebraic Expressions Using Identities
+4.5 Factorisation Using Algebra Tiles
+4.6 Factorisation Without Using Algebra Tiles
+4.7 Finding New Identities
+4.8 Simplifying Rational Expressions
+BIG
+Exploring Algebraic Identities
+4.1 Introduction
+Think and Reflect
+4.2 Visualising Identities
+Exercise Set 4.1
+4.3 Factorisation of Algebraic Expressions Using Identities
+Exercise Set 4.2
+4.4. More Identities
+Exercise Set 4.3
+4.5 Factorisation Using Algebra Tiles
+4.6 Factorisation Without Using Algebra Tiles
+Thus, x2 +11x + 30 = x2 + (5+6)x +30 =(x + 5)(x + 6).
+Exercise Set 4.4
+4.7 Finding New Identities
+We already know that ( )( ) .
+Further, we have verified that x3 − y3 =(x − y)(x2 + xy+ y2) .
+4.8 Simplifying Rational Expressions
+( − )( − )
+( − )
+( ) ( +5)
+( + )
+Exercise Set 4.5
+( + − )( − + )
+( − + )( − )
+End-of-Chapter Exercises
+Chapter summary
+SAMPLE
+Exploring Algebraic Identities 4.1 Introduction In earlier chapters, you learnt about linear polynomials and how they can be used to represent and solve real-life problems. You also studied linear equations and discovered how they describe relationships between quantities. In this chapter, we will take the next step by exploring algebraic identities. These are special mathematical rules that not only make it easier to simplify complicated calculations but also help us work efficiently with algebraic expressions. Let us begin by exploring a few simple patterns. Example 1: Consider any three consecutive square numbers. For example, 1, 4, and 9. Add the smallest and the largest squares. Thus, 1 + 9 = 10. Then subtract twice the middle square from this sum. This leads to 10 – (2 × 4) = 10 – 8 = 2. Now try the same process with another set of three consecutive square numbers. Say 9, 16, 25. For example, consider the consecutive squares 25, 36, 49. Applying the same rule we get (25 + 49) – (2 × 36) = 74 – 72 = 2. Repeat this process with other sets of three consecutive square numbers. The result always seems to be 2! The pattern may look surprising, but soon we will uncover the reason behind it using algebra. 4 69 Exploring Algebraic Identities Think and Reflect Try and find other patterns like this one. For example, you could ­consider 4 consecutive squares and see if you can find a pattern. 4.2 Visualising Identities In this section we will revisit some algebraic identities that we have studied in earlier grades and try to visualise them using geometrical models. In particular, we will use squares and rectangles to represent terms. Consider two line segments of lengths a and b units, respectively, and make a longer line segment of length (a + b) units as shown in Fig. 4.1. 

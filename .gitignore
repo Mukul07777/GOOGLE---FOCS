@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets & local data
+.env
+backend/focs.db
+backend/focs.db-*
+backend/storage/
+_backup/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/npm-install.log
+
+# ML
+ml/runs/
+ml/data/fonts/
+ml/data/corpus/
+ml/data/bench/
+ml/.venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# safety: env files saved without the leading dot
+backend/env
+env.txt
+
+# PYQ source PDFs: imported into the question bank, never committed
+data/pyq/
+
+# real-board benchmark: frames stay local (licences vary), the hand-checked labels are shared
+ml/data/real/*
+!ml/data/real/labels.json
+
+# Launch plan: prices, costs and budget, shared directly rather than in the public repos
+launch/
+
+# server login keys (AWS .pem and the like): never in git
+*.pem
+*.ppk
+keys/
+data/ssc/
+data/pyq_md/

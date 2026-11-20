@@ -1,0 +1,33 @@
+NUMBERED
+11.1 Introduction
+11.2 Direction Cosines and Direction Ratios of a Line
+11.3 Equation of a Line in Space
+11.4 Angle between Two Lines
+11.5 Shortest Distance between Two Lines
+BIG
+Chapter 11
+THREE DIMENSIONAL GEOMETRY
+ANote Some authors also call direction ratios as direction numbers.
+ANote The direction ratios of the line segment joining P(x1, y1, z1) and Q(x2, y2, z2)
+ANote If l, m, n are the direction cosines of the line, the equation of the line is
+ANote In case the lines L1 and L2 do not pass through the origin, we may take
+® Direction cosines of a line are the cosines of the angles made by the line
+® If l, m, n are the direction cosines of a line, then l2 + m2 + n2 = 1.
+® Direction cosines of a line joining two points P(x1, y1, z1) and Q(x2, y2, z2) are
+® Direction ratios of a line are the numbers which are proportional to the
+® If l, m, n are the direction cosines and a, b, c are the direction ratios of a line
+® Skew lines are lines in space which are neither parallel nor intersecting.
+® Angle between skew lines is the angle between two intersecting lines
+® If l1, m1, n1 and l2, m2, n2 are the direction cosines of two lines; and θ is the
+® If a1, b1, c1 and a2, b2, c2 are the direction ratios of two lines and θ is the
+® Vector equation of a line that passes through the given point whose position
+® Equation of a line through a point (x1, y1, z1) and having direction cosines l, m, n is
+® The vector equation of a line which passes through two points whose position
+® If θ is the acute angle between
+® If
+® Shortest distance between two skew lines is the line segment perpendicular
+® Shortest distance between
+® Shortest distance between the lines:
+® Distance between parallel lines
+SAMPLE
+THREE DIMENSIONAL GEOMETRY 377 v The moving power of mathematical invention is not reasoning but imagination. – A.DEMORGAN v 11.1 Introduction In Class XI, while studying Analytical Geometry in two dimensions, and the introduction to three dimensional geometry, we confined to the Cartesian methods only. In the previous chapter of this book, we have studied some basic concepts of vectors. We will now use vector algebra to three dimensional geometry. The purpose of this approach to 3-dimensional geometry is that it makes the study simple and elegant*. In this chapter, we shall study the direction cosines and direction ratios of a line joining two points and also discuss about the equations of lines and planes in space under different conditions, angle between two lines, two planes, a line and a plane, shortest distance between two skew lines and distance of a point from a plane. Most of the above results are obtained in vector form. Nevertheless, we shall also translate these results in the Cartesian form which, at times, presents a more clear geometric and analytic picture of the situation. 11.2 Direction Cosines and Direction Ratios of a Line From Chapter 10, recall that if a directed line L passing through the origin makes angles α, β and γ with x, y and z-axes, respectively, called direction angles, then cosine of these angles, namely, cos α, cos β and cos γ are called direction cosines of the directed line L. If we reverse the direction of L, then the direction angles are replaced by their supplements, i.e., , and . Thus, the signs of the direction cosines are reversed. Chapter 11 THREE DIMENSIONAL GEOMETRY * For various activities in three dimensional geometry, one may refer to the Book “A Hand Book for designing Mathematics Laboratory in Schools”, NCERT, 2005 Leonh

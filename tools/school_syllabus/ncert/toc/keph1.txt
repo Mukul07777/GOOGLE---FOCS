@@ -1,0 +1,161 @@
+# 11 | Physics | Physics Part I | keph1 | pages 16
+=== page 13
+4.7
+Conservation of momentum
+57
+4.8
+Equilibrium of a particle
+58
+4.9
+Common forces in mechanics
+59
+4.10
+Circular motion
+63
+4.11
+Solving problems in mechanics
+64
+C H A P T E R   5
+WORK, ENERGY AND POWER
+5.1
+Introduction
+71
+5.2
+Notions of work and kinetic energy : The work-energy theorem
+73
+5.3
+Work
+73
+5.4
+Kinetic energy
+74
+5.5
+Work done by a variable force
+75
+5.6
+The work-energy theorem for a variable force
+76
+5.7
+The concept of potential energy
+77
+5.8
+The conservation of mechanical energy
+78
+5.9
+The potential energy of a spring
+80
+5.10
+Power
+83
+5.11
+Collisions
+83
+C H A P T E R   6
+SYSTEM OF PARTICLES AND ROTATIONAL MOTION
+6.1
+Introduction
+92
+6.2
+Centre of mass
+95
+6.3
+Motion of centre of mass
+99
+6.4
+Linear momentum of a system of particles
+100
+6.5
+Vector product of two vectors
+101
+6.6
+Angular velocity and its relation with linear velocity
+103
+6.7
+Torque and angular momentum
+105
+6.8
+Equilibrium of a rigid body
+109
+6.9
+Moment of inertia
+114
+6.10
+Kinematics of rotational motion about a fixed axis
+116
+6.11
+Dynamics of rotational motion about a fixed axis
+118
+6.12
+Angular momentum in case of rotations about a fixed axis
+121
+C H A P T E R   7
+GRAVITATION
+7.1
+Introduction
+127
+7.2
+Kepler’s laws
+128
+7.3
+Universal law of gravitation
+129
+7.4
+The gravitational constant
+131
+7.5
+Acceleration due to gravity of the earth
+132
+7.6
+Acceleration due to gravity below and above the surface of earth
+133
+xiv
+Reprint 2026-27
+
+=== page 14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reprint 2026-27
+
+=== page 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reprint 2026-27

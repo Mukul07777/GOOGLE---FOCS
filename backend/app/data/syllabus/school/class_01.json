@@ -1,0 +1,478 @@
+{
+ "class": 1,
+ "default": null,
+ "subjects": [
+  {
+   "name": "English",
+   "units": [
+    {
+     "name": "Unit 1: My Family and Me",
+     "chapters": [
+      {
+       "name": "Two Little Hands",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Greetings",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: Life Around Us",
+     "chapters": [
+      {
+       "name": "Picture Time",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "The Cap-seller and the Monkeys",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "A Farm",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Food",
+     "chapters": [
+      {
+       "name": "Fun with Pictures",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "The Food we Eat",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: Seasons",
+     "chapters": [
+      {
+       "name": "The Four Seasons",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Anandi's Rainbow",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Joyful Mathematics",
+     "chapters": [
+      {
+       "name": "Finding the Furry Cat! (Pre-number Concepts)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Top and bottom, near and far",
+        "Inside, outside, above and below",
+        "Matching and sorting things",
+        "Big and small"
+       ]
+      },
+      {
+       "name": "What is Long? What is Round? (Shapes)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Long and round things",
+        "Things that roll and things that slide",
+        "Shapes around us",
+        "Sorting by shape"
+       ]
+      },
+      {
+       "name": "Mango Treat (Numbers 1 to 9)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Counting objects up to 9",
+        "Reading and writing 1 to 9",
+        "Matching numbers to objects",
+        "More and less"
+       ]
+      },
+      {
+       "name": "Making 10 (Numbers 10 to 20)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Making a group of ten",
+        "Numbers 10 to 20",
+        "Counting on from 10",
+        "Writing numbers up to 20"
+       ]
+      },
+      {
+       "name": "How Many? (Addition and Subtraction of Single Digit Numbers)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Putting together: addition",
+        "Taking away: subtraction",
+        "Adding single-digit numbers",
+        "Subtraction stories"
+       ]
+      },
+      {
+       "name": "Vegetable Farm (Addition and Subtraction up to 20)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Adding numbers up to 20",
+        "Subtracting numbers up to 20",
+        "Story sums"
+       ]
+      },
+      {
+       "name": "Lina's Family (Measurement)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Tall and short",
+        "Long and short",
+        "Heavy and light",
+        "Measuring with hand spans and steps"
+       ]
+      },
+      {
+       "name": "Fun with Numbers (Numbers 21 to 99)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Tens and ones",
+        "Counting from 21 to 99",
+        "Reading and writing two-digit numbers",
+        "Number before, after and between"
+       ]
+      },
+      {
+       "name": "Utsav (Patterns)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Patterns with shapes and colours",
+        "Patterns with numbers",
+        "Completing a pattern",
+        "Making your own pattern"
+       ]
+      },
+      {
+       "name": "How do I Spend my Day? (Time)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Morning, afternoon, evening and night",
+        "Before and after",
+        "Days of the week",
+        "Longer and shorter time"
+       ]
+      },
+      {
+       "name": "How Many Times? (Multiplication)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Equal groups",
+        "Adding the same number again",
+        "Counting in twos and fives"
+       ]
+      },
+      {
+       "name": "How Much Can We Spend? (Money)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Indian coins and notes",
+        "Counting money",
+        "Buying and selling"
+       ]
+      },
+      {
+       "name": "So Many Toys (Data Handling)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Collecting information",
+        "Sorting and counting",
+        "Tally marks",
+        "Reading picture data"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi",
+   "units": [
+    {
+     "name": "इकाई 1: परिवार",
+     "chapters": [
+      {
+       "name": "मीना का परिवार",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "दादा-दादी",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "रीना का दिन",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "रानी भी",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मिठाई",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "तीन साथी",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 2: जीव-जगत",
+     "chapters": [
+      {
+       "name": "वाह, मेरे घोड़े!",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "खतरे में साँप",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 3: हमारा खान-पान",
+     "chapters": [
+      {
+       "name": "आलू की सड़क",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "झूलम-झूली",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "भुट्टे",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "फूली रोटी",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 4: त्योहार और मेले",
+     "chapters": [
+      {
+       "name": "मेला",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बरखा और मेघा",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "होली",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 5: हरी-भरी दुनिया",
+     "chapters": [
+      {
+       "name": "जन्मदिवस पर पेड़ लगाओ",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हवा",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "कितनी प्यारी है ये दुनिया",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चाँद का बच्चा",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

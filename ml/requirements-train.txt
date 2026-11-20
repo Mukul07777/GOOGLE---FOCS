@@ -1,0 +1,9 @@
+# PyTorch is installed separately by train_ocr.bat (CUDA or CPU build).
+numpy>=1.26
+pillow>=10.3
+opencv-python-headless>=4.9
+fonttools>=4.50
+onnx>=1.16
+onnxruntime>=1.18
+tqdm>=4.66
+msvc-runtime>=14.40; sys_platform == "win32"

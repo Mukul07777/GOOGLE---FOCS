@@ -1,0 +1,44 @@
+NUMBERED
+1.1 INTRODUCTION
+1.2 ELECTRIC CHARGE
+1.3 CONDUCTORS AND INSULATORS
+1.4 BASIC PROPERTIES OF ELECTRIC
+1.5 COULOMB’S LAW
+1.6 FORCES BETWEEN MULTIPLE CHARGES
+1.7 ELECTRIC FIELD
+1.8 ELECTRIC FIELD LINES
+1.9 ELECTRIC FLUX
+1.10 ELECTRIC DIPOLE
+1.11 DIPOLE IN A UNIFORM EXTERNAL FIELD
+1.12 CONTINUOUS CHARGE DISTRIBUTION
+1.13 GAUSS’S LAW
+1.14 APPLICATIONS OF GAUSS’S LAW
+BIG
+Chapter One
+ELECTRIC CHARGES
+AND FIELDS
+1.1 INTRODUCTION
+1.2 ELECTRIC CHARGE
+Physics
+Electric Charges
+and Fields
+1.3 CONDUCTORS AND INSULATORS
+1.4 BASIC PROPERTIES OF ELECTRIC
+CHARGE
+1.5 COULOMB’S LAW
+CHARLES AUGUSTIN DE COULOMB (1736 –1806)
+1.6 FORCES BETWEEN MULTIPLE CHARGES
+1.7 ELECTRIC FIELD
+1.8 ELECTRIC FIELD LINES
+1.9 ELECTRIC FLUX
+1.10 ELECTRIC DIPOLE
+1.11 DIPOLE IN A UNIFORM EXTERNAL FIELD
+1.12 CONTINUOUS CHARGE DISTRIBUTION
+1.13 GAUSS’S LAW
+along the radius vector at that point, the area element DS and ˆr have
+= aa5/2 (
+= 800 (0.1)5/2 (
+1.14 APPLICATIONS OF GAUSS’S LAW
+EXERCISES
+SAMPLE
+Chapter One ELECTRIC CHARGES AND FIELDS 1.1 INTRODUCTION All of us have the experience of seeing a spark or hearing a crackle when we take off our synthetic clothes or sweater, particularly in dry weather. Have you ever tried to find any explanation for this phenomenon? Another common example of electric discharge is the lightning that we see in the sky during thunderstorms. We also experience a sensation of an electric shock either while opening the door of a car or holding the iron bar of a bus after sliding from our seat. The reason for these experiences is discharge of electric charges through our body, which were accumulated due to rubbing of insulating surfaces. You might have also heard that this is due to generation of static electricity. This is precisely the topic we are going to discuss in this and the next chapter. Static means anything that does not move or change with time. Electrostatics deals with the study of forces, fields and potentials arising from static charges. 1.2 ELECTRIC CHARGE Historically the credit of discovery of the fact that amber rubbed with wool or silk cloth attracts light objects goes to Thales of Miletus, Greece, around 600 BC. The name electricity is coined from the Greek word Reprint 2026-27 2 Physics elektron meaning amber. Many such pairs of materials were known which on rubbing could attract light objects like straw, pith balls and bits of papers. It was observed that if two glass rods rubbed with wool or silk cloth are brought close to each other, they repel each other [Fig. 1.1(a)]. The two strands of wool or two pieces of silk cloth, with which the rods were rubbed, also repel each other. However, the glass rod and wool attracted each other. Similarly, two plastic rods rubbed with cat’s fur repelled each other [Fig. 1.1(b)] b

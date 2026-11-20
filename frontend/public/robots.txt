@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /app
+Disallow: /exam
+Disallow: /api
+Disallow: /admin
+Disallow: /onboarding
+Disallow: /p/
+
+Sitemap: https://focs.in/sitemap.xml

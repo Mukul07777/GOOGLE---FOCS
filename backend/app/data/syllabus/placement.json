@@ -1,0 +1,50 @@
+{
+ "name": "Placements (software roles)",
+ "about": "Built from what campus drives for software roles usually test: an aptitude round, a coding round, then technical and HR interviews. How much each subject counts is our estimate, not an official split: every company weighs them differently. Hours are for revising a subject you have met in college and practising it at interview level.",
+ "subjects": [
+  {
+   "course": "Coding Interview Patterns",
+   "weight": 12
+  },
+  {
+   "course": "Data Structures",
+   "weight": 16
+  },
+  {
+   "course": "Advanced Coding Patterns",
+   "weight": 12
+  },
+  {
+   "course": "Design and Analysis of Algorithms",
+   "weight": 12
+  },
+  {
+   "course": "General Aptitude",
+   "weight": 12
+  },
+  {
+   "course": "Database Management Systems",
+   "weight": 8
+  },
+  {
+   "course": "Operating Systems",
+   "weight": 8
+  },
+  {
+   "course": "Object-Oriented Programming",
+   "weight": 7
+  },
+  {
+   "course": "Computer Networks",
+   "weight": 5
+  },
+  {
+   "course": "System Design Basics",
+   "weight": 4
+  },
+  {
+   "course": "Interview Skills",
+   "weight": 4
+  }
+ ]
+}

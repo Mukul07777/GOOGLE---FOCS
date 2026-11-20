@@ -1,0 +1,238 @@
+# 12 | Computer Science | Computer Science | lecs1 | pages 12
+=== page 4
+Preface	
+In the present education system of our country, specialised or discipline 
+based courses are introduced at the higher secondary stage. This stage 
+is crucial as well as challenging because of the transition from general 
+to discipline-based curriculum. The syllabus at this stage needs to have 
+sufficient rigour and depth while remaining mindful of the comprehension 
+level of the learners. Further, the textbook should not be heavily loaded 
+with content.
+Computers have permeated in every facet of life. Study of basic concepts 
+of computer science has been desirable in education. There are courses 
+offered in the name of Computer Science, Information and Communication 
+Technology (ICT), Information Technology (IT), etc., by various boards and 
+schools up to secondary stage, as optional. These mainly focus on using 
+computer for word processing, presentation tools and application software.
+Computer Science (CS) at the higher secondary stage of school education 
+is also offered as an optional subject. At this stage, students usually opt 
+for CS with an aim of pursuing a career in software development or related 
+areas, after going through professional courses at higher levels. Therefore, 
+at higher secondary stage, the curriculum of CS introduces basics of 
+computing and sufficient conceptual background of Computer Science.
+The primary focus is on fostering the development of computational 
+thinking and problem-solving skills. This book has 13 chapters covering 
+the following broader themes:
+•	
+Data Structure: understanding of important data structure Stack, 
+Queue; Searching and Sorting techniques.
+•	
+Database: basic understanding of data, database concepts, and 
+relational database management system using MySQL. Structured 
+query language — data definition, data manipulation and data 
+querying.
+•	
+Programming: handling errors and exceptions in programs written 
+in Python; handling files and performing file operations in Python.
+•	
+Network 
+and 
+Communication: 
+fundamentals 
+of 
+Computers 
+networks, devices, topologies, Internet, Web and IoT, DNS. Basics 
+of Data communication — transmission channel, media; basics of 
+protocols, mobile communication generations.
+•	
+Security Aspects: introduction to basic concepts related to network 
+and Internet security, threats and prevention.
+Each chapter has two additional components — (i) activities and (ii) 
+think and reflect for self assessment while learning as well as to generate 
+further interest in the learner. A number of hands-on examples are given to 
+gradually explain methodology to solve different types of problems across 
+the Chapters. The programming examples as well as the exercises in the 
+Reprint 2026-27
+
+=== page 5
+vi
+chapters are required to be solved in a computer and verify with the given 
+outputs.
+Box items are pinned inside the chapters either to explain related 
+concepts or to describe additional information related to the topic covered 
+in that section. However, these box-items are not to be assessed through 
+examinations.
+Project Based Learning given as the end includes exemplar projects 
+related to real-world problems. Teachers are supposed to assign these or 
+similar projects to be developed in groups. Working in such projects may 
+promote peer-learning, team spirit and responsiveness.
+	
+The chapters have been written by involving practicing teachers 
+as well as subject experts. Several iterations have resulted into this 
+book. Thanks are due to the authors and reviewers for their valuable 
+contribution. I would like to place on record appreciation for Professor 
+Om Vikas for leading the review activities of the book as well as for his 
+guidance and motivation to the development team throughout. Comments 
+and suggestions are welcome.
+New Delhi	
+Rejaul Karim Barbhuiya
+20 August 2020	
+Assistant Professor 
+	
+Central Institute of 
+                                                                            Educational Technology 
+Reprint 2026-27
+
+=== page 8
+Foreword	 	
+iii
+Preface	
+	
+v
+Chapter 1 Exception Handling in Python	
+1
+1.1 Introduction	
+1
+1.2 Syntax Errors	
+1
+1.3 Exceptions	
+3
+1.4 Built-in Exceptions	
+3
+1.5 Raising Exceptions	
+4
+1.6 Handling Exceptions	
+7
+1.7 Finally Clause	
+13
+Chapter 2 File Handling in Python	
+19
+2.1 Introduction to Files	
+19
+2.2.Types of Files	
+20
+2.3 Opening and Closing a Text File	
+21
+2.4 Writing to a Text File	
+23
+2.5 Reading from a Text File	
+25
+2.6 Setting Offsets in a File	
+28
+2.7 Creating and Traversing a Text File	
+29
+2.8 The Pickle Module	
+32
+Chapter 3 Stack	
+39
+3.1 Introduction	
+39
+3.2 Stack	
+40
+3.3 Operations on Stack	
+42
+3.4 Implementation of Stack in Python 	
+43
+3.5 Notations for Arithmetic Expressions	
+46
+3.6 Conversion from Infix to Postfix Notation	
+47
+3.7 Evaluation of Postfix Expression 	
+49
+Chapter 4 Queue	
+53
+4.1 Introduction to Queue	
+53
+4.2 Operations on Queue 		
+	
+	
+	
+55
+Contents
+Reprint 2026-27
+
+=== page 9
+x
+4.3 Implementation of Queue using Python	
+56
+4.4 Introduction to Deque	
+59
+4.5 Implementation of Deque Using Python	
+61
+Chapter 5 Sorting	
+67
+5.1 Introduction	
+67
+5.2 Bubble Sort	
+68
+5.3 Selection Sort	
+71
+5.4 Insertion Sort	
+74
+5.5 Time Complexity of Algorithms	
+77
+Chapter 6 Searching	
+81
+6.1 Introduction	
+81
+6.2 Linear Search	
+82
+6.3 Binary Search	
+85
+6.4 Search by Hashing	
+90
+Chapter 7 Understanding Data	
+97
+7.1	
+Introduction to Data	
+97
+7.2	
+Data Collection	
+101
+7.3	
+Data Storage	
+102
+7.4	
+Data Processing	
+102
+7.5	
+Statistical Techniques for Data Processing	
+103
+Chapter 8 Database  Concepts	
+111
+8.1	
+Introduction	
+111
+8.2	
+File System	
+112
+8.3	
+Database Management System	
+115
+8.4	
+Relational Data Model	
+120
+8.5	
+Keys in a Relational Database  	
+123
+Chapter 9 Structured Query Language (SQL)	
+131
+9.1 Introduction	
+131
+9.2 Structured Query Language (SQL) 	
+131
+9.3 Data Types and Constraints in MySQL	
+133
+9.4 SQL for Data Definition	
+134
+9.5 SQL for Data Manipulation	
+141
+9.6 SQL for Data Query 	
+144
+9.7 Data Updation and Deletion	
+154
+9.8 Functions in SQL 	
+156
+9.9 GROUP BY Clause in SQL	
+167
+Reprint 2026-27

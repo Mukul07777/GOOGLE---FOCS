@@ -1,0 +1,41 @@
+NUMBERED
+7.1 Work Done by a Constant Force
+7.1.1 When is work done equal to zero?
+7.1.2 Positive and negative work done
+7.2 The Work-Energy Theorem
+7.3 Forms of Energy
+7.4 Mechanical Energy
+7.4.1 Kinetic energy
+7.4.2 Potential energy
+7.4.3 Conservation of mechanical energy
+7.5 Power
+7.6 Simple Machines
+7.6.1 Pulley
+7.6.2 Inclined plane
+7.6.3 Lever
+BIG
+Work, Energy, and
+Simple Machines
+7.1 Work Done by a Constant Force
+7.2 The Work-Energy Theorem
+7.3 Forms of Energy
+7.4 Mechanical Energy
+W = m (v −u ) (7.5)
+K = mv = × 0 .2 kg × (43 m s ) =184 .9J
+7.5 Power
+7.6 Simple Machines
+7.6.3 Lever
+Ready to Go Beyond
+Revise, Reflect, Refine
+At a Glance
+y Work is done by a force on an object, when the force displaces the
+y An object having capacity to do work is said to possess energy. y Work-energy theorem: Work done on an object or a system, is
+y The energy possessed by an object due to its motion is called
+y The energy stored by an object as a result of its deformation or in
+y Power is defined as the rate at which work is done. y Simple machines are devices that make work easier by changing
+The Journey Beyond
+y Remove both the ends from a pen so that the refill
+y Construct one or more simple machines, or a
+y Computer simulations can help in visualising physical quantities
+SAMPLE
+Work, Energy, and Simple Machines Chapter 7 In earlier Chapters 4 and 6, you have learnt how forces change the motion of objects, and how kinematic equations and Newton’s laws can be used to analyse motion. But when forces change with time or act in complicated ways, applying these laws directly can become difficult. Is there a simpler and more powerful way to understand such situations? In this chapter, you will explore the ideas of work, energy and power, which often allow us to analyse motion and interactions more easily. You will also learn about simple machines, which help us perform tasks with less effort and more convenience. These form the building blocks of many everyday machines. Energy, which is the capacity to do work, lies at the heart of all these ideas and of almost every activity in our daily life (Fig. 7.1). Fig. 7.1: Energy required to carry out tasks comes from various sources Food provides energy to walk Electricity provides energy to rotate a fan Fuel provides energy to move a car We often use the words work, energy, and power in everyday conversations. As we learnt in Chapter 1, these terms have a precise meaning in science. Let us first understand how to define work. y What will be the magnitude of velocity of the child at the bottom of the blue slide? y Will two children of different masses reach the bottom of the same slide with the same velocity? y Which of the slides will result in the largest magnitude of velocity for the child at its bottom? Think It Over Work, Energy, and Simple Machines 117 7.1 Work Done by a Constant Force Let us begin by doing some thinking based on our experience of lifting objects to a height. Consider a wheat bag of mass 5 kg kept on the floor (Fig. 7.2a). Gravitational force mg acts downwards on the bag, where m is t

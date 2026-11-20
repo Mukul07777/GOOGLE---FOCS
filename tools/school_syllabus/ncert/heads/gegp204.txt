@@ -1,0 +1,16 @@
+NUMBERED
+4.1 A Quick Recap of Decimals
+4.2 Decimal Multiplication
+4.3 Decimal Division
+4.4 Look Before You Leap!
+BIG
+4 ANOTHER PEEK
+BEYOND THE POINT
+4.1 A Quick Recap of Decimals
+4.2 Decimal Multiplication
+4.3 Decimal Division
+4.4 Look Before You Leap!
+– ) × 366 + (100 – ( – ))× 365
+SUMMARY
+SAMPLE
+ANOTHER PEEK BEYOND THE POINT 4 4.1 A Quick Recap of Decimals Recall that decimals are the natural extension of the Indian place value system to represent decimal fractions ( 1 10, 1 100, 1 1000, and so on) and their sums. For example, 27.53 refers to a quantity that has: • 2 Tens • 7 Units (Ones) • 5 Tenths • 3 Hundredths We have already learned how to multiply and divide fractions. In this chapter, we will learn how to perform these operations with decimals. You will see that the procedures for multiplying and dividing decimals are natural extensions of the procedures for multiplying and dividing counting numbers. Jonali and Pallabi play a game. Jonali says a fraction and Pallabi gives the equivalent decimal. Write Pallabi’s answer in the blank spaces. Jonali goes to the market to buy spices. She purchases 50 g of Cinnamon, 100 g of Cumin seeds, 25 g of Cardamom and 250 g of Pepper. Express each of the quantities in kilograms by writing them in terms of fractions as well as decimals. The fractions Jonali gave Pallabi have denominators 10, 100, 1000, and so on. Ganita Prakash | Grade 7 | Part-II Write the following fractions as a sum of fractions and also as decimals: Fraction Expanding the Numerator Sum of one-tenths, one-hundredths, one-thousands,... Decimals 254 1000 200 1000 + 50 1000 + 4 1000 = 2 10 + 5 100 + 4 1000 0.2 + 0.05 + 0.004 0.254 847 10000 173 100 23 1000 Can you give a simple rule to divide any number by a number of the form 1 followed by zeroes — 10, 100, 1000, etc.? For example, 123 10 , 24 100 or 678 1000 ? Look for a pattern in the previous problems. Here is one such rule. Let us consider the example 123 ÷ 10. Step 1: Write the dividend as it is and place a decimal point at the end. 123. Step 2: Count the number of zeroes in the divisor. 10 1 zero

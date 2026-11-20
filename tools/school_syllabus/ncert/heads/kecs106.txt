@@ -1,0 +1,16 @@
+NUMBERED
+6.1 Introduction
+6.2 Selection
+6.3 Indentation
+6.4 Repetition
+6.4.1 The ‘For’ Loop
+6.4.2 The ‘While’ Loop
+6.5 Break and Continue Statement
+6.5.1 Break Statement
+6.5.2 Continue Statement
+6.6 Nested Loops
+BIG
+Chapter 6
+Flow of Control
+SAMPLE
+6.1 Introduction In Figure 6.1, we see a bus carrying the children to school. There is only one way to reach the school. The driver has no choice, but to follow the road one milestone after another to reach the school. We learnt in Chapter 5 that this is the concept of sequence, where Python executes one statement after another from beginning to the end of the program. These are the kind of programs we have been writing till now. Figure 6.1: Bus carrying students to school Let us consider a program 6-1 that executes in sequence, that is, statements are executed in an order in which they are written. The order of execution of the statements in a program is known as flow of control. The flow of control can be implemented using control structures. Python supports two types of control structures—selection and repetition. “Don't you hate code that's not properly indented? Making it [indenting] part of the syntax guarantees that all code is properly indented.” – G. van Rossum Chapter 6 Flow of Control In this chapter »» Introduction to Flow of Control »» Selection »» Indentation »» Repetition »» Break and Continue Statements »» Nested Loops Reprint 2026-27 Computer Science – Class xi 122 Program 6-1 Program to print the difference of two numbers. #Program 6-1 #Program to print the difference of two input numbers num1 = int(input("Enter first number: ")) num2 = int(input("Enter second number: ")) diff = num1 - num2 print("The difference of",num1,"and",num2,"is",diff) Output: Enter first number 5 Enter second number 7 The difference of 5 and 7 is -2 6.2 Selection Now suppose we have `10 to buy a pen. On visiting the stationery shop, there are a variety of pens priced at `10 each. Here, we have to decide which pen to buy. Similarly, when we use the direction services of a digita

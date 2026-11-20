@@ -1,0 +1,220 @@
+# 11 | Chemistry | Chemistry Part I | kech1 | pages 12
+=== page 7
+8
+chemistry
+Acknowledgements
+The National Council of Educational Research and Training acknowledges the 
+valuable contributions of the individuals and organisations involved in the 
+development of Chemistry textbook for Class XI. It also acknowledges that some 
+useful material from the reprint editions (2005) of Chemistry textbooks has been 
+utilised in the development of the present textbook.
+The following academics contributed effectively in editing, reviewing, refining and 
+finalisation of the manuscript of this book: G.T. Bhandage, Professor,  RIE, Mysuru; 
+N. Ram, Professor, IIT, New Delhi; Sanjeev Kumar, Associate Professor, School 
+of Science, IGNOU, Maidan Garhi, New Delhi; Shampa Bhattacharya, Associate 
+Professor, Hans Raj College, Delhi; Vijay Sarda, Associate Professor (Retd.), Zakir 
+Husain College, New Delhi; K.K. Arora, Associate Professor, Zakir Husain College, 
+New Delhi; Shashi Saxena, Associate Professor, Hans Raj College, Delhi; Anuradha 
+Sen, Apeejay School, Sheikh Sarai, New Delhi; C. Shrinivas, PGT, Kendriya Vidyalaya, 
+Pushp Vihar, New Delhi; D.L. Bharti, PGT, Ramjas School, Sector IV, R.K. Puram, 
+New Delhi; Ila Sharma, PGT, Delhi Public School, Dwarka, Sector-B, New Delhi; Raj 
+Lakshmi Karthikeyan, Head (Science), Mother’s International School, Sri Aurobindo 
+Marg, New Delhi; Sushma Kiran Setia, Principal, Sarvodaya Kanya Vidyalaya, Hari 
+Nagar (CT), New Delhi; Nidhi Chaudray, PGT, CRPF Public School, Rohini, Delhi; 
+and Veena Suri, PGT, Bluebells School, Kailash Colony, New Delhi. We are thankful 
+to them.
+We express our gratitude to R.S. Sindhu, Professor (Retd.), DESM, NCERT, New 
+Delhi, for editing and refining the content of the textbook right from the initial stage.
+We are also grateful to Ruchi Verma, Associate Professor, DESM, NCERT, New 
+Delhi; Pramila Tanwar, Associate Professor, DESM, NCERT, New Delhi; R.B. Pareek, 
+Associate Professor, RIE, Ajmer; and A.K. Arya, Associate Professor, RIE, Ajmer, for 
+refining the content of the textbook.
+Special thanks are due to M. Chandra, Professor and Head (Retd.), DESM, 
+NCERT for her support.
+The Council also gratefully acknowledges the contributions of Surendra Kumar, 
+Narender Verma and Ramesh Kumar, DTP Operators; Subhash Saluja, Ramendra 
+Kumar Sharma and Abhimanyu Mohanty, Proofreaders; Bhavna Saxena, Copy 
+Editor; and Deepak Kapoor, In-charge, Computer Station, in shaping this book. The 
+contributions of the Publication Department, NCERT, New Delhi,  in bringing out 
+this book are also duly acknowledged.
+Reprint 2026-27
+
+=== page 8
+9
+answerS
+Contents
+	
+Foreword	
+iii
+	
+Rationalisation of Content in the Textbooks	
+v
+Unit 1	
+Some Basic Concepts of Chemistry	
+1
+	
+1.1	 Importance of Chemistry	
+4
+	
+1.2	 Nature of Matter	
+4
+	
+1.3	 Properties of Matter and their Measurement	
+6
+	
+1.4	 Uncertainty in Measurement	
+10
+	
+1.5	 Laws of Chemical Combinations	
+14
+	
+1.6	 Dalton’s Atomic Theory	
+16
+	
+1.7	 Atomic and Molecular Masses	
+16
+	
+1.8	 Mole Concept and Molar Masses	
+18
+	
+1.9	 Percentage Composition	
+18
+	
+1.10	Stoichiometry and Stoichiometric Calculations	
+20
+Unit 2	
+Structure of Atom	
+29
+	
+2.1	 Discovery of Sub-atomic Particles	
+30
+	
+2.2	 Atomic Models	
+32
+	
+2.3	 Developments Leading to the Bohr’s Model of Atom	
+37
+	
+2.4	 Bohr’s Model for Hydrogen Atom	
+46
+	
+2.5	 Towards Quantum Mechanical Model of the Atom	
+49
+	
+2.6	 Quantum Mechanical Model of Atom	
+53
+Unit 3	
+Classification of Elements and Periodicity in Properties	
+74
+	
+3.1	 Why do we Need to Classify Elements ?	
+74
+	
+3.2	 Genesis of Periodic Classification	
+75
+	
+3.3	 Modern Periodic Law and the Present Form of the Periodic Table	
+78
+	
+3.4	 Nomenclature of Elements with Atomic Numbers > 100	
+78
+	
+3.5	 Electronic Configurations of Elements and the Periodic Table	
+81
+Reprint 2026-27
+
+=== page 9
+10
+chemistry
+	
+3.6	 Electronic Configurations and Types of Elements:	
+82
+	
+	
+s-, p-, d-, f- Blocks
+	
+3.7	 Periodic Trends in Properties of Elements	
+85
+Unit 4	
+Chemical Bonding and Molecular Structure	
+100
+	
+4.1	 Kössel-Lewis Approach to Chemical Bonding 	
+101
+	
+4.2	 Ionic or Electrovalent Bond 	
+106
+	
+4.3	 Bond Parameters	
+107
+	
+4.4	 The Valence Shell Electron Pair Repulsion (VSEPR) Theory	
+112
+	
+4.5	 Valence Bond Theory	
+117
+	
+4.6	 Hybridisation 	
+120
+	
+4.7	 Molecular Orbital Theory 	
+125
+	
+4.8	 Bonding in Some Homonuclear Diatomic Molecules	
+129
+	
+4.9	 Hydrogen Bonding 	
+131
+Unit 5	
+Thermodynamics	
+136
+	
+5.1	 Thermodynamic Terms	
+137
+	
+5.2	 Applications	
+140
+	
+5.3	 Measurement of ∆U and ∆H: Calorimetry	
+145
+	
+5.4	 Enthalpy Change, ∆rH of a Reaction – Reaction Enthalpy	
+146
+	
+5.5	 Enthalpies for Different Types of Reactions	
+152
+	
+5.6	 Spontaneity	
+157
+	
+5.7	 Gibbs Energy Change and Equilibrium	
+162
+Unit 6	
+Equilibrium	
+168
+	
+6.1	 Equilibrium in Physical Processes	
+169
+	
+6.2	 Equilibrium in Chemical Processes – Dynamic Equilibrium	
+172
+	
+6.3	 Law of Chemical Equilibrium and Equilibrium Constant	
+174
+	
+6.4	 Homogeneous Equilibria	
+177
+	
+6.5	 Heterogeneous Equilibria	
+179
+	
+6.6	 Applications of Equilibrium Constants	
+181
+	
+6.7	 Relationship between Equilibrium Constant K, 	
+184
+	
+	
+Reaction Quotient Q and Gibbs Energy G
+(x)
+Reprint 2026-27

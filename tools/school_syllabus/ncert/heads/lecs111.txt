@@ -1,0 +1,31 @@
+NUMBERED
+11.1 Concept of Communication
+11.2 Components of Data Communication
+11.3 Measuring Capacity of Communication Media
+11.3.1 Bandwidth
+11.3.2 Data Transfer Rate
+11.4 Types of Data Communication
+11.4.1 Simplex Communication
+11.4.2 Half-duplex Communication
+11.4.3 Full-duplex Communication
+11.5 Switching Techniques
+11.5.1 Circuit Switching
+11.5.2 Packet Switching
+11.6 Transmission Media
+11.6.1 Wired Transmission Media
+11.6.2 Wireless Transmission Media
+11.6.3 Wireless Technologies
+11.7 Mobile Telecommunication Technologies
+11.8 Protocol
+11.8.1 Need for Protocols
+11.8.2 HyperText Transfer Protocol (HTTP)
+11.8.3 File Transfer Protocol (FTP)
+11.8.4 Point to Point Protocol (PPP)
+11.8.5 Simple Mail Transfer Protocol (SMTP)
+11.8.6 Transmission Control Protocol (TCP)/ Internet Protocol (IP)
+BIG
+11 Data Communication
+Summary
+Exercise
+SAMPLE
+In this Chapter »» Concept of Communication »» Components of Data Communication »» Measuring Capacity of Communication Media »» Types of Data Communication »» Switching Techniques »» Transmission Media »» Mobile Telecommunication Technologies »» Protocol C h a p t e r “People already have bionic arms and legs that work by the power of thought. And we increasingly outsource mental and communicative activities to computers. We are merging with our smartphones. Very soon, they will just be part of the body” — Yuval Noah Harari 11.1 Concept of Communication The term “Data Communication” comprises two words: Data and Communication. Data can be any text, image, audio, video, and multimedia files. Communication is an act of sending or receiving data. Thus, data communication refers to the exchange of data between two or more networked or connected devices. These devices must be capable of sending and receiving data over a communication medium. Examples of such devices include personal computers, mobile phones, laptops, etc. As we can see in Figure 11.1, four different types of devices — computer, printer, server and switch are connected to form the network. These devices are connected through a media to the network, which carry information from one end to other end. 11 Data Communication Reprint 2026-27 Computer Science - Class XII 204 Central Server Switch Sharing Printer connected to Switch Figure 11.1: A simple network of computing devices 11.2 Components of Data Communication Whenever we talk about communication between two computing devices using a network, five most important aspects come to our mind. These are sender, receiver, communication medium, the message to be communicated, and certain rules called protocols to be followed during communication. The communication 

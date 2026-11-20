@@ -1,0 +1,567 @@
+{
+ "class": 2,
+ "default": null,
+ "subjects": [
+  {
+   "name": "English",
+   "units": [
+    {
+     "name": "Unit 1: Fun with Friends",
+     "chapters": [
+      {
+       "name": "My Bicycle",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Picture Reading",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 2: Welcome to My World",
+     "chapters": [
+      {
+       "name": "It is Fun",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Seeing without Seeing",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 3: Going Places",
+     "chapters": [
+      {
+       "name": "Come Back Soon",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "Between Home and School",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "This is My Town",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 4: Life Around Us",
+     "chapters": [
+      {
+       "name": "A Show of Clouds",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "My Name",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "The Crow",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "The Smart Monkey",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unit 5: Harmony",
+     "chapters": [
+      {
+       "name": "Little Drops of Water",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      },
+      {
+       "name": "We are all Indians",
+       "book": "Mridang",
+       "topics": [
+        "Let us listen and sing",
+        "Let us speak",
+        "Let us read",
+        "Let us write"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mathematics",
+   "units": [
+    {
+     "name": "Joyful Mathematics",
+     "chapters": [
+      {
+       "name": "A Day at the Beach (Counting in Groups)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Counting in groups of 2, 5 and 10",
+        "Skip counting",
+        "Estimating how many"
+       ]
+      },
+      {
+       "name": "Shapes Around Us (3D Shapes)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Cube, cuboid, cylinder, cone and sphere",
+        "Faces, edges and corners",
+        "Shapes that roll and shapes that slide"
+       ]
+      },
+      {
+       "name": "Fun with Numbers (Numbers 1 to 100)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Tens and ones up to 100",
+        "Number names",
+        "Comparing numbers",
+        "Number before, after and between"
+       ]
+      },
+      {
+       "name": "Shadow Story (Togalu) (2D Shapes)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Shadows of objects",
+        "Circle, triangle, square and rectangle",
+        "Tracing and drawing shapes"
+       ]
+      },
+      {
+       "name": "Playing with Lines (Orientations of a Line)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Straight and curved lines",
+        "Standing, sleeping and slanting lines",
+        "Drawing with lines"
+       ]
+      },
+      {
+       "name": "Decoration for Festival (Addition and Subtraction)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Adding two-digit numbers",
+        "Subtracting two-digit numbers",
+        "Story sums"
+       ]
+      },
+      {
+       "name": "Rani's Gift (Measurement)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Measuring length with hand spans and objects",
+        "Comparing weights",
+        "Comparing how much a container holds"
+       ]
+      },
+      {
+       "name": "Grouping and Sharing (Multiplication and Division)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Equal groups and multiplication",
+        "Sharing equally",
+        "Division as sharing"
+       ]
+      },
+      {
+       "name": "Which Season is it? (Measurement of Time)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Seasons of the year",
+        "Months of the year",
+        "Reading a calendar",
+        "Days and weeks"
+       ]
+      },
+      {
+       "name": "Fun at the Fair (Money)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Coins and notes",
+        "Adding money",
+        "Shopping at the fair"
+       ]
+      },
+      {
+       "name": "Data Handling (Class 2)",
+       "book": "Joyful Mathematics",
+       "topics": [
+        "Collecting data",
+        "Pictographs",
+        "Reading tables"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hindi",
+   "units": [
+    {
+     "name": "इकाई 1: परिवार",
+     "chapters": [
+      {
+       "name": "नीमा की दादी",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "घर",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "माला की चाँदी की पायल",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "माँ",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "थाथू और मैं",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चींटा",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "टिल्लू जी",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 2: रंग ही रंग",
+     "chapters": [
+      {
+       "name": "तीन दोस्त",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "दुनिया रंग-बिरंगी",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "कौन",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बैंगनी जोजो",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "तोसिया का सपना",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 3: हरी-भरी धरती",
+     "chapters": [
+      {
+       "name": "तालाब",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बीज",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "किसान",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "मूली",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बरसात और मेंढक",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 4: मित्रता",
+     "chapters": [
+      {
+       "name": "शेर और चूहे की दोस्ती",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "आउट",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "छुपन-छुपाई",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "हाथी साइकिल चला रहा था",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "इकाई 5: आकाश",
+     "chapters": [
+      {
+       "name": "चार दिशाएँ",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "चंदा मामा",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "गिरे ताल में चंदा मामा",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "सबसे बड़ा छाता",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      },
+      {
+       "name": "बादल",
+       "book": "सारंगी",
+       "topics": [
+        "पाठ को पढ़ना और समझना",
+        "शब्द और उनके अर्थ",
+        "व्याकरण",
+        "बोलना और लिखना"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

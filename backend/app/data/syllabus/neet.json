@@ -1,0 +1,148 @@
+{
+  "exam": "neet",
+  "name": "NEET UG",
+  "about": "Based on the NMC NEET UG syllabus (NCERT Class 11 and 12). Weightage is the approximate share of questions in recent papers; hours are realistic self-study estimates (lectures plus practice) for learning a chapter, not counting revision and mock tests.",
+  "subjects": [
+    {
+      "name": "Physics", "from": "jee", "hours_factor": 0.75,
+      "weights": {
+        "Units, Measurements & Errors": 1, "Kinematics": 1.5, "Laws of Motion": 1.5, "Work, Energy & Power": 1.5,
+        "Rotational Motion": 2, "Gravitation": 1.5, "Properties of Solids & Liquids": 1.5, "Thermodynamics": 1.5,
+        "Kinetic Theory of Gases": 1, "Oscillations & Waves": 1.5, "Electrostatics": 2, "Current Electricity": 2.5,
+        "Magnetic Effects of Current & Magnetism": 2, "Electromagnetic Induction & AC": 1.5, "Electromagnetic Waves": 1,
+        "Ray & Wave Optics": 2.5, "Dual Nature of Matter & Radiation": 1.5, "Atoms & Nuclei": 1.5, "Semiconductor Electronics": 2
+      }
+    },
+    {
+      "name": "Chemistry", "from": "jee", "hours_factor": 0.85,
+      "weights": {
+        "Some Basic Concepts of Chemistry": 1.5, "Atomic Structure": 1.5, "Chemical Bonding & Molecular Structure": 2.5,
+        "Chemical Thermodynamics": 1.5, "Solutions": 1, "Equilibrium": 1.5, "Redox Reactions & Electrochemistry": 1.5,
+        "Chemical Kinetics": 1.5, "Classification of Elements & Periodicity": 1, "p-Block Elements": 1.5,
+        "d- and f-Block Elements": 1.5, "Coordination Compounds": 2, "Purification & Characterisation of Organic Compounds": 1,
+        "General Organic Chemistry": 2, "Hydrocarbons": 1.5, "Haloalkanes & Haloarenes": 1,
+        "Alcohols, Phenols & Ethers": 1, "Aldehydes, Ketones & Carboxylic Acids": 1.5,
+        "Amines & Nitrogen Compounds": 1, "Biomolecules": 1.5
+      }
+    },
+    {
+      "name": "Biology",
+      "units": [
+        {
+          "name": "Diversity in the Living World",
+          "chapters": [
+            {"name": "The Living World", "class": 11, "hours": 8, "weight": 1, "foundation": true,
+             "topics": ["What is living?", "Biodiversity and the need for classification", "Taxonomic categories", "Taxonomical aids", "Binomial nomenclature"]},
+            {"name": "Biological Classification", "class": 11, "hours": 16, "weight": 1.5,
+             "topics": ["Five kingdom classification", "Kingdom Monera", "Kingdom Protista", "Kingdom Fungi", "Plantae and Animalia overview", "Viruses, viroids and lichens"]},
+            {"name": "Plant Kingdom", "class": 11, "hours": 16, "weight": 1.5,
+             "topics": ["Algae", "Bryophytes", "Pteridophytes", "Gymnosperms", "Angiosperms", "Plant life cycles and alternation of generations"]},
+            {"name": "Animal Kingdom", "class": 11, "hours": 22, "weight": 2,
+             "topics": ["Basis of classification", "Porifera, Cnidaria and Ctenophora", "Platyhelminthes, Aschelminthes and Annelida", "Arthropoda, Mollusca and Echinodermata", "Hemichordata and Chordata", "Classes of vertebrates"]}
+          ]
+        },
+        {
+          "name": "Structural Organisation in Plants & Animals",
+          "chapters": [
+            {"name": "Morphology of Flowering Plants", "class": 11, "hours": 19, "weight": 1.5,
+             "topics": ["Root, stem and leaf", "Inflorescence", "The flower and its parts", "Fruit and seed", "Semi-technical description of a plant", "Families: Fabaceae, Solanaceae, Liliaceae"]},
+            {"name": "Anatomy of Flowering Plants", "class": 11, "hours": 16, "weight": 1.5,
+             "topics": ["Meristematic and permanent tissues", "Tissue systems", "Anatomy of dicot and monocot plants", "Secondary growth"]},
+            {"name": "Structural Organisation in Animals", "class": 11, "hours": 16, "weight": 1.5,
+             "topics": ["Animal tissues: epithelial, connective, muscular, neural", "Morphology of the frog", "Anatomy of the frog: organ systems"]}
+          ]
+        },
+        {
+          "name": "Cell: Structure & Function",
+          "chapters": [
+            {"name": "Cell: The Unit of Life", "class": 11, "hours": 19, "weight": 2, "foundation": true,
+             "topics": ["Cell theory", "Prokaryotic cells", "Eukaryotic cells and the cell membrane", "Cell wall and endomembrane system", "Mitochondria, plastids and ribosomes", "Cytoskeleton, cilia, flagella and centrosome", "Nucleus"]},
+            {"name": "Biomolecules", "class": 11, "hours": 19, "weight": 2,
+             "topics": ["Chemical analysis of living tissue", "Primary and secondary metabolites", "Proteins and amino acids", "Polysaccharides and nucleic acids", "Enzymes: properties and classification", "Factors affecting enzyme activity"]},
+            {"name": "Cell Cycle and Cell Division", "class": 11, "hours": 16, "weight": 1.5,
+             "topics": ["Phases of the cell cycle", "Mitosis", "Significance of mitosis", "Meiosis I and II", "Significance of meiosis"]}
+          ]
+        },
+        {
+          "name": "Plant Physiology",
+          "chapters": [
+            {"name": "Photosynthesis in Higher Plants", "class": 11, "hours": 19, "weight": 1.5,
+             "topics": ["Early experiments", "Site of photosynthesis and pigments", "Light reaction and photophosphorylation", "Electron transport", "Calvin cycle (C3)", "C4 pathway and photorespiration", "Factors affecting photosynthesis"]},
+            {"name": "Respiration in Plants", "class": 11, "hours": 16, "weight": 1.5,
+             "topics": ["Glycolysis", "Fermentation", "Aerobic respiration and the Krebs cycle", "Electron transport system and oxidative phosphorylation", "Respiratory balance sheet and amphibolic pathway", "Respiratory quotient"]},
+            {"name": "Plant Growth and Development", "class": 11, "hours": 13, "weight": 1,
+             "topics": ["Growth and its phases", "Differentiation, dedifferentiation and redifferentiation", "Plant growth regulators: auxins, gibberellins, cytokinins", "Ethylene and abscisic acid"]}
+          ]
+        },
+        {
+          "name": "Human Physiology",
+          "chapters": [
+            {"name": "Breathing and Exchange of Gases", "class": 11, "hours": 13, "weight": 1.5,
+             "topics": ["Respiratory organs", "Mechanism of breathing", "Respiratory volumes", "Exchange and transport of gases", "Regulation of respiration and disorders"]},
+            {"name": "Body Fluids and Circulation", "class": 11, "hours": 16, "weight": 1.5,
+             "topics": ["Blood and its components", "Blood groups and coagulation", "Lymph", "Human heart and the cardiac cycle", "ECG and double circulation", "Regulation of cardiac activity and disorders"]},
+            {"name": "Excretory Products and their Elimination", "class": 11, "hours": 14, "weight": 1.5,
+             "topics": ["Modes of excretion", "Human excretory system", "Urine formation", "Concentration of the filtrate", "Regulation of kidney function", "Disorders of the excretory system"]},
+            {"name": "Locomotion and Movement", "class": 11, "hours": 14, "weight": 1.5,
+             "topics": ["Types of movement", "Muscle structure", "Mechanism of muscle contraction", "Skeletal system", "Joints and disorders"]},
+            {"name": "Neural Control and Coordination", "class": 11, "hours": 16, "weight": 1.5,
+             "topics": ["Neural system and the neuron", "Generation and conduction of a nerve impulse", "Transmission across synapses", "Central nervous system: the brain"]},
+            {"name": "Chemical Coordination and Integration", "class": 11, "hours": 14, "weight": 1.5,
+             "topics": ["Endocrine glands and hormones", "Hypothalamus and pituitary", "Thyroid, parathyroid, thymus and adrenal glands", "Pancreas and gonads", "Mechanism of hormone action"]}
+          ]
+        },
+        {
+          "name": "Reproduction",
+          "chapters": [
+            {"name": "Sexual Reproduction in Flowering Plants", "class": 12, "hours": 19, "weight": 2,
+             "topics": ["Flower structure", "Microsporogenesis and the pollen grain", "Megasporogenesis and the embryo sac", "Pollination and outbreeding devices", "Double fertilisation", "Endosperm, embryo and seed", "Apomixis and polyembryony"]},
+            {"name": "Human Reproduction", "class": 12, "hours": 19, "weight": 2,
+             "topics": ["Male reproductive system", "Female reproductive system", "Gametogenesis", "Menstrual cycle", "Fertilisation and implantation", "Pregnancy, embryonic development, parturition and lactation"]},
+            {"name": "Reproductive Health", "class": 12, "hours": 10, "weight": 1.5,
+             "topics": ["Reproductive health: problems and strategies", "Population stabilisation and birth control", "Medical termination of pregnancy", "Sexually transmitted infections", "Infertility and assisted reproductive technologies"]}
+          ]
+        },
+        {
+          "name": "Genetics & Evolution",
+          "chapters": [
+            {"name": "Principles of Inheritance and Variation", "class": 12, "hours": 29, "weight": 3,
+             "topics": ["Mendel's laws of inheritance", "Monohybrid and dihybrid crosses", "Incomplete dominance, co-dominance and multiple alleles", "Chromosomal theory and linkage", "Polygenic inheritance and pleiotropy", "Sex determination", "Mutation and pedigree analysis", "Mendelian and chromosomal disorders"]},
+            {"name": "Molecular Basis of Inheritance", "class": 12, "hours": 29, "weight": 3,
+             "topics": ["DNA structure and packaging", "Search for the genetic material", "RNA world", "DNA replication", "Transcription", "Genetic code and translation", "Regulation of gene expression: the lac operon", "Human Genome Project and DNA fingerprinting"]},
+            {"name": "Evolution", "class": 12, "hours": 16, "weight": 1.5,
+             "topics": ["Origin of life", "Evidences for evolution", "Adaptive radiation", "Theories of evolution", "Hardy-Weinberg principle", "Brief account of evolution and human evolution"]}
+          ]
+        },
+        {
+          "name": "Biology & Human Welfare",
+          "chapters": [
+            {"name": "Human Health and Disease", "class": 12, "hours": 16, "weight": 2,
+             "topics": ["Common diseases in humans", "Immunity: innate and acquired", "Vaccination and allergies", "AIDS", "Cancer", "Drugs and alcohol abuse"]},
+            {"name": "Microbes in Human Welfare", "class": 12, "hours": 10, "weight": 1,
+             "topics": ["Microbes in household products", "Microbes in industrial products", "Microbes in sewage treatment and biogas", "Microbes as biocontrol agents and biofertilisers"]}
+          ]
+        },
+        {
+          "name": "Biotechnology",
+          "chapters": [
+            {"name": "Biotechnology: Principles and Processes", "class": 12, "hours": 19, "weight": 2,
+             "topics": ["Principles of biotechnology", "Restriction enzymes and cloning vectors", "Competent hosts and transformation", "Processes of recombinant DNA technology", "PCR, gel electrophoresis and bioreactors"]},
+            {"name": "Biotechnology and its Applications", "class": 12, "hours": 13, "weight": 1.5,
+             "topics": ["Applications in agriculture: Bt crops and RNAi", "Applications in medicine: insulin and gene therapy", "Molecular diagnosis", "Transgenic animals", "Ethical issues and biopiracy"]}
+          ]
+        },
+        {
+          "name": "Ecology",
+          "chapters": [
+            {"name": "Organisms and Populations", "class": 12, "hours": 16, "weight": 2,
+             "topics": ["Population attributes", "Population growth models", "Life history variation", "Population interactions: mutualism, competition, predation, parasitism"]},
+            {"name": "Ecosystem", "class": 12, "hours": 13, "weight": 1.5,
+             "topics": ["Structure and function of an ecosystem", "Productivity", "Decomposition", "Energy flow", "Ecological pyramids"]},
+            {"name": "Biodiversity and Conservation", "class": 12, "hours": 11, "weight": 1.5,
+             "topics": ["Levels and patterns of biodiversity", "Importance of biodiversity", "Loss of biodiversity and its causes", "In-situ and ex-situ conservation"]}
+          ]
+        }
+      ]
+    }
+  ]
+}
