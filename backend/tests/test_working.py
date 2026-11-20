@@ -183,3 +183,24 @@ def test_the_tutor_waits_when_the_ai_is_busy(client, monkeypatch):
 
     monkeypatch.setattr(working.llm, "chat", busy)
     assert client.post("/api/working/tutor", headers=h, json={"question": "?"}).status_code == 503
+
+
+def test_no_checking_before_answering(client, monkeypatch):
+    """A root-cause check still being taken, or a question of a mock still running: checking the working would hand over
+    the answer, so the server refuses (the page hides the button too)."""
+    h, uid = _user(client, "working.open@example.com")
+    monkeypatch.setattr(vision, "available", lambda: True)
+    monkeypatch.setattr(vision, "read_json", lambda *a, **k: WRONG)
+    q = "In a right triangle the side opposite 30 degrees is 3 cm and the hypotenuse 6 cm. What is sin 30?"
+    with SessionLocal() as db:
+        t = GapTrace(user_id=uid, chapter_id="x", title="Rotational Motion", status="checking",
+                     chain=[{**_link("wo.trig", "Trig", 10), "check": {"q": q, "options": ["1/2", "1"], "answer": 0}}])
+        db.add(t)
+        db.commit()
+        tid = t.id
+    r = _post(client, h, question=q)
+    assert r.status_code == 400 and "Answer the question first" in r.json()["detail"]
+    with SessionLocal() as db:
+        db.get(GapTrace, tid).status = "found"
+        db.commit()
+    assert _post(client, h, question=q).status_code == 200  # answered: now it may be checked

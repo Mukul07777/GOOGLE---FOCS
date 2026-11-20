@@ -196,7 +196,9 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
   const answered = picked !== null || evaluation !== null;
   const [rough, setRough] = useState(false);  // rough work under the question, a page per question
   const [roughKey] = useState(() => `focs-rough-practice-${Date.now()}`);  // this set's own pages
-  const [work, setWork] = useState<WorkingCheck | null>(null);  // the rough page, read and checked (after answering)
+  // the rough page, read and checked (after answering), with the question it belongs to: a check still on its way
+  // when the student moves on must not land under the next question
+  const [work, setWork] = useState<{ check: WorkingCheck; at: number } | null>(null);
   const checkWork = useCheckWorking(item ? {
     question: item.kind === "tf" ? item.data.statement : item.data.q, topic: quiz.topic, subject: quiz.subject,
     options: item.kind === "mcq" ? item.data.options : item.kind === "tf" ? ["True", "False"] : null,
@@ -237,7 +239,7 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
   });
   const next = (latest: Result[] = results) => {
     if (i + 1 >= items.length) return onDone(latest, items);
-    setI(i + 1); setPicked(null); setChosen(null); setConfidence(null); setAnswer(""); setEvaluation(null); setWork(null);
+    setI(i + 1); setPicked(null); setChosen(null); setConfidence(null); setAnswer(""); setEvaluation(null); setWork(null); checkWork.reset();
   };
   const skip = () => {
     const latest = [...results, { correct: false, score: 0 }];
@@ -328,8 +330,8 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
                     <EvaluationCard evaluation={evaluation} modelAnswer={item.data.model_answer} />
                   </>
                 )}
-                {work && <WorkingCheckCard check={work} onClose={() => setWork(null)} />}
-                {!work && !rough && (
+                {work?.at === i && <WorkingCheckCard check={work.check} onClose={() => setWork(null)} />}
+                {work?.at !== i && !rough && (
                   <button type="button" onClick={() => setRough(true)} className="inline-flex items-center gap-1.5 text-[13px] font-medium text-accent hover:underline">
                     <PenLine className="h-3.5 w-3.5" /> Write your working on the rough pad: Focs finds the exact step that went wrong
                   </button>
@@ -345,7 +347,7 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
       {rough && <>
         <div aria-hidden className="h-[50dvh]" />{/* room to scroll the question above the pad */}
         <RoughPad storageKey={roughKey} page={String(i)} onClose={() => setRough(false)} className="fixed inset-x-0 bottom-0 z-40 shadow-2xl"
-          onCheck={answered ? (image) => checkWork.mutate(image, { onSuccess: setWork }) : undefined} checking={checkWork.isPending} />
+          onCheck={answered ? (image) => { const at = i; checkWork.mutate(image, { onSuccess: (check) => setWork({ check, at }) }); } : undefined} checking={checkWork.isPending} />
       </>}
     </div>
   );

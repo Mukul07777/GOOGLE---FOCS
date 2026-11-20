@@ -20,6 +20,7 @@ from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from app.models.gap import GapTrace, PrereqMap
+from app.models.mock import BankQuestion, MockTest
 from app.models.user import User
 from app.models.weak import WeakTopic
 from app.models.working import WorkingCheck
@@ -122,7 +123,7 @@ def _prompt(user: User, question: str, options: list[str], answer: int | None, c
         rule = "the index of the earlier chapter above that the mistake really comes from, or null when it is a slip or none fits"
     else:
         rule = "null"
-    return PROMPT.format(exam=syllabus.label(user.exam_target), question=question.strip()[:1500], extra="\n".join(extra) + "\n",
+    return PROMPT.format(exam=syllabus.label(user.exam_target), question=question.replace('"""', "'''").strip()[:1500], extra="\n".join(extra) + "\n",
                          errors=", ".join(ERRORS), root_rule=rule)
 
 
@@ -157,6 +158,34 @@ def _read(data: dict[str, Any], chain: list[dict]) -> dict[str, Any]:
             "earlier_idea": _text(data.get("earlier_idea"), 160) if verdict != "right" and error not in CARELESS else None}
 
 
+def _key(text: str) -> str:
+    """A question's text reduced to its letters and digits, for "is this the same question" (spacing, markup aside)."""
+    return re.sub(r"[^a-z0-9]+", "", (text or "").lower())[:120]
+
+
+def still_open(db: Session, user: User, question: str) -> bool:
+    """Is this a question the student hasn't answered yet: a check in a root-cause trace still being taken, or a
+    question of a mock test still running? Checking the working there would hand over the answer."""
+    want = _key(question)
+    if len(want) < 12:
+        return False
+
+    def same(text: str) -> bool:
+        k = _key(text)
+        return bool(k) and (k.startswith(want[:60]) or want.startswith(k[:60]))
+
+    for t in db.scalars(select(GapTrace).where(GapTrace.user_id == user.id, GapTrace.status == "checking")):
+        texts = [(link.get("check") or {}).get("q", "") for link in t.chain or []]
+        texts += [item.get("q", "") for item in ((t.retest or {}).get("before") or {}).get("items", [])]
+        if any(same(x) for x in texts):
+            return True
+    running = [i for ids in db.scalars(select(MockTest.question_ids).where(
+        MockTest.user_id == user.id, MockTest.status.in_(("ready", "in_progress")))) for i in (ids or [])]
+    if running:
+        return any(same(q) for q in db.scalars(select(BankQuestion.question).where(BankQuestion.id.in_(running[:400]))))
+    return False
+
+
 def check(db: Session, user: User, syl: Syllabus | None, image: bytes, question: str, options: list[str] | None,
           answer: int | None, chosen: int | None, chapter_id: str | None, topic: str | None, subject: str | None) -> WorkingCheck:
     """Read and check one page of rough work. Raises WorkingError, LLMUnavailable."""
@@ -164,6 +193,8 @@ def check(db: Session, user: User, syl: Syllabus | None, image: bytes, question:
         raise WorkingError("The rough page is empty or too large.")
     if not question.strip():
         raise WorkingError("Which question is this working for?")
+    if still_open(db, user, question):
+        raise WorkingError("Answer the question first: then Focs checks your working.")
     try:
         jpeg = vision.to_jpeg(image)
     except ValueError as exc:
