@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { Bar, CartesianGrid, ComposedChart, Line, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { YearHeatmap } from "@/components/YearHeatmap";
 import { MentorNudge } from "@/components/MentorNudge";
+import { RealGap } from "@/components/RealGap";
 import { NextSteps } from "@/components/NextSteps";
 import { GoalPrompt, TodayPlan, usePlan } from "@/components/TodayPlan";
 import { Button } from "@/components/ui/button";
@@ -205,6 +206,7 @@ export default function Dashboard() {
       </motion.div>
 
       <MentorNudge />
+      <RealGap />
       {hasSyllabus(user?.exam_target) && <PlanStrip />}
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
