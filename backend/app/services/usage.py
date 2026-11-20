@@ -44,6 +44,7 @@ COSTS: dict[str, int] = {
     "talk_summary": 1,     # a summary of what the teacher said; written again only after more speech came in
     "gap_trace": 2,        # tracing a topic back to the earlier chapters it rests on (shared: only the first student pays)
     "gap_lesson": 2,       # the short lesson that fixes a root gap
+    "working_check": 2,    # rough work read and checked step by step (the image model)
 }
 
 LABELS: dict[str, str] = {
@@ -52,7 +53,7 @@ LABELS: dict[str, str] = {
     "flashcards": "Flashcard sets", "grade_answer": "Answer grading", "revision_sheet": "Revision sheets",
     "practice_set": "Practice sets", "detailed_notes": "Detailed notes", "dictation": "Spoken answers", "test_analysis": "Test results read", "lecture_audio": "Lecture captions",
     "talk_summary": "Summaries of what the teacher said",
-    "gap_trace": "Root-cause traces", "gap_lesson": "Root-gap lessons",
+    "gap_trace": "Root-cause traces", "gap_lesson": "Root-gap lessons", "working_check": "Working checked",
 }
 
 WEEK = timedelta(days=7)

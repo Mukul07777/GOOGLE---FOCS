@@ -1147,3 +1147,23 @@ export interface GapOverview {
     because: string[]; misses: number; trace_chapter_id: string }[];
   chapters: { id: string; subject: string; name: string; cls: number }[];
 }
+
+/* ---------------------------------------------------------------- Check my working, and the tutor */
+export type WorkingError = "arithmetic" | "sign" | "units" | "misread" | "formula" | "setup" | "concept" | "algebra" | "incomplete";
+/** How a student loses marks, from their checked rough work: careless slips, or gaps in ideas. */
+export interface MistakeFingerprint {
+  checked: number; right: number; mistakes: number; slips: number; gaps: number; careless_share: number | null;
+  kinds: { type: WorkingError; label: string; count: number; careless: boolean }[];
+}
+/** One page of rough work, read and checked: the first wrong step, what kind of slip, and the root it comes from. */
+export interface WorkingCheck {
+  id: number; question: string; verdict: "right" | "wrong" | "incomplete";
+  steps: { text: string; ok: boolean }[]; first_wrong: number | null;
+  error_type: WorkingError | null; error_label: string | null; careless: boolean;
+  what_went_wrong: string | null; hint: string | null; fix: string | null;
+  root: { chapter_id: string; name: string; subject: string | null; cls: number | null; idea: string } | null;
+  earlier_idea: string | null; chapter: { id: string; name: string; subject: string } | null; has_chain: boolean;
+  again: { times: number; trace: { id: number; status: GapTrace["status"] } | null } | null;
+  fingerprint: MistakeFingerprint; created_at: string | null;
+}
+export interface TutorTurn { role: "user" | "assistant"; content: string }

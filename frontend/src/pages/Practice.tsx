@@ -10,10 +10,11 @@ import { Markdown } from "@/components/Markdown";
 import { EvaluationCard } from "@/components/TeachBack";
 import { Button } from "@/components/ui/button";
 import { RoughPad } from "@/components/RoughPad";
+import { useCheckWorking, WorkingCheckCard } from "@/components/WorkingCheck";
 import { Badge, Card, CardHeader, EmptyState, Kbd, Label, ProgressBar, ProgressRing, Segmented, Select, Skeleton, Textarea } from "@/components/ui/primitives";
 import { useFocus } from "@/lib/focus";
 import { api, ApiError } from "@/lib/api";
-import type { Evaluation, MCQ, Quiz, Subjective, TrueFalse, WeakCheckResult } from "@/lib/types";
+import type { Evaluation, MCQ, Quiz, Subjective, TrueFalse, WeakCheckResult, WorkingCheck } from "@/lib/types";
 import { cn, hasSyllabus as examHasSyllabus, LETTERS, timeAgo, shownName } from "@/lib/utils";
 import { useAuth } from "@/stores/auth";
 import { ConfidenceLock, verdict, type Confidence } from "@/components/ConfidenceLock";
@@ -195,6 +196,13 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
   const answered = picked !== null || evaluation !== null;
   const [rough, setRough] = useState(false);  // rough work under the question, a page per question
   const [roughKey] = useState(() => `focs-rough-practice-${Date.now()}`);  // this set's own pages
+  const [work, setWork] = useState<WorkingCheck | null>(null);  // the rough page, read and checked (after answering)
+  const checkWork = useCheckWorking(item ? {
+    question: item.kind === "tf" ? item.data.statement : item.data.q, topic: quiz.topic, subject: quiz.subject,
+    options: item.kind === "mcq" ? item.data.options : item.kind === "tf" ? ["True", "False"] : null,
+    answer: item.kind === "mcq" ? item.data.answer_index : item.kind === "tf" ? (item.data.answer ? 0 : 1) : null,
+    chosen: picked,
+  } : null);
 
   const record = (correct: boolean, question: string, q_type: string, score?: number, c?: Confidence) => {
     setResults((r) => [...r, { correct, score }]);
@@ -229,7 +237,7 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
   });
   const next = (latest: Result[] = results) => {
     if (i + 1 >= items.length) return onDone(latest, items);
-    setI(i + 1); setPicked(null); setChosen(null); setConfidence(null); setAnswer(""); setEvaluation(null);
+    setI(i + 1); setPicked(null); setChosen(null); setConfidence(null); setAnswer(""); setEvaluation(null); setWork(null);
   };
   const skip = () => {
     const latest = [...results, { correct: false, score: 0 }];
@@ -320,6 +328,12 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
                     <EvaluationCard evaluation={evaluation} modelAnswer={item.data.model_answer} />
                   </>
                 )}
+                {work && <WorkingCheckCard check={work} onClose={() => setWork(null)} />}
+                {!work && !rough && (
+                  <button type="button" onClick={() => setRough(true)} className="inline-flex items-center gap-1.5 text-[13px] font-medium text-accent hover:underline">
+                    <PenLine className="h-3.5 w-3.5" /> Write your working on the rough pad: Focs finds the exact step that went wrong
+                  </button>
+                )}
                 <div className="flex justify-end">
                   <Button variant="primary" onClick={() => next()}>{i + 1 >= items.length ? "See results" : "Next question"} <ArrowRight className="h-4 w-4" /><span className="hidden sm:inline-flex"><Kbd>↵</Kbd></span></Button>
                 </div>
@@ -330,7 +344,8 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
       </AnimatePresence>
       {rough && <>
         <div aria-hidden className="h-[50dvh]" />{/* room to scroll the question above the pad */}
-        <RoughPad storageKey={roughKey} page={String(i)} onClose={() => setRough(false)} className="fixed inset-x-0 bottom-0 z-40 shadow-2xl" />
+        <RoughPad storageKey={roughKey} page={String(i)} onClose={() => setRough(false)} className="fixed inset-x-0 bottom-0 z-40 shadow-2xl"
+          onCheck={answered ? (image) => checkWork.mutate(image, { onSuccess: setWork }) : undefined} checking={checkWork.isPending} />
       </>}
     </div>
   );

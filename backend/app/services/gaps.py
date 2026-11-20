@@ -33,6 +33,7 @@ from app.models.llm_call import LlmCall
 from app.models.mock import BankQuestion
 from app.models.user import User
 from app.models.weak import WeakTopic
+from app.models.working import WorkingCheck
 from app.services import ai, question_bank, syllabus
 from app.services.llm import LLMUnavailable, llm
 from app.services.syllabus import Chapter, Syllabus
@@ -607,6 +608,12 @@ def suspects(db: Session, user_id: int, syl: Syllabus | None) -> list[dict[str, 
     misses: Counter[str] = Counter()
     for w in weak:
         misses[w.chapter_id] += w.misses or 1
+    # checked rough work (services/working): a slip the reader traced to an earlier chapter points at it directly
+    slips: dict[str, Counter[str]] = {}
+    for exam_id, root_id in db.execute(select(WorkingCheck.chapter_id, WorkingCheck.root_chapter_id).where(
+            WorkingCheck.user_id == user_id, WorkingCheck.root_chapter_id.is_not(None), WorkingCheck.chapter_id.is_not(None))).all():
+        slips.setdefault(root_id, Counter())[exam_id] += 1
+        misses[exam_id] += 0  # the chapter joins the pool even with no mock-test miss
     if len(misses) < SUSPECT_MIN_CHAPTERS:
         return []
     chains = {k: v for k, v in db.execute(select(PrereqMap.key, PrereqMap.chain).where(PrereqMap.key.in_(list(misses)))).all() if v}
@@ -620,9 +627,12 @@ def suspects(db: Session, user_id: int, syl: Syllabus | None) -> list[dict[str, 
             cid = link["chapter_id"]
             if cid in done_roots or cid in cleared:
                 continue  # already shown to be the gap, or shown to hold
+            here = misses[exam_id] + slips.get(cid, Counter())[exam_id]
+            if not here:
+                continue  # a chapter in the pool only for a slip that led elsewhere
             s = found.setdefault(cid, {"chapter_id": cid, "name": link["name"], "subject": link.get("subject"),
                                        "cls": link.get("cls"), "idea": link.get("idea") or link["name"], "evidence": {}})
-            s["evidence"][exam_id] = misses[exam_id]
+            s["evidence"][exam_id] = here
     out = []
     for s in found.values():
         if len(s["evidence"]) < SUSPECT_MIN_CHAPTERS:

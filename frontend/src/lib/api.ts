@@ -1,7 +1,7 @@
 import { useAdmin } from "@/stores/admin";
 import { useAuth } from "@/stores/auth";
 import type {
-  GapOverview, GapTrace, ClassRecap,
+  GapOverview, GapTrace, ClassRecap, MistakeFingerprint, TutorTurn, WorkingCheck,
   MockOffer,
   CardStats, Checkpoint, Doubt, Evaluation, Flashcard, FrameResponse, Grade, Health, HealthDetails, ModelInfo, Note, OcrResult,
   Feeling, MockDetail, MockMeta, Warmup, MockResponse, MockSummary, Overview, PlansInfo, PriceSector, ProPass, Quiz, RedoItem, Room, SessionDetail, SessionEnd,
@@ -159,6 +159,23 @@ export const api = {
   gapAfter: (id: number, answers: (number | null)[]) => post<GapTrace>(`/gaps/${id}/after`, { answers }),
   gapLesson: (id: number) => post<GapTrace>(`/gaps/${id}/lesson`),
   gapCheck: (id: number, choice: number) => post<GapTrace>(`/gaps/${id}/check`, { choice }),
+
+  // Check my working: a page of rough work read step by step; the tutor that knows the student
+  checkWorking: (image: Blob, q: { question: string; options?: string[] | null; answer?: number | null; chosen?: number | null;
+    chapterId?: string | null; topic?: string | null; subject?: string | null }) => {
+    const fd = new FormData();
+    fd.append("image", image, "rough.png");
+    fd.append("question", q.question.slice(0, 2000));
+    fd.append("options", JSON.stringify(q.options ?? []));
+    if (q.answer != null) fd.append("answer", String(q.answer));
+    if (q.chosen != null) fd.append("chosen", String(q.chosen));
+    if (q.chapterId) fd.append("chapter_id", q.chapterId);
+    if (q.topic) fd.append("topic", q.topic.slice(0, 200));
+    if (q.subject) fd.append("subject", q.subject.slice(0, 80));
+    return post<WorkingCheck>("/working/check", fd);
+  },
+  workingFingerprint: () => get<MistakeFingerprint>("/working/fingerprint"),
+  tutor: (b: { question: string; history: TutorTurn[]; check_id?: number | null; chapter_id?: string | null }) => post<{ answer: string }>("/working/tutor", b),
 
   // weak spots: the result of a test taken anywhere, read and turned into a fix-it plan
   weak: () => get<WeakOverview>("/weak"),

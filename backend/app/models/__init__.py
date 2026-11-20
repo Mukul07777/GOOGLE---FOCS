@@ -21,5 +21,6 @@ from app.models.shared_note import SharedNote
 from app.models.study_day import StudyDay
 from app.models.user import User
 from app.models.weak import OutsideTest, WeakTopic
+from app.models.working import WorkingCheck
 
-__all__ = ["BankQuestion", "CampusItem", "CampusPost", "ChapterRevision", "ClassMember", "Classroom", "Course", "Doubt", "Flashcard", "GapTrace", "GroupSeat", "GroupSession", "LectureSegment", "LectureSignal", "LlmCall", "MentorCall", "MentorMessage", "MentorPayout", "MentorProfile", "Mentorship", "MockTest", "Note", "Notification", "OutsideTest", "ParentLink", "Payment", "PlanCheck", "PlanTask", "PrereqMap", "QuizAttempt", "Resource", "Room", "SharedNote", "StudyDay", "StudyGoal", "StudySession", "TopicNote", "TopicProgress", "User", "WeakTopic"]
+__all__ = ["BankQuestion", "CampusItem", "CampusPost", "ChapterRevision", "ClassMember", "Classroom", "Course", "Doubt", "Flashcard", "GapTrace", "GroupSeat", "GroupSession", "LectureSegment", "LectureSignal", "LlmCall", "MentorCall", "MentorMessage", "MentorPayout", "MentorProfile", "Mentorship", "MockTest", "Note", "Notification", "OutsideTest", "ParentLink", "Payment", "PlanCheck", "PlanTask", "PrereqMap", "QuizAttempt", "Resource", "Room", "SharedNote", "StudyDay", "StudyGoal", "StudySession", "TopicNote", "TopicProgress", "User", "WeakTopic", "WorkingCheck"]

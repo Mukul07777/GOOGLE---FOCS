@@ -11,6 +11,8 @@ Runs through the app itself (the real endpoints, in-process) on the database in 
     Rotational Motion from 1 of 3 to 3 of 3
   - a mock test for the JEE student that lost marks in Current Electricity, Electrostatics and Magnetic Effects,
     so the Root cause page opens with "Focs noticed": all three rest on Class 10 Electricity
+  - the JEE student's checked rough work (what "Check my working" keeps: never the drawing), so "How you lose marks"
+    shows slips against gaps, and a slip in torque points at the same trigonometry root as their trace
   - a verified B.Tech senior, and an "Ask a senior" question with Focs's draft checked and a senior's answer accepted
 
 Every account is named "Demo …" with a demo.focs.*@example.com address, and every post starts with "[Demo]", so
@@ -178,6 +180,35 @@ def seed(client, password: str, reset: bool = False) -> dict:
         sus = gap_service.suspects(db, user.id, syl)
     print("  Focs noticed: " + (f"{', '.join(sus[0]['because'])} all rest on {sus[0]['name']}" if sus
                                 else "nothing yet (run scripts/warm_chains.py first, so the chains exist)"))
+
+    print("Checked working:")
+    from app.models.working import WorkingCheck
+    with SessionLocal() as db:
+        uid = db.scalar(select(User.id).where(User.email == email("student")))
+        rot = db.scalar(select(GapTrace).where(GapTrace.user_id == uid, GapTrace.chapter_id == "physics.rotational-motion"))
+        root = rot.chain[rot.root] if rot and rot.root is not None and rot.chain else None
+        db.query(WorkingCheck).filter(WorkingCheck.user_id == uid).delete()
+        step = lambda t, ok=True: {"text": t, "ok": ok}  # noqa: E731
+        rows = [("[Demo] Torque of 10 N at 30° on a 2 m spanner", "wrong", "concept", "physics.rotational-motion", root,
+                 [step(r"$\tau = rF\sin\theta$"), step(r"$= 2 \times 10 \times \cos 30^\circ$", False), step(r"$= 17.3$ N m", False)]),
+                ("[Demo] Net force on a 4 kg block pulled at 20 N against 6 N friction", "wrong", "sign", "physics.laws-of-motion", None,
+                 [step(r"$F_{net} = 20 + 6$", False), step(r"$= 26$ N", False)]),
+                ("[Demo] Current through 3 Ω and 6 Ω in parallel across 12 V", "wrong", "arithmetic", "physics.current-electricity", None,
+                 [step(r"$R = \frac{3 \times 6}{3 + 6} = 2\,\Omega$"), step(r"$I = 12 / 2 = 4$ A", False)]),
+                ("[Demo] Range of a projectile at 15 m/s, 30°", "wrong", "sign", "physics.kinematics", None,
+                 [step(r"$R = \frac{u^2 \sin 2\theta}{g}$"), step(r"$= \frac{225 \times (-0.87)}{10}$", False)]),
+                ("[Demo] Potential at the centre of a charged ring", "right", None, "physics.electrostatics", None,
+                 [step(r"$V = \frac{kQ}{R}$"), step(r"$= 9 \times 10^9 \times 2 \times 10^{-6} / 0.3 = 6 \times 10^4$ V")])]
+        for question, verdict, kind, chapter_id, link, steps in rows:
+            first = next((i for i, s in enumerate(steps) if not s["ok"]), None)
+            db.add(WorkingCheck(user_id=uid, chapter_id=chapter_id, question=question, verdict=verdict, error_type=kind,
+                                root_chapter_id=link["chapter_id"] if link else None,
+                                result={"steps": steps, "first_wrong": first, "verdict": verdict, "error_type": kind,
+                                        "what_went_wrong": None, "hint": None, "fix": None, "earlier_idea": None,
+                                        "root": {k: link.get(k) for k in ("chapter_id", "name", "subject", "cls", "idea")} if link else None,
+                                        "chapter": None, "has_chain": bool(link)}))
+        db.commit()
+    print(f"  {len(rows)} checked solutions for the JEE student" + (f"; the torque slip points at {root['name']}" if root else ""))
 
     print("Ask a senior:")
     ratelimit.reset()

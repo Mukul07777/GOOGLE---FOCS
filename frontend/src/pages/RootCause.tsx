@@ -1,14 +1,16 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { ArrowDown, ArrowRight, Check, CircleHelp, GitBranch, Search, Sparkles, Target, X } from "lucide-react";
+import { ArrowDown, ArrowRight, Check, CircleHelp, GitBranch, GraduationCap, PenLine, Search, Sparkles, Target, X } from "lucide-react";
 import { useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { toast } from "sonner";
 import { PageHeader } from "@/components/common";
 import { Markdown } from "@/components/Markdown";
+import { RoughPad } from "@/components/RoughPad";
+import { MistakeFingerprintCard, TutorChat, useCheckWorking, WorkingCheckCard } from "@/components/WorkingCheck";
 import { Button } from "@/components/ui/button";
 import { Badge, Card, CardHeader, EmptyState, Input, Skeleton } from "@/components/ui/primitives";
 import { api, ApiError } from "@/lib/api";
-import type { GapCheck, GapLink, GapRetestPart, GapTrace } from "@/lib/types";
+import type { GapCheck, GapLink, GapRetestPart, GapTrace, WorkingCheck } from "@/lib/types";
 import { cn, timeAgo } from "@/lib/utils";
 
 /* Root cause: a topic that won't make sense, traced back through the earlier chapters it rests on. The student
@@ -73,6 +75,14 @@ function Chain({ trace }: { trace: GapTrace }) {
   const recheck = useMutation({ mutationFn: (c: number) => api.gapCheck(trace.id, c), onSuccess: put, onError: failed("Couldn't check that") });
   const checking = trace.status === "checking";
   const root = trace.root !== null ? trace.chain[trace.root] : null;
+  // rough work under each check: written while answering, checked step by step once the answers are marked
+  const [padFor, setPadFor] = useState<number | null>(null);
+  const [works, setWorks] = useState<Record<number, WorkingCheck>>({});
+  const padLink = padFor !== null ? trace.chain[padFor] : null;
+  const checkWork = useCheckWorking(padLink ? {
+    question: padLink.check.q, options: padLink.check.options, answer: padLink.check.answer ?? null,
+    chosen: padLink.choice ?? null, chapterId: padLink.chapter_id,
+  } : null);
 
   return (
     <div className="space-y-4">
@@ -115,6 +125,14 @@ function Chain({ trace }: { trace: GapTrace }) {
             <Options check={l.check} value={checking ? picks[i] : l.choice} locked={!checking}
               onPick={(c) => setPicks((p) => p.map((v, j) => (j === i ? c : v)))} />
             {!checking && l.check.explain && <Markdown className="mt-2 text-[12.5px] text-muted">{l.check.explain}</Markdown>}
+            {works[i] ? <WorkingCheckCard check={works[i]} onClose={() => setWorks(({ [i]: _, ...rest }) => rest)} className="mt-3" />
+              : (checking || l.result === "wrong") && (
+                <button type="button" onClick={() => setPadFor(padFor === i ? null : i)}
+                  className="mt-3 inline-flex items-center gap-1.5 text-[13px] font-medium text-accent hover:underline">
+                  <PenLine className="h-3.5 w-3.5" />
+                  {checking ? "Rough work" : "Check my working: where did it go wrong?"}
+                </button>
+              )}
           </Card>
         </div>
       ))}
@@ -125,6 +143,13 @@ function Chain({ trace }: { trace: GapTrace }) {
           <Button variant="primary" onClick={() => submit.mutate()} loading={submit.isPending}>Find my root gap</Button>
         </div>
       )}
+
+      {padFor !== null && <>
+        <div aria-hidden className="h-[50dvh]" />
+        <RoughPad storageKey={`focs-rough-trace-${trace.id}`} page={`link-${padFor}`} onClose={() => setPadFor(null)}
+          className="fixed inset-x-0 bottom-0 z-40 shadow-2xl" checking={checkWork.isPending}
+          onCheck={checking ? undefined : (image) => { const at = padFor; checkWork.mutate(image, { onSuccess: (w) => { setWorks((m) => ({ ...m, [at]: w })); setPadFor(null); } }); }} />
+      </>}
 
       {trace.status === "clear" && (
         <Card className="p-5">
@@ -192,6 +217,21 @@ function Chain({ trace }: { trace: GapTrace }) {
               <RetestQuestions part={after} picks={afterPicks} onPicks={setAfterPicks} locked />
             </>
           )}
+        </Card>
+      )}
+
+      {!checking && (
+        <Card className="p-5">
+          <div className="mb-3 flex items-center gap-2">
+            <span className="grid h-8 w-8 place-items-center rounded-lg bg-fg text-bg"><GraduationCap className="h-4 w-4" /></span>
+            <div>
+              <div className="text-[15px] font-semibold">Your tutor for {trace.title}</div>
+              <div className="text-[12.5px] text-muted">Knows your root gaps, your slips and what this chapter rests on</div>
+            </div>
+          </div>
+          <TutorChat chapterId={trace.chapter_id} placeholder={`Ask anything about ${trace.title}…`}
+            starters={root ? [`How does ${root.idea} show up in ${trace.title}?`, "Give me one exam question to try", "What do toppers get wrong here?"]
+              : ["Explain the hardest idea in this chapter", "Give me one exam question to try"]} />
         </Card>
       )}
     </div>
@@ -280,6 +320,8 @@ export default function RootCause() {
       )}
       {id ? (trace ? <Chain key={trace.id} trace={trace} /> : <Skeleton className="h-72" />)
         : !start.isPending && <Picker busy={start.isPending} onStart={(chapterId, topicId) => start.mutate({ chapterId, topicId })} />}
+
+      {!id && <MistakeFingerprintCard />}
 
       {!id && overview && (overview.traces.length ? (
         <Card>

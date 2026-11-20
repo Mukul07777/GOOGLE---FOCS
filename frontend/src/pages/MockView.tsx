@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import {
-  ArrowLeft, BarChart3, BookOpenCheck, Check, CircleAlert, Clock3, Flag, Lightbulb, ListChecks, Play, Target, X,
+  ArrowLeft, BarChart3, BookOpenCheck, Check, CircleAlert, Clock3, Flag, Lightbulb, ListChecks, PenLine, Play, ScanSearch, Target, X,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { useMemo, useState } from "react";
@@ -11,13 +11,15 @@ import { Markdown } from "@/components/Markdown";
 import { LanguageToggle, OptionFigure, optionFigure, QuestionFigures, shownIn, usePaperLanguage, type PaperLanguage } from "@/components/QuestionMedia";
 import { PaletteLegend } from "@/components/MockPalette";
 import { Solution } from "@/components/Explain";
+import { RoughPad, roughImage, savedPage } from "@/components/RoughPad";
+import { useCheckWorking, WorkingCheckCard } from "@/components/WorkingCheck";
 import { GapMapCard, Warmup } from "@/components/TestBridge";
 import { Button } from "@/components/ui/button";
 import { Dialog } from "@/components/ui/dialog";
 import { Badge, Card, CardHeader, EmptyState, ProgressBar, ProgressRing, Segmented, Skeleton } from "@/components/ui/primitives";
 import { api } from "@/lib/api";
 import { displayStyle } from "@/lib/math";
-import type { MockDetail, MockQuestion, MockResult } from "@/lib/types";
+import type { MockDetail, MockQuestion, MockResult, WorkingCheck } from "@/lib/types";
 import { cn, formatDate, formatDuration, formatMinutes, subjectColor, shownName } from "@/lib/utils";
 
 const OUTCOME_COLOR = { correct: "var(--ok)", incorrect: "var(--bad)", unattempted: "var(--line-strong)" } as const;
@@ -154,7 +156,39 @@ function ReportDialog({ q, onClose }: { q: MockQuestion | null; onClose: () => v
   );
 }
 
-function ReviewCard({ q, row, onReport, lang }: { q: MockQuestion; row: MockResult["questions"][number] | undefined; onReport: () => void; lang: PaperLanguage }) {
+/** After the mock: the rough work drawn during the test, checked step by step (or written now, on the pad). */
+function ReviewWorking({ q, testId, yours, text }: { q: MockQuestion; testId: number; yours: string | null; text: { question: string; options?: string[] | null } }) {
+  const key = `focs-rough-${testId}`;
+  const [work, setWork] = useState<WorkingCheck | null>(null);
+  const [pad, setPad] = useState(false);
+  const mcq = q.qtype === "mcq";
+  const check = useCheckWorking({
+    question: mcq ? text.question : `${text.question}
+
+(Numerical answer. Correct: ${q.answer ?? "?"}; the student answered: ${yours ?? "nothing"})`,
+    options: mcq ? text.options ?? null : null, answer: mcq && q.answer != null ? Number(q.answer) : null,
+    chosen: mcq && yours != null ? Number(yours) : null, topic: q.chapter ?? null, subject: q.subject,
+  });
+  const drawn = savedPage(key, String(q.id)).length > 0;
+  const fromTest = async () => { const image = await roughImage(savedPage(key, String(q.id))); if (image) check.mutate(image, { onSuccess: setWork }); };
+  if (work) return <WorkingCheckCard check={work} onClose={() => setWork(null)} className="mt-3" />;
+  return (
+    <div className="mt-2">
+      {drawn ? (
+        <Button size="sm" variant="secondary" loading={check.isPending} onClick={fromTest} icon={<ScanSearch className="h-3.5 w-3.5" />}>Check my working from the test</Button>
+      ) : (
+        <Button size="sm" variant="ghost" onClick={() => setPad(true)} icon={<PenLine className="h-3.5 w-3.5" />}>Write my working</Button>
+      )}
+      {pad && <>
+        <div aria-hidden className="h-[50dvh]" />
+        <RoughPad storageKey={key} page={String(q.id)} onClose={() => setPad(false)} className="fixed inset-x-0 bottom-0 z-40 shadow-2xl"
+          checking={check.isPending} onCheck={(image) => check.mutate(image, { onSuccess: (w) => { setWork(w); setPad(false); } })} />
+      </>}
+    </div>
+  );
+}
+
+function ReviewCard({ q, row, onReport, lang, testId }: { q: MockQuestion; row: MockResult["questions"][number] | undefined; onReport: () => void; lang: PaperLanguage; testId: number }) {
   const text = shownIn(q, lang);
   const [open, setOpen] = useState(row?.outcome === "incorrect");
   const outcome = row?.outcome ?? "unattempted";
@@ -216,6 +250,7 @@ function ReviewCard({ q, row, onReport, lang }: { q: MockQuestion; row: MockResu
           <Solution q={q} />
         </motion.div>
       )}
+      <ReviewWorking q={q} testId={testId} yours={yours} text={text} />
     </div>
   );
 }
@@ -328,7 +363,7 @@ function Result({ test }: { test: MockDetail }) {
           </div>
         </div>
         {!shown.length && <Card className="p-8 text-center text-sm text-muted">Nothing here — try another filter.</Card>}
-        {shown.slice(0, 40).map((q) => <ReviewCard key={q.id} q={q} row={rows.get(q.id)} lang={lang} onReport={() => setReporting(q)} />)}
+        {shown.slice(0, 40).map((q) => <ReviewCard key={q.id} q={q} row={rows.get(q.id)} lang={lang} testId={test.id} onReport={() => setReporting(q)} />)}
         {shown.length > 40 && <p className="text-center text-xs text-muted">Showing 40 of {shown.length} — narrow the filter to see the rest.</p>}
       </div>
       <ReportDialog q={reporting} onClose={() => setReporting(null)} />
