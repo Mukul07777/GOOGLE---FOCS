@@ -22,7 +22,7 @@ from app.core.security import decode_token
 from app.core.migrate import migrate_local_to_postgres_if_needed
 from app.core.logging import setup_logging
 from app.core.monitoring import init_monitoring, report
-from app.services.llm import llm
+from app.services.llm import llm, providers as llm_providers
 from app.services.maintenance import backfill_legacy
 from app.services import ledger, mailer, storage
 from app.services.ocr import ocr_engine
@@ -52,8 +52,10 @@ async def lifespan(_: FastAPI):
     weak = settings.SECRET_KEY in (INSECURE_DEFAULT_KEY, "change-me") or len(settings.SECRET_KEY) < 32
     if settings.is_production and weak:  # it signs every login: a guessable one lets anyone sign in as anyone
         raise RuntimeError("Set a random SECRET_KEY of 32+ characters in backend/.env before running in production.")
-    if not settings.llm_api_key:  # notes, summaries and tests all go offline-only: say so loudly, not in a health field
-        log.warning("No AI key: set GROQ_API_KEY (and GEMINI_API_KEY) in backend/.env or the server's environment")
+    if not (settings.gemini_api_key or settings.llm_api_key):  # notes, summaries and tests go offline-only: say so loudly
+        log.warning("No AI key: set GEMINI_API_KEY in backend/.env or the server's environment")
+    else:
+        log.info("AI: %s", ", ".join(p.name for p in llm_providers()) or "none usable")
     if settings.is_production and settings.LOGIN_EMAIL_CODE and not mailer.configured():
         log.warning("Email (SMTP) isn't set up: password sign-ins skip the emailed code, and forgot-password is off")
     settings.STORAGE_DIR.mkdir(parents=True, exist_ok=True)
@@ -78,7 +80,7 @@ async def lifespan(_: FastAPI):
     # Load OCR models (and read one line) in the background so the first captured frame isn't slow.
     threading.Thread(target=ocr_engine.warm_up, name="ocr-warmup", daemon=True).start()
     log.info("Focs %s ready — LLM %s", settings.APP_VERSION,
-             f"on ({' -> '.join(llm.models)})" if llm.available else "OFF (offline mode: add GROQ_API_KEY to backend/.env)")
+             f"on ({' -> '.join(llm.models)})" if llm.available else "OFF (offline mode: add GEMINI_API_KEY to backend/.env)")
     yield
     ledger.flush()  # AI calls still queued for the cost ledger
 

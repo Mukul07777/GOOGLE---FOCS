@@ -99,6 +99,7 @@ def test_llm_falls_back_when_primary_is_rate_limited(monkeypatch):
     monkeypatch.setattr(settings, "LLM_BASE_URL", "https://api.groq.com/openai/v1")
     monkeypatch.setattr(settings, "LLM_MODEL", "openai/gpt-oss-120b")
     monkeypatch.setattr(settings, "GEMINI_API_KEY", "gemini_test")
+    monkeypatch.setattr(settings, "GEMINI_FIRST", False)  # the Groq-first order (tests/test_google_first.py: Gemini first)
     monkeypatch.setattr(llm, "_client", httpx.Client(transport=httpx.MockTransport(handler)))
     try:
         assert llm.json([{"role": "user", "content": "hi"}]) == {"ok": True}

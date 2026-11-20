@@ -67,12 +67,24 @@ def _models(value: str) -> list[str]:
 CLAUDE_BASE_URL = "claude"  # sentinel: not a real endpoint, routes _call to the Anthropic SDK instead of httpx
 
 
+def light_models() -> set[str]:
+    """The cheaper models a light job (board notes, pop quizzes) tries first."""
+    return set(_models(settings.GEMINI_LIGHT_MODEL if settings.gemini_first else settings.LLM_LIGHT_MODEL))
+
+
 def providers() -> list[Provider]:
-    chain = [Provider(f"primary:{m}", settings.LLM_BASE_URL, settings.llm_api_key, m) for m in _models(settings.LLM_MODEL)]
-    fallback_key = settings.LLM_FALLBACK_API_KEY or settings.GEMINI_API_KEY
-    if fallback_key or "localhost" in settings.LLM_FALLBACK_BASE_URL:
-        chain += [Provider(f"fallback:{m}", settings.LLM_FALLBACK_BASE_URL, fallback_key, m)
-                  for m in _models(settings.LLM_FALLBACK_MODEL)]
+    gemini_key = settings.gemini_api_key
+    if settings.gemini_first:  # Google first: every Gemini model, then (unless GOOGLE_ONLY) the others when all are busy
+        chain = [Provider(f"gemini:{m}", settings.LLM_FALLBACK_BASE_URL, gemini_key, m) for m in _models(settings.GEMINI_MODEL)]
+        if not settings.GOOGLE_ONLY:
+            chain += [Provider(f"primary:{m}", settings.LLM_BASE_URL, settings.llm_api_key, m) for m in _models(settings.LLM_MODEL)]
+        else:
+            return [p for p in chain if p.usable]
+    else:
+        chain = [Provider(f"primary:{m}", settings.LLM_BASE_URL, settings.llm_api_key, m) for m in _models(settings.LLM_MODEL)]
+        if gemini_key or "localhost" in settings.LLM_FALLBACK_BASE_URL:
+            chain += [Provider(f"fallback:{m}", settings.LLM_FALLBACK_BASE_URL, gemini_key, m)
+                      for m in _models(settings.LLM_FALLBACK_MODEL)]
     if settings.ANTHROPIC_API_KEY:
         # paid, so it only ever runs once every free provider above has failed
         chain += [Provider(f"claude:{m}", CLAUDE_BASE_URL, settings.ANTHROPIC_API_KEY, m)
@@ -278,7 +290,7 @@ class LLMClient:
         ``feature`` labels the call in the cost ledger."""
         ensure_budget()
         configured = [p for p in providers() if p.model not in skip]
-        light = set(_models(settings.LLM_LIGHT_MODEL)) if tier == "light" else set()
+        light = light_models() if tier == "light" else set()
         wait_for = light if patient else set()
         if light:
             configured.sort(key=lambda p: p.model not in light)  # stable: the rest keep their order

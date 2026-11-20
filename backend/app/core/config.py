@@ -65,6 +65,13 @@ class Settings(BaseSettings):
     # it off, same as every other provider here. Spends real (Anthropic) credit, so kept to a cheap model.
     ANTHROPIC_API_KEY: str = ""
     CLAUDE_MODEL: str = "claude-haiku-5-5"
+    # Google first: with a GEMINI_API_KEY, Gemini answers everything (notes, root-cause chains, lessons, the tutor,
+    # handwriting) and Groq/Claude only step in when every Gemini model is busy. GOOGLE_ONLY leaves them out entirely
+    # (the hackathon build: every call is Gemini). Same OpenAI-compatible endpoint as LLM_FALLBACK_BASE_URL.
+    GEMINI_FIRST: bool = True
+    GOOGLE_ONLY: bool = False
+    GEMINI_MODEL: str = "gemini-3.5-flash-lite,gemini-3-flash-preview,gemini-3.1-flash-lite"  # tried in order
+    GEMINI_LIGHT_MODEL: str = "gemini-3.1-flash-lite"  # frequent simple jobs (board notes, pop quizzes) try it first
     # List prices in USD per 1M tokens (input, output), for the cost ledger and the admin dashboard.
     # Update when providers change prices; unknown models are costed at the conservative default.
     MODEL_PRICES_USD: dict[str, tuple[float, float]] = {
@@ -273,6 +280,14 @@ class Settings(BaseSettings):
     @property
     def llm_api_key(self) -> str:
         return self.LLM_API_KEY or self.GROQ_API_KEY
+
+    @property
+    def gemini_api_key(self) -> str:
+        return self.LLM_FALLBACK_API_KEY or self.GEMINI_API_KEY
+
+    @property
+    def gemini_first(self) -> bool:
+        return (self.GEMINI_FIRST or self.GOOGLE_ONLY) and bool(self.gemini_api_key)
 
     @property
     def is_production(self) -> bool:

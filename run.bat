@@ -53,7 +53,7 @@ rem ------------------------------------------------------------------ 3. Config
 if not exist "%BACKEND%\.env" (
   copy /y "%ROOT%.env.example" "%BACKEND%\.env" >nul
   "%VPY%" -c "import pathlib,secrets; p=pathlib.Path(r'%BACKEND%\.env'); p.write_text(p.read_text(encoding='utf-8').replace('SECRET_KEY=change-me','SECRET_KEY='+secrets.token_hex(32)), encoding='utf-8')"
-  echo [3/4] Created backend\.env  - add your free GROQ_API_KEY there to switch on AI notes
+  echo [3/4] Created backend\.env  - add your free GEMINI_API_KEY there to switch on the AI
 ) else (
   echo [3/4] Configuration found ^(backend\.env^)
 )

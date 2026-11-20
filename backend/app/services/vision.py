@@ -30,7 +30,8 @@ def _key() -> str:
 
 def models() -> list[str]:
     """The vision models, in the order they are tried ("groq:<model>" runs on the primary provider)."""
-    return [m.strip() for m in settings.VISION_MODEL.split(",") if m.strip() and _endpoint(m.strip())[1]]
+    return [m.strip() for m in settings.VISION_MODEL.split(",")
+            if m.strip() and _endpoint(m.strip())[1] and not (settings.GOOGLE_ONLY and m.strip().startswith("groq:"))]
 
 
 def _endpoint(model: str) -> tuple[str, str, str]:

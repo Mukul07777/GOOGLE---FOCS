@@ -23,6 +23,8 @@ LANGUAGES = {"en", "hi"}           # anything else: let the model detect it (Hin
 
 def _provider() -> tuple[str, str] | None:
     base, key = settings.LLM_BASE_URL, settings.llm_api_key
+    if settings.GOOGLE_ONLY:  # the browser dictates; the server-side fallback runs on Groq/OpenAI, so it is off
+        return None
     return (base.rstrip("/"), key) if key and settings.STT_MODEL and ("groq.com" in base or "openai.com" in base) else None
 
 
