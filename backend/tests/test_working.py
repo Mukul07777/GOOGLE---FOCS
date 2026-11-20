@@ -3,7 +3,10 @@ traced to the earlier chapter it comes from, evidence for silent tracing, and a 
 import io
 import json
 
+import pytest
 from PIL import Image
+
+from sqlalchemy import delete, select
 
 from app.core.database import SessionLocal
 from app.models.gap import GapTrace, PrereqMap
@@ -16,6 +19,17 @@ def _user(client, email):
     r = client.post("/api/auth/register", json={"accepted_terms": True, "email": email, "full_name": "Ravi K",
                                                 "password": "correct-horse-1", "exam_target": "jee"})
     return {"Authorization": f"Bearer {r.json()['access_token']}"}, r.json()["user"]["id"]
+
+
+@pytest.fixture(autouse=True)
+def _own_chains():
+    """Chains stored here are taken away again: the test database is shared, and test_gaps traces real chapters."""
+    with SessionLocal() as db:
+        before = set(db.scalars(select(PrereqMap.key)))
+    yield
+    with SessionLocal() as db:
+        db.execute(delete(PrereqMap).where(PrereqMap.key.not_in(before)))
+        db.commit()
 
 
 def _png() -> bytes:

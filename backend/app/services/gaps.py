@@ -620,12 +620,22 @@ def suspects(db: Session, user_id: int, syl: Syllabus | None) -> list[dict[str, 
     traced = db.scalars(select(GapTrace).where(GapTrace.user_id == user_id, GapTrace.status != "checking")).all()
     done_roots = {t.chain[t.root]["chapter_id"] for t in traced if t.root is not None and t.chain and t.root < len(t.chain)}
     cleared = {link["chapter_id"] for t in traced for link in (t.chain or []) if link.get("result") == "right"}
+    return suspects_from(misses, chains, syl, slips=slips, skip=done_roots | cleared)[:SUSPECTS_SHOWN]
 
+
+def suspects_from(misses: Counter[str], chains: dict[str, list], syl: Syllabus | None, *,
+                  slips: dict[str, Counter[str]] | None = None, skip: set[str] = frozenset()) -> list[dict[str, Any]]:
+    """Silent tracing itself, with no database: weak exam chapters (``misses``: chapter id -> questions lost) joined to
+    their chains. An earlier chapter under two or more of them is a suspect. ``slips``: checked working that pointed at a
+    root; ``skip``: earlier chapters already traced (found, or shown to hold). Also used by scripts/evidence.py."""
+    slips = slips or {}
     found: dict[str, dict[str, Any]] = {}
     for exam_id, chain in chains.items():
-        for link in chain:
+        if exam_id not in misses:
+            continue
+        for link in chain or []:
             cid = link["chapter_id"]
-            if cid in done_roots or cid in cleared:
+            if cid in skip:
                 continue  # already shown to be the gap, or shown to hold
             here = misses[exam_id] + slips.get(cid, Counter())[exam_id]
             if not here:
@@ -643,4 +653,4 @@ def suspects(db: Session, user_id: int, syl: Syllabus | None) -> list[dict[str, 
                     "because": names, "misses": sum(n for _, n in ev),
                     "trace_chapter_id": ev[0][0]})  # confirm it by tracing the weakest of them
     out.sort(key=lambda s: (-len(s["because"]), -s["misses"], s["cls"] or 99))
-    return out[:SUSPECTS_SHOWN]
+    return out
