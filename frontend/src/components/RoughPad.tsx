@@ -139,7 +139,8 @@ export function RoughPad({ storageKey, page, onClose, className, onCheck, checki
   const move = (e: React.PointerEvent<HTMLCanvasElement>) => {
     const d = drawing.current;
     if (!d || d.id !== e.pointerId) return;
-    const events = (e.nativeEvent as PointerEvent).getCoalescedEvents?.() ?? [e.nativeEvent];
+    const coalesced = (e.nativeEvent as PointerEvent).getCoalescedEvents?.();
+    const events = coalesced && coalesced.length ? coalesced : [e.nativeEvent];  // some browsers hand back an empty list
     for (const ev of events) d.stroke.p.push(...point(ev as unknown as React.PointerEvent));
     paint([...strokes, d.stroke]);
   };

@@ -1,0 +1,38 @@
+# Cloud Build: the roots build of Focs (the Google hackathon story) as one container image, then deployed on Cloud Run.
+#   gcloud builds submit --config cloudbuild.yaml --substitutions _REGION=asia-south1
+# See docs/DEPLOY_GOOGLE.md for the one-time setup (APIs, secrets, database).
+substitutions:
+  _REGION: asia-south1          # Mumbai: closest to the students
+  _SERVICE: focs
+  _EDITION: roots               # "" for the full app
+  _TAG: demo
+images:
+  - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/focs/focs:${_TAG}"
+steps:
+  - id: build
+    name: gcr.io/cloud-builders/docker
+    args: ["build", "--build-arg", "VITE_EDITION=${_EDITION}", "-t", "${_REGION}-docker.pkg.dev/${PROJECT_ID}/focs/focs:${_TAG}", "."]
+  - id: push
+    name: gcr.io/cloud-builders/docker
+    args: ["push", "${_REGION}-docker.pkg.dev/${PROJECT_ID}/focs/focs:${_TAG}"]
+  - id: deploy
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE}
+      - --image=${_REGION}-docker.pkg.dev/${PROJECT_ID}/focs/focs:${_TAG}
+      - --region=${_REGION}
+      - --port=8000
+      # one instance: live classes and rate limits live in memory; it stays warm so the demo never waits for a cold start
+      - --min-instances=1
+      - --max-instances=1
+      - --memory=2Gi
+      - --cpu=2
+      - --no-cpu-throttling
+      - --timeout=3600
+      - --allow-unauthenticated
+      - --set-env-vars=ENV=production,GOOGLE_ONLY=true,ALLOW_DEV_UPGRADE=false,TRUSTED_PROXY_HOPS=1
+      - --set-secrets=SECRET_KEY=focs-secret:latest,GEMINI_API_KEY=gemini:latest,SUPABASE_DB_URL=focs-db:latest
+timeout: 1800s

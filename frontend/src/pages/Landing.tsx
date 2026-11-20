@@ -14,7 +14,7 @@ import type { PlansInfo, PriceSector, ProPass } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/stores/auth";
 import { useTheme } from "@/stores/theme";
-import { BRIDGE, BRIDGE_LINE, LANES, SITE } from "@/lib/site";
+import { BRIDGE, BRIDGE_LINE, LANES, ROOTS, ROOTS_LEDE, ROOTS_LINE, SITE } from "@/lib/site";
 
 /* The landing page, laid out like a fashion lookbook: a thin black strip, a centred wordmark header, the name set huge
    with the live demo beneath it, a black band of who it is for, a split banner, a row of promises, and a
@@ -409,13 +409,13 @@ function Hero({ cta }: { cta: string }) {
         <div className="flex items-start justify-between gap-8">
           <motion.div {...rise()} className="max-w-[21rem]">
             <h1 className="caps text-[12.5px] font-medium leading-[2] tracking-[0.3em] text-fg">
-              {BRIDGE ? BRIDGE_LINE : "Every lecture, understood."}
+              {BRIDGE ? BRIDGE_LINE : ROOTS ? ROOTS_LINE : "Every lecture, understood."}
             </h1>
             <span aria-hidden className="mt-3 block h-px w-10 bg-fg" />
-            <p className="mt-6 text-[14px] leading-relaxed text-fg-soft">{BRIDGE ? LEDE : HERO_LEDE}</p>
+            <p className="mt-6 text-[14px] leading-relaxed text-fg-soft">{BRIDGE ? LEDE : ROOTS ? ROOTS_LEDE : HERO_LEDE}</p>
           </motion.div>
           <motion.div {...rise(0.1)} className="hidden shrink-0 text-right sm:block">
-            <div className="caps text-[11px] font-medium leading-[2] tracking-[0.3em] text-fg">New<br />FocsOCR<br />Real boards</div>
+            <div className="caps text-[11px] font-medium leading-[2] tracking-[0.3em] text-fg">{ROOTS ? <>New<br />Check my working<br />With Gemini</> : <>New<br />FocsOCR<br />Real boards</>}</div>
             <span aria-hidden className="ml-auto mt-3 block h-px w-10 bg-fg" />
           </motion.div>
         </div>
@@ -428,11 +428,11 @@ function Hero({ cta }: { cta: string }) {
 
         <div className="flex flex-col gap-6 pt-10 sm:flex-row sm:items-end sm:justify-between sm:pt-12">
           <motion.div {...rise(0.2)} className="flex flex-wrap items-center gap-6">
-            <Link to={cta}><Button variant="primary" size="lg">{BRIDGE ? "Try it on a lecture" : "Start free"}</Button></Link>
+            <Link to={cta}><Button variant="primary" size="lg">{BRIDGE ? "Try it on a lecture" : ROOTS ? "Find my real gap" : "Start free"}</Button></Link>
             <a href="#how" className="link-line inline-flex min-h-11 items-center">See how it works</a>
           </motion.div>
           <motion.div {...rise(0.25)} className="max-w-[16rem] sm:text-right">
-            <div className="caps text-[11px] font-medium leading-[2] tracking-[0.26em] text-fg">Notes · Quizzes · Flashcards</div>
+            <div className="caps text-[11px] font-medium leading-[2] tracking-[0.26em] text-fg">{ROOTS ? "Step · Root · Fix · Proof" : "Notes · Quizzes · Flashcards"}</div>
             <span aria-hidden className="mt-3 block h-px w-10 bg-fg sm:ml-auto" />
           </motion.div>
         </div>

@@ -18,7 +18,7 @@ import { NotificationBell } from "@/components/NotificationBell";
 import { buildTourSteps, GuidedTour, markTourSeen, tourSeen } from "@/components/GuidedTour";
 import { useAuth } from "@/stores/auth";
 import { useTheme } from "@/stores/theme";
-import { BRIDGE } from "@/lib/site";
+import { BRIDGE, ROOTS } from "@/lib/site";
 import { useT } from "@/lib/i18n";
 
 const NAV = [
@@ -43,12 +43,20 @@ const NAV = [
 ];
 
 /** Phone bottom bar: the four most phone-friendly sections; everything else is under "More". */
-const MOBILE_TABS: Record<string, string> = { "/app": "Home", "/app/plan": "Plan", "/app/studio": "Live", "/app/mock": "Mocks" };
+const MOBILE_TABS: Record<string, string> = ROOTS
+  ? { "/app": "Home", "/app/roots": "Roots", "/app/practice": "Practice", "/app/mock": "Mocks" }
+  : { "/app": "Home", "/app/plan": "Plan", "/app/studio": "Live", "/app/mock": "Mocks" };
 
 /** The menu as this student sees it: a B.Tech student has subject tests, not mock tests; Campus is for course students. */
 /** The event build shows only the screens on the teacher \u2194 student bridge (the rest still open by URL). */
 const BRIDGE_NAV: Record<string, string> = {
   "/app": "Home", "/app/studio": "Live lecture", "/app/rooms": "Live class", "/app/mock": "Tests & gap map", "/app/campus": "Ask a senior",
+};
+
+/** The roots build (Google hackathon): only the screens on the root-cause loop. */
+const ROOTS_NAV: Record<string, string> = {
+  "/app": "Home", "/app/roots": "Root cause", "/app/genome": "Gap Genome", "/app/practice": "Practice", "/app/mock": "Mock tests",
+  "/app/weak": "Weak spots", "/app/classes": "Classes",
 };
 
 /** Pages built on a syllabus: a student whose exam has none here (UPSC, CA, other) never gets another exam's. */
@@ -63,7 +71,8 @@ function useNav() {
   return useMemo(() => {
     const items = NAV.filter((n) => (seniors || n.to !== "/app/campus") && (syllabus || !SYLLABUS_ONLY.has(n.to)) && (tests || n.to !== "/app/mock"))
       .map((n) => (college && n.to === "/app/mock" ? { ...n, label: "Tests" } : !courses && n.to === "/app/campus" ? { ...n, label: "Ask a senior" } : n));
-    return BRIDGE ? items.filter((n) => n.to in BRIDGE_NAV).map((n) => ({ ...n, label: BRIDGE_NAV[n.to] })) : items;
+    const only = BRIDGE ? BRIDGE_NAV : ROOTS ? ROOTS_NAV : null;
+    return only ? items.filter((n) => n.to in only).map((n) => ({ ...n, label: only[n.to] })) : items;
   }, [college, courses, seniors, syllabus, tests]);
 }
 

@@ -43,8 +43,8 @@ export function WorkingCheckCard({ check, onClose, className }: { check: Working
 
   return (
     <div className={cn("rounded-xl border border-line bg-bg-soft p-4", className)} aria-live="polite">
-      <div className="flex flex-wrap items-center gap-2">
-        <span className={cn("grid h-8 w-8 place-items-center rounded-lg", right ? "bg-ok/15 text-ok" : "bg-bad/15 text-bad")}>
+      <div className="flex items-start gap-2.5">
+        <span className={cn("grid h-8 w-8 shrink-0 place-items-center rounded-lg", right ? "bg-ok/15 text-ok" : "bg-bad/15 text-bad")}>
           {right ? <Check className="h-4 w-4" /> : <X className="h-4 w-4" />}
         </span>
         <div className="min-w-0 flex-1">
@@ -52,9 +52,9 @@ export function WorkingCheckCard({ check, onClose, className }: { check: Working
           <div className="text-[15px] font-semibold">
             {right ? "Every step holds." : wrongAt !== null ? `Step ${wrongAt + 1} is where it went wrong` : check.verdict === "incomplete" ? "Right so far, but it stops early" : "Something went wrong"}
           </div>
+          {check.error_label && <Badge tone={check.careless ? "warn" : "bad"} className="mt-1.5">{check.careless ? "Slip" : "Gap"} · {check.error_label}</Badge>}
         </div>
-        {check.error_label && <Badge tone={check.careless ? "warn" : "bad"}>{check.careless ? "Slip" : "Gap"} · {check.error_label}</Badge>}
-        {onClose && <button type="button" onClick={onClose} className="grid h-8 w-8 place-items-center rounded-lg text-muted hover:bg-elev-2 hover:text-fg" aria-label="Close the check"><X className="h-4 w-4" /></button>}
+        {onClose && <button type="button" onClick={onClose} className="grid h-8 w-8 shrink-0 place-items-center rounded-lg text-muted hover:bg-elev-2 hover:text-fg" aria-label="Close the check"><X className="h-4 w-4" /></button>}
       </div>
 
       <ol className="mt-3 space-y-1.5">

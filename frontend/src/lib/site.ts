@@ -17,6 +17,13 @@ export const contactLine = SITE.supportEmail
     still works by URL. The normal build is unchanged. */
 export const BRIDGE = import.meta.env.VITE_EDITION === "bridge";
 
+/* ---------------------------------------------------------------- the roots build (Google hackathon) */
+/** VITE_EDITION=roots: one story, the root-cause loop (scribble -> wrong step -> the earlier gap -> five-minute fix ->
+    proof), with only its screens in the menu. Everything else still opens by URL. */
+export const ROOTS = import.meta.env.VITE_EDITION === "roots";
+export const ROOTS_LINE = "Other apps mark the answer. Focs finds the step, and the year, where understanding broke.";
+export const ROOTS_LEDE = "Write your working on the rough pad. Gemini reads every step, finds the first one that went wrong, and traces it back to the earlier class it comes from. A five-minute fix in your language, then proof that the stuck topic moved. Teachers see where their whole batch's gaps really start.";
+
 /** The one answer to "which two sides, and what's between them", used word for word on the landing page, the
     README, slide 1 and the demo's first sentence. */
 export const BRIDGE_LINE = "Focs carries the lecture to the student, and the confusion back to the teacher.";
