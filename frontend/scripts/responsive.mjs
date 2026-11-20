@@ -16,7 +16,7 @@ const SCREENS = [
 ];
 const PUBLIC = ["/", "/login", "/signup", "/mentor/signup", "/pricing", "/privacy", "/terms", "/forgot-password"];
 const STUDENT = ["/app", "/app/studio", "/app/prep", "/app/plan", "/app/mock", "/app/practice", "/app/revise", "/app/flashcards",
-  "/app/weak", "/app/rooms", "/app/campus", "/app/mentors", "/app/settings", "/app/library", "/app/leaderboard", "/app/formulas", "/app/snap", "/app/classes"];
+  "/app/weak", "/app/roots", "/app/genome", "/app/rooms", "/app/campus", "/app/mentors", "/app/settings", "/app/library", "/app/leaderboard", "/app/formulas", "/app/snap", "/app/classes"];
 const ACCOUNTS = [
   { exam_target: "neet", class_level: "12" },
   { exam_target: "jee", class_level: "12" },

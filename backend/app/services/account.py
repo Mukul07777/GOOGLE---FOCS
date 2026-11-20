@@ -9,6 +9,7 @@ from sqlalchemy.orm import Session
 from app.models.course import Course
 from app.models.doubt import Doubt
 from app.models.flashcard import Flashcard
+from app.models.gap import GapTrace
 from app.models.lecture import LectureSegment
 from app.models.llm_call import LlmCall
 from app.models._util import utcnow
@@ -155,7 +156,8 @@ def delete_everything(db: Session, user: User) -> list[str]:
     db.execute(delete(StudyDay).where(StudyDay.user_id == uid))
     for path in db.scalars(select(CampusItem.file_path).where(CampusItem.user_id == user.id)):  # what they shared goes with them
         storage.delete(path)
-    for model in (StudyGoal, TopicProgress, ChapterRevision, PlanCheck, PlanTask, WeakTopic, OutsideTest, CampusItem, ClassMember, ParentLink):
+    for model in (StudyGoal, TopicProgress, ChapterRevision, PlanCheck, PlanTask, WeakTopic, OutsideTest, CampusItem, ClassMember, ParentLink,
+                  GapTrace):  # (their root-cause traces too)
         db.execute(delete(model).where(model.user_id == uid))
     taught = list(db.scalars(select(Classroom.id).where(Classroom.owner_id == uid)))  # the classes they ran close with them
     if taught:

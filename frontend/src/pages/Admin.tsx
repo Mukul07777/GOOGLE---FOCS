@@ -1,5 +1,5 @@
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import { Activity, Bot, IndianRupee, LogOut, Moon, Search, ShieldCheck, Sun, Target, TrendingUp, Users } from "lucide-react";
+import { Activity, Bot, IndianRupee, Layers, LogOut, Moon, Search, ShieldCheck, Sun, Target, TrendingUp, Users } from "lucide-react";
 import { useState, type ReactNode } from "react";
 import { Navigate } from "react-router-dom";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
@@ -7,6 +7,7 @@ import { Logo, PageHeader } from "@/components/common";
 import { Button } from "@/components/ui/button";
 import { Badge, Card, CardHeader, Input, ProgressBar, Skeleton } from "@/components/ui/primitives";
 import { api } from "@/lib/api";
+import type { RootProof } from "@/lib/types";
 import { cn, examLabel, timeAgo } from "@/lib/utils";
 import { adminSignedIn, useAdmin } from "@/stores/admin";
 import { useTheme } from "@/stores/theme";
@@ -24,6 +25,35 @@ const FEATURE_LABEL: Record<string, string> = {
   practice_set: "Practice sets", grade_answer: "Answer grading", revision_sheet: "Revision sheets", flashcards: "Flashcards",
   question_bank: "Writing bank questions", question_verify: "Verifying bank questions", other: "Other",
 };
+
+/** Root-cause tracing with real students: the numbers for the pitch, straight from the app's records. */
+function RootProofCard({ r, usdInr }: { r: RootProof; usdInr: number }) {
+  const show = (v: number | null, unit = "%") => (v === null ? "–" : `${v}${unit}`);
+  const tiles: [string, string, string][] = [
+    ["Stuck topic, before → after", r.retest_before === null || r.retest_after === null ? "–" : `${r.retest_before}% → ${r.retest_after}%`,
+      `${r.retest_pairs} student${r.retest_pairs === 1 ? "" : "s"} answered both, 3 questions each`],
+    ["Students who traced", String(r.students), `${r.traces} trace${r.traces === 1 ? "" : "s"} finished`],
+    ["Found an earlier gap", show(r.root_rate), `${r.with_root} traces${r.root_classes.length ? ` · most often Class ${r.root_classes[0].cls}` : ""}`],
+    ["Right on the first re-check", show(r.recheck_pass), `${r.fixed} fixed of ${r.lessons} lessons`],
+    ["Time to fix (median)", show(r.median_minutes_to_fix, " min"), "trace start to a passed re-check"],
+    ["Reused, no AI", show(r.reused), `${r.chains_built} chains built by AI, shared by every trace after`],
+    ["AI cost per student", r.ai_usd_per_student === null ? "–" : `₹${(r.ai_usd_per_student * usdInr).toFixed(2)}`, "root tracing and fix lessons, list prices"],
+  ];
+  return (
+    <Card>
+      <CardHeader title="Root-cause tracing, measured" icon={<Layers className="h-4 w-4" />} subtitle="Real students' traces, from the app's own records. Nothing here is estimated." />
+      <div className="grid grid-cols-2 gap-3 p-5 md:grid-cols-4 xl:grid-cols-7">
+        {tiles.map(([label, value, sub]) => (
+          <div key={label} className="rounded-xl border border-line bg-bg-soft p-3">
+            <div className="text-xs text-muted">{label}</div>
+            <div className="mt-1 font-display text-2xl font-semibold tabular-nums">{value}</div>
+            <div className="mt-1 text-[11.5px] leading-snug text-muted">{sub}</div>
+          </div>
+        ))}
+      </div>
+    </Card>
+  );
+}
 
 function Kpi({ icon, label, value, sub, tone }: { icon: ReactNode; label: string; value: ReactNode; sub?: ReactNode; tone?: string }) {
   return (
@@ -121,6 +151,8 @@ function Dashboard() {
         <Kpi icon={<Bot className="h-4 w-4 text-accent" />} label="AI cost per active student" value={inr(o.ai_cost.per_active_user_30d.inr, 2)} sub="last 30 days" />
         <Kpi icon={<Activity className="h-4 w-4 text-accent-2" />} label="AI calls" value={o.ai_cost.calls.toLocaleString("en-IN")} sub={o.ai_cost.note} />
       </div>
+
+      {o.roots && <RootProofCard r={o.roots} usdInr={o.ai_cost.usd_inr} />}
 
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
         <Card>

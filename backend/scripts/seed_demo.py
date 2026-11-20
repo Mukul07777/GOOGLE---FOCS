@@ -6,6 +6,11 @@ Runs through the app itself (the real endpoints, in-process) on the database in 
   - a JEE student (Hinglish) and a Hindi-medium student, each with a finished live lecture: boards read, notes
     written in their language, revision sheet and flashcards made
   - a teacher's live class with its boards and a confusion map ("I'm lost" taps, wrong answers, doubts)
+  - the teacher's batch with root-cause traces: two students stuck on Rotational Motion share the same earlier gap
+    (the root-gap map's "teach first"), and the JEE student's five-minute fix (in Hinglish) passed its re-check, taking
+    Rotational Motion from 1 of 3 to 3 of 3
+  - a mock test for the JEE student that lost marks in Current Electricity, Electrostatics and Magnetic Effects,
+    so the Root cause page opens with "Focs noticed": all three rest on Class 10 Electricity
   - a verified B.Tech senior, and an "Ask a senior" question with Focs's draft checked and a senior's answer accepted
 
 Every account is named "Demo …" with a demo.focs.*@example.com address, and every post starts with "[Demo]", so
@@ -47,6 +52,7 @@ def seed(client, password: str, reset: bool = False) -> dict:
     from app.core.database import SessionLocal
     from app.core import ratelimit
     from app.models._util import utcnow
+    from app.models.gap import GapTrace
     from app.models.user import User
     from app.services import account, confusion
 
@@ -116,6 +122,62 @@ def seed(client, password: str, reset: bool = False) -> dict:
         confusion.record(code, "doubt", user_id=ids["classmate"], note_id=last.id, ref="demo-2",
                          text="[Demo] Is kinetic energy ever negative?", data={"votes": 1, "resolved": True})
     print(f"  room {code}: {len(boards)} boards, confusion map at /app/rooms/{code}/report")
+
+    print("Root-cause traces and a class:")
+    ratelimit.reset()
+    made = client.post("/api/classes", headers=h["teacher"], json={"name": "Demo: JEE 2027 batch"})
+    made.raise_for_status()
+    batch = made.json()
+    for key in ("student", "hindi", "classmate"):
+        client.post("/api/classes/join", headers=h[key], json={"code": batch["code"]}).raise_for_status()
+    traced = 0
+    # (student, chapter, the check they miss): the two Rotational Motion students miss the same earlier idea (sine and
+    # cosine, behind torque = rF sin θ, when the AI's chain has it), so the map says to teach it first
+    for key, chapter_id, miss in (("student", "physics.rotational-motion", "trigonometry"), ("classmate", "physics.rotational-motion", "trigonometry"),
+                                  ("hindi", "physics.laws-of-motion", "nearest")):
+        r = client.post("/api/gaps", headers=h[key], json={"chapter_id": chapter_id})
+        if r.status_code != 200:
+            print(f"  {key}: no trace ({r.status_code}): tracing a chapter needs the AI once")
+            continue
+        trace_id = r.json()["id"]
+        with SessionLocal() as db:
+            made = db.get(GapTrace, trace_id)
+            chain, retest = made.chain, made.retest
+        wrong = 0 if miss == "nearest" else next((i for i, c in enumerate(chain) if miss in c["name"].lower()), len(chain) - 1)
+        picks = [(c["check"]["answer"] + 1) % len(c["check"]["options"]) if i == wrong else c["check"]["answer"]
+                 for i, c in enumerate(chain)]
+        # the stuck topic itself first: one of three right (the "before" of before-and-after), when the bank had questions
+        before = None
+        if retest:
+            keys = [item["answer"] for item in retest["before"]["items"]]
+            before = [k if i == 0 else (k + 1) % 4 for i, k in enumerate(keys)]
+        client.post(f"/api/gaps/{trace_id}/answers", headers=h[key], json={"answers": picks, "before": before}).raise_for_status()
+        traced += 1
+        if key == "student":  # the five-minute fix in their language, and the re-check passed
+            if client.post(f"/api/gaps/{trace_id}/lesson", headers=h[key]).status_code == 200:
+                with SessionLocal() as db:
+                    right = db.get(GapTrace, trace_id).lesson["check"]["answer"]
+                client.post(f"/api/gaps/{trace_id}/check", headers=h[key], json={"choice": right}).raise_for_status()
+                if retest:  # and the stuck topic again: three of three now
+                    after = [item["answer"] for item in retest["after"]["items"]]
+                    client.post(f"/api/gaps/{trace_id}/after", headers=h[key], json={"answers": after}).raise_for_status()
+    print(f"  class {batch['code']}: 3 students, {traced} traces; the root-gap map at /app/classes/{batch['id']}")
+
+    print("Silent tracing:")
+    from datetime import date
+
+    from app.services import gaps as gap_service, syllabus as syl_service, weak as weak_service
+    with SessionLocal() as db:  # a mock that lost marks in three chapters which all rest on Class 10 Electricity
+        user = db.scalar(select(User).where(User.email == email("student")))
+        syl = syl_service.get("jee")
+        weak_service.save_test(db, user.id, syl, title="[Demo] Minor Test 3 (Physics)", taken_on=date.today() - timedelta(days=2),
+                               score=118, max_score=300, subjects=[{"name": "Physics", "score": 22, "max": 100}], source="manual",
+                               weak=[{"chapter_id": "physics.current-electricity", "misses": 4, "note": "Kirchhoff loops and power"},
+                                     {"chapter_id": "physics.electrostatics", "misses": 3, "note": "Potential and capacitors"},
+                                     {"chapter_id": "physics.magnetic-effects-of-current-and-magnetism", "misses": 2, "note": "Field of a current loop"}])
+        sus = gap_service.suspects(db, user.id, syl)
+    print("  Focs noticed: " + (f"{', '.join(sus[0]['because'])} all rest on {sus[0]['name']}" if sus
+                                else "nothing yet (run scripts/warm_chains.py first, so the chains exist)"))
 
     print("Ask a senior:")
     ratelimit.reset()

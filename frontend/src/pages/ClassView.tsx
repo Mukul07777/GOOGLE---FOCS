@@ -1,15 +1,16 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { ArrowLeft, Clock, Copy, Crosshair, Flame, Presentation, Route, Trash2, UserMinus, Users } from "lucide-react";
+import { ArrowLeft, Clock, Copy, Crosshair, Flame, Layers, Presentation, Route, Trash2, UserMinus, Users } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { toast } from "sonner";
 import { PageHeader } from "@/components/common";
+import { Markdown } from "@/components/Markdown";
 import { StatTile, WeekBars } from "@/components/ProgressBits";
 import { Button } from "@/components/ui/button";
 import { Badge, Card, CardHeader, EmptyState, ProgressBar, Segmented, Skeleton } from "@/components/ui/primitives";
 import { api, ApiError } from "@/lib/api";
-import type { ClassStudent } from "@/lib/types";
-import { formatMinutes, subjectColor } from "@/lib/utils";
+import type { BatchRoots, ClassRecap, ClassStudent } from "@/lib/types";
+import { cn, formatMinutes, subjectColor } from "@/lib/utils";
 import { copyText } from "@/pages/Classes";
 
 type Sort = "name" | "study" | "syllabus";
@@ -43,6 +44,94 @@ function StudentRow({ s, onRemove }: { s: ClassStudent; onRemove: () => void }) 
       </div>
       <Button size="icon-sm" variant="ghost" aria-label={`Remove ${s.name} from the class`} title="Remove from the class" onClick={onRemove}><UserMinus className="h-3.5 w-3.5" /></Button>
     </div>
+  );
+}
+
+const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? "" : "s"}`;
+
+/** The recap for the board: the lesson, then the check question with its answer marked. */
+function Recap({ recap }: { recap: ClassRecap }) {
+  const board = `${recap.name}${recap.cls ? ` (Class ${recap.cls})` : ""}: ${recap.idea}\n\n${recap.md}\n\nCheck: ${recap.check.q}\n`
+    + recap.check.options.map((o, i) => `${"ABCD"[i]}. ${o}`).join("\n") + `\nAnswer: ${"ABCD"[recap.check.answer ?? 0]}`;
+  return (
+    <div className="mt-3 rounded-xl border border-line bg-panel p-4">
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="text-[14px] font-semibold">10-minute recap: {recap.idea}</span>
+        <span className="text-xs text-muted">for the {recap.students} stuck on {recap.stuck_on}</span>
+        <Button size="sm" variant="secondary" className="ml-auto" onClick={() => copyText(board, "Recap copied")}><Copy className="h-3.5 w-3.5" /> Copy for the board</Button>
+      </div>
+      <div className="mt-3 text-[14px] leading-relaxed"><Markdown>{recap.md}</Markdown></div>
+      <div className="mt-3 text-[13.5px] font-medium"><Markdown>{`Check: ${recap.check.q}`}</Markdown></div>
+      <ol className="mt-1 grid gap-1 text-[13px] sm:grid-cols-2">
+        {recap.check.options.map((o, i) => (
+          <li key={i} className={cn("rounded-lg border px-2.5 py-1.5", i === recap.check.answer ? "border-ok bg-ok/10 font-medium" : "border-line")}>
+            <span className="mr-1.5 font-semibold">{"ABCD"[i]}.</span><Markdown className="inline [&_p]:inline">{o}</Markdown>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
+/** Where the class's trouble really starts: the earlier chapters its root-cause traces led to, most shared first. */
+function RootMap({ r, classId }: { r: BatchRoots; classId: number }) {
+  const top = r.roots[0];
+  const [recap, setRecap] = useState<ClassRecap | null>(null);
+  const make = useMutation({
+    mutationFn: (chapterId: string) => api.classRecap(classId, chapterId),
+    onSuccess: setRecap,
+    onError: (e) => toast.error(e instanceof ApiError ? e.message : "Couldn't make the recap right now."),
+  });
+  return (
+    <Card className="mb-4">
+      <CardHeader title="Where the gaps really start" icon={<Layers className="h-4 w-4" />}
+        subtitle="Each student's root-cause traces, added up: the earlier chapter behind the trouble. Teach these first; nobody is named." />
+      {r.with_root === 0 ? (
+        <p className="px-5 pb-5 text-sm text-muted">
+          {r.traced ? `${plural(r.traced, "student")} traced a weak chapter and found no earlier gap.` : "No traces yet."} When students
+          use <span className="font-medium text-fg">Root cause</span> on a weak chapter, the earlier gaps behind it add up here.
+        </p>
+      ) : (
+        <div className="px-5 pb-5">
+          <p className="mb-3 text-sm text-muted">
+            <span className="font-semibold text-fg">{r.with_root}</span> of {plural(r.traced, "student")} who traced a weak chapter found a root gap
+            {r.fixed > 0 && <> · <span className="font-semibold text-ok">{r.fixed}</span> fixed it</>}
+          </p>
+          {top.students > 1 && (
+            <div className="mb-3 rounded-xl border border-accent/30 bg-accent-soft px-3 py-2 text-sm">
+              <div className="flex flex-wrap items-center gap-2">
+                <p className="min-w-0 flex-1">
+                  <span className="font-semibold">Teach first:</span> a short recap of {top.name}{top.cls ? ` (Class ${top.cls})` : ""} could
+                  unblock {plural(top.students, "student")}, stuck on {top.stuck_on.join(", ")}.
+                </p>
+                {recap?.chapter_id !== top.chapter_id && (
+                  <Button size="sm" variant="primary" loading={make.isPending} onClick={() => make.mutate(top.chapter_id)}>Make the 10-minute recap</Button>
+                )}
+              </div>
+              {recap && <Recap recap={recap} />}
+            </div>
+          )}
+          <ul className="space-y-3">
+            {r.roots.map((g) => (
+              <li key={g.chapter_id} className="rounded-xl border border-line bg-bg-soft px-3 py-2.5">
+                <div className="flex flex-wrap items-center gap-2">
+                  {g.cls && <Badge tone="accent">Class {g.cls}</Badge>}
+                  {g.subject && <span className="h-2 w-2 rounded-full" style={{ background: subjectColor(g.subject) }} />}
+                  <span className="font-semibold">{g.name}</span>
+                  <span className="ml-auto text-xs text-muted">{plural(g.students, "student")}{g.fixed > 0 && ` · ${g.fixed} fixed`}</span>
+                </div>
+                <div className="mt-1 text-xs text-muted">{g.idea}</div>
+                <div className="mt-2 flex items-center gap-3">
+                  <ProgressBar value={g.share} className="flex-1" tone={g.fixed >= g.students ? "ok" : "warn"} />
+                  <span className="w-10 text-right text-xs font-semibold tabular-nums">{g.share}%</span>
+                </div>
+                <div className="mt-1 text-xs text-muted">Behind: {g.stuck_on.join(", ")}</div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </Card>
   );
 }
 
@@ -101,6 +190,7 @@ export default function ClassView() {
               </div>
             </Card>
           )}
+          {data.roots && <RootMap r={data.roots} classId={data.id} />}
           <Card>
             <CardHeader title="Students" icon={<Users className="h-4 w-4" />}
               action={<Segmented size="sm" value={sort} onChange={setSort} options={[{ value: "name", label: "A to Z" }, { value: "study", label: "Least study first" }, { value: "syllabus", label: "Furthest behind" }]} />} />

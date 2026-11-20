@@ -31,6 +31,8 @@ const PrepHub = lazy(() => import("@/pages/PrepHub"));
 const MyPlan = lazy(() => import("@/pages/MyPlan"));
 const LastDay = lazy(() => import("@/pages/LastDay"));
 const WeakSpots = lazy(() => import("@/pages/WeakSpots"));
+const RootCause = lazy(() => import("@/pages/RootCause"));
+const Genome = lazy(() => import("@/pages/Genome"));
 const Snap = lazy(() => import("@/pages/Snap"));
 const Campus = lazy(() => import("@/pages/Campus"));
 const Mentors = lazy(() => import("@/pages/Mentors"));
@@ -124,6 +126,8 @@ export default function App() {
               <Route path="plan" element={<MyPlan />} />
               <Route path="revise" element={<LastDay />} />
               <Route path="weak" element={<WeakSpots />} />
+              <Route path="roots" element={<RootCause />} />
+              <Route path="genome" element={<Genome />} />
               <Route path="snap" element={<Snap />} />
               <Route path="campus" element={<Campus />} />
               <Route path="mentors" element={<Mentors />} />

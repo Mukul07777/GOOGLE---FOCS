@@ -26,6 +26,8 @@ const STRINGS: Record<string, [string, string]> = {
   "Tests": ["टेस्ट", "Tests"],
   "Tests & gap map": ["टेस्ट और गैप मैप", "Tests aur gap map"],
   "Weak spots": ["कमज़ोर टॉपिक", "Weak topics"],
+  "Root cause": ["असली कमी", "Asli gap"],
+  "Gap Genome": ["गैप जीनोम", "Gap Genome"],
   "Campus": ["कैंपस", "Campus"],
   "Ask a senior": ["सीनियर से पूछें", "Senior se poochho"],
   "Mentors": ["मेंटर", "Mentors"],

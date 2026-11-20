@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import {
-  BookOpen, Camera, CircleHelp, ChevronRight, Command, Compass, Crosshair, GraduationCap, Hourglass, Layers, LayoutDashboard, LogOut, Menu, Moon, Plus, Presentation, Radio, Route, ScanText, School, Search,
+  BookOpen, Camera, CircleHelp, ChevronRight, Command, Compass, Crosshair, Dna, GitBranch, GraduationCap, Hourglass, Layers, LayoutDashboard, LogOut, Menu, Moon, Plus, Presentation, Radio, Route, ScanText, School, Search,
   Settings, Sigma, Sun, Target, Timer, Trophy, Users,
 } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
@@ -31,6 +31,8 @@ const NAV = [
   { to: "/app/snap", label: "Ask with a photo", icon: Camera },
   { to: "/app/mock", label: "Mock tests", icon: Timer },
   { to: "/app/weak", label: "Weak spots", icon: Crosshair },
+  { to: "/app/roots", label: "Root cause", icon: GitBranch },
+  { to: "/app/genome", label: "Gap Genome", icon: Dna },
   { to: "/app/campus", label: "Campus", icon: School },
   { to: "/app/mentors", label: "Mentors", icon: Compass },
   { to: "/app/revise", label: "Last-day revision", icon: Hourglass },

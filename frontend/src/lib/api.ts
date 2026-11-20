@@ -1,6 +1,7 @@
 import { useAdmin } from "@/stores/admin";
 import { useAuth } from "@/stores/auth";
 import type {
+  GapOverview, GapTrace, ClassRecap,
   MockOffer,
   CardStats, Checkpoint, Doubt, Evaluation, Flashcard, FrameResponse, Grade, Health, HealthDetails, ModelInfo, Note, OcrResult,
   Feeling, MockDetail, MockMeta, Warmup, MockResponse, MockSummary, Overview, PlansInfo, PriceSector, ProPass, Quiz, RedoItem, Room, SessionDetail, SessionEnd,
@@ -148,6 +149,16 @@ export const api = {
   /** the test that ends the day: only the chapters (and topics) on the list these choices lay out */
   lastDayTest: (b: LastDayBody & { count: number }) => post<{ id: number; status: string; title: string }>(`/prep/last-day/test?${tz()}`, b),
   chapterCapsule: (chapterId: string) => post<DetailedNotes>(`/prep/chapters/${encodeURIComponent(chapterId)}/capsule`),
+
+  // root-cause gap tracing: the earlier gap behind a topic, found and fixed
+  gaps: () => get<GapOverview>("/gaps"),
+  genome: () => get<Genome>("/gaps/genome"),
+  gapStart: (chapter_id: string, topic_id?: string | null) => post<GapTrace>("/gaps", { chapter_id, topic_id: topic_id ?? null }),
+  gap: (id: number) => get<GapTrace>(`/gaps/${id}`),
+  gapAnswers: (id: number, answers: (number | null)[], before?: (number | null)[]) => post<GapTrace>(`/gaps/${id}/answers`, { answers, before }),
+  gapAfter: (id: number, answers: (number | null)[]) => post<GapTrace>(`/gaps/${id}/after`, { answers }),
+  gapLesson: (id: number) => post<GapTrace>(`/gaps/${id}/lesson`),
+  gapCheck: (id: number, choice: number) => post<GapTrace>(`/gaps/${id}/check`, { choice }),
 
   // weak spots: the result of a test taken anywhere, read and turned into a fix-it plan
   weak: () => get<WeakOverview>("/weak"),
@@ -359,6 +370,7 @@ export const api = {
   classes: () => get<ClassList>("/classes"),
   createClass: (name: string) => post<ClassRow>("/classes", { name }),
   joinClass: (code: string) => post<{ id: number; name: string; teacher: string }>("/classes/join", { code }),
+  classRecap: (id: number, chapterId: string) => post<ClassRecap>(`/classes/${id}/recap`, { chapter_id: chapterId }),
   classDashboard: (id: number) => get<ClassDashboard>(`/classes/${id}`),
   removeClass: (id: number) => del(`/classes/${id}`),
   removeClassStudent: (id: number, userId: number) => del(`/classes/${id}/students/${userId}`),
@@ -474,3 +486,12 @@ export const api = {
 };
 
 export type { Checkpoint };
+
+export interface GenomeNode {
+  id: string; name: string; subject: string | null; cls: number | null; kind: "exam" | "school";
+  underpins: number; roots: number; fixed: number;
+}
+export interface Genome {
+  exam_chapters: number; foundations: number; links: number; students: number; traces: number; rooted: number;
+  top: GenomeNode[]; nodes: GenomeNode[]; edges: { from: string; to: string; weight: number }[];
+}

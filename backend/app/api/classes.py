@@ -16,7 +16,8 @@ from app.core.deps import get_current_user, get_db
 from app.core.ratelimit import limit
 from app.models.classroom import Classroom, ClassMember, ParentLink
 from app.models.user import User
-from app.services import progress
+from app.services import gaps, progress, usage
+from app.services.llm import LLMUnavailable
 
 router = APIRouter(prefix="/classes", tags=["classes"])
 parent = APIRouter(prefix="/parent", tags=["parent"])
@@ -91,7 +92,8 @@ def join(body: JoinIn, db: Session = Depends(get_db), user: User = Depends(get_c
 
 @router.get("/{class_id}")
 def dashboard(class_id: int, db: Session = Depends(get_db), user: User = Depends(get_current_user)) -> dict[str, Any]:
-    """The teacher's view of a class: every student's week, and the chapters most of the class is weak in."""
+    """The teacher's view of a class: every student's week, the chapters most of the class is weak in, and where those
+    weak spots really start (the earlier chapters their root-cause traces led to)."""
     room = _owned(db, class_id, user)
     students = list(db.scalars(select(User).join(ClassMember, ClassMember.user_id == User.id).where(ClassMember.class_id == room.id)))
     seen = progress.summaries(db, students)
@@ -105,9 +107,31 @@ def dashboard(class_id: int, db: Session = Depends(get_db), user: User = Depends
     done = [r["syllabus"]["percent"] for r in rows if r["syllabus"]["percent"] is not None]
     return {"id": room.id, "name": room.name, "code": room.code, "students": rows,
             "weakest": [{**names[cid], "students": n} for cid, n in stuck.most_common(WEAKEST_SHOWN)],
+            "roots": gaps.batch_roots(db, [s.id for s in students]),
             "totals": {"students": len(rows), "active_week": sum(1 for r in rows if r["week_minutes"] > 0),
                        "avg_week_minutes": round(sum(r["week_minutes"] for r in rows) / len(rows)) if rows else 0,
                        "avg_syllabus": round(sum(done) / len(done)) if done else None}}
+
+
+class RecapIn(BaseModel):
+    chapter_id: str = Field(min_length=1, max_length=160)
+
+
+@router.post("/{class_id}/recap", dependencies=[Depends(limit("class-recap", 6))])
+def recap(class_id: int, body: RecapIn, db: Session = Depends(get_db), user: User = Depends(get_current_user)) -> dict[str, Any]:
+    """The teacher's ten-minute recap of a gap the batch shares: the lesson its students get, with the check question."""
+    room = _owned(db, class_id, user)
+    members = list(db.scalars(select(ClassMember.user_id).where(ClassMember.class_id == room.id)))
+    usage.require(db, user, "gap_lesson")
+    try:
+        made, used_ai = gaps.class_recap(db, user, members, body.chapter_id)
+    except gaps.GapError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except LLMUnavailable as exc:
+        raise HTTPException(status_code=503, detail="The AI is busy right now. Try again in a minute.") from exc
+    if used_ai:
+        usage.charge(db, user, "gap_lesson")
+    return made
 
 
 @router.delete("/{class_id}", status_code=204)

@@ -596,6 +596,15 @@ export interface AdminOverview {
   series: { day: string; signups: number; cost_inr: number }[];
   usage: { lectures: number; boards: number; questions_answered: number; doubts: number; mocks_taken: number;
     lectures_30d: number; rooms_live: number; people_in_rooms: number };
+  roots: RootProof;
+}
+/** Root-cause tracing for real students, from the app's own records (percentages are null until there is data). */
+export interface RootProof {
+  students: number; traces: number; with_root: number; root_rate: number | null; root_classes: { cls: number; traces: number }[];
+  lessons: number; fixed: number; recheck_pass: number | null; median_minutes_to_fix: number | null;
+  chains_built: number; reused: number | null; ai_usd: number; ai_usd_per_student: number | null;
+  /** the stuck topic itself, before the trace and after the fix, over the students who did both (percent right) */
+  retest_pairs: number; retest_before: number | null; retest_after: number | null;
 }
 export interface AdminUser extends Money {
   id: number; name: string; email: string; plan: string; exam: string | null; joined: string | null; last_seen: string | null; lectures: number;
@@ -966,9 +975,21 @@ export interface MentorReport {
 export interface ClassRow { id: number; name: string; code: string; students: number }
 export interface ClassList { teaching: ClassRow[]; joined: { id: number; name: string; teacher: string; joined_at: string | null }[] }
 export interface ClassStudent extends ProgressSummary { user_id: number; name: string }
+/** One earlier chapter that several students' root-cause traces led to. Counts only: nobody is named. */
+export interface BatchRoot {
+  chapter_id: string; name: string; subject: string | null; cls: number | null; idea: string;
+  students: number; fixed: number; share: number; stuck_on: string[];
+}
+export interface BatchRoots { traced: number; with_root: number; fixed: number; roots: BatchRoot[] }
+/** A ten-minute recap for the class of a gap several students share: the lesson they get, with its check question. */
+export interface ClassRecap {
+  chapter_id: string; name: string; cls: number | null; idea: string; stuck_on: string; students: number; md: string; check: GapCheck;
+}
+
 export interface ClassDashboard {
   id: number; name: string; code: string; students: ClassStudent[];
   weakest: { id: string; chapter: string; subject: string; students: number }[];
+  roots: BatchRoots;
   totals: { students: number; active_week: number; avg_week_minutes: number; avg_syllabus: number | null };
 }
 export interface ParentSummary extends ProgressSummary { name: string }
@@ -1103,3 +1124,26 @@ export interface WeakDraft {
 }
 
 export interface WeakCheckResult { weak: boolean; cleared: boolean; percent: number; needed: number; enough_questions: boolean }
+
+/* ---------------------------------------------------------------- Root-cause gap tracing */
+export interface GapCheck { q: string; options: string[]; answer?: number; explain?: string }
+export interface GapLink {
+  chapter_id: string; name: string; subject: string; cls: number | null; idea: string; why: string;
+  check: GapCheck; result: "right" | "wrong" | null; choice?: number | null;
+}
+/** Questions on the stuck topic itself (from the question bank): three before the trace, three others after the fix. */
+export interface GapRetestPart { items: GapCheck[]; choices: (number | null)[] | null; right: number | null; total: number }
+export interface GapTrace {
+  id: number; title: string; chapter_id: string; topic_id: string | null; status: "checking" | "found" | "clear" | "fixed";
+  root: number | null; chain: GapLink[]; lesson: { md: string; check: GapCheck; result: "right" | "wrong" | null; choice?: number | null } | null;
+  retest: { before: GapRetestPart; after: GapRetestPart } | null;
+  created_at: string | null;
+}
+export interface GapOverview {
+  traces: GapTrace[]; fixed: number;
+  suggestions: { chapter_id: string; topic_id: string | null; subject: string; name: string; chapter: string; misses: number }[];
+  /** likely root gaps, from weak spots alone: two or more weak chapters resting on the same earlier one */
+  suspects?: { chapter_id: string; name: string; subject: string | null; cls: number | null; idea: string;
+    because: string[]; misses: number; trace_chapter_id: string }[];
+  chapters: { id: string; subject: string; name: string; cls: number }[];
+}

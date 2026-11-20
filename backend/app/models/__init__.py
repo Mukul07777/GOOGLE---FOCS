@@ -5,6 +5,7 @@ from app.models.doubt import Doubt
 from app.models.flashcard import Flashcard
 from app.models.lecture import LectureSegment
 from app.models.library import TopicNote
+from app.models.gap import GapTrace, PrereqMap
 from app.models.llm_call import LlmCall
 from app.models.mentor import GroupSeat, GroupSession, MentorCall, MentorMessage, MentorPayout, MentorProfile, Mentorship
 from app.models.mock import BankQuestion, MockTest
@@ -21,4 +22,4 @@ from app.models.study_day import StudyDay
 from app.models.user import User
 from app.models.weak import OutsideTest, WeakTopic
 
-__all__ = ["BankQuestion", "CampusItem", "CampusPost", "ChapterRevision", "ClassMember", "Classroom", "Course", "Doubt", "Flashcard", "GroupSeat", "GroupSession", "LectureSegment", "LectureSignal", "LlmCall", "MentorCall", "MentorMessage", "MentorPayout", "MentorProfile", "Mentorship", "MockTest", "Note", "Notification", "OutsideTest", "ParentLink", "Payment", "PlanCheck", "PlanTask", "QuizAttempt", "Resource", "Room", "SharedNote", "StudyDay", "StudyGoal", "StudySession", "TopicNote", "TopicProgress", "User", "WeakTopic"]
+__all__ = ["BankQuestion", "CampusItem", "CampusPost", "ChapterRevision", "ClassMember", "Classroom", "Course", "Doubt", "Flashcard", "GapTrace", "GroupSeat", "GroupSession", "LectureSegment", "LectureSignal", "LlmCall", "MentorCall", "MentorMessage", "MentorPayout", "MentorProfile", "Mentorship", "MockTest", "Note", "Notification", "OutsideTest", "ParentLink", "Payment", "PlanCheck", "PlanTask", "PrereqMap", "QuizAttempt", "Resource", "Room", "SharedNote", "StudyDay", "StudyGoal", "StudySession", "TopicNote", "TopicProgress", "User", "WeakTopic"]
