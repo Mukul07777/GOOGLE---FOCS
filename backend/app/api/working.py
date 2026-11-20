@@ -29,8 +29,9 @@ async def check(image: UploadFile = File(...), question: str = Form(..., min_len
                 options: str = Form("[]", max_length=4000), answer: int | None = Form(None), chosen: int | None = Form(None),
                 chapter_id: str | None = Form(None, max_length=160), topic: str | None = Form(None, max_length=200),
                 subject: str | None = Form(None, max_length=80), solution: str | None = Form(None, max_length=6000),
+                source: str = Form("pad", pattern="^(pad|photo)$"),
                 db: Session = Depends(get_db), user: User = Depends(get_current_user)) -> dict[str, Any]:
-    """A page of rough work, read and checked: the first wrong step, the kind of slip, and the root it comes from."""
+    """A page of working (rough pad or a photo of paper), read and checked: the first wrong step, the kind of slip, and the root it comes from."""
     if not vision.available():
         raise HTTPException(status_code=503, detail="Checking handwriting needs the image AI, which isn't set up here.")
     try:
@@ -41,7 +42,7 @@ async def check(image: UploadFile = File(...), question: str = Form(..., min_len
     data = await image.read(working.MAX_IMAGE_BYTES + 1)
     usage.require(db, user, "working_check")
     try:
-        row = working.check(db, user, _syl(user), data, question, opts, _choice(answer), _choice(chosen), chapter_id, topic, subject, solution)
+        row = working.check(db, user, _syl(user), data, question, opts, _choice(answer), _choice(chosen), chapter_id, topic, subject, solution, source=source)
     except working.WorkingError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except LLMUnavailable as exc:

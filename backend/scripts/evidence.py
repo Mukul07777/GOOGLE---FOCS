@@ -36,16 +36,10 @@ from app.models.quiz_attempt import QuizAttempt  # noqa: E402
 from app.models.user import User  # noqa: E402
 from app.models.weak import WeakTopic  # noqa: E402
 from app.services import gaps, syllabus  # noqa: E402
+from app.services.real_students import active_students, chapter_activity, real_students  # noqa: E402
 
 MIN_GROUP = 5
-NOT_REAL = ("demo.focs.%", "%@example.com", "%.invalid")
-
-
-def _real(db: Session) -> list[User]:
-    q = select(User).where(func.coalesce(User.role, "student") == "student", User.is_active.is_not(False))
-    for pattern in NOT_REAL:
-        q = q.where(User.email.not_like(pattern))
-    return list(db.scalars(q))
+_real = real_students  # kept under its old name
 
 
 def _n(count: int, people: int | None = None) -> int | str:
@@ -123,7 +117,16 @@ def report(db: Session, chains_url: str | None = None) -> tuple[list[str], dict]
     top = [(name, cls, n) for (cid, name, cls), n in roots.most_common(8) if n >= MIN_GROUP]
     data["silent_tracing"] = {"chains": len(chains), "weak_covered_share": _pct(covered, total_weak) if len(weak) >= MIN_GROUP else None,
                               "students_with_suspect": _n(with_suspect), "eligible": _n(eligible), "top_roots": top}
+    activity = chapter_activity(db, ids, 60)
+    tagged = sum(activity.values())
+    with_chain = sum(n for cid, n in activity.items() if cid in chains)
+    people60 = active_students(db, ids, 60)  # the floor counts who made these attempts, not everyone signed up
+    data["chain_coverage"] = {"attempts_60d": _n(tagged, people60),
+                              "share_with_chain": _pct(with_chain, tagged) if tagged >= MIN_GROUP and people60 >= MIN_GROUP else None}
     lines += ["## Silent tracing on real mistakes (no quiz, no AI)", ""]
+    if data["chain_coverage"]["share_with_chain"]:
+        lines += [f"- **Chain coverage:** {data['chain_coverage']['share_with_chain']} of real students' chapter-tagged attempts"
+                  " in the last 60 days are on a chapter that has its chain.", ""]
     if not chains:
         lines += ["- No chains available yet: run scripts/warm_chains.py, or pass --chains-from.", ""]
     elif eligible < MIN_GROUP:
@@ -163,15 +166,24 @@ def report(db: Session, chains_url: str | None = None) -> tuple[list[str], dict]
 
     # ---- Check my working
     if "working_checks" in tables:
-        rows = db.execute(text("SELECT user_id, verdict, error_type FROM working_checks")).all()
+        rows = db.execute(text("SELECT user_id, verdict, error_type, result FROM working_checks")).all()
         rows = [r for r in rows if r[0] in ids]
+        by_source: Counter[str] = Counter()
+        source_people: dict[str, set] = {}
+        for r in rows:
+            res = r[3] if isinstance(r[3], dict) else (json.loads(r[3]) if r[3] else {})
+            src = "photo" if (res or {}).get("source") == "photo" else "pad"
+            by_source[src] += 1
+            source_people.setdefault(src, set()).add(r[0])
         wrong = [r for r in rows if r[1] != "right" and r[2]]
         slips = sum(1 for r in wrong if r[2] in ("arithmetic", "sign", "units", "misread"))
         people = len({r[0] for r in rows})
         if people >= MIN_GROUP:
-            data["working"] = {"checks": len(rows), "students": people, "mistakes": len(wrong), "slips": slips}
+            split = {k: _n(by_source[k], len(source_people.get(k, ()))) for k in ("pad", "photo")}
+            data["working"] = {"checks": len(rows), "students": people, "mistakes": len(wrong), "slips": slips, "by_source": split}
             lines += ["## Check my working", "",
-                      f"- {len(rows)} solutions checked from {people} students' rough pads.",
+                      f"- {len(rows)} solutions checked from {people} students: {split['pad']} on the rough pad,"
+                      f" {split['photo']} from a photo of paper.",
                       f"- **{_pct(slips, len(wrong))} of their mistakes were careless slips** (the idea was right); "
                       f"{_pct(len(wrong) - slips, len(wrong))} were gaps in an idea.", ""]
         else:

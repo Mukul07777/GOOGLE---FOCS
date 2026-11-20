@@ -38,15 +38,20 @@ ERRORS: dict[str, str] = {
 CARELESS = frozenset({"arithmetic", "sign", "units", "misread"})
 MAX_STEPS = 20
 FINGERPRINT_WINDOW = 40  # the latest checks a fingerprint is drawn from
-MAX_IMAGE_BYTES = 6 * 1024 * 1024
+MAX_IMAGE_BYTES = 10 * 1024 * 1024  # the app shrinks photos first; this only lets an unshrunk one through
 
 
 class WorkingError(ValueError):
     """Bad input the student can fix (an empty pad, a question that isn't theirs)."""
 
 
-PROMPT = """A {exam} student solved this question on a rough pad. The image is their own handwriting (a stylus or a
-finger, so it can be messy). Read their working and check it the way a great teacher marks a copy: find the FIRST step
+PAD_LINE = "solved this question on a rough pad. The image is their own handwriting (a stylus or a\nfinger, so it can be messy)."
+PHOTO_LINE = ("solved this question on paper. The image is a phone photo of their working: it may be tilted, shadowed or\n"
+              "blurred, and may include printed text, the printed question, working for other questions, or crossed-out lines.\n"
+              "Read ONLY the working for THIS question: ignore printed text and crossed-out work. If you cannot find working for\n"
+              "this question in the photo, treat the page as unreadable.")
+
+PROMPT = """A {exam} student {source_line} Read their working and check it the way a great teacher marks a copy: find the FIRST step
 that goes wrong, not just whether the final answer is right.
 
 Question: \"\"\"{question}\"\"\"
@@ -110,7 +115,7 @@ def _index(value: Any, size: int) -> int | None:
 
 
 def _prompt(user: User, question: str, options: list[str], answer: int | None, chosen: int | None, chain: list[dict],
-            solution: str | None = None) -> str:
+            solution: str | None = None, *, source: str = "pad") -> str:
     extra = []
     if options:
         extra.append("Options:\n" + "\n".join(f"{'ABCD'[i] if i < 4 else i + 1}. {o}" for i, o in enumerate(options[:6])))
@@ -130,7 +135,7 @@ def _prompt(user: User, question: str, options: list[str], answer: int | None, c
     else:
         rule = "null"
     return PROMPT.format(exam=syllabus.label(user.exam_target), question=question.replace('"""', "'''").strip()[:1500], extra="\n".join(extra) + "\n",
-                         errors=", ".join(ERRORS), root_rule=rule)
+                         source_line=PHOTO_LINE if source == "photo" else PAD_LINE, errors=", ".join(ERRORS), root_rule=rule)
 
 
 def _read(data: dict[str, Any], chain: list[dict]) -> dict[str, Any]:
@@ -194,10 +199,10 @@ def still_open(db: Session, user: User, question: str) -> bool:
 
 def check(db: Session, user: User, syl: Syllabus | None, image: bytes, question: str, options: list[str] | None,
           answer: int | None, chosen: int | None, chapter_id: str | None, topic: str | None, subject: str | None,
-          solution: str | None = None) -> WorkingCheck:
-    """Read and check one page of rough work. Raises WorkingError, LLMUnavailable."""
+          solution: str | None = None, source: str = "pad") -> WorkingCheck:
+    """Read and check one page of working, drawn on the pad or photographed on paper. Raises WorkingError, LLMUnavailable."""
     if not image or len(image) > MAX_IMAGE_BYTES:
-        raise WorkingError("The rough page is empty or too large.")
+        raise WorkingError("The picture of your working is empty or too large.")
     if not question.strip():
         raise WorkingError("Which question is this working for?")
     if still_open(db, user, question):
@@ -211,14 +216,14 @@ def check(db: Session, user: User, syl: Syllabus | None, image: bytes, question:
     if target is not None and (kept := db.get(PrereqMap, target.id)) is not None:
         chain = list(kept.chain or [])
     options = [str(o)[:300] for o in (options or [])][:6]
-    data = vision.read_json([jpeg], _prompt(user, question, options, answer, chosen, chain, solution), "working_check", max_tokens=2400)
+    data = vision.read_json([jpeg], _prompt(user, question, options, answer, chosen, chain, solution, source=source), "working_check", max_tokens=2400)
     read = _read(data, chain)
     row = WorkingCheck(user_id=user.id, chapter_id=target.id if target else None, question=question.strip()[:2000],
                        verdict=read["verdict"], error_type=read["error_type"],
                        root_chapter_id=read["root"]["chapter_id"] if read["root"] else None,
                        result={**read, "options": options, "answer": answer, "chosen": chosen,
                                "chapter": {"id": target.id, "name": target.name, "subject": target.subject} if target else None,
-                               "has_chain": bool(chain)})
+                               "has_chain": bool(chain), "source": source})
     db.add(row)
     db.commit()
     db.refresh(row)
@@ -315,7 +320,7 @@ def _on_this(row: WorkingCheck) -> str:
     steps = "\n".join(f"{i + 1}. {s['text']}{'  <- first wrong step' if i == r.get('first_wrong') else ''}"
                       for i, s in enumerate(r.get("steps") or []))
     root = r.get("root")
-    return (f"The question: {row.question}\nTheir working, as read from their rough pad:\n{steps}\n"
+    return (f"The question: {row.question}\nTheir working, as read from their working:\n{steps}\n"
             f"Verdict: {row.verdict}" + (f"; {ERRORS.get(row.error_type or '', '')}: {r.get('what_went_wrong')}" if row.verdict != "right" else "")
             + (f"\nCorrect step: {r.get('fix')}" if r.get("fix") else "")
             + (f"\nThe earlier chapter it comes from: {root['name']} (Class {root.get('cls') or '?'}): {root.get('idea')}" if root else ""))

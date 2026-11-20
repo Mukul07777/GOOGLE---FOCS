@@ -38,3 +38,29 @@ def test_the_benchmark_counts_exact_steps_and_kinds(tmp_path, monkeypatch):
     assert "Found the exact wrong step:** 1/2 = 50%" in summary  # a: step 2 found; b: said 1, truth 3
     assert "no false alarm): 1/1" in summary and "Slip told apart from a gap in an idea: 2/2" in summary
     assert (tmp_path / "results.csv").read_text(encoding="utf-8").count("\n") == 4
+
+
+def test_fermat_becomes_a_labelled_folder_and_is_scored_on_catching_mistakes(tmp_path, monkeypatch):
+    buf = io.BytesIO()
+    Image.new("RGB", (300, 200), "white").save(buf, format="PNG")
+    records = [{"orig_q": "Solve $2x+3=7$", "orig_a": "x = 2", "image": {"bytes": buf.getvalue()}, "has_error": True},
+               {"orig_q": "Area of a 4 cm square?", "orig_a": "16 cm^2", "image": buf.getvalue(), "has_error": False},
+               {"orig_q": "", "orig_a": "", "image": buf.getvalue(), "has_error": True}]  # no question: left out
+    spec = importlib.util.spec_from_file_location("bench_working", SCRIPT)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    assert mod.fermat_to_folder(records, tmp_path) == 2
+    labels = (tmp_path / "labels.csv").read_text(encoding="utf-8")
+    assert "fermat0001.jpg,Solve $2x+3=7$,,,,wrong,,x = 2" in labels and "fermat0002.jpg" in labels and ",right,," in labels
+    prompts = []
+    answers = iter([{"verdict": "wrong", "first_wrong": 1, "error_type": "arithmetic", "steps": [{"text": "a"}, {"text": "b"}]},
+                    {"verdict": "right", "steps": [{"text": "a", "ok": True}]}])
+    monkeypatch.setattr(vision, "available", lambda: True)
+    monkeypatch.setattr(vision, "models", lambda: ["gemini-test"])
+    monkeypatch.setattr(vision, "read_json", lambda imgs, prompt, *a, **k: prompts.append(prompt) or next(answers))
+    monkeypatch.setattr(sys, "argv", ["bench_working.py", str(tmp_path)])
+    mod.main()
+    summary = (tmp_path / "summary.md").read_text(encoding="utf-8")
+    assert "Caught that the working has a mistake: 1/1" in summary and "no false alarm): 1/1" in summary
+    assert "Found the exact wrong step:** –" in summary  # FERMAT doesn't say which line
+    assert all("paper" in p.lower() for p in prompts)  # .jpg pictures are checked as photos of paper

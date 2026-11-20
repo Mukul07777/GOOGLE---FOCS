@@ -1,9 +1,10 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
-import { ArrowRight, Check, CornerDownRight, GitBranch, GraduationCap, Lightbulb, MessageCircle, Send, Sparkles, X } from "lucide-react";
-import { useState } from "react";
+import { ArrowRight, Camera, Check, CornerDownRight, GitBranch, GraduationCap, Lightbulb, MessageCircle, Send, Sparkles, X } from "lucide-react";
+import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { Markdown } from "@/components/Markdown";
+import { photoImage } from "@/components/RoughPad";
 import { Button } from "@/components/ui/button";
 import { Badge, Card, CardHeader, Input } from "@/components/ui/primitives";
 import { api, ApiError } from "@/lib/api";
@@ -23,9 +24,28 @@ export interface WorkingQuestion {
 /** "Check my working" for one question: hand it the rough page as a picture, get the checked working back. */
 export function useCheckWorking(q: WorkingQuestion | null) {
   return useMutation({
-    mutationFn: (image: Blob) => api.checkWorking(image, q ?? { question: "" }),
+    mutationFn: ({ image, source }: { image: Blob; source: "pad" | "photo" }) => api.checkWorking(image, q ?? { question: "" }, source),
     onError: failed("Couldn't read your working right now. Try again in a minute."),
   });
+}
+
+/** "Check my paper working": take or pick a photo of the working on paper, no pad needed. */
+export function PhotoCheckButton({ onPhoto, loading, className }: { onPhoto: (image: Blob) => void; loading?: boolean; className?: string }) {
+  const input = useRef<HTMLInputElement>(null);
+  const picked = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const f = e.target.files?.[0];
+    e.target.value = "";
+    if (!f) return;
+    const image = await photoImage(f);
+    if (image) onPhoto(image); else toast.error("That photo is too big. Try again with a smaller one.");
+  };
+  return (
+    <>
+      <input ref={input} type="file" accept="image/*" capture="environment" className="hidden" onChange={picked} />
+      <Button size="sm" variant="secondary" className={className} loading={loading} onClick={() => input.current?.click()}
+        icon={<Camera className="h-3.5 w-3.5" />} title="Take a photo of your working on paper">Check my paper working</Button>
+    </>
+  );
 }
 
 /** The checked working: each step read back, the first wrong one marked, slip or gap, the root behind it, and the tutor. */
@@ -178,7 +198,7 @@ export function MistakeFingerprintCard() {
   return (
     <Card>
       <CardHeader title="How you lose marks" icon={<Sparkles className="h-4 w-4" />}
-        subtitle={`From the last ${data.checked} solutions Focs checked on your rough pad`} />
+        subtitle={`From the last ${data.checked} solutions Focs checked for you`} />
       <div className="px-5 pb-5">
         <div className="flex h-3 overflow-hidden rounded-full bg-elev-2" aria-hidden>
           <div className="bg-warn" style={{ width: `${(100 * data.slips) / data.mistakes}%` }} />

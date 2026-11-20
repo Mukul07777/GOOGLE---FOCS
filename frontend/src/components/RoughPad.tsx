@@ -1,5 +1,6 @@
-import { Eraser, Maximize2, Minimize2, PenLine, ScanSearch, Trash2, Undo2, X } from "lucide-react";
+import { Camera, Eraser, Maximize2, Minimize2, PenLine, ScanSearch, Trash2, Undo2, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -64,10 +65,33 @@ export function roughImage(strokes: Stroke[]): Promise<Blob | null> {
   return new Promise((done) => page.toBlob((b) => done(b), "image/png"));
 }
 
+/** A phone photo of working on paper, shrunk to a size the reader handles well. null: too big and can't be shrunk. */
+export async function photoImage(file: File): Promise<Blob | null> {
+  const MAX = 2000;
+  let bmp: ImageBitmap | null = null;
+  try {
+    bmp = await createImageBitmap(file, { imageOrientation: "from-image" });
+    const k = Math.min(1, MAX / Math.max(bmp.width, bmp.height));
+    const c = document.createElement("canvas");
+    c.width = Math.max(1, Math.round(bmp.width * k)); c.height = Math.max(1, Math.round(bmp.height * k));
+    const g = c.getContext("2d");
+    if (g) {
+      g.fillStyle = "#fff";
+      g.fillRect(0, 0, c.width, c.height);
+      g.drawImage(bmp, 0, 0, c.width, c.height);
+      bmp.close(); bmp = null;
+      const out = await new Promise<Blob | null>((done) => c.toBlob(done, "image/jpeg", 0.85));
+      if (out) return out;
+    }
+  } catch { /* a format this browser can't decode (HEIC on some): send it as it is, if small enough */ }
+  finally { bmp?.close(); }
+  return file.size <= 10 * 1024 * 1024 ? file : null;  // the server's limit (services/working MAX_IMAGE_BYTES)
+}
+
 export function RoughPad({ storageKey, page, onClose, className, onCheck, checking }: {
   storageKey: string; page: string; onClose: () => void; className?: string;
   /** given: a "Check my working" button that hands over this page as a picture */
-  onCheck?: (image: Blob) => void; checking?: boolean;
+  onCheck?: (image: Blob, source: "pad" | "photo") => void; checking?: boolean;
 }) {
   const [pages, setPages] = useState<Pages>(() => load(storageKey));
   const [tool, setTool] = useState<"pen" | "eraser">("pen");
@@ -156,7 +180,15 @@ export function RoughPad({ storageKey, page, onClose, className, onCheck, checki
   const clear = () => setPages((all) => { const next = { ...all }; delete next[page]; return next; });
   const check = async () => {
     const image = await roughImage(strokes);
-    if (image && onCheck) onCheck(image);
+    if (image && onCheck) onCheck(image, "pad");
+  };
+  const photo = useRef<HTMLInputElement>(null);
+  const picked = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const f = e.target.files?.[0];
+    e.target.value = "";
+    if (!f || !onCheck) return;
+    const image = await photoImage(f);
+    if (image) onCheck(image, "photo"); else toast.error("That photo is too big. Try again with a smaller one.");
   };
 
   const tb = "grid h-10 w-10 place-items-center rounded-lg text-muted transition hover:bg-elev-2 hover:text-fg disabled:opacity-40";
@@ -168,13 +200,18 @@ export function RoughPad({ storageKey, page, onClose, className, onCheck, checki
         <button type="button" className={cn(tb, tool === "eraser" && "bg-elev-2 text-fg")} aria-pressed={tool === "eraser"} onClick={() => setTool("eraser")} title="Eraser" aria-label="Eraser"><Eraser className="h-4 w-4" /></button>
         <button type="button" className={tb} onClick={undo} disabled={!strokes.length} title="Undo" aria-label="Undo"><Undo2 className="h-4 w-4" /></button>
         <button type="button" className={tb} onClick={clear} disabled={!strokes.length} title="Clear this page" aria-label="Clear this page"><Trash2 className="h-4 w-4" /></button>
-        <span className="min-w-0 flex-1 truncate px-1 text-[11px] text-muted">{penSeen ? "Stylus: fingers scroll" : "A page for each question"}</span>
-        {onCheck && (
+        <span className="min-w-0 flex-1 truncate px-1 text-[11px] text-muted"><span className={cn(onCheck && "hidden sm:inline")}>{penSeen ? "Stylus: fingers scroll" : "A page for each question"}</span></span>
+        {onCheck && (<>
+          <input ref={photo} type="file" accept="image/*" capture="environment" className="hidden" onChange={picked} />
+          <Button size="sm" variant="secondary" className="shrink-0" onClick={() => photo.current?.click()} disabled={checking}
+            icon={<Camera className="h-3.5 w-3.5" />} title="Take a photo of your working on paper" aria-label="Photo of paper">
+            <span className="hidden min-[420px]:inline">Photo of paper</span>
+          </Button>
           <Button size="sm" variant="primary" className="shrink-0" onClick={check} disabled={!strokes.length} loading={checking}
             icon={<ScanSearch className="h-3.5 w-3.5" />} title="Focs reads your steps and finds the first one that went wrong">
             {checking ? "Reading…" : <><span className="hidden min-[420px]:inline">Check my working</span><span className="min-[420px]:hidden">Check</span></>}
           </Button>
-        )}
+        </>)}
         <button type="button" className={tb} onClick={() => setBig(!big)} title={big ? "Smaller" : "Bigger"} aria-label={big ? "Make the rough pad smaller" : "Make the rough pad bigger"}>
           {big ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
         </button>

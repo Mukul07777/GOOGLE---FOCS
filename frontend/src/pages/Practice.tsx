@@ -10,7 +10,7 @@ import { Markdown } from "@/components/Markdown";
 import { EvaluationCard } from "@/components/TeachBack";
 import { Button } from "@/components/ui/button";
 import { RoughPad } from "@/components/RoughPad";
-import { useCheckWorking, WorkingCheckCard } from "@/components/WorkingCheck";
+import { PhotoCheckButton, useCheckWorking, WorkingCheckCard } from "@/components/WorkingCheck";
 import { Badge, Card, CardHeader, EmptyState, Kbd, Label, ProgressBar, ProgressRing, Segmented, Select, Skeleton, Textarea } from "@/components/ui/primitives";
 import { useFocus } from "@/lib/focus";
 import { api, ApiError } from "@/lib/api";
@@ -333,9 +333,12 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
                 )}
                 {work?.at === i && <WorkingCheckCard check={work.check} onClose={() => setWork(null)} />}
                 {work?.at !== i && !rough && (
-                  <button type="button" onClick={() => setRough(true)} className="inline-flex items-center gap-1.5 text-[13px] font-medium text-accent hover:underline">
-                    <PenLine className="h-3.5 w-3.5" /> Write your working on the rough pad: Focs finds the exact step that went wrong
-                  </button>
+                  <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+                    <button type="button" onClick={() => setRough(true)} className="inline-flex items-center gap-1.5 text-[13px] font-medium text-accent hover:underline">
+                      <PenLine className="h-3.5 w-3.5" /> Write your working on the rough pad: Focs finds the exact step that went wrong
+                    </button>
+                    <PhotoCheckButton loading={checkWork.isPending} onPhoto={(image) => { const at = i; checkWork.mutate({ image, source: "photo" }, { onSuccess: (check) => setWork({ check, at }) }); }} />
+                  </div>
                 )}
                 <div className="flex justify-end">
                   <Button variant="primary" onClick={() => next()}>{i + 1 >= items.length ? "See results" : "Next question"} <ArrowRight className="h-4 w-4" /><span className="hidden sm:inline-flex"><Kbd>↵</Kbd></span></Button>
@@ -348,7 +351,7 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
       {rough && <>
         <div aria-hidden className="h-[50dvh]" />{/* room to scroll the question above the pad */}
         <RoughPad storageKey={roughKey} page={String(i)} onClose={() => setRough(false)} className="fixed inset-x-0 bottom-0 z-40 shadow-2xl"
-          onCheck={answered ? (image) => { const at = i; checkWork.mutate(image, { onSuccess: (check) => setWork({ check, at }) }); } : undefined} checking={checkWork.isPending} />
+          onCheck={answered ? (image, source) => { const at = i; checkWork.mutate({ image, source }, { onSuccess: (check) => setWork({ check, at }) }); } : undefined} checking={checkWork.isPending} />
       </>}
     </div>
   );

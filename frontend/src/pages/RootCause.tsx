@@ -148,7 +148,7 @@ function Chain({ trace }: { trace: GapTrace }) {
         <div aria-hidden className="h-[50dvh]" />
         <RoughPad storageKey={`focs-rough-trace-${trace.id}`} page={`link-${padFor}`} onClose={() => setPadFor(null)}
           className="fixed inset-x-0 bottom-0 z-40 shadow-2xl" checking={checkWork.isPending}
-          onCheck={checking ? undefined : (image) => { const at = padFor; checkWork.mutate(image, { onSuccess: (w) => { setWorks((m) => ({ ...m, [at]: w })); setPadFor(null); } }); }} />
+          onCheck={checking ? undefined : (image, source) => { const at = padFor; checkWork.mutate({ image, source }, { onSuccess: (w) => { setWorks((m) => ({ ...m, [at]: w })); setPadFor(null); } }); }} />
       </>}
 
       {trace.status === "clear" && (

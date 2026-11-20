@@ -13,7 +13,7 @@ import { PaletteLegend } from "@/components/MockPalette";
 import { RealGap } from "@/components/RealGap";
 import { Solution } from "@/components/Explain";
 import { RoughPad, roughImage, savedPage } from "@/components/RoughPad";
-import { useCheckWorking, WorkingCheckCard } from "@/components/WorkingCheck";
+import { PhotoCheckButton, useCheckWorking, WorkingCheckCard } from "@/components/WorkingCheck";
 import { GapMapCard, Warmup } from "@/components/TestBridge";
 import { Button } from "@/components/ui/button";
 import { Dialog } from "@/components/ui/dialog";
@@ -171,7 +171,7 @@ function ReviewWorking({ q, testId, yours, text }: { q: MockQuestion; testId: nu
     chosen: mcq && yours != null ? Number(yours) : null, topic: q.chapter ?? null, subject: q.subject, solution: q.solution ?? null,
   });
   const drawn = savedPage(key, String(q.id)).length > 0;
-  const fromTest = async () => { const image = await roughImage(savedPage(key, String(q.id))); if (image) check.mutate(image, { onSuccess: setWork }); };
+  const fromTest = async () => { const image = await roughImage(savedPage(key, String(q.id))); if (image) check.mutate({ image, source: "pad" }, { onSuccess: setWork }); };
   if (work) return <WorkingCheckCard check={work} onClose={() => setWork(null)} className="mt-3" />;
   return (
     <div className="mt-2">
@@ -180,10 +180,11 @@ function ReviewWorking({ q, testId, yours, text }: { q: MockQuestion; testId: nu
       ) : (
         <Button size="sm" variant="ghost" onClick={() => setPad(true)} icon={<PenLine className="h-3.5 w-3.5" />}>Write my working</Button>
       )}
+      <PhotoCheckButton className="ml-2" loading={check.isPending} onPhoto={(image) => check.mutate({ image, source: "photo" }, { onSuccess: setWork })} />
       {pad && <>
         <div aria-hidden className="h-[50dvh]" />
         <RoughPad storageKey={key} page={String(q.id)} onClose={() => setPad(false)} className="fixed inset-x-0 bottom-0 z-40 shadow-2xl"
-          checking={check.isPending} onCheck={(image) => check.mutate(image, { onSuccess: (w) => { setWork(w); setPad(false); } })} />
+          checking={check.isPending} onCheck={(image, source) => check.mutate({ image, source }, { onSuccess: (w) => { setWork(w); setPad(false); } })} />
       </>}
     </div>
   );

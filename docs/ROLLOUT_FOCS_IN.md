@@ -58,6 +58,33 @@ changes the provider and the cost of every AI call. Pick one and put it in `/etc
    sudo docker exec focs python scripts/evidence.py --out /tmp/evidence.md && sudo docker exec focs cat /tmp/evidence.md
    ```
 
+## Get the numbers (pitch evidence)
+
+Run these in order on the server. All are safe on production: the first and third never write, the second only adds
+shared chains (no student data in them).
+
+```bash
+# 1. See which chapters real students actually attempt, and what they cover. No AI, no cost.
+sudo docker exec focs python scripts/warm_chains.py --dry-run --top 25
+
+# 2. Build their chains (a few rupees of AI, once)...
+sudo docker exec focs python scripts/warm_chains.py --top 25
+#    ...or, with no AI on the server, load chains built elsewhere (a laptop with a key, or the Cloud Run demo:
+#    run "python scripts/warm_chains.py --top 25 --export chains.json" there), then copy chains.json to the server:
+sudo docker cp chains.json focs:/tmp/chains.json
+sudo docker exec focs python scripts/warm_chains.py --import /tmp/chains.json    # --overwrite replaces existing ones
+
+# 3. The evidence report (read-only, aggregates only, groups under 5 students hidden)
+sudo docker exec focs python scripts/evidence.py --out /tmp/evidence.md
+
+# 4. Copy it off the server (run this on your own computer)
+scp <user>@<server>:/tmp/evidence.md . 
+```
+If `evidence.md` is in the container rather than on the host, first run
+`sudo docker cp focs:/tmp/evidence.md /tmp/evidence.md` on the server, then `scp` it. `evidence.json` sits next to it.
+The report says how much of real students' chapter-tagged attempts (last 60 days) have a chain; run step 2 again with
+a larger `--top` if that share is low. For the handwriting accuracy number, see BENCHMARK.md.
+
 ## Roll back (2 minutes)
 
 ```bash

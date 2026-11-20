@@ -162,9 +162,11 @@ export const api = {
 
   // Check my working: a page of rough work read step by step; the tutor that knows the student
   checkWorking: (image: Blob, q: { question: string; options?: string[] | null; answer?: number | null; chosen?: number | null;
-    chapterId?: string | null; topic?: string | null; subject?: string | null; solution?: string | null }) => {
+    chapterId?: string | null; topic?: string | null; subject?: string | null; solution?: string | null },
+    source: "pad" | "photo" = "pad") => {
     const fd = new FormData();
-    fd.append("image", image, "rough.png");
+    fd.append("image", image, source === "photo" ? "paper.jpg" : "rough.png");
+    fd.append("source", source);
     fd.append("question", q.question.slice(0, 2000));
     fd.append("options", JSON.stringify(q.options ?? []));
     if (q.answer != null) fd.append("answer", String(q.answer));
