@@ -25,7 +25,8 @@ export function Companion({ sessionId, className, focus, onClearFocus }: {
   const [mode, setMode] = useState<Mode>("explain");
   const [messages, setMessages] = useState<Msg[]>([]);
   const [input, setInput] = useState("");
-  const [full, setFull] = useState<string | null>(null);  // an answer opened at full width
+  const [full, setFull] = useState<string | null>(null);
+  const [live, setLive] = useState<string | null>(null);  // the answer so far, while it is being written  // an answer opened at full width
   const [copied, setCopied] = useState<number | null>(null);
   const copy = (text: string, i: number) => {
     navigator.clipboard?.writeText(text).then(() => { setCopied(i); setTimeout(() => setCopied(null), 1500); }).catch(() => undefined);
@@ -46,13 +47,15 @@ export function Companion({ sessionId, className, focus, onClearFocus }: {
 
   const ask = useMutation({
     mutationFn: (question: string) =>
-      api.ask({ question, session_id: sessionId, note_id: focus?.id, mode, history: messages.slice(-6).map(({ role, content }) => ({ role, content })) }),
+      api.askStream({ question, session_id: sessionId, note_id: focus?.id, mode, history: messages.slice(-6).map(({ role, content }) => ({ role, content })) }, setLive),
     onSuccess: (res) => {
+      setLive(null);
       setMessages((m) => [...m, { role: "assistant", content: res.answer, source: res.source }]);
       qc.invalidateQueries({ queryKey: ["doubts", sessionId] });
       qc.invalidateQueries({ queryKey: ["usage"] });  // the allowance meter shows what this doubt took
     },
     onError: (_e, question) => {
+      setLive(null);
       // keep what the student typed so they can just press send again
       setMessages((m) => m.slice(0, -1));
       setInput((cur) => cur || question);
@@ -61,7 +64,7 @@ export function Companion({ sessionId, className, focus, onClearFocus }: {
 
   useEffect(() => {
     scroller.current?.scrollTo({ top: scroller.current.scrollHeight, behavior: "smooth" });
-  }, [messages, ask.isPending]);
+  }, [messages, ask.isPending, live]);
 
   const send = (q: string) => {
     const question = q.trim();
@@ -125,7 +128,11 @@ export function Companion({ sessionId, className, focus, onClearFocus }: {
         {ask.isPending && (
           <div className="flex gap-2.5">
             <div className="grid h-7 w-7 place-items-center rounded-full bg-gradient-brand text-brand-fg"><Bot className="h-3.5 w-3.5" /></div>
-            <WaitBridge kind="doubt" compact className="min-w-0 flex-1" />
+            {live
+              ? <div aria-live="polite" aria-busy="true" className="min-w-0 flex-1 rounded-2xl rounded-tl-md border border-line bg-bg-soft px-3.5 py-2.5 text-sm">
+                  <Markdown className="text-[13.5px]">{live}</Markdown>
+                </div>
+              : <WaitBridge kind="doubt" compact className="min-w-0 flex-1" />}
           </div>
         )}
       </div>

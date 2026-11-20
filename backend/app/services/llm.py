@@ -17,7 +17,7 @@ import re
 import threading
 import time
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, Iterator
 
 import httpx
 
@@ -327,6 +327,63 @@ class LLMClient:
             if i < len(chain) - 1:
                 log.warning("%s — switching to %s", errors[-1], chain[i + 1].name)
         raise LLMUnavailable("; ".join(errors))
+
+    def stream(self, messages: list[dict[str, str]], *, max_tokens: int = 900, temperature: float = 0.3,
+               feature: str = "other") -> Iterator[str]:
+        """Yield the answer as it is written, from the first free OpenAI-compatible provider (Gemini, Groq).
+
+        Raises LLMUnavailable before the first piece when no provider can stream: the caller then falls back to
+        ``chat``, which walks the whole chain (Claude included). A failure after text has gone out raises too, and
+        the caller decides what to show."""
+        ensure_budget()
+        chain = [p for p in providers() if not _cooling(p) and p.base_url != CLAUDE_BASE_URL]
+        if not chain:
+            raise LLMUnavailable("No streaming-capable model is free right now")
+        p = chain[0]
+        body: dict[str, Any] = {"model": p.model, "messages": messages, "max_tokens": max_tokens,
+                                "temperature": temperature, "stream": True, "stream_options": {"include_usage": True}}
+        if p.reasoning_model:
+            body["max_tokens"] = max_tokens + 1024
+            if "gpt-oss" in p.model:
+                body["reasoning_effort"] = "low"
+                if "groq.com" in p.base_url:
+                    body["include_reasoning"] = False
+            else:
+                body["reasoning_format"] = "hidden"
+        headers = {"Authorization": f"Bearer {p.api_key}"} if p.api_key else {}
+        url = p.base_url.rstrip("/") + "/chat/completions"
+        sent = False
+        try:
+            with self.client.stream("POST", url, json=body, headers=headers) as r:
+                if r.status_code == 429:
+                    _cool(p, _retry_after(r))
+                    raise RateLimited(f"{p.name} is rate-limited", _retry_after(r))
+                if r.status_code == 503:
+                    _cool(p, 30)
+                    raise RateLimited(f"{p.name} is overloaded", 30)
+                if r.status_code >= 400:
+                    raise LLMUnavailable(f"{p.name} can't stream ({r.status_code})")
+                for line in r.iter_lines():
+                    if not line.startswith("data:"):
+                        continue
+                    data = line[5:].strip()
+                    if data == "[DONE]":
+                        break
+                    try:
+                        chunk = json.loads(data)
+                    except ValueError:
+                        continue
+                    if chunk.get("usage"):
+                        ledger.record(feature, p.model, chunk["usage"])
+                    for choice in chunk.get("choices") or []:
+                        piece = (choice.get("delta") or {}).get("content")
+                        if piece:
+                            sent = True
+                            yield piece
+        except httpx.HTTPError as exc:
+            raise LLMUnavailable(f"{p.name} stream broke: {exc}") from exc
+        if not sent:
+            raise LLMUnavailable(f"{p.name} streamed an empty answer")
 
     def json(self, messages: list[dict[str, str]], **kwargs) -> dict[str, Any]:
         return self.json_with_model(messages, **kwargs)[0]

@@ -276,6 +276,31 @@ export const api = {
   // companion
   ask: (b: { question: string; session_id?: number; note_id?: number; mode: string; history: { role: string; content: string }[] }) =>
     post<{ id: number | null; answer: string; source: string }>("/companion/ask", b),
+  /** Like ask, but `onDelta` sees the answer grow as it is written; resolves with the finished answer. */
+  askStream: async (b: { question: string; session_id?: number; note_id?: number; mode: string; history: { role: string; content: string }[] },
+    onDelta: (text: string) => void): Promise<{ id: number | null; answer: string; source: string }> => {
+    const res = await request<Response>("POST", "/companion/ask/stream", b, { raw: true });
+    if (!res.body) throw new ApiError(0, "This browser can't show answers as they're written.");
+    const reader = res.body.pipeThrough(new TextDecoderStream()).getReader();
+    let buffer = "";
+    let text = "";
+    for (;;) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buffer += value;
+      let end: number;
+      while ((end = buffer.indexOf("\n\n")) >= 0) {  // one Server-Sent Event per blank-line-separated block
+        const block = buffer.slice(0, end);
+        buffer = buffer.slice(end + 2);
+        const event = /^event: (.*)$/m.exec(block)?.[1];
+        const data = /^data: (.*)$/m.exec(block)?.[1];
+        if (!event || data === undefined) continue;
+        if (event === "delta") onDelta((text += JSON.parse(data) as string));
+        else if (event === "done") return JSON.parse(data);
+      }
+    }
+    throw new ApiError(0, "The answer was cut off. Check your connection and ask again.");
+  },
   doubts: (sessionId?: number) => get<Doubt[]>(`/companion/history${qs({ session_id: sessionId })}`),
 
   // confidence vs reality

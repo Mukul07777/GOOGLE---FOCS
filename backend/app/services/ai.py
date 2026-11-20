@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import re
+from collections.abc import Iterator
 from typing import Any
 
 from app.core.config import settings
@@ -695,8 +696,8 @@ def explain_in(solution: str, question: str, language: str, exam: str | None) ->
     return fix_latex(restore_backslashes(out))
 
 
-def companion(question: str, context_md: str, history: list[dict[str, str]], exam: str | None, mode: str = "explain",
-              language: str | None = None) -> dict[str, Any]:
+def _companion_messages(question: str, context_md: str, history: list[dict[str, str]], exam: str | None, mode: str,
+                        language: str | None) -> list[dict[str, str]]:
     style = COMPANION_SYSTEM.get(mode, COMPANION_SYSTEM["explain"]).format(exam=_exam(exam), tone=HINGLISH_TONE)
     system = (
         f"You are Focs, an AI study companion for {_exam(exam)} students, answering doubts while they watch a lecture. "
@@ -718,11 +719,34 @@ def companion(question: str, context_md: str, history: list[dict[str, str]], exa
         if turn.get("role") in ("user", "assistant") and turn.get("content"):
             messages.append({"role": turn["role"], "content": str(turn["content"])[:1500]})
     messages.append({"role": "user", "content": question + REPLY_IN.get(language or "", "")})
+    return messages
+
+
+def companion(question: str, context_md: str, history: list[dict[str, str]], exam: str | None, mode: str = "explain",
+              language: str | None = None) -> dict[str, Any]:
+    messages = _companion_messages(question, context_md, history, exam, mode, language)
     try:
         return {"answer": fix_latex(llm.chat(messages, max_tokens=700, temperature=0.4, feature="doubt")), "source": "ai"}
     except LLMUnavailable as exc:
         log.info("companion fallback: %s", exc)
         return {"answer": offline.companion(question, context_md), "source": "offline"}
+
+
+def companion_stream(question: str, context_md: str, history: list[dict[str, str]], exam: str | None,
+                     mode: str = "explain", language: str | None = None) -> Iterator[tuple[str, Any]]:
+    """The same answer as ``companion``, as it is written: ("delta", text) pieces, then one ("done", result) with
+    the finished answer (LaTeX repaired), which the page shows in place of the raw pieces. When streaming can't start,
+    or breaks midway, the answer comes the ordinary way (every provider, then the offline fallback) in that last event."""
+    messages = _companion_messages(question, context_md, history, exam, mode, language)
+    parts: list[str] = []
+    try:
+        for piece in llm.stream(messages, max_tokens=700, temperature=0.4, feature="doubt"):
+            parts.append(piece)
+            yield "delta", piece
+        yield "done", {"answer": fix_latex("".join(parts).strip()), "source": "ai"}
+    except LLMUnavailable as exc:
+        log.info("companion stream fell back%s: %s", " midway" if parts else "", exc)
+        yield "done", companion(question, context_md, history, exam, mode, language)
 
 
 SPEECH_SYSTEM = """You are Focs, a careful {exam} teacher's assistant. Below is what the teacher SAID during part of a

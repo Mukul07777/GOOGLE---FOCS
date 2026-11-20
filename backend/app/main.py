@@ -8,6 +8,8 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import Depends, FastAPI, HTTPException, Request
+from fastapi.encoders import jsonable_encoder
+from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import FileResponse, JSONResponse, Response
@@ -159,6 +161,9 @@ class HeadAsGet:
         await self.app({**scope, "method": "GET"}, receive, no_body)
 
 
+MAX_DB_INT = 2**63 - 1  # the largest id a BIGINT (Postgres) or INTEGER (SQLite) column holds
+
+
 def create_app() -> FastAPI:
     docs = not settings.is_production  # the API map stays on dev servers: no need to hand it to strangers
     app = FastAPI(title=f"{settings.APP_NAME} API", version=settings.APP_VERSION, lifespan=lifespan,
@@ -172,6 +177,11 @@ def create_app() -> FastAPI:
     @app.middleware("http")
     async def headers_and_timing(request: Request, call_next):
         start = time.perf_counter()
+        # An id past the database's 64-bit range (/api/notes/99999999999999999999) can't name a row: answer 404 here,
+        # before the database rejects it with an error that would surface as a 500.
+        if request.url.path.startswith("/api/") and any(
+                seg.isdigit() and int(seg) > MAX_DB_INT for seg in request.url.path.split("/")):
+            return JSONResponse(status_code=404, content={"detail": "Not found"})
         # who the AI calls in this request are for (cost ledger); a bad or missing token just means "nobody"
         auth = request.headers.get("authorization", "")
         payload = decode_token(auth[7:]) if auth.lower().startswith("bearer ") else None
@@ -199,6 +209,13 @@ def create_app() -> FastAPI:
             if ms > 1500:
                 log.info("%s %s %d %.0fms", request.method, request.url.path, response.status_code, ms)
         return response
+
+    @app.exception_handler(RequestValidationError)
+    async def invalid(_: Request, exc: RequestValidationError):
+        # FastAPI echoes each rejected value back as "input": for a sign-up that is the password itself, which would
+        # then sit in browser devtools, proxies and error reports. Say what was wrong, never what was sent.
+        errors = [{k: v for k, v in e.items() if k not in ("input", "url")} for e in exc.errors()]
+        return JSONResponse(status_code=422, content={"detail": jsonable_encoder(errors)})
 
     @app.exception_handler(Exception)
     async def unhandled(request: Request, exc: Exception):
