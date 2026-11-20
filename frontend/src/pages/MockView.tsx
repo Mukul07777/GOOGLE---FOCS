@@ -10,6 +10,7 @@ import { toast } from "sonner";
 import { Markdown } from "@/components/Markdown";
 import { LanguageToggle, OptionFigure, optionFigure, QuestionFigures, shownIn, usePaperLanguage, type PaperLanguage } from "@/components/QuestionMedia";
 import { PaletteLegend } from "@/components/MockPalette";
+import { RealGap } from "@/components/RealGap";
 import { Solution } from "@/components/Explain";
 import { RoughPad, roughImage, savedPage } from "@/components/RoughPad";
 import { useCheckWorking, WorkingCheckCard } from "@/components/WorkingCheck";
@@ -306,6 +307,7 @@ function Result({ test }: { test: MockDetail }) {
       </Card>
 
       {test.gap_map && <GapMapCard map={test.gap_map} />}
+      <RealGap compact suspectsOnly />
 
       {/* a test on one subject: its card sits with the advice below instead of alone in a row of three */}
       {r.subjects.length > 1 && <div className="grid grid-cols-1 gap-3 md:grid-cols-3">{r.subjects.map((s) => <SubjectCard key={s.subject} s={s} />)}</div>}
