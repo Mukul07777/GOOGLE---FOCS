@@ -16,6 +16,8 @@ const nth = (n: number) => `${n}${n % 10 === 1 && n % 100 !== 11 ? "st" : n % 10
 export interface WorkingQuestion {
   question: string; options?: string[] | null; answer?: number | null; chosen?: number | null;
   chapterId?: string | null; topic?: string | null; subject?: string | null;
+  /** a correct worked solution, when the page has one: the checker compares against it */
+  solution?: string | null;
 }
 
 /** "Check my working" for one question: hand it the rough page as a picture, get the checked working back. */

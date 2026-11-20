@@ -204,6 +204,7 @@ function Runner({ quiz, onDone }: { quiz: Quiz; onDone: (r: Result[], items: Ite
     options: item.kind === "mcq" ? item.data.options : item.kind === "tf" ? ["True", "False"] : null,
     answer: item.kind === "mcq" ? item.data.answer_index : item.kind === "tf" ? (item.data.answer ? 0 : 1) : null,
     chosen: picked,
+    solution: item.kind === "subjective" ? item.data.model_answer : item.data.explanation,
   } : null);
 
   const record = (correct: boolean, question: string, q_type: string, score?: number, c?: Confidence) => {

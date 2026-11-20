@@ -81,7 +81,7 @@ function Chain({ trace }: { trace: GapTrace }) {
   const padLink = padFor !== null ? trace.chain[padFor] : null;
   const checkWork = useCheckWorking(padLink ? {
     question: padLink.check.q, options: padLink.check.options, answer: padLink.check.answer ?? null,
-    chosen: padLink.choice ?? null, chapterId: padLink.chapter_id,
+    chosen: padLink.choice ?? null, chapterId: padLink.chapter_id, solution: padLink.check.explain ?? null,
   } : null);
 
   return (

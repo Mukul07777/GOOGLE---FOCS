@@ -5,7 +5,7 @@
 The folder holds the pictures (photos of paper, or rough-pad pages saved from a tablet: .jpg .jpeg .png .webp) and a
 labels.csv written by hand, one row per picture:
 
-    file,question,options,answer,chosen,first_wrong,kind
+    file,question,options,answer,chosen,first_wrong,kind[,solution]
     torque1.jpg,"A 10 N force acts at 30° on a 2 m spanner. Torque?","10 N m|17.3 N m|20 N m|5 N m",A,B,2,gap
     ohm3.png,"Current through 3 Ω and 6 Ω in parallel across 12 V?",,,,3,slip
     proj2.jpg,"Range of a projectile at 15 m/s, 30°?",,,,right,
@@ -15,6 +15,7 @@ labels.csv written by hand, one row per picture:
   answer       optional: the correct option letter (A-D)
   chosen       optional: the option the student picked
   first_wrong  the number of the first wrong step as the student wrote it (1 = first line of working), or "right"
+  solution     optional: a correct worked solution (the app passes one when it has it; measure both ways)
   kind         for a wrong solution: "slip" (sign, arithmetic, units, misread) or "gap" (concept, formula, set-up)
 
 Counting steps the way the checker does: one line or one equation of working is one step. Label before you run it,
@@ -91,7 +92,7 @@ def main() -> None:
         try:
             data = vision.read_json([vision.to_jpeg(picture.read_bytes())],
                                     working._prompt(student, row["question"], options, _letter(row.get("answer", "")),
-                                                    _letter(row.get("chosen", "")), []),
+                                                    _letter(row.get("chosen", "")), [], row.get("solution") or None),
                                     "working_bench", max_tokens=2400)
             read = working._read(data, [])
             error = ""

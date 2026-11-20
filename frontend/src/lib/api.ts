@@ -162,7 +162,7 @@ export const api = {
 
   // Check my working: a page of rough work read step by step; the tutor that knows the student
   checkWorking: (image: Blob, q: { question: string; options?: string[] | null; answer?: number | null; chosen?: number | null;
-    chapterId?: string | null; topic?: string | null; subject?: string | null }) => {
+    chapterId?: string | null; topic?: string | null; subject?: string | null; solution?: string | null }) => {
     const fd = new FormData();
     fd.append("image", image, "rough.png");
     fd.append("question", q.question.slice(0, 2000));
@@ -172,6 +172,7 @@ export const api = {
     if (q.chapterId) fd.append("chapter_id", q.chapterId);
     if (q.topic) fd.append("topic", q.topic.slice(0, 200));
     if (q.subject) fd.append("subject", q.subject.slice(0, 80));
+    if (q.solution) fd.append("solution", q.solution.slice(0, 6000));
     return post<WorkingCheck>("/working/check", fd);
   },
   workingFingerprint: () => get<MistakeFingerprint>("/working/fingerprint"),

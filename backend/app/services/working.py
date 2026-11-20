@@ -109,7 +109,8 @@ def _index(value: Any, size: int) -> int | None:
     return i if 0 <= i < size else None
 
 
-def _prompt(user: User, question: str, options: list[str], answer: int | None, chosen: int | None, chain: list[dict]) -> str:
+def _prompt(user: User, question: str, options: list[str], answer: int | None, chosen: int | None, chain: list[dict],
+            solution: str | None = None) -> str:
     extra = []
     if options:
         extra.append("Options:\n" + "\n".join(f"{'ABCD'[i] if i < 4 else i + 1}. {o}" for i, o in enumerate(options[:6])))
@@ -117,6 +118,11 @@ def _prompt(user: User, question: str, options: list[str], answer: int | None, c
         extra.append(f"The correct option is {'ABCD'[answer] if answer < 4 else answer + 1}.")
     if chosen is not None and 0 <= chosen < len(options):
         extra.append(f"The student picked {'ABCD'[chosen] if chosen < 4 else chosen + 1}.")
+    if solution and solution.strip():
+        # with a worked solution to compare against, models find the first wrong step far more reliably
+        extra.append('A correct worked solution, for reference only (the student may use a different valid method: judge '
+                     'THEIR steps on their own merits, and never copy steps from here into "steps"):\n"""'
+                     + solution.replace('"""', "'''").strip()[:2500] + '"""')
     if chain:
         extra.append("This question's chapter rests on these earlier chapters (index: chapter, class: the idea it supplies):\n"
                      + "\n".join(f"{i}: {c['name']}, Class {c.get('cls') or '?'}: {c.get('idea') or c['name']}" for i, c in enumerate(chain)))
@@ -187,7 +193,8 @@ def still_open(db: Session, user: User, question: str) -> bool:
 
 
 def check(db: Session, user: User, syl: Syllabus | None, image: bytes, question: str, options: list[str] | None,
-          answer: int | None, chosen: int | None, chapter_id: str | None, topic: str | None, subject: str | None) -> WorkingCheck:
+          answer: int | None, chosen: int | None, chapter_id: str | None, topic: str | None, subject: str | None,
+          solution: str | None = None) -> WorkingCheck:
     """Read and check one page of rough work. Raises WorkingError, LLMUnavailable."""
     if not image or len(image) > MAX_IMAGE_BYTES:
         raise WorkingError("The rough page is empty or too large.")
@@ -204,7 +211,7 @@ def check(db: Session, user: User, syl: Syllabus | None, image: bytes, question:
     if target is not None and (kept := db.get(PrereqMap, target.id)) is not None:
         chain = list(kept.chain or [])
     options = [str(o)[:300] for o in (options or [])][:6]
-    data = vision.read_json([jpeg], _prompt(user, question, options, answer, chosen, chain), "working_check", max_tokens=2400)
+    data = vision.read_json([jpeg], _prompt(user, question, options, answer, chosen, chain, solution), "working_check", max_tokens=2400)
     read = _read(data, chain)
     row = WorkingCheck(user_id=user.id, chapter_id=target.id if target else None, question=question.strip()[:2000],
                        verdict=read["verdict"], error_type=read["error_type"],

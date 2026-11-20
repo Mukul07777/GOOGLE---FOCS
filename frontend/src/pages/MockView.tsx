@@ -168,7 +168,7 @@ function ReviewWorking({ q, testId, yours, text }: { q: MockQuestion; testId: nu
 
 (Numerical answer. Correct: ${q.answer ?? "?"}; the student answered: ${yours ?? "nothing"})`,
     options: mcq ? text.options ?? null : null, answer: mcq && q.answer != null ? Number(q.answer) : null,
-    chosen: mcq && yours != null ? Number(yours) : null, topic: q.chapter ?? null, subject: q.subject,
+    chosen: mcq && yours != null ? Number(yours) : null, topic: q.chapter ?? null, subject: q.subject, solution: q.solution ?? null,
   });
   const drawn = savedPage(key, String(q.id)).length > 0;
   const fromTest = async () => { const image = await roughImage(savedPage(key, String(q.id))); if (image) check.mutate(image, { onSuccess: setWork }); };

@@ -28,7 +28,7 @@ def _choice(value: int | None) -> int | None:
 async def check(image: UploadFile = File(...), question: str = Form(..., min_length=1, max_length=2000),
                 options: str = Form("[]", max_length=4000), answer: int | None = Form(None), chosen: int | None = Form(None),
                 chapter_id: str | None = Form(None, max_length=160), topic: str | None = Form(None, max_length=200),
-                subject: str | None = Form(None, max_length=80),
+                subject: str | None = Form(None, max_length=80), solution: str | None = Form(None, max_length=6000),
                 db: Session = Depends(get_db), user: User = Depends(get_current_user)) -> dict[str, Any]:
     """A page of rough work, read and checked: the first wrong step, the kind of slip, and the root it comes from."""
     if not vision.available():
@@ -41,7 +41,7 @@ async def check(image: UploadFile = File(...), question: str = Form(..., min_len
     data = await image.read(working.MAX_IMAGE_BYTES + 1)
     usage.require(db, user, "working_check")
     try:
-        row = working.check(db, user, _syl(user), data, question, opts, _choice(answer), _choice(chosen), chapter_id, topic, subject)
+        row = working.check(db, user, _syl(user), data, question, opts, _choice(answer), _choice(chosen), chapter_id, topic, subject, solution)
     except working.WorkingError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except LLMUnavailable as exc:
