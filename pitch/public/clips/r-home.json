@@ -1,0 +1,14 @@
+{
+  "name": "r-home",
+  "seconds": 7.26,
+  "frames": 158,
+  "fps": 21.7,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "card",
+      "t": 2.27
+    }
+  ]
+}

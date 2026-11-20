@@ -1,0 +1,18 @@
+{
+  "name": "r-class",
+  "seconds": 12.67,
+  "frames": 201,
+  "fps": 15.9,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "map",
+      "t": 3.21
+    },
+    {
+      "label": "first",
+      "t": 5.69
+    }
+  ]
+}

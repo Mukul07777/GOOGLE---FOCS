@@ -1,0 +1,38 @@
+{
+  "name": "r-trace",
+  "seconds": 38.72,
+  "frames": 1251,
+  "fps": 32.3,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "noticed",
+      "t": 2.23
+    },
+    {
+      "label": "fingerprint",
+      "t": 6.51
+    },
+    {
+      "label": "open",
+      "t": 10.98
+    },
+    {
+      "label": "chain",
+      "t": 14.69
+    },
+    {
+      "label": "root",
+      "t": 20.33
+    },
+    {
+      "label": "lesson",
+      "t": 25.35
+    },
+    {
+      "label": "proof",
+      "t": 34.01
+    }
+  ]
+}

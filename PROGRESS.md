@@ -55,8 +55,10 @@ on, fixes it in five minutes, and proves the fix with a retest.
 3. **Deploy to Cloud Run** (`docs/DEPLOY_GOOGLE.md`).
 4. **Roll out to focs.in** (`docs/ROLLOUT_FOCS_IN.md`, database backup first).
 5. **Deck and a rehearsed 3-minute demo** built on the real numbers.
-6. **Check the rotational-motion chain:** it stops at Class 11 and misses trigonometry and vectors (the torque
-   demo's gap).
+6. ~~**Check the rotational-motion chain**~~ Done (21 Nov): `chains.json` now traces it to resolving vectors
+   (Kinematics, Class 11) ← sin and cos at standard angles (Trigonometry, Class 11) ← opposite = hypotenuse × sin θ
+   (Class 10). Re-import on a server that already has the old chain with `warm_chains.py --import scripts/chains.json --overwrite`.
+7. **Deck and demo video for the Startup Buildathon** are built from `pitch/buildathon/` (see its README).
 
 ## Good to know
 - `backend/.env` may hold production credentials. Without an explicit `DATABASE_URL`, any local server or script

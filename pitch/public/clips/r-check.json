@@ -1,0 +1,38 @@
+{
+  "name": "r-check",
+  "seconds": 33.56,
+  "frames": 1179,
+  "fps": 35.1,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "pick",
+      "t": 2.96
+    },
+    {
+      "label": "sure",
+      "t": 5.08
+    },
+    {
+      "label": "photo",
+      "t": 8.88
+    },
+    {
+      "label": "reading",
+      "t": 10.23
+    },
+    {
+      "label": "checked",
+      "t": 14.07
+    },
+    {
+      "label": "root",
+      "t": 23.03
+    },
+    {
+      "label": "go",
+      "t": 28.37
+    }
+  ]
+}

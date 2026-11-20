@@ -1,0 +1,22 @@
+{
+  "name": "r-genome",
+  "seconds": 17.08,
+  "frames": 232,
+  "fps": 13.6,
+  "width": 2160,
+  "height": 1350,
+  "marks": [
+    {
+      "label": "map",
+      "t": 1.53
+    },
+    {
+      "label": "picked",
+      "t": 9.9
+    },
+    {
+      "label": "load",
+      "t": 14.07
+    }
+  ]
+}
