@@ -74,6 +74,9 @@ def light_models() -> set[str]:
 
 def providers() -> list[Provider]:
     gemini_key = settings.gemini_api_key
+    if settings.GOOGLE_ONLY:  # Google's models only, with or without a key: a missing key means no AI, never another provider
+        return [p for p in (Provider(f"gemini:{m}", settings.LLM_FALLBACK_BASE_URL, gemini_key, m)
+                            for m in _models(settings.GEMINI_MODEL)) if p.usable]
     if settings.gemini_first:  # Google first: every Gemini model, then (unless GOOGLE_ONLY) the others when all are busy
         chain = [Provider(f"gemini:{m}", settings.LLM_FALLBACK_BASE_URL, gemini_key, m) for m in _models(settings.GEMINI_MODEL)]
         if not settings.GOOGLE_ONLY:

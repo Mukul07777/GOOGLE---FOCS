@@ -33,9 +33,11 @@ export function roughImage(strokes: Stroke[]): Promise<Blob | null> {
   for (const s of ink) for (let i = 0; i < s.p.length; i += 2) {
     x0 = Math.min(x0, s.p[i]); x1 = Math.max(x1, s.p[i]); y0 = Math.min(y0, s.p[i + 1]); y1 = Math.max(y1, s.p[i + 1]);
   }
-  const PX = 1100, padding = 0.04;  // pixels per pad width: big enough for small handwriting
+  const padding = 0.04;
   x0 -= padding; y0 -= padding; x1 += padding; y1 += padding;
-  const w = Math.max(240, Math.round((x1 - x0) * PX)), h = Math.min(4000, Math.max(160, Math.round((y1 - y0) * PX)));
+  // pixels per pad width: big enough for small handwriting; a very long page is scaled down to fit, never cut off
+  const PX = Math.min(1100, 4000 / Math.max(0.01, y1 - y0));
+  const w = Math.max(240, Math.round((x1 - x0) * PX)), h = Math.max(160, Math.round((y1 - y0) * PX));
   const layer = document.createElement("canvas");
   layer.width = w; layer.height = h;
   const g = layer.getContext("2d");

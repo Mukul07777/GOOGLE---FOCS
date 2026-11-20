@@ -122,9 +122,8 @@ def recap(class_id: int, body: RecapIn, db: Session = Depends(get_db), user: Use
     """The teacher's ten-minute recap of a gap the batch shares: the lesson its students get, with the check question."""
     room = _owned(db, class_id, user)
     members = list(db.scalars(select(ClassMember.user_id).where(ClassMember.class_id == room.id)))
-    usage.require(db, user, "gap_lesson")
-    try:
-        made, used_ai = gaps.class_recap(db, user, members, body.chapter_id)
+    try:  # a recap already written (for this class's students, or another's) is free: the limit applies only to new ones
+        made, used_ai = gaps.class_recap(db, user, members, body.chapter_id, before_ai=lambda: usage.require(db, user, "gap_lesson"))
     except gaps.GapError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except LLMUnavailable as exc:

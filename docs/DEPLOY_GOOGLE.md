@@ -25,11 +25,14 @@ printf '%s' 'PASTE_YOUR_GEMINI_API_KEY'            | gcloud secrets create gemin
 printf '%s' 'postgresql://postgres.xxxx:PASSWORD@aws-0-ap-south-1.pooler.supabase.com:5432/postgres' \
                                                    | gcloud secrets create focs-db     --data-file=-
 
-# let Cloud Build deploy, and the running service read the secrets
-PROJECT_NUMBER=$(gcloud projects describe "$(gcloud config get-value project)" --format='value(projectNumber)')
-for role in roles/run.admin roles/iam.serviceAccountUser; do
-  gcloud projects add-iam-policy-binding "$(gcloud config get-value project)" \
-    --member="serviceAccount:${PROJECT_NUMBER}@cloudbuild.gserviceaccount.com" --role="$role"
+# let the build push and deploy, and the running service read the secrets. Newer projects build as the Compute
+# Engine default account, older ones as the Cloud Build account: grant both, so either works.
+PROJECT=$(gcloud config get-value project)
+PROJECT_NUMBER=$(gcloud projects describe "$PROJECT" --format='value(projectNumber)')
+for sa in "${PROJECT_NUMBER}@cloudbuild.gserviceaccount.com" "${PROJECT_NUMBER}-compute@developer.gserviceaccount.com"; do
+  for role in roles/run.admin roles/iam.serviceAccountUser roles/artifactregistry.writer roles/logging.logWriter; do
+    gcloud projects add-iam-policy-binding "$PROJECT" --member="serviceAccount:$sa" --role="$role" --condition=None -q >/dev/null
+  done
 done
 for s in focs-secret gemini focs-db; do
   gcloud secrets add-iam-policy-binding "$s" \

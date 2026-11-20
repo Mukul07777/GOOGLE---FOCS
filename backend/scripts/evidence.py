@@ -48,6 +48,11 @@ def _real(db: Session) -> list[User]:
     return list(db.scalars(q))
 
 
+def _n(count: int, people: int | None = None) -> int | str:
+    """A count, or "<5" when it (or the number of people behind it) is under MIN_GROUP: a small number can point at someone."""
+    return count if count >= MIN_GROUP and (people is None or people >= MIN_GROUP) else f"<{MIN_GROUP}"
+
+
 def _pct(part: int, whole: int) -> str:
     return f"{round(100 * part / whole)}%" if whole else "–"
 
@@ -74,14 +79,14 @@ def report(db: Session, chains_url: str | None = None) -> tuple[list[str], dict]
     lines, data = [], {}
     tables = set(inspect(engine).get_table_names())
 
-    # ---- who
+    # ---- who (every count under MIN_GROUP is shown as "<5", in the text and in the JSON)
     active7 = sum(1 for u in students if u.last_seen_at and u.last_seen_at >= now - timedelta(days=7))
     active30 = sum(1 for u in students if u.last_seen_at and u.last_seen_at >= now - timedelta(days=30))
     exams = Counter((u.exam_target or "other") for u in students)
     shown = {e: n for e, n in exams.items() if n >= MIN_GROUP}
-    data["students"] = {"total": len(students), "active_7d": active7, "active_30d": active30, "by_exam": shown}
+    data["students"] = {"total": _n(len(students)), "active_7d": _n(active7), "active_30d": _n(active30), "by_exam": shown}
     lines += ["## Real students", "",
-              f"- **{len(students)} real students** signed up; {active30} used Focs in the last 30 days, {active7} in the last 7.",
+              f"- **{_n(len(students))} real students** signed up; {_n(active30)} used Focs in the last 30 days, {_n(active7)} in the last 7.",
               "- By exam: " + (", ".join(f"{e.upper()} {n}" for e, n in sorted(shown.items(), key=lambda kv: -kv[1])) or "–")
               + (" (smaller groups not shown)" if len(shown) < len(exams) else ""), ""]
 
@@ -94,17 +99,17 @@ def report(db: Session, chains_url: str | None = None) -> tuple[list[str], dict]
     weak: dict[int, Counter[str]] = {}
     for uid, cid, n in weak_rows:
         weak.setdefault(uid, Counter())[cid] += n or 1
-    data["activity"] = {"mocks_submitted": mocks, "mock_students": mock_students, "answers": answers,
-                        "weak_chapters": sum(len(c) for c in weak.values()), "students_with_weak": len(weak)}
+    total_weak = sum(len(c) for c in weak.values())
+    eligible = sum(1 for c in weak.values() if len(c) >= 2)
+    data["activity"] = {"mocks_submitted": _n(mocks, mock_students), "mock_students": _n(mock_students), "answers": _n(answers),
+                        "weak_chapters": _n(total_weak, len(weak)), "students_with_weak": _n(len(weak)), "weak_in_2plus": _n(eligible)}
     lines += ["## What they did", "",
-              f"- {mocks} full mock tests submitted by {mock_students} students; {answers} practice answers marked.",
-              f"- {data['activity']['weak_chapters']} weak chapters recorded across {len(weak)} students "
-              f"({sum(1 for c in weak.values() if len(c) >= 2)} of them weak in 2+ chapters).", ""]
+              f"- {_n(mocks, mock_students)} full mock tests submitted by {_n(mock_students)} students; {_n(answers)} practice answers marked.",
+              f"- {_n(total_weak, len(weak))} weak chapters recorded across {_n(len(weak))} students ({_n(eligible)} of them weak in 2+ chapters).", ""]
 
     # ---- silent tracing on their real mistakes (no quiz, no AI)
     chains = _chains(db, chains_url)
     covered = sum(1 for c in weak.values() for cid in c if cid in chains)
-    total_weak = data["activity"]["weak_chapters"]
     with_suspect, roots, under = 0, Counter(), []
     for uid, misses in weak.items():
         if len(misses) < gaps.SUSPECT_MIN_CHAPTERS:
@@ -116,36 +121,45 @@ def report(db: Session, chains_url: str | None = None) -> tuple[list[str], dict]
             for s in found:
                 roots[(s["chapter_id"], s["name"], s.get("cls"))] += 1
     top = [(name, cls, n) for (cid, name, cls), n in roots.most_common(8) if n >= MIN_GROUP]
-    data["silent_tracing"] = {"chains": len(chains), "weak_covered": covered, "students_with_suspect": with_suspect,
-                              "eligible": sum(1 for c in weak.values() if len(c) >= 2), "top_roots": top}
+    data["silent_tracing"] = {"chains": len(chains), "weak_covered_share": _pct(covered, total_weak) if len(weak) >= MIN_GROUP else None,
+                              "students_with_suspect": _n(with_suspect), "eligible": _n(eligible), "top_roots": top}
     lines += ["## Silent tracing on real mistakes (no quiz, no AI)", ""]
     if not chains:
         lines += ["- No chains available yet: run scripts/warm_chains.py, or pass --chains-from.", ""]
+    elif eligible < MIN_GROUP:
+        lines += [f"- Fewer than {MIN_GROUP} students are weak in 2+ chapters so far: nothing to show yet.", ""]
     else:
-        eligible = data["silent_tracing"]["eligible"]
+        share = _pct(with_suspect, eligible) if with_suspect >= MIN_GROUP else f"under {MIN_GROUP}"
         lines += [f"- {len(chains)} exam chapters have their chain; they cover {_pct(covered, total_weak)} of real weak chapters.",
-                  f"- **{with_suspect} of {eligible} students ({_pct(with_suspect, eligible)}) weak in 2+ chapters have one earlier"
+                  f"- **{_n(with_suspect)} of {eligible} students ({share}) weak in 2+ chapters have one earlier"
                   f" chapter under several of them**: one fix that pays off more than once"
-                  + (f" (median {sorted(under)[len(under) // 2]} weak chapters on the top suspect)." if under else "."),
+                  + (f" (median {sorted(under)[len(under) // 2]} weak chapters on the top suspect)." if with_suspect >= MIN_GROUP else "."),
                   "- The earlier chapters most often behind real students' trouble:"]
-        lines += [f"  - {name}{f' (Class {cls})' if cls else ''}: {n} students" for name, cls, n in top] or \
-                 [f"  - (no single chapter yet behind {MIN_GROUP}+ students)"]
+        lines += ([f"  - {name}{f' (Class {cls})' if cls else ''}: {n} students" for name, cls, n in top]
+                  or [f"  - (no single chapter yet behind {MIN_GROUP}+ students)"])
         lines.append("")
 
-    # ---- root-cause tracing, measured (once the new code runs here)
+    # ---- root-cause tracing, measured (once the new code runs here), over the same real students only
     if {"gap_traces", "prereq_maps"} <= tables:
-        p = gaps.proof(db)
-        data["tracing"] = p
-        if p["traces"]:
-            lines += ["## Root-cause tracing, measured", "",
-                      f"- {p['students']} students finished {p['traces']} traces; {p['root_rate']}% found an earlier gap.",
-                      f"- Five-minute fixes: {p['fixed']} of {p['lessons']} lessons passed their re-check"
-                      f" ({p['recheck_pass']}% on the first try); median {p['median_minutes_to_fix']} min from trace to fixed.",
+        p = gaps.proof(db, only=ids)
+        lines += ["## Root-cause tracing, measured", ""]
+        if p["students"] >= MIN_GROUP:
+            data["tracing"] = {k: v for k, v in p.items() if k != "root_classes"} | {
+                "root_classes": [r for r in p.get("root_classes", []) if r.get("traces", 0) >= MIN_GROUP]}
+            lines += [f"- {p['students']} students finished {p['traces']} traces; {p['root_rate']}% found an earlier gap.",
+                      (f"- Five-minute fixes: {p['fixed']} of {p['lessons']} lessons passed their re-check"
+                       f" ({p['recheck_pass']}% on the first try); median {p['median_minutes_to_fix']} min from trace to fixed."
+                       if p["lessons"] >= MIN_GROUP else f"- Five-minute fixes: fewer than {MIN_GROUP} so far."),
                       (f"- **The stuck topic itself: {p['retest_before']}% right before → {p['retest_after']}% after the fix**"
                        f" ({p['retest_pairs']} students who did both)." if p.get("retest_pairs", 0) >= MIN_GROUP else
-                       f"- Before → after: {p.get('retest_pairs', 0)} students so far (shown from {MIN_GROUP})."),
-                      f"- {p['reused']}% of traces reused a chain another student had already paid for; AI cost per student"
-                      f" ${p['ai_usd_per_student']}." if p["ai_usd_per_student"] is not None else "", ""]
+                       f"- Before → after: fewer than {MIN_GROUP} students have done both so far.")]
+            if p["ai_usd_per_student"] is not None:
+                lines.append(f"- {p['reused']}% of traces reused a chain another student had already paid for;"
+                             f" AI cost per student ${p['ai_usd_per_student']}.")
+        else:
+            data["tracing"] = {"students": _n(p["students"])}
+            lines.append(f"- Fewer than {MIN_GROUP} real students have finished a trace so far.")
+        lines.append("")
 
     # ---- Check my working
     if "working_checks" in tables:
@@ -154,12 +168,14 @@ def report(db: Session, chains_url: str | None = None) -> tuple[list[str], dict]
         wrong = [r for r in rows if r[1] != "right" and r[2]]
         slips = sum(1 for r in wrong if r[2] in ("arithmetic", "sign", "units", "misread"))
         people = len({r[0] for r in rows})
-        data["working"] = {"checks": len(rows), "students": people, "mistakes": len(wrong), "slips": slips}
         if people >= MIN_GROUP:
+            data["working"] = {"checks": len(rows), "students": people, "mistakes": len(wrong), "slips": slips}
             lines += ["## Check my working", "",
                       f"- {len(rows)} solutions checked from {people} students' rough pads.",
                       f"- **{_pct(slips, len(wrong))} of their mistakes were careless slips** (the idea was right); "
                       f"{_pct(len(wrong) - slips, len(wrong))} were gaps in an idea.", ""]
+        else:
+            data["working"] = {"students": _n(people)}
 
     head = [f"# Focs: evidence from real students ({now:%d %b %Y, %H:%M} UTC)", "",
             f"Aggregates only, read-only. Groups under {MIN_GROUP} students are not shown. Demo, test and mentor accounts excluded.", ""]

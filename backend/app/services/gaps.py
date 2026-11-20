@@ -22,7 +22,7 @@ import random
 from collections import Counter
 from functools import cache
 from statistics import median
-from typing import Any
+from typing import Any, Callable
 
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
@@ -300,13 +300,16 @@ def lesson(db: Session, user: User, trace: GapTrace) -> tuple[GapTrace, bool]:
     return trace, used_ai
 
 
-def _made_lesson(db: Session, link: dict[str, Any], title: str, chapter_id: str, language: str | None) -> tuple[dict[str, Any], bool]:
+def _made_lesson(db: Session, link: dict[str, Any], title: str, chapter_id: str, language: str | None,
+                 before_ai: Callable[[], None] | None = None) -> tuple[dict[str, Any], bool]:
     """The five-minute lesson on one earlier idea behind one topic, in one language: written once, then shared by every
     student (and teacher) who needs the same one. (lesson, whether the AI was asked)"""
     key = f"lesson:{link['chapter_id']}:{link['idea'][:80]}:{chapter_id}:{language or 'en'}"
     hit = db.get(PrereqMap, key)
     if hit and hit.chain:
         return hit.chain, False
+    if before_ai:
+        before_ai()  # e.g. the usage check: only a lesson that has to be written costs anything
     where = f"Class {link['cls']}" if link.get("cls") else "earlier in your course"
     data = llm.json([{"role": "system", "content": ai._in(LESSON_SYSTEM.format(
                         target=title, idea=link["idea"], chapter=link["name"], where=where, old_q=link["check"]["q"]), language)},
@@ -322,7 +325,8 @@ def _made_lesson(db: Session, link: dict[str, Any], title: str, chapter_id: str,
     return made, True
 
 
-def class_recap(db: Session, teacher: User, user_ids: list[int], root_chapter_id: str) -> tuple[dict[str, Any], bool]:
+def class_recap(db: Session, teacher: User, user_ids: list[int], root_chapter_id: str,
+                before_ai: Callable[[], None] | None = None) -> tuple[dict[str, Any], bool]:
     """A batch's "teach first": the five-minute lesson on an earlier gap several of its students share, in the
     teacher's language, with its check question and answer, for a ten-minute recap in class. Students who already got
     that lesson have paid for it: then it costs nothing. (recap, whether the AI was asked)"""
@@ -333,7 +337,7 @@ def class_recap(db: Session, teacher: User, user_ids: list[int], root_chapter_id
     target = Counter(t.chapter_id for t in hits).most_common(1)[0][0]  # the topic most of them were stuck on
     sample = next(t for t in hits if t.chapter_id == target)
     link = sample.chain[sample.root]
-    made, used_ai = _made_lesson(db, link, sample.title, sample.chapter_id, teacher.language)
+    made, used_ai = _made_lesson(db, link, sample.title, sample.chapter_id, teacher.language, before_ai)
     db.commit()
     return {"chapter_id": link["chapter_id"], "name": link["name"], "cls": link.get("cls"), "idea": link["idea"],
             "stuck_on": sample.title, "students": len({t.user_id for t in hits}), "md": made["md"], "check": made["check"]}, used_ai
@@ -473,11 +477,12 @@ GAP_FEATURES = ("gap_trace", "gap_lesson")
 DEMO_PREFIX = "demo.focs."  # scripts/seed_demo.py's accounts
 
 
-def proof(db: Session) -> dict[str, Any]:
+def proof(db: Session, only: set[int] | None = None) -> dict[str, Any]:
     """How root-cause tracing goes for real students, from the app's own records (never estimated): how often a trace
     finds an earlier gap, how often the five-minute fix works on the re-check, how long fixing takes, how many traces
     reused a chain another student's trace had already paid for, and what the AI behind it cost per student."""
-    real = select(User.id).where(User.email.not_like(f"{DEMO_PREFIX}%"))  # the seeded demo accounts never count
+    real = (select(User.id).where(User.id.in_(only or [-1])) if only is not None  # the caller's own "real" (scripts/evidence.py)
+            else select(User.id).where(User.email.not_like(f"{DEMO_PREFIX}%")))  # the seeded demo accounts never count
     started = db.scalar(select(func.count(GapTrace.id)).where(GapTrace.user_id.in_(real))) or 0
     done = db.scalars(select(GapTrace).where(GapTrace.status != "checking", GapTrace.user_id.in_(real))).all()
     chains = db.scalar(select(func.count(PrereqMap.key))) or 0

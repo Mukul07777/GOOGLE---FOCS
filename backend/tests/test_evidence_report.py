@@ -54,3 +54,9 @@ def test_the_report_counts_real_students_and_hides_small_groups(client):
     with SessionLocal() as db:  # the shared test database keeps no chain of ours
         db.query(PrereqMap).filter(PrereqMap.key.in_([a, b])).delete()
         db.commit()
+
+
+def test_small_numbers_never_print(client):
+    """Under five real students, every count shows as "<5": a small number can point at a person."""
+    ev = _load()
+    assert ev._n(3) == "<5" and ev._n(12) == 12 and ev._n(40, people=2) == "<5"

@@ -67,3 +67,9 @@ def test_a_busy_gemini_hands_over_and_google_only_never_does(monkeypatch):
     finally:
         monkeypatch.setattr(client, "_client", None)
         reset_cooldowns()
+
+
+def test_google_only_without_a_key_means_no_ai_not_another_provider(monkeypatch):
+    _keys(monkeypatch, gemini="", claude="c-key", google_only=True)
+    assert llm.providers() == []
+    assert vision.models() == []  # no "groq:" reader slips in either
