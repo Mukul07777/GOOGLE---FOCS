@@ -45,7 +45,7 @@ class ProfileEdit(BaseModel):
     headline: str | None = Field(default=None, max_length=120)
     about: str | None = Field(default=None, max_length=2000)
     topics: list[str] | None = Field(default=None, max_length=8)
-    languages: list[str] | None = Field(default=None, max_length=2)
+    languages: list[str] | None = Field(default=None, max_length=4)
     capacity: int | None = Field(default=None, ge=1, le=MAX_CAPACITY)
     accepting: bool | None = None
     call_price_inr: int | None = Field(default=None, ge=0, le=settings.MENTOR_CALL_PRICE_MAX_INR)

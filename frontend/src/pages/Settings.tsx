@@ -7,7 +7,7 @@ import { PageHeader } from "@/components/common";
 import { Button } from "@/components/ui/button";
 import { Dialog } from "@/components/ui/dialog";
 import { Badge, Card, CardHeader, Input, Label, ProgressBar, Segmented, Skeleton, Switch } from "@/components/ui/primitives";
-import { LANGUAGES } from "@/components/Explain";
+import { LanguagePicker } from "@/components/Explain";
 import { ReadAloud } from "@/components/ReadAloud";
 import { useA11y } from "@/stores/a11y";
 import type { Language, ProPass } from "@/lib/types";
@@ -321,9 +321,9 @@ export default function Settings() {
             <div className="flex flex-col gap-3 rounded-xl border border-line bg-bg-soft p-3 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <div className="text-sm font-medium">Explain things to me in</div>
-                <div className="text-xs text-muted">Doubts and test solutions. Formulas stay as they are.</div>
+                <div className="text-xs text-muted">Doubts, notes, test solutions and your coach. Formulas stay as they are.</div>
               </div>
-              <Segmented size="sm" value={profile.language} onChange={(v) => setProfile({ ...profile, language: v })} options={LANGUAGES} />
+              <LanguagePicker label="Explain things to me in" value={profile.language} onChange={(v) => setProfile({ ...profile, language: v })} className="h-10 text-sm sm:w-56" />
             </div>
             <div className="flex flex-col gap-3 rounded-xl border border-line bg-bg-soft p-3 sm:flex-row sm:items-center sm:justify-between">
               <div>

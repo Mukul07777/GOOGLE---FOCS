@@ -3,6 +3,7 @@ from typing import Literal
 from pydantic import BaseModel, EmailStr, Field, field_validator
 
 from app.models.user import EXAM_TARGETS
+from app.services.ai import LANGUAGES
 from app.schemas.common import ORM, UTCDateTime
 
 ExamTarget = Literal["jee", "neet", "ssc_cgl", "upsc", "gate", "ca", "cbse", "coding", "college",
@@ -10,6 +11,10 @@ ExamTarget = Literal["jee", "neet", "ssc_cgl", "upsc", "gate", "ca", "cbse", "co
                       "gate_cs", "gate_da", "gate_ec", "gate_ee", "gate_me", "gate_ce", "cbse_1", "cbse_2", "cbse_3", "cbse_4",
                       "cbse_5", "cbse_6", "cbse_7", "cbse_8", "cbse_9", "cbse_10", "cbse_11", "cbse_12", "other"]
 assert set(ExamTarget.__args__) == set(EXAM_TARGETS)
+# the language explanations come in: English, Hinglish, or a mother tongue in its own script
+Translated = Literal["hinglish", "hi", "mr", "bn", "ta", "te", "gu"]
+Language = Literal["en", Translated]
+assert set(Translated.__args__) == set(LANGUAGES)
 College = Literal["iitd", "iiitd", "dtu", "nsut", "ggsipu", "aktu", "other"]
 
 
@@ -101,7 +106,7 @@ class ProfileUpdate(BaseModel):
     show_on_leaderboard: bool | None = None
     college: College | None = None
     semester: int | None = Field(default=None, ge=1, le=8)
-    language: Literal["en", "hinglish", "hi"] | None = None
+    language: Language | None = None
 
 
 class PasswordChange(BaseModel):

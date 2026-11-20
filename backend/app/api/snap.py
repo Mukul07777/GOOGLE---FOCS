@@ -2,8 +2,6 @@
 is marked the way an examiner would. Both are read by the model that sees images (services/vision)."""
 from typing import Any
 
-from typing import Literal
-
 from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
@@ -13,6 +11,7 @@ from app.core.ratelimit import limit
 from app.models.doubt import Doubt
 from app.models.quiz_attempt import QuizAttempt
 from app.models.user import User
+from app.schemas.auth import Translated
 from app.services import ai, syllabus, translate, usage, vision
 from app.services.llm import LLMUnavailable, restore_backslashes
 
@@ -113,12 +112,12 @@ def solve(files: list[UploadFile] = File(...), note: str = Form("", max_length=4
 
 
 class ExplainIn(BaseModel):
-    language: Literal["hinglish", "hi"]
+    language: Translated
 
 
 @router.post("/doubt/{doubt_id}/explain", dependencies=[Depends(limit("snap-explain", 20))])
 def explain_doubt(doubt_id: int, body: ExplainIn, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
-    """A photographed question's solution said again in Hinglish or Hindi: the same steps and answer, the math
+    """A photographed question's solution said again in the student's language: the same steps and answer, the math
     untouched. Solved in English first (the most reliable), written in a language once, then kept with the doubt."""
     doubt = db.get(Doubt, doubt_id)
     if doubt is None or doubt.user_id != user.id:
@@ -127,15 +126,11 @@ def explain_doubt(doubt_id: int, body: ExplainIn, db: Session = Depends(get_db),
     if done:
         return {"language": body.language, "solution": done}
     usage.require(db, user, "doubt")
-    text = ""
-    for _ in range(2):  # the model now and then answers in English: once more, then say so
-        try:
-            text = ai.explain_in(doubt.answer, doubt.question, body.language, user.exam_target)
-        except LLMUnavailable as exc:
-            raise HTTPException(status_code=503, detail="The AI that explains solutions is unreachable. Try again in a minute.") from exc
-        if translate.in_language(doubt.answer, text, body.language):
-            break
-    else:
+    try:
+        text = translate.explained(doubt.answer, doubt.question, body.language, user.exam_target)
+    except LLMUnavailable as exc:
+        raise HTTPException(status_code=503, detail="The AI that explains solutions is unreachable. Try again in a minute.") from exc
+    if text is None:
         raise HTTPException(status_code=503, detail=f"Couldn't write it in {translate.NAMES[body.language]} just now. Try again in a minute.")
     doubt.explained = {**(doubt.explained or {}), body.language: text}
     db.commit()

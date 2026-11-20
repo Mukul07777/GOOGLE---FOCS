@@ -17,10 +17,15 @@ interface Recognition {
 }
 type RecognitionCtor = new () => Recognition;
 
-export type SpeechLang = "en-IN" | "hi-IN";
+export type SpeechLang = "en-IN" | "hi-IN" | "mr-IN" | "bn-IN" | "ta-IN" | "te-IN" | "gu-IN";
 export const SPEECH_LANGS: { value: SpeechLang; label: string; title: string }[] = [
   { value: "en-IN", label: "EN", title: "English (also fine for Hinglish)" },
   { value: "hi-IN", label: "हिं", title: "Hindi" },
+  { value: "mr-IN", label: "मरा", title: "Marathi" },
+  { value: "bn-IN", label: "বাং", title: "Bengali" },
+  { value: "ta-IN", label: "தமி", title: "Tamil" },
+  { value: "te-IN", label: "తెలు", title: "Telugu" },
+  { value: "gu-IN", label: "ગુજ", title: "Gujarati" },
 ];
 const LANG_KEY = "focs-speech-lang";
 const BROWSER_FAILED_KEY = "focs-speech-browser-failed";
@@ -57,7 +62,7 @@ export interface Dictation {
 /** `onText` gets each finished phrase; `hint` (e.g. the question) helps the server engine with technical terms. */
 export function useDictation(onText: (text: string) => void, hint?: string): Dictation {
   const { data: status } = useQuery({ queryKey: ["speech-status"], queryFn: api.speechStatus, staleTime: Infinity, retry: false });
-  const [lang, setLangState] = useState<SpeechLang>(() => (stored(LANG_KEY) === "hi-IN" ? "hi-IN" : "en-IN"));
+  const [lang, setLangState] = useState<SpeechLang>(() => SPEECH_LANGS.find((l) => l.value === stored(LANG_KEY))?.value ?? "en-IN");
   const [browserFailed, setBrowserFailed] = useState(() => { try { return sessionStorage.getItem(BROWSER_FAILED_KEY) === "1"; } catch { return false; } });
   const [listening, setListening] = useState(false);
   const [transcribing, setTranscribing] = useState(false);

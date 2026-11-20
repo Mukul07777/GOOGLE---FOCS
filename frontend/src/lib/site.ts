@@ -32,7 +32,7 @@ export interface Lane { key: string; title: string; body: string; toTeacher?: bo
 /** The four lanes between the two sides. `ready` says whether the lane is built yet: the page never claims more. */
 export const LANES: Lane[] = [
   { key: "speed", title: "Speed", body: "The board, read by Focs's own OCR, and the teacher's voice become live notes and captions.", ready: true },
-  { key: "language", title: "Language and ability", body: "Notes, quizzes and captions in Hindi or Hinglish, with every formula left as it is.", ready: true },
+  { key: "language", title: "Language and ability", body: "Notes, quizzes and captions in Hindi, Hinglish, Marathi, Bengali, Tamil, Telugu or Gujarati, with every formula left as it is.", ready: true },
   { key: "understanding", title: "Understanding", body: "Every answer locked in as Sure or Guessing: the blind spots, sure and wrong, come first.", ready: true },
   { key: "return", title: "Return", body: "\u201cI'm lost\u201d taps, pinned to the exact board, reach the teacher live.", toTeacher: true, ready: true },
 ];

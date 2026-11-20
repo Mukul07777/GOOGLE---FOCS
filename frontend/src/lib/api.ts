@@ -1,7 +1,7 @@
 import { useAdmin } from "@/stores/admin";
 import { useAuth } from "@/stores/auth";
 import type {
-  GapOverview, GapTrace, ClassRecap, MistakeFingerprint, TutorTurn, WorkingCheck,
+  Language, GapOverview, GapTrace, ClassRecap, MistakeFingerprint, TutorTurn, WorkingCheck,
   MockOffer,
   CardStats, Checkpoint, Doubt, Evaluation, Flashcard, FrameResponse, Grade, Health, HealthDetails, ModelInfo, Note, OcrResult,
   Feeling, MockDetail, MockMeta, Warmup, MockResponse, MockSummary, Overview, PlansInfo, PriceSector, ProPass, Quiz, RedoItem, Room, SessionDetail, SessionEnd,
@@ -405,7 +405,7 @@ export const api = {
     fd.append("note", note);
     return post<SolvedDoubt>("/snap/doubt", fd);
   },
-  explainDoubt: (id: number, language: "hinglish" | "hi") =>
+  explainDoubt: (id: number, language: Exclude<Language, "en">) =>
     post<{ language: string; solution: string }>(`/snap/doubt/${id}/explain`, { language }),
   snapAnswer: (files: File[], question: string, maxMarks: number) => {
     const fd = new FormData();
@@ -495,7 +495,7 @@ export const api = {
   submitMock: (id: number, b?: { responses: Record<string, MockResponse>; current_index?: number; tab_switches?: number }) =>
     post<MockDetail>(`/mock/${id}/submit`, b),
   discardMock: (id: number) => del(`/mock/${id}`),
-  explainQuestion: (id: number, language: "hinglish" | "hi") =>
+  explainQuestion: (id: number, language: Exclude<Language, "en">) =>
     post<{ language: string; solution: string }>(`/mock/questions/${id}/explain`, { language }),
   mockWarmup: (id: number) => get<Warmup>(`/mock/${id}/warmup`),
   mockFeeling: (id: number, b: { subject: string; chapter: string; felt: Feeling | null }) =>

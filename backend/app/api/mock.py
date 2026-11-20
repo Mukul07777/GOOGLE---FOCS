@@ -9,7 +9,8 @@ from app.core.deps import get_current_user, get_db
 from app.core.ratelimit import limit
 from app.models.mock import BankQuestion, MockTest
 from app.models.user import User
-from app.services import ai, bridge, mock, question_bank, syllabus, usage
+from app.schemas.auth import Translated
+from app.services import ai, bridge, mock, question_bank, syllabus, translate, usage
 from app.services.llm import LLMUnavailable
 from app.services.mock_patterns import (
     BOARD_MOCK_QUESTIONS,
@@ -49,7 +50,7 @@ class FeelingIn(BaseModel):
 
 
 class ExplainIn(BaseModel):
-    language: Literal["hinglish", "hi"]
+    language: Translated
 
 
 class ReportIn(BaseModel):
@@ -278,7 +279,7 @@ def _paper_question(db: Session, user: User, question_id: int) -> BankQuestion:
 
 @router.post("/questions/{question_id}/explain", dependencies=[Depends(limit("mock-explain", 20))])
 def explain_question(question_id: int, body: ExplainIn, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
-    """A question's solution in Hinglish or Hindi. Written once per question and language, then kept for everyone."""
+    """A question's solution in the student's language. Written once per question and language, then kept for everyone."""
     q = _paper_question(db, user, question_id)
     done = (q.explained or {}).get(body.language)
     if done:
@@ -287,9 +288,11 @@ def explain_question(question_id: int, body: ExplainIn, db: Session = Depends(ge
         raise HTTPException(status_code=404, detail="This question has no solution to explain.")
     usage.require(db, user, "doubt")
     try:
-        text = ai.explain_in(q.solution, q.question, body.language, user.exam_target)
+        text = translate.explained(q.solution, q.question, body.language, user.exam_target)
     except LLMUnavailable as exc:
         raise HTTPException(status_code=503, detail="The AI that explains solutions is unreachable. Try again in a minute.") from exc
+    if text is None:
+        raise HTTPException(status_code=503, detail=f"Couldn't write it in {translate.NAMES[body.language]} just now. Try again in a minute.")
     q.explained = {**(q.explained or {}), body.language: text}
     db.commit()
     usage.charge(db, user, "doubt")

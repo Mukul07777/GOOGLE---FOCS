@@ -18,7 +18,7 @@ from app.services.llm import LLMUnavailable, ensure_budget, llm
 log = logging.getLogger("focs.speech")
 
 MAX_AUDIO_BYTES = 8 * 1024 * 1024  # ~4 minutes of browser-recorded speech
-LANGUAGES = {"en", "hi"}           # anything else: let the model detect it (Hinglish answers switch mid-sentence)
+LANGUAGES = {"en", "hi", "mr", "bn", "ta", "te", "gu"}  # else let the model detect it (Hinglish switches mid-sentence)
 
 
 def _provider() -> tuple[str, str] | None:

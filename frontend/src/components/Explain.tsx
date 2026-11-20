@@ -3,15 +3,31 @@ import { Languages } from "lucide-react";
 import { useState } from "react";
 import { Markdown } from "@/components/Markdown";
 import { ReadAloud } from "@/components/ReadAloud";
-import { Segmented } from "@/components/ui/primitives";
+import { Select } from "@/components/ui/primitives";
 import { api, ApiError } from "@/lib/api";
 import type { Language, MockQuestion } from "@/lib/types";
+import { cn } from "@/lib/utils";
 import { useAuth } from "@/stores/auth";
 import { WaitBridge } from "@/components/WaitBridge";
 
-export const LANGUAGES: { value: Language; label: string }[] = [
-  { value: "en", label: "English" }, { value: "hinglish", label: "Hinglish" }, { value: "hi", label: "हिंदी" },
+/** Every language Focs explains in, each named in its own script (and in English, for the menu). */
+export const LANGUAGES: { value: Language; label: string; name: string }[] = [
+  { value: "en", label: "English", name: "English" }, { value: "hinglish", label: "Hinglish", name: "Hinglish" },
+  { value: "hi", label: "हिंदी", name: "Hindi" }, { value: "mr", label: "मराठी", name: "Marathi" },
+  { value: "bn", label: "বাংলা", name: "Bengali" }, { value: "ta", label: "தமிழ்", name: "Tamil" },
+  { value: "te", label: "తెలుగు", name: "Telugu" }, { value: "gu", label: "ગુજરાતી", name: "Gujarati" },
 ];
+
+/** A compact language menu: eight languages are too many for a row of tabs on a phone. */
+export function LanguagePicker({ value, onChange, className, label = "Language" }: {
+  value: Language; onChange: (l: Language) => void; className?: string; label?: string;
+}) {
+  return (
+    <Select aria-label={label} value={value} onChange={(e) => onChange(e.target.value as Language)} className={cn("h-8 w-auto pl-2.5 text-xs", className)}>
+      {LANGUAGES.map((l) => <option key={l.value} value={l.value}>{l.label === l.name ? l.label : `${l.label} (${l.name})`}</option>)}
+    </Select>
+  );
+}
 
 /** A test question's solution, in English or said again in the student's language (written once, then kept). */
 export function Solution({ q }: { q: MockQuestion }) {
@@ -26,7 +42,7 @@ export function Solution({ q }: { q: MockQuestion }) {
     <div>
       <div className="mb-2 flex items-center gap-2">
         <Languages className="h-3.5 w-3.5 text-muted" />
-        <Segmented size="sm" value={language} onChange={setLanguage} options={LANGUAGES} />
+        <LanguagePicker value={language} onChange={setLanguage} />
       </div>
       {!other && <Markdown className="text-[13.5px]">{q.solution ?? ""}</Markdown>}
       {other && isLoading && <WaitBridge kind="translation" topic={q.chapter} compact />}

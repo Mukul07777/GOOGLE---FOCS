@@ -39,7 +39,7 @@ TOPICS = {
     "interview": "Interview",
 }
 
-LANGUAGES = {"en": "English", "hi": "Hindi"}
+LANGUAGES = {"en": "English", "hi": "Hindi", "mr": "Marathi", "bn": "Bengali", "ta": "Tamil", "te": "Telugu", "gu": "Gujarati"}
 CHECKIN_EVERY_DAYS = 7
 MAX_MENTORS_PER_STUDENT = 3
 MAX_CAPACITY = 20

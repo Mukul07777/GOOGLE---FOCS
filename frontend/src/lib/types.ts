@@ -3,7 +3,8 @@ export type CollegeBranch = "college_cse" | "college_it" | "college_ece" | "coll
 export type CollegeId = "iitd" | "iiitd" | "dtu" | "nsut" | "ggsipu" | "aktu" | "other";
 export type GatePaper = "gate_cs" | "gate_da" | "gate_ec" | "gate_ee" | "gate_me" | "gate_ce";
 export type SchoolClass = "cbse_1" | "cbse_2" | "cbse_3" | "cbse_4" | "cbse_5" | "cbse_6" | "cbse_7" | "cbse_8" | "cbse_9" | "cbse_10" | "cbse_11" | "cbse_12";
-export type Language = "en" | "hinglish" | "hi";
+/** The language explanations come in: English, Hinglish, or a mother tongue in its own script. */
+export type Language = "en" | "hinglish" | "hi" | "mr" | "bn" | "ta" | "te" | "gu";
 export type ExamTarget = "jee" | "neet" | "ssc_cgl" | "upsc" | "gate" | "ca" | "cbse" | "coding" | "college" | CollegeBranch | GatePaper | SchoolClass | "other";
 
 export interface User {

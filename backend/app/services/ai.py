@@ -638,12 +638,24 @@ def teach_back(topic: str, answer: str, reference_md: str, exam: str | None, lan
         return offline.evaluate(answer, key_points)
 
 
+# The mother tongues a student can learn in, each in its own script: code -> (name, script, a slip to warn against).
+# Marathi shares Devanagari with Hindi, and the model drifts into Hindi unless told which words give it away.
+MOTHER_TONGUES = {
+    "hi": ("Hindi", "Devanagari", ""),
+    "mr": ("Marathi", "Devanagari", " Marathi, not Hindi: आहे, नाही, आणि, मध्ये, never है, नहीं, और, में."),
+    "bn": ("Bengali", "Bengali", ""),
+    "ta": ("Tamil", "Tamil", ""),
+    "te": ("Telugu", "Telugu", ""),
+    "gu": ("Gujarati", "Gujarati", ""),
+}
+
 LANGUAGES = {
     "hinglish": ("Write in Hinglish: everyday Hindi in Roman script mixed with English, the way a good Indian teacher "
                  "explains in class (\"Yahan acceleration constant hai, isliye...\"). Keep technical terms, formulas and "
                  f"units in English. {HINGLISH_TONE}"),
-    "hi": ("Write in Hindi, in Devanagari script. Keep technical terms in English where Indian classrooms do "
-           "(velocity, matrix, deadlock), and every formula, symbol and unit exactly as it is."),
+    **{code: (f"Write in {name}, in {script} script.{slip} Keep technical terms in English where Indian classrooms do "
+              "(velocity, matrix, deadlock), and every formula, symbol and unit exactly as it is.")
+       for code, (name, script, slip) in MOTHER_TONGUES.items()},
 }
 
 
@@ -653,7 +665,8 @@ REPLY_IN = {
     "hinglish": ("\n\n(Reply in Hinglish: Hindi sentences in Roman script, only the technical words in English. That goes for "
                  "headings and table cells too: \"Apna alag memory space hota hai\", not \"Has its own memory space\". "
                  "Open with a Hinglish sentence and end with a Hinglish takeaway, even around a table.)"),
-    "hi": "\n\n(Reply in Hindi, Devanagari script, including headings and table cells.)",
+    **{code: f"\n\n(Reply in {name}, {script} script, including headings and table cells.{slip})"
+       for code, (name, script, slip) in MOTHER_TONGUES.items()},
 }
 
 
@@ -669,7 +682,7 @@ def language_rule(language: str | None) -> str:
 
 
 def explain_in(solution: str, question: str, language: str, exam: str | None) -> str:
-    """A worked solution said again in Hindi or Hinglish: the same steps and answer, the math untouched."""
+    """A worked solution said again in the student's language: the same steps and answer, the math untouched."""
     system = (f"You explain a worked solution to a {_exam(exam)} student. {language_rule(language)} "
               "Keep every step, number and the final answer exactly as in the solution; you may add a short line "
               "that says why a step is taken. Copy every LaTeX expression exactly, with its backslashes and $ signs. "

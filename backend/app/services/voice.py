@@ -38,7 +38,9 @@ CHUNKS_PER_UNIT = 4       # transcribing four pieces (~100 s) costs one allowanc
 RETRY_AFTER_S = 60        # after a failed write-up, wait before trying again
 # Whisper's well-known inventions on music or silence
 _HALLUCINATIONS = re.compile(r"^(thank you\.?|thanks for watching!?|please subscribe\.?|you|bye\.?|\.+|music|\[music\]|subtitles by .*)$", re.I)
-_LANG = {"english": "en", "hindi": "hi", "en": "en", "hi": "hi"}
+# the recogniser names what it heard ("tamil"); captions keep the code
+_LANG = {"english": "en", "hindi": "hi", "marathi": "mr", "bengali": "bn", "tamil": "ta", "telugu": "te", "gujarati": "gu"}
+_LANG.update({code: code for code in _LANG.values()})
 
 
 def _useful(text: str) -> bool:
