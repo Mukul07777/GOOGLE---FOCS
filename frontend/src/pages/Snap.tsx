@@ -3,7 +3,7 @@ import { Camera, Check, CircleAlert, FileUp, Languages, Lightbulb, PenLine, Rota
 import { useRef, useState } from "react";
 import { toast } from "sonner";
 import { PageHeader } from "@/components/common";
-import { LANGUAGES } from "@/components/Explain";
+import { LanguagePicker } from "@/components/Explain";
 import { WaitBridge } from "@/components/WaitBridge";
 import { Markdown } from "@/components/Markdown";
 import { Button } from "@/components/ui/button";
@@ -61,7 +61,7 @@ function Solved({ d }: { d: SolvedDoubt }) {
         {d.subject && <Badge tone="accent">{d.subject}</Badge>}{d.topic && <Badge>{d.topic}</Badge>}
         <div className="ml-auto flex items-center gap-2">
           <Languages className="h-3.5 w-3.5 text-muted" />
-          <Segmented size="sm" value={language} onChange={setLanguage} options={LANGUAGES} />
+          <LanguagePicker value={language} onChange={setLanguage} />
         </div>
       </div>
       <Markdown className="text-fg">{d.question}</Markdown>

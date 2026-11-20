@@ -2,6 +2,7 @@ import { Loader2, Mic, MicOff, Square } from "lucide-react";
 import { useCallback, useRef } from "react";
 import { SPEECH_LANGS, useDictation } from "@/lib/speech";
 import { cn, formatDuration } from "@/lib/utils";
+import { useAuth } from "@/stores/auth";
 
 /** An answer the student can type, speak, or both: spoken words land in the same text, where they can be fixed. */
 export function AnswerInput({ value, onChange, placeholder, hint, className, minHeight = "min-h-40", disabled }: {
@@ -16,6 +17,7 @@ export function AnswerInput({ value, onChange, placeholder, hint, className, min
     onChange(before ? `${before} ${text}` : text.charAt(0).toUpperCase() + text.slice(1));
   }, [onChange]);
   const d = useDictation(append, hint);
+  const own = useAuth((st) => st.user?.language) ?? "en";  // the mic offers English, Hindi and the student's own language
   const words = value.trim() ? value.trim().split(/\s+/).length : 0;
 
   return (
@@ -49,7 +51,7 @@ export function AnswerInput({ value, onChange, placeholder, hint, className, min
         )}
         {d.available && !d.listening && !d.transcribing && (
           <div className="inline-flex rounded-lg border border-line p-0.5" role="group" aria-label="Language you'll speak in">
-            {SPEECH_LANGS.map((l) => (
+            {SPEECH_LANGS.filter((l) => ["en", "hi", own].includes(l.value.slice(0, 2)) || l.value === d.lang).map((l) => (
               <button key={l.value} type="button" title={l.title} aria-pressed={d.lang === l.value} onClick={() => d.setLang(l.value)}
                 className={cn("h-6 rounded-md px-2 text-[11.5px] font-medium transition", d.lang === l.value ? "bg-elev-2 text-fg" : "text-muted hover:text-fg")}>
                 {l.label}

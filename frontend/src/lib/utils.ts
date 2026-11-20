@@ -239,9 +239,11 @@ export function clockAt(iso: string | null | undefined): string {
   return d.toDateString() === new Date().toDateString() ? time : `${d.toLocaleDateString([], { weekday: "short" })} ${time}`;
 }
 
+const SCRIPT_LANGUAGES = ["hi", "mr", "bn", "ta", "te", "gu"];
+
 /** The `lang` attribute for text in a student's language, so screen readers switch voice (Hinglish is Hindi in Latin letters). */
 export function langAttr(language: string | null | undefined): string | undefined {
-  return language === "hi" ? "hi" : language === "hinglish" ? "hi-Latn" : undefined;
+  return language && SCRIPT_LANGUAGES.includes(language) ? language : language === "hinglish" ? "hi-Latn" : undefined;
 }
 
 /** A chapter name as a student reads it: school chapters that share a name across classes are stored as

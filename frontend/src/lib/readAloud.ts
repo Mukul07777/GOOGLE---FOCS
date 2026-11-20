@@ -53,11 +53,27 @@ export function toSpeech(md: string): string {
 
 export const canSpeak = (): boolean => typeof window !== "undefined" && "speechSynthesis" in window;
 
-const DEVANAGARI = /[ऀ-ॿ]/;
+// the Unicode block of each Indian script, and the voice that reads it
+const SCRIPTS: [number, number, string][] = [
+  [0x0900, 0x097f, "hi-IN"], [0x0980, 0x09ff, "bn-IN"], [0x0a80, 0x0aff, "gu-IN"], [0x0b80, 0x0bff, "ta-IN"], [0x0c00, 0x0c7f, "te-IN"],
+];
+const NATIVE = ["hi", "mr", "bn", "ta", "te", "gu"];
 
-/** The voice for a text: a Hindi voice for Devanagari, else an Indian English one when the device has it. */
+function scriptOf(text: string): string | null {
+  for (const ch of text) {
+    const c = ch.codePointAt(0) ?? 0;
+    const hit = SCRIPTS.find(([first, last]) => c >= first && c <= last);
+    if (hit) return hit[2];
+  }
+  return null;
+}
+
+/** The voice for a text: the voice of the script it is written in (Marathi for a Marathi reader's Devanagari), else
+ *  the student's language, else an Indian English one when the device has it. */
 function voiceFor(text: string, lang?: string): { voice: SpeechSynthesisVoice | null; lang: string } {
-  const want = lang === "hi" || DEVANAGARI.test(text) ? "hi-IN" : "en-IN";
+  const script = scriptOf(text);
+  const own = lang && NATIVE.includes(lang) ? `${lang}-IN` : null;
+  const want = script === "hi-IN" && lang === "mr" ? "mr-IN" : script ?? own ?? "en-IN";
   const voices = window.speechSynthesis.getVoices();
   const voice = voices.find((v) => v.lang === want) ?? voices.find((v) => v.lang.startsWith(want.slice(0, 2))) ?? null;
   return { voice, lang: want };
