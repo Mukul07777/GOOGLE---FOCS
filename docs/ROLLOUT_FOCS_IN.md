@@ -67,12 +67,12 @@ shared chains (no student data in them).
 # 1. See which chapters real students actually attempt, and what they cover. No AI, no cost.
 sudo docker exec focs python scripts/warm_chains.py --dry-run --top 25
 
-# 2. Build their chains (a few rupees of AI, once)...
+# 2. Load the 22 chains already built with Gemini for the top 15 JEE and NEET chapters (in the image; no AI)...
+sudo docker exec focs python scripts/warm_chains.py --import scripts/chains.json    # --overwrite replaces existing ones
+#    ...then build the rest of what step 1 listed (only missing ones; a few rupees of AI, once)
 sudo docker exec focs python scripts/warm_chains.py --top 25
-#    ...or, with no AI on the server, load chains built elsewhere (a laptop with a key, or the Cloud Run demo:
-#    run "python scripts/warm_chains.py --top 25 --export chains.json" there), then copy chains.json to the server:
-sudo docker cp chains.json focs:/tmp/chains.json
-sudo docker exec focs python scripts/warm_chains.py --import /tmp/chains.json    # --overwrite replaces existing ones
+#    (no AI on the server? build them elsewhere with "--top 25 --export chains.json", then
+#     sudo docker cp chains.json focs:/tmp/chains.json and --import /tmp/chains.json)
 
 # 3. The evidence report (read-only, aggregates only, groups under 5 students hidden)
 sudo docker exec focs python scripts/evidence.py --out /tmp/evidence.md

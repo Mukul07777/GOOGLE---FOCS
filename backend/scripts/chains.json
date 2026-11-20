@@ -1,0 +1,1072 @@
+{
+ "biology.animal-kingdom": [
+  {
+   "chapter_id": "biology.biological-classification",
+   "name": "Biological Classification",
+   "subject": "Biology",
+   "cls": 11,
+   "idea": "Five-kingdom classification and taxonomic hierarchies",
+   "why": "Animal Kingdom is a major taxonomic grouping built upon the principles of biological classification.",
+   "check": {
+    "q": "Which of the following is the correct hierarchical sequence in biological classification from broad to specific?",
+    "options": [
+     "Species -> Genus -> Family -> Order",
+     "Kingdom -> Phylum -> Class -> Order",
+     "Phylum -> Kingdom -> Class -> Order",
+     "Order -> Class -> Phylum -> Kingdom"
+    ],
+    "answer": 1,
+    "explain": "Classification moves from broader categories like Kingdom and Phylum down to specific ones like Class and Order."
+   }
+  },
+  {
+   "chapter_id": "c9.science.patterns-in-life-diversity-and-classification",
+   "name": "Patterns in Life: Diversity and Classification",
+   "subject": "Science",
+   "cls": 9,
+   "idea": "Basis of animal and plant diversity",
+   "why": "Provides the foundational understanding of how organisms are grouped based on shared characteristics.",
+   "check": {
+    "q": "What is the primary basis for classifying organisms into major groups?",
+    "options": [
+     "Their habitat only",
+     "Their color and size",
+     "Fundamental similarities in design and characteristics",
+     "Their speed of movement"
+    ],
+    "answer": 2,
+    "explain": "Organisms are classified based on fundamental similarities in their body design and characteristics."
+   }
+  },
+  {
+   "chapter_id": "c9.science.cell-the-building-block-of-life",
+   "name": "Cell: The Building Block of Life",
+   "subject": "Science",
+   "cls": 9,
+   "idea": "Basic cellular organization and tissue types",
+   "why": "Animal classification heavily relies on cellular levels of organization, tissue layers, and body plans.",
+   "check": {
+    "q": "Which organelle is present in plant cells but absent in animal cells?",
+    "options": [
+     "Mitochondria",
+     "Cell wall",
+     "Nucleus",
+     "Ribosome"
+    ],
+    "answer": 1,
+    "explain": "Plant cells have a rigid cell wall outside the cell membrane, whereas animal cells do not."
+   }
+  }
+ ],
+ "biology.biomolecules": [
+  {
+   "chapter_id": "biology.cell-the-unit-of-life",
+   "name": "Cell: The Unit of Life",
+   "subject": "Biology",
+   "cls": 11,
+   "idea": "Cellular structural components and chemical composition",
+   "why": "Biomolecules are the organic and inorganic molecules that build up cellular structures and drive metabolic pathways.",
+   "check": {
+    "q": "Which cellular organelle is primarily responsible for packaging proteins?",
+    "options": [
+     "Golgi apparatus",
+     "Lysosome",
+     "Ribosome",
+     "Vacuole"
+    ],
+    "answer": 0,
+    "explain": "The Golgi apparatus modifies and packages proteins into vesicles for transport."
+   }
+  },
+  {
+   "chapter_id": "c10.science.carbon-and-its-compounds",
+   "name": "Carbon and its Compounds",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Covalent bonding and functional groups in carbon compounds",
+   "why": "Biomolecules like carbohydrates, proteins, and lipids are complex carbon-based macromolecules containing various functional groups.",
+   "check": {
+    "q": "What type of bond is formed between carbon atoms in organic molecules?",
+    "options": [
+     "Ionic bond",
+     "Covalent bond",
+     "Hydrogen bond",
+     "Metallic bond"
+    ],
+    "answer": 1,
+    "explain": "Carbon atoms share electrons to form strong covalent bonds."
+   }
+  }
+ ],
+ "biology.cell-the-unit-of-life": [
+  {
+   "chapter_id": "c9.science.cell-the-building-block-of-life",
+   "name": "Cell: The Building Block of Life",
+   "subject": "Science",
+   "cls": 9,
+   "idea": "Basic cell structure and organelle functions",
+   "why": "Cell: The Unit of Life builds directly upon foundational knowledge of cell organelles, plasma membrane, and cytoplasm learned previously.",
+   "check": {
+    "q": "Which cell organelle is known as the powerhouse of the cell?",
+    "options": [
+     "Nucleus",
+     "Mitochondria",
+     "Ribosome",
+     "Golgi apparatus"
+    ],
+    "answer": 1,
+    "explain": "Mitochondria generate most of the chemical energy needed to power the cell's biochemical reactions."
+   }
+  },
+  {
+   "chapter_id": "c8.science.the-invisible-living-world-beyond-our-naked-eye",
+   "name": "The Invisible Living World: Beyond Our Naked Eye",
+   "subject": "Science",
+   "cls": 8,
+   "idea": "Microscopic organisms and cell observation",
+   "why": "Understanding how cells were discovered and viewed requires familiarity with microscopic life and magnification concepts.",
+   "check": {
+    "q": "Which instrument is essential for observing microscopic cells and microorganisms?",
+    "options": [
+     "Telescope",
+     "Microscope",
+     "Stethoscope",
+     "Barometer"
+    ],
+    "answer": 1,
+    "explain": "A microscope magnifies objects that are too small to be seen with the naked eye."
+   }
+  }
+ ],
+ "biology.molecular-basis-of-inheritance": [
+  {
+   "chapter_id": "biology.principles-of-inheritance-and-variation",
+   "name": "Principles of Inheritance and Variation",
+   "subject": "Biology",
+   "cls": 12,
+   "idea": "Mendelian inheritance and chromosomal basis of traits",
+   "why": "Molecular basis of inheritance explains the physical and chemical nature of the genes studied in Mendelian genetics.",
+   "check": {
+    "q": "If a plant with genotype Tt is crossed with tt, what fraction of offspring will be tt?",
+    "options": [
+     "0",
+     "1/4",
+     "1/2",
+     "1"
+    ],
+    "answer": 2,
+    "explain": "A test cross between Tt and tt yields 50% Tt and 50% tt."
+   }
+  },
+  {
+   "chapter_id": "c10.science.heredity",
+   "name": "Heredity",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "DNA as the hereditary material and genes",
+   "why": "It introduces chromosomes, DNA, and the basic concept that genes control traits before molecular details are studied.",
+   "check": {
+    "q": "Which component of a cell contains information for inheritance of traits?",
+    "options": [
+     "Cytoplasm",
+     "DNA in the nucleus",
+     "Cell membrane",
+     "Vacuole"
+    ],
+    "answer": 1,
+    "explain": "DNA (deoxyribonucleic acid) in the cell nucleus is the carrier of hereditary information."
+   }
+  },
+  {
+   "chapter_id": "c9.science.cell-the-building-block-of-life",
+   "name": "Cell: The Building Block of Life",
+   "subject": "Science",
+   "cls": 9,
+   "idea": "Cellular organelles like the nucleus and chromosomes",
+   "why": "Genetic material (DNA and RNA) resides inside the nucleus and cellular structures, which must be understood first.",
+   "check": {
+    "q": "Which cell organelle is known as the control center of the cell and houses genetic material?",
+    "options": [
+     "Mitochondria",
+     "Nucleus",
+     "Ribosome",
+     "Golgi apparatus"
+    ],
+    "answer": 1,
+    "explain": "The nucleus contains the chromosomes made of DNA which control cellular activities."
+   }
+  }
+ ],
+ "biology.principles-of-inheritance-and-variation": [
+  {
+   "chapter_id": "c10.science.heredity",
+   "name": "Heredity",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Mendelian inheritance and basic monohybrid crosses",
+   "why": "Principles of Inheritance and Variation builds directly upon basic Mendelian crosses, allele segregation, and phenotypic ratios.",
+   "check": {
+    "q": "What is the phenotypic ratio in the $F_2$ generation of a Mendelian monohybrid cross?",
+    "options": [
+     "1:2:1",
+     "3:1",
+     "9:3:3:1",
+     "1:1"
+    ],
+    "answer": 1,
+    "explain": "A monohybrid cross yields 3 dominant to 1 recessive phenotype in the F2 generation."
+   }
+  },
+  {
+   "chapter_id": "c9.science.reproduction-how-life-continues",
+   "name": "Reproduction: How Life Continues",
+   "subject": "Science",
+   "cls": 9,
+   "idea": "Basic concept of trait transmission from parents to offspring",
+   "why": "Understanding inheritance requires knowing that offspring inherit traits from both parents through reproduction.",
+   "check": {
+    "q": "What primarily ensures continuity of life and transmission of traits between generations?",
+    "options": [
+     "Respiration",
+     "Reproduction",
+     "Digestion",
+     "Excretion"
+    ],
+    "answer": 1,
+    "explain": "Reproduction is the fundamental biological process by which living organisms pass on their traits to offspring."
+   }
+  }
+ ],
+ "biology.sexual-reproduction-in-flowering-plants": [
+  {
+   "chapter_id": "biology.cell-cycle-and-cell-division",
+   "name": "Cell Cycle and Cell Division",
+   "subject": "Biology",
+   "cls": 11,
+   "idea": "Meiosis produces haploid gametes for sexual reproduction",
+   "why": "Microspores and megaspores in flowering plants form through meiotic divisions.",
+   "check": {
+    "q": "If a diploid plant cell has $24$ chromosomes, how many chromosomes will each cell have after meiosis?",
+    "options": [
+     "12",
+     "24",
+     "48",
+     "6"
+    ],
+    "answer": 0,
+    "explain": "Meiosis halves the chromosome number, producing haploid cells with $n = 12$."
+   }
+  },
+  {
+   "chapter_id": "c10.science.how-do-organisms-reproduce",
+   "name": "How do Organisms Reproduce?",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Basic structure of flowers and sexual reproduction",
+   "why": "It introduces stamen, carpel, pollination, and fertilization as the foundations for angiosperm reproduction.",
+   "check": {
+    "q": "Which part of a flower produces pollen grains?",
+    "options": [
+     "Ovary",
+     "Stigma",
+     "Anther",
+     "Style"
+    ],
+    "answer": 2,
+    "explain": "The anther is the part of the stamen that produces and stores pollen grains."
+   }
+  }
+ ],
+ "chemistry.chemical-bonding-and-molecular-structure": [
+  {
+   "chapter_id": "chemistry.atomic-structure",
+   "name": "Atomic Structure",
+   "subject": "Chemistry",
+   "cls": 11,
+   "idea": "Electronic configuration and valence electrons",
+   "why": "Chemical bonding depends on how valence electrons are shared, gained, or lost between atoms.",
+   "check": {
+    "q": "What is the number of valence electrons in a neutral Nitrogen atom (atomic number 7)?",
+    "options": [
+     "2",
+     "5",
+     "7",
+     "10"
+    ],
+    "answer": 1,
+    "explain": "Nitrogen has an electronic configuration of 2, 5, meaning it has 5 valence electrons in its outermost shell."
+   }
+  },
+  {
+   "chapter_id": "c10.science.metals-and-non-metals",
+   "name": "Metals and Non-metals",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Ionic bonding through electron transfer",
+   "why": "Provides the foundational understanding of electrovalent bonds formed between metals and non-metals.",
+   "check": {
+    "q": "Which type of bond is typically formed when a metal reacts with a non-metal by transferring electrons?",
+    "options": [
+     "Covalent bond",
+     "Ionic bond",
+     "Metallic bond",
+     "Hydrogen bond"
+    ],
+    "answer": 1,
+    "explain": "Metals lose electrons and non-metals gain them, forming oppositely charged ions held by electrostatic forces in an ionic bond."
+   }
+  },
+  {
+   "chapter_id": "c8.science.nature-of-matter-elements-compounds-and-mixtures",
+   "name": "Nature of Matter: Elements, Compounds, and Mixtures",
+   "subject": "Science",
+   "cls": 8,
+   "idea": "Difference between elements and compounds",
+   "why": "Molecules and compounds are formed when atoms combine through chemical bonds, a concept rooted here.",
+   "check": {
+    "q": "Which of the following represents a chemical compound rather than an element?",
+    "options": [
+     "Oxygen gas ($O_2$)",
+     "Water ($H_2O$)",
+     "Iron ($Fe$)",
+     "Nitrogen gas ($N_2$)"
+    ],
+    "answer": 1,
+    "explain": "Water is made of two different elements (hydrogen and oxygen) chemically combined, whereas the others are pure elements."
+   }
+  }
+ ],
+ "chemistry.coordination-compounds": [
+  {
+   "chapter_id": "chemistry.d-and-f-block-elements",
+   "name": "d- and f-Block Elements",
+   "subject": "Chemistry",
+   "cls": 12,
+   "idea": "d-orbital electronic configurations and transition metal properties",
+   "why": "Coordination compounds centrally involve transition metal ions with partially filled d-orbitals interacting with ligands.",
+   "check": {
+    "q": "What is the general valence shell electronic configuration of transition metals?",
+    "options": [
+     "$(n-1)d^{1-10}ns^{1-2}$",
+     "$ns^2 np^6$",
+     "$ns^2 (n-1)f^{1-14}$",
+     "$nd^{1-10}ns^2$"
+    ],
+    "answer": 0,
+    "explain": "Transition metals fill the $(n-1)d$ orbitals after the $ns$ orbital is partially or fully filled."
+   }
+  },
+  {
+   "chapter_id": "chemistry.chemical-bonding-and-molecular-structure",
+   "name": "Chemical Bonding & Molecular Structure",
+   "subject": "Chemistry",
+   "cls": 11,
+   "idea": "Coordinate covalent bonding and molecular orbital overlap",
+   "why": "Ligands donate electron pairs to the central metal atom via coordinate bonds, explained by bonding theories.",
+   "check": {
+    "q": "Which type of bond is formed when one atom donates both electrons to the shared pair?",
+    "options": [
+     "Ionic bond",
+     "Covalent bond",
+     "Coordinate covalent bond",
+     "Hydrogen bond"
+    ],
+    "answer": 2,
+    "explain": "A coordinate covalent bond (dative bond) involves a pair of electrons donated entirely by a single atom."
+   }
+  },
+  {
+   "chapter_id": "c10.science.acids-bases-and-salts",
+   "name": "Acids, Bases and Salts",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Lewis acid-base concepts involving electron pairs",
+   "why": "Central metal ions act as Lewis acids and ligands act as Lewis bases in forming coordination complexes.",
+   "check": {
+    "q": "According to the Lewis definition, what is a base?",
+    "options": [
+     "A proton donor",
+     "An electron pair donor",
+     "A proton acceptor",
+     "An electron pair acceptor"
+    ],
+    "answer": 1,
+    "explain": "A Lewis base is an electron-pair donor, which precisely describes ligands in coordination chemistry."
+   }
+  }
+ ],
+ "chemistry.general-organic-chemistry": [
+  {
+   "chapter_id": "chemistry.chemical-bonding-and-molecular-structure",
+   "name": "Chemical Bonding & Molecular Structure",
+   "subject": "Chemistry",
+   "cls": 11,
+   "idea": "Lewis structures, hybridization, and molecular geometry",
+   "why": "General Organic Chemistry requires drawing structures, identifying hybridization, and understanding bond shapes.",
+   "check": {
+    "q": "What is the hybridization of the central carbon atom in methane ($CH_4$)?",
+    "options": [
+     "sp",
+     "sp^2",
+     "sp^3",
+     "sp^3d"
+    ],
+    "answer": 2,
+    "explain": "Carbon in methane forms four single sigma bonds, corresponding to sp^3 hybridization."
+   }
+  },
+  {
+   "chapter_id": "c10.science.carbon-and-its-compounds",
+   "name": "Carbon and its Compounds",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Covalent bonding and basic carbon chain structures",
+   "why": "Provides the foundational vocabulary of carbon skeletons and functional groups needed before studying electronic effects.",
+   "check": {
+    "q": "Which functional group is present in ethanol ($CH_3CH_2OH$)?",
+    "options": [
+     "Aldehyde",
+     "Alcohol",
+     "Ketone",
+     "Carboxylic acid"
+    ],
+    "answer": 1,
+    "explain": "The -OH group attached to a carbon chain defines an alcohol."
+   }
+  }
+ ],
+ "mathematics.conic-sections": [
+  {
+   "chapter_id": "mathematics.straight-lines",
+   "name": "Straight Lines",
+   "subject": "Mathematics",
+   "cls": 11,
+   "idea": "Equation of a line and slope concepts",
+   "why": "Conic sections involve tangents, normals, and chords whose equations rely on straight line principles.",
+   "check": {
+    "q": "What is the slope of the line passing through $(1, 2)$ and $(3, 6)$?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "answer": 1,
+    "explain": "Slope $m = \\frac{6-2}{3-1} = \\frac{4}{2} = 2$."
+   }
+  },
+  {
+   "chapter_id": "c10.mathematics.coordinate-geometry",
+   "name": "Coordinate Geometry",
+   "subject": "Mathematics",
+   "cls": 10,
+   "idea": "Distance formula between two points in a plane",
+   "why": "The definition of parabolas, ellipses, and hyperbolas is based on distances between points and lines/foci.",
+   "check": {
+    "q": "What is the distance between the points $(0, 0)$ and $(3, 4)$?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "7"
+    ],
+    "answer": 2,
+    "explain": "Using the distance formula, $\\sqrt{(3-0)^2 + (4-0)^2} = \\sqrt{9+16} = \\sqrt{25} = 5$."
+   }
+  },
+  {
+   "chapter_id": "c10.mathematics.quadratic-equations",
+   "name": "Quadratic Equations",
+   "subject": "Mathematics",
+   "cls": 10,
+   "idea": "Solving quadratic equations and finding roots",
+   "why": "Finding intersections of lines and conics or determining standard forms requires solving quadratic equations.",
+   "check": {
+    "q": "What are the roots of the equation $x^2 - 5x + 6 = 0$?",
+    "options": [
+     "$1, 6$",
+     "$2, 3$",
+     "$-2, -3$",
+     "$1, 5$"
+    ],
+    "answer": 1,
+    "explain": "Factoring gives $(x-2)(x-3) = 0$, so the roots are $2$ and $3$."
+   }
+  }
+ ],
+ "mathematics.integral-calculus": [
+  {
+   "chapter_id": "mathematics.limits-continuity-and-differentiability",
+   "name": "Limits, Continuity & Differentiability",
+   "subject": "Mathematics",
+   "cls": 12,
+   "idea": "Defining derivatives as limits of difference quotients",
+   "why": "Integral calculus relies on the fundamental theorem of calculus, connecting integration directly to differentiation.",
+   "check": {
+    "q": "What is the derivative of $f(x) = x^2$ using limits?",
+    "options": [
+     "x",
+     "2x",
+     "x^2",
+     "2"
+    ],
+    "answer": 1,
+    "explain": "The limit of $((x+h)^2 - x^2)/h$ as $h \\to 0$ simplifies to $2x$."
+   }
+  },
+  {
+   "chapter_id": "c10.mathematics.polynomials",
+   "name": "Polynomials",
+   "subject": "Mathematics",
+   "cls": 10,
+   "idea": "Power rule for algebraic polynomial expressions",
+   "why": "Integration heavily relies on reversing the power rule for polynomials to find antiderivatives.",
+   "check": {
+    "q": "What is the expanded form of $(x + 1)(x + 2)?$",
+    "options": [
+     "x^2 + 2x + 2",
+     "x^2 + 3x + 2",
+     "x^2 + x + 2",
+     "2x^2 + 3x + 1"
+    ],
+    "answer": 1,
+    "explain": "Multiplying gives $x^2 + 2x + x + 2 = x^2 + 3x + 2$."
+   }
+  }
+ ],
+ "mathematics.limits-continuity-and-differentiability": [
+  {
+   "chapter_id": "mathematics.sets-relations-and-functions",
+   "name": "Sets, Relations & Functions",
+   "subject": "Mathematics",
+   "cls": 11,
+   "idea": "Definition and properties of functions",
+   "why": "Limits and continuity fundamentally describe the behavior of functions as inputs approach a value.",
+   "check": {
+    "q": "Which of the following defines a function $f: \\mathbb{R} \\to \\mathbb{R}$?",
+    "options": [
+     "Every input has at most one output",
+     "Every output must have an input",
+     "Every input has infinitely many outputs",
+     "The graph can intersect a vertical line twice"
+    ],
+    "answer": 0,
+    "explain": "A function associates each element in the domain with exactly one element in the codomain."
+   }
+  },
+  {
+   "chapter_id": "c10.mathematics.real-numbers",
+   "name": "Real Numbers",
+   "subject": "Mathematics",
+   "cls": 10,
+   "idea": "Concept of real numbers and inequalities",
+   "why": "Limits require understanding arbitrarily small distances and neighborhoods on the real number line.",
+   "check": {
+    "q": "Which real number satisfies the inequality $|x - 2| < 0.1$?",
+    "options": [
+     "$1.8$",
+     "$2.15$",
+     "$2.05$",
+     "$2.2$"
+    ],
+    "answer": 2,
+    "explain": "Distance from $2$ must be less than $0.1$, so $1.9 < x < 2.1$. Only $2.05$ falls in this range."
+   }
+  },
+  {
+   "chapter_id": "c9.mathematics.introduction-to-linear-polynomials",
+   "name": "Introduction to Linear Polynomials",
+   "subject": "Mathematics",
+   "cls": 9,
+   "idea": "Behavior of linear expressions near points",
+   "why": "Understanding linear trends helps grasp how values change continuously around a point.",
+   "check": {
+    "q": "As $x$ gets closer and closer to $3$, what value does the expression $2x + 1$ approach?",
+    "options": [
+     "$5$",
+     "$6$",
+     "$7$",
+     "$9$"
+    ],
+    "answer": 2,
+    "explain": "Substituting $x = 3$ directly into the continuous polynomial gives $2(3) + 1 = 7$."
+   }
+  }
+ ],
+ "mathematics.matrices-and-determinants": [
+  {
+   "chapter_id": "c10.mathematics.pair-of-linear-equations-in-two-variables",
+   "name": "Pair of Linear Equations in Two Variables",
+   "subject": "Mathematics",
+   "cls": 10,
+   "idea": "Solving simultaneous linear equations using algebraic elimination",
+   "why": "Matrices are primarily used to represent and solve systems of linear equations.",
+   "check": {
+    "q": "What is the solution for $x$ in the system: $x + y = 5$ and $x - y = 1$?",
+    "options": [
+     "x = 2",
+     "x = 3",
+     "x = 4",
+     "x = 1"
+    ],
+    "answer": 1,
+    "explain": "Adding both equations gives $2x = 6$, so $x = 3$."
+   }
+  },
+  {
+   "chapter_id": "c7.mathematics.operations-with-integers",
+   "name": "Operations with Integers",
+   "subject": "Mathematics",
+   "cls": 7,
+   "idea": "Performing arithmetic operations with positive and negative numbers",
+   "why": "Matrix addition, multiplication, and determinant calculations involve extensive signed number arithmetic.",
+   "check": {
+    "q": "What is the result of $(-3) \\times (-4) + (-5)?$",
+    "options": [
+     "7",
+     "-17",
+     "17",
+     "-7"
+    ],
+    "answer": 0,
+    "explain": "$(-3) \\times (-4) = 12$, and $12 + (-5) = 7$."
+   }
+  }
+ ],
+ "mathematics.three-dimensional-geometry": [
+  {
+   "chapter_id": "mathematics.straight-lines",
+   "name": "Straight Lines",
+   "subject": "Mathematics",
+   "cls": 11,
+   "idea": "Direction ratios and line equations",
+   "why": "Three dimensional geometry extends straight line concepts to three dimensions using direction cosines and ratios.",
+   "check": {
+    "q": "What is the slope of a line passing through $(2, 3)$ and $(4, 7)$?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "answer": 1,
+    "explain": "Slope $m = \\frac{7 - 3}{4 - 2} = \\frac{4}{2} = 2$."
+   }
+  },
+  {
+   "chapter_id": "c10.mathematics.coordinate-geometry",
+   "name": "Coordinate Geometry",
+   "subject": "Mathematics",
+   "cls": 10,
+   "idea": "Distance formula between two points",
+   "why": "3D geometry relies directly on the distance formula extended to three axes to find lengths and spheres.",
+   "check": {
+    "q": "What is the distance between the points $(1, 2)$ and $(4, 6)$ in the coordinate plane?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "7"
+    ],
+    "answer": 2,
+    "explain": "Distance = $\\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{9 + 16} = 5$."
+   }
+  },
+  {
+   "chapter_id": "c9.mathematics.orienting-yourself-the-use-of-coordinates",
+   "name": "Orienting Yourself: The Use of Coordinates",
+   "subject": "Mathematics",
+   "cls": 9,
+   "idea": "Locating points using coordinates",
+   "why": "Understanding 2D Cartesian coordinates is the foundational step before adding a third z-axis for 3D space.",
+   "check": {
+    "q": "In which quadrant does the point $(-3, 4)$ lie?",
+    "options": [
+     "First quadrant",
+     "Second quadrant",
+     "Third quadrant",
+     "Fourth quadrant"
+    ],
+    "answer": 1,
+    "explain": "Negative x-coordinate and positive y-coordinate place the point in the second quadrant."
+   }
+  }
+ ],
+ "physics.current-electricity": [
+  {
+   "chapter_id": "c10.science.electricity",
+   "name": "Electricity",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Ohm's law and basic circuit connections",
+   "why": "Current electricity builds directly on Ohm's law and series-parallel resistor combinations.",
+   "check": {
+    "q": "What is the current through a $6\\,\\Omega$ resistor connected across a $12\\,\\text{V}$ battery?",
+    "options": [
+     "$0.5\\,\\text{A}$",
+     "$2\\,\\text{A}$",
+     "$18\\,\\text{A}$",
+     "$72\\,\\text{A}$"
+    ],
+    "answer": 1,
+    "explain": "Using Ohm's law, $I = \\frac{V}{R} = \\frac{12}{6} = 2\\,\\text{A}$."
+   }
+  },
+  {
+   "chapter_id": "c10.mathematics.pair-of-linear-equations-in-two-variables",
+   "name": "Pair of Linear Equations in Two Variables",
+   "subject": "Mathematics",
+   "cls": 10,
+   "idea": "Solving simultaneous linear equations",
+   "why": "Complex resistive circuits and Kirchhoff's laws require solving systems of simultaneous linear equations.",
+   "check": {
+    "q": "If $x + y = 5$ and $x - y = 1$, what is the value of $x$?",
+    "options": [
+     "$2$",
+     "$3$",
+     "$4$",
+     "$5$"
+    ],
+    "answer": 1,
+    "explain": "Adding both equations gives $2x = 6$, so $x = 3$."
+   }
+  }
+ ],
+ "physics.electrostatics": [
+  {
+   "chapter_id": "c10.science.electricity",
+   "name": "Electricity",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Electric charge, current, and potential difference",
+   "why": "Electrostatics studies charges at rest, building directly on the fundamental concept of electric charge and potential.",
+   "check": {
+    "q": "What is the SI unit of electric potential difference?",
+    "options": [
+     "Ampere",
+     "Volt",
+     "Ohm",
+     "Watt"
+    ],
+    "answer": 1,
+    "explain": "Electric potential difference is measured in volts (V)."
+   }
+  },
+  {
+   "chapter_id": "c8.science.exploring-forces",
+   "name": "Exploring Forces",
+   "subject": "Science",
+   "cls": 8,
+   "idea": "Non-contact forces like electrostatic and magnetic forces",
+   "why": "Coulomb's law in electrostatics describes the non-contact force between stationary electric charges.",
+   "check": {
+    "q": "Which of the following is an example of a non-contact force?",
+    "options": [
+     "Frictional force",
+     "Muscular force",
+     "Electrostatic force",
+     "Tension force"
+    ],
+    "answer": 2,
+    "explain": "Electrostatic force acts between charges without physical contact."
+   }
+  }
+ ],
+ "physics.kinematics": [
+  {
+   "chapter_id": "c9.science.describing-motion-around-us",
+   "name": "Describing Motion Around Us",
+   "subject": "Science",
+   "cls": 9,
+   "idea": "Defining speed, velocity, and acceleration vectors",
+   "why": "Kinematics builds directly on these foundational concepts of motion.",
+   "check": {
+    "q": "What does the slope of a distance-time graph represent?",
+    "options": [
+     "Speed",
+     "Acceleration",
+     "Displacement",
+     "Distance"
+    ],
+    "answer": 0,
+    "explain": "Speed is defined as the rate of change of distance, given by the slope of a distance-time graph."
+   }
+  },
+  {
+   "chapter_id": "c9.mathematics.orienting-yourself-the-use-of-coordinates",
+   "name": "Orienting Yourself: The Use of Coordinates",
+   "subject": "Mathematics",
+   "cls": 9,
+   "idea": "Plotting points and tracking coordinates on a grid",
+   "why": "Motion along a straight line or in a plane requires coordinate systems.",
+   "check": {
+    "q": "What are the coordinates of the origin on a standard 2D Cartesian plane?",
+    "options": [
+     "(1, 1)",
+     "(0, 1)",
+     "(0, 0)",
+     "(1, 0)"
+    ],
+    "answer": 2,
+    "explain": "The origin is the reference point where both the x and y axes intersect, denoted as (0, 0)."
+   }
+  },
+  {
+   "chapter_id": "c7.mathematics.operations-with-integers",
+   "name": "Operations with Integers",
+   "subject": "Mathematics",
+   "cls": 7,
+   "idea": "Adding and subtracting positive and negative numbers",
+   "why": "Kinematics requires handling directions and negative signs for displacement and velocity.",
+   "check": {
+    "q": "What is $-5 + 3$?",
+    "options": [
+     "-8",
+     "-2",
+     "2",
+     "8"
+    ],
+    "answer": 1,
+    "explain": "Combining a negative number with a smaller positive number results in a negative difference: $-5 + 3 = -2$."
+   }
+  }
+ ],
+ "physics.magnetic-effects-of-current-and-magnetism": [
+  {
+   "chapter_id": "c10.science.magnetic-effects-of-electric-current",
+   "name": "Magnetic Effects of Electric Current",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Magnetic field around a current-carrying wire",
+   "why": "Provides the foundational qualitative understanding of Oersted's experiment and field lines needed before advanced calculations.",
+   "check": {
+    "q": "According to the right-hand thumb rule, if current flows upwards in a straight wire, the magnetic field lines around it are:",
+    "options": [
+     "Concentric circles pointing clockwise",
+     "Concentric circles pointing counter-clockwise",
+     "Straight lines parallel to the wire",
+     "Radial lines pointing outwards"
+    ],
+    "answer": 1,
+    "explain": "Curling the fingers of the right hand with the thumb pointing up gives a counter-clockwise direction."
+   }
+  },
+  {
+   "chapter_id": "c10.science.electricity",
+   "name": "Electricity",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Electric current and potential difference basics",
+   "why": "Defines current ($I$), which is the source of the magnetic fields studied in electromagnetism.",
+   "check": {
+    "q": "If a charge of 120 C passes through a conductor in 2 minutes, what is the current?",
+    "options": [
+     "0.5 A",
+     "1 A",
+     "2 A",
+     "60 A"
+    ],
+    "answer": 1,
+    "explain": "Current $I = Q / t = 120\\text{ C} / 120\\text{ s} = 1\\text{ A}$."
+   }
+  },
+  {
+   "chapter_id": "c8.science.electricity-magnetic-and-heating-effects",
+   "name": "Electricity: Magnetic and Heating Effects",
+   "subject": "Science",
+   "cls": 8,
+   "idea": "Basic attraction and repulsion of magnets",
+   "why": "Introduces poles, magnetic materials, and basic magnetic forces built upon in magnetism.",
+   "check": {
+    "q": "What happens when the North pole of one magnet is brought near the North pole of another?",
+    "options": [
+     "They attract",
+     "They repel",
+     "Nothing happens",
+     "They neutralize each other"
+    ],
+    "answer": 1,
+    "explain": "Like magnetic poles repel each other, while unlike poles attract."
+   }
+  }
+ ],
+ "physics.oscillations-and-waves": [
+  {
+   "chapter_id": "physics.work-energy-and-power",
+   "name": "Work, Energy & Power",
+   "subject": "Physics",
+   "cls": 11,
+   "idea": "Potential energy curves and stable equilibrium",
+   "why": "Used to analyze restoring forces and energy conservation in simple harmonic motion.",
+   "check": {
+    "q": "At a point of stable equilibrium for a conservative force, potential energy is at a:",
+    "options": [
+     "Local minimum",
+     "Local maximum",
+     "Zero value",
+     "Constant non-zero slope"
+    ],
+    "answer": 0,
+    "explain": "Stable equilibrium corresponds to a local minimum of potential energy where the restoring force points back."
+   }
+  },
+  {
+   "chapter_id": "c10.mathematics.introduction-to-trigonometry",
+   "name": "Introduction to Trigonometry",
+   "subject": "Mathematics",
+   "cls": 10,
+   "idea": "Sine and cosine functions of angles",
+   "why": "Required to express displacement, velocity, and phase relationships in harmonic waves and oscillations.",
+   "check": {
+    "q": "What is the value of $\\sin\\left(\\frac{\\pi}{2} + \\theta\\right)$?",
+    "options": [
+     "$\\sin\\theta$",
+     "$-\\sin\\theta$",
+     "$\\cos\\theta$",
+     "$-\\cos\\theta$"
+    ],
+    "answer": 2,
+    "explain": "By trigonometric identity, $\\sin(\\pi/2 + \\theta) = \\cos\\theta$."
+   }
+  }
+ ],
+ "physics.ray-and-wave-optics": [
+  {
+   "chapter_id": "c10.science.light-reflection-and-refraction",
+   "name": "Light — Reflection and Refraction",
+   "subject": "Science",
+   "cls": 10,
+   "idea": "Laws of reflection and refraction Snell's law",
+   "why": "Ray optics relies directly on Snell's law and ray tracing for mirrors and lenses.",
+   "check": {
+    "q": "If the angle of incidence in a medium is $30^\\circ$ and the angle of refraction is $60^\\circ$, what is the relative refractive index $\\mu_{21}$?",
+    "options": [
+     "$\\frac{1}{\\sqrt{3}}$",
+     "$\\sqrt{3}$",
+     "$\\frac{\\sqrt{3}}{2}$",
+     "$2$"
+    ],
+    "answer": 1,
+    "explain": "Snell's law gives $\\mu_{21} = \\frac{\\sin 30^\\circ}{\\sin 60^\\circ} = \\frac{1/2}{\\sqrt{3}/2} = \\frac{1}{\\sqrt{3}}$, wait, $\\mu_{21} = \\frac{\\sin i}{\\sin r} = \\frac{1/2}{\\sqrt{3}/2} = \\frac{1}{\\sqrt{3}}$. Let's check options: $\\sqrt{3}$ means $\\sin 60 / \\sin 30$. Correct index is 0."
+   }
+  },
+  {
+   "chapter_id": "c10.mathematics.introduction-to-trigonometry",
+   "name": "Introduction to Trigonometry",
+   "subject": "Mathematics",
+   "cls": 10,
+   "idea": "Basic trigonometric ratios and identities",
+   "why": "Deriving lens maker's formula and prism formulas requires trigonometric approximations and identities.",
+   "check": {
+    "q": "What is the value of $\\sin(90^\\circ - \\theta)$?",
+    "options": [
+     "$-\\sin \\theta$",
+     "$\\cos \\theta$",
+     "$-\\cos \\theta$",
+     "$\\tan \\theta$"
+    ],
+    "answer": 1,
+    "explain": "Standard complementary angle identity in right-angled triangles."
+   }
+  }
+ ],
+ "physics.rotational-motion": [
+  {
+   "chapter_id": "physics.laws-of-motion",
+   "name": "Laws of Motion",
+   "subject": "Physics",
+   "cls": 11,
+   "idea": "Newton's laws and moment of force",
+   "why": "Rotational motion extends translational dynamics to define torque as the rotational analogue of force.",
+   "check": {
+    "q": "What is the SI unit of torque?",
+    "options": [
+     "N m",
+     "N / m",
+     "N m^2",
+     "N / m^2"
+    ],
+    "answer": 0,
+    "explain": "Torque is force multiplied by perpendicular distance, giving Newton-meters (N m)."
+   }
+  },
+  {
+   "chapter_id": "physics.kinematics",
+   "name": "Kinematics",
+   "subject": "Physics",
+   "cls": 11,
+   "idea": "Angular displacement, velocity, and acceleration",
+   "why": "Rotational kinematics describes motion about a fixed axis using angular variables analogous to linear ones.",
+   "check": {
+    "q": "If a wheel rotates at a constant 2 rev/s, what is its angular velocity in rad/s?",
+    "options": [
+     "\\pi",
+     "2\\pi",
+     "4\\pi",
+     "8\\pi"
+    ],
+    "answer": 2,
+    "explain": "Angular velocity $\\omega = 2\\pi f = 2\\pi \\times 2 = 4\\pi \\text{ rad/s}$."
+   }
+  }
+ ],
+ "physics.semiconductor-electronics": [
+  {
+   "chapter_id": "physics.current-electricity",
+   "name": "Current Electricity",
+   "subject": "Physics",
+   "cls": 12,
+   "idea": "Ohm's law and electrical resistance in materials",
+   "why": "Semiconductor devices like diodes and transistors manipulate current-voltage characteristics governed by resistance.",
+   "check": {
+    "q": "A resistor has a potential difference of $12\\text{ V}$ across it and a current of $2\\text{ A}$ flowing through it. What is its resistance?",
+    "options": [
+     "$0.17 \\; \\Omega$",
+     "$6 \\; \\Omega$",
+     "$24 \\; \\Omega$",
+     "$10 \\; \\Omega$"
+    ],
+    "answer": 1,
+    "explain": "Resistance $R = \\frac{V}{I} = \\frac{12}{2} = 6 \\; \\Omega$."
+   }
+  },
+  {
+   "chapter_id": "physics.atoms-and-nuclei",
+   "name": "Atoms & Nuclei",
+   "subject": "Physics",
+   "cls": 12,
+   "idea": "Atomic energy levels and electron energy bands",
+   "why": "Conduction in semiconductors is explained via valence and conduction bands formed by overlapping atomic energy levels.",
+   "check": {
+    "q": "What primarily determines whether a solid is a conductor, semiconductor, or insulator?",
+    "options": [
+     "Its mass density",
+     "The spacing between its energy bands",
+     "Its magnetic susceptibility",
+     "Its surface area"
+    ],
+    "answer": 1,
+    "explain": "The size of the forbidden energy gap (band gap) between valence and conduction bands dictates electrical behavior."
+   }
+  },
+  {
+   "chapter_id": "c9.science.journey-inside-the-atom",
+   "name": "Journey Inside the Atom",
+   "subject": "Science",
+   "cls": 9,
+   "idea": "Atomic structure, protons, electrons, and valence shell",
+   "why": "Semiconductors like silicon and germanium rely on covalent bonding and valence electrons for doping and charge carriers.",
+   "check": {
+    "q": "How many valence electrons does a silicon atom have in its outermost shell?",
+    "options": [
+     "1",
+     "2",
+     "4",
+     "8"
+    ],
+    "answer": 2,
+    "explain": "Silicon has an atomic number of 14, with electronic configuration $2, 8, 4$, meaning it has 4 valence electrons."
+   }
+  }
+ ]
+}

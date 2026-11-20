@@ -64,7 +64,8 @@ From Cloud Shell, in the repo, against the same database (the seed runs through 
 cd backend && python3 -m pip install -q -r requirements.txt
 export SUPABASE_DB_URL="$(gcloud secrets versions access latest --secret=focs-db)"
 export GEMINI_API_KEY="$(gcloud secrets versions access latest --secret=gemini)" GOOGLE_ONLY=true
-python3 scripts/warm_chains.py          # the top JEE/NEET chapters' root-cause chains, so the first trace is instant
+python3 scripts/warm_chains.py --import scripts/chains.json   # 22 root-cause chains already built with Gemini (no AI)
+python3 scripts/warm_chains.py          # any top JEE/NEET chapter still missing one, so the first trace is instant
 python3 scripts/seed_demo.py --password 'pick-a-demo-password'
 ```
 

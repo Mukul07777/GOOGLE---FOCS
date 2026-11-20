@@ -152,7 +152,7 @@ def _check(row: dict, picture: Path, student, options: list[str], source: str = 
                                 working._prompt(student, row["question"], options, _letter(row.get("answer", "")),
                                                 _letter(row.get("chosen", "")), [], row.get("solution") or None,
                                                 source=source),
-                                "working_bench", max_tokens=2400)
+                                "working_bench", max_tokens=2400, timeout=40.0, head_start=8.0)  # as the app asks
         return working._read(data, []), ""
     except (working.WorkingError, LLMUnavailable, ValueError) as exc:
         return None, str(exc)

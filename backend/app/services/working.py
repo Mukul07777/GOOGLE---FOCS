@@ -216,7 +216,9 @@ def check(db: Session, user: User, syl: Syllabus | None, image: bytes, question:
     if target is not None and (kept := db.get(PrereqMap, target.id)) is not None:
         chain = list(kept.chain or [])
     options = [str(o)[:300] for o in (options or [])][:6]
-    data = vision.read_json([jpeg], _prompt(user, question, options, answer, chosen, chain, solution, source=source), "working_check", max_tokens=2400)
+    # a student is waiting: a check takes 2-6 s, so past 8 s the next model is asked too (one Gemini call took 80 s)
+    data = vision.read_json([jpeg], _prompt(user, question, options, answer, chosen, chain, solution, source=source), "working_check",
+                            max_tokens=2400, timeout=40.0, head_start=8.0)
     read = _read(data, chain)
     row = WorkingCheck(user_id=user.id, chapter_id=target.id if target else None, question=question.strip()[:2000],
                        verdict=read["verdict"], error_type=read["error_type"],
