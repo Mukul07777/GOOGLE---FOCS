@@ -115,6 +115,7 @@ def test_live_frames_use_the_light_ocr_and_the_full_one_only_when_vision_fails(c
 
     monkeypatch.setattr(ocr_engine, "run", spy)
     monkeypatch.setattr(vision, "available", lambda: True)
+    monkeypatch.setattr(settings, "OCR_TRUST_CONFIDENCE", 1.01)  # a clean synthetic board would be routed past vision
     monkeypatch.setattr(ai, "generate_notes", lambda text, exam, prev_topic=None, offline_only=False, patient=True, board=None: {
         "is_lecture": True, "topic": "Optics", "subject": "Physics", "notes_md": f"## {(board or text)[:60]}", "source": "ai"})
     if ocr_engine.resolve_mode(None) != "auto":  # both OCR models are installed wherever Focs runs; skip the rest if not
@@ -135,6 +136,33 @@ def test_live_frames_use_the_light_ocr_and_the_full_one_only_when_vision_fails(c
                     files={"frame": ("f.png", board_png(["Wave optics", "Fringe width beta = lambda D / d", "Young double slit experiment"]), "image/png")}).json()
     assert r["status"] == "created" and modes == ["focs", "auto"]  # read again by both models for the notes
     assert "fringe" in r["note"]["ocr_raw"].lower()
+
+
+def test_a_slide_read_surely_by_focsocr_skips_the_vision_model(client, monkeypatch):
+    from types import SimpleNamespace
+
+    from app.services.live import ocr_is_enough
+
+    def result(conf, n=5, engine="focs", text="Refraction of light\nTotal internal reflection"):
+        return SimpleNamespace(engine=engine, confidence=conf, lines=[None] * n, text=text)
+
+    assert ocr_is_enough(result(0.99))
+    assert not ocr_is_enough(result(0.99, text="D > 0 : two real roots"))  # math stays with the vision model
+    assert not ocr_is_enough(result(0.93))            # handwriting reads below the bar
+    assert not ocr_is_enough(result(0.99, n=1))       # one sure line on a board says little
+    assert not ocr_is_enough(result(0.99, engine="auto"))
+
+    asked = []
+    monkeypatch.setattr(vision, "available", lambda: True)
+    monkeypatch.setattr(vision, "read_board", lambda jpeg, patient=False: asked.append(1) or "from vision")
+    monkeypatch.setattr(ai, "generate_notes", lambda text, exam, prev_topic=None, offline_only=False, patient=True, board=None: {
+        "is_lecture": True, "topic": "Optics", "subject": "Physics", "notes_md": f"## {(board or text)[:60]}", "source": "ai"})
+    monkeypatch.setattr("app.services.live.ocr_is_enough", lambda ocr: True)
+    h = _student(client, "routed.slide@example.com")
+    sid = client.post("/api/sessions", headers=h, json={"title": "Optics"}).json()["id"]
+    r = client.post(f"/api/capture/{sid}/frame", headers=h,
+                    files={"frame": ("f.png", board_png(["Refraction of light", "Snell's law n1 sin i = n2 sin r", "Critical angle sin C = 1/n"]), "image/png")}).json()
+    assert r["status"] == "created" and not asked and "from vision" not in r["note"]["ocr_raw"]
 
 
 def test_the_board_goes_into_the_notes_word_for_word():

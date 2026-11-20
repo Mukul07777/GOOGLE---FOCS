@@ -140,7 +140,29 @@ function outsideMath(md: string, fn: (prose: string) => string) {
   ).join("");
 }
 
+/* Bare LaTeX in prose ("\log_{10}\sin x+\log_{10}\cos x = -1", "= \sec^4 x - 1"): every stray command used to get its
+ * own $...$, so two neighbours became "$\log_{10}$$\sin$", and a "$$" in the middle of a formula turns the whole thing red.
+ * Now the runs are marked, neighbours that are only joined by maths glue (letters, digits, = + - ( ) ^) become ONE formula. */
+const OPEN = "\u0001", CLOSE = "\u0002";
+const isGlue = (g: string) => /^[\s\w=+\-*/^_(),.<>|!']*$/.test(g) && !/[A-Za-z]{3,}/.test(g) && !/\.\s+[A-Z]/.test(g);
+
+function wrapStrays(prose: string): string {
+  let p = plainSpacing(prose).replace(STRAY, (m) => OPEN + m + CLOSE);
+  if (!p.includes(OPEN)) return p;
+  let prev;
+  do { // join two runs when only glue sits between them
+    prev = p;
+    p = p.replace(new RegExp(`${CLOSE}([^${OPEN}${CLOSE}]{0,30}?)${OPEN}`, "g"), (m, glue: string) => (isGlue(glue) ? glue : m));
+  } while (p !== prev);
+  // a variable, digit or bracket stuck to a run belongs to it: "\sec^4 x", "2(\sec x", "\tan^8 x ="
+  p = p.replace(new RegExp(`([0-9(]+)${OPEN}`, "g"), `${OPEN}$1`);
+  for (let i = 0; i < 3; i++) p = p.replace(new RegExp(`${CLOSE}(\\s?(?:[=+\\-*/]\\s?){0,2}(?:[b-z]|[0-9]+)(?![A-Za-z0-9]))`, "g"), "$1" + CLOSE);
+  return p.split(OPEN).join("$").split(CLOSE).join("$");
+}
+
 export function normalizeMath(md: string) {
+  // "\log_{10}$$\sin x": a "$$" jammed between a formula and the next command is junk, not a display block
+  md = md.replace(/([}\w)])\$\$(?=\\[A-Za-z])/g, "$1");
   // <br> is not rendered as HTML here: inside a table cell it becomes " · " (a newline would end the row), elsewhere a line break
   md = md.split("\n").map((l) => (/^\s*\|/.test(l) ? l.replace(/\s*<br\s*\/?>\s*/gi, " · ") : l.replace(/<br\s*\/?>/gi, "  \n"))).join("\n");
   // Models sometimes emit \( \) / \[ \] delimiters; remark-math wants $ / $$.
@@ -149,7 +171,8 @@ export function normalizeMath(md: string) {
     .replace(/\\\(([\s\S]+?)\\\)/g, (_, m) => `$${m}$`);
   out = outsideMath(out, (p) => p.replace(PAREN_MATH, (_, m: string) => `($${m.trim()}$)`));
   out = out.replace(MATH, (m) => restoreMath(m));
-  return outsideMath(out, (p) => plainSpacing(p).replace(STRAY, (m) => `$${m}$`));
+  // a "$$" left over in prose (a closing delimiter whose opener was lost, ".$$") has nothing to close: drop it
+  return outsideMath(out, (p) => wrapStrays(p).replace(/\${2,}/g, ""));
 }
 
 /** One formula on its own line (formula book): wrapped in display-style math when it's bare LaTeX. */

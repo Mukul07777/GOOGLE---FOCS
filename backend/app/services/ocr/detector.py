@@ -45,7 +45,12 @@ def crop_quad(img: np.ndarray, quad: np.ndarray) -> np.ndarray:
 
 class DBNetDetector:
     name = "dbnet-ppocrv4"
-    DETECT_SIDE = 1024  # detect on a smaller copy (≈2.5x faster); lines are still read at full resolution
+    # Detect on a smaller copy; lines are still read at full resolution. On the real benchmark (59 lecture frames,
+    # 2026-11-16, FocsOCR) 1024 px with PP-OCR's own 736 px cap and box_thresh 0.5 missed small and faint lines:
+    # 1280 px uncapped with box_thresh 0.4 took CER from 29.7% to 25.2% (handwriting 58% -> 50%), for ~0.1 s a frame.
+    # 1600 px read no better; box_thresh 0.3-0.4 were alike. Deskew, CLAHE and inverting dark boards didn't help.
+    DETECT_SIDE = 1280
+    BOX_THRESH = 0.4
     MAX_LINES = 40      # a busy frame can yield 100+ boxes; the biggest ones carry the board content
 
     def __init__(self):
@@ -57,6 +62,8 @@ class DBNetDetector:
         self._engine = RapidOCR(intra_op_num_threads=max(1, settings.OCR_THREADS), inter_op_num_threads=1)
         self.det = self._engine.text_det
         self.det.limit_type = "max"  # never upscale lecture frames before detection
+        self.det.limit_side_len = self.DETECT_SIDE  # its default (736) would shrink our copy again
+        self.det.postprocess_op.box_thresh = self.BOX_THRESH
         self.rec = self._engine.text_rec  # exposed so the engine can ensemble recognisers
 
     def detect(self, img: np.ndarray) -> list[np.ndarray]:

@@ -16,6 +16,8 @@ from fastapi.staticfiles import StaticFiles
 from app.api import api_router
 from app.core.config import INSECURE_DEFAULT_KEY, settings
 from app.core.buildinfo import fingerprint
+from sqlalchemy import text
+
 from app.core.database import engine, init_db
 from app.core.deps import get_current_user
 from app.core.security import decode_token
@@ -140,6 +142,23 @@ class BodyLimit:
         await self.app(scope, counted, send)
 
 
+class HeadAsGet:
+    """Answers HEAD like GET minus the body, so uptime monitors and link checkers (which probe with HEAD) don't see a
+    405 and report a healthy site as down."""
+    def __init__(self, app):
+        self.app = app
+
+    async def __call__(self, scope, receive, send):
+        if scope["type"] != "http" or scope["method"] != "HEAD":
+            return await self.app(scope, receive, send)
+
+        async def no_body(message):
+            if message["type"] == "http.response.body":
+                message = {"type": "http.response.body", "body": b"", "more_body": message.get("more_body", False)}
+            await send(message)
+        await self.app({**scope, "method": "GET"}, receive, no_body)
+
+
 def create_app() -> FastAPI:
     docs = not settings.is_production  # the API map stays on dev servers: no need to hand it to strangers
     app = FastAPI(title=f"{settings.APP_NAME} API", version=settings.APP_VERSION, lifespan=lifespan,
@@ -148,6 +167,7 @@ def create_app() -> FastAPI:
     app.add_middleware(GZipMiddleware, minimum_size=1024)
     app.add_middleware(CORSMiddleware, allow_origins=[*settings.CORS_ORIGINS, *settings.APP_ORIGINS], allow_credentials=True,
                        allow_methods=["*"], allow_headers=["*"])
+    app.add_middleware(HeadAsGet)  # last added = outermost
 
     @app.middleware("http")
     async def headers_and_timing(request: Request, call_next):
@@ -164,11 +184,10 @@ def create_app() -> FastAPI:
         # Only rules that can't break a page: no <base> tag rewriting links, no framing by other sites. (A script
         # allow-list would stop injected scripts too, but needs testing with Razorpay and YouTube first; object-src
         # stays open because shared PDFs open as blob: pages that inherit this policy and need the PDF viewer.)
-        response.headers["Content-Security-Policy"] = "base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
-        # The script allow-list, reported but not enforced yet: what it would block goes to /api/csp-report (the logs,
-        # "csp would block"). Once the logs stay quiet through sign-in, YouTube and a real payment, rename the header
-        # to Content-Security-Policy to enforce it. Razorpay's checkout.js needs 'unsafe-eval' (it calls new Function).
-        response.headers["Content-Security-Policy-Report-Only"] = _script_policy()
+        response.headers["Content-Security-Policy"] = (
+            "base-uri 'self'; frame-ancestors 'none'; form-action 'self'; " + _script_policy())
+        # The script allow-list is now enforced (merged above). Violations still go to /api/csp-report. To roll back,
+        # send _script_policy() as Content-Security-Policy-Report-Only again. Razorpay's checkout.js needs 'unsafe-eval'.
         # The lecture tools need the camera, microphone and screen capture on our own pages, nothing else does.
         response.headers["Permissions-Policy"] = ("camera=(self), microphone=(self), display-capture=(self), "
                                                   "geolocation=(), usb=(), payment=(self \"https://checkout.razorpay.com\"), interest-cohort=()")
@@ -192,6 +211,18 @@ def create_app() -> FastAPI:
         # Public, so only what a signed-out page needs: no versions, providers or model names.
         return {"status": "ok", "llm": {"available": llm.available}, "email": mailer.configured(),
                 "google_client_id": settings.GOOGLE_CLIENT_ID or None}  # Sign in with Google (public by design)
+
+    @app.get("/api/health/ready", tags=["meta"])
+    def health_ready():
+        """For the uptime monitor: also proves the database answers. Kept apart from /api/health, which the Docker
+        healthcheck and the web app use, so a database blip doesn't mark the container unhealthy."""
+        try:
+            with engine.connect() as conn:
+                conn.execute(text("SELECT 1"))
+        except Exception as exc:
+            log.error("readiness check: database not answering: %s", type(exc).__name__)
+            return JSONResponse(status_code=503, content={"status": "degraded", "database": "down"})
+        return {"status": "ok", "database": "ok"}
 
     @app.get("/api/health/details", tags=["meta"])
     def health_details(_user=Depends(get_current_user)):

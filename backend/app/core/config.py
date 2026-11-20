@@ -113,6 +113,12 @@ class Settings(BaseSettings):
     OCR_MODEL_DIR: Path = BACKEND_DIR / "app" / "assets" / "ocr"
     OCR_MIN_CHARS: int = 12
     OCR_MIN_LINE_CONFIDENCE: float = 0.5
+    # Routing a live frame: when FocsOCR reads it this surely (printed slides), its text is used and the vision model
+    # is not asked. On the real benchmark (59 frames, 2026-11-16, detector at 1280 px) no handwriting or board frame of
+    # 3+ lines read above 0.941, and most slides read above 0.96, where FocsOCR's CER is below the vision model's.
+    # 1.01 turns it off.
+    OCR_TRUST_CONFIDENCE: float = 0.96
+    OCR_TRUST_MIN_LINES: int = 3
     # Ensemble rule, fitted on the frame benchmark (scripts/benchmark_ocr.py --analyze):
     # pick FocsOCR when conf_focs + margin (+ math bonus) >= conf_ppocr
     OCR_ENSEMBLE_MARGIN: float = 0.0

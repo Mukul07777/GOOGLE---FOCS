@@ -1,5 +1,6 @@
 // Render-time LaTeX repair (src/lib/math.ts) — run with: npm run test:math
 import { displayStyle, normalizeMath, repairTables } from "../src/lib/math";
+import { plainTex } from "../src/lib/mathGuard";
 import { mathToSpeech, toSpeech } from "../src/lib/readAloud";
 import { TRANSLATED, translate } from "../src/lib/i18n";
 
@@ -55,6 +56,14 @@ eq(normalizeMath(String.raw`1. Rewrite as (1-\frac{6}{x+3}).`), String.raw`1. Re
 eq(normalizeMath(String.raw`2. Integrate: (int \frac{6}{x+3},dx = 6\ln|x+3|).`), String.raw`2. Integrate: ($\int \frac{6}{x+3}\,dx = 6\ln|x+3|$).`);
 eq(normalizeMath(String.raw`3. Combine: (x-6\ln|x+3|+C).`), String.raw`3. Combine: ($x-6\ln|x+3|+C$).`);
 eq(normalizeMath(String.raw`Then \frac{6}{x+3} integrates`), String.raw`Then $\frac{6}{x+3}$ integrates`);
+// ---- 18 Nov screenshots: neighbouring bare commands became "$a$$b$", and "$$" turned the formula red
+eq(normalizeMath(String.raw`if \log_{10}\sin x+\log_{10}\cos x = -1?`), String.raw`if $\log_{10}\sin x+\log_{10}\cos x = -1$?`);
+eq(normalizeMath(String.raw`if \log_{10}$$\sin x+\log_{10}$$\cos x = -1?`), String.raw`if $\log_{10}\sin x+\log_{10}\cos x = -1$?`);
+eq(normalizeMath(String.raw`terms of sec x: \tan^8 x = \tan^4 x \cdot 2 = \sec^4 x .$$`), String.raw`terms of sec x: $\tan^8 x = \tan^4 x \cdot 2 = \sec^4 x$ .`);
+eq(normalizeMath(String.raw`Remember \tau is torque`), String.raw`Remember $\tau$ is torque`); // an ordinary word after a command is not absorbed
+eq(normalizeMath("costs $5 and $10"), "costs $5 and $10");
+// a formula KaTeX can't draw is shown as readable text, never as red source (src/lib/mathGuard.ts)
+eq(plainTex(String.raw`\frac{a}{b} \leq \sqrt{2}$$`), "(a)/(b) ≤ √(2)");
 // ---- glued commands
 eq(normalizeMath(String.raw`$costheta + sin^2 theta$`), String.raw`$\cos\theta + \sin^2 \theta$`);
 eq(normalizeMath(String.raw`$A = pir^2$`), String.raw`$A = \pi r^2$`);

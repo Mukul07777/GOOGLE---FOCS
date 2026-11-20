@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 import threading
 import time
 from concurrent.futures import Future, ThreadPoolExecutor
@@ -144,8 +145,22 @@ def _live_engine(engine: str | None) -> str | None:
     return engine
 
 
+def ocr_is_enough(ocr) -> bool:
+    """Whether FocsOCR's own reading of a frame is good enough to skip the vision model: a printed slide, read with
+    high confidence. Handwriting, boards and photos read below the bar and still go to the vision model, which reads
+    them far better (real benchmark: handwriting 58% CER for FocsOCR, 43% for the vision model; slides the other way
+    round), so routing saves the call on slides without losing accuracy anywhere."""
+    return (ocr.engine == "focs" and len(ocr.lines) >= settings.OCR_TRUST_MIN_LINES
+            and ocr.confidence >= settings.OCR_TRUST_CONFIDENCE and not _MATHY.search(ocr.text))
+
+
+# Math stays with the vision model even on a sure slide: line OCR splits a fraction over two lines and has read
+# "D > 0" as "D ≥ 0" at high confidence, and the notes then answer a different question.
+_MATHY = re.compile(r"[=<>/^≤≥≠≈±√∫∑∂∇→⇒αβγδθλμπσφωΔΣΩ²³⁰¹⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉]")
+
+
 def _write_notes(db: Session, user: User, text: str, prev_topic: str | None, patient: bool = True,
-                 img: np.ndarray | None = None, ocr_used: str | None = None) -> tuple[dict, bool]:
+                 img: np.ndarray | None = None, ocr_used: str | None = None, trust_ocr: bool = False) -> tuple[dict, bool]:
     """Notes for a board: shared ones another student's capture already paid for, else AI (or basic notes once
     the allowance is used up). Returns the notes and whether they are full AI-quality notes.
 
@@ -154,17 +169,17 @@ def _write_notes(db: Session, user: User, text: str, prev_topic: str | None, pat
     fractions, and the notes would then answer a different question. When the vision model finds nothing academic
     on the frame, that is the answer: no notes call. When the vision models are all busy and the frame was read by
     FocsOCR alone (``ocr_used``), it is read again by the full ensemble first: the notes then rest on the best OCR
-    there is (kept as ``notes["ocr_text"]``)."""
+    there is (kept as ``notes["ocr_text"]``). With ``trust_ocr`` (see ocr_is_enough) the vision model isn't asked."""
     shared = shared_notes.lookup(db, text, user.exam_target)
     if shared is not None:
         return _in_language(db, user, text, shared), True
     # past the day's lecture hours (or the fair-use ceiling): basic notes, never a stopped lecture
     ai_ok = usage.can_spend(db, user, "board_note") and usage.lecture_time_left(user)
-    board = vision.read_board(storage.jpeg(img), patient=patient) if ai_ok and img is not None else None
+    board = vision.read_board(storage.jpeg(img), patient=patient) if ai_ok and img is not None and not trust_ocr else None
     if board == "":
         return {"is_lecture": False, "source": "vision"}, ai_ok
     notes_text = text
-    if board is None and img is not None and ocr_used == "focs" and ocr_engine.resolve_mode(None) == "auto":
+    if board is None and not trust_ocr and img is not None and ocr_used == "focs" and ocr_engine.resolve_mode(None) == "auto":
         fuller = clean_ocr(ocr_engine.run(img, "auto").text)
         if len(fuller) >= settings.OCR_MIN_CHARS:
             notes_text = fuller
@@ -252,7 +267,8 @@ def _compose(db: Session, user: User, job: _Job, patient: bool, engine: str | No
     if not job.force and text and any(similarity(text, t) >= settings.TEXT_NOVELTY_THRESHOLD or same_board(text, t)
                                       for t in job.not_boards):
         return {**out, "status": "not_lecture", "known": True}
-    notes, ai_ok = _write_notes(db, user, text, job.topic, patient, job.img, ocr_used=ocr.engine)
+    notes, ai_ok = _write_notes(db, user, text, job.topic, patient, job.img, ocr_used=ocr.engine,
+                                trust_ocr=ocr_is_enough(ocr))
     if not notes.get("is_lecture"):
         return {**out, "status": "not_lecture"}
     return {**out, "status": "notes", "notes": notes, "ai_ok": ai_ok}

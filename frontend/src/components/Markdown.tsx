@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import { ScrollX } from "@/components/ScrollX";
 import { normalizeMath, repairTables } from "@/lib/math";
+import { rehypeMathGuard } from "@/lib/mathGuard";
 import { cn } from "@/lib/utils";
 
 /* ---------------------------------------------------------------- Markdown with LaTeX */
@@ -17,7 +18,7 @@ const MD_COMPONENTS: Components = {
 export const Markdown = memo(function Markdown({ children, className }: { children: string; className?: string }) {
   return (
     <div className={cn("prose-notes", className)}>
-      <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[[rehypeKatex, { throwOnError: false, strict: false }]]}
+      <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeMathGuard, [rehypeKatex, { throwOnError: false, strict: false }]]}
         components={MD_COMPONENTS}>
         {repairTables(normalizeMath(children || ""))}
       </ReactMarkdown>
